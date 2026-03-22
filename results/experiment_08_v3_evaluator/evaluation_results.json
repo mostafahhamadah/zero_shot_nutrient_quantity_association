@@ -1,0 +1,20 @@
+{
+  "experiment": "experiment_08_v3_evaluator",
+  "timestamp": "2026-03-15T23:09:12.721445",
+  "notes": "v3 evaluator: full tuple = nutrient+qty+unit+ctx, precision/recall/F1, pipeline diagnostics",
+  "schema": "nutrient|quantity|unit|context",
+  "images_evaluated": 43,
+  "gt_tuples": 595,
+  "predicted_tuples": 286,
+  "matched_pairs": 205,
+  "nutrient_precision": 0.7168,
+  "nutrient_recall": 0.3445,
+  "nutrient_f1": 0.4654,
+  "quantity_acc": 0.2634,
+  "unit_acc": 0.6293,
+  "context_acc": 0.2927,
+  "full_tuple_correct": 15,
+  "full_tuple_precision": 0.0524,
+  "full_tuple_recall": 0.0252,
+  "full_tuple_f1": 0.0341
+}

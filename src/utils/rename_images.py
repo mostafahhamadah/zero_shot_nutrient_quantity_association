@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 
 def rename_images(raw_folder_path):

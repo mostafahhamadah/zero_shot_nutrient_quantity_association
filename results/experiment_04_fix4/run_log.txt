@@ -1,0 +1,9 @@
+Experiment : experiment_04_fix4
+Schema     : nutrient|quantity|unit|context
+Timestamp  : 2026-03-15T02:43:54.352946
+Notes      : Fix 4: Expanded CONTEXT_MAP - PRO PORTION, pro100g, Je 1009, pro Tabletten variants
+
+Full Tuple Acc  : 8.7%
+Nutrient F1     : 0.445
+Unit Acc        : 63.6%
+Context Acc     : 27.7%

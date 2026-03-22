@@ -1,0 +1,17 @@
+{
+  "experiment": "experiment_02_fix2",
+  "timestamp": "2026-03-15T02:24:56.958668",
+  "notes": "Fix 2: CONTEXT_SCOPE edge construction - removed horizontal overlap check",
+  "schema": "nutrient|quantity|unit|context",
+  "images_evaluated": 44,
+  "gt_tuples": 635,
+  "predicted_tuples": 291,
+  "matched_pairs": 206,
+  "nutrient_precision": 0.7079,
+  "nutrient_recall": 0.3244,
+  "nutrient_f1": 0.4449,
+  "quantity_acc": 0.1796,
+  "unit_acc": 0.6456,
+  "context_acc": 0.1505,
+  "full_tuple_acc": 0.0583
+}

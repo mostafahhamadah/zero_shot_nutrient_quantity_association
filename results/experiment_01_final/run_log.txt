@@ -1,0 +1,9 @@
+Experiment : experiment_01_final
+Schema     : nutrient|quantity|unit|context
+Timestamp  : 2026-03-15T02:10:06.625754
+Notes      : 4-field schema: nutrient+quantity+unit+context. NRV and serving_size removed.
+
+Full Tuple Acc  : 5.8%
+Nutrient F1     : 0.445
+Unit Acc        : 64.6%
+Context Acc     : 1.9%

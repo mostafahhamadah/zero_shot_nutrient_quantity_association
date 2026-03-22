@@ -1,0 +1,2 @@
+experiment,timestamp,notes,schema,images_evaluated,gt_tuples,predicted_tuples,matched_pairs,nutrient_precision,nutrient_recall,nutrient_f1,quantity_acc,unit_acc,context_acc,full_tuple_correct,full_tuple_precision,full_tuple_recall,full_tuple_f1
+experiment_08_v3_evaluator,2026-03-15T23:09:12.721445,"v3 evaluator: full tuple = nutrient+qty+unit+ctx, precision/recall/F1, pipeline diagnostics",nutrient|quantity|unit|context,43,595,286,205,0.7168,0.3445,0.4654,0.2634,0.6293,0.2927,15,0.0524,0.0252,0.0341

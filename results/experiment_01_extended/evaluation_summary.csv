@@ -1,0 +1,2 @@
+experiment,timestamp,notes,augmentation,images_evaluated,gt_tuples,predicted_tuples,matched_pairs,nutrient_precision,nutrient_recall,nutrient_f1,quantity_acc,unit_acc,nrv_acc,full_tuple_acc
+experiment_01_extended,2026-03-14T22:21:09.610853,Full 42-image dataset with cropping/resizing augmentation,cropping/resizing,44,635,288,203,0.7049,0.3197,0.4399,0.1724,0.6404,0.0049,0.0551

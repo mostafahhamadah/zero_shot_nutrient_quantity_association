@@ -1,0 +1,14 @@
+Metric,Value
+total_gt_tuples,461
+total_pred_tuples,78
+total_matched_pairs,37
+nutrient_precision,0.4744
+nutrient_recall,0.0803
+nutrient_f1,0.1374
+nutrient_accuracy_pct,100.0
+quantity_accuracy_pct,8.11
+unit_accuracy_pct,16.22
+nrv_accuracy_pct,67.57
+full_tuple_accuracy_pct,5.41
+strict_tuple_accuracy_pct,2.7
+images_evaluated,42

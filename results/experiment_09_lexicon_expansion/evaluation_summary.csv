@@ -1,0 +1,2 @@
+experiment,timestamp,notes,schema,images_evaluated,gt_tuples,predicted_tuples,matched_pairs,nutrient_precision,nutrient_recall,nutrient_f1,quantity_acc,unit_acc,context_acc,full_tuple_correct,full_tuple_precision,full_tuple_recall,full_tuple_f1
+experiment_09_lexicon_expansion,2026-03-15T23:26:00.865567,"Fix 1: NUTRIENT lexicon expansion — English fields, slash-variants, shorthand vitamins, German/Dutch additions",nutrient|quantity|unit|context,43,595,314,221,0.7038,0.3714,0.4862,0.2624,0.6063,0.2851,15,0.0478,0.0252,0.033

@@ -1,0 +1,9 @@
+Experiment : experiment_03_fix3
+Schema     : nutrient|quantity|unit|context
+Timestamp  : 2026-03-15T02:37:08.728318
+Notes      : Fix 3: Column selector - sort quantities left-to-right by x-coordinate + per-quantity context from CONTEXT_SCOPE
+
+Full Tuple Acc  : 8.7%
+Nutrient F1     : 0.445
+Unit Acc        : 63.6%
+Context Acc     : 15.0%

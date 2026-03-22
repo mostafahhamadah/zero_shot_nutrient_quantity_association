@@ -1,0 +1,17 @@
+{
+  "experiment": "experiment_01_extended",
+  "timestamp": "2026-03-14T22:21:09.610853",
+  "notes": "Full 42-image dataset with cropping/resizing augmentation",
+  "augmentation": "cropping/resizing",
+  "images_evaluated": 44,
+  "gt_tuples": 635,
+  "predicted_tuples": 288,
+  "matched_pairs": 203,
+  "nutrient_precision": 0.7049,
+  "nutrient_recall": 0.3197,
+  "nutrient_f1": 0.4399,
+  "quantity_acc": 0.1724,
+  "unit_acc": 0.6404,
+  "nrv_acc": 0.0049,
+  "full_tuple_acc": 0.0551
+}

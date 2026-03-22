@@ -1,0 +1,20 @@
+{
+  "experiment": "experiment_09_lexicon_expansion",
+  "timestamp": "2026-03-15T23:26:00.865567",
+  "notes": "Fix 1: NUTRIENT lexicon expansion — English fields, slash-variants, shorthand vitamins, German/Dutch additions",
+  "schema": "nutrient|quantity|unit|context",
+  "images_evaluated": 43,
+  "gt_tuples": 595,
+  "predicted_tuples": 314,
+  "matched_pairs": 221,
+  "nutrient_precision": 0.7038,
+  "nutrient_recall": 0.3714,
+  "nutrient_f1": 0.4862,
+  "quantity_acc": 0.2624,
+  "unit_acc": 0.6063,
+  "context_acc": 0.2851,
+  "full_tuple_correct": 15,
+  "full_tuple_precision": 0.0478,
+  "full_tuple_recall": 0.0252,
+  "full_tuple_f1": 0.033
+}

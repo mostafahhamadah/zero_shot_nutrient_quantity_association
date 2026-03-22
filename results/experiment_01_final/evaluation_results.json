@@ -1,0 +1,17 @@
+{
+  "experiment": "experiment_01_final",
+  "timestamp": "2026-03-15T02:10:06.622753",
+  "notes": "4-field schema: nutrient+quantity+unit+context. NRV and serving_size removed.",
+  "schema": "nutrient|quantity|unit|context",
+  "images_evaluated": 44,
+  "gt_tuples": 635,
+  "predicted_tuples": 291,
+  "matched_pairs": 206,
+  "nutrient_precision": 0.7079,
+  "nutrient_recall": 0.3244,
+  "nutrient_f1": 0.4449,
+  "quantity_acc": 0.1796,
+  "unit_acc": 0.6456,
+  "context_acc": 0.0194,
+  "full_tuple_acc": 0.0583
+}

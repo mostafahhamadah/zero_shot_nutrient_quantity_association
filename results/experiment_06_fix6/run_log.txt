@@ -1,0 +1,9 @@
+Experiment : experiment_06_fix6
+Schema     : nutrient|quantity|unit|context
+Timestamp  : 2026-03-15T03:02:51.452651
+Notes      : Fix 6: Two-pass SAME_COL fallback - wide 8x height for vitamin table qty linking
+
+Full Tuple Acc  : 8.7%
+Nutrient F1     : 0.445
+Unit Acc        : 63.6%
+Context Acc     : 27.7%

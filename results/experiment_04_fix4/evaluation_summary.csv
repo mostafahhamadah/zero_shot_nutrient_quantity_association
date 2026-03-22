@@ -1,0 +1,2 @@
+experiment,timestamp,notes,schema,images_evaluated,gt_tuples,predicted_tuples,matched_pairs,nutrient_precision,nutrient_recall,nutrient_f1,quantity_acc,unit_acc,context_acc,full_tuple_acc
+experiment_04_fix4,2026-03-15T02:43:54.346633,"Fix 4: Expanded CONTEXT_MAP - PRO PORTION, pro100g, Je 1009, pro Tabletten variants",nutrient|quantity|unit|context,44,635,290,206,0.7103,0.3244,0.4454,0.2718,0.6359,0.2767,0.0866

@@ -1,0 +1,17 @@
+{
+  "experiment": "experiment_06_fix6",
+  "timestamp": "2026-03-15T03:02:51.446139",
+  "notes": "Fix 6: Two-pass SAME_COL fallback - wide 8x height for vitamin table qty linking",
+  "schema": "nutrient|quantity|unit|context",
+  "images_evaluated": 44,
+  "gt_tuples": 635,
+  "predicted_tuples": 290,
+  "matched_pairs": 206,
+  "nutrient_precision": 0.7103,
+  "nutrient_recall": 0.3244,
+  "nutrient_f1": 0.4454,
+  "quantity_acc": 0.2718,
+  "unit_acc": 0.6359,
+  "context_acc": 0.2767,
+  "full_tuple_acc": 0.0866
+}

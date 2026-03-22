@@ -1,0 +1,11 @@
+Experiment : experiment_09_lexicon_expansion
+Schema     : nutrient|quantity|unit|context
+Timestamp  : 2026-03-15T23:26:00.865567
+Notes      : Fix 1: NUTRIENT lexicon expansion — English fields, slash-variants, shorthand vitamins, German/Dutch additions
+
+Full Tuple Precision : 4.8%
+Full Tuple Recall    : 2.5%
+Full Tuple F1        : 3.3%
+Nutrient F1          : 0.486
+Unit Acc             : 60.6%
+Context Acc          : 28.5%

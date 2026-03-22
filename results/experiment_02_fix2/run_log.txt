@@ -1,0 +1,9 @@
+Experiment : experiment_02_fix2
+Schema     : nutrient|quantity|unit|context
+Timestamp  : 2026-03-15T02:24:56.962527
+Notes      : Fix 2: CONTEXT_SCOPE edge construction - removed horizontal overlap check
+
+Full Tuple Acc  : 5.8%
+Nutrient F1     : 0.445
+Unit Acc        : 64.6%
+Context Acc     : 15.0%

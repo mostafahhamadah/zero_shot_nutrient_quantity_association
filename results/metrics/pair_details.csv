@@ -1,0 +1,38 @@
+pred_nutrient,gt_nutrient,nutrient_score,pred_qty,gt_qty,pred_unit,gt_unit,pred_nrv,gt_nrv,full_match,strict_match,image_id
+Magnesium,Magnesium (gesamt),0.7,400,400,mg,mg,,107,True,False,1.jpeg
+Magnesiumbisglycinat,Magnesiumbisglycinat,1.0,350,350,mg,mg,,,True,True,1.jpeg
+Magnesium,Magnesiumsalze der Citronensäure,0.7,,420,,mg,,,False,False,1.jpeg
+Vitamin B12,Vitamin B12,1.0,,0.38,,µg,,15,False,False,17.jpeg
+Kalium /potassium,Kalium/potassium,1.0,1120,110,mg,mg,,6,False,False,2.jpeg
+Fettsäuren,davon gesättigte Fettsäuren/of which saturates,0.7,,0,,g,,,False,False,2.jpeg
+Carbohydrate,Kohlenhydrate/carbohydrates,0.7,70,50,g,g,,,False,False,2.jpeg
+Energie,Energie/energy,0.7,,837,,kJ,,,False,False,2.jpeg
+Magnesiumcitrat,Magnesium,0.7,,300,,mg,,100,False,False,20.jpeg
+Vitamin B12,Vitamin B12,1.0,,6.7,,µg,,667,False,False,20.jpeg
+Niacin,Niacin,1.0,,240,,mg NE,,1333,False,False,20.jpeg
+Slow Release Carbohydrate TrainIng MIx with,Carbohydrate,0.7,,20,,g,,,False,False,34.jpeg
+Energy,Energy,1.0,,339,,kJ,,,False,False,34.jpeg
+"sodium citrate , Calcium citrate, potasslum",Calcium,0.7,804,100,,mg,,13,False,False,34.jpeg
+"Calcium lactate, Magnesium cltrate , zinc",Magnesium,0.7,,25,,mg,,7,False,False,34.jpeg
+"Vitamin mlx (C, 83, 85, B6",C,0.7,,18,,mg,,22,False,False,34.jpeg
+Vitamin € Lutsch-,Vitamin C,0.6,,100.8,,mg,,126,False,False,35.jpeg
+talettenutschtabletten gecken mehr als 50% des Tagesbedarfs an Magnesium,Magnesium,0.7,4.79,225,mg,mg,,60,False,False,35.jpeg
+Energie,ENERGY/ ENERGIE,0.7,100,736,,kJ,,,False,False,42.jpeg
+Energy,ENERGY/ ENERGIE,0.7,100,176,,KCAL,,,False,False,42.jpeg
+FETT,FAT/ FETT,0.7,,0,,g,,,False,False,42.jpeg
+Kohlenhydrate,CARBOHYDRATE/ KOHLENHYDRATE,0.7,880,44,,g,,,False,False,42.jpeg
+DAVON ZUCKER,- SUGARS/ DAVON ZUCKER,0.7,880,18,,g,,,False,False,42.jpeg
+Protein,PROTEIN/ EIWESS,0.7,,0,,g,,,False,False,42.jpeg
+Kohlenhydrate,CARBOHYDRATE/ KOHLENHYDRATE/ KULHYDRAT/ HIILIHYDRAATTI,0.7,,44,,g,,,False,False,45.jpeg
+Energie,ENERGY/ ENERGIE/ ENERGI/ ENERGIA,0.7,100,736,g,kJ,,,False,False,45.jpeg
+eNERGY,ENERGY/ ENERGIE/ ENERGI/ ENERGIA,0.7,100,176,g,KCAL,,,False,False,45.jpeg
+FAT,FAT/ FETT/ FEDT/ RASVAT,0.7,100,0,g,g,,,False,False,45.jpeg
+Sugars,- SUGARS/ DAVON ZUCKER/ HERAF SUKKERARTER/ JOISTA SOKEREITA,0.7,61.,18,,g,,,False,False,45.jpeg
+PROTEIN,PROTEIN/ EIWESS/ PROTEIN/ PROTEINI,0.7,61.,0,,g,,,False,False,45.jpeg
+SALT,SODIUM/ SALZ/ SALT/ SUOLA,0.7,240,240,,mg,,,False,False,45.jpeg
+Fibre,DIETARY FIBRE,0.7,240,0,,g,,,False,False,45.jpeg
+Energie,Brennwert ...... Energie,0.7,383,96.2,kcal,kJ,,,False,False,56.jpeg
+Carbohydrate,Carbohydrates / Kohlenhydrate / Carboidrati / Glucides / Carbohidratos / Ogljikovi hidrati,0.7,20,25.3,,g,,,False,False,61.jpeg
+Protein,Protein / Eiweiß / Proteine / Protéines / Proteína / Beljakovine,0.7,20,0.2,mg,g,,,False,False,61.jpeg
+salt,Salt / Salz / Sale / Sel / Sal / Sol,0.7,060,0.52,mg,g,,,False,False,61.jpeg
+Vitamin A,Vitamin C,0.6,,30,,mg,,38,False,False,9.jpeg

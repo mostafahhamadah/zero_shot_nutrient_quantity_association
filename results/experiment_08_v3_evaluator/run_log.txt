@@ -1,0 +1,11 @@
+Experiment : experiment_08_v3_evaluator
+Schema     : nutrient|quantity|unit|context
+Timestamp  : 2026-03-15T23:09:12.721445
+Notes      : v3 evaluator: full tuple = nutrient+qty+unit+ctx, precision/recall/F1, pipeline diagnostics
+
+Full Tuple Precision : 5.2%
+Full Tuple Recall    : 2.5%
+Full Tuple F1        : 3.4%
+Nutrient F1          : 0.465
+Unit Acc             : 62.9%
+Context Acc          : 29.3%

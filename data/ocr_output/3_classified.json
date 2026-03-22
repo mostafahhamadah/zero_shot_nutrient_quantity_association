@@ -1,0 +1,452 @@
+[
+  {
+    "token": "Kalumciuat,",
+    "x1": 351,
+    "y1": 0,
+    "x2": 435,
+    "y2": 19,
+    "conf": 0.7222,
+    "label": "NUTRIENT",
+    "norm": "kalumciuat"
+  },
+  {
+    "token": "de potassium _",
+    "x1": 528,
+    "y1": 0,
+    "x2": 617,
+    "y2": 28,
+    "conf": 0.4192,
+    "label": "NUTRIENT",
+    "norm": "de potassium _"
+  },
+  {
+    "token": "waler",
+    "x1": 695,
+    "y1": 13,
+    "x2": 729,
+    "y2": 25,
+    "conf": 0.5484,
+    "label": "NOISE",
+    "norm": "waler"
+  },
+  {
+    "token": "citale",
+    "x1": 759,
+    "y1": 29,
+    "x2": 799,
+    "y2": 43,
+    "conf": 0.4645,
+    "label": "NOISE",
+    "norm": "citale"
+  },
+  {
+    "token": "acid",
+    "x1": 851,
+    "y1": 45,
+    "x2": 879,
+    "y2": 61,
+    "conf": 0.8795,
+    "label": "NUTRIENT",
+    "norm": "acid"
+  },
+  {
+    "token": "eh",
+    "x1": 901,
+    "y1": 63,
+    "x2": 929,
+    "y2": 79,
+    "conf": 0.4979,
+    "label": "NOISE",
+    "norm": "eh"
+  },
+  {
+    "token": "'und/et/and fructose",
+    "x1": 543,
+    "y1": 67,
+    "x2": 677,
+    "y2": 104,
+    "conf": 0.7829,
+    "label": "NUTRIENT",
+    "norm": "und/et/and fructose"
+  },
+  {
+    "token": "2min  =200m}",
+    "x1": 962,
+    "y1": 66,
+    "x2": 1060,
+    "y2": 94,
+    "conf": 0.4204,
+    "label": "UNKNOWN",
+    "norm": "2min =200m}"
+  },
+  {
+    "token": "'Quelle von /source de/of glucose",
+    "x1": 335,
+    "y1": 81,
+    "x2": 551,
+    "y2": 119,
+    "conf": 0.7803,
+    "label": "NUTRIENT",
+    "norm": "quelle von /source de/of glucose"
+  },
+  {
+    "token": "facts",
+    "x1": 415,
+    "y1": 161,
+    "x2": 461,
+    "y2": 181,
+    "conf": 0.8797,
+    "label": "NOISE",
+    "norm": "facts"
+  },
+  {
+    "token": "100g",
+    "x1": 548,
+    "y1": 150,
+    "x2": 594,
+    "y2": 176,
+    "conf": 0.5315,
+    "label": "CONTEXT",
+    "norm": "100g"
+  },
+  {
+    "token": "1Tube(70g)",
+    "x1": 602,
+    "y1": 144,
+    "x2": 702,
+    "y2": 176,
+    "conf": 0.9324,
+    "label": "CONTEXT",
+    "norm": "1tube(70g)"
+  },
+  {
+    "token": "Per Tube (70g): Natrium /sodium",
+    "x1": 719,
+    "y1": 144,
+    "x2": 931,
+    "y2": 181,
+    "conf": 0.4297,
+    "label": "CONTEXT",
+    "norm": "per tube (70g): natrium /sodium"
+  },
+  {
+    "token": "1195(28]",
+    "x1": 518,
+    "y1": 170,
+    "x2": 588,
+    "y2": 196,
+    "conf": 0.8717,
+    "label": "QUANTITY",
+    "norm": "1195(28]"
+  },
+  {
+    "token": "837",
+    "x1": 626,
+    "y1": 170,
+    "x2": 658,
+    "y2": 194,
+    "conf": 0.9999,
+    "label": "QUANTITY",
+    "norm": "837"
+  },
+  {
+    "token": "9",
+    "x1": 673,
+    "y1": 171,
+    "x2": 685,
+    "y2": 193,
+    "conf": 0.9999,
+    "label": "NOISE",
+    "norm": "9"
+  },
+  {
+    "token": "Kalium /potassium",
+    "x1": 719,
+    "y1": 167,
+    "x2": 840,
+    "y2": 196,
+    "conf": 0.9261,
+    "label": "NUTRIENT",
+    "norm": "kalium /potassium"
+  },
+  {
+    "token": "7696",
+    "x1": 884,
+    "y1": 172,
+    "x2": 914,
+    "y2": 198,
+    "conf": 0.3609,
+    "label": "QUANTITY",
+    "norm": "7696"
+  },
+  {
+    "token": "enerqykkcall",
+    "x1": 299,
+    "y1": 181,
+    "x2": 425,
+    "y2": 217,
+    "conf": 0.622,
+    "label": "NOISE",
+    "norm": "enerqykkcall"
+  },
+  {
+    "token": "'NRV, nutrient reference values",
+    "x1": 720,
+    "y1": 196,
+    "x2": 922,
+    "y2": 228,
+    "conf": 0.8807,
+    "label": "NRV",
+    "norm": "nrv, nutrient reference values"
+  },
+  {
+    "token": "Fettsäuren /",
+    "x1": 365,
+    "y1": 218,
+    "x2": 464,
+    "y2": 249,
+    "conf": 0.9957,
+    "label": "NUTRIENT",
+    "norm": "fettsäuren /"
+  },
+  {
+    "token": "0",
+    "x1": 237,
+    "y1": 263,
+    "x2": 257,
+    "y2": 285,
+    "conf": 0.9051,
+    "label": "NOISE",
+    "norm": "0"
+  },
+  {
+    "token": "Saturates",
+    "x1": 300,
+    "y1": 244,
+    "x2": 383,
+    "y2": 276,
+    "conf": 0.7974,
+    "label": "NUTRIENT",
+    "norm": "saturates"
+  },
+  {
+    "token": "DE: Mindestens",
+    "x1": 721,
+    "y1": 243,
+    "x2": 830,
+    "y2": 281,
+    "conf": 0.9897,
+    "label": "NOISE",
+    "norm": "de: mindestens"
+  },
+  {
+    "token": "carbohydrates",
+    "x1": 348,
+    "y1": 264,
+    "x2": 479,
+    "y2": 301,
+    "conf": 0.9986,
+    "label": "NUTRIENT",
+    "norm": "carbohydrates"
+  },
+  {
+    "token": "50g",
+    "x1": 666,
+    "y1": 266,
+    "x2": 700,
+    "y2": 296,
+    "conf": 0.9078,
+    "label": "CONTEXT",
+    "norm": "50g"
+  },
+  {
+    "token": "haltbar bis Ende:",
+    "x1": 722,
+    "y1": 270,
+    "x2": 828,
+    "y2": 296,
+    "conf": 0.5959,
+    "label": "NOISE",
+    "norm": "haltbar bis ende"
+  },
+  {
+    "token": "Zuckerarten of which_suqars",
+    "x1": 276,
+    "y1": 290,
+    "x2": 516,
+    "y2": 322,
+    "conf": 0.7048,
+    "label": "NUTRIENT",
+    "norm": "zuckerarten of which_suqars"
+  },
+  {
+    "token": "siehe Siegelrand",
+    "x1": 716,
+    "y1": 290,
+    "x2": 826,
+    "y2": 316,
+    "conf": 0.9056,
+    "label": "NOISE",
+    "norm": "siehe siegelrand"
+  },
+  {
+    "token": "Ug",
+    "x1": 675,
+    "y1": 317,
+    "x2": 697,
+    "y2": 335,
+    "conf": 0.8758,
+    "label": "NOISE",
+    "norm": "ug"
+  },
+  {
+    "token": "EN: Best before end:",
+    "x1": 716,
+    "y1": 310,
+    "x2": 846,
+    "y2": 334,
+    "conf": 0.9591,
+    "label": "NOISE",
+    "norm": "en: best before end"
+  },
+  {
+    "token": "0.30g",
+    "x1": 649,
+    "y1": 335,
+    "x2": 693,
+    "y2": 349,
+    "conf": 0.3449,
+    "label": "QUANTITY",
+    "norm": "0.30g"
+  },
+  {
+    "token": "0.43g",
+    "x1": 547,
+    "y1": 339,
+    "x2": 593,
+    "y2": 355,
+    "conf": 0.9229,
+    "label": "QUANTITY",
+    "norm": "0.43g"
+  },
+  {
+    "token": "SalzIsalt",
+    "x1": 212,
+    "y1": 354,
+    "x2": 300,
+    "y2": 386,
+    "conf": 0.4234,
+    "label": "NUTRIENT",
+    "norm": "salzisalt"
+  },
+  {
+    "token": "antioxydant .",
+    "x1": 521,
+    "y1": 16,
+    "x2": 601,
+    "y2": 50,
+    "conf": 0.4923,
+    "label": "NUTRIENT",
+    "norm": "antioxydant "
+  },
+  {
+    "token": "ascorbinue.",
+    "x1": 484,
+    "y1": 41,
+    "x2": 562,
+    "y2": 74,
+    "conf": 0.5124,
+    "label": "NUTRIENT",
+    "norm": "ascorbinue"
+  },
+  {
+    "token": "e709",
+    "x1": 1046,
+    "y1": 141,
+    "x2": 1208,
+    "y2": 227,
+    "conf": 0.9291,
+    "label": "NOISE",
+    "norm": "e709"
+  },
+  {
+    "token": "nutrition",
+    "x1": 328,
+    "y1": 161,
+    "x2": 416,
+    "y2": 190,
+    "conf": 0.9945,
+    "label": "NOISE",
+    "norm": "nutrition"
+  },
+  {
+    "token": "Tiomg |",
+    "x1": 833,
+    "y1": 164,
+    "x2": 891,
+    "y2": 203,
+    "conf": 0.4953,
+    "label": "UNKNOWN",
+    "norm": "tiomg |"
+  },
+  {
+    "token": "Nährwerten",
+    "x1": 238,
+    "y1": 167,
+    "x2": 340,
+    "y2": 204,
+    "conf": 0.5847,
+    "label": "NOISE",
+    "norm": "nährwerten"
+  },
+  {
+    "token": "Energiel",
+    "x1": 235,
+    "y1": 194,
+    "x2": 301,
+    "y2": 226,
+    "conf": 0.7658,
+    "label": "NUTRIENT",
+    "norm": "energiel"
+  },
+  {
+    "token": "FertTiar",
+    "x1": 230,
+    "y1": 214,
+    "x2": 302,
+    "y2": 248,
+    "conf": 0.3728,
+    "label": "NOISE",
+    "norm": "ferttiar"
+  },
+  {
+    "token": "davon",
+    "x1": 236,
+    "y1": 236,
+    "x2": 289,
+    "y2": 266,
+    "conf": 0.9682,
+    "label": "NUTRIENT",
+    "norm": "davon"
+  },
+  {
+    "token": "Kohlenhydrate ,",
+    "x1": 221,
+    "y1": 270,
+    "x2": 345,
+    "y2": 308,
+    "conf": 0.5686,
+    "label": "NUTRIENT",
+    "norm": "kohlenhydrate "
+  },
+  {
+    "token": "davon",
+    "x1": 223,
+    "y1": 298,
+    "x2": 279,
+    "y2": 328,
+    "conf": 0.9863,
+    "label": "NUTRIENT",
+    "norm": "davon"
+  }
+]

@@ -1,0 +1,4 @@
+ocr:
+  engine: "easyocr"
+  language: "en"
+  confidence_threshold: 0.30   # was 0.70

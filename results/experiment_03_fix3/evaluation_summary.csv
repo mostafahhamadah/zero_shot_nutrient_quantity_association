@@ -1,0 +1,2 @@
+experiment,timestamp,notes,schema,images_evaluated,gt_tuples,predicted_tuples,matched_pairs,nutrient_precision,nutrient_recall,nutrient_f1,quantity_acc,unit_acc,context_acc,full_tuple_acc
+experiment_03_fix3,2026-03-15T02:37:08.722802,Fix 3: Column selector - sort quantities left-to-right by x-coordinate + per-quantity context from CONTEXT_SCOPE,nutrient|quantity|unit|context,44,635,290,206,0.7103,0.3244,0.4454,0.2718,0.6359,0.1505,0.0866

@@ -1,0 +1,12 @@
+Experiment: experiment_01_extended
+Timestamp:  2026-03-14T22:21:09.613413
+Notes:      Full 42-image dataset with cropping/resizing augmentation
+Augmentation: cropping/resizing
+
+Images processed: 44
+Images skipped:   0
+Errors:           0
+
+Full Tuple Accuracy: 5.5%
+Nutrient F1:         0.440
+Unit Match Acc:      64.0%

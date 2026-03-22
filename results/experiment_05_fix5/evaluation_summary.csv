@@ -1,0 +1,2 @@
+experiment,timestamp,notes,schema,images_evaluated,gt_tuples,predicted_tuples,matched_pairs,nutrient_precision,nutrient_recall,nutrient_f1,quantity_acc,unit_acc,context_acc,full_tuple_acc
+experiment_05_fix5,2026-03-15T02:52:17.672439,Fix 5: SAME_ROW threshold increased 25px -> 35px for standalone unit linking on vitamin tables,nutrient|quantity|unit|context,44,635,310,209,0.6742,0.3291,0.4423,0.2679,0.6459,0.2823,0.0866

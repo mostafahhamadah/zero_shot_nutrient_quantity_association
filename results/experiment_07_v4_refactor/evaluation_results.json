@@ -1,0 +1,17 @@
+{
+  "experiment": "experiment_07_v4_refactor",
+  "timestamp": "2026-03-15T22:48:03.931760",
+  "notes": "v4 classifier + evaluator refactor - regression test",
+  "schema": "nutrient|quantity|unit|context",
+  "images_evaluated": 44,
+  "gt_tuples": 635,
+  "predicted_tuples": 286,
+  "matched_pairs": 205,
+  "nutrient_precision": 0.7168,
+  "nutrient_recall": 0.3228,
+  "nutrient_f1": 0.4452,
+  "quantity_acc": 0.2634,
+  "unit_acc": 0.6293,
+  "context_acc": 0.2927,
+  "full_tuple_acc": 0.0835
+}

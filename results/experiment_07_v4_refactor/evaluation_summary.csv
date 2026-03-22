@@ -1,0 +1,2 @@
+experiment,timestamp,notes,schema,images_evaluated,gt_tuples,predicted_tuples,matched_pairs,nutrient_precision,nutrient_recall,nutrient_f1,quantity_acc,unit_acc,context_acc,full_tuple_acc
+experiment_07_v4_refactor,2026-03-15T22:48:03.931760,v4 classifier + evaluator refactor - regression test,nutrient|quantity|unit|context,44,635,286,205,0.7168,0.3228,0.4452,0.2634,0.6293,0.2927,0.0835
