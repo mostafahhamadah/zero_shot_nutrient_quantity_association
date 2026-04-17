@@ -1,0 +1,163 @@
+image_id,gt_nutrient,pred_nutrient,gt_quantity,pred_quantity,gt_unit,pred_unit,gt_context,pred_context,nutrient_match,quantity_match,unit_match,context_match,full_match_3f,full_match_4f,eval_method,nutrient_reason,quantity_reason,unit_reason,context_reason
+1.jpeg,Magnesiumoxid,magnesiumoxid,400,400,mg,,per_daily_dose,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+1.jpeg,Magnesiummalat,magnesiummalat,333,333,mg,,per_daily_dose,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+101.jpeg,Fett,Fett,0.8,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+101.jpeg,Kohlenhydrate,Kohlenhydrate,86.1,86.1,g,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+101.jpeg,Ballaststoffe,Ballaststoffe,3.0,3.0,g,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+101.jpeg,Salz,Salz,0.09,660.0,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+101.jpeg,Thiamin,Thiamin,0.44,0.44mg88%3,mg,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+101.jpeg,Natrium,Natrium,36,36,mg,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+102.jpeg,Fett,Fett,7.7,1.0,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+102.jpeg,Fett,Fett,1.0,0.1,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+102.jpeg,- davon gesättigte Fettsäuren,Fett,1.1,g,g,,per_100g,,False,False,False,False,False,False,fast+llm,Fett vs Fettsaeuren,"g vs None, 1.1 vs None",None vs None,per_100g vs None
+102.jpeg,Kohlenhydrate,Kohlenhydrate,63,5.1,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+102.jpeg,Kohlenhydrate,Kohlenhydrate,7.9,7.9,g,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+102.jpeg,Ballaststoffe,Ballaststoffe,5.1,5.1,g,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+102.jpeg,Ballaststoffe,Ballaststoffe,0.6,5.9,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+102.jpeg,Salz,Salz,0.14,0.14,g,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+102.jpeg,Salz,Salz,0.02,5.9,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+103.jpeg,Fett,Fett,3.7,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+103.jpeg,Fett,Fettsauren,0.4,51,g,,per_serving,,False,False,False,False,False,False,fast+llm,Nutrient specificity mismatch: 'Fett' vs 'Fettsauren',Quantity mismatch: 0.4g vs 51,Unit missing in prediction,Context missing in prediction
+103.jpeg,Kohlenhydrate,Kohlenhydrate,51,51,g,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+103.jpeg,Kohlenhydrate,Kohlenhydrate,6.1,g,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+103.jpeg,Ballaststoffe,Ballaststoffe,16,7.7,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+103.jpeg,Ballaststoffe,Ballaststoffe,1.9,51,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+103.jpeg,Salz,Salz,0,7.7,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+103.jpeg,Salz,Salz,0,g,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+104.jpeg,Fett,Fett,2.6,51,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+104.jpeg,Fett,Fett,0,kcal,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+104.jpeg,Kohlenhydrate,Kohlenhydrate,72,10,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+104.jpeg,Kohlenhydrate,Kohlenhydrate,10,g,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+104.jpeg,Ballaststoffe,Ballaststoffe,10,10,g,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+104.jpeg,Ballaststoffe,Ballaststoffe,1.4,3.2,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+104.jpeg,Salz,Salz,0.1,0.1,g,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+104.jpeg,Salz,Salz,0,3.2,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+105.jpeg,Fett,Fett,2.7,0.3,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+105.jpeg,Fett,Fett,0.3,600,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+105.jpeg,- davon gesättigte Fettsäuren,Fett,0.4,g,g,,per_100g,,False,False,False,False,False,False,fast+llm,Fett vs - davon gesättigte Fettsäuren,g vs 0.4; missing value,empty vs g,per_100g vs None
+105.jpeg,Salz,Salz,0.03,7.0,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+105.jpeg,Salz,Salz,0.00,600,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+106.jpeg,Vitamin E / Vitamine E / Vitamina E / E-vitamin / Vitamin E,VitaminE,12,,mg α-TE,,per_serving,,False,False,False,False,False,False,fast+llm,"Ground truth includes multiple names for Vitamin E, while prediction only matches one and misses others.",Quantity is missing in the prediction.,Unit is missing in the prediction.,Context is missing in the prediction.
+106.jpeg,Magnesium / Magnésium / Magnesio / Magnézium / Magnezij,Magnezij,250,,mg,,per_serving,,True,False,False,False,False,False,fast+llm,Both are 'Magnezij' in different languages.,Predicted quantity is missing while ground truth has a value.,Predicted unit and context are missing.,Predicted context is missing.
+107.jpeg,Vitamin B1,Vitamin B1,1.1,1.1,mg,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+107.jpeg,Vitamin B2,Vitamin B2,1.4,14,mg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+107.jpeg,Vitamin B6,Vitamin B6,1.4,,mg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+107.jpeg,Vitamin B12,Vitamin B12,2.5,80,µg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+107.jpeg,Vitamin E,Vitamin E,12,,mg α-TE,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+107.jpeg,Niacin,Niacin,16,5019,mg NE,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+107.jpeg,Biotin,Biotin,50,5019,µg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+108.jpeg,Magnesium,Magnesium,240,240,mg,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+108.jpeg,Vitamin B1,Vitamin B1,1.1,1.1,mg,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+108.jpeg,Vitamin B2,Vitamin B2,1.4,1.4,mg,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+108.jpeg,Vitamin B6,Vitamin B6,1.4,1.4,mg,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+108.jpeg,Vitamin B12,Vitamin B12,2.5,,µg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+108.jpeg,Biotin,Biotin,50,,µg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+109.jpeg,Fett,Fett,0,0,g,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+109.jpeg,- davon gesättigte Fettsäuren,Fett,0.2,g,g,,per_100g,,False,False,False,False,False,False,fast+llm,Fett vs Fettsaeuren,"g vs None, 0.2 vs None",None vs None,per_100g vs None
+109.jpeg,Kohlenhydrate,Kohlenhydrate,12.0,12.0,g,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+109.jpeg,Ballaststoffe,Ballaststoffe,1.5,1.5,g,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+109.jpeg,Salz,Salz,0.05,0.05,g,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+110.jpeg,Melissen Extrakt,Melissen Extrakt,15,15,mg,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+110.jpeg,Melissen Extrakt,Melissen Extrakt,30,30,mg,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+110.jpeg,Niacin,Niacin,8.0,8.0,mg NE,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+110.jpeg,Niacin,Niacin,16,16,mg NE,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+111.jpeg,Vitamin B12,Vitamin B12,17.5,17.5,µg,,per_daily_dose,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+113.jpeg,FETT,FETT,4.5,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+113.jpeg,FETT,DAVONGESATTIGTE FETTSAUREN,1.3,,g,,per_serving,,False,False,False,False,False,False,fast+llm,Nutrient name does not match after normalization.,Quantity is missing in prediction while ground truth has a value.,Unit and context are missing in prediction.,Context is missing in prediction.
+113.jpeg,KOHLENHYDRATE,Kohlenhydrate,7.7,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+113.jpeg,BALLASTSTOFFE,Ballaststoffe,1.9,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+113.jpeg,SALZ,SALZ,0.53,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+113.jpeg,KOFFEIN,KOFFEIN,267,,mg,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+114.jpeg,FETT,FETT,4.8,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+114.jpeg,FETT,DAVONGESATTIGTEFETTSAUREN,1.4,,g,,per_serving,,False,False,False,False,False,False,fast+llm,Nutrient name does not match after normalization.,Quantity is missing in prediction.,Unit is missing in prediction.,Context is missing in prediction.
+114.jpeg,DAVON GESÄTTIGTE FETTSÄUREN,S,3.3,,g,,per_100g,,False,False,False,False,False,False,fast+llm,Nutrient does not match after applying multilingual equivalences.,Quantity is missing in prediction.,Unit is missing in prediction.,Context is missing in prediction.
+114.jpeg,KOHLENHYDRATE,Kohlenhydrate,8.8,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+114.jpeg,BALLASTSTOFFE,Ballaststoffe,2.8,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+114.jpeg,SALZ,SALZ,0.51,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+114.jpeg,KOFFEIN,KOFFEIN,268,,mg,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+115.jpeg,Fett,Fett,0,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+115.jpeg,Kohlenhydrate,Kohlenhydrate,12.0,10.0,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+115.jpeg,Ballaststoffe,Ballaststoffe,1.6,11.0,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+115.jpeg,Salz,Salz,0.05,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+116.jpeg,FETT,Fettsauren,12.0,,g,,per_100g,,False,False,False,False,False,False,fast+llm,FETT and Fettsauren are not equivalent due to specificity rules.,"Quantity is missing in prediction, cannot match.","Unit is missing in both, but required for comparison.","Context is missing in both, but required for comparison."
+116.jpeg,BALLASTSTOFFE,Ballaststoffe,12.0,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+116.jpeg,SALZ,SALZ,2.02,2.02,g,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+116.jpeg,SALZ,SALZ,0.61,0.61,g,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+117.jpeg,KOHLENHYDRATE,Kohlenhydrate,37.1,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+117.jpeg,BALLASTSTOFFE,Ballaststoffe,9.0,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+117.jpeg,SALZ,SALZ,0.10,0.04,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+117.jpeg,SALZ,SALZ,0.04,g,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+118.jpeg,BALLASTSTOFFE,Ballaststoffe,3.0,19,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+118.jpeg,BALLASTSTOFFE,Ballaststoffe,2.4,g,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+118.jpeg,SALZ,SALZ,0.70,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+119.jpeg,BALLASTSTOFFE,Ballaststoffe,4.5,19,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+119.jpeg,BALLASTSTOFFE,Ballaststoffe,3.6,g,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+119.jpeg,SALZ,SALZ,0.70,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+120.jpeg,CHOLIN,choline,20,,mg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+120.jpeg,RUTIN,RUTIN,20,,mg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+120.jpeg,NIACIN,Niacin,16,,mg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+120.jpeg,BIOTIN,Biotin,40,,µg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+120.jpeg,CALCIUM,Calcium,121,,mg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+121.jpeg,BALLASTSTOFFE,Ballaststoffe,18,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+121.jpeg,SALZ,SALZ,0.20,0.20,g,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+121.jpeg,SALZ,SALZ,0.09,0.09,g,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+17.jpeg,Caffeine,Caffeine,100,100,mg,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+17.jpeg,Vitamin B3,Vitamin B3,2.4,2.4,mg NE,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+17.jpeg,Vitamin B12,Vitamin B12,0.38,0.38,µg,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+2.jpeg,Salz/salt,Salz/salt,0.43,0.30,g,,per_100g,837197,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+2.jpeg,Salz/salt,Salz/salt,0.30,g,g,,per_serving,837197,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+20.jpeg,Niacin,Niacin,240,,mg NE,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+26.jpeg,FAT,FAT,0,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+30.jpeg,PROTEIN,protein,2.7,907/215,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+30.jpeg,CARBOHYDRATE,carbohydrate,39,,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+30.jpeg,DIETARY FIBRE,dietary fibre,2.0,70,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+30.jpeg,DIETARY FIBRE,dietary fibre,3.6,130,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+33.jpeg,Kohlenhydrate/carbohydrates,Kohlenhydrate/carbohydrates,97,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+33.jpeg,Salz/salt,Salz/salt,0.53,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+33.jpeg,Calcium,Calcium,35,158,mg,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+33.jpeg,Magnesium,Magnesium,25,,mg,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+33.jpeg,Kalium/potassium,Kalium/potassium,55,,mg,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+33.jpeg,Chlorid/chlorure,Chlorid/chlorure,140,,mg,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+34.jpeg,Fat,Fat,0,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+34.jpeg,Carbohydrate,Carbohydrate,80,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+34.jpeg,Carbohydrate,C,20,,g,,per_serving,,False,False,False,False,False,False,fast+llm,Nutrient 'Carbohydrate' does not match 'C'.,Quantity is missing in prediction.,Unit is missing in prediction.,Context is missing in prediction.
+34.jpeg,Fibre,Fibre,5,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+34.jpeg,Protein,Protein,0,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+34.jpeg,Salt,Salt,3.5,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+34.jpeg,Calcium,Calcium,400,400,mg,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+34.jpeg,Calcium,Calcium,100,100,mg,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+34.jpeg,Potassium,Potassium,400,400,mg,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+34.jpeg,Potassium,Potassium,100,100,mg,,per_serving,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+34.jpeg,Magnesium,Magnesium,100,100,mg,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+34.jpeg,Magnesium,Magnesium,25,mg,mg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+34.jpeg,Zinc,Zinc,2.6,100,mg,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+34.jpeg,Zinc,Zinc,0.7,mg,mg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+34.jpeg,C,Calcium,72,mg,mg,,per_100g,,False,False,False,False,False,False,fast+llm,Calcium does not match C.,Quantity and unit are missing or incorrect.,Unit is missing in prediction.,Context is missing in prediction.
+34.jpeg,C,Follcacld,18,,mg,,per_serving,,False,False,False,False,False,False,fast+llm,Nutrient does not match due to misspelling.,Quantity is missing in prediction.,Unit is missing in prediction.,Context is missing in prediction.
+34.jpeg,B1,B1,0.8,,mg,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+35.jpeg,Magnesium,Magnesium,4.7,2.1,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+35.jpeg,Magnesium,Magnesium,225,g,mg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+35.jpeg,Vitamin C,Vitamin C,2.1,2.1,g,,per_100g,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+35.jpeg,Vitamin C,Vitamin C,100.8,g,mg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+4.jpeg,PROTEIN,protein,0,,,,per_100g,,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+41.jpeg,FAT,FAT,0,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+41.jpeg,CARBOHYDRATE,CARBOHYDRATE,36,,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+41.jpeg,PROTEIN,PROTEIN,0,,g,,per_100g,4101,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+41.jpeg,SALT,SALT,0.10,,g,,per_100g,4101,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+42.jpeg,CARBOHYDRATE/ KOHLENHYDRATE,carbohydrate,94,,g,,per_100g,,False,False,False,False,False,False,fast+llm,GROUND TRUTH 'CARBOHYDRATE/ KOHLENHYDRATE' does not match PREDICTION 'carbohydrate'.,PREDICTION lacks a quantity value.,Both GROUND TRUTH and PREDICTION lack unit values.,GROUND TRUTH context is present while PREDICTION has no context.
+42.jpeg,DIETARY FIBRE,dietary fibre,0,240,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+42.jpeg,DIETARY FIBRE,dietary fibre,0,500,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+56.jpeg,Fett ........... Lipides,Fett,4.3,4.3,g,,per_100g,,True,True,False,False,False,False,fast+llm,Both are 'Fett'.,4.3 is equal to 4.3 within tolerance.,Predicted unit is missing while ground truth has 'g'.,Predicted context is missing while ground truth has 'per_100g'.
+56.jpeg,Fett ........... Lipides,Fett,0.26,3.67,g,,per_serving,,True,False,False,False,False,False,fast+llm,"Both are 'Fett' and 'Lipides', which are multilingual equivalents.","0.26 does not match 3.67, and neither is a trace value.",No unit provided in prediction vs 'g' in ground truth.,Serving context mismatch; per_serving vs None.
+57.jpeg,Fett / Lipides,lipides,4.3,3.67,g,,per_100g,,True,False,False,False,False,False,fast+llm,Both are lipid-related terms.,Quantities do not match and one is a trace value.,"No unit in prediction, required unit missing.",Contexts do not match.
+57.jpeg,Fett / Lipides,lipides,0.26,g,g,,per_serving,,True,False,False,False,False,False,fast+llm,Both are 'Fett / Lipides',Quantity does not match and unit is missing in prediction,Unit is missing in both but required in ground truth,Context does not match after stripping serving-size suffix
+64.jpeg,Niacin(e),niacin,7.0,7.0,mg,,per_daily_dose,,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+8.jpeg,PROTEIN,protein,2.2,,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+8.jpeg,CARBOHYDRATE,carbohydrate,41,,g,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+82.jpeg,Protein,Protein,0,60,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+82.jpeg,Carbohydrates,Carbohydrates,0,60,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+82.jpeg,Fat,Fat,0,60,g,,per_100g,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+82.jpeg,Creatine monohydrate,Creatine,100,100,g,g,per_100g,,False,True,True,False,False,False,fast+llm,Specific nutrient does not match.,Quantities are equal and within tolerance.,Unit is correctly identified.,Contexts do not match after stripping serving-size suffix.
+82.jpeg,Creatine monohydrate,monohydrate,3,100,g,g,per_serving,,False,False,True,False,False,False,fast+llm,"Ground truth is 'Creatine monohydrate', prediction is 'monohydrate'.","Ground truth quantity is '3', prediction is '100'.","Ground truth unit is 'g', prediction is 'g' but context mismatch.","Ground truth context is 'per_serving', prediction has no context."
+9.jpeg,Zink,Zink,5,,mg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+9.jpeg,Vitamin C,Vitamin C,30,,mg,,per_serving,,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch

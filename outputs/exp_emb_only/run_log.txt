@@ -1,0 +1,14 @@
+Experiment  : exp_emb_only
+Pipeline    : Geometry-Aware V2 (PaddleOCR + Token Enricher + Graph V2)
+Classifier  : embedding_only
+Evaluator   : Fast rule-based
+Schema      : nutrient|quantity|unit|context
+Timestamp   : 2026-04-16T22:21:25.058058
+Notes       : 
+
+Full Tuple Precision : 27.4%
+Full Tuple Recall    : 29.9%
+Full Tuple F1        : 28.6%
+Nutrient F1          : 0.619
+Unit Acc             : 85.9%
+Context Acc          : 83.2%

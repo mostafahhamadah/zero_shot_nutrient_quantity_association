@@ -1,0 +1,45 @@
+{
+    "image_id": "1.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Magnesium (gesamt)",
+            "quantity": "400",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "107",
+            "serving_size": null
+        },
+        {
+            "nutrient": "Magnesiumsalze der Citronensäure",
+            "quantity": "420",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Magnesiumoxid",
+            "quantity": "400",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Magnesiumbisglycinat",
+            "quantity": "350",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Magnesiummalat",
+            "quantity": "333",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": null
+        }
+    ]
+}

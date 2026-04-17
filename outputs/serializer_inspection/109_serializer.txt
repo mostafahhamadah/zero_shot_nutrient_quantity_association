@@ -1,0 +1,78 @@
+=================================================================
+  IMAGE: 109.jpeg
+  OCR tokens (after corrector): 26
+  Serialized tokens:            26
+  Visual lines detected:        11
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Durchschnittliche Nahrwerte
+  Line 02 │ je 100g
+  Line 03 │ Brennwert 420 kJ/99kcal
+  Line 04 │ Fett 0 g
+  Line 05 │ davon gesattigte
+  Line 06 │ Fettsauren 0.2 g
+  Line 07 │ Kohlenhydrate 12.0 g
+  Line 08 │ -davon Zucker 9.8 g
+  Line 09 │ Ballaststoffe 1.5 g
+  Line 10 │ Eiweiss 11.0 g
+  Line 11 │ Salz 0.05 g
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y= 203.5px  [1 tokens]
+    → Durchschnittliche Nahrwerte
+  Line 02  y= 278.0px  [1 tokens]
+    → je 100g
+  Line 03  y= 341.0px  [2 tokens]
+    → Brennwert | 420 kJ/99kcal
+  Line 04  y= 396.3px  [3 tokens]
+    → Fett | 0 | g
+  Line 05  y= 454.0px  [1 tokens]
+    → davon gesattigte
+  Line 06  y= 494.3px  [3 tokens]
+    → Fettsauren | 0.2 | g
+  Line 07  y= 548.5px  [3 tokens]
+    → Kohlenhydrate | 12.0 | g
+  Line 08  y= 599.2px  [3 tokens]
+    → -davon Zucker | 9.8 | g
+  Line 09  y= 653.5px  [3 tokens]
+    → Ballaststoffe | 1.5 | g
+  Line 10  y= 705.7px  [3 tokens]
+    → Eiweiss | 11.0 | g
+  Line 11  y= 760.0px  [3 tokens]
+    → Salz | 0.05 | g
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      27  Durchschnittliche Nahrwerte
+     1     1      28      35  je 100g
+     3     2      36      45  Brennwert
+     2     2      46      59  420 kJ/99kcal
+     6     3      60      64  Fett
+     4     3      65      66  0
+     5     3      67      68  g
+     7     4      69      85  davon gesattigte
+    10     5      86      96  Fettsauren
+     8     5      97     100  0.2
+     9     5     101     102  g
+    13     6     103     116  Kohlenhydrate
+    11     6     117     121  12.0
+    12     6     122     123  g
+    16     7     124     137  -davon Zucker
+    14     7     138     141  9.8
+    15     7     142     143  g
+    19     8     144     157  Ballaststoffe
+    17     8     158     161  1.5
+    18     8     162     163  g
+    22     9     164     171  Eiweiss
+    20     9     172     176  11.0
+    21     9     177     178  g
+    25    10     179     183  Salz
+    23    10     184     188  0.05
+    24    10     189     190  g
+
+=================================================================

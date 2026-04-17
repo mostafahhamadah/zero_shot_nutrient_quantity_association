@@ -1,0 +1,95 @@
+=================================================================
+  IMAGE: 106.jpeg
+  OCR tokens (after corrector): 25
+  Serialized tokens:            25
+  Visual lines detected:        17
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Vitamine und Mineralstoffe/
+  Line 02 │ Vitamines et sels mineraux/Vitamine
+  Line 03 │ e sali minerali/Vitaminok es asvanyi
+  Line 04 │ anyagok/Vitamini in minerali
+  Line 05 │ Pro Stick/Parsachet/ %
+  Line 06 │ Per bustina/Egy NRV/
+  Line 07 │ tasakban/Navrecko PDV
+  Line 08 │ VitaminE/Vtamine E/
+  Line 09 │ Vitamina E/E-vitamin/
+  Line 10 │ VitaminE 12 mg a-TE 100%
+  Line 11 │ Magnesium/Magnesium/
+  Line 12 │ Magnesio/Magnezium/
+  Line 13 │ Magnezij 250 mg 67%
+  Line 14 │ *NRV=Nahrstoffbezugswert/valeurs
+  Line 15 │ nutrionnelles de reference/taplalkozasi
+  Line 16 │ referenciaertek/VNR=Valori Nutritivi di
+  Line 17 │ Riferimento/*PDV=priporoceni dnevni vnos
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  16.5px  [1 tokens]
+    → Vitamine und Mineralstoffe/
+  Line 02  y=  30.5px  [1 tokens]
+    → Vitamines et sels mineraux/Vitamine
+  Line 03  y=  44.0px  [1 tokens]
+    → e sali minerali/Vitaminok es asvanyi
+  Line 04  y=  57.5px  [1 tokens]
+    → anyagok/Vitamini in minerali
+  Line 05  y=  75.5px  [2 tokens]
+    → Pro Stick/Parsachet/ | %
+  Line 06  y=  89.0px  [2 tokens]
+    → Per bustina/Egy | NRV/
+  Line 07  y= 101.0px  [1 tokens]
+    → tasakban/Navrecko PDV
+  Line 08  y= 116.0px  [1 tokens]
+    → VitaminE/Vtamine E/
+  Line 09  y= 128.5px  [1 tokens]
+    → Vitamina E/E-vitamin/
+  Line 10  y= 140.4px  [4 tokens]
+    → VitaminE | 12 | mg a-TE | 100%
+  Line 11  y= 154.5px  [1 tokens]
+    → Magnesium/Magnesium/
+  Line 12  y= 166.5px  [1 tokens]
+    → Magnesio/Magnezium/
+  Line 13  y= 178.9px  [4 tokens]
+    → Magnezij | 250 | mg | 67%
+  Line 14  y= 195.0px  [1 tokens]
+    → *NRV=Nahrstoffbezugswert/valeurs
+  Line 15  y= 206.0px  [1 tokens]
+    → nutrionnelles de reference/taplalkozasi
+  Line 16  y= 217.0px  [1 tokens]
+    → referenciaertek/VNR=Valori Nutritivi di
+  Line 17  y= 228.5px  [1 tokens]
+    → Riferimento/*PDV=priporoceni dnevni vnos
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      27  Vitamine und Mineralstoffe/
+     1     1      28      63  Vitamines et sels mineraux/Vitamine
+     2     2      64     100  e sali minerali/Vitaminok es asvanyi
+     3     3     101     129  anyagok/Vitamini in minerali
+     4     4     130     150  Pro Stick/Parsachet/
+     5     4     151     152  %
+     6     5     153     168  Per bustina/Egy
+     7     5     169     173  NRV/
+     8     6     174     195  tasakban/Navrecko PDV
+     9     7     196     215  VitaminE/Vtamine E/
+    10     8     216     237  Vitamina E/E-vitamin/
+    12     9     238     246  VitaminE
+    13     9     247     249  12
+    14     9     250     257  mg a-TE
+    11     9     258     262  100%
+    15    10     263     283  Magnesium/Magnesium/
+    16    11     284     303  Magnesio/Magnezium/
+    18    12     304     312  Magnezij
+    19    12     313     316  250
+    20    12     317     319  mg
+    17    12     320     323  67%
+    21    13     324     356  *NRV=Nahrstoffbezugswert/valeurs
+    22    14     357     396  nutrionnelles de reference/taplalkozasi
+    23    15     397     436  referenciaertek/VNR=Valori Nutritivi di
+    24    16     437     477  Riferimento/*PDV=priporoceni dnevni vnos
+
+=================================================================

@@ -1,0 +1,68 @@
+=================================================================
+  IMAGE: 67.jpeg
+  OCR tokens (after corrector): 13
+  Serialized tokens:            13
+  Visual lines detected:        12
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ VIGANTOL
+  Line 02 │ 10001.E VitaminD3Tabletten
+  Line 03 │ Fur Sauqlinge,Kinder und Erwachsene.Zum Einnehmen.
+  Line 04 │ Jede Tablette enthalt 25 q Colecalciferol,entsprechend 10001.E.Vitamin D
+  Line 05 │ Enthalt SucroseZucker).Tagesdosis bis zu 1000I.E.entsprechend 0.025mg)
+  Line 06 │ Zur Vorbeugung gegen Rachitis,auch bei Fruhgeborenen,bei erkennbarem
+  Line 07 │ Risiko einer Vitamin-D-Mangelerkrankung bei ansonsten Gesunden ohne
+  Line 08 │ Resorptionsstorung,zur unterstutzenden Behandlung der Osteoporose.
+  Line 09 │ Packungsbeilage beachten.Arzneimittel fur Kinder unzuganglich aufbewahren.
+  Line 10 │ Nicht uber 25 C lagern.Im Umkarton aufbewahren,
+  Line 11 │ um den Inhalt vor Licht zu schutzen.
+  Line 12 │ Apothekenpflichtig.Zul.-Nr.6154298.01.00
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  67.0px  [1 tokens]
+    → VIGANTOL
+  Line 02  y= 160.0px  [2 tokens]
+    → 10001.E | VitaminD3Tabletten
+  Line 03  y= 207.5px  [1 tokens]
+    → Fur Sauqlinge,Kinder und Erwachsene.Zum Einnehmen.
+  Line 04  y= 225.5px  [1 tokens]
+    → Jede Tablette enthalt 25 q Colecalciferol,entsprechend 10001.E.Vitamin D
+  Line 05  y= 245.0px  [1 tokens]
+    → Enthalt SucroseZucker).Tagesdosis bis zu 1000I.E.entsprechend 0.025mg)
+  Line 06  y= 270.0px  [1 tokens]
+    → Zur Vorbeugung gegen Rachitis,auch bei Fruhgeborenen,bei erkennbarem
+  Line 07  y= 288.5px  [1 tokens]
+    → Risiko einer Vitamin-D-Mangelerkrankung bei ansonsten Gesunden ohne
+  Line 08  y= 307.0px  [1 tokens]
+    → Resorptionsstorung,zur unterstutzenden Behandlung der Osteoporose.
+  Line 09  y= 331.0px  [1 tokens]
+    → Packungsbeilage beachten.Arzneimittel fur Kinder unzuganglich aufbewahren.
+  Line 10  y= 351.0px  [1 tokens]
+    → Nicht uber 25 C lagern.Im Umkarton aufbewahren,
+  Line 11  y= 370.5px  [1 tokens]
+    → um den Inhalt vor Licht zu schutzen.
+  Line 12  y= 391.5px  [1 tokens]
+    → Apothekenpflichtig.Zul.-Nr.6154298.01.00
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       8  VIGANTOL
+     1     1       9      16  10001.E
+     2     1      17      35  VitaminD3Tabletten
+     3     2      36      86  Fur Sauqlinge,Kinder und Erwachsene.Zum Einnehmen.
+     4     3      87     159  Jede Tablette enthalt 25 q Colecalciferol,entsprechend 10001.E.Vitamin D
+     5     4     160     230  Enthalt SucroseZucker).Tagesdosis bis zu 1000I.E.entsprechend 0.025mg)
+     6     5     231     299  Zur Vorbeugung gegen Rachitis,auch bei Fruhgeborenen,bei erkennbarem
+     7     6     300     367  Risiko einer Vitamin-D-Mangelerkrankung bei ansonsten Gesunden ohne
+     8     7     368     434  Resorptionsstorung,zur unterstutzenden Behandlung der Osteoporose.
+     9     8     435     509  Packungsbeilage beachten.Arzneimittel fur Kinder unzuganglich aufbewahren.
+    10     9     510     557  Nicht uber 25 C lagern.Im Umkarton aufbewahren,
+    11    10     558     594  um den Inhalt vor Licht zu schutzen.
+    12    11     595     635  Apothekenpflichtig.Zul.-Nr.6154298.01.00
+
+=================================================================

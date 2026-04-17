@@ -1,0 +1,13 @@
+Experiment  : test10
+Pipeline    : Geometry-Aware V2 (PaddleOCR + Token Enricher + Graph V2)
+Evaluator   : Fast rule-based
+Schema      : nutrient|quantity|unit|context
+Timestamp   : 2026-04-16T20:33:10.818854
+Notes       : 
+
+Full Tuple Precision : 0.0%
+Full Tuple Recall    : 0.0%
+Full Tuple F1        : 0.0%
+Nutrient F1          : 0.000
+Unit Acc             : 0.0%
+Context Acc          : 0.0%

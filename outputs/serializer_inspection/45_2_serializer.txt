@@ -1,0 +1,69 @@
+=================================================================
+  IMAGE: 45_2.jpeg
+  OCR tokens (after corrector): 20
+  Serialized tokens:            20
+  Visual lines detected:        10
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ UK/AUS PR.100g
+  Line 02 │ VELLE NUTRITIONALINFO
+  Line 03 │ ENERGY 1567/374kJ/KCAL
+  Line 04 │ FAT 0 g
+  Line 05 │ OFWHICH
+  Line 06 │ SATURATES 0 g
+  Line 07 │ CARBOHYDRATE 94 g
+  Line 08 │ OFWHICH SUGARS 390
+  Line 09 │ PROTEIN 0.19
+  Line 10 │ SAT
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  18.2px  [2 tokens]
+    → UK/AUS | PR.100g
+  Line 02  y=  39.5px  [1 tokens]
+    → VELLE NUTRITIONALINFO
+  Line 03  y=  59.5px  [2 tokens]
+    → ENERGY | 1567/374kJ/KCAL
+  Line 04  y=  79.8px  [3 tokens]
+    → FAT | 0 | g
+  Line 05  y=  98.0px  [1 tokens]
+    → OFWHICH
+  Line 06  y= 112.2px  [3 tokens]
+    → SATURATES | 0 | g
+  Line 07  y= 130.5px  [3 tokens]
+    → CARBOHYDRATE | 94 | g
+  Line 08  y= 148.2px  [2 tokens]
+    → OFWHICH SUGARS | 390
+  Line 09  y= 164.8px  [2 tokens]
+    → PROTEIN | 0.19
+  Line 10  y= 179.0px  [1 tokens]
+    → SAT
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       6  UK/AUS
+     1     0       7      14  PR.100g
+     2     1      15      36  VELLE NUTRITIONALINFO
+     4     2      37      43  ENERGY
+     3     2      44      59  1567/374kJ/KCAL
+     5     3      60      63  FAT
+     6     3      64      65  0
+     7     3      66      67  g
+     8     4      68      75  OFWHICH
+    11     5      76      85  SATURATES
+     9     5      86      87  0
+    10     5      88      89  g
+    12     6      90     102  CARBOHYDRATE
+    13     6     103     105  94
+    14     6     106     107  g
+    15     7     108     122  OFWHICH SUGARS
+    16     7     123     126  390
+    17     8     127     134  PROTEIN
+    18     8     135     139  0.19
+    19     9     140     143  SAT
+
+=================================================================

@@ -1,0 +1,39 @@
+=================================================================
+  IMAGE: 112.jpeg
+  OCR tokens (after corrector): 8
+  Serialized tokens:            8
+  Visual lines detected:        4
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Vitamine
+  Line 02 │ 1 Tagesdosis (8 ml) %NRV*je Tagesdosis
+  Line 03 │ VitaminB12 17.5 g 700%
+  Line 04 │ *NRV(nutrientreference value=
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  59.5px  [1 tokens]
+    → Vitamine
+  Line 02  y= 112.2px  [2 tokens]
+    → 1 Tagesdosis (8 ml) | %NRV*je Tagesdosis
+  Line 03  y= 159.5px  [4 tokens]
+    → VitaminB12 | 17.5 | g | 700%
+  Line 04  y= 232.0px  [1 tokens]
+    → *NRV(nutrientreference value=
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       8  Vitamine
+     2     1       9      28  1 Tagesdosis (8 ml)
+     1     1      29      47  %NRV*je Tagesdosis
+     4     2      48      58  VitaminB12
+     5     2      59      63  17.5
+     6     2      64      65  g
+     3     2      66      70  700%
+     7     3      71     100  *NRV(nutrientreference value=
+
+=================================================================

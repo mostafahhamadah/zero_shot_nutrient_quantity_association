@@ -1,0 +1,21 @@
+{
+    "image_id": "78.jpeg",
+    "nutrients": [
+        {
+            "nutrient": "Vitamin D",
+            "quantity": "50",
+            "unit": "µg",
+            "context": "per_serving",
+            "nrv_percent": "1000",
+            "serving_size": "pro Kapsel"
+        },
+        {
+            "nutrient": "Vitamin D",
+            "quantity": "2000",
+            "unit": "I.E.",
+            "context": "per_serving",
+            "nrv_percent": "1000",
+            "serving_size": "pro Kapsel"
+        }
+    ]
+}

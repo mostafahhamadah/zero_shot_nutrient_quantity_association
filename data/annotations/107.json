@@ -1,0 +1,85 @@
+{
+    "image_id": "107.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Vitamin B1",
+            "quantity": "1.1",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (4.3 g)*"
+        },
+        {
+            "nutrient": "Vitamin B2",
+            "quantity": "1.4",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (4.3 g)*"
+        },
+        {
+            "nutrient": "Vitamin B6",
+            "quantity": "1.4",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (4.3 g)*"
+        },
+        {
+            "nutrient": "Vitamin B12",
+            "quantity": "2.5",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (4.3 g)*"
+        },
+        {
+            "nutrient": "Vitamin C",
+            "quantity": "80",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (4.3 g)*"
+        },
+        {
+            "nutrient": "Vitamin E",
+            "quantity": "12",
+            "unit": "mg α-TE",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (4.3 g)*"
+        },
+        {
+            "nutrient": "Niacin",
+            "quantity": "16",
+            "unit": "mg NE",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (4.3 g)*"
+        },
+        {
+            "nutrient": "Biotin",
+            "quantity": "50",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (4.3 g)*"
+        },
+        {
+            "nutrient": "Folsäure",
+            "quantity": "200",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (4.3 g)*"
+        },
+        {
+            "nutrient": "Pantothensäure",
+            "quantity": "6",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (4.3 g)*"
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "image_id": "116.jpeg",
+    "nutrients": [
+        {
+            "nutrient": "ENERGIE",
+            "quantity": "1696",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "ENERGIE",
+            "quantity": "404",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "FETT:",
+            "quantity": "12.0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "- DAVON GESÄTTIGTE FETTSÄUREN",
+            "quantity": "1.4",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "KOHLENHYDRATE:",
+            "quantity": "27.0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "- DAVON ZUCKER",
+            "quantity": "4.6",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "BALLASTSTOFFE",
+            "quantity": "12.0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "EIWEIẞ",
+            "quantity": "41.0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "SALZ",
+            "quantity": "2.02",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "ENERGIE",
+            "quantity": "509",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": "6",
+            "serving_size": "PORTION**"
+        },
+        {
+            "nutrient": "ENERGIE",
+            "quantity": "121",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": "6",
+            "serving_size": "PORTION**"
+        },
+        {
+            "nutrient": "FETT:",
+            "quantity": "3.5",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": "5",
+            "serving_size": "PORTION**"
+        },
+        {
+            "nutrient": "- DAVON GESÄTTIGTE FETTSÄUREN",
+            "quantity": "0.4",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": "2",
+            "serving_size": "PORTION**"
+        },
+        {
+            "nutrient": "KOHLENHYDRATE:",
+            "quantity": "8.2",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": "3",
+            "serving_size": "PORTION**"
+        },
+        {
+            "nutrient": "- DAVON ZUCKER",
+            "quantity": "1.4",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": "2",
+            "serving_size": "PORTION**"
+        },
+        {
+            "nutrient": "BALLASTSTOFFE",
+            "quantity": "3.7",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "PORTION**"
+        },
+        {
+            "nutrient": "EIWEIẞ",
+            "quantity": "12.0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": "24",
+            "serving_size": "PORTION**"
+        },
+        {
+            "nutrient": "SALZ",
+            "quantity": "0.61",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": "10",
+            "serving_size": "PORTION**"
+        }
+    ]
+}

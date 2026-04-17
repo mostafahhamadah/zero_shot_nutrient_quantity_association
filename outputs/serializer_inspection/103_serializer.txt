@@ -1,0 +1,99 @@
+=================================================================
+  IMAGE: 103.jpeg
+  OCR tokens (after corrector): 44
+  Serialized tokens:            44
+  Visual lines detected:        12
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Durchschnittliche pro pro Port.
+  Line 02 │ Nahrwerte 100g 12g)
+  Line 03 │ 1383kJ/ 166k/
+  Line 04 │ Energie 328 kcal 39 kcal
+  Line 05 │ Fett 3.7 g 6t'0
+  Line 06 │ davon gesattigte 0.4 g Og
+  Line 07 │ Fettsauren
+  Line 08 │ Kohlenhydrate 51 g 6.1 g
+  Line 09 │ davon Zucker 51 g 6.1 g
+  Line 10 │ Ballaststoffe 16 g 1.9 g
+  Line 11 │ Eiweiss 7.7 g 66.0
+  Line 12 │ Salz Og Og
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  33.2px  [3 tokens]
+    → Durchschnittliche | pro | pro Port.
+  Line 02  y=  46.5px  [3 tokens]
+    → Nahrwerte | 100g | 12g)
+  Line 03  y=  62.0px  [2 tokens]
+    → 1383kJ/ | 166k/
+  Line 04  y=  74.3px  [5 tokens]
+    → Energie | 328 | kcal | 39 | kcal
+  Line 05  y=  90.9px  [4 tokens]
+    → Fett | 3.7 | g | 6t'0
+  Line 06  y= 108.8px  [4 tokens]
+    → davon gesattigte | 0.4 | g | Og
+  Line 07  y= 118.5px  [1 tokens]
+    → Fettsauren
+  Line 08  y= 136.3px  [5 tokens]
+    → Kohlenhydrate | 51 | g | 6.1 | g
+  Line 09  y= 151.7px  [5 tokens]
+    → davon Zucker | 51 | g | 6.1 | g
+  Line 10  y= 171.7px  [5 tokens]
+    → Ballaststoffe | 16 | g | 1.9 | g
+  Line 11  y= 190.5px  [4 tokens]
+    → Eiweiss | 7.7 | g | 66.0
+  Line 12  y= 210.3px  [3 tokens]
+    → Salz | Og | Og
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      17  Durchschnittliche
+     1     0      18      21  pro
+     2     0      22      31  pro Port.
+     4     1      32      41  Nahrwerte
+     3     1      42      46  100g
+     5     1      47      51  12g)
+     6     2      52      59  1383kJ/
+     7     2      60      65  166k/
+     8     3      66      73  Energie
+     9     3      74      77  328
+    10     3      78      82  kcal
+    11     3      83      85  39
+    12     3      86      90  kcal
+    16     4      91      95  Fett
+    13     4      96      99  3.7
+    14     4     100     101  g
+    15     4     102     106  6t'0
+    17     5     107     123  davon gesattigte
+    18     5     124     127  0.4
+    19     5     128     129  g
+    20     5     130     132  Og
+    21     6     133     143  Fettsauren
+    24     7     144     157  Kohlenhydrate
+    22     7     158     160  51
+    23     7     161     162  g
+    25     7     163     166  6.1
+    26     7     167     168  g
+    29     8     169     181  davon Zucker
+    27     8     182     184  51
+    28     8     185     186  g
+    30     8     187     190  6.1
+    31     8     191     192  g
+    32     9     193     206  Ballaststoffe
+    33     9     207     209  16
+    34     9     210     211  g
+    35     9     212     215  1.9
+    36     9     216     217  g
+    39    10     218     225  Eiweiss
+    37    10     226     229  7.7
+    38    10     230     231  g
+    40    10     232     236  66.0
+    43    11     237     241  Salz
+    41    11     242     244  Og
+    42    11     245     247  Og
+
+=================================================================

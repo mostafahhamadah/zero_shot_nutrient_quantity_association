@@ -1,0 +1,108 @@
+=================================================================
+  IMAGE: 59.jpeg
+  OCR tokens (after corrector): 44
+  Serialized tokens:            44
+  Visual lines detected:        15
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Durchschn.Gealt
+  Line 02 │ Average Value per 100g powder per Daily Diet1 Portion=20g powder
+  Line 03 │ BewenergyValuc1391k330kcal 278kl66ca
+  Line 04 │ Eacib/Protein 07 g
+  Line 05 │ Ketienbydrate/Carbobydrate 69.99
+  Line 06 │ onZucker/ofwhich Sugars 644 g
+  Line 07 │ danrctose/olwhchFructose 63.7g
+  Line 08 │ Feti/fat 0.3 g
+  Line 09 │ of wtich Saturates davon gesattigte Fetisauren <0.3 g 61.0>
+  Line 10 │ Blasofe/Fibe 25 g 5 g
+  Line 11 │ Natum/Sadium <0.1 g <0.02 g
+  Line 12 │ YeamnC Sheni Seerium 150g273% 30g55
+  Line 13 │ VzaminE 300mg375% 60 mg
+  Line 14 │ 50mgcTE417% 10inga
+  Line 15 │ 3334%
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  43.0px  [1 tokens]
+    → Durchschn.Gealt
+  Line 02  y=  66.0px  [3 tokens]
+    → Average Value | per 100g powder | per Daily Diet1 Portion=20g powder
+  Line 03  y=  92.2px  [2 tokens]
+    → BewenergyValuc1391k330kcal | 278kl66ca
+  Line 04  y= 111.8px  [3 tokens]
+    → Eacib/Protein | 07 | g
+  Line 05  y= 134.5px  [2 tokens]
+    → Ketienbydrate/Carbobydrate | 69.99
+  Line 06  y= 155.0px  [3 tokens]
+    → onZucker/ofwhich Sugars | 644 | g
+  Line 07  y= 172.0px  [1 tokens]
+    → danrctose/olwhchFructose 63.7g
+  Line 08  y= 195.2px  [3 tokens]
+    → Feti/fat | 0.3 | g
+  Line 09  y= 217.9px  [5 tokens]
+    → of wtich Saturates | davon gesattigte Fetisauren | <0.3 | g | 61.0>
+  Line 10  y= 256.7px  [5 tokens]
+    → Blasofe/Fibe | 25 | g | 5 | g
+  Line 11  y= 277.3px  [5 tokens]
+    → Natum/Sadium | <0.1 | g | <0.02 | g
+  Line 12  y= 300.8px  [4 tokens]
+    → YeamnC | Sheni Seerium | 150g273% | 30g55
+  Line 13  y= 323.9px  [4 tokens]
+    → VzaminE | 300mg375% | 60 | mg
+  Line 14  y= 344.5px  [2 tokens]
+    → 50mgcTE417% | 10inga
+  Line 15  y= 362.0px  [1 tokens]
+    → 3334%
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      15  Durchschn.Gealt
+     1     1      16      29  Average Value
+     2     1      30      45  per 100g powder
+     3     1      46      80  per Daily Diet1 Portion=20g powder
+     4     2      81     107  BewenergyValuc1391k330kcal
+     5     2     108     117  278kl66ca
+     6     3     118     131  Eacib/Protein
+     7     3     132     134  07
+     8     3     135     136  g
+     9     4     137     163  Ketienbydrate/Carbobydrate
+    10     4     164     169  69.99
+    11     5     170     193  onZucker/ofwhich Sugars
+    12     5     194     197  644
+    13     5     198     199  g
+    14     6     200     230  danrctose/olwhchFructose 63.7g
+    15     7     231     239  Feti/fat
+    16     7     240     243  0.3
+    17     7     244     245  g
+    22     8     246     264  of wtich Saturates
+    18     8     265     292  davon gesattigte Fetisauren
+    20     8     293     297  <0.3
+    21     8     298     299  g
+    19     8     300     305  61.0>
+    23     9     306     318  Blasofe/Fibe
+    26     9     319     321  25
+    27     9     322     323  g
+    24     9     324     325  5
+    25     9     326     327  g
+    28    10     328     340  Natum/Sadium
+    31    10     341     345  <0.1
+    32    10     346     347  g
+    29    10     348     353  <0.02
+    30    10     354     355  g
+    36    11     356     362  YeamnC
+    33    11     363     376  Sheni Seerium
+    35    11     377     385  150g273%
+    34    11     386     391  30g55
+    40    12     392     399  VzaminE
+    39    12     400     409  300mg375%
+    37    12     410     412  60
+    38    12     413     415  mg
+    42    13     416     427  50mgcTE417%
+    41    13     428     434  10inga
+    43    14     435     440  3334%
+
+=================================================================

@@ -1,0 +1,77 @@
+{
+    "image_id": "109.jpeg",
+    "nutrients": [
+        {
+            "nutrient": "Brennwert",
+            "quantity": "420",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Brennwert",
+            "quantity": "99",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Fett",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "- davon gesättigte Fettsäuren",
+            "quantity": "0.2",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Kohlenhydrate",
+            "quantity": "12.0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "- davon Zucker",
+            "quantity": "9.8",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Ballaststoffe",
+            "quantity": "1.5",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Eiweiß",
+            "quantity": "11.0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Salz",
+            "quantity": "0.05",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        }
+    ]
+}

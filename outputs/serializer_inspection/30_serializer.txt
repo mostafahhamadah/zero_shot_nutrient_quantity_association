@@ -1,0 +1,81 @@
+=================================================================
+  IMAGE: 30.jpeg
+  OCR tokens (after corrector): 29
+  Serialized tokens:            29
+  Visual lines detected:        11
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ AUS NUTRITION INFORMATION
+  Line 02 │ Per Bar 55g Per100g
+  Line 03 │ TYPICALVALUES
+  Line 04 │ ENERGY kJ/kcal 907/215 1649/391
+  Line 05 │ protein 2.7 4.8
+  Line 06 │ FAT:(9 5.0 9.1
+  Line 07 │ -SATURATED FAT g 2.7 4.9
+  Line 08 │ carbohydrate 39 71
+  Line 09 │ -SUGARSg 19 35
+  Line 10 │ dietary fibre 2.0 3.6
+  Line 11 │ SODIUM(mg) 70 130
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  52.5px  [2 tokens]
+    → AUS | NUTRITION INFORMATION
+  Line 02  y=  88.5px  [2 tokens]
+    → Per Bar 55g | Per100g
+  Line 03  y= 111.5px  [1 tokens]
+    → TYPICALVALUES
+  Line 04  y= 139.2px  [3 tokens]
+    → ENERGY kJ/kcal | 907/215 | 1649/391
+  Line 05  y= 165.3px  [3 tokens]
+    → protein | 2.7 | 4.8
+  Line 06  y= 190.8px  [3 tokens]
+    → FAT:(9 | 5.0 | 9.1
+  Line 07  y= 217.5px  [3 tokens]
+    → -SATURATED FAT g | 2.7 | 4.9
+  Line 08  y= 242.2px  [3 tokens]
+    → carbohydrate | 39 | 71
+  Line 09  y= 266.2px  [3 tokens]
+    → -SUGARSg | 19 | 35
+  Line 10  y= 290.8px  [3 tokens]
+    → dietary fibre | 2.0 | 3.6
+  Line 11  y= 313.7px  [3 tokens]
+    → SODIUM(mg) | 70 | 130
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       3  AUS
+     1     0       4      25  NUTRITION INFORMATION
+     3     1      26      37  Per Bar 55g
+     2     1      38      45  Per100g
+     4     2      46      59  TYPICALVALUES
+     5     3      60      74  ENERGY kJ/kcal
+     7     3      75      82  907/215
+     6     3      83      91  1649/391
+     8     4      92      99  protein
+    10     4     100     103  2.7
+     9     4     104     107  4.8
+    11     5     108     114  FAT:(9
+    13     5     115     118  5.0
+    12     5     119     122  9.1
+    14     6     123     139  -SATURATED FAT g
+    16     6     140     143  2.7
+    15     6     144     147  4.9
+    18     7     148     160  carbohydrate
+    19     7     161     163  39
+    17     7     164     166  71
+    20     8     167     175  -SUGARSg
+    22     8     176     178  19
+    21     8     179     181  35
+    23     9     182     195  dietary fibre
+    25     9     196     199  2.0
+    24     9     200     203  3.6
+    26    10     204     214  SODIUM(mg)
+    27    10     215     217  70
+    28    10     218     221  130
+
+=================================================================

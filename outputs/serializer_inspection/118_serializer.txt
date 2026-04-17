@@ -1,0 +1,113 @@
+=================================================================
+  IMAGE: 118.jpeg
+  OCR tokens (after corrector): 52
+  Serialized tokens:            52
+  Visual lines detected:        14
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ UADZORLON
+  Line 02 │ KNOCHEN BEI. PROPORTION(80g) pro 100g
+  Line 03 │ DURCHSCHNITTLICHENAHRWERTE
+  Line 04 │ 1152/275 1440/344
+  Line 05 │ ENERGIE kJ/kcal 8.0 g 10 g
+  Line 06 │ FETT: 2.1 g 2.6 g
+  Line 07 │ -DAVON GESATTIGTEFETTSAUREN 38 g 48 g
+  Line 08 │ KOHLENHYDRATE: 3.2 g 4.0 g
+  Line 09 │ -DAVONZUCKER 17 g 21 g
+  Line 10 │ -DAVONMEHRWERTIGEALKOHOLE 2.4 g 3.0 g
+  Line 11 │ Ballaststoffe 19 g 24 g
+  Line 12 │ Eiweiss 0.56 g 0.70 g
+  Line 13 │ SALZ WEITEREKENNZEICHNUNG
+  Line 14 │ TLTEINEPORTION(8O) ZUTATENVERZEICHNIS
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  11.5px  [1 tokens]
+    → UADZORLON
+  Line 02  y=  56.8px  [3 tokens]
+    → KNOCHEN BEI. | PROPORTION(80g) | pro 100g
+  Line 03  y=  98.0px  [1 tokens]
+    → DURCHSCHNITTLICHENAHRWERTE
+  Line 04  y= 127.8px  [2 tokens]
+    → 1152/275 | 1440/344
+  Line 05  y= 169.7px  [6 tokens]
+    → ENERGIE | kJ/kcal | 8.0 | g | 10 | g
+  Line 06  y= 206.8px  [5 tokens]
+    → FETT: | 2.1 | g | 2.6 | g
+  Line 07  y= 238.5px  [5 tokens]
+    → -DAVON GESATTIGTEFETTSAUREN | 38 | g | 48 | g
+  Line 08  y= 277.4px  [5 tokens]
+    → KOHLENHYDRATE: | 3.2 | g | 4.0 | g
+  Line 09  y= 312.8px  [5 tokens]
+    → -DAVONZUCKER | 17 | g | 21 | g
+  Line 10  y= 345.3px  [5 tokens]
+    → -DAVONMEHRWERTIGEALKOHOLE | 2.4 | g | 3.0 | g
+  Line 11  y= 382.6px  [5 tokens]
+    → Ballaststoffe | 19 | g | 24 | g
+  Line 12  y= 418.3px  [5 tokens]
+    → Eiweiss | 0.56 | g | 0.70 | g
+  Line 13  y= 468.8px  [2 tokens]
+    → SALZ | WEITEREKENNZEICHNUNG
+  Line 14  y= 494.0px  [2 tokens]
+    → TLTEINEPORTION(8O) | ZUTATENVERZEICHNIS
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       9  UADZORLON
+     1     1      10      22  KNOCHEN BEI.
+     3     1      23      38  PROPORTION(80g)
+     2     1      39      47  pro 100g
+     4     2      48      74  DURCHSCHNITTLICHENAHRWERTE
+     6     3      75      83  1152/275
+     5     3      84      92  1440/344
+    11     4      93     100  ENERGIE
+    12     4     101     108  kJ/kcal
+     9     4     109     112  8.0
+    10     4     113     114  g
+     7     4     115     117  10
+     8     4     118     119  g
+    17     5     120     125  FETT:
+    15     5     126     129  2.1
+    16     5     130     131  g
+    13     5     132     135  2.6
+    14     5     136     137  g
+    18     6     138     165  -DAVON GESATTIGTEFETTSAUREN
+    21     6     166     168  38
+    22     6     169     170  g
+    19     6     171     173  48
+    20     6     174     175  g
+    27     7     176     190  KOHLENHYDRATE:
+    25     7     191     194  3.2
+    26     7     195     196  g
+    23     7     197     200  4.0
+    24     7     201     202  g
+    32     8     203     215  -DAVONZUCKER
+    28     8     216     218  17
+    29     8     219     220  g
+    30     8     221     223  21
+    31     8     224     225  g
+    33     9     226     251  -DAVONMEHRWERTIGEALKOHOLE
+    34     9     252     255  2.4
+    35     9     256     257  g
+    36     9     258     261  3.0
+    37     9     262     263  g
+    42    10     264     277  Ballaststoffe
+    38    10     278     280  19
+    39    10     281     282  g
+    40    10     283     285  24
+    41    10     286     287  g
+    47    11     288     295  Eiweiss
+    43    11     296     300  0.56
+    44    11     301     302  g
+    45    11     303     307  0.70
+    46    11     308     309  g
+    48    12     310     314  SALZ
+    49    12     315     335  WEITEREKENNZEICHNUNG
+    50    13     336     354  TLTEINEPORTION(8O)
+    51    13     355     373  ZUTATENVERZEICHNIS
+
+=================================================================

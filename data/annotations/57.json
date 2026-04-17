@@ -1,0 +1,85 @@
+{
+    "image_id": "57.jpeg",
+    "nutrients": [
+        {
+            "nutrient": "Brennwert ...... Energie",
+            "quantity": "383",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Brennwert ...... Energie",
+            "quantity": "1604",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Eiweiß ..... Protéines",
+            "quantity": "83",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Kohlenhydrate ... Glucides",
+            "quantity": "3.67",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Fett ........... Lipides",
+            "quantity": "4.3",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Brennwert ...... Energie",
+            "quantity": "23",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "pro Esslöffel (6 g)"
+        },
+        {
+            "nutrient": "Brennwert ...... Energie",
+            "quantity": "96.2",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "pro Esslöffel (6 g)"
+        },
+        {
+            "nutrient": "Eiweiß ..... Protéines",
+            "quantity": "4.99",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "pro Esslöffel (6 g)"
+        },
+        {
+            "nutrient": "Kohlenhydrate ... Glucides",
+            "quantity": "0.22",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "pro Esslöffel (6 g)"
+        },
+        {
+            "nutrient": "Fett ........... Lipides",
+            "quantity": "0.26",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "pro Esslöffel (6 g)"
+        }
+    ]
+}

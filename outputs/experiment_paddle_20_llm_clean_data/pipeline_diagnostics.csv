@@ -1,0 +1,2 @@
+ocr_total_tokens,ocr_zero_images,corrector_splits,corrector_changed,clf_total_tokens,clf_below_threshold,clf_NUTRIENT,clf_QUANTITY,clf_UNIT,clf_CONTEXT,clf_NOISE,clf_UNKNOWN,graph_nodes,graph_edges,edge_SAME_ROW,edge_SAME_COL,edge_ADJACENT,edge_CONTEXT_SCOPE,assoc_tuples,assoc_no_ctx,assoc_no_qty
+1792,0,534,677,2326,0,487,629,540,78,208,384,2118,39467,12528,19956,6334,649,866,79,97

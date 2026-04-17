@@ -1,0 +1,68 @@
+=================================================================
+  IMAGE: 110.jpeg
+  OCR tokens (after corrector): 28
+  Serialized tokens:            28
+  Visual lines detected:        7
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Zusammensetzung
+  Line 02 │ pro Stick % NRV* pro2 Sticks %NRV
+  Line 03 │ Melissen Extrakt 15 mg *+ 30 mg **
+  Line 04 │ Niacin 8.0 mg NE 50% 16 mg NE 100%
+  Line 05 │ Pantothensaure 3.0 mg 50% 6.0 mg 100%
+  Line 06 │ *NRV=Nahrstoffbezugswert gemaB Lebensmittelinformationsverordnung
+  Line 07 │ **Kein NRVvorhanden.
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y= 253.0px  [1 tokens]
+    → Zusammensetzung
+  Line 02  y= 318.2px  [4 tokens]
+    → pro Stick | % NRV* | pro2 Sticks | %NRV
+  Line 03  y= 369.2px  [7 tokens]
+    → Melissen Extrakt | 15 | mg | *+ | 30 | mg | **
+  Line 04  y= 425.5px  [7 tokens]
+    → Niacin | 8.0 | mg NE | 50% | 16 | mg NE | 100%
+  Line 05  y= 480.3px  [7 tokens]
+    → Pantothensaure | 3.0 | mg | 50% | 6.0 | mg | 100%
+  Line 06  y= 571.0px  [1 tokens]
+    → *NRV=Nahrstoffbezugswert gemaB Lebensmittelinformationsverordnung
+  Line 07  y= 612.5px  [1 tokens]
+    → **Kein NRVvorhanden.
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      15  Zusammensetzung
+     1     1      16      25  pro Stick
+     2     1      26      32  % NRV*
+     3     1      33      44  pro2 Sticks
+     4     1      45      49  %NRV
+     5     2      50      66  Melissen Extrakt
+     7     2      67      69  15
+     8     2      70      72  mg
+     6     2      73      75  *+
+    10     2      76      78  30
+    11     2      79      81  mg
+     9     2      82      84  **
+    12     3      85      91  Niacin
+    13     3      92      95  8.0
+    14     3      96     101  mg NE
+    15     3     102     105  50%
+    16     3     106     108  16
+    17     3     109     114  mg NE
+    18     3     115     119  100%
+    19     4     120     134  Pantothensaure
+    20     4     135     138  3.0
+    21     4     139     141  mg
+    22     4     142     145  50%
+    23     4     146     149  6.0
+    24     4     150     152  mg
+    25     4     153     157  100%
+    26     5     158     223  *NRV=Nahrstoffbezugswert gemaB Lebensmittelinformationsverordnung
+    27     6     224     244  **Kein NRVvorhanden.
+
+=================================================================

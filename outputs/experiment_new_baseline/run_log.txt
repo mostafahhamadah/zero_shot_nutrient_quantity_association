@@ -1,0 +1,11 @@
+Experiment : experiment_new_baseline
+Schema     : nutrient|quantity|unit|context
+Timestamp  : 2026-03-29T23:31:44.126649
+Notes      : 
+
+Full Tuple Precision : 2.6%
+Full Tuple Recall    : 1.0%
+Full Tuple F1        : 1.5%
+Nutrient F1          : 0.330
+Unit Acc             : 49.2%
+Context Acc          : 24.6%

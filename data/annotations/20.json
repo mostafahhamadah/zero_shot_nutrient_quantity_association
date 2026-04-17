@@ -1,0 +1,389 @@
+{
+    "image_id": "20.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Brennwert/Energy Value",
+            "quantity": "1474",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Brennwert/Energy Value",
+            "quantity": "346",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Eiweiß/Protein",
+            "quantity": "0.1",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Kohlenhydrate/Carbohydrate",
+            "quantity": "78.1",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Fett/Fat",
+            "quantity": "0.5",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Natrium/Sodium",
+            "quantity": "667",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Kalium/Potassium",
+            "quantity": "667",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Calcium",
+            "quantity": "800",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "100",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Magnesium",
+            "quantity": "300",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "100",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Chlorid/Chloride",
+            "quantity": "667",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Phosphor/Phosphorus",
+            "quantity": "800",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "100",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Selen/Selenium",
+            "quantity": "200",
+            "unit": "µg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Koffein (aus Guaranatrankpulver) / Caffeine (from Guarana extract powder)",
+            "quantity": "250",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Vitamin C",
+            "quantity": "800",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "1333",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Niacin",
+            "quantity": "240",
+            "unit": "mg NE",
+            "context": "per_100g",
+            "nrv_percent": "1333",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Vitamin E",
+            "quantity": "67",
+            "unit": "mg α-TE",
+            "context": "per_100g",
+            "nrv_percent": "667",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Pantothensäure/Pantothenic Acid",
+            "quantity": "40",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "667",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Vitamin B6",
+            "quantity": "13.3",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "667",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Vitamin B2",
+            "quantity": "10.7",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "667",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Vitamin B1",
+            "quantity": "9.3",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "667",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Folsäure/Folic Acid",
+            "quantity": "1333",
+            "unit": "µg",
+            "context": "per_100g",
+            "nrv_percent": "667",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Vitamin B12",
+            "quantity": "6.7",
+            "unit": "µg",
+            "context": "per_100g",
+            "nrv_percent": "667",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Biotin",
+            "quantity": "1000",
+            "unit": "µg",
+            "context": "per_100g",
+            "nrv_percent": "667",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Vitamin A (aus/from Provitamin A)",
+            "quantity": "2220",
+            "unit": "µg RE",
+            "context": "per_100g",
+            "nrv_percent": "280",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Brennwert/Energy Value",
+            "quantity": "223",
+            "unit": "kJ",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Brennwert/Energy Value",
+            "quantity": "52",
+            "unit": "kcal",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Eiweiß/Protein",
+            "quantity": "0.1",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Kohlenhydrate/Carbohydrate",
+            "quantity": "11.7",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Fett/Fat",
+            "quantity": "0.1",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Natrium/Sodium",
+            "quantity": "100",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Kalium/Potassium",
+            "quantity": "100",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "5",
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Calcium",
+            "quantity": "120",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "15",
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Magnesium",
+            "quantity": "45",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "15",
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Chlorid/Chloride",
+            "quantity": "120",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "12.5",
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Phosphor/Phosphorus",
+            "quantity": "120",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "15",
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Selen/Selenium",
+            "quantity": "33",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "55",
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Koffein (aus Guaranatrankpulver) / Caffeine (from Guarana extract powder)",
+            "quantity": "37.5",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Vitamin C",
+            "quantity": "37.5",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "200",
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Niacin",
+            "quantity": "16",
+            "unit": "mg NE",
+            "context": "per_daily_dose",
+            "nrv_percent": "200",
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Vitamin E",
+            "quantity": "10",
+            "unit": "mg α-TE",
+            "context": "per_daily_dose",
+            "nrv_percent": "100",
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Pantothensäure/Pantothenic Acid",
+            "quantity": "6",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "100",
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Vitamin B6",
+            "quantity": "1",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "100",
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Vitamin B2",
+            "quantity": "1.6",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "100",
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Vitamin B1",
+            "quantity": "200",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "100",
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Folsäure/Folic Acid",
+            "quantity": "200",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "100",
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Vitamin B12",
+            "quantity": "1",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "100",
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Biotin",
+            "quantity": "153",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "100",
+            "serving_size": "1 Portion = 15 g"
+        },
+        {
+            "nutrient": "Vitamin A (aus/from Provitamin A)",
+            "quantity": "225",
+            "unit": "µg RE",
+            "context": "per_daily_dose",
+            "nrv_percent": "42",
+            "serving_size": "1 Portion = 15 g"
+        }
+    ]
+}

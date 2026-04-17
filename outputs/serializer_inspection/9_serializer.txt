@@ -1,0 +1,49 @@
+=================================================================
+  IMAGE: 9.jpeg
+  OCR tokens (after corrector): 12
+  Serialized tokens:            12
+  Visual lines detected:        6
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ und in Zeiten ertohten Bedarts ist auf eine ausreichende Ven
+  Line 02 │ Vitamin Czuachten
+  Line 03 │ Nahrwertangaben pro1 Tablette pro 2 Tabletten
+  Line 04 │ Zink 5mg50% 10mg.(100%
+  Line 05 │ Vitamin C 30mg38% 60mg75%
+  Line 06 │ %der Referenzmenge gema3 Verordnung EU) Nr.1169/2011
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=   8.0px  [1 tokens]
+    → und in Zeiten ertohten Bedarts ist auf eine ausreichende Ven
+  Line 02  y=  19.5px  [1 tokens]
+    → Vitamin Czuachten
+  Line 03  y=  41.7px  [3 tokens]
+    → Nahrwertangaben | pro1 Tablette | pro 2 Tabletten
+  Line 04  y=  56.3px  [3 tokens]
+    → Zink | 5mg50% | 10mg.(100%
+  Line 05  y=  68.7px  [3 tokens]
+    → Vitamin C | 30mg38% | 60mg75%
+  Line 06  y=  81.0px  [1 tokens]
+    → %der Referenzmenge gema3 Verordnung EU) Nr.1169/2011
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      60  und in Zeiten ertohten Bedarts ist auf eine ausreichende Ven
+     1     1      61      78  Vitamin Czuachten
+     2     2      79      94  Nahrwertangaben
+     3     2      95     108  pro1 Tablette
+     4     2     109     124  pro 2 Tabletten
+     5     3     125     129  Zink
+     6     3     130     136  5mg50%
+     7     3     137     147  10mg.(100%
+     8     4     148     157  Vitamin C
+     9     4     158     165  30mg38%
+    10     4     166     173  60mg75%
+    11     5     174     226  %der Referenzmenge gema3 Verordnung EU) Nr.1169/2011
+
+=================================================================

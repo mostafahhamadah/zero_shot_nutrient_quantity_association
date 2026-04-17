@@ -1,0 +1,324 @@
+image_id,gt_nutrient,pred_nutrient,gt_qty,pred_qty,gt_unit,pred_unit,gt_context,pred_context,qty_match,unit_match,ctx_match,full_match_3f,full_match_4f
+1.jpeg,Magnesium (gesamt),Magnesium (gesamt,400,400,mg,mg,per_daily_dose,per_daily_dose,True,True,True,True,True
+1.jpeg,Magnesiumoxid,magnesiumoxid,400,400,mg,mg,per_daily_dose,per_daily_dose,True,True,True,True,True
+1.jpeg,Magnesiummalat,magnesiummalat,333,333,mg,mg,per_daily_dose,per_daily_dose,True,True,True,True,True
+101.jpeg,Energie,Energie,1625,,kJ,,per_100g,per_100g,False,False,True,False,False
+101.jpeg,Fett,Fett,0.8,0.8,g,g,per_100g,per_100g,True,True,True,True,True
+101.jpeg,Kohlenhydrate,Kohlenhydrate,86.1,86.1,g,g,per_100g,per_100g,True,True,True,True,True
+101.jpeg,Ballaststoffe,Ballaststoffe,3.0,3.0,g,g,per_100g,per_100g,True,True,True,True,True
+101.jpeg,Salz,Salz,0.09,660.0,g,,per_100g,per_100g,False,False,True,False,False
+101.jpeg,Thiamin,Thiamin,0.44,,mg,,per_100g,per_100g,False,False,True,False,False
+101.jpeg,Natrium,Natrium,36,36,mg,mg,per_100g,per_100g,True,True,True,True,True
+102.jpeg,Energie,Energie,1502,7.7,kJ,g,per_100g,per_100g,False,False,True,False,False
+102.jpeg,Energie,Energie,356,1.0,kcal,g,per_100g,per_100g,False,False,True,False,False
+102.jpeg,Fett,Fett,7.7,7.7,g,g,per_100g,per_100g,True,True,True,True,True
+102.jpeg,- davon gesättigte Fettsäuren,Fett,1.1,1.1,g,g,per_100g,per_100g,True,True,True,False,False
+102.jpeg,Kohlenhydrate,Kohlenhydrate,63,1.1,g,g,per_100g,per_100g,False,True,True,False,False
+102.jpeg,Ballaststoffe,Ballaststoffe,5.1,5.1,g,g,per_100g,per_100g,True,True,True,True,True
+102.jpeg,Salz,Salz,0.14,0.14,g,g,per_100g,per_100g,True,True,True,True,True
+102.jpeg,Fett,Fett,1.0,1.0,g,g,per_serving,per_100g,True,True,False,True,False
+102.jpeg,Kohlenhydrate,Kohlenhydrate,7.9,31,g,g,per_serving,per_100g,False,True,False,False,False
+102.jpeg,Ballaststoffe,Ballaststoffe,0.6,31,g,g,per_serving,per_100g,False,True,False,False,False
+102.jpeg,Salz,Salz,0.02,0.02,g,g,per_serving,per_100g,True,True,False,True,False
+103.jpeg,Energie,Energie,1383,328,kJ,kcal,per_100g,per_100g,False,False,True,False,False
+103.jpeg,Energie,Energie,328,3.7,kcal,kcal,per_100g,per_100g,False,True,True,False,False
+103.jpeg,Fett,Fett,3.7,3.7,g,kcal,per_100g,per_100g,True,False,True,False,False
+103.jpeg,davon gesättigte Fettsäuren,Fett,0.4,0.4,g,g,per_100g,per_100g,True,True,True,False,False
+103.jpeg,Kohlenhydrate,Kohlenhydrate,51,51,g,g,per_100g,per_100g,True,True,True,True,True
+103.jpeg,davon Zucker,davon Zucker,51,51,g,g,per_100g,per_100g,True,True,True,True,True
+103.jpeg,Ballaststoffe,Ballaststoffe,16,16,g,g,per_100g,per_100g,True,True,True,True,True
+103.jpeg,Salz,Salz,0,7.7,g,g,per_100g,per_100g,False,True,True,False,False
+103.jpeg,Energie,Energie,166,39,kJ,kcal,per_serving,per_100g,False,False,False,False,False
+103.jpeg,Fett,Fett,0.4,328,g,kcal,per_serving,per_100g,False,False,False,False,False
+103.jpeg,Kohlenhydrate,Kohlenhydrate,6.1,6.1,g,g,per_serving,per_100g,True,True,False,True,False
+103.jpeg,davon Zucker,davon Zucker,6.1,16,g,g,per_serving,per_100g,False,True,False,False,False
+103.jpeg,Ballaststoffe,Ballaststoffe,1.9,7.7,g,g,per_serving,per_100g,False,True,False,False,False
+103.jpeg,Salz,Salz,0,66.0,g,g,per_serving,per_100g,False,True,False,False,False
+104.jpeg,Energie,Energie,1528,361,kJ,kcal,per_100g,per_100g,False,False,True,False,False
+104.jpeg,Energie,Energie,361,51,kcal,kcal,per_100g,per_100g,False,True,True,False,False
+104.jpeg,Fett,Fett,2.6,2.6,g,kcal,per_100g,per_100g,True,False,True,False,False
+104.jpeg,davon gesättigte Fettsäuren,Fett,0.6,361,g,kcal,per_100g,per_100g,False,False,True,False,False
+104.jpeg,Kohlenhydrate,Kohlenhydrate,72,72,g,g,per_100g,per_100g,True,True,True,True,True
+104.jpeg,davon Zucker,davon Zucker,72,72,g,g,per_100g,per_100g,True,True,True,True,True
+104.jpeg,Ballaststoffe,Ballaststoffe,10,10,g,g,per_100g,per_100g,True,True,True,True,True
+104.jpeg,Salz,Salz,0.1,0.1,g,g,per_100g,per_100g,True,True,True,True,True
+104.jpeg,Energie,Energie,214,14,kJ,g,per_serving,per_100g,False,False,False,False,False
+104.jpeg,Fett,Fett,0,51,g,kcal,per_serving,per_100g,False,False,False,False,False
+104.jpeg,Kohlenhydrate,Kohlenhydrate,10,0.6,g,g,per_serving,per_100g,False,True,False,False,False
+104.jpeg,davon Zucker,davon Zucker,10,10,g,g,per_serving,per_100g,True,True,False,True,False
+104.jpeg,Ballaststoffe,Ballaststoffe,1.4,3.2,g,g,per_serving,per_100g,False,True,False,False,False
+104.jpeg,Salz,Salz,0,3.2,g,g,per_serving,per_100g,False,True,False,False,False
+105.jpeg,Energie,Energie,1320,313,kJ,kcal,per_100g,per_100g,False,False,True,False,False
+105.jpeg,Energie,Energie,313,38,kcal,kcal,per_100g,per_100g,False,True,True,False,False
+105.jpeg,Fett,Fett,2.7,313,g,kcal,per_100g,per_100g,False,False,True,False,False
+105.jpeg,- davon gesättigte Fettsäuren,Fett,0.4,38,g,kcal,per_100g,per_100g,False,False,True,False,False
+105.jpeg,Kohlenhydrate,Kohlenhydrate 52.1g,52.1,0.4,g,g,per_100g,per_100g,False,True,True,False,False
+105.jpeg,Salz,Salz,0.03,7.0,g,g,per_100g,per_100g,False,True,True,False,False
+105.jpeg,Energie,Energie,158,0.3,kJ,kcal,per_serving,per_100g,False,False,False,False,False
+105.jpeg,Fett,Fett,0.3,0.3,g,kcal,per_serving,per_100g,True,False,False,False,False
+105.jpeg,Kohlenhydrate,Kohlenhydrate 52.1g,6.3,6.3,g,g,per_serving,per_100g,True,True,False,True,False
+105.jpeg,Salz,Salz,0.00,0.00,g,g,per_serving,per_100g,True,True,False,True,False
+106.jpeg,Vitamin E / Vitamine E / Vitamina E / E-vitamin / Vitamin E,VitaminE,12,12,mg α-TE,mg a-te,per_serving,,True,False,False,False,False
+107.jpeg,Vitamin B1,Vitamin B1,1.1,1.1,mg,mg,per_daily_dose,per_daily_dose,True,True,True,True,True
+107.jpeg,Vitamin B2,Vitamin B2,1.4,14,mg,mg,per_daily_dose,per_daily_dose,False,True,True,False,False
+107.jpeg,Vitamin B6,Vitamin B6,1.4,1409,mg,mg,per_daily_dose,per_daily_dose,False,True,True,False,False
+107.jpeg,Vitamin B12,Vitamin B12,2.5,80,µg,mg,per_daily_dose,per_daily_dose,False,False,True,False,False
+107.jpeg,Vitamin E,Vitamin E,12,,mg α-TE,,per_daily_dose,per_daily_dose,False,False,True,False,False
+107.jpeg,Niacin,Niacin,16,5019,mg NE,,per_daily_dose,per_daily_dose,False,False,True,False,False
+107.jpeg,Biotin,Biotin,50,2009,µg,,per_daily_dose,per_daily_dose,False,False,True,False,False
+108.jpeg,Magnesium,Magnesium,240,240,mg,mg,per_daily_dose,per_daily_dose,True,True,True,True,True
+108.jpeg,Vitamin B1,Vitamin B1,1.1,1.1,mg,mg,per_daily_dose,per_daily_dose,True,True,True,True,True
+108.jpeg,Vitamin B2,Vitamin B2,1.4,1.4,mg,mg,per_daily_dose,per_daily_dose,True,True,True,True,True
+108.jpeg,Vitamin B6,Vitamin B6,1.4,1.4,mg,mg,per_daily_dose,per_daily_dose,True,True,True,True,True
+108.jpeg,Vitamin B12,Vitamin B12,2.5,2.519,µg,mg,per_daily_dose,per_daily_dose,False,False,True,False,False
+108.jpeg,Biotin,Biotin,50,509,µg,mg,per_daily_dose,per_daily_dose,False,False,True,False,False
+109.jpeg,Brennwert,Brennwert,420,,kJ,,per_100g,per_100g,False,False,True,False,False
+109.jpeg,Fett,Fett,0,,g,,per_100g,per_100g,False,False,True,False,False
+109.jpeg,Kohlenhydrate,Kohlenhydrate,12.0,12.0,g,g,per_100g,per_100g,True,True,True,True,True
+109.jpeg,Ballaststoffe,Ballaststoffe,1.5,1.5,g,g,per_100g,per_100g,True,True,True,True,True
+109.jpeg,Salz,Salz,0.05,0.05,g,g,per_100g,per_100g,True,True,True,True,True
+110.jpeg,Niacin,Niacin,8.0,8.0,mg NE,mg ne,per_serving,per_serving,True,True,True,True,True
+110.jpeg,Niacin,Niacin,16,16,mg NE,mg ne,per_daily_dose,per_serving,True,True,False,True,False
+111.jpeg,Vitamin B12,Vitamin B12,17.5,17.5,µg,g,per_daily_dose,,True,False,False,False,False
+113.jpeg,ENERGIE kJ,Energie,1546,,kJ,,per_100g,per_serving,False,False,False,False,False
+113.jpeg,FETT,FETT,4.5,4.5,g,g,per_100g,per_serving,True,True,False,True,False
+113.jpeg,DAVON GESÄTTIGTE FETTSÄUREN,FETT,3.1,1.3,g,g,per_100g,per_serving,False,True,False,False,False
+113.jpeg,KOHLENHYDRATE,Kohlenhydrate,7.7,17,g,g,per_100g,per_serving,False,True,False,False,False
+113.jpeg,BALLASTSTOFFE,Ballaststoffe,1.9,1.9,g,g,per_100g,per_serving,True,True,False,True,False
+113.jpeg,SALZ,SALZ,0.53,72.7,g,g,per_100g,per_serving,False,True,False,False,False
+113.jpeg,KOFFEIN,KOFFEIN,267,80,mg,mg,per_100g,per_serving,False,True,False,False,False
+113.jpeg,FETT,DAVONGESATTIGTE FETTSAUREN,1.3,3.1,g,g,per_serving,per_serving,False,True,True,False,False
+113.jpeg,KOHLENHYDRATE,Kohlenhydrate,2.3,2.3,g,g,per_serving,per_serving,True,True,True,True,True
+113.jpeg,BALLASTSTOFFE,Ballaststoffe,0.6,0.6,g,g,per_serving,per_serving,True,True,True,True,True
+113.jpeg,SALZ,SALZ,0.17,145,g,g,per_serving,per_serving,False,True,True,False,False
+114.jpeg,ENERGIE,Energie,1541,,kJ,,per_100g,per_serving,False,False,False,False,False
+114.jpeg,FETT,FETT,4.8,4.8,g,g,per_100g,per_serving,True,True,False,True,False
+114.jpeg,DAVON GESÄTTIGTE FETTSÄUREN,FETT,3.3,148,g,g,per_100g,per_serving,False,True,False,False,False
+114.jpeg,KOHLENHYDRATE,Kohlenhydrate,8.8,8.8,g,g,per_100g,per_serving,True,True,False,True,False
+114.jpeg,BALLASTSTOFFE,Ballaststoffe,2.8,2.8,g,g,per_100g,per_serving,True,True,False,True,False
+114.jpeg,SALZ,SALZ,0.51,0.51,g,g,per_100g,per_serving,True,True,False,True,False
+114.jpeg,KOFFEIN,KOFFEIN,268,268,mg,mg,per_100g,,True,True,False,True,False
+114.jpeg,FETT,DAVONGESATTIGTEFETTSAUREN,1.4,3.3,g,g,per_serving,per_serving,False,True,True,False,False
+114.jpeg,KOHLENHYDRATE,Kohlenhydrate,2.6,2.6,g,g,per_serving,per_serving,True,True,True,True,True
+114.jpeg,BALLASTSTOFFE,Ballaststoffe,0.9,0.9,g,g,per_serving,per_serving,True,True,True,True,True
+114.jpeg,SALZ,SALZ,0.17,0.17,g,g,per_serving,per_serving,True,True,True,True,True
+114.jpeg,KOFFEIN,KOFFEIN,80,80,mg,mg,per_serving,,True,True,False,True,False
+115.jpeg,Brennwert,Brennwert,438,,kJ,,per_100g,per_100g,False,False,True,False,False
+115.jpeg,Fett,Fett,0,,g,,per_100g,per_100g,False,False,True,False,False
+115.jpeg,Kohlenhydrate,Kohlenhydrate,12.0,10.0,g,g,per_100g,per_100g,False,True,True,False,False
+115.jpeg,Ballaststoffe,Ballaststoffe,1.6,11.0,g,g,per_100g,per_100g,False,True,True,False,False
+115.jpeg,Salz,Salz,0.05,,g,,per_100g,per_100g,False,False,True,False,False
+116.jpeg,ENERGIE,ENERGIE,1696,,kJ,,per_100g,per_100g,False,False,True,False,False
+116.jpeg,FETT:,FETT:,12.0,12.0,g,g,per_100g,per_100g,True,True,True,True,True
+116.jpeg,KOHLENHYDRATE:,KOHLENHYDRATE:,27.0,27.0,g,g,per_100g,per_100g,True,True,True,True,True
+116.jpeg,BALLASTSTOFFE,Ballaststoffe,12.0,12.0,g,g,per_100g,per_100g,True,True,True,True,True
+116.jpeg,SALZ,SALZ,2.02,2.02,g,g,per_100g,per_100g,True,True,True,True,True
+116.jpeg,FETT:,FETT:,3.5,3.5,g,g,per_serving,per_100g,True,True,False,True,False
+116.jpeg,KOHLENHYDRATE:,KOHLENHYDRATE:,8.2,8.2,g,g,per_serving,per_100g,True,True,False,True,False
+116.jpeg,BALLASTSTOFFE,Ballaststoffe,3.7,3.7,g,g,per_serving,per_100g,True,True,False,True,False
+116.jpeg,SALZ,SALZ,0.61,0.61,g,g,per_serving,per_100g,True,True,False,True,False
+117.jpeg,ENERGIE,ENERGIE,728,,kJ,,per_serving,per_serving,False,False,True,False,False
+117.jpeg,FETT,FETT,6.1,6.1,g,,per_serving,per_serving,True,False,True,False,False
+117.jpeg,KOHLENHYDRATE,Kohlenhydrate,16.7,,g,,per_serving,per_serving,False,False,True,False,False
+117.jpeg,BALLASTSTOFFE,Ballaststoffe,4.0,,g,,per_serving,per_serving,False,False,True,False,False
+117.jpeg,SALZ,SALZ,0.04,0.04,g,g,per_serving,per_serving,True,True,True,True,True
+118.jpeg,ENERGIE,ENERGIE,1440,8.0,kJ,g,per_100g,per_100g,False,False,True,False,False
+118.jpeg,ENERGIE,ENERGIE,344,10,kcal,g,per_100g,per_100g,False,False,True,False,False
+118.jpeg,FETT:,FETT:,10,2.1,g,g,per_100g,per_100g,False,True,True,False,False
+118.jpeg,KOHLENHYDRATE:,KOHLENHYDRATE:,48,3.2,g,g,per_100g,per_100g,False,True,True,False,False
+118.jpeg,BALLASTSTOFFE,Ballaststoffe,3.0,19,g,g,per_100g,per_100g,False,True,True,False,False
+118.jpeg,SALZ,SALZ,0.70,,g,,per_100g,per_100g,False,False,True,False,False
+118.jpeg,FETT:,FETT:,8.0,48,g,g,per_serving,per_100g,False,True,False,False,False
+118.jpeg,KOHLENHYDRATE:,KOHLENHYDRATE:,38,4.0,g,g,per_serving,per_100g,False,True,False,False,False
+118.jpeg,BALLASTSTOFFE,Ballaststoffe,2.4,24,g,g,per_serving,per_100g,False,True,False,False,False
+119.jpeg,FETT:,FETT:,11,24,g,g,per_100g,per_100g,False,True,True,False,False
+119.jpeg,KOHLENHYDRATE:,KOHLENHYDRATE:,47,3.2,g,g,per_100g,per_100g,False,True,True,False,False
+119.jpeg,BALLASTSTOFFE,Ballaststoffe,4.5,19,g,g,per_100g,per_100g,False,True,True,False,False
+119.jpeg,SALZ,SALZ,0.70,,g,,per_100g,per_100g,False,False,True,False,False
+119.jpeg,FETT:,FETT:,8.4,3.0,g,g,per_serving,per_100g,False,True,False,False,False
+119.jpeg,KOHLENHYDRATE:,KOHLENHYDRATE:,38,4.0,g,g,per_serving,per_100g,False,True,False,False,False
+119.jpeg,BALLASTSTOFFE,Ballaststoffe,3.6,24,g,g,per_serving,per_100g,False,True,False,False,False
+120.jpeg,INOSITOL,INOSITOL,100,100,mg,mg,per_daily_dose,per_daily_dose,True,True,True,True,True
+120.jpeg,CHOLIN,choline,20,20,mg,mg,per_daily_dose,per_daily_dose,True,True,True,True,True
+120.jpeg,RUTIN,RUTIN,20,20,mg,mg,per_daily_dose,per_daily_dose,True,True,True,True,True
+120.jpeg,LACTOBACILLUS ACIDOPHILUS,LACTOBACILLUS,3.6 x 10^8,,KBE,,per_daily_dose,per_daily_dose,False,False,True,False,False
+120.jpeg,NIACIN,Niacin,16,16,mg,mg,per_daily_dose,per_daily_dose,True,True,True,True,True
+120.jpeg,BIOTIN,Biotin,40,40,µg,g,per_daily_dose,per_daily_dose,True,False,True,False,False
+120.jpeg,CALCIUM,Calcium,121,121,mg,mg,per_daily_dose,per_daily_dose,True,True,True,True,True
+120.jpeg,ZINK,ZINK,6.5,6.5,mg,mg,per_daily_dose,per_100g,True,True,False,True,False
+120.jpeg,JOD,Jod,100,100,µg,g,per_daily_dose,per_100g,True,False,False,False,False
+120.jpeg,SELEN,SELEN,22,22,µg,g,per_daily_dose,per_100g,True,False,False,False,False
+120.jpeg,KUPFER,KUPFER,1,0.4,mg,mg,per_daily_dose,per_100g,False,True,False,False,False
+120.jpeg,MANGAN,MANGAN,0.4,0.4,mg,mg,per_daily_dose,per_100g,True,True,False,True,False
+120.jpeg,CHROM,CHROM,25,25,µg,g,per_daily_dose,per_100g,True,False,False,False,False
+121.jpeg,ENERGIE,ENERGIE,1.401,,kJ,,per_100g,per_100g,False,False,True,False,False
+121.jpeg,FETT:,FETT:,12,12,g,g,per_100g,per_100g,True,True,True,True,True
+121.jpeg,KOHLENHYDRATE:,KOHLENHYDRATE:,20,2.9,g,g,per_100g,per_100g,False,True,True,False,False
+121.jpeg,BALLASTSTOFFE,Ballaststoffe,18,18,g,g,per_100g,per_100g,True,True,True,True,True
+121.jpeg,EIWEISS,Eiweiss,35,35,g,g,per_100g,per_100g,True,True,True,True,True
+121.jpeg,SALZ,SALZ,0.20,0.20,g,g,per_100g,per_100g,True,True,True,True,True
+121.jpeg,FETT:,FETT:,5.2,5.2,g,g,per_serving,per_100g,True,True,False,True,False
+121.jpeg,KOHLENHYDRATE:,KOHLENHYDRATE:,9.1,9.1,g,g,per_serving,per_100g,True,True,False,True,False
+121.jpeg,BALLASTSTOFFE,Ballaststoffe,7.9,79,g,g,per_serving,per_100g,False,True,False,False,False
+121.jpeg,EIWEISS,Eiweiss,16,16,g,g,per_serving,per_100g,True,True,False,True,False
+121.jpeg,SALZ,SALZ,0.09,0.09,g,g,per_serving,per_100g,True,True,False,True,False
+17.jpeg,Caffeine,Caffeine,100,100,mg,mg,per_serving,,True,True,False,True,False
+17.jpeg,Vitamin B3,Vitamin B3,2.4,2.4,mg NE,mg,per_serving,,True,False,False,False,False
+17.jpeg,Vitamin B12,Vitamin B12,0.38,0.38,µg,mg,per_serving,,True,False,False,False,False
+2.jpeg,Energie/energy kJ,Energie/energy kJ (kcal,1195,837197,kJ,g,per_100g,per_100g,False,False,True,False,False
+2.jpeg,Kohlenhydrate/carbohydrates,Kohlenhydrate/carbohydrates,70,70,g,g,per_100g,per_100g,True,True,True,True,True
+2.jpeg,davon Zuckerarten/of which sugars,davon Zuckerarten/of which sugars,33,33,g,g,per_100g,per_100g,True,True,True,True,True
+2.jpeg,Salz/salt,Salz/salt,0.43,0.43,g,g,per_100g,per_100g,True,True,True,True,True
+2.jpeg,Energie/energy kJ,Energie/energy kJ (kcal,837,60,kJ,g,per_serving,per_100g,False,False,False,False,False
+2.jpeg,Kohlenhydrate/carbohydrates,Kohlenhydrate/carbohydrates,50,50,g,g,per_serving,per_100g,True,True,False,True,False
+2.jpeg,davon Zuckerarten/of which sugars,davon Zuckerarten/of which sugars,25,70,g,g,per_serving,per_100g,False,True,False,False,False
+2.jpeg,Salz/salt,Salz/salt,0.30,0.30,g,g,per_serving,per_100g,True,True,False,True,False
+20.jpeg,Magnesium,magnesium,300,300,mg,mg,per_100g,per_100g,True,True,True,True,True
+20.jpeg,Niacin,Niacin,240,240,mg NE,mg,per_100g,per_100g,True,False,True,False,False
+20.jpeg,Magnesium,magnesium,45,667,mg,mg,per_daily_dose,per_100g,False,True,False,False,False
+20.jpeg,Niacin,Niacin,36,250,mg NE,mg,per_daily_dose,per_100g,False,False,False,False,False
+26.jpeg,ENERGY,ENERGY,942,,kJ,,per_100g,per_100g,False,False,True,False,False
+26.jpeg,FAT,FAT,0,,g,,per_100g,per_100g,False,False,True,False,False
+26.jpeg,OF WHICH SATURATES,SATURATES,0,56,g,g,per_100g,per_100g,False,True,True,False,False
+26.jpeg,CARBOHYDRATE,CARBOHYDRATE,56,56,g,g,per_100g,per_100g,True,True,True,True,True
+26.jpeg,OF WHICH SUGARS,OF WHICH SUGARS,7,56,g,g,per_100g,per_100g,False,True,True,False,False
+26.jpeg,PROTEIN,protein,0.1,20.19,g,,per_100g,per_100g,False,False,True,False,False
+26.jpeg,SALT,SALT,0.1,,g,,per_100g,per_100g,False,False,True,False,False
+30.jpeg,ENERGY,ENERGY kJ/kcal,907,,kJ,,per_serving,per_100g,False,False,False,False,False
+30.jpeg,PROTEIN,protein,2.7,2.7,g,,per_serving,per_100g,True,False,False,False,False
+30.jpeg,FAT,-SATURATED FAT g,5.0,5.0,g,,per_serving,per_100g,True,False,False,False,False
+30.jpeg,SATURATED FAT,-SATURATED FAT g,2.7,2.7,g,,per_serving,per_100g,True,False,False,False,False
+30.jpeg,CARBOHYDRATE,carbohydrate,39,39,g,,per_serving,per_100g,True,False,False,False,False
+30.jpeg,SUGARS,-SUGARSg,19,19,g,,per_serving,per_100g,True,False,False,False,False
+30.jpeg,DIETARY FIBRE,dietary fibre,2.0,2.0,g,,per_serving,per_100g,True,False,False,False,False
+30.jpeg,SODIUM,SODIUM(mg,70,70,mg,,per_serving,per_100g,True,False,False,False,False
+30.jpeg,PROTEIN,protein,4.8,4.8,g,,per_100g,per_100g,True,False,True,False,False
+30.jpeg,FAT,-SATURATED FAT g,9.1,4.9,g,,per_100g,per_100g,False,False,True,False,False
+30.jpeg,CARBOHYDRATE,carbohydrate,71,2.7,g,,per_100g,per_100g,False,False,True,False,False
+30.jpeg,SUGARS,-SUGARSg,35,35,g,,per_100g,per_100g,True,False,True,False,False
+30.jpeg,DIETARY FIBRE,dietary fibre,3.6,19,g,,per_100g,per_100g,False,False,True,False,False
+30.jpeg,SODIUM,SODIUM(mg,130,2.0,mg,,per_100g,per_100g,False,False,True,False,False
+33.jpeg,Fett/fat,Fett/fat,0,88,g,g,per_100g,,False,True,False,False,False
+33.jpeg,davon gesättigte Fettsäuren/of which saturates,of which saturates,0,89,g,g,per_100g,,False,True,False,False,False
+33.jpeg,Kohlenhydrate/carbohydrates,Kohlenhydrate/carbohydrates,97,89,g,g,per_100g,,False,True,False,False,False
+33.jpeg,davon Zuckerarten/of which sugars,davon Zuckerarten,56,89,g,g,per_100g,,False,True,False,False,False
+33.jpeg,Eiweiss/protein,Eiweiss/protein,0,6350,g,g,per_100g,,False,True,False,False,False
+33.jpeg,Salz/salt,Salz/salt,0.53,6350,g,g,per_100g,,False,True,False,False,False
+33.jpeg,Calcium,Calcium,35,210,mg,mg,per_100g,,False,True,False,False,False
+33.jpeg,Magnesium,Magnesium,25,,mg,,per_100g,,False,False,False,False,False
+33.jpeg,Kalium/potassium,Kalium/potassium,55,,mg,,per_100g,,False,False,False,False,False
+33.jpeg,Chlorid/chlorure,Chlorid/chlorure,140,,mg,,per_100g,,False,False,False,False,False
+33.jpeg,davon gesättigte Fettsäuren/of which saturates,of which saturates,0,88,g,g,per_serving,,False,True,False,False,False
+33.jpeg,Kohlenhydrate/carbohydrates,Kohlenhydrate/carbohydrates,73,229,g,,per_serving,,False,False,False,False,False
+33.jpeg,davon Zuckerarten/of which sugars,davon Zuckerarten,42,229,g,,per_serving,,False,False,False,False,False
+33.jpeg,Eiweiss/protein,Eiweiss/protein,0,0.40,g,g,per_serving,,False,True,False,False,False
+33.jpeg,Salz/salt,Salz/salt,0.40,0.40,g,g,per_serving,,True,True,False,True,False
+33.jpeg,Calcium,Calcium,26,158,mg,mg,per_serving,,False,True,False,False,False
+34.jpeg,Energy,Energy,1356,1356,kJ,kj,per_100g,per_100g,True,True,True,True,True
+34.jpeg,Energy,Energy,319,319,kcal,kj,per_100g,per_100g,True,False,True,False,False
+34.jpeg,Fat,Fat,0,80,g,g,per_100g,per_100g,False,True,True,False,False
+34.jpeg,Carbohydrate,Carbohydrate,80,80,g,g,per_100g,per_100g,True,True,True,True,True
+34.jpeg,of which sugars,of which sugars,77,80,g,g,per_100g,per_100g,False,True,True,False,False
+34.jpeg,Fibre,Fibre,5,56,g,g,per_100g,per_100g,False,True,True,False,False
+34.jpeg,Protein,Protein,0,56,g,g,per_100g,per_100g,False,True,True,False,False
+34.jpeg,Salt,Salt,3.5,3.58,g,g,per_100g,per_100g,False,True,True,False,False
+34.jpeg,Calcium,Calcium,400,400,mg,mg,per_100g,per_100g,True,True,True,True,True
+34.jpeg,Potassium,Potassium,400,400,mg,mg,per_100g,per_100g,True,True,True,True,True
+34.jpeg,Magnesium,Magnesium,100,100,mg,mg,per_100g,per_100g,True,True,True,True,True
+34.jpeg,Zinc,Zinc,2.6,2.6,mg,mg,per_100g,per_100g,True,True,True,True,True
+34.jpeg,C,Carbohydrate,72,778,mg,g,per_100g,per_100g,False,False,True,False,False
+34.jpeg,B1,B1,0.8,85,mg,mg,per_100g,per_100g,False,True,True,False,False
+34.jpeg,B12,B1,3.5,82,µg,mg,per_100g,per_100g,False,False,True,False,False
+34.jpeg,Energy,Energy,339,80,kJ,kj,per_serving,per_100g,False,True,False,False,False
+34.jpeg,Fat,Fat,0,319,g,kj,per_serving,per_100g,False,False,False,False,False
+34.jpeg,Carbohydrate,Carbohydrate,20,20,g,g,per_serving,per_100g,True,True,False,True,False
+34.jpeg,of which sugars,of which sugars,19,56,g,g,per_serving,per_100g,False,True,False,False,False
+34.jpeg,Fibre,Fibre,1.2,778,g,g,per_serving,per_100g,False,True,False,False,False
+34.jpeg,Protein,Protein,0,3.58,g,g,per_serving,per_100g,False,True,False,False,False
+34.jpeg,Salt,Salt,0.9,0.9,g,g,per_serving,per_100g,True,True,False,True,False
+34.jpeg,Calcium,Calcium,100,100,mg,mg,per_serving,per_100g,True,True,False,True,False
+34.jpeg,Potassium,Potassium,100,100,mg,mg,per_serving,per_100g,True,True,False,True,False
+34.jpeg,Magnesium,Magnesium,25,2.6,mg,mg,per_serving,per_100g,False,True,False,False,False
+34.jpeg,Zinc,Zinc,0.7,100,mg,mg,per_serving,per_100g,False,True,False,False,False
+34.jpeg,C,of which sugars,18,778,mg,g,per_serving,per_100g,False,False,False,False,False
+34.jpeg,B1,B1,0.2,2.9,mg,mg,per_serving,per_100g,False,True,False,False,False
+35.jpeg,Magnesium,Magnesium,4.7,4.7,g,g,per_100g,per_100g,True,True,True,True,True
+35.jpeg,Vitamin C,Vitamin C,2.1,2.1,g,g,per_100g,per_100g,True,True,True,True,True
+35.jpeg,Magnesium,Magnesium,225,2.1,mg,g,per_serving,per_100g,False,False,False,False,False
+4.jpeg,ENERGY,ENERGY,952,11,kJ,,per_100g,per_100g,False,False,True,False,False
+4.jpeg,FAT,FAT,0,11,g,,per_100g,per_100g,False,False,True,False,False
+4.jpeg,OF WHICH SATURATES,saturates,0,11,g,,per_100g,per_100g,False,False,True,False,False
+4.jpeg,CARBOHYDRATE,carbohydrate,56,,g,,per_100g,per_100g,False,False,True,False,False
+4.jpeg,PROTEIN,protein,0,,g,,per_100g,per_100g,False,False,True,False,False
+4.jpeg,SALT,SALT-,0.12,,g,,per_100g,per_100g,False,False,True,False,False
+41.jpeg,ENERGY,ENERGY,612,01,kJ,,per_100g,per_100g,False,False,True,False,False
+41.jpeg,FAT,FAT,0,01,g,,per_100g,per_100g,False,False,True,False,False
+41.jpeg,OF WHICH SATURATES,SATURATES,0,01,g,,per_100g,per_100g,False,False,True,False,False
+41.jpeg,CARBOHYDRATE,CARBOHYDRATE,36,41,g,,per_100g,per_100g,False,False,True,False,False
+41.jpeg,PROTEIN,PROTEIN,0,4101,g,,per_100g,per_100g,False,False,True,False,False
+41.jpeg,SALT,SALT,0.10,4101,g,,per_100g,per_100g,False,False,True,False,False
+42.jpeg,FAT,FAT (g,0,0.1,g,,per_serving,per_100g,False,False,False,False,False
+42.jpeg,SATURATED FAT,-SATURATED FAT (g,0,,g,,per_serving,per_100g,False,False,False,False,False
+42.jpeg,CARBOHYDRATE,carbohydrate,44,,g,,per_serving,per_100g,False,False,False,False,False
+42.jpeg,SUGARS,-SUGARS (g,18,,g,,per_serving,per_100g,False,False,False,False,False
+42.jpeg,DIETARY FIBRE,dietary fibre,0,240,g,,per_serving,per_100g,False,False,False,False,False
+42.jpeg,DIETARY FIBRE,dietary fibre,0,500,g,,per_100g,per_100g,False,False,True,False,False
+45_1.jpeg,PROTEIN,PROTEIN (g,0,0.1,g,,per_serving,per_100g,False,False,False,False,False
+45_1.jpeg,FAT,FAT(g,0,0.1,g,,per_serving,per_100g,False,False,False,False,False
+45_1.jpeg,SATURATED FAT,saturated,0,44,g,,per_serving,per_100g,False,False,False,False,False
+45_1.jpeg,CARBOHYDRATE,carbohydrate,44,44,g,,per_serving,per_100g,True,False,False,False,False
+45_1.jpeg,SUGARS,SUGARS(0,18,44,g,,per_serving,per_100g,False,False,False,False,False
+45_1.jpeg,DIETARY FIBRE,dietary fibre,0,240,g,,per_serving,per_100g,False,False,False,False,False
+45_1.jpeg,SATURATED FAT,saturated,0,64,g,,per_100g,per_100g,False,False,True,False,False
+45_1.jpeg,CARBOHYDRATE,carbohydrate,94,38,g,,per_100g,per_100g,False,False,True,False,False
+45_1.jpeg,SUGARS,SUGARS(0,38,38,g,,per_100g,per_100g,True,False,True,False,False
+45_1.jpeg,DIETARY FIBRE,dietary fibre,0,500,g,,per_100g,per_100g,False,False,True,False,False
+45_2.jpeg,ENERGY,ENERGY,1567,,kJ,,per_100g,per_100g,False,False,True,False,False
+45_2.jpeg,FAT,FAT,0,,g,,per_100g,per_100g,False,False,True,False,False
+45_2.jpeg,OF WHICH SATURATES,SATURATES,0,94,g,g,per_100g,per_100g,False,True,True,False,False
+45_2.jpeg,CARBOHYDRATE,CARBOHYDRATE,94,94,g,g,per_100g,per_100g,True,True,True,True,True
+45_2.jpeg,PROTEIN,PROTEIN,0.1,0.19,g,,per_100g,per_100g,False,False,True,False,False
+51.jpeg,Energy | Energie,Energy | Energie (kca,1541,1541,kJ,g,per_100g,per_100g,True,False,True,False,False
+51.jpeg,Energy | Energie,Energy | Energie (kca,363,925 (218,kcal,g,per_100g,per_100g,False,False,True,False,False
+51.jpeg,Energy | Energie,Energy | Energie (kca,925,60,kJ,g,per_serving,per_100g,False,False,False,False,False
+56.jpeg,Fett ........... Lipides,Fett,4.3,4.3,g,g,per_100g,per_100g,True,True,True,False,False
+56.jpeg,Fett ........... Lipides,Fett,0.26,3.67,g,g,per_serving,per_100g,False,True,False,False,False
+57.jpeg,Fett ........... Lipides,Fett,4.3,3.67,g,g,per_100g,per_100g,False,True,True,False,False
+57.jpeg,Fett ........... Lipides,lipides,0.26,0.26,g,g,per_serving,per_100g,True,True,False,False,False
+6.jpeg,MAGNESIUM,magnesium,56,,mg,,per_serving,,False,False,False,False,False
+6.jpeg,POTASSIUM,potassium,70,,mg,,per_serving,,False,False,False,False,False
+64.jpeg,Niacin(e),niacin,7.0,7.0,mg,mg,per_daily_dose,,True,True,False,True,False
+78.jpeg,Vitamin D,rnit Vitamin D3,50,,µg,,per_serving,,False,False,False,False,False
+8.jpeg,PROTEIN,protein,2.2,,g,,per_serving,,False,False,False,False,False
+8.jpeg,FAT,-SATURATED FAT,4.8,8111813322,g,,per_serving,,False,False,False,False,False
+8.jpeg,CARBOHYDRATE,carbohydrate,41,8111813322,g,,per_serving,,False,False,False,False,False
+8.jpeg,SUGARS,-SUGARS(g,21,8111813322,g,,per_serving,,False,False,False,False,False
+82.jpeg,Energy,Energy,0,,kJ,,per_100g,per_serving,False,False,False,False,False
+82.jpeg,Protein,Protein,0,60,g,,per_100g,per_serving,False,False,False,False,False
+82.jpeg,Carbohydrates,Carbohydrates,0,60,g,,per_100g,per_serving,False,False,False,False,False
+82.jpeg,Fat,Fat,0,60,g,,per_100g,per_serving,False,False,False,False,False
+82.jpeg,Creatine monohydrate,Creatine,100,,g,,per_100g,per_serving,False,False,False,False,False
+88.jpeg,davon gesättigte Fettsäuren/of which saturated fatty acids,which saturated fatty acids,0.5,4.1,g,g,per_100ml,per_serving,False,True,False,False,False
+88.jpeg,davon gesättigte Fettsäuren/of which saturated fatty acids,which saturated fatty acids,1.6,13,g,g,per_serving,per_serving,False,True,True,False,False
+9.jpeg,Zink,Zink,5,,mg,,per_serving,per_serving,False,False,True,False,False
+9.jpeg,Vitamin C,Vitamin C,30,,mg,,per_serving,per_serving,False,False,True,False,False
+9.jpeg,Vitamin C,Vitamin Czuachten,60,,mg,,per_daily_dose,per_serving,False,False,False,False,False
+90.jpeg,Fett/lipides/fat,Fett/lipides/fat,< 0.1,<0.1,g,g,per_100ml,per_100ml,True,True,True,True,True
+90.jpeg,davon gesättigte Fettsäuren/of which saturated fatty acids,of which saturated fatty acids,< 0.1,<0.1,g,g,per_100ml,per_100ml,True,True,True,False,False
+90.jpeg,Kohlenhydrate/glucides/carbohydrates,Kohlenhydrate/glucides/carbohydrates,10,10,g,g,per_100ml,per_100ml,True,True,True,True,True
+90.jpeg,davon Zuckerarten/of which sugars,davon Zuckerarten/of which sugars,10,10,g,g,per_100ml,per_100ml,True,True,True,True,True
+90.jpeg,Salz/sel/salt,Salz/sel/salt,0.16,0.16,g,g,per_100ml,per_100ml,True,True,True,True,True
+90.jpeg,Fett/lipides/fat,Fett/lipides/fat,0,192,g,g,per_daily_dose,per_100ml,False,True,False,False,False
+90.jpeg,davon gesättigte Fettsäuren/of which saturated fatty acids,of which saturated fatty acids,0,60,g,g,per_daily_dose,per_100ml,False,True,False,False,False
+90.jpeg,Kohlenhydrate/glucides/carbohydrates,Kohlenhydrate/glucides/carbohydrates,6.0,6.0,g,g,per_daily_dose,per_100ml,True,True,False,True,False
+90.jpeg,davon Zuckerarten/of which sugars,davon Zuckerarten/of which sugars,6.0,6.0,g,g,per_daily_dose,per_100ml,True,True,False,True,False
+90.jpeg,Salz/sel/salt,Salz/sel/salt,0.10,<0.1,g,g,per_daily_dose,per_100ml,True,True,False,True,False
+91.jpeg,Energie/energy/energia kJ (kcal),Energie/energy/energia kJ (kcal,234,234 (55,kJ,g,per_100ml,per_serving,False,False,False,False,False
+91.jpeg,Energie/energy/energia kJ (kcal),Energie/energy/energia kJ (kcal,55,0.79,kcal,g,per_100ml,per_serving,False,False,False,False,False
+91.jpeg,davon gesättigte Fettsäuren/of which saturated fatty acids,of which saturated fatty acids,0.5,0.5,g,g,per_100ml,per_serving,True,True,False,False,False
+91.jpeg,Kohlenhydrate/glucides/carbohydrates/carboidrati,Kohlenhydrate/glucides,4.1,4.1,g,g,per_100ml,per_serving,True,True,False,False,False
+91.jpeg,davon Zuckerarten/of which sugars,avon Zuckerarten/of which sugars,3.5,3.5,g,g,per_100ml,per_serving,True,True,False,True,False
+91.jpeg,Energie/energy/energia kJ (kcal),Energie/energy/energia kJ (kcal,772,772 (181,kJ,g,per_serving,per_serving,False,False,True,False,False
+91.jpeg,davon gesättigte Fettsäuren/of which saturated fatty acids,of which saturated fatty acids,1.6,1.6,g,g,per_serving,per_serving,True,True,True,False,False
+91.jpeg,Kohlenhydrate/glucides/carbohydrates/carboidrati,Kohlenhydrate/glucides,13,13,g,g,per_serving,per_serving,True,True,True,False,False
+91.jpeg,davon Zuckerarten/of which sugars,avon Zuckerarten/of which sugars,11,8.0,g,g,per_serving,per_serving,False,True,True,False,False

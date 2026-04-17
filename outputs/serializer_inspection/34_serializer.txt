@@ -1,0 +1,207 @@
+=================================================================
+  IMAGE: 34.jpeg
+  OCR tokens (after corrector): 113
+  Serialized tokens:            113
+  Visual lines detected:        25
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ ILTH
+  Line 02 │ thNutritional Per Per 25g
+  Line 03 │ information 100g serving
+  Line 04 │ Energy 1356 kJ PIGEE
+  Line 05 │ 319 kcal 80 kcal
+  Line 06 │ y. Fat Og Og
+  Line 07 │ Carbohydrate 80 g 20 g
+  Line 08 │ of which sugars 778 19 g
+  Line 09 │ Fibre 56 1.2 g
+  Line 10 │ Protein Og
+  Line 11 │ Salt 3.58 0.9
+  Line 12 │ Minerals RDA
+  Line 13 │ Calcium 400 mg 100 mg 13%
+  Line 14 │ Potassium 400 mg 100 mg 5%
+  Line 15 │ S Magnesium 100 mg 25 mg 7%
+  Line 16 │ Zinc 2.6 mg 0.7 mg 7%
+  Line 17 │ Vitamins
+  Line 18 │ C 72 mg 18 mg 22%
+  Line 19 │ 83 12 mg 3.0 mg 19%
+  Line 20 │ 86 3.2 mg 0.8 mg 57%
+  Line 21 │ 85 2.9 mg 0.7 mg 12%
+  Line 22 │ B1 0.8 mg 0.2 mg 18%
+  Line 23 │ 82 0.8 mg 0.2 mg 14%
+  Line 24 │ Follcacld 34 ug 8.4 ug 4%
+  Line 25 │ 812 3.50 g 0.9 ug 35%
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  38.5px  [1 tokens]
+    → ILTH
+  Line 02  y=  86.0px  [3 tokens]
+    → thNutritional | Per | Per 25g
+  Line 03  y=  98.8px  [3 tokens]
+    → information | 100g | serving
+  Line 04  y= 111.9px  [4 tokens]
+    → Energy | 1356 | kJ | PIGEE
+  Line 05  y= 124.0px  [4 tokens]
+    → 319 | kcal | 80 | kcal
+  Line 06  y= 139.9px  [4 tokens]
+    → y. | Fat | Og | Og
+  Line 07  y= 152.1px  [5 tokens]
+    → Carbohydrate | 80 | g | 20 | g
+  Line 08  y= 166.2px  [4 tokens]
+    → of which sugars | 778 | 19 | g
+  Line 09  y= 180.4px  [4 tokens]
+    → Fibre | 56 | 1.2 | g
+  Line 10  y= 195.0px  [2 tokens]
+    → Protein | Og
+  Line 11  y= 208.0px  [3 tokens]
+    → Salt | 3.58 | 0.9
+  Line 12  y= 221.8px  [2 tokens]
+    → Minerals | RDA
+  Line 13  y= 235.2px  [6 tokens]
+    → Calcium | 400 | mg | 100 | mg | 13%
+  Line 14  y= 249.2px  [6 tokens]
+    → Potassium | 400 | mg | 100 | mg | 5%
+  Line 15  y= 263.1px  [7 tokens]
+    → S | Magnesium | 100 | mg | 25 | mg | 7%
+  Line 16  y= 277.8px  [6 tokens]
+    → Zinc | 2.6 | mg | 0.7 | mg | 7%
+  Line 17  y= 292.5px  [1 tokens]
+    → Vitamins
+  Line 18  y= 306.5px  [6 tokens]
+    → C | 72 | mg | 18 | mg | 22%
+  Line 19  y= 321.0px  [6 tokens]
+    → 83 | 12 | mg | 3.0 | mg | 19%
+  Line 20  y= 335.9px  [6 tokens]
+    → 86 | 3.2 | mg | 0.8 | mg | 57%
+  Line 21  y= 351.4px  [6 tokens]
+    → 85 | 2.9 | mg | 0.7 | mg | 12%
+  Line 22  y= 366.8px  [6 tokens]
+    → B1 | 0.8 | mg | 0.2 | mg | 18%
+  Line 23  y= 382.1px  [6 tokens]
+    → 82 | 0.8 | mg | 0.2 | mg | 14%
+  Line 24  y= 397.4px  [6 tokens]
+    → Follcacld | 34 | ug | 8.4 | ug | 4%
+  Line 25  y= 412.8px  [6 tokens]
+    → 812 | 3.50 | g | 0.9 | ug | 35%
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       4  ILTH
+     3     1       5      18  thNutritional
+     2     1      19      22  Per
+     1     1      23      30  Per 25g
+     6     2      31      42  information
+     5     2      43      47  100g
+     4     2      48      55  serving
+    10     3      56      62  Energy
+     8     3      63      67  1356
+     9     3      68      70  kJ
+     7     3      71      76  PIGEE
+    13     4      77      80  319
+    14     4      81      85  kcal
+    11     4      86      88  80
+    12     4      89      93  kcal
+    18     5      94      96  y.
+    17     5      97     100  Fat
+    16     5     101     103  Og
+    15     5     104     106  Og
+    23     6     107     119  Carbohydrate
+    19     6     120     122  80
+    20     6     123     124  g
+    21     6     125     127  20
+    22     6     128     129  g
+    27     7     130     145  of which sugars
+    24     7     146     149  778
+    25     7     150     152  19
+    26     7     153     154  g
+    31     8     155     160  Fibre
+    28     8     161     163  56
+    29     8     164     167  1.2
+    30     8     168     169  g
+    33     9     170     177  Protein
+    32     9     178     180  Og
+    34    10     181     185  Salt
+    35    10     186     190  3.58
+    36    10     191     194  0.9
+    38    11     195     203  Minerals
+    37    11     204     207  RDA
+    44    12     208     215  Calcium
+    39    12     216     219  400
+    40    12     220     222  mg
+    41    12     223     226  100
+    42    12     227     229  mg
+    43    12     230     233  13%
+    50    13     234     243  Potassium
+    45    13     244     247  400
+    46    13     248     250  mg
+    47    13     251     254  100
+    48    13     255     257  mg
+    49    13     258     260  5%
+    52    14     261     262  S
+    57    14     263     272  Magnesium
+    53    14     273     276  100
+    54    14     277     279  mg
+    55    14     280     282  25
+    56    14     283     285  mg
+    51    14     286     288  7%
+    59    15     289     293  Zinc
+    60    15     294     297  2.6
+    61    15     298     300  mg
+    62    15     301     304  0.7
+    63    15     305     307  mg
+    58    15     308     310  7%
+    64    16     311     319  Vitamins
+    65    17     320     321  C
+    66    17     322     324  72
+    67    17     325     327  mg
+    68    17     328     330  18
+    69    17     331     333  mg
+    70    17     334     337  22%
+    71    18     338     340  83
+    72    18     341     343  12
+    73    18     344     346  mg
+    74    18     347     350  3.0
+    75    18     351     353  mg
+    76    18     354     357  19%
+    77    19     358     360  86
+    78    19     361     364  3.2
+    79    19     365     367  mg
+    80    19     368     371  0.8
+    81    19     372     374  mg
+    82    19     375     378  57%
+    83    20     379     381  85
+    84    20     382     385  2.9
+    85    20     386     388  mg
+    87    20     389     392  0.7
+    88    20     393     395  mg
+    86    20     396     399  12%
+    89    21     400     402  B1
+    90    21     403     406  0.8
+    91    21     407     409  mg
+    92    21     410     413  0.2
+    93    21     414     416  mg
+    94    21     417     420  18%
+    95    22     421     423  82
+    96    22     424     427  0.8
+    97    22     428     430  mg
+    99    22     431     434  0.2
+   100    22     435     437  mg
+    98    22     438     441  14%
+   101    23     442     451  Follcacld
+   102    23     452     454  34
+   103    23     455     457  ug
+   104    23     458     461  8.4
+   105    23     462     464  ug
+   106    23     465     467  4%
+   107    24     468     471  812
+   108    24     472     476  3.50
+   109    24     477     478  g
+   110    24     479     482  0.9
+   111    24     483     485  ug
+   112    24     486     489  35%
+
+=================================================================

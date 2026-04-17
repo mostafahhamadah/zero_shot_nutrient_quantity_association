@@ -1,0 +1,75 @@
+=================================================================
+  IMAGE: 107.jpeg
+  OCR tokens (after corrector): 26
+  Serialized tokens:            26
+  Visual lines detected:        10
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Zusammensetzung
+  Line 02 │ 1Tablette (4.3g)
+  Line 03 │ Vitamin B1 1.1 mg
+  Line 04 │ Vitamin B2 14 mg
+  Line 05 │ Vitamin B6 1409 2.59
+  Line 06 │ VitaminC Vitamin B12 80 mg
+  Line 07 │ Vitamin E 12mgo-E 16mghE
+  Line 08 │ Biotin Niacin 5019
+  Line 09 │ Folsaure 2009 69
+  Line 10 │ Pantothensaure Viafo
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  18.0px  [1 tokens]
+    → Zusammensetzung
+  Line 02  y=  45.5px  [1 tokens]
+    → 1Tablette (4.3g)
+  Line 03  y=  67.0px  [3 tokens]
+    → Vitamin B1 | 1.1 | mg
+  Line 04  y=  88.7px  [3 tokens]
+    → Vitamin B2 | 14 | mg
+  Line 05  y= 116.8px  [3 tokens]
+    → Vitamin B6 | 1409 | 2.59
+  Line 06  y= 148.0px  [4 tokens]
+    → VitaminC | Vitamin B12 | 80 | mg
+  Line 07  y= 180.3px  [3 tokens]
+    → Vitamin E | 12mgo-E | 16mghE
+  Line 08  y= 209.2px  [3 tokens]
+    → Biotin | Niacin | 5019
+  Line 09  y= 239.2px  [3 tokens]
+    → Folsaure | 2009 | 69
+  Line 10  y= 272.8px  [2 tokens]
+    → Pantothensaure | Viafo
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      15  Zusammensetzung
+     1     1      16      32  1Tablette (4.3g)
+     4     2      33      43  Vitamin B1
+     2     2      44      47  1.1
+     3     2      48      50  mg
+     7     3      51      61  Vitamin B2
+     5     3      62      64  14
+     6     3      65      67  mg
+     9     4      68      78  Vitamin B6
+     8     4      79      83  1409
+    10     4      84      88  2.59
+    14     5      89      97  VitaminC
+    11     5      98     109  Vitamin B12
+    12     5     110     112  80
+    13     5     113     115  mg
+    16     6     116     125  Vitamin E
+    15     6     126     133  12mgo-E
+    17     6     134     140  16mghE
+    20     7     141     147  Biotin
+    18     7     148     154  Niacin
+    19     7     155     159  5019
+    22     8     160     168  Folsaure
+    21     8     169     173  2009
+    23     8     174     176  69
+    24     9     177     191  Pantothensaure
+    25     9     192     197  Viafo
+
+=================================================================

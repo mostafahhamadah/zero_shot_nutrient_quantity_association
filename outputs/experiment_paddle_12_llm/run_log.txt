@@ -1,0 +1,22 @@
+Experiment  : experiment_paddle_12_llm
+OCR Engine  : PaddleOCR (Experiment 2v1)
+Corrector   : paddleocr_corrector v2  (C1/C2/C3/C6/C7/C8/C9/C10)
+Classifier  : SemanticClassifier v5.3
+Evaluator   : LLM-Assisted (Phi-4 Mini)
+Schema      : nutrient|quantity|unit|context
+Timestamp   : 2026-04-05T04:52:15.899682
+Notes       : v5.4: SERVING_RE fix + g→UNIT + context map additions
+
+Corrector   : 430 tokens changed  (386 splits)
+
+Full Tuple Precision : 5.4%
+Full Tuple Recall    : 3.6%
+Full Tuple F1        : 4.3%
+Nutrient F1          : 0.681
+Quantity Acc         : 15.7%
+Unit Acc             : 51.5%
+Context Acc          : 47.7%
+
+LLM calls    : 331
+Fast hits    : 23
+Eval time    : 3083.0s

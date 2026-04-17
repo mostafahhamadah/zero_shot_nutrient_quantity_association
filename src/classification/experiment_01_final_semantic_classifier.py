@@ -1,552 +1,749 @@
 """
-semantic_classifier.py  v5
-==========================
-Stage 3 — Zero-Shot Semantic Token Classifier
+semantic_classifier.py
+======================
+Stage 3 — Semantic Token Classification
+Zero-Shot Nutrient Extraction Pipeline | Moustafa Hamada | THD + USB
 
-CHANGE IN v5 (Fix 1 — NUTRIENT Lexicon Expansion):
-  Root cause addressed: 390 missing tuples. Three sub-causes:
-    (a) English-only labels (26, 30, 8, 34) — ENERGY, FAT, PROTEIN,
-        DIETARY FIBRE, SODIUM, SATURATED FAT, SUGARS, FIBRE, FOLIC ACID,
-        POTASSIUM, ZINC not in lexicon.
-    (b) Shorthand vitamin names (34) — B1, B2, B3, B5, B6, B12, C
-        not matched. Added special shorthand regex rule.
-    (c) Multilingual slash-variants (2, 12, 15, 20, 33, 201) — tokens
-        like 'Fett/fat', 'Kohlenhydrate/Carbohydrate', 'Energy/Energie'
-        not matched because the full slash-string is not in the lexicon.
-        Fix: _is_nutrient() now splits on '/' and checks each part
-        independently. Any part matching the lexicon makes the whole
-        token NUTRIENT.
-    (d) German variants missing: 'brennwert', 'mehrwertige alkohole',
-        Dutch variants: 'koolhydraten', 'eiwitten', 'vetten', 'zout'.
-    (e) Sub-nutrient dash-prefix stripping: tokens like '- davon zucker'
-        or '- SATURATED FAT' now strip the leading dash before matching.
+PURPOSE
+-------
+Assign a semantic label and canonical norm to every OCR token produced
+by Stage 2 (corrector).  No tokens are split here — fused token splits
+are Stage 2's responsibility (corrector rules C2/C3/C6).
 
-  No changes to priority rule chain, graph, or association modules.
+INPUT / OUTPUT SCHEMA
+---------------------
+Input  : List[Dict]  — token, x1, y1, x2, y2, cx, cy, conf
+Output : List[Dict]  — same fields + label, norm
 
-CHANGE IN v4:
-  CONTEXT_MAP moved from run_experiment.py into classifier.
+LABELS
+------
+  NUTRIENT  — nutrient name (Magnesium, Kohlenhydrate, Vitamin B12 …)
+  QUANTITY  — numeric value (400, 0.8, <0.1 …)
+  UNIT      — measurement unit (mg, µg, kcal, g …)
+  CONTEXT   — column/serving context (per_100g, per_serving, per_daily_dose)
+  NOISE     — low-confidence, NRV%, serving descriptors, non-nutritional text
+  UNKNOWN   — token not matched by any rule
 
-CHANGE IN v3:
-  NRV% and serving_size classified as NOISE.
-  Active labels: NUTRIENT, QUANTITY, UNIT, CONTEXT, NOISE, UNKNOWN.
+PRIORITY CHAIN (highest → lowest)
+----------------------------------
+  1. conf < threshold           → NOISE
+  2. norm in _SINGLE_CHAR_UNITS → UNIT   (g, l — before noise check)
+  3. NRV percentage pattern     → NOISE
+  4. Serving-size descriptor    → NOISE
+  5. General noise substrings   → NOISE
+  6. UNIT lexicon               → UNIT
+  7. _resolve_context()         → CONTEXT  (single source of truth)
+  8. QUANTITY pattern           → QUANTITY
+  9. NUTRIENT lexicon/heuristic → NUTRIENT
+ 10. fallthrough                → UNKNOWN
+
+CONFIDENCE THRESHOLD
+--------------------
+Stage 1 returns all tokens without filtering.  This stage is the single
+place that decides whether a low-confidence token becomes NOISE.
+Default threshold: 0.30.
 """
 
 import re
+from typing import Optional
 
 
-# ── Lexicons ──────────────────────────────────────────────────────────────────
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# SINGLE-CHARACTER UNIT WHITELIST
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Checked BEFORE the noise rule.  Without this, bare 'g' tokens produced
+# by the corrector's C2/C3 splits (e.g. '7,7g' → ['7.7', 'g']) hit
+# len(norm) <= 1 → NOISE and are destroyed, collapsing Unit Acc across
+# all German-format nutrition labels.
+_SINGLE_CHAR_UNITS: frozenset = frozenset({'g', 'l'})
 
-NUTRIENT_LEXICON = {
-    # ── English — standard EU label fields ───────────────────────────────────
-    "energy",
-    "fat", "fats",
-    "saturates", "saturated", "saturated fat", "saturated fats",
-    "of which saturates", "of which saturated",
-    "carbohydrate", "carbohydrates",
-    "sugars", "sugar", "of which sugars",
-    "fibre", "fiber", "fibres", "dietary fibre", "dietary fiber",
-    "dietary fibres",
-    "protein", "proteins",
-    "salt",
-    "sodium",
-    "potassium",
-    "chloride", "chlorides",
-    "fluoride",
-    "calcium",
-    "magnesium",
-    "iron",
-    "zinc",
-    "iodine",
-    "selenium",
-    "copper",
-    "manganese",
-    "chromium",
-    "molybdenum",
-    "phosphorus",
-    "folic acid",
 
-    # ── English — sub-nutrient dash-prefix variants ───────────────────────────
-    "- saturated fat", "- saturated fats",
-    "- of which saturates",
-    "- sugars", "- of which sugars",
-    "- dietary fibre", "- dietary fiber",
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# UNIT LEXICON
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+UNIT_LEXICON: frozenset = frozenset({
+    # Mass
+    "mg", "g", "kg",
+    "µg", "mcg", "ug", "μg",
+    # Energy
+    "kj", "kcal", "cal",
+    "kj/kcal", "kj kcal", "kj/kca", "kcal/kj",
+    # Volume
+    "ml", "dl", "cl", "l",
+    # International units
+    "ie", "i.e.", "iu", "i.u.",
+    # Microbiology
+    "kbe", "cfu",
+    # Compound nutrition units
+    "mg ne", "mg α-te", "mg a-te",
+    "µg re", "µg ne", "µg te",
+    "mg/tag", "µg/tag", "g/tag",
+    "mg/day", "µg/day", "g/day",
+    # Uppercase variants (all-caps labels, images 113–121)
+    "KJ", "KCAL", "MG", "G", "KG", "ML",
+    "KJ/KCAL", "KJ/KCA",
+})
 
-    # ── German — standard ─────────────────────────────────────────────────────
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# NUTRIENT LEXICON
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NUTRIENT_LEXICON: frozenset = frozenset({
+
+    # ── German ──────────────────────────────────────────────────────
     "energie", "brennwert",
     "fett", "fette",
     "fettsauren", "fettsäuren",
     "gesattigte fettsauren", "gesättigte fettsäuren",
+    "davon gesattigte", "davon gesättigte",
+    "davon gesattigte fettsauren", "davon gesättigte fettsäuren",
     "kohlenhydrate",
-    "zuckerarten",
+    "davon zucker", "davon zuckerarten",
+    "davon mehrwertige alkohole", "mehrwertige alkohole",
     "ballaststoffe",
     "eiweiss", "eiweiß",
     "salz",
-    "natrium",
-    "kalium",
-    "kalzium",
-    "eisen",
-    "zink",
-    "jod", "jodid",
-    "selen",
-    "kupfer",
-    "mangan",
-    "chrom",
-    "molybdän",
-    "phosphor",
-    "chlorid",
-    "fluorid",
+    "natrium", "kalium", "kalzium", "calcium",
+    "magnesium", "phosphor", "chlorid", "chloride", "fluorid",
+    "eisen", "zink", "jod", "jodid",
+    "selen", "kupfer", "mangan",
+    "chrom", "molybdän", "molybdan",
     "folsäure", "folsaure",
+    "pantothensäure", "pantothensaure",
+    "thiamin", "riboflavin",
+    "niacin", "biotin",
+    "koffein",
+    "inositol", "cholin",
+    "kreatin",
+    "alpha-liponsäure", "alpha-liponsaure",
+    "liponsäure", "liponsaure",
+    "rutin",
 
-    # ── German — sub-nutrient ─────────────────────────────────────────────────
-    "davon gesattigte", "davon gesättigte",
-    "davon zucker",
-    "davon mehrwertige alkohole",
-    "mehrwertige alkohole",
+    # ── English ─────────────────────────────────────────────────────
+    "energy", "energy value",
+    "fat", "fats",
+    "saturated fat", "saturated fats", "saturates", "saturated",
+    "of which saturates", "of which saturated",
+    "carbohydrate", "carbohydrates",
+    "sugars", "sugar", "of which sugars",
+    "fibre", "fiber", "fibres", "dietary fibre", "dietary fiber",
+    "protein", "proteins",
+    "salt", "sodium", "potassium", "calcium", "magnesium",
+    "iron", "zinc", "iodine", "selenium", "copper", "manganese",
+    "chromium", "molybdenum", "phosphorus",
+    "chloride", "fluoride",
+    "folic acid",
+    "pantothenic acid", "pantothenic",
+    "thiamine", "riboflavin", "niacin", "biotin",
+    "caffeine",
+    "inositol", "choline",
+    "creatine", "creatine monohydrate",
 
-    # ── French ────────────────────────────────────────────────────────────────
-    "graisses", "glucides", "dont sucres", "fibres", "sel",
-    "proteines", "protéines",
-    "sodium",
+    # ── French ──────────────────────────────────────────────────────
+    "énergie",
+    "graisses", "matières grasses", "lipides",
+    "dont acides gras saturés", "dont acides gras satures",
+    "glucides", "dont sucres",
+    "fibres",
+    "protéines", "proteines",
+    "sel",
+    "valeur énergétique", "valeur energetique",
 
-    # ── Dutch ─────────────────────────────────────────────────────────────────
-    "koolhydraten",
-    "eiwitten",
-    "vetten",
-    "zout",
-    "vezels",
-    "natrium",
+    # ── Dutch ────────────────────────────────────────────────────────
+    "koolhydraten", "eiwitten", "vetten", "zout", "vezels",
+    "verzadigde vetzuren",
+    "waarvan verzadigde vetzuren", "waarvan suikers",
 
-    # ── Vitamins — full names ─────────────────────────────────────────────────
+    # ── Italian ──────────────────────────────────────────────────────
+    "grassi", "grassi saturi",
+    "di cui acidi grassi saturi",
+    "carboidrati", "di cui zuccheri",
+    "proteine",
+    "sale",
+    "valore energetico",
+
+    # ── Spanish ──────────────────────────────────────────────────────
+    "grasas", "grasas saturadas",
+    "de las cuales saturadas",
+    "hidratos de carbono",
+    "de los cuales azúcares", "de los cuales azucares",
+    "proteínas", "proteinas",
+    "sal",
+    "valor energético", "valor energetico",
+
+    # ── Compound energy forms ────────────────────────────────────────
+    "energie kj", "energie kcal", "energie kj kcal",
+    "brennwert kj", "brennwert kcal",
+    "brennwert/energy value", "energie/energy",
+
+    # ── Vitamins ─────────────────────────────────────────────────────
     "vitamin", "vitamine",
-    "vitamin a", "vitamin b",
+    "vitamin a", "vitamin b", "vitamin c", "vitamin d", "vitamin d3",
+    "vitamin e", "vitamin k", "vitamin k1", "vitamin k2",
     "vitamin b1", "vitamin b2", "vitamin b3", "vitamin b5",
     "vitamin b6", "vitamin b7", "vitamin b9", "vitamin b12",
-    "vitamin c", "vitamin d", "vitamin d3",
-    "vitamin e", "vitamin k", "vitamin k1", "vitamin k2",
-    "thiamin", "thiamine",
-    "riboflavin",
-    "niacin",
-    "pantothenic", "pantothensäure", "pantothensaure",
-    "pyridoxin",
-    "biotin",
-    "folat", "folate", "folic", "cobalamin",
+    "folat", "folate", "cobalamin",
     "ascorbic", "ascorbinsäure", "ascorbinsaure",
-    "tocopherol",
-    "retinol",
-    "cholecalciferol",
+    "tocopherol", "retinol", "cholecalciferol", "colecalciferol",
     "menaquinon", "phylloquinon",
+    "pyridoxin",
 
-    # ── Fatty acids / lipids ──────────────────────────────────────────────────
+    # ── Fatty acids ──────────────────────────────────────────────────
     "omega", "dha", "epa", "ala",
-    "linolsäure", "linolsaure",
-    "linolensäure", "linolensaure",
+    "linolsäure", "linolsaure", "linolensäure", "linolensaure",
     "monounsaturated", "polyunsaturated",
-    "mehrfach ungesattigte", "einfach ungesattigte",
 
-    # ── Amino acids ───────────────────────────────────────────────────────────
+    # ── Amino acids ──────────────────────────────────────────────────
     "leucin", "isoleucin", "valin", "lysin",
-    "methionin", "phenylalanin",
-    "threonin", "tryptophan", "histidin",
+    "methionin", "phenylalanin", "threonin", "tryptophan", "histidin",
+    "l-valine", "l-valin", "l-valina",
+    "l-leucine", "l-leucin", "l-leucina",
+    "l-isoleucine", "l-isoleucin", "l-isoleucina",
+    "l-lysine", "l-lysin", "l-lisina",
+    "l-histidine", "l-histidin", "l-histidina", "l-istidina",
+    "l-methionine", "l-methionin",
+    "l-méthionine", "l-metionina", "l-metionin",     # multilingual
+    "l-phenylalanine", "l-phenylalanin",
+    "l-fenilalanina", "l-fenylalanin",                # IT/NL
+    "l-threonine", "l-threonin", "l-thréonine",
+    "l-treonina", "l-treonin",                        # ES/IT
+    "l-tryptophan", "l-tryptofaan",                   # NL
+    "l-triptófano", "l-triptofano", "l-tryptofan",   # ES/IT/CZ
 
-    # ── Speciality compounds ──────────────────────────────────────────────────
-    "coenzym", "coenzyme",
-    "l-carnitin", "carnitin", "kreatin", "creatine",
-    "inositol",
-    "cholin", "choline",
+    # ── Specialty compounds ──────────────────────────────────────────
+    "coenzym", "coenzyme", "coq10",
+    "l-carnitin", "carnitin",
     "lutein", "zeaxanthin", "lycopin",
-    "astaxanthin", "resveratrol", "quercetin", "rutin",
-    "koffein", "caffeine",
-    "alpha-liponsäure", "alpha-liponsaure", "liponsäure", "liponsaure",
+    "astaxanthin", "resveratrol", "quercetin",
 
-    # ── Probiotics ────────────────────────────────────────────────────────────
+    # ── Probiotics ───────────────────────────────────────────────────
     "lactobacillus", "lactobacillus acidophilus",
+    "acidophilus",
     "bifidobacterium", "bifidobacterium bifidum",
+    "bifidum",
+    "eiweib", "eweib",              # PaddleOCR corruption: EiweiB, EwebB, EsemB
+    
+    # ── Plant extracts / other ────────────────────────────────────────
+    "green tea", "greentea", "green tea extract",
+    "melissen extrakt", "melissenextrakt", "melissa extract",
+})
 
-    # ── Bilingual slash-anchors (common first-part forms) ─────────────────────
-    # The _is_nutrient() slash-split handles full slash strings dynamically.
-    # These anchors help when the slash-string is too long for substring match.
-    "kalium /potassium", "natrium /sodium", "kalzium/calcium",
-}
 
-# ── Vitamin shorthand pattern ─────────────────────────────────────────────────
-# Matches standalone shorthand vitamin/mineral labels found on English labels:
-# B1, B2, B3, B5, B6, B12, C, D, E, K
-# Must be used ONLY after NOISE, UNIT, CONTEXT, QUANTITY rules fail.
-VITAMIN_SHORTHAND_RE = re.compile(
-    r'^(b\d{1,2}|vitamin\s+[a-z]\d*|[cdek])$',
-    re.IGNORECASE
-)
-
-UNIT_LEXICON = {
-    "mg", "g", "kg", "mcg", "µg", "ug", "μg",
-    "kj", "kcal", "cal",
-    "ie", "iu", "µg re", "µg ne", "µg te",
-    "mg/tag", "µg/tag", "g/tag",
-    "mg/day", "µg/day", "g/day",
-    "mg ne", "mg α-te",
-    "kcal", "kbe",
-}
-
-CONTEXT_LEXICON = {
-    "per 100g", "per 100 g", "per 100ml", "je 100g", "je 100 g",
-    "pro 100g", "pro 100 g", "per 100",
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# CONTEXT LEXICON  (substring / prefix matching — fallback detector)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTEXT_LEXICON: frozenset = frozenset({
+    "per 100g", "per 100 g", "per 100ml", "per 100 ml",
+    "je 100g", "je 100 g", "je 100ml", "je 100 ml",
+    "pro 100g", "pro 100 g", "pro 100ml", "pro 100 ml",
+    "per 100", "per100g", "per100ml",
+    "je100g", "pro100g",
+    "100g", "100 g", "100ml", "100 ml",
+    "je 1009", "je1009",
     "per serving", "per portion", "pro portion",
     "per tube", "per sachet", "per capsule", "per tablet",
     "je kapsel", "je tablette", "je tagesdosis",
     "pro kapsel", "pro tablette", "pro tagesdosis",
     "per daily dose", "per tagesdosis",
-    "1tube", "2 kapseln", "1 kapsel", "per 1 tube",
-    "100g", "100 g",
-    "pro100g", "je 1009",
-    "pro 2 sticks", "pro 3 tabletten", "je 700g",
+    "pro 2 sticks", "pro 3 tabletten",
+    "pr.100g", "pr0100g",
+    "pour 100g", "pour 100 g",
+    "por 100g", "por 100 g",
+    "per 100g powder", "per 100 g powder",
+    "per 25g",
+    "per 10g", "je 10g", "pro 10g",
+    "pro port.", "pro port",
+    "proportion",
+    "perdrink", "per drink",
+    "per piece", "per bar",
+    "tagesration", "tagesdosis",
+    "per stück", "pro stück",
+    "per daily", "daily diet",
+    "shot", "shots",
+})
+
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# CONTEXT MAP  (OCR variant → canonical form)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Keys: lowercase. Values: per_100g | per_100ml | per_serving | per_daily_dose
+CONTEXT_MAP: dict = {
+
+    # ── per_100g ────────────────────────────────────────────────────
+    "per 100g":  "per_100g",    "per 100 g":  "per_100g",
+    "per 100":   "per_100g",    "per100g":    "per_100g",
+    "je 100g":   "per_100g",    "je 100 g":   "per_100g",
+    "je100g":    "per_100g",    "pro 100g":   "per_100g",
+    "pro 100 g": "per_100g",    "pro100g":    "per_100g",
+    "100g":      "per_100g",    "100 g":      "per_100g",
+    "je 1009":   "per_100g",    "je1009":     "per_100g",
+    "1009":      "per_100g",
+    "pr.100g":   "per_100g",    "pr0100g":    "per_100g",
+    "pour 100g": "per_100g",    "pour 100 g": "per_100g",
+    "por 100g":  "per_100g",    "por 100 g":  "per_100g",
+    "por/na100g":"per_100g",    "pot/na100g": "per_100g",
+    "per 100g powder":   "per_100g",
+    "per 100 g powder":  "per_100g",
+    "je100g1portion12g": "per_100g",
+    "100g1tube70g":      "per_100g",
+
+    # ── per_100ml ───────────────────────────────────────────────────
+    "per 100ml": "per_100ml",   "per 100 ml": "per_100ml",
+    "je 100ml":  "per_100ml",   "je 100 ml":  "per_100ml",
+    "pro 100ml": "per_100ml",   "pro 100 ml": "per_100ml",
+    "per100ml":  "per_100ml",   "100ml":      "per_100ml",
+
+    # ── per_serving ─────────────────────────────────────────────────
+    "per serving":     "per_serving",
+    "per portion":     "per_serving",
+    "pro portion":     "per_serving",
+    "pro portionl":    "per_serving",
+    "pro portionll":   "per_serving",
+    "per sachet":      "per_serving",
+    "per tube":        "per_serving",
+    "per capsule":     "per_serving",
+    "per tablet":      "per_serving",
+    "je kapsel":       "per_serving",
+    "je tablette":     "per_serving",
+    "pro kapsel":      "per_serving",
+    "pro tablette":    "per_serving",
+    "per 1 tube":      "per_serving",
+    "1tube":           "per_serving",
+    "pro 2 sticks":    "per_serving",
+    "per 25g":         "per_serving",
+    "pro 2 tabletten": "per_serving",
+    "je 700g":         "per_serving",
+    "1portion":        "per_serving",
+    "pro 1 portion":   "per_serving",
+    "pro esslöffel":   "per_serving",
+    "pro essloffel":   "per_serving",
+    "per scoop":       "per_serving",
+    "pro schuss":      "per_serving",
+    "per stick":       "per_serving",
+    "pro stick":       "per_serving",
+    "per serve":       "per_serving",
+    "per bar":         "per_serving",
+    "portion**":       "per_serving",
+    "pro port.":       "per_serving",
+    "pro port":        "per_serving",
+    "proportion":      "per_serving",
+    "perdrink":        "per_serving",
+    "per drink":       "per_serving",
+    "per piece":       "per_serving",
+    "piece":           "per_serving",
+    "pro stück":       "per_serving",
+    "pro stueck":      "per_serving",
+    "per stück":       "per_serving",
+    "per stueck":      "per_serving",
+    "je stück":        "per_serving",
+    "stück":           "per_serving",
+    "stueck":          "per_serving",
+
+    # ── per_daily_dose ──────────────────────────────────────────────
+    "per daily dose":    "per_daily_dose",
+    "per tagesdosis":    "per_daily_dose",
+    "je tagesdosis":     "per_daily_dose",
+    "pro tagesdosis":    "per_daily_dose",
+    "per tagesration":   "per_daily_dose",
+    "je tagesration":    "per_daily_dose",
+    "1tablette":         "per_daily_dose",
+    "1 tablette":        "per_daily_dose",
+    "2 tabletten":       "per_daily_dose",
+    "3 tabletten":       "per_daily_dose",
+    "pro 3 tabletten":   "per_daily_dose",
+    "pro 10g":           "per_daily_dose",
+    "je 10g":            "per_daily_dose",
+    "per 10g":           "per_daily_dose",
+    "tagesration":       "per_daily_dose",
+    "1 tagesration":     "per_daily_dose",
+    "per daily":         "per_daily_dose",
+    "per daily dose":    "per_daily_dose",
+    "per daily diet":    "per_daily_dose",
+    "daily diet":        "per_daily_dose",
+    "shot":              "per_daily_dose",
+    "shots":             "per_daily_dose",
+    "75 g (300 ml)":  "per_serving",
+    "75 g(300 ml)":   "per_serving",
+    "75g (300ml)":    "per_serving",
+    "75g(300ml)":     "per_serving",
+    "75 g":           "per_serving",
+    "75g":            "per_serving",
 }
 
-# ── Context normalisation map ─────────────────────────────────────────────────
-CONTEXT_MAP = {
-    # per_100g
-    "per 100g":           "per_100g",
-    "per 100 g":          "per_100g",
-    "per 100":            "per_100g",
-    "per100g":            "per_100g",
-    "je 100g":            "per_100g",
-    "je 100 g":           "per_100g",
-    "je100g":             "per_100g",
-    "pro 100g":           "per_100g",
-    "pro 100 g":          "per_100g",
-    "pro100g":            "per_100g",
-    "100g":               "per_100g",
-    "100 g":              "per_100g",
-    "je 1009":            "per_100g",
-    "je1009":             "per_100g",
-    # per_100ml
-    "per 100ml":          "per_100ml",
-    "je 100ml":           "per_100ml",
-    "pro 100ml":          "per_100ml",
-    "per 100 ml":         "per_100ml",
-    # per_serving
-    "per serving":        "per_serving",
-    "per portion":        "per_serving",
-    "pro portion":        "per_serving",
-    "pro portionl":       "per_serving",
-    "pro portionll":      "per_serving",
-    "pro Portion":        "per_serving",
-    "PRO PORTION":        "per_serving",
-    "per sachet":         "per_serving",
-    "per tube":           "per_serving",
-    "per capsule":        "per_serving",
-    "per tablet":         "per_serving",
-    "je kapsel":          "per_serving",
-    "je tablette":        "per_serving",
-    "pro kapsel":         "per_serving",
-    "pro tablette":       "per_serving",
-    "1 kapsel":           "per_serving",
-    "2 kapseln":          "per_serving",
-    "3 kapseln":          "per_serving",
-    "per 1 tube":         "per_serving",
-    "1tube":              "per_serving",
-    "pro 2 sticks":       "per_serving",
-    "pro 3 tabletten":    "per_serving",
-    "pro 2 tabletten":    "per_serving",
-    "je 700g":            "per_serving",
-    # per_daily_dose
-    "per daily dose":     "per_daily_dose",
-    "per tagesdosis":     "per_daily_dose",
-    "je tagesdosis":      "per_daily_dose",
-    "pro tagesdosis":     "per_daily_dose",
-    "per tagesration":    "per_daily_dose",
-    "je tagesration":     "per_daily_dose",
-}
 
-NOISE_SUBSTRINGS = [
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# NOISE SUBSTRINGS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NOISE_SUBSTRINGS: tuple = (
     "mindestens", "best before", "haltbar bis", "lot nr", "lot-nr",
     "charge", "batch", "mhd",
     "hergestellt", "manufactured", "vertrieb", "distributor",
     "verantwortlich", "responsible", "kontakt", "contact",
-    "gmbh", "ag ", " kg ", "ltd", "inc.", "s.a.",
+    "gmbh", " ag ", " kg ", "ltd", "inc.", "s.a.",
     "iso ", "haccp", "bio-siegel", "organic certified",
-    "fsc", "eu-bio", "eg-öko",
     "kuehl lagern", "trocken lagern", "store in", "keep away",
-    "ausserhalb der reichweite", "aus der reichweite",
+    "ausserhalb der reichweite",
     "nicht fuer kinder", "not for children",
     "verschlossen halten", "keep closed",
     "nach oeffnung", "after opening",
-    "siehe siegelrand", "see seal",
     "nutrition facts", "naehrwertangaben",
     "naehrwerttabelle", "nutritional information",
     "zutaten", "ingredients",
-    "de:", "en:", "fr:", "nl:", "es:", "it:", "pl:",
     "nrv", "nutrient reference", "naehrstoffbezugswert",
     "referenzwert", "empfohlene tagesdosis", "% der empfohlenen",
     "bezugswert",
-]
-
-NRV_PATTERNS = [
-    re.compile(r'^\d+\s*%$'),
-    re.compile(r'^\d+\s*%\s*\*?$'),
-    re.compile(r'^\*?\s*\d+\s*%'),
-]
-
-SERVING_PATTERNS_RE = [
-    re.compile(r'^\d+\s*(kapseln?|tabletten?|softgels?|tubes?|sachets?|stueck)$', re.IGNORECASE),
-    re.compile(r'^\d+\s*(capsules?|tablets?|gummies?|drops?)$', re.IGNORECASE),
-    re.compile(r'^\d+\s*(tube|sachet)\s*\([\d.,]+\s*g\)$', re.IGNORECASE),
-    re.compile(r'^serving\s+size[:\s]', re.IGNORECASE),
-    re.compile(r'^portionsgroesse[:\s]', re.IGNORECASE),
-    re.compile(r'^verzehrempfehlung[:\s]', re.IGNORECASE),
-    re.compile(r'^\d+\s*x\s*\d+', re.IGNORECASE),
-]
-
-QUANTITY_PATTERN = re.compile(
-    r'^[\*\'\"]?(\d+[.,]?\d*)\s*(mg|g|kg|µg|mcg|ug|kj|kcal|ie|iu|%|ml|l)?[\*\'\"\s]*$',
-    re.IGNORECASE
-)
-
-FUSED_TOKEN_RE = re.compile(
-    r'^([\*\'\"]?\d+[.,]?\d*)\s*'
-    r'(mg|g|kg|µg|μg|mcg|ug|kj|kcal|cal|ie|iu|ml|l)'
-    r'[\*\'\"\s.,;]*$',
-    re.IGNORECASE
+    "daily value", "daily values", "percent daily",
+    "based on a 2",
+    "empfehlung", "verzehrempfehlung",
+    "enthält", "contains", "zubereitung", "preparation",
+    "anwendung", "dosierung", "dosage",
+    "tabletten täglich", "kapseln täglich",
+    "protein-riegel",
+    "risiko einer", "entsprechend",
+    "tragt bei zur", "beitragen zur",
 )
 
 
-def split_fused_token(token: dict) -> list:
-    """
-    Split fused quantity+unit token into two child tokens.
-    '400mg' -> QUANTITY:'400' + UNIT:'mg'
-    """
-    text  = token.get("token", "").strip()
-    clean = text.strip("*'\".,; ")
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# COMPILED PATTERNS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-    if not clean:
-        return [token]
-    if len(clean.split()) > 2:
-        return [token]
-    if clean[0].isalpha():
-        return [token]
+VITAMIN_SHORTHAND_RE = re.compile(
+    r"^(b\d{1,2}|vitamin\s+[a-z]\d*|[cdek]\d?)$",
+    re.IGNORECASE,
+)
 
-    m = FUSED_TOKEN_RE.match(clean)
-    if not m:
-        return [token]
+_NRV_RE = re.compile(r"^\*?\s*\d+[\s,.]?\d*\s*%\s*\*?$")
 
-    qty_str  = m.group(1).strip("*'\"").strip()
-    unit_str = m.group(2)
+_SERVING_RE = re.compile(
+    r"^\d+\s*(kapseln?|tabletten?|softgels?|tubes?|sachets?|"
+    r"capsules?|tablets?|gummies?|drops?|stueck)$",
+    re.IGNORECASE,
+)
 
-    try:
-        float(qty_str.replace(',', '.'))
-    except ValueError:
-        return [token]
+_QUANTITY_RE = re.compile(
+    r"^[<>]?\s*[\*\'\"]?(\d+[.,]?\d*(?:[xX×]\s*10\d*)?)\s*"
+    r"(mg|g|kg|µg|mcg|ug|kj|kcal|cal|ie|iu|%|ml|l)?[\*\'\"\s]*$",
+    re.IGNORECASE,
+)
 
-    x1      = token.get("x1", 0)
-    x2      = token.get("x2", 0)
-    split_x = x1 + int((x2 - x1) * 0.6)
-
-    qty_token  = {**token, "token": qty_str,  "label": "QUANTITY",
-                  "norm": qty_str.lower(),  "x2": split_x, "split_from": text}
-    unit_token = {**token, "token": unit_str, "label": "UNIT",
-                  "norm": unit_str.lower(), "x1": split_x, "split_from": text}
-    return [qty_token, unit_token]
+_UNIT_SUFFIX_RE = re.compile(
+    r"\s*(kj|kcal|cal|mg|g|kg|µg|mcg|ug|μg|ml|l|ie|iu|ne|re|%)[/\s].*$",
+    re.IGNORECASE,
+)
 
 
-# ── Classifier ────────────────────────────────────────────────────────────────
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# SemanticClassifier
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 class SemanticClassifier:
     """
-    Zero-shot semantic classifier - v5.
+    Zero-shot semantic token classifier.
 
-    v5: NUTRIENT_LEXICON expanded. _is_nutrient() improved with:
-      - Slash-variant splitting: 'Fett/fat' -> check 'fett' and 'fat' separately
-      - Dash-prefix stripping: '- SATURATED FAT' -> check 'saturated fat'
-      - Vitamin shorthand rule: 'B1', 'B12', 'C' -> NUTRIENT
+    Parameters
+    ----------
+    confidence_threshold : float
+        Tokens with OCR confidence below this value are labelled NOISE.
+        Stage 1 returns all tokens; this is the single place the threshold
+        is applied.  Default: 0.30.
     """
 
-    def __init__(self, confidence_threshold: float = 0.30,
-                 split_fused_tokens: bool = True):
+    def __init__(self, confidence_threshold: float = 0.30):
         self.confidence_threshold = confidence_threshold
-        self.split_fused_tokens   = split_fused_tokens
+
+    # ── Normalisation ────────────────────────────────────────────────
 
     def _normalize(self, text: str) -> str:
-        text = text.lower().strip()
-        text = re.sub(r"['\"`]", "", text)
-        text = re.sub(r"\s+", " ", text)
-        return text.strip(".,!?;:-")
+        """
+        Lowercase + light cleanup.
+        Removes parenthetical qualifiers (e), (ne), (a-te) and strips
+        trailing colons/punctuation so 'FETT:' and 'FETT' match equally.
+        """
+        s = text.lower().strip()
+        s = re.sub(r"['\"`]", "", s)
+        s = re.sub(r"\([a-zα-ω0-9\-]+\)", "", s)
+        s = re.sub(r"\s+", " ", s)
+        return s.strip(".,!?;:- ")
 
-    def _normalise_context(self, raw_text: str) -> str:
-        """Translate raw OCR context to canonical underscore form."""
+    # ── Context — single source of truth ────────────────────────────
+
+    def _resolve_context(self, norm: str, raw_text: str) -> Optional[str]:
+        """
+        If this token is a context token, return its canonical form.
+        Returns None if the token is not a context token.
+
+        Replaces the original _is_context() + _normalise_context() pair.
+        Having one function eliminates the duplicated regex patterns and
+        ensures that detection and canonicalisation are always consistent.
+
+        Lookup order:
+          1. Exact CONTEXT_MAP lookup (covers the vast majority of cases)
+          2. Strip punctuation + exact CONTEXT_MAP lookup
+          3. CONTEXT_LEXICON substring match (safety net for OCR noise)
+          4. Regex patterns for dynamic forms not in the static maps
+        """
         key = raw_text.lower().strip()
+
+        # Pass 1: exact match
         canonical = CONTEXT_MAP.get(key)
         if canonical:
             return canonical
-        key_clean = key.strip(".,;:*'\"")
-        return CONTEXT_MAP.get(key_clean, key_clean)
+
+        # Pass 2: strip punctuation + exact match
+        key_clean = key.strip(".,;:*'\"()")
+        canonical = CONTEXT_MAP.get(key_clean)
+        if canonical:
+            return canonical
+
+        # Pass 3: substring membership in CONTEXT_LEXICON
+        # Catches tokens that contain a known context string but are not
+        # exactly in CONTEXT_MAP (e.g. "Typical values per piece").
+        # Extract the MATCHING substring and look it up in CONTEXT_MAP.
+        for ctx in CONTEXT_LEXICON:
+            if ctx in norm:
+                canonical = CONTEXT_MAP.get(ctx)
+                if canonical:
+                    return canonical
+                return CONTEXT_MAP.get(norm) or norm
+
+        # Pass 4: regex patterns for variable forms
+
+        # "1tablette (4.3g)", "2 kapseln", "1 ampulle", "2 shots", "1 tube(70g)" → per_daily_dose
+        if re.match(
+            r"^\d+\s*(tablette|tabletten|kapsel|kapseln|softgel|softgels|"
+            r"ampulle|ampullen|flasche|flaschen|flask|flasks|"
+            r"stick|sticks|beutel|sachet|sachets|"
+            r"tropfen|drops|dragee|dragees|"
+            r"tagesration|tagesdosis|tagesration/daily|"
+            r"shot|shots|tube|tubes|riegel|"
+            r"ampulle/flask|caps\.?)",
+            key_clean, re.IGNORECASE,
+        ):
+            return "per_daily_dose"
+
+        # Embedded dosage form after prefix noise: "ration 1ampulle", "xyz 2kapseln"
+        if re.search(
+            r"\d+\s*(ampulle|ampullen|kapsel|kapseln|tablette|tabletten|"
+            r"flask|caps\.?|stick|sticks)",
+            key_clean, re.IGNORECASE,
+        ):
+            return "per_daily_dose"
+
+        # "per piece", "pro stück" → per_serving
+        if re.match(
+            r"^(pro|per|je)\s+(stück|stueck|piece|riegel|bar)",
+            key_clean, re.IGNORECASE,
+        ):
+            return "per_serving"
+
+        # Embedded "per piece", "per bar" etc. inside longer tokens
+        if re.search(
+            r"(per|pro|je)\s+(piece|stück|stueck|bar|riegel|serve|serving|portion)",
+            key_clean, re.IGNORECASE,
+        ):
+            return "per_serving"
+
+        # "pro esslöffel", "per scoop" → per_serving
+        if re.match(
+            r"^(pro|per|je)\s+(esslöffel|essloffel|scoop|schuss|löffel)",
+            key_clean, re.IGNORECASE,
+        ):
+            return "per_serving"
+
+        # "per/je/pro/pour/por + number" → variable per-N-g context
+        if re.match(r"^(per|je|pro|fuer|pour|por|for)\s+\d", norm):
+            return CONTEXT_MAP.get(norm) or norm
+
+        # "pr.100g", "pr0100g" → per_100g
+        if re.match(r"^pr[o0.]?\s*100", norm):
+            return "per_100ml" if "ml" in norm else "per_100g"
+
+        # "pr.4g", "pr.25g" → per_serving (non-100g amounts)
+        if re.match(r"^pr[o0.]?\s*\d+\s*(g|ml)\b", norm):
+            return "per_serving"
+
+        # "pot/na100g", "por/na100g" → per_100g
+        if re.match(r"^p[oa][rt]/na", norm):
+            return "per_100g"
+
+        # "pour 100g", "por 100g" → per_100g
+        if re.match(r"^(pour|por)\s+\d", norm):
+            return "per_100g"
+
+        # "per 100g powder", "je 100ml" etc. with optional suffix
+        if re.match(
+            r"^(per|je|pro)\s+100\s*(g|ml)\s*(powder|pulver)?$",
+            norm, re.IGNORECASE,
+        ):
+            return "per_100ml" if "ml" in norm else "per_100g"
+
+        return None  # not a context token
+
+    # ── Predicates ──────────────────────────────────────────────────
 
     def _is_noise(self, norm: str) -> bool:
+        """
+        True for tokens with no nutritional content.
+        NOTE: _SINGLE_CHAR_UNITS is checked in classify_token() before
+        this method — bare 'g' tokens must never reach this check.
+        Single digits (0-9) are exempt — they are valid quantities
+        (e.g. Calcium 9 mg, Green Tea 1 mg).
+        """
         if len(norm) <= 1:
+            if norm.isdigit():
+                return False   # single digits are valid quantities
             return True
         return any(s in norm for s in NOISE_SUBSTRINGS)
 
     def _is_nrv_pattern(self, norm: str) -> bool:
-        return any(p.search(norm) for p in NRV_PATTERNS)
+        return bool(_NRV_RE.match(norm))
 
     def _is_serving_pattern(self, norm: str) -> bool:
-        return any(p.match(norm) for p in SERVING_PATTERNS_RE)
+        return bool(_SERVING_RE.match(norm))
 
     def _is_unit(self, norm: str) -> bool:
-        return norm.strip(".,*()[]") in UNIT_LEXICON
-
-    def _is_context(self, norm: str) -> bool:
-        if any(ctx in norm for ctx in CONTEXT_LEXICON):
-            return True
-        if re.match(r'^(per|je|pro|fuer)\s+\d', norm):
-            return True
-        if re.match(r'^\d+\s*(tube|sachet|kapsel|tablette)', norm):
-            return True
-        return False
+        candidate = norm.strip(".,*()[] ")
+        return candidate in UNIT_LEXICON or candidate.lower() in UNIT_LEXICON
 
     def _is_quantity(self, norm: str) -> bool:
         clean = norm.strip("*'\"()[]. ")
-        if not clean:
-            return False
-        if QUANTITY_PATTERN.match(clean):
+        return bool(clean and _QUANTITY_RE.match(clean))
+
+    def _strip_unit_suffix(self, norm: str) -> str:
+        """Strip trailing unit from compound names: 'energie kj' → 'energie'."""
+        return _UNIT_SUFFIX_RE.sub("", norm).strip(".,!?;:- ").strip()
+
+    def _is_nutrient_single(self, norm: str) -> bool:
+        if norm in NUTRIENT_LEXICON:
             return True
-        if re.match(r'^\d+[.,]?\d*\s*(mg|g|kg|µg|mcg|ug|kj|kcal|ml|%)$',
-                    clean, re.IGNORECASE):
+        for entry in NUTRIENT_LEXICON:
+            if len(entry) > 4 and entry in norm:
+                return True
+        if norm.startswith("vitamin"):
+            return True
+        if VITAMIN_SHORTHAND_RE.match(norm):
             return True
         return False
 
     def _is_nutrient(self, norm: str) -> bool:
         """
-        Check if a normalised token is a nutrient name.
-
-        v5 improvements:
-          1. Dash-prefix strip: '- saturated fat' -> 'saturated fat'
-          2. Slash-variant split: 'fett/fat' -> check 'fett' and 'fat'
-          3. Vitamin shorthand: 'b1', 'b12', 'c' -> match via regex
-          4. Standard lexicon exact + substring (unchanged from v4)
+        Full NUTRIENT check:
+          1. Strip leading dash/bullet
+          2. Build unit-stripped variant
+          3. Slash-variant split (Fett/fat → ['fett', 'fat'])
+          4. Vitamin shorthand regex
         """
-        # 1. Strip leading dash/bullet prefix (e.g. '- davon zucker')
-        stripped = re.sub(r'^[-–•]\s*', '', norm).strip()
+        stripped    = re.sub(r"^[-–•]\s*", "", norm).strip()
+        stripped_nu = self._strip_unit_suffix(stripped)
+        candidates  = list(dict.fromkeys([stripped, stripped_nu]))
 
-        # 2. Check the slash-split variants first
-        #    'kohlenhydrate/carbohydrate' -> check each part
-        parts = [p.strip() for p in re.split(r'\s*/\s*', stripped) if p.strip()]
-        if len(parts) > 1:
-            for part in parts:
-                if self._is_nutrient_single(part):
+        for candidate in candidates:
+            if not candidate:
+                continue
+            parts = [p.strip() for p in re.split(r"\s*/\s*", candidate) if p.strip()]
+            if len(parts) > 1:
+                for part in parts:
+                    for check in dict.fromkeys([part, self._strip_unit_suffix(part)]):
+                        if check and self._is_nutrient_single(check):
+                            return True
+            else:
+                if self._is_nutrient_single(candidate):
                     return True
-            return False
-
-        return self._is_nutrient_single(stripped)
-
-    def _is_nutrient_single(self, norm: str) -> bool:
-        """
-        Check a single (non-slash) token against the NUTRIENT_LEXICON
-        and vitamin shorthand rule.
-        """
-        # Exact match
-        if norm in NUTRIENT_LEXICON:
-            return True
-        # Substring match (lexicon entry appears inside token)
-        for nutrient in NUTRIENT_LEXICON:
-            if len(nutrient) > 4 and nutrient in norm:
-                return True
-        # Starts with 'vitamin'
-        if norm.startswith("vitamin"):
-            return True
-        # Vitamin shorthand: 'b1', 'b2', 'b12', 'c', 'd', 'e', 'k'
-        if VITAMIN_SHORTHAND_RE.match(norm):
-            return True
         return False
+
+    # ── Classification ───────────────────────────────────────────────
 
     def classify_token(self, token: dict) -> dict:
         """
-        Classify one token.
+        Classify a single token dict and return it with label and norm set.
 
-        Priority order (v5 — unchanged from v4):
-          1. NOISE     - irrelevant, short, NRV%, SERVING patterns
-          2. UNIT      - exact lexicon match
-          3. CONTEXT   - context patterns -> norm = canonical form
-          4. QUANTITY  - numeric values
-          5. NUTRIENT  - lexicon + slash-split + shorthand (v5)
-          6. UNKNOWN   - fallback
+        Priority chain — first match wins:
+          1. conf < threshold           → NOISE
+          2. norm in _SINGLE_CHAR_UNITS → UNIT
+          3. NRV percentage             → NOISE
+          4. Serving-size descriptor    → NOISE
+          5. Noise substrings / len<=1  → NOISE
+          6. UNIT lexicon               → UNIT
+          7. _resolve_context()         → CONTEXT
+          8. QUANTITY pattern           → QUANTITY
+          9. NUTRIENT lexicon           → NUTRIENT
+         10. fallthrough                → UNKNOWN
         """
         result = token.copy()
         text   = token.get("token", "")
-        conf   = token.get("conf", 0.0)
+        conf   = token.get("conf",  0.0)
         norm   = self._normalize(text)
 
+        # 1. Low confidence
         if conf < self.confidence_threshold:
-            result["label"] = "NOISE"
-            result["norm"]  = norm
+            result.update(label="NOISE", norm=norm)
             return result
 
-        if   self._is_noise(norm):           label = "NOISE"
-        elif self._is_nrv_pattern(norm):     label = "NOISE"
-        elif self._is_serving_pattern(norm): label = "NOISE"
-        elif self._is_unit(norm):            label = "UNIT"
-        elif self._is_context(norm):         label = "CONTEXT"
-        elif self._is_quantity(norm):        label = "QUANTITY"
-        elif self._is_nutrient(norm):        label = "NUTRIENT"
-        else:                                label = "UNKNOWN"
+        # 2. Single-char unit whitelist (before noise — see module docstring)
+        if norm in _SINGLE_CHAR_UNITS:
+            result.update(label="UNIT", norm=norm)
+            return result
 
-        result["label"] = label
+        # 3. NRV percentage
+        if self._is_nrv_pattern(norm):
+            result.update(label="NOISE", norm=norm)
+            return result
 
-        if label == "CONTEXT":
-            result["norm"] = self._normalise_context(text)
-        else:
-            result["norm"] = norm
+        # 4. CONTEXT — MUST run before serving/noise checks!
+        #    Tokens like "1 tablette", "2 kapseln", "1 Ampulle" are
+        #    valid CONTEXT tokens (per_daily_dose) but also match
+        #    _SERVING_RE which would label them NOISE.
+        canonical = self._resolve_context(norm, text)
+        if canonical is not None:
+            result.update(label="CONTEXT", norm=canonical)
+            return result
 
+        # 5. Serving-size descriptor (only reaches here if NOT a context)
+        if self._is_serving_pattern(norm):
+            result.update(label="NOISE", norm=norm)
+            return result
+
+        # 6. General noise
+        if self._is_noise(norm):
+            result.update(label="NOISE", norm=norm)
+            return result
+
+        # 7. UNIT lexicon
+        if self._is_unit(norm):
+            result.update(label="UNIT", norm=norm.strip(".,*()[] ").lower())
+            return result
+
+        # 8. QUANTITY
+        if self._is_quantity(norm):
+            result.update(label="QUANTITY", norm=norm)
+            return result
+
+        # 9. NUTRIENT
+        if self._is_nutrient(norm):
+            result.update(label="NUTRIENT", norm=norm)
+            return result
+
+        # 10. UNKNOWN
+        result.update(label="UNKNOWN", norm=norm)
         return result
 
     def classify_all(self, tokens: list) -> list:
-        """Classify all tokens with optional fused-token splitting."""
-        result = []
-        for token in tokens:
-            conf = token.get("conf", 0.0)
-            if self.split_fused_tokens and conf >= self.confidence_threshold:
-                parts = split_fused_token(token)
-                if len(parts) > 1:
-                    result.extend(parts)
-                    continue
-            result.append(self.classify_token(token))
-        return result
+        """Classify a list of token dicts. Returns the list with label and norm added."""
+        return [self.classify_token(t) for t in tokens]
 
     def summary(self, labeled_tokens: list) -> dict:
-        """Print classification summary."""
+        """Print and return a label-count summary."""
         from collections import Counter
-        counts = Counter(t["label"] for t in labeled_tokens)
+        counts = Counter(t.get("label", "UNKNOWN") for t in labeled_tokens)
         total  = len(labeled_tokens)
         print(f"\n{'='*50}")
-        print("SEMANTIC CLASSIFICATION SUMMARY (v5)")
+        print("  SEMANTIC CLASSIFICATION SUMMARY")
         print(f"{'='*50}")
-        print(f"Total tokens: {total}")
+        print(f"  Total tokens : {total}")
         for label in ["NUTRIENT", "QUANTITY", "UNIT", "CONTEXT", "NOISE", "UNKNOWN"]:
-            count = counts.get(label, 0)
-            pct   = count / total * 100 if total else 0
-            print(f"  {label:<10} {count:>3} ({pct:>5.1f}%)  {'#'*int(pct/3)}")
+            n   = counts.get(label, 0)
+            pct = n / total * 100 if total else 0
+            print(f"  {label:<10}  {n:>4}  ({pct:>5.1f}%)")
         print(f"{'='*50}\n")
-        ctx_tokens = [t for t in labeled_tokens if t["label"] == "CONTEXT"]
-        if ctx_tokens:
-            print("  CONTEXT tokens extracted (raw -> canonical):")
-            for t in ctx_tokens:
-                print(f"    '{t['token']}'  ->  '{t['norm']}'")
-            print()
         return dict(counts)
-
-
-if __name__ == "__main__":
-    import sys
-    sys.path.insert(0, ".")
-    from src.ocr.ocr_runner import run_ocr_on_image
-    from src.utils.ocr_corrector import OCRCorrector
-
-    tokens    = run_ocr_on_image("data/raw/1.jpeg")
-    corrected = OCRCorrector().correct_all(tokens)
-    classifier = SemanticClassifier(0.30, split_fused_tokens=True)
-    labeled    = classifier.classify_all(corrected)
-
-    print(f"\n{'TOKEN':<45} {'LABEL':<12} {'NORM':<25} {'CONF'}")
-    print("-"*95)
-    for t in sorted(labeled, key=lambda x: x["y1"]):
-        note = f"<- split from '{t['split_from']}'" if t.get("split_from") else ""
-        print(f"{t['token']:<45} {t['label']:<12} {t['norm']:<25} {t['conf']:.3f}  {note}")
-    classifier.summary(labeled)

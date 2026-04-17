@@ -1,0 +1,149 @@
+{
+    "image_id": "105.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Energie",
+            "quantity": "1320",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energie",
+            "quantity": "313",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Fett",
+            "quantity": "2.7",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "- davon gesättigte Fettsäuren",
+            "quantity": "0.4",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Kohlenhydrate",
+            "quantity": "52.1",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "- davon Zucker",
+            "quantity": "51.4",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Ballaststoffe",
+            "quantity": "15.5",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Eiweiß",
+            "quantity": "7.0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Salz",
+            "quantity": "0.03",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energie",
+            "quantity": "158",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Portion* (12 g)"
+        },
+        {
+            "nutrient": "Energie",
+            "quantity": "38",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Portion* (12 g)"
+        },
+        {
+            "nutrient": "Fett",
+            "quantity": "0.3",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Portion* (12 g)"
+        },
+        {
+            "nutrient": "- davon gesättigte Fettsäuren",
+            "quantity": "0.0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Portion* (12 g)"
+        },
+        {
+            "nutrient": "Kohlenhydrate",
+            "quantity": "6.3",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Portion* (12 g)"
+        },
+        {
+            "nutrient": "- davon Zucker",
+            "quantity": "6.2",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Portion* (12 g)"
+        },
+        {
+            "nutrient": "Ballaststoffe",
+            "quantity": "1.9",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Portion* (12 g)"
+        },
+        {
+            "nutrient": "Eiweiß",
+            "quantity": "0.8",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Portion* (12 g)"
+        },
+        {
+            "nutrient": "Salz",
+            "quantity": "0.00",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Portion* (12 g)"
+        }
+    ]
+}

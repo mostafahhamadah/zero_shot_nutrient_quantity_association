@@ -1,0 +1,136 @@
+=================================================================
+  IMAGE: 26.jpeg
+  OCR tokens (after corrector): 87
+  Serialized tokens:            87
+  Visual lines detected:        10
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ DK/NO/SE FIN NL/BE ES FR/BE/CH. UK/AUS PR.100g EG-
+  Line 02 │ DE/AT/CH NAERINGSINDHOLD RAVINTOSISALTO VOEDINGSWAARDEN INFO NUTRICIONAL ICIONAL INFONUTRITIONNELLE NUTRITIONAL INFO
+  Line 03 │ NAHRWERTE energie Energie VALOR ENERGETICO Eistian Energie ENERGY 942/255kJ/KCAL
+  Line 04 │ Energie energie RASVAT VETTEN GRASAS lipides GRAISSES FAT Og
+  Line 05 │ FETT FEDT HERAFMEITEDE JOISTA WAARVAN DE LAS CUALES DOSQUAIS SATURADOS DONTACIDES GRAS SATURES OFWHICH
+  Line 06 │ Fettsauren davon gesattigte FEDTSYRER TYYDYITYNEITA VERZADIGDE VETZUREN SATURADAS HIDRATOS DE CARBONO HIDRATOS DE CARBONO GLUCIDES SATURATES CARBOHYDRATE 56 g
+  Line 07 │ Kohlenhydrate KULHYDRAT HIILIHYDRAATTI JOISTA SOKEREITA KOOLHYDRATEN WAARVAN SUIKERS DE LOS CUALES AZUCARES DOS QUAIS ACUCARES DONTSUCRES OF WHICH SUGARS 3.1.5
+  Line 08 │ DAVON ZUCKER HERAFSUKKERARTER EIWITTEN protein proteins CROTFWES protein 20.19
+  Line 09 │ eiweiss PROTEIN protein zout SAL. SAL SF SAIT-
+  Line 10 │ SALZ SALT SUOLA
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  15.2px  [8 tokens]
+    → DK/NO/SE | FIN | NL/BE | ES | FR/BE/CH. | UK/AUS | PR.100g | EG-
+  Line 02  y=  34.0px  [8 tokens]
+    → DE/AT/CH | NAERINGSINDHOLD | RAVINTOSISALTO | VOEDINGSWAARDEN | INFO NUTRICIONAL | ICIONAL | INFONUTRITIONNELLE | NUTRITIONAL INFO
+  Line 03  y=  49.5px  [8 tokens]
+    → NAHRWERTE | energie | Energie | VALOR ENERGETICO | Eistian | Energie | ENERGY | 942/255kJ/KCAL
+  Line 04  y=  64.0px  [9 tokens]
+    → Energie | energie | RASVAT | VETTEN | GRASAS | lipides | GRAISSES | FAT | Og
+  Line 05  y=  81.0px  [11 tokens]
+    → FETT | FEDT | HERAFMEITEDE | JOISTA | WAARVAN | DE LAS CUALES | DOSQUAIS | SATURADOS | DONTACIDES | GRAS SATURES | OFWHICH
+  Line 06  y=  99.7px  [13 tokens]
+    → Fettsauren | davon gesattigte | FEDTSYRER | TYYDYITYNEITA | VERZADIGDE VETZUREN | SATURADAS | HIDRATOS DE CARBONO | HIDRATOS DE CARBONO | GLUCIDES | SATURATES | CARBOHYDRATE | 56 | g
+  Line 07  y= 119.4px  [11 tokens]
+    → Kohlenhydrate | KULHYDRAT | HIILIHYDRAATTI | JOISTA SOKEREITA | KOOLHYDRATEN | WAARVAN SUIKERS | DE LOS CUALES AZUCARES | DOS QUAIS ACUCARES | DONTSUCRES | OF WHICH SUGARS | 3.1.5
+  Line 08  y= 135.0px  [8 tokens]
+    → DAVON ZUCKER | HERAFSUKKERARTER | EIWITTEN | protein | proteins | CROTFWES | protein | 20.19
+  Line 09  y= 149.9px  [8 tokens]
+    → eiweiss | PROTEIN | protein | zout | SAL. | SAL | SF | SAIT-
+  Line 10  y= 165.2px  [3 tokens]
+    → SALZ | SALT | SUOLA
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     6     0       0       8  DK/NO/SE
+     5     0       9      12  FIN
+     2     0      13      18  NL/BE
+     4     0      19      21  ES
+     1     0      22      31  FR/BE/CH.
+     3     0      32      38  UK/AUS
+     7     0      39      46  PR.100g
+     0     0      47      50  EG-
+     8     1      51      59  DE/AT/CH
+    15     1      60      75  NAERINGSINDHOLD
+    14     1      76      90  RAVINTOSISALTO
+    12     1      91     106  VOEDINGSWAARDEN
+    10     1     107     123  INFO NUTRICIONAL
+    11     1     124     131  ICIONAL
+     9     1     132     150  INFONUTRITIONNELLE
+    13     1     151     167  NUTRITIONAL INFO
+    18     2     168     177  NAHRWERTE
+    23     2     178     185  energie
+    22     2     186     193  Energie
+    17     2     194     210  VALOR ENERGETICO
+    21     2     211     218  Eistian
+    16     2     219     226  Energie
+    19     2     227     233  ENERGY
+    20     2     234     248  942/255kJ/KCAL
+    30     3     249     256  Energie
+    24     3     257     264  energie
+    32     3     265     271  RASVAT
+    31     3     272     278  VETTEN
+    28     3     279     285  GRASAS
+    26     3     286     293  lipides
+    27     3     294     302  GRAISSES
+    29     3     303     306  FAT
+    25     3     307     309  Og
+    38     4     310     314  FETT
+    33     4     315     319  FEDT
+    42     4     320     332  HERAFMEITEDE
+    40     4     333     339  JOISTA
+    39     4     340     347  WAARVAN
+    37     4     348     361  DE LAS CUALES
+    35     4     362     370  DOSQUAIS
+    43     4     371     380  SATURADOS
+    34     4     381     391  DONTACIDES
+    41     4     392     404  GRAS SATURES
+    36     4     405     412  OFWHICH
+    56     5     413     423  Fettsauren
+    45     5     424     440  davon gesattigte
+    52     5     441     450  FEDTSYRER
+    48     5     451     464  TYYDYITYNEITA
+    47     5     465     484  VERZADIGDE VETZUREN
+    46     5     485     494  SATURADAS
+    55     5     495     514  HIDRATOS DE CARBONO
+    53     5     515     534  HIDRATOS DE CARBONO
+    51     5     535     543  GLUCIDES
+    44     5     544     553  SATURATES
+    54     5     554     566  CARBOHYDRATE
+    49     5     567     569  56
+    50     5     570     571  g
+    64     6     572     585  Kohlenhydrate
+    61     6     586     595  KULHYDRAT
+    58     6     596     610  HIILIHYDRAATTI
+    67     6     611     627  JOISTA SOKEREITA
+    57     6     628     640  KOOLHYDRATEN
+    65     6     641     656  WAARVAN SUIKERS
+    63     6     657     679  DE LOS CUALES AZUCARES
+    59     6     680     698  DOS QUAIS ACUCARES
+    60     6     699     709  DONTSUCRES
+    62     6     710     725  OF WHICH SUGARS
+    66     6     726     731  3.1.5
+    73     7     732     744  DAVON ZUCKER
+    69     7     745     761  HERAFSUKKERARTER
+    74     7     762     770  EIWITTEN
+    72     7     771     778  protein
+    70     7     779     787  proteins
+    68     7     788     796  CROTFWES
+    71     7     797     804  protein
+    75     7     805     810  20.19
+    82     8     811     818  eiweiss
+    80     8     819     826  PROTEIN
+    76     8     827     834  protein
+    83     8     835     839  zout
+    81     8     840     844  SAL.
+    79     8     845     848  SAL
+    77     8     849     851  SF
+    78     8     852     857  SAIT-
+    86     9     858     862  SALZ
+    85     9     863     867  SALT
+    84     9     868     873  SUOLA
+
+=================================================================

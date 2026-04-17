@@ -1,0 +1,122 @@
+=================================================================
+  IMAGE: 78.jpeg
+  OCR tokens (after corrector): 34
+  Serialized tokens:            34
+  Visual lines detected:        23
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ DSKTEN
+  Line 02 │ VIGANTOLVIT
+  Line 03 │ Nahrungseryanzungsmittel
+  Line 04 │ rnit Vitamin D3
+  Line 05 │ Tcn.Ghooin
+  Line 06 │ VitaminD3 20001.E VEMIESRESIRFEHUG
+  Line 07 │ FEe1hY
+  Line 08 │ Vitamin D tragt bei zur
+  Line 09 │ Erhaltung normaler Knochen und einer
+  Line 10 │ normalen Muskelfunktion WCerheeg
+  Line 11 │ normalen Funktion.des Inmunsystens
+  Line 12 │ und der Zellteilung
+  Line 13 │ norrnalen Aufnahrne von Calcium 1.
+  Line 14 │ Enrkugurdeertelmoiie
+  Line 15 │ Nahrstoff Ipro Kapsel pukarermwy Parvreeenrue
+  Line 16 │ VitaminD50g20001E1000% deSrerrinDetrotniMetdenme
+  Line 17 │ Referenznenge for die tagiche Zufuhr Nercaren.rrnCam
+  Line 18 │ pema8Verordnung EUNr.116//2011 epdn utcoUrWgxg
+  Line 19 │ EdungvonNerectencohiwc
+  Line 20 │ 120Kapseln=21.6g EaaevnWaraccrsopr
+  Line 21 │ Vianin Denphgn
+  Line 22 │ Mindestens haltbar bi Ende:siehe Seterkarche pRptrabcerPecmencn
+  Line 23 │ Nicht ober 25C und trocken lagern Kindernkagen
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  37.0px  [1 tokens]
+    → DSKTEN
+  Line 02  y=  48.0px  [1 tokens]
+    → VIGANTOLVIT
+  Line 03  y=  81.5px  [1 tokens]
+    → Nahrungseryanzungsmittel
+  Line 04  y= 103.5px  [1 tokens]
+    → rnit Vitamin D3
+  Line 05  y= 114.5px  [1 tokens]
+    → Tcn.Ghooin
+  Line 06  y= 139.5px  [2 tokens]
+    → VitaminD3 20001.E | VEMIESRESIRFEHUG
+  Line 07  y= 156.0px  [1 tokens]
+    → FEe1hY
+  Line 08  y= 175.0px  [1 tokens]
+    → Vitamin D tragt bei zur
+  Line 09  y= 197.5px  [1 tokens]
+    → Erhaltung normaler Knochen und einer
+  Line 10  y= 214.5px  [2 tokens]
+    → normalen Muskelfunktion | WCerheeg
+  Line 11  y= 237.5px  [1 tokens]
+    → normalen Funktion.des Inmunsystens
+  Line 12  y= 255.5px  [1 tokens]
+    → und der Zellteilung
+  Line 13  y= 272.8px  [2 tokens]
+    → norrnalen Aufnahrne von Calcium | 1.
+  Line 14  y= 287.5px  [1 tokens]
+    → Enrkugurdeertelmoiie
+  Line 15  y= 313.8px  [3 tokens]
+    → Nahrstoff Ipro Kapsel | pukarermwy | Parvreeenrue
+  Line 16  y= 342.8px  [2 tokens]
+    → VitaminD50g20001E1000% | deSrerrinDetrotniMetdenme
+  Line 17  y= 368.2px  [2 tokens]
+    → Referenznenge for die tagiche Zufuhr | Nercaren.rrnCam
+  Line 18  y= 386.5px  [2 tokens]
+    → pema8Verordnung EUNr.116//2011 | epdn utcoUrWgxg
+  Line 19  y= 399.5px  [1 tokens]
+    → EdungvonNerectencohiwc
+  Line 20  y= 418.2px  [2 tokens]
+    → 120Kapseln=21.6g | EaaevnWaraccrsopr
+  Line 21  y= 434.5px  [1 tokens]
+    → Vianin Denphgn
+  Line 22  y= 450.0px  [2 tokens]
+    → Mindestens haltbar bi Ende:siehe Seterkarche | pRptrabcerPecmencn
+  Line 23  y= 467.2px  [2 tokens]
+    → Nicht ober 25C und trocken lagern | Kindernkagen
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       6  DSKTEN
+     1     1       7      18  VIGANTOLVIT
+     2     2      19      43  Nahrungseryanzungsmittel
+     3     3      44      59  rnit Vitamin D3
+     4     4      60      70  Tcn.Ghooin
+     6     5      71      88  VitaminD3 20001.E
+     5     5      89     105  VEMIESRESIRFEHUG
+     7     6     106     112  FEe1hY
+     8     7     113     136  Vitamin D tragt bei zur
+     9     8     137     173  Erhaltung normaler Knochen und einer
+    11     9     174     197  normalen Muskelfunktion
+    10     9     198     206  WCerheeg
+    12    10     207     241  normalen Funktion.des Inmunsystens
+    13    11     242     261  und der Zellteilung
+    15    12     262     293  norrnalen Aufnahrne von Calcium
+    14    12     294     296  1.
+    16    13     297     317  Enrkugurdeertelmoiie
+    18    14     318     339  Nahrstoff Ipro Kapsel
+    19    14     340     350  pukarermwy
+    17    14     351     363  Parvreeenrue
+    20    15     364     386  VitaminD50g20001E1000%
+    21    15     387     412  deSrerrinDetrotniMetdenme
+    23    16     413     449  Referenznenge for die tagiche Zufuhr
+    22    16     450     465  Nercaren.rrnCam
+    25    17     466     496  pema8Verordnung EUNr.116//2011
+    24    17     497     512  epdn utcoUrWgxg
+    26    18     513     535  EdungvonNerectencohiwc
+    28    19     536     552  120Kapseln=21.6g
+    27    19     553     570  EaaevnWaraccrsopr
+    29    20     571     585  Vianin Denphgn
+    30    21     586     630  Mindestens haltbar bi Ende:siehe Seterkarche
+    31    21     631     649  pRptrabcerPecmencn
+    32    22     650     683  Nicht ober 25C und trocken lagern
+    33    22     684     696  Kindernkagen
+
+=================================================================

@@ -1,0 +1,136 @@
+=================================================================
+  IMAGE: 4.jpeg
+  OCR tokens (after corrector): 90
+  Serialized tokens:            90
+  Visual lines detected:        9
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ 505729 NATOR LE671UD.AUSRMG SPORT.DISTRIBUTION PTY LTD.SUITE21.3-9TERMNUSSTREET.CASTLE IT UK PR.100g
+  Line 02 │ DE/AT/CH DK/NO/SE NL E FR/BE ES INFONUTRICOPAL FI RAVINTOSISALTO NALORI NUTRZONALI NUTRTION NO
+  Line 03 │ NAHAWERTE NERINGSINDHOLD VOEDINSWAARDEN INFONUTRITICNELLE VALOR ENERGETICO INFO NUTRICIONAL ENERGA energie VALOREENERGETICO FAT ENERGY 11
+  Line 04 │ Energie energie Energie Energie GRAISSES GRASAS LPOXS DOSOUAS OSTA RASVAT GRASSI OFNFICH saturates
+  Line 05 │ FETT FEDT HERAFMETTEDE VETTEN WAARVAN DONTACIDES GRAS SATURES SATURADAS DELAS CUALES SATURALOS IYYUYTTYAETA HIUHYDRAATTI SATUR carbohydrate carbohydrate FINOYSUGARS
+  Line 06 │ Fettsauren davon gesattigte FEDTSYRER KOOLHYDRATEN verzadigde vetzuren GLUCIDES DELOSCOALESAEUCA HIDRATOSDECABRONO MIORATOS DECAAS protein proteines SALT- protein
+  Line 07 │ Kohlenhydrate KULHYDRAT HERAF SUOERARTER WAARVAN SUIKERS PROTEINES DONTSUCRES protein SAL FROTENAS SUOLA SALE
+  Line 08 │ DAVON ZUCKER PROTEIN EIWITTEN SEL SAL
+  Line 09 │ eiweiss CALT ZCS.
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  14.7px  [6 tokens]
+    → 505729 | NATOR | LE671UD.AUSRMG SPORT.DISTRIBUTION PTY LTD.SUITE21.3-9TERMNUSSTREET.CASTLE | IT | UK | PR.100g
+  Line 02  y=  31.0px  [11 tokens]
+    → DE/AT/CH | DK/NO/SE | NL | E | FR/BE | ES | INFONUTRICOPAL | FI | RAVINTOSISALTO | NALORI NUTRZONALI | NUTRTION NO
+  Line 03  y=  46.2px  [12 tokens]
+    → NAHAWERTE | NERINGSINDHOLD | VOEDINSWAARDEN | INFONUTRITICNELLE | VALOR ENERGETICO | INFO NUTRICIONAL | ENERGA | energie | VALOREENERGETICO | FAT | ENERGY | 11
+  Line 04  y=  61.5px  [13 tokens]
+    → Energie | energie | Energie | Energie | GRAISSES | GRASAS | LPOXS | DOSOUAS | OSTA | RASVAT | GRASSI | OFNFICH | saturates
+  Line 05  y=  78.2px  [16 tokens]
+    → FETT | FEDT | HERAFMETTEDE | VETTEN | WAARVAN | DONTACIDES | GRAS SATURES | SATURADAS | DELAS CUALES | SATURALOS | IYYUYTTYAETA | HIUHYDRAATTI | SATUR | carbohydrate | carbohydrate | FINOYSUGARS
+  Line 06  y=  95.4px  [13 tokens]
+    → Fettsauren | davon gesattigte | FEDTSYRER | KOOLHYDRATEN | verzadigde vetzuren | GLUCIDES | DELOSCOALESAEUCA | HIDRATOSDECABRONO | MIORATOS DECAAS | protein | proteines | SALT- | protein
+  Line 07  y= 110.4px  [11 tokens]
+    → Kohlenhydrate | KULHYDRAT | HERAF SUOERARTER | WAARVAN SUIKERS | PROTEINES | DONTSUCRES | protein | SAL | FROTENAS | SUOLA | SALE
+  Line 08  y= 124.4px  [5 tokens]
+    → DAVON ZUCKER | PROTEIN | EIWITTEN | SEL | SAL
+  Line 09  y= 136.7px  [3 tokens]
+    → eiweiss | CALT | ZCS.
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     2     0       0       6  505729
+     0     0       7      12  NATOR
+     1     0      13      86  LE671UD.AUSRMG SPORT.DISTRIBUTION PTY LTD.SUITE21.3-9TERMNUSSTREET.CASTLE
+     5     0      87      89  IT
+     3     0      90      92  UK
+     4     0      93     100  PR.100g
+    15     1     101     109  DE/AT/CH
+    13     1     110     118  DK/NO/SE
+    11     1     119     121  NL
+    10     1     122     123  E
+     9     1     124     129  FR/BE
+     7     1     130     132  ES
+    16     1     133     147  INFONUTRICOPAL
+     6     1     148     150  FI
+    14     1     151     165  RAVINTOSISALTO
+    12     1     166     183  NALORI NUTRZONALI
+     8     1     184     195  NUTRTION NO
+    28     2     196     205  NAHAWERTE
+    23     2     206     220  NERINGSINDHOLD
+    21     2     221     235  VOEDINSWAARDEN
+    19     2     236     253  INFONUTRITICNELLE
+    27     2     254     270  VALOR ENERGETICO
+    17     2     271     287  INFO NUTRICIONAL
+    24     2     288     294  ENERGA
+    22     2     295     302  energie
+    20     2     303     319  VALOREENERGETICO
+    26     2     320     323  FAT
+    18     2     324     330  ENERGY
+    25     2     331     333  11
+    38     3     334     341  Energie
+    35     3     342     349  energie
+    32     3     350     357  Energie
+    30     3     358     365  Energie
+    39     3     366     374  GRAISSES
+    36     3     375     381  GRASAS
+    33     3     382     387  LPOXS
+    41     3     388     395  DOSOUAS
+    37     3     396     400  OSTA
+    31     3     401     407  RASVAT
+    29     3     408     414  GRASSI
+    34     3     415     422  OFNFICH
+    40     3     423     432  saturates
+    50     4     433     437  FETT
+    46     4     438     442  FEDT
+    56     4     443     455  HERAFMETTEDE
+    42     4     456     462  VETTEN
+    52     4     463     470  WAARVAN
+    48     4     471     481  DONTACIDES
+    57     4     482     494  GRAS SATURES
+    54     4     495     504  SATURADAS
+    44     4     505     517  DELAS CUALES
+    49     4     518     527  SATURALOS
+    45     4     528     540  IYYUYTTYAETA
+    53     4     541     553  HIUHYDRAATTI
+    43     4     554     559  SATUR
+    51     4     560     572  carbohydrate
+    47     4     573     585  carbohydrate
+    55     4     586     597  FINOYSUGARS
+    66     5     598     608  Fettsauren
+    58     5     609     625  davon gesattigte
+    63     5     626     635  FEDTSYRER
+    69     5     636     648  KOOLHYDRATEN
+    60     5     649     668  verzadigde vetzuren
+    64     5     669     677  GLUCIDES
+    67     5     678     694  DELOSCOALESAEUCA
+    61     5     695     712  HIDRATOSDECABRONO
+    59     5     713     728  MIORATOS DECAAS
+    68     5     729     736  protein
+    65     5     737     746  proteines
+    70     5     747     752  SALT-
+    62     5     753     760  protein
+    78     6     761     774  Kohlenhydrate
+    74     6     775     784  KULHYDRAT
+    81     6     785     801  HERAF SUOERARTER
+    75     6     802     817  WAARVAN SUIKERS
+    79     6     818     827  PROTEINES
+    71     6     828     838  DONTSUCRES
+    77     6     839     846  protein
+    80     6     847     850  SAL
+    72     6     851     859  FROTENAS
+    76     6     860     865  SUOLA
+    73     6     866     870  SALE
+    84     7     871     883  DAVON ZUCKER
+    86     7     884     891  PROTEIN
+    83     7     892     900  EIWITTEN
+    85     7     901     904  SEL
+    82     7     905     908  SAL
+    88     8     909     916  eiweiss
+    89     8     917     921  CALT
+    87     8     922     926  ZCS.
+
+=================================================================

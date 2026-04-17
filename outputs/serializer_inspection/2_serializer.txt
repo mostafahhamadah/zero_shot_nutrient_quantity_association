@@ -1,0 +1,75 @@
+=================================================================
+  IMAGE: 2.jpeg
+  OCR tokens (after corrector): 29
+  Serialized tokens:            29
+  Visual lines detected:        9
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ 100g1Tube70g
+  Line 02 │ Nahrwerte/nutrition facts 1195(281 837197
+  Line 03 │ Energie/energy kJ (kcal) 0 g
+  Line 04 │ Fett/tat 60
+  Line 05 │ ofwhich saturates Kohlenhydrate/carbohydrates 70 g 50 g
+  Line 06 │ davon Zuckerarten/of which sugars 33 g 259
+  Line 07 │ 0 g 0 g
+  Line 08 │ Erweiss/Protein 0.43 g 0.30 g
+  Line 09 │ Salz/salt
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  15.0px  [1 tokens]
+    → 100g1Tube70g
+  Line 02  y=  33.5px  [3 tokens]
+    → Nahrwerte/nutrition facts | 1195(281 | 837197
+  Line 03  y=  53.0px  [3 tokens]
+    → Energie/energy kJ (kcal) | 0 | g
+  Line 04  y=  73.5px  [2 tokens]
+    → Fett/tat | 60
+  Line 05  y= 111.0px  [6 tokens]
+    → ofwhich saturates | Kohlenhydrate/carbohydrates | 70 | g | 50 | g
+  Line 06  y= 130.9px  [4 tokens]
+    → davon Zuckerarten/of which sugars | 33 | g | 259
+  Line 07  y= 150.0px  [4 tokens]
+    → 0 | g | 0 | g
+  Line 08  y= 165.0px  [5 tokens]
+    → Erweiss/Protein | 0.43 | g | 0.30 | g
+  Line 09  y= 183.0px  [1 tokens]
+    → Salz/salt
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      12  100g1Tube70g
+     2     1      13      38  Nahrwerte/nutrition facts
+     3     1      39      47  1195(281
+     1     1      48      54  837197
+     4     2      55      79  Energie/energy kJ (kcal)
+     5     2      80      81  0
+     6     2      82      83  g
+     8     3      84      92  Fett/tat
+     7     3      93      95  60
+     9     4      96     113  ofwhich saturates
+    14     4     114     141  Kohlenhydrate/carbohydrates
+    10     4     142     144  70
+    11     4     145     146  g
+    12     4     147     149  50
+    13     4     150     151  g
+    18     5     152     185  davon Zuckerarten/of which sugars
+    16     5     186     188  33
+    17     5     189     190  g
+    15     5     191     194  259
+    21     6     195     196  0
+    22     6     197     198  g
+    19     6     199     200  0
+    20     6     201     202  g
+    23     7     203     218  Erweiss/Protein
+    26     7     219     223  0.43
+    27     7     224     225  g
+    24     7     226     230  0.30
+    25     7     231     232  g
+    28     8     233     242  Salz/salt
+
+=================================================================

@@ -1,0 +1,133 @@
+{
+    "image_id": "91.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Energie/energy/energia kJ (kcal)",
+            "quantity": "234",
+            "unit": "kJ",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energie/energy/energia kJ (kcal)",
+            "quantity": "55",
+            "unit": "kcal",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Fett/lipides/fat/grassi",
+            "quantity": "0.7",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "davon gesättigte Fettsäuren/of which saturated fatty acids",
+            "quantity": "0.5",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Kohlenhydrate/glucides/carbohydrates/carboidrati",
+            "quantity": "4.1",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "davon Zuckerarten/of which sugars",
+            "quantity": "8.5",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Eiweiss/protein(e)/protéines",
+            "quantity": "8.0",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Salz/sel/salt/sale**",
+            "quantity": "0.10",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energie/energy/energia kJ (kcal)",
+            "quantity": "772",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "PER DRINK (330 ML)"
+        },
+        {
+            "nutrient": "Energie/energy/energia kJ (kcal)",
+            "quantity": "181",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "PER DRINK (330 ML)"
+        },
+        {
+            "nutrient": "Fett/lipides/fat/grassi",
+            "quantity": "2.3",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "PER DRINK (330 ML)"
+        },
+        {
+            "nutrient": "davon gesättigte Fettsäuren/of which saturated fatty acids",
+            "quantity": "1.6",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "PER DRINK (330 ML)"
+        },
+        {
+            "nutrient": "Kohlenhydrate/glucides/carbohydrates/carboidrati",
+            "quantity": "13",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "PER DRINK (330 ML)"
+        },
+        {
+            "nutrient": "davon Zuckerarten/of which sugars",
+            "quantity": "11",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "PER DRINK (330 ML)"
+        },
+        {
+            "nutrient": "Eiweiss/protein(e)/protéines",
+            "quantity": "26",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "PER DRINK (330 ML)"
+        },
+        {
+            "nutrient": "Salz/sel/salt/sale**",
+            "quantity": "0.33",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "PER DRINK (330 ML)"
+        }
+    ]
+}

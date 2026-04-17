@@ -1,0 +1,80 @@
+=================================================================
+  IMAGE: 88.jpeg
+  OCR tokens (after corrector): 31
+  Serialized tokens:            31
+  Visual lines detected:        10
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ per 100ml PERDRINK
+  Line 02 │ (330ML)
+  Line 03 │ eeneenegia kkcal 23455 772(181)
+  Line 04 │ 3.7 g
+  Line 05 │ e/pdes/fat/grassi n gesattigte Fettsuren 0.5 g
+  Line 06 │ Ghlerhydrate/glucides which saturated fatty acids 4.1 g 13 g
+  Line 07 │ catohydrates/carboidrati 3.5 g 11 g
+  Line 08 │ Eweiss/protein(el/proteines 8.0 g
+  Line 09 │ 0.10 g 0.33 g
+  Line 10 │ Sal/sel/salt/sale"
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  23.5px  [2 tokens]
+    → per 100ml | PERDRINK
+  Line 02  y=  42.0px  [1 tokens]
+    → (330ML)
+  Line 03  y=  71.2px  [3 tokens]
+    → eeneenegia kkcal | 23455 | 772(181)
+  Line 04  y=  83.5px  [2 tokens]
+    → 3.7 | g
+  Line 05  y= 101.2px  [4 tokens]
+    → e/pdes/fat/grassi | n gesattigte Fettsuren | 0.5 | g
+  Line 06  y= 135.6px  [6 tokens]
+    → Ghlerhydrate/glucides | which saturated fatty acids | 4.1 | g | 13 | g
+  Line 07  y= 165.1px  [5 tokens]
+    → catohydrates/carboidrati | 3.5 | g | 11 | g
+  Line 08  y= 186.2px  [3 tokens]
+    → Eweiss/protein(el/proteines | 8.0 | g
+  Line 09  y= 204.2px  [4 tokens]
+    → 0.10 | g | 0.33 | g
+  Line 10  y= 215.5px  [1 tokens]
+    → Sal/sel/salt/sale"
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       9  per 100ml
+     1     0      10      18  PERDRINK
+     2     1      19      26  (330ML)
+     5     2      27      43  eeneenegia kkcal
+     3     2      44      49  23455
+     4     2      50      58  772(181)
+     6     3      59      62  3.7
+     7     3      63      64  g
+     8     4      65      82  e/pdes/fat/grassi
+    11     4      83     105  n gesattigte Fettsuren
+     9     4     106     109  0.5
+    10     4     110     111  g
+    17     5     112     133  Ghlerhydrate/glucides
+    12     5     134     161  which saturated fatty acids
+    13     5     162     165  4.1
+    14     5     166     167  g
+    15     5     168     170  13
+    16     5     171     172  g
+    18     6     173     197  catohydrates/carboidrati
+    19     6     198     201  3.5
+    20     6     202     203  g
+    21     6     204     206  11
+    22     6     207     208  g
+    25     7     209     236  Eweiss/protein(el/proteines
+    23     7     237     240  8.0
+    24     7     241     242  g
+    26     8     243     247  0.10
+    27     8     248     249  g
+    28     8     250     254  0.33
+    29     8     255     256  g
+    30     9     257     275  Sal/sel/salt/sale"
+
+=================================================================

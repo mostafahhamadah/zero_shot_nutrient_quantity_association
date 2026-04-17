@@ -1,0 +1,89 @@
+=================================================================
+  IMAGE: 105.jpeg
+  OCR tokens (after corrector): 34
+  Serialized tokens:            34
+  Visual lines detected:        12
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Durchschnittliche Nahrwerte
+  Line 02 │ Je100g1Portion12g
+  Line 03 │ Energie 1320k 38 158k kcal
+  Line 04 │ 313 kcal 0.3 g
+  Line 05 │ Fett
+  Line 06 │ davon gesattigte 600
+  Line 07 │ Fettsauren 0.4 g 6.3 g
+  Line 08 │ Kohlenhydrate 52.1g 6.2 g
+  Line 09 │ -davonZucker 514g 1.9 g
+  Line 10 │ Balastoffe 15.5g 0.8 g
+  Line 11 │ 7.0 g 0.00 g
+  Line 12 │ Salz 600
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  16.5px  [1 tokens]
+    → Durchschnittliche Nahrwerte
+  Line 02  y=  36.0px  [1 tokens]
+    → Je100g1Portion12g
+  Line 03  y=  55.5px  [5 tokens]
+    → Energie | 1320k | 38 | 158k | kcal
+  Line 04  y=  74.0px  [4 tokens]
+    → 313 | kcal | 0.3 | g
+  Line 05  y=  84.5px  [1 tokens]
+    → Fett
+  Line 06  y= 101.0px  [2 tokens]
+    → davon gesattigte | 600
+  Line 07  y= 114.6px  [5 tokens]
+    → Fettsauren | 0.4 | g | 6.3 | g
+  Line 08  y= 130.7px  [3 tokens]
+    → Kohlenhydrate 52.1g | 6.2 | g
+  Line 09  y= 146.8px  [3 tokens]
+    → -davonZucker 514g | 1.9 | g
+  Line 10  y= 160.7px  [3 tokens]
+    → Balastoffe 15.5g | 0.8 | g
+  Line 11  y= 174.2px  [4 tokens]
+    → 7.0 | g | 0.00 | g
+  Line 12  y= 188.8px  [2 tokens]
+    → Salz | 600
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      27  Durchschnittliche Nahrwerte
+     1     1      28      45  Je100g1Portion12g
+     3     2      46      53  Energie
+     4     2      54      59  1320k
+     5     2      60      62  38
+     2     2      63      67  158k
+     6     2      68      72  kcal
+     7     3      73      76  313
+     8     3      77      81  kcal
+     9     3      82      85  0.3
+    10     3      86      87  g
+    11     4      88      92  Fett
+    12     5      93     109  davon gesattigte
+    13     5     110     113  600
+    16     6     114     124  Fettsauren
+    14     6     125     128  0.4
+    15     6     129     130  g
+    17     6     131     134  6.3
+    18     6     135     136  g
+    19     7     137     156  Kohlenhydrate 52.1g
+    20     7     157     160  6.2
+    21     7     161     162  g
+    22     8     163     180  -davonZucker 514g
+    23     8     181     184  1.9
+    24     8     185     186  g
+    25     9     187     203  Balastoffe 15.5g
+    26     9     204     207  0.8
+    27     9     208     209  g
+    28    10     210     213  7.0
+    29    10     214     215  g
+    30    10     216     220  0.00
+    31    10     221     222  g
+    33    11     223     227  Salz
+    32    11     228     231  600
+
+=================================================================

@@ -1,0 +1,104 @@
+image_id,gt_nutrient,pred_nutrient,gt_qty,pred_qty,gt_unit,pred_unit,gt_context,pred_context,qty_match,unit_match,ctx_match,full_match_3f,full_match_4f
+103.jpeg,Fett,Fett,0.4,0.4,g,,per_serving,,True,False,False,False,False
+103.jpeg,Kohlenhydrate,Kohlenhydrate,51,51,g,,per_100g,,True,False,False,False,False
+103.jpeg,Eiweiß,Eiweiss,7.7,7.7,g,,per_100g,,True,False,False,False,False
+103.jpeg,Fett,Fett,3.7,g,g,,per_100g,,False,False,False,False,False
+103.jpeg,Kohlenhydrate,Kohlenhydrate,6.1,g,g,,per_serving,,False,False,False,False,False
+103.jpeg,Ballaststoffe,Ballaststoffe,16,7.7,g,,per_100g,,False,False,False,False,False
+103.jpeg,Ballaststoffe,Ballaststoffe,1.9,51,g,,per_serving,,False,False,False,False,False
+103.jpeg,Eiweiß,Eiweiss,0.9,g,g,,per_serving,,False,False,False,False,False
+103.jpeg,Salz,Salz,0,7.7,g,,per_100g,,False,False,False,False,False
+103.jpeg,Salz,Salz,0,g,g,,per_serving,,False,False,False,False,False
+104.jpeg,Kohlenhydrate,Kohlenhydrate,72,72,g,,per_100g,,True,False,False,False,False
+104.jpeg,Kohlenhydrate,Kohlenhydrate,10,10,g,,per_serving,,True,False,False,False,False
+104.jpeg,Ballaststoffe,Ballaststoffe,10,10,g,,per_100g,,True,False,False,False,False
+104.jpeg,Salz,Salz,0.1,0.1,g,,per_100g,,True,False,False,False,False
+104.jpeg,Fett,Fett,2.6,51,g,,per_100g,,False,False,False,False,False
+104.jpeg,Fett,Fett,0,kcal,g,,per_serving,,False,False,False,False,False
+104.jpeg,Ballaststoffe,Ballaststoffe,1.4,3.2,g,,per_serving,,False,False,False,False,False
+104.jpeg,Salz,Salz,0,3.2,g,,per_serving,,False,False,False,False,False
+108.jpeg,Magnesium,Magnesium,240,240,mg,,per_serving,,True,False,False,False,False
+108.jpeg,Vitamin B1,Vitamin B1,1.1,1.1,mg,,per_serving,,True,False,False,False,False
+108.jpeg,Vitamin B2,Vitamin B2,1.4,1.4,mg,,per_serving,,True,False,False,False,False
+108.jpeg,Vitamin B6,Vitamin B6,1.4,1.4,mg,,per_serving,,True,False,False,False,False
+108.jpeg,Vitamin B12,Vitamin B12,2.5,80,µg,,per_serving,,False,False,False,False,False
+108.jpeg,Biotin,Biotin,50,2009,µg,,per_serving,,False,False,False,False,False
+108.jpeg,Folsäure,Folsaure,200,6.0,µg,,per_serving,,False,False,False,False,False
+109.jpeg,Fett,Fett,0,0,g,,per_100g,,True,False,False,False,False
+109.jpeg,Kohlenhydrate,Kohlenhydrate,12.0,12.0,g,,per_100g,,True,False,False,False,False
+109.jpeg,Ballaststoffe,Ballaststoffe,1.5,1.5,g,,per_100g,,True,False,False,False,False
+109.jpeg,Eiweiß,Eiweiss,11.0,11.0,g,,per_100g,,True,False,False,False,False
+109.jpeg,Salz,Salz,0.05,0.05,g,,per_100g,,True,False,False,False,False
+109.jpeg,- davon gesättigte Fettsäuren,Fettsauren,0.2,0.2,g,,per_100g,,True,False,False,False,False
+110.jpeg,Melissen Extrakt,Melissen Extrakt,15,15,mg,,per_serving,,True,False,False,False,False
+110.jpeg,Melissen Extrakt,Melissen Extrakt,30,30,mg,,per_serving,,True,False,False,False,False
+110.jpeg,Niacin,Niacin,8.0,8.0,mg NE,,per_serving,,True,False,False,False,False
+110.jpeg,Niacin,Niacin,16,16,mg NE,,per_serving,,True,False,False,False,False
+110.jpeg,Pantothensäure,Pantothensaure,3.0,3.0,mg,,per_serving,,True,False,False,False,False
+110.jpeg,Pantothensäure,Pantothensaure,6.0,6.0,mg,,per_serving,,True,False,False,False,False
+111.jpeg,Vitamin B12,Vitamin B12,17.5,17.5,µg,,per_daily_dose,,True,False,False,False,False
+113.jpeg,KOFFEIN,KOFFEIN,267,267,mg,,per_100g,,True,False,False,False,False
+113.jpeg,FETT,FETT,4.5,,g,,per_100g,,False,False,False,False,False
+113.jpeg,KOHLENHYDRATE,Kohlenhydrate,7.7,,g,,per_100g,,False,False,False,False,False
+113.jpeg,BALLASTSTOFFE,Ballaststoffe,1.9,,g,,per_100g,,False,False,False,False,False
+113.jpeg,EIWEIß,Eiweiss,72.7,,g,,per_100g,,False,False,False,False,False
+113.jpeg,SALZ,SALZ,0.53,,g,,per_100g,,False,False,False,False,False
+113.jpeg,KOFFEIN,KOFFEIN,80,mg,mg,,per_serving,,False,False,False,False,False
+113.jpeg,FETT,DAVONGESATTIGTE FETTSAUREN,1.3,,g,,per_serving,,False,False,False,False,False
+114.jpeg,FETT,FETT,4.8,,g,,per_100g,,False,False,False,False,False
+114.jpeg,KOHLENHYDRATE,Kohlenhydrate,8.8,,g,,per_100g,,False,False,False,False,False
+114.jpeg,BALLASTSTOFFE,Ballaststoffe,2.8,,g,,per_100g,,False,False,False,False,False
+114.jpeg,EIWEIß,Eiweiss,70.1,,g,,per_100g,,False,False,False,False,False
+114.jpeg,SALZ,SALZ,0.51,,g,,per_100g,,False,False,False,False,False
+114.jpeg,KOFFEIN,KOFFEIN,268,,mg,,per_100g,,False,False,False,False,False
+114.jpeg,FETT,DAVONGESATTIGTEFETTSAUREN,1.4,,g,,per_serving,,False,False,False,False,False
+114.jpeg,DAVON GESÄTTIGTE FETTSÄUREN,S,3.3,,g,,per_100g,,False,False,False,False,False
+116.jpeg,SALZ,SALZ,2.02,2.02,g,,per_100g,,True,False,False,False,False
+116.jpeg,SALZ,SALZ,0.61,0.61,g,,per_serving,,True,False,False,False,False
+116.jpeg,BALLASTSTOFFE,Ballaststoffe,12.0,,g,,per_100g,,False,False,False,False,False
+116.jpeg,EIWEIß,Eiweiss,41.0,,g,,per_100g,,False,False,False,False,False
+116.jpeg,FETT,Fettsauren,12.0,,g,,per_100g,,False,False,False,False,False
+117.jpeg,SALZ,SALZ,0.04,0.04,g,,per_serving,,True,False,False,False,False
+117.jpeg,KOHLENHYDRATE,Kohlenhydrate,37.1,,g,,per_100g,,False,False,False,False,False
+117.jpeg,BALLASTSTOFFE,Ballaststoffe,9.0,,g,,per_100g,,False,False,False,False,False
+117.jpeg,EIWEIß,Eiweiss,24.5,,g,,per_100g,,False,False,False,False,False
+117.jpeg,SALZ,SALZ,0.10,g,g,,per_100g,,False,False,False,False,False
+118.jpeg,BALLASTSTOFFE,Ballaststoffe,3.0,19,g,,per_100g,,False,False,False,False,False
+118.jpeg,BALLASTSTOFFE,Ballaststoffe,2.4,g,g,,per_serving,,False,False,False,False,False
+118.jpeg,EIWEIß,Eiweiss,24,0.56,g,,per_100g,,False,False,False,False,False
+118.jpeg,EIWEIß,Eiweiss,19,g,g,,per_serving,,False,False,False,False,False
+118.jpeg,SALZ,SALZ,0.70,,g,,per_100g,,False,False,False,False,False
+119.jpeg,BALLASTSTOFFE,Ballaststoffe,4.5,19,g,,per_100g,,False,False,False,False,False
+119.jpeg,BALLASTSTOFFE,Ballaststoffe,3.6,g,g,,per_serving,,False,False,False,False,False
+119.jpeg,EIWEIß,Eiweiss,24,0.56,g,,per_100g,,False,False,False,False,False
+119.jpeg,EIWEIß,Eiweiss,19,g,g,,per_serving,,False,False,False,False,False
+119.jpeg,SALZ,SALZ,0.70,,g,,per_100g,,False,False,False,False,False
+120.jpeg,ALPHA-LIPONSÄURE,ALPHA-LIPONSAURE,42,,mg,,per_serving,,False,False,False,False,False
+120.jpeg,RUTIN,RUTIN,20,,mg,,per_serving,,False,False,False,False,False
+120.jpeg,NIACIN,Niacin,16,,mg,,per_serving,,False,False,False,False,False
+120.jpeg,BIOTIN,Biotin,40,,µg,,per_serving,,False,False,False,False,False
+120.jpeg,CALCIUM,Calcium,121,,mg,,per_serving,,False,False,False,False,False
+120.jpeg,CHOLIN,choline,20,,mg,,per_serving,,False,False,False,False,False
+121.jpeg,SALZ,SALZ,0.20,0.20,g,,per_100g,,True,False,False,False,False
+121.jpeg,SALZ,SALZ,0.09,0.09,g,,per_serving,,True,False,False,False,False
+121.jpeg,BALLASTSTOFFE,Ballaststoffe,18,,g,,per_100g,,False,False,False,False,False
+121.jpeg,EIWEIß,Eiweiss,35,,g,,per_100g,,False,False,False,False,False
+35.jpeg,Magnesium,Magnesium,4.7,4.7,g,,per_100g,,True,False,False,False,False
+35.jpeg,Vitamin C,Vitamin C,2.1,2.1,g,,per_100g,,True,False,False,False,False
+35.jpeg,Vitamin C,Vitamin C,100.8,100.8,mg,,per_serving,,True,False,False,False,False
+35.jpeg,Magnesium,Magnesium,225,2.1,mg,,per_serving,,False,False,False,False,False
+56.jpeg,Fett ........... Lipides,Fett,4.3,4.3,g,,per_100g,,True,False,False,False,False
+56.jpeg,Fett ........... Lipides,Fett,0.26,3.67,g,,per_serving,,False,False,False,False,False
+57.jpeg,Eiweiß / Protéines,proteines,83,83,g,,per_100g,,True,False,False,False,False
+57.jpeg,Fett / Lipides,lipides,4.3,3.67,g,,per_100g,,False,False,False,False,False
+57.jpeg,Eiweiß / Protéines,proteines,4.99,3.67,g,,per_serving,,False,False,False,False,False
+57.jpeg,Fett / Lipides,lipides,0.26,g,g,,per_serving,,False,False,False,False,False
+82.jpeg,Protein,Protein,0,60,g,,per_100g,,False,False,False,False,False
+82.jpeg,Carbohydrates,Carbohydrates,0,60,g,,per_100g,,False,False,False,False,False
+82.jpeg,Fat,Fat,0,60,g,,per_100g,,False,False,False,False,False
+82.jpeg,Creatine monohydrate,Creatine,100,100,g,g,per_100g,,True,True,False,False,False
+82.jpeg,Creatine monohydrate,monohydrate,3,100,g,g,per_serving,,False,True,False,False,False
+9.jpeg,Zink,Zink,5,5,mg,,per_serving,,True,False,False,False,False
+9.jpeg,Vitamin C,Vitamin C,30,30,mg,,per_serving,,True,False,False,False,False
+9.jpeg,Zink,Zink,10,30,mg,,per_serving,,False,False,False,False,False
+9.jpeg,Vitamin C,Vitamin C,60,5,mg,,per_serving,,False,False,False,False,False

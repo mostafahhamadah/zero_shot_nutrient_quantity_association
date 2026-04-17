@@ -1,0 +1,181 @@
+{
+    "image_id": "61.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Energy / Energie / Energia / Énergie / Energia / Energijska vrednost",
+            "quantity": "427",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "30 g"
+        },
+        {
+            "nutrient": "Energy / Energie / Energia / Énergie / Energia / Energijska vrednost",
+            "quantity": "102",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "30 g"
+        },
+        {
+            "nutrient": "Fat / Fett / Grassi / Graisse / Grasas / Maščobe",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "30 g"
+        },
+        {
+            "nutrient": "of which saturated / davon gesättigte / di cui saturi / dont saturés / de las cuales saturadas / od tega nasičene",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "30 g"
+        },
+        {
+            "nutrient": "Carbohydrates / Kohlenhydrate / Carboidrati / Glucides / Carbohidratos / Ogljikovi hidrati",
+            "quantity": "25.3",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "30 g"
+        },
+        {
+            "nutrient": "of which sugars / davon Zucker / di cui zuccheri / dont sucres / de los cuales azúcares / od tega sladkorji",
+            "quantity": "14.6",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "30 g"
+        },
+        {
+            "nutrient": "Protein / Eiweiß / Proteine / Protéines / Proteína / Beljakovine",
+            "quantity": "0.2",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "30 g"
+        },
+        {
+            "nutrient": "Salt / Salz / Sale / Sel / Sal / Sol",
+            "quantity": "0.52",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "30 g"
+        },
+        {
+            "nutrient": "Magnesium / Magnesium / Magnesio / Magnésium / Magnesio / Magnezij",
+            "quantity": "75",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "20",
+            "serving_size": "30 g"
+        },
+        {
+            "nutrient": "Potassium / Kalium / Potassio / Potassium / Potasio / Kalij",
+            "quantity": "100",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "5",
+            "serving_size": "30 g"
+        },
+        {
+            "nutrient": "Calcium / Kalzium / Calcio / Calcium / Calcio / Kalcij",
+            "quantity": "50",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "6",
+            "serving_size": "30 g"
+        },
+        {
+            "nutrient": "Energy / Energie / Energia / Énergie / Energia / Energijska vrednost",
+            "quantity": "1424",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energy / Energie / Energia / Énergie / Energia / Energijska vrednost",
+            "quantity": "341",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Fat / Fett / Grassi / Graisse / Grasas / Maščobe",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "of which saturated / davon gesättigte / di cui saturi / dont saturés / de las cuales saturadas / od tega nasičene",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Carbohydrates / Kohlenhydrate / Carboidrati / Glucides / Carbohidratos / Ogljikovi hidrati",
+            "quantity": "84.4",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "of which sugars / davon Zucker / di cui zuccheri / dont sucres / de los cuales azúcares / od tega sladkorji",
+            "quantity": "48.7",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Protein / Eiweiß / Proteine / Protéines / Proteína / Beljakovine",
+            "quantity": "0.6",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Salt / Salz / Sale / Sel / Sal / Sol",
+            "quantity": "1.73",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Magnesium / Magnesium / Magnesio / Magnésium / Magnesio / Magnezij",
+            "quantity": "250",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Potassium / Kalium / Potassio / Potassium / Potasio / Kalij",
+            "quantity": "333.3",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Calcium / Kalzium / Calcio / Calcium / Calcio / Kalcij",
+            "quantity": "166.7",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+ocr_total_tokens,ocr_zero_images,corrector_splits,corrector_changed,clf_total_tokens,clf_NUTRIENT,clf_QUANTITY,clf_UNIT,clf_CONTEXT,clf_UNKNOWN,context_norm_resolved,context_norm_missing,gliner_spans_accepted,gliner_avg_score,graph_nodes,graph_edges,edge_SAME_ROW,edge_SAME_COL,edge_ADJACENT,edge_CONTEXT_SCOPE,assoc_tuples,assoc_no_ctx,assoc_no_qty
+1683,0,386,525,2069,178,216,37,0,1638,0,0,301,0.4679,2069,42846,17406,18066,7374,0,263,263,108

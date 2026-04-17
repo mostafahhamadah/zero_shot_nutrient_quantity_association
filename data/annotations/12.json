@@ -1,0 +1,133 @@
+{
+    "image_id": "12.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Energie / Energia / Energie / Energi / Energia / Energi",
+            "quantity": "547",
+            "unit": "kJ",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energie / Energia / Energie / Energi / Energia / Energi",
+            "quantity": "129",
+            "unit": "kcal",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Vetten / Rasva / Matières grasses / Fett / Tłuszcze / Fett",
+            "quantity": "0.0",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "waarvan verzadigde vetzuren / josta tyydyttyneiden rasvojen osuus / dont matières grasses saturées / med andel mættet fett / w tym tłuszcze nasycone / varav mättat fett",
+            "quantity": "0.0",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Koolhydraten / Hiilihydraatit / Glucides / Karbohydrater / Węglowodany / Kolhydrater",
+            "quantity": "32",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "waarvan suikers / josta sokereiden osuus / dont sucres / med andel sukker / w tym cukry / varav socker",
+            "quantity": "1.1",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Eiwitten / Proteiinit / Protéines / Protein / Białko / Protein",
+            "quantity": "0.1",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Zout / Suola / Sel / Salt / Sól / Salt",
+            "quantity": "0.6",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energie / Energia / Energie / Energi / Energia / Energi",
+            "quantity": "328",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "60ml"
+        },
+        {
+            "nutrient": "Energie / Energia / Energie / Energi / Energia / Energi",
+            "quantity": "77",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "60ml"
+        },
+        {
+            "nutrient": "Vetten / Rasva / Matières grasses / Fett / Tłuszcze / Fett",
+            "quantity": "0.0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "60ml"
+        },
+        {
+            "nutrient": "waarvan verzadigde vetzuren / josta tyydyttyneiden rasvojen osuus / dont matières grasses saturées / med andel mættet fett / w tym tłuszcze nasycone / varav mättat fett",
+            "quantity": "0.0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "60ml"
+        },
+        {
+            "nutrient": "Koolhydraten / Hiilihydraatit / Glucides / Karbohydrater / Węglowodany / Kolhydrater",
+            "quantity": "19",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "60ml"
+        },
+        {
+            "nutrient": "waarvan suikers / josta sokereiden osuus / dont sucres / med andel sukker / w tym cukry / varav socker",
+            "quantity": "0.7",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "60ml"
+        },
+        {
+            "nutrient": "Eiwitten / Proteiinit / Protéines / Protein / Białko / Protein",
+            "quantity": "0.0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "60ml"
+        },
+        {
+            "nutrient": "Zout / Suola / Sel / Salt / Sól / Salt",
+            "quantity": "0.4",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "60ml"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+Experiment  : exp39_hybrid
+Pipeline    : Geometry-Aware V2 (PaddleOCR + Token Enricher + Graph V2)
+Classifier  : hybrid
+Evaluator   : Fast rule-based
+Schema      : nutrient|quantity|unit|context
+Timestamp   : 2026-04-11T17:03:45.824402
+Notes       : 
+
+Full Tuple Precision : 27.2%
+Full Tuple Recall    : 31.2%
+Full Tuple F1        : 29.1%
+Nutrient F1          : 0.685
+Unit Acc             : 81.5%
+Context Acc          : 84.1%

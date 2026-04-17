@@ -1,0 +1,57 @@
+=================================================================
+  IMAGE: 117.jpeg
+  OCR tokens (after corrector): 14
+  Serialized tokens:            14
+  Visual lines detected:        8
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ DURCHSCHNITTLICHENAURWERTE PROPORTION
+  Line 02 │ ENERGIE kJ/kcal 728/173
+  Line 03 │ FETT 6.1
+  Line 04 │ Kohlenhydrate
+  Line 05 │ -DAVONZUCKER
+  Line 06 │ Ballaststoffe
+  Line 07 │ Eiweiss
+  Line 08 │ SALZ 0.04 g
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y= 113.5px  [2 tokens]
+    → DURCHSCHNITTLICHENAURWERTE | PROPORTION
+  Line 02  y= 171.2px  [3 tokens]
+    → ENERGIE | kJ/kcal | 728/173
+  Line 03  y= 215.2px  [2 tokens]
+    → FETT | 6.1
+  Line 04  y= 305.5px  [1 tokens]
+    → Kohlenhydrate
+  Line 05  y= 351.0px  [1 tokens]
+    → -DAVONZUCKER
+  Line 06  y= 397.5px  [1 tokens]
+    → Ballaststoffe
+  Line 07  y= 443.0px  [1 tokens]
+    → Eiweiss
+  Line 08  y= 489.0px  [3 tokens]
+    → SALZ | 0.04 | g
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0      26  DURCHSCHNITTLICHENAURWERTE
+     0     0      27      37  PROPORTION
+     3     1      38      45  ENERGIE
+     4     1      46      53  kJ/kcal
+     2     1      54      61  728/173
+     6     2      62      66  FETT
+     5     2      67      70  6.1
+     7     3      71      84  Kohlenhydrate
+     8     4      85      97  -DAVONZUCKER
+     9     5      98     111  Ballaststoffe
+    10     6     112     119  Eiweiss
+    13     7     120     124  SALZ
+    11     7     125     129  0.04
+    12     7     130     131  g
+
+=================================================================

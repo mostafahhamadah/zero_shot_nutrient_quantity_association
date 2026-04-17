@@ -1,0 +1,14 @@
+Experiment  : exp39_rule
+Pipeline    : Geometry-Aware V2 (PaddleOCR + Token Enricher + Graph V2)
+Classifier  : rule
+Evaluator   : Fast rule-based
+Schema      : nutrient|quantity|unit|context
+Timestamp   : 2026-04-11T17:08:40.843659
+Notes       : 
+
+Full Tuple Precision : 28.7%
+Full Tuple Recall    : 31.2%
+Full Tuple F1        : 29.9%
+Nutrient F1          : 0.696
+Unit Acc             : 81.2%
+Context Acc          : 84.7%

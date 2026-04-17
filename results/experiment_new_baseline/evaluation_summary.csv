@@ -1,2 +1,0 @@
-experiment,timestamp,notes,schema,images_evaluated,gt_tuples,predicted_tuples,matched_pairs,nutrient_precision,nutrient_recall,nutrient_f1,quantity_acc,unit_acc,context_acc,full_tuple_correct,full_tuple_precision,full_tuple_recall,full_tuple_f1
-experiment_new_baseline,2026-03-22T19:38:21.643172,,nutrient|quantity|unit|context,57,903,368,275,0.7473,0.3045,0.4327,0.2327,0.52,0.2291,15,0.0408,0.0166,0.0236

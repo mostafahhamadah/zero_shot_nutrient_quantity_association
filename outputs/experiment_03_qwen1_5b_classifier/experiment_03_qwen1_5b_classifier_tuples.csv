@@ -1,0 +1,486 @@
+image_id,nutrient,quantity,unit,context
+1.jpeg,magnesiumoxid,,,400
+101.jpeg,Energie,,,
+101.jpeg,Fett,,,
+101.jpeg,0.8,,,
+101.jpeg,g,,,
+101.jpeg,-davon gesattigte Fettsauren <0.1g,,,
+101.jpeg,Kohlenhydrate,,,
+101.jpeg,-davon Zucker,,,
+101.jpeg,8.9,,,
+101.jpeg,Ballaststoffe,,,
+101.jpeg,Eiweiss,,,
+101.jpeg,Salz,,,
+101.jpeg,Thiamin,,,
+101.jpeg,Natrium,,,
+102.jpeg,Fett,,,
+102.jpeg,davon gesattigte,,,
+102.jpeg,1.1,,,
+102.jpeg,Fettsauren,,,
+102.jpeg,Kohlenhydrate,,,
+102.jpeg,Ballaststoffe,,,
+102.jpeg,Eiweiss,,,
+102.jpeg,Salz,,,
+103.jpeg,Energie,Nahrwerte,,pro
+103.jpeg,Energie,39,,pro
+103.jpeg,Energie,12,g,pro
+103.jpeg,Fett,39,,pro
+103.jpeg,Fett,kcal,,pro
+103.jpeg,davon gesattigte,Nahrwerte,,pro
+103.jpeg,0.4,51,,pro
+103.jpeg,0.4,g,,pro
+103.jpeg,g,51,,pro
+103.jpeg,g,g,,pro
+103.jpeg,Og,51,,pro
+103.jpeg,Og,g,,pro
+103.jpeg,Og,6.1,,pro
+103.jpeg,Fettsauren,51,,pro
+103.jpeg,Fettsauren,g,,pro
+103.jpeg,Fettsauren,6.1,,pro
+103.jpeg,Kohlenhydrate,51,,pro
+103.jpeg,Kohlenhydrate,g,,pro
+103.jpeg,Kohlenhydrate,6.1,,pro
+103.jpeg,davon Zucker,51,,pro
+103.jpeg,davon Zucker,g,,pro
+103.jpeg,davon Zucker,6.1,,pro
+103.jpeg,Eiweiss,66.0,,pro
+103.jpeg,Og,66.0,,pro
+103.jpeg,Salz,66.0,,pro
+104.jpeg,Energie,,,
+104.jpeg,Fett,,,
+104.jpeg,2.6,,,
+104.jpeg,davon gesattigte,,,
+104.jpeg,Fettsauren,,,
+104.jpeg,Kohlenhydrate,,,
+104.jpeg,Ballaststoffe,,,
+104.jpeg,Eiweif,,,
+104.jpeg,Salz,,,
+105.jpeg,Energie,,,
+105.jpeg,Fett,,,
+105.jpeg,davon gesattigte,,,
+105.jpeg,600,,,
+105.jpeg,Fettsauren,,,
+105.jpeg,Kohlenhydrate 52.1g,,,
+105.jpeg,-davonZucker 514g,,,
+105.jpeg,Balastoffe 15.5g,,,
+105.jpeg,Salz,,,
+106.jpeg,Vitamine und Mineralstoffe,12,,
+106.jpeg,Vitamina E/E-vitamin,12,,NRV/
+106.jpeg,Vitamina E/E-vitamin,mg a-TE,,NRV/
+106.jpeg,Vitamina E/E-vitamin,100%,,NRV/
+106.jpeg,VitaminE,12,,NRV/
+106.jpeg,VitaminE,mg a-TE,,NRV/
+106.jpeg,VitaminE,100%,,NRV/
+106.jpeg,Magnesium/Magnesium,Magnezij,,NRV/
+106.jpeg,Magnesium/Magnesium,12,,NRV/
+106.jpeg,Magnesium/Magnesium,250,,NRV/
+107.jpeg,mg,,,
+107.jpeg,14,,,
+107.jpeg,Vitamin B2,,,
+107.jpeg,Vitamin B6,,,
+107.jpeg,Vitamin B12,,,
+107.jpeg,80,,,
+107.jpeg,Vitamin E,,,
+107.jpeg,Niacin,,,
+107.jpeg,Biotin,,,
+107.jpeg,Folsaure,,,
+107.jpeg,Pantothensaure,,,
+107.jpeg,Viafo,,,
+108.jpeg,mg,,,
+108.jpeg,Magnesium,,,
+108.jpeg,Vitamin B1,,,
+108.jpeg,Vitamin B2,,,
+108.jpeg,Vitamin B6,,,
+108.jpeg,Vitamin B12,,,
+108.jpeg,80,,,
+108.jpeg,VitaminC,,,
+108.jpeg,VitaminE (a-TE,,,
+108.jpeg,Biotin,,,
+109.jpeg,Brennwert,,,
+109.jpeg,g,,,
+109.jpeg,Fett,,,
+109.jpeg,davon gesattigte,,,
+109.jpeg,Fettsauren,,,
+109.jpeg,Kohlenhydrate,,,
+109.jpeg,Ballaststoffe,,,
+109.jpeg,Eiweiss,,,
+109.jpeg,Salz,,,
+110.jpeg,Melissen Extrakt,,,
+110.jpeg,15,,,
+110.jpeg,Niacin,,,
+110.jpeg,Pantothensaure,,,
+111.jpeg,Vitamine,,,
+111.jpeg,Vitamin B12,700%,,
+111.jpeg,17.5,700%,,
+111.jpeg,g,700%,,
+112.jpeg,VitaminB12,,,
+112.jpeg,17.5,,,
+115.jpeg,Fett,,,
+115.jpeg,davon gesattigte,,,
+115.jpeg,0.2,,,
+115.jpeg,g,,,
+115.jpeg,Fettsauren,,,
+115.jpeg,12.0,,,
+115.jpeg,Kohlenhydrate,,,
+115.jpeg,10.0,,,
+115.jpeg,-davon Zucker,,,
+115.jpeg,1.6,,,
+115.jpeg,Ballaststoffe,,,
+115.jpeg,11.0,,,
+115.jpeg,0.05,,,
+115.jpeg,Eiweiss,Salz,,
+116.jpeg,ENERGIE,,,
+116.jpeg,kJ/kcal,,,
+116.jpeg,FETT:,,,
+116.jpeg,KOHLENHYDRATE:,,,
+116.jpeg,Ballaststoffe,,,
+116.jpeg,Eiweiss,,,
+116.jpeg,SALZ,,,
+117.jpeg,kJ/kcal,,,
+117.jpeg,Eiweiss,SALZ,,Ballaststoffe
+118.jpeg,2.6,,,
+118.jpeg,g,,,
+118.jpeg,2.1,1152/275,,
+118.jpeg,48,,,
+118.jpeg,38,1152/275,,
+118.jpeg,4.0,,,
+118.jpeg,3.2,,,
+118.jpeg,17,,,
+118.jpeg,21,,,
+118.jpeg,2.4,,,
+118.jpeg,3.0,,,
+118.jpeg,19,,,
+118.jpeg,24,,,
+118.jpeg,0.56,1152/275,,
+118.jpeg,0.70,,,
+119.jpeg,g,g,,
+119.jpeg,-DAVONGESATTIGTEFETTSAUREN,,,
+119.jpeg,38,17,,
+119.jpeg,47,21,,
+12.jpeg,1.1,32,,g
+12.jpeg,1.1,g,,g
+12.jpeg,g,32,,g
+12.jpeg,g,g,,g
+12.jpeg,0.3,32,,g
+12.jpeg,0.3,g,,g
+12.jpeg,Sca/Se/Sat/Sa/Sat,,,g
+12.jpeg,0.6,32,,g
+12.jpeg,0.6,g,,g
+12.jpeg,0.6,0.0,,g
+12.jpeg,g,0.0,,g
+120.jpeg,INOSITOL,,,
+120.jpeg,ALPHA-LIPONSAURE,,,
+120.jpeg,choline,,,
+120.jpeg,R,,,
+120.jpeg,RUTIN,,,
+120.jpeg,LACTOBACILLUS,,,
+120.jpeg,ACIDOPHILUS,,,
+120.jpeg,BIFIDOBACTERIUMBIFIDUM,,,
+120.jpeg,VITAMINC,,,
+120.jpeg,HI,,,
+120.jpeg,Niacin,,,
+120.jpeg,VITAMINE,,,
+120.jpeg,Cl-,S,,
+120.jpeg,Pantothensaure,,,
+120.jpeg,VITAMINB6,,,
+120.jpeg,VITAMINB2,,,
+120.jpeg,VITAMINB1,S,,
+120.jpeg,VITAMINB1,100,,
+120.jpeg,Folsaure,100,,
+120.jpeg,Biotin,Jod,,
+120.jpeg,VITAMINB12,,,
+120.jpeg,VITAMIND3,,,
+120.jpeg,VITAMINK,,,
+120.jpeg,Calcium,,,
+120.jpeg,ZINK,100,g,ON
+120.jpeg,SELEN,22,,ON
+120.jpeg,SELEN,g,,ON
+120.jpeg,1,22,,ON
+120.jpeg,1,100,g,ON
+120.jpeg,mg,g,,ON
+120.jpeg,mg,100,g,ON
+120.jpeg,KUPFER,,,ON
+120.jpeg,V,,,ON
+120.jpeg,0.4,22,,ON
+120.jpeg,MANGAN,,,ON
+120.jpeg,25,22,,ON
+120.jpeg,25,100,g,ON
+120.jpeg,g,g,,ON
+120.jpeg,CHROM,,,ON
+120.jpeg,45,22,,ON
+120.jpeg,45,g,,ON
+120.jpeg,45,100,g,ON
+121.jpeg,-DAVONGESATTIGTEFETTSAUREN,5.2,,KJ/KCAL
+121.jpeg,-DAVONGESATTIGTEFETTSAUREN,g,,KJ/KCAL
+121.jpeg,-DAVONGESATTIGTEFETTSAUREN,12,,KJ/KCAL
+121.jpeg,2.9,KOHLENHYDRATE:,,KJ/KCAL
+121.jpeg,g,KOHLENHYDRATE:,,KJ/KCAL
+121.jpeg,6.5,KOHLENHYDRATE:,,KJ/KCAL
+121.jpeg,-DAVONZUCKER,9.1,,KJ/KCAL
+121.jpeg,-DAVONZUCKER,g,,KJ/KCAL
+121.jpeg,-DAVONZUCKER,20,,KJ/KCAL
+121.jpeg,2.2,-DAVONMEHRWERTIGEALKOHOLE,,KJ/KCAL
+121.jpeg,g,-DAVONMEHRWERTIGEALKOHOLE,,KJ/KCAL
+121.jpeg,49,-DAVONMEHRWERTIGEALKOHOLE,,KJ/KCAL
+17.jpeg,Caffeine,,,
+17.jpeg,mg,,,
+17.jpeg,Vitamin B3,,,
+17.jpeg,Vitamin86,,,
+17.jpeg,15,,,
+17.jpeg,Vitamin B12,,,
+2.jpeg,60,,,0
+2.jpeg,Fett/tat,,,0
+2.jpeg,Erweiss/Protein,,,0
+2.jpeg,0.30,,,0
+2.jpeg,g,,,0
+2.jpeg,0.43,70,,0
+2.jpeg,g,70,,0
+20.jpeg,Vitamin82,SlenSeenium,,
+20.jpeg,Vitamin82,Phosptor/Ptosphoruss,,
+20.jpeg,Vitamin82,magnesium,,
+20.jpeg,10.7,,,
+201.jpeg,g,g,,Por 30gO
+201.jpeg,cuales saturadas/ dos quais saturados,,,Por 30gO
+201.jpeg,Eiwitten/Protein/Eiweib/Protéines/Biatko/Bilkoviny/Proteine/Bielkoviny,,,Por 30gO
+201.jpeg,Proteinas/Proteinas,,,Por 30gO
+26.jpeg,ENERGY,942/255kJ/KCAL,,
+26.jpeg,energie,942/255kJ/KCAL,,
+26.jpeg,Og,942/255kJ/KCAL,,
+26.jpeg,GRAISSES,942/255kJ/KCAL,,
+26.jpeg,FAT,942/255kJ/KCAL,,
+26.jpeg,FEDT,,,
+26.jpeg,DONTACIDES,,,
+26.jpeg,DOSQUAIS,,,
+26.jpeg,OFWHICH,,,
+26.jpeg,DE LAS CUALES,,,
+26.jpeg,FETT,,,
+26.jpeg,WAARVAN,,,
+26.jpeg,JOISTA,,,
+26.jpeg,GRAS SATURES,,,
+26.jpeg,HERAFMEITEDE,,,
+26.jpeg,SATURADOS,,,
+26.jpeg,56,,,
+26.jpeg,g,,,
+26.jpeg,KOOLHYDRATEN,,,
+26.jpeg,HIILIHYDRAATTI,,,
+26.jpeg,DOS QUAIS ACUCARES,,,
+26.jpeg,DONTSUCRES,,,
+26.jpeg,KULHYDRAT,,,
+26.jpeg,OF WHICH SUGARS,,,
+26.jpeg,DE LOS CUALES AZUCARES,,,
+26.jpeg,Kohlenhydrate,,,
+26.jpeg,WAARVAN SUIKERS,,,
+26.jpeg,3.1.5,,,
+26.jpeg,JOISTA SOKEREITA,,,
+26.jpeg,CROTFWES,,,
+26.jpeg,HERAFSUKKERARTER,,,
+26.jpeg,proteins,,,
+26.jpeg,protein,,,
+26.jpeg,DAVON ZUCKER,,,
+26.jpeg,EIWITTEN,,,
+26.jpeg,20.19,,,
+27.jpeg,badadin.Getutu,,,"RDA"""
+30.jpeg,protein,,,
+30.jpeg,FAT:(9,,,
+30.jpeg,9.1,,,
+30.jpeg,-SATURATED FAT g,,,
+30.jpeg,carbohydrate,,,
+30.jpeg,-SUGARSg,,,
+30.jpeg,35,,,
+30.jpeg,dietary fibre,,,
+30.jpeg,SODIUM(mg,,,
+33.jpeg,1660(3901245(293,,,
+33.jpeg,Fett/fat,Salz/salt,,
+33.jpeg,88,,,
+33.jpeg,davon gesettige Fesren,,,
+33.jpeg,Kohlenhydrate/carbohydrates,,,
+33.jpeg,davon Zuckerarten,,,
+33.jpeg,Eiweiss/protein,Salz/salt,,
+34.jpeg,Energy,,,
+34.jpeg,Fat,,,
+34.jpeg,Carbohydrate,,,
+34.jpeg,Fibre,,,
+34.jpeg,Protein,,,
+34.jpeg,Salt,,,
+35.jpeg,100.8mg/126%,4.7,,
+35.jpeg,100.8mg/126%,g,,
+35.jpeg,100.8mg/126%,225mg/60%,,
+4.jpeg,GRASSI,,,E
+4.jpeg,Energie,,,E
+4.jpeg,RASVAT,,,E
+4.jpeg,LPOXS,,,E
+4.jpeg,OFNFICH,,,E
+4.jpeg,energie,,,E
+4.jpeg,GRASAS,,,E
+4.jpeg,OSTA,,,E
+4.jpeg,GRAISSES,,,E
+4.jpeg,saturates,,,E
+4.jpeg,DOSOUAS,,,E
+4.jpeg,VETTEN,,,E
+4.jpeg,SATUR,,,E
+4.jpeg,DELAS CUALES,,,E
+4.jpeg,IYYUYTTYAETA,,,E
+4.jpeg,FEDT,,,E
+4.jpeg,carbohydrate,,,E
+4.jpeg,DONTACIDES,,,E
+4.jpeg,SATURALOS,,,E
+4.jpeg,FETT,,,E
+4.jpeg,WAARVAN,,,E
+4.jpeg,HIUHYDRAATTI,,,E
+4.jpeg,SATURADAS,,,E
+4.jpeg,FINOYSUGARS,,,E
+4.jpeg,HERAFMETTEDE,,,E
+4.jpeg,GRAS SATURES,,,E
+4.jpeg,davon gesattigte,,,E
+4.jpeg,MIORATOS DECAAS,,,E
+4.jpeg,verzadigde vetzuren,,,E
+4.jpeg,HIDRATOSDECABRONO,,,E
+4.jpeg,protein,,,E
+4.jpeg,FEDTSYRER,,,E
+4.jpeg,GLUCIDES,,,E
+4.jpeg,proteines,,,E
+4.jpeg,Fettsauren,,,E
+4.jpeg,DELOSCOALESAEUCA,,,E
+4.jpeg,KOOLHYDRATEN,,,E
+4.jpeg,SALT-,,,E
+4.jpeg,DONTSUCRES,,,E
+4.jpeg,FROTENAS,,,E
+4.jpeg,SALE,,,E
+4.jpeg,KULHYDRAT,,,E
+4.jpeg,WAARVAN SUIKERS,,,E
+4.jpeg,SUOLA,,,E
+4.jpeg,Kohlenhydrate,,,E
+4.jpeg,PROTEINES,,,E
+4.jpeg,SAL,,,E
+4.jpeg,HERAF SUOERARTER,,,E
+41.jpeg,ENERGY,,,
+41.jpeg,FAT,,,
+41.jpeg,SATURATES,,,
+41.jpeg,CARBOHYDRATE,,,
+41.jpeg,PROTEIN,,,
+41.jpeg,SALT,,,
+42.jpeg,0.1,RERGYKIKCAL,,per_100g
+42.jpeg,0.1,736/176,,per_100g
+42.jpeg,0.1,1567/374,,per_100g
+42.jpeg,FAT (g,,,per_100g
+42.jpeg,-SATURATED FAT (g,carbohydrate,,per_100g
+42.jpeg,-SATURATED FAT (g,4,,per_100g
+42.jpeg,0,carbohydrate,,per_100g
+42.jpeg,0,4,,per_100g
+42.jpeg,-SUGARS (g,carbohydrate,,per_100g
+42.jpeg,-SUGARS (g,4,,per_100g
+45_1.jpeg,saturated,,,
+45_1.jpeg,carbohydrate,,,
+45_1.jpeg,0,,,
+45_1.jpeg,dietary fibre,,,
+45_2.jpeg,ENERGY,,,
+45_2.jpeg,FAT,,,OFWHICH
+45_2.jpeg,PROTEIN,,,OFWHICH
+51.jpeg,60,1541,,
+51.jpeg,g,1541,,
+51.jpeg,FatFett Maberes grassesVetten,1541,,
+51.jpeg,0.5,1541,,
+51.jpeg,<0.5,1541,,
+51.jpeg,of whkh saturatesdavon geattigte Fetsuren,,,
+51.jpeg,CarbohydrateKohlenhydrate6lucdesKoolhydraten,,,
+51.jpeg,64,6.7,,
+51.jpeg,64,g,,
+51.jpeg,64,0.3,,
+51.jpeg,g,6.7,,
+51.jpeg,g,g,,
+51.jpeg,g,0.3,,
+51.jpeg,50,4.0,,
+51.jpeg,50,g,,
+51.jpeg,50,0.08,,
+51.jpeg,g,4.0,,
+51.jpeg,g,0.08,,
+51.jpeg,629,Sait1SaZout,,
+51.jpeg,629,6.7,,
+51.jpeg,629,g,,
+51.jpeg,57,Sait1SaZout,,
+51.jpeg,57,6.7,,
+51.jpeg,57,g,,
+51.jpeg,g,Sait1SaZout,,
+51.jpeg,ProteinEiweleProteinesEiwitten,Sait1SaZout,,
+51.jpeg,ProteinEiweleProteinesEiwitten,6.7,,
+51.jpeg,ProteinEiweleProteinesEiwitten,g,,
+51.jpeg,Vitamin Bine B6,Sait1SaZout,,
+51.jpeg,Vitamin Bine B6,0.35 mg 25%,,
+51.jpeg,Vitamin Bine B6,0.3,,
+53.jpeg,CarbohydrateKohlenhydrate GlucdesKooihydraten,618,,
+53.jpeg,ProtenEwesProteines/Erwsten,,,SaltSazSelZout
+56.jpeg,EiweiD,,,
+56.jpeg,Fett,4.3,,
+56.jpeg,Fett,g,,
+57.jpeg,proteines,,,
+57.jpeg,Fett,,,
+57.jpeg,ZUTATEN,,,
+6.jpeg,magnesium,,,
+6.jpeg,KALIUM,,,
+6.jpeg,potassium,,,
+63.jpeg,Fat/Fett/Grassi/Gralsse/Grasas/Maltobe,427k1/102kca,,
+63.jpeg,00,427k1/102kca,,
+63.jpeg,og,1440,,
+63.jpeg,Protein/Elwei/Protelne/Proteines/Proteina/Belakovine,146,,
+63.jpeg,Protein/Elwei/Protelne/Proteines/Proteina/Belakovine,02,,
+63.jpeg,Protein/Elwei/Protelne/Proteines/Proteina/Belakovine,2510,,
+63.jpeg,astg,146,,
+63.jpeg,astg,02,,
+63.jpeg,astg,g,,
+63.jpeg,Salt/Salz/Sale/Sel/Sal/So,02,,
+63.jpeg,Salt/Salz/Sale/Sel/Sal/So,g,,
+63.jpeg,Salt/Salz/Sale/Sel/Sal/So,335,,
+63.jpeg,173,02,,
+63.jpeg,173,g,,
+63.jpeg,173,335,,
+63.jpeg,g,02,,
+63.jpeg,g,g,,
+63.jpeg,g,335,,
+63.jpeg,250,335,,
+63.jpeg,250,mg,,
+63.jpeg,mg,335,,
+63.jpeg,mg,mg,,
+63.jpeg,Magnestum/Magneslum /Magnesio/Msgneslum / Mgreslo/Magnes,335,,
+63.jpeg,Magnestum/Magneslum /Magnesio/Msgneslum / Mgreslo/Magnes,mg,,
+63.jpeg,Potassun/Kathm/Potasste/Potassham/Potasie/Kat,335,,
+63.jpeg,Potassun/Kathm/Potasste/Potassham/Potasie/Kat,mg,,
+63.jpeg,s0mg,335,,
+63.jpeg,s0mg,mg,,
+63.jpeg,Calctum/Katzhum/ Calde/Calcum/Calo /Kalc,335,,
+63.jpeg,Calctum/Katzhum/ Calde/Calcum/Calo /Kalc,mg,,
+64.jpeg,VitaminelC,,,
+64.jpeg,Vtamn2,,,
+64.jpeg,niacin,,,
+64.jpeg,Vitamine86,,,
+64.jpeg,Falsaure/folicaod,,,
+64.jpeg,204,,,
+64.jpeg,Vitanine 812,,,
+64.jpeg,Fantothensaure/pastcthenic acd,,,
+67.jpeg,VitaminD3Tabletten,,,
+68.jpeg,Fa/fe/Maeresgrases/Vetten/Grasas/Upidos/Grassi,,,
+68.jpeg,ssturados/d cul acidigrassisaturi/varav mattat fett,,,
+68.jpeg,05,,,
+68.jpeg,g,,,
+68.jpeg,529,,,
+68.jpeg,Cartoidras /Kohydrat,,,
+68.jpeg,Prter(e/Ehws8/Proteines/Eiwtten/Proteinas,,,
+68.jpeg,AAl-tice/1-Van/L-valna,579,,
+68.jpeg,AAl-tice/1-Van/L-valna,29,,
+68.jpeg,AAesdre/1-Leucin/L-leucina,679,,
+68.jpeg,AAesdre/1-Leucin/L-leucina,579,,
+68.jpeg,AAesdre/1-Leucin/L-leucina,29,,
+78.jpeg,rnit Vitamin D3,,,
+8.jpeg,protein,carbohydrate,,FAT:(g
+82.jpeg,Energy,,,
+82.jpeg,Protein,,,
+82.jpeg,Carbohydrates,,,
+82.jpeg,Fat,,,
+82.jpeg,Creatine,,,
+88.jpeg,eeneenegia kkcal,0.5,,
+88.jpeg,eeneenegia kkcal,g,,
+9.jpeg,Zink,,,
+9.jpeg,Vitamin C,,,
+9.jpeg,30mg38%,,,
+90.jpeg,<0.1,,,
+90.jpeg,g,,,
+90.jpeg,davon gesattigte Fettsauren,,,

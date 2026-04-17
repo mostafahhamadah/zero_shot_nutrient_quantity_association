@@ -1,0 +1,277 @@
+{
+    "image_id": "68.jpeg",
+    "nutrients": [
+        {
+            "nutrient": "Energy / Energi(e/a) / Valor energético kJ (kcal)",
+            "quantity": "1578",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energy / Energi(e/a) / Valor energético kJ (kcal)",
+            "quantity": "372",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Fat / Fett / Matières grasses / Vetten / Grasas / Lipidos / Grassi",
+            "quantity": "0.6",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "of which saturates / davon gesättigte Fettsäuren / dont acides gras saturés / waarvan verzadigde vetzuren / de las cuales saturadas / dos quais ácidos gordos saturados / di cui acidi grassi saturi / varav mättat fett",
+            "quantity": "0.5",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Carbohydrate / Kohlenhydrate / Glucides / Koolhydraten / Hidratos de carbono / Carboidrati / Kolhydrat",
+            "quantity": "5.2",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "of which sugars / davon Zucker / dont sucres / waarvan suikers / de los cuales azúcares / dos quais açúcares / di cui zuccheri / varav sockerarter",
+            "quantity": "2.1",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Protein(e) / Eiweiß / Protéines / Eiwitten / Proteínas",
+            "quantity": "84",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Salt / Salz / Sel / Zout / Sal / Sale",
+            "quantity": "0.42",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "L-Valine / L-Valin / L-valina",
+            "quantity": "5.7",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "L-Leucine / L-Leucin / L-leucina",
+            "quantity": "9.2",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "L-Isoleucine / L-Isoleucin / L-isoleucina",
+            "quantity": "6.2",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "L-Lysine / L-Lysin / L-lisina",
+            "quantity": "8.8",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "L-Histidine / L-Histidin / L-histidina / L-istidina",
+            "quantity": "1.5",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "L-Methionine / L-Methionin / L-Méthionine / L-metionina / L-metionin",
+            "quantity": "2.0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "L-Phenylalanine / L-Phenylalanin / L-fenilalanina / L-fenylalanin",
+            "quantity": "2.6",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "L-Threonine / L-Threonin / L-Thréonine / L-treonina / L-treonin",
+            "quantity": "6.2",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "L-Tryptophan / L-Tryptofaan / L-triptófano / L-triptofano / L-tryptofan",
+            "quantity": "1.6",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energy / Energi(e/a) / Valor energético kJ (kcal)",
+            "quantity": "379",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        },
+        {
+            "nutrient": "Energy / Energi(e/a) / Valor energético kJ (kcal)",
+            "quantity": "89",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        },
+        {
+            "nutrient": "Fat / Fett / Matières grasses / Vetten / Grasas / Lipidos / Grassi",
+            "quantity": "0.1",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        },
+        {
+            "nutrient": "of which saturates / davon gesättigte Fettsäuren / dont acides gras saturés / waarvan verzadigde vetzuren / de las cuales saturadas / dos quais ácidos gordos saturados / di cui acidi grassi saturi / varav mättat fett",
+            "quantity": "0.1",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        },
+        {
+            "nutrient": "Carbohydrate / Kohlenhydrate / Glucides / Koolhydraten / Hidratos de carbono / Carboidrati / Kolhydrat",
+            "quantity": "1.2",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        },
+        {
+            "nutrient": "of which sugars / davon Zucker / dont sucres / waarvan suikers / de los cuales azúcares / dos quais açúcares / di cui zuccheri / varav sockerarter",
+            "quantity": "0.5",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        },
+        {
+            "nutrient": "Protein(e) / Eiweiß / Protéines / Eiwitten / Proteínas",
+            "quantity": "20",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        },
+        {
+            "nutrient": "Salt / Salz / Sel / Zout / Sal / Sale",
+            "quantity": "0.10",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        },
+        {
+            "nutrient": "L-Valine / L-Valin / L-valina",
+            "quantity": "1.4",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        },
+        {
+            "nutrient": "L-Leucine / L-Leucin / L-leucina",
+            "quantity": "2.2",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        },
+        {
+            "nutrient": "L-Isoleucine / L-Isoleucin / L-isoleucina",
+            "quantity": "1.5",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        },
+        {
+            "nutrient": "L-Lysine / L-Lysin / L-lisina",
+            "quantity": "2.1",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        },
+        {
+            "nutrient": "L-Histidine / L-Histidin / L-histidina / L-istidina",
+            "quantity": "357",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        },
+        {
+            "nutrient": "L-Methionine / L-Methionin / L-Méthionine / L-metionina / L-metionin",
+            "quantity": "472",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        },
+        {
+            "nutrient": "L-Phenylalanine / L-Phenylalanin / L-fenilalanina / L-fenylalanin",
+            "quantity": "629",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        },
+        {
+            "nutrient": "L-Threonine / L-Threonin / L-Thréonine / L-treonina / L-treonin",
+            "quantity": "1.5",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        },
+        {
+            "nutrient": "L-Tryptophan / L-Tryptofaan / L-triptófano / L-triptofano / L-tryptofan",
+            "quantity": "384",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "24 g"
+        }
+    ]
+}

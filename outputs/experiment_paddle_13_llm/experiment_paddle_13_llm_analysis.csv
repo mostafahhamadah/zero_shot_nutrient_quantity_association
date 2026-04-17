@@ -1,0 +1,852 @@
+tag,image_id,gt_nutrient,gt_quantity,gt_unit,gt_context,pred_nutrient,pred_quantity,pred_unit,pred_context,reason
+missing,1.jpeg,Magnesiumsalze der Citronensäure,420,mg,per_daily_dose,,,,,nutrient not found in predictions
+missing,1.jpeg,Magnesiumbisglycinat,350,mg,per_daily_dose,,,,,nutrient not found in predictions
+incorrect,101.jpeg,Energie,1625,kJ,per_100g,Energie,,,per_100g,qty: got None expected 1625 | unit: got None expected kJ
+missing,101.jpeg,Energie,383,kcal,per_100g,,,,,nutrient not found in predictions
+missing,101.jpeg,- davon gesättigte Fettsäuren,0.1,g,per_100g,,,,,nutrient not found in predictions
+missing,101.jpeg,- davon Zucker,8.9,g,per_100g,,,,,nutrient not found in predictions
+missing,101.jpeg,Eiweiß,6.3,g,per_100g,,,,,nutrient not found in predictions
+incorrect,101.jpeg,Salz,0.09,g,per_100g,Salz,660.0,,per_100g,qty: got 660.0 expected 0.09 | unit: got None expected g
+incorrect,101.jpeg,Thiamin,0.44,mg,per_100g,Thiamin,,,per_100g,qty: got None expected 0.44 | unit: got None expected mg
+incorrect,102.jpeg,Energie,1502,kJ,per_100g,Energie,7.7,g,per_100g,qty: got 7.7 expected 1502 | unit: got g expected kJ
+incorrect,102.jpeg,Energie,356,kcal,per_100g,Energie,1.0,g,per_100g,qty: got 1.0 expected 356 | unit: got g expected kcal
+missing,102.jpeg,Energie,188,kJ,per_serving,,,,,nutrient not found in predictions
+missing,102.jpeg,Energie,45,kcal,per_serving,,,,,nutrient not found in predictions
+incorrect,102.jpeg,Fett,1.0,g,per_serving,Fett,1.0,g,per_100g,context: got per_100g expected per_serving
+incorrect,102.jpeg,- davon gesättigte Fettsäuren,1.1,g,per_100g,Fett,1.1,g,per_100g,nutrient: specificity rule violated: 'Fett' vs 'Fettgesättigte Fettsäuren'
+missing,102.jpeg,- davon gesättigte Fettsäuren,0.1,g,per_serving,,,,,nutrient not found in predictions
+incorrect,102.jpeg,Kohlenhydrate,63,g,per_100g,Kohlenhydrate,1.1,g,per_100g,qty: got 1.1 expected 63
+incorrect,102.jpeg,Kohlenhydrate,7.9,g,per_serving,Kohlenhydrate,31,g,per_100g,qty: got 31 expected 7.9 | context: got per_100g expected per_serving
+missing,102.jpeg,- davon Zucker,31,g,per_100g,,,,,nutrient not found in predictions
+missing,102.jpeg,- davon Zucker,3.9,g,per_serving,,,,,nutrient not found in predictions
+incorrect,102.jpeg,Ballaststoffe,0.6,g,per_serving,Ballaststoffe,31,g,per_100g,qty: got 31 expected 0.6 | context: got per_100g expected per_serving
+missing,102.jpeg,Eiweiß,5.9,g,per_100g,,,,,nutrient not found in predictions
+missing,102.jpeg,Eiweiß,0.7,g,per_serving,,,,,nutrient not found in predictions
+incorrect,102.jpeg,Salz,0.02,g,per_serving,Salz,0.02,g,per_100g,context: got per_100g expected per_serving
+incorrect,103.jpeg,Energie,1383,kJ,per_100g,Energie,328,kcal,per_100g,qty: got 328 expected 1383 | unit: got kcal expected kJ
+incorrect,103.jpeg,Energie,328,kcal,per_100g,Energie,3.7,kcal,per_100g,qty: got 3.7 expected 328
+incorrect,103.jpeg,Energie,166,kJ,per_serving,Energie,39,kcal,per_100g,qty: got 39 expected 166 | unit: got kcal expected kJ | context: got per_100g expected per_serving
+missing,103.jpeg,Energie,39,kcal,per_serving,,,,,nutrient not found in predictions
+incorrect,103.jpeg,Fett,3.7,g,per_100g,Fett,3.7,kcal,per_100g,unit: got kcal expected g
+incorrect,103.jpeg,Fett,0.4,g,per_serving,Fett,0.4,g,per_100g,context: got per_100g expected per_serving
+incorrect,103.jpeg,davon gesättigte Fettsäuren,0.4,g,per_100g,Fett,328,kcal,per_100g,nutrient: Nutrient does not match due to specificity rule violation. | qty: got 328 expected 0.4 | unit: got kcal expected g
+missing,103.jpeg,davon gesättigte Fettsäuren,0,g,per_serving,,,,,nutrient not found in predictions
+incorrect,103.jpeg,Kohlenhydrate,6.1,g,per_serving,Kohlenhydrate,6.1,g,per_100g,context: got per_100g expected per_serving
+incorrect,103.jpeg,davon Zucker,6.1,g,per_serving,davon Zucker,16,g,per_100g,qty: got 16 expected 6.1 | context: got per_100g expected per_serving
+incorrect,103.jpeg,Ballaststoffe,1.9,g,per_serving,Ballaststoffe,7.7,g,per_100g,qty: got 7.7 expected 1.9 | context: got per_100g expected per_serving
+missing,103.jpeg,Eiweiß,7.7,g,per_100g,,,,,nutrient not found in predictions
+missing,103.jpeg,Eiweiß,0.9,g,per_serving,,,,,nutrient not found in predictions
+incorrect,103.jpeg,Salz,0,g,per_100g,Salz,7.7,g,per_100g,qty: got 7.7 expected 0
+incorrect,103.jpeg,Salz,0,g,per_serving,Salz,66.0,g,per_100g,qty: got 66.0 expected 0 | context: got per_100g expected per_serving
+incorrect,104.jpeg,Energie,1528,kJ,per_100g,Energie,361,kcal,per_100g,qty: got 361 expected 1528 | unit: got kcal expected kJ
+incorrect,104.jpeg,Energie,361,kcal,per_100g,Energie,51,kcal,per_100g,qty: got 51 expected 361
+incorrect,104.jpeg,Energie,214,kJ,per_serving,Energie,14,g,per_100g,qty: got 14 expected 214 | unit: got g expected kJ | context: got per_100g expected per_serving
+missing,104.jpeg,Energie,51,kcal,per_serving,,,,,nutrient not found in predictions
+incorrect,104.jpeg,Fett,2.6,g,per_100g,Fett,2.6,kcal,per_100g,unit: got kcal expected g
+incorrect,104.jpeg,Fett,0,g,per_serving,Fett,361,kcal,per_100g,qty: got 361 expected 0 | unit: got kcal expected g | context: got per_100g expected per_serving
+incorrect,104.jpeg,davon gesättigte Fettsäuren,0.6,g,per_100g,Fett,51,kcal,per_100g,nutrient: Nutrient does not match due to specificity rule violation. | qty: got 51 expected 0.6 | unit: got kcal expected g
+missing,104.jpeg,davon gesättigte Fettsäuren,0,g,per_serving,,,,,nutrient not found in predictions
+incorrect,104.jpeg,Kohlenhydrate,10,g,per_serving,Kohlenhydrate,0.6,g,per_100g,qty: got 0.6 expected 10 | context: got per_100g expected per_serving
+incorrect,104.jpeg,davon Zucker,10,g,per_serving,davon Zucker,10,g,per_100g,context: got per_100g expected per_serving
+incorrect,104.jpeg,Ballaststoffe,1.4,g,per_serving,Ballaststoffe,3.2,g,per_100g,qty: got 3.2 expected 1.4 | context: got per_100g expected per_serving
+missing,104.jpeg,Eiweiß,3.2,g,per_100g,,,,,nutrient not found in predictions
+missing,104.jpeg,Eiweiß,0,g,per_serving,,,,,nutrient not found in predictions
+incorrect,104.jpeg,Salz,0,g,per_serving,Salz,3.2,g,per_100g,qty: got 3.2 expected 0 | context: got per_100g expected per_serving
+incorrect,105.jpeg,Energie,1320,kJ,per_100g,Energie,313,kcal,per_100g,qty: got 313 expected 1320 | unit: got kcal expected kJ
+incorrect,105.jpeg,Energie,313,kcal,per_100g,Energie,38,kcal,per_100g,qty: got 38 expected 313
+incorrect,105.jpeg,Energie,158,kJ,per_serving,Energie,0.3,kcal,per_100g,qty: got 0.3 expected 158 | unit: got kcal expected kJ | context: got per_100g expected per_serving
+missing,105.jpeg,Energie,38,kcal,per_serving,,,,,nutrient not found in predictions
+incorrect,105.jpeg,Fett,2.7,g,per_100g,Fett,313,kcal,per_100g,qty: got 313 expected 2.7 | unit: got kcal expected g
+incorrect,105.jpeg,Fett,0.3,g,per_serving,Fett,0.3,kcal,per_100g,unit: got kcal expected g | context: got per_100g expected per_serving
+incorrect,105.jpeg,- davon gesättigte Fettsäuren,0.4,g,per_100g,Fett,38,kcal,per_100g,nutrient: specificity rule violated: 'Fett' vs 'Fettsaeuren' | qty: got 38 expected 0.4 | unit: got kcal expected g
+missing,105.jpeg,- davon gesättigte Fettsäuren,0.0,g,per_serving,,,,,nutrient not found in predictions
+incorrect,105.jpeg,Kohlenhydrate,52.1,g,per_100g,Kohlenhydrate 52.1g,0.4,g,per_100g,qty: got 0.4 expected 52.1
+incorrect,105.jpeg,Kohlenhydrate,6.3,g,per_serving,Kohlenhydrate 52.1g,6.3,g,per_100g,context: got per_100g expected per_serving
+missing,105.jpeg,- davon Zucker,51.4,g,per_100g,,,,,nutrient not found in predictions
+missing,105.jpeg,- davon Zucker,6.2,g,per_serving,,,,,nutrient not found in predictions
+missing,105.jpeg,Ballaststoffe,15.5,g,per_100g,,,,,nutrient not found in predictions
+missing,105.jpeg,Ballaststoffe,1.9,g,per_serving,,,,,nutrient not found in predictions
+missing,105.jpeg,Eiweiß,7.0,g,per_100g,,,,,nutrient not found in predictions
+missing,105.jpeg,Eiweiß,0.8,g,per_serving,,,,,nutrient not found in predictions
+incorrect,105.jpeg,Salz,0.03,g,per_100g,Salz,7.0,g,per_100g,qty: got 7.0 expected 0.03
+incorrect,105.jpeg,Salz,0.00,g,per_serving,Salz,0.00,g,per_100g,context: got per_100g expected per_serving
+incorrect,106.jpeg,Vitamin E / Vitamine E / Vitamina E / E-vitamin / Vitamin E,12,mg α-TE,per_serving,VitaminE,12,mg a-te,,context: got None expected per_serving
+missing,106.jpeg,Magnesium / Magnésium / Magnesio / Magnézium / Magnezij,250,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,107.jpeg,Vitamin B1,1.1,mg,per_serving,Vitamin B1,1.1,mg,per_daily_dose,context: got per_daily_dose expected per_serving
+incorrect,107.jpeg,Vitamin B2,1.4,mg,per_serving,Vitamin B2,14,mg,per_daily_dose,qty: got 14 expected 1.4 | context: got per_daily_dose expected per_serving
+incorrect,107.jpeg,Vitamin B6,1.4,mg,per_serving,Vitamin B6,1409,mg,per_daily_dose,qty: got 1409 expected 1.4 | context: got per_daily_dose expected per_serving
+incorrect,107.jpeg,Vitamin B12,2.5,µg,per_serving,Vitamin B12,80,mg,per_daily_dose,qty: got 80 expected 2.5 | unit: got mg expected µg | context: got per_daily_dose expected per_serving
+missing,107.jpeg,Vitamin C,80,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,107.jpeg,Vitamin E,12,mg α-TE,per_serving,Vitamin E,,,per_daily_dose,qty: got None expected 12 | unit: got None expected mg α-TE | context: got per_daily_dose expected per_serving
+incorrect,107.jpeg,Niacin,16,mg NE,per_serving,Niacin,5019,,per_daily_dose,qty: got 5019 expected 16 | unit: got None expected mg NE | context: got per_daily_dose expected per_serving
+incorrect,107.jpeg,Biotin,50,µg,per_serving,Biotin,2009,,per_daily_dose,qty: got 2009 expected 50 | unit: got None expected µg | context: got per_daily_dose expected per_serving
+missing,107.jpeg,Folsäure,200,µg,per_serving,,,,,nutrient not found in predictions
+missing,107.jpeg,Pantothensäure,6,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,108.jpeg,Magnesium,240,mg,per_serving,Magnesium,240,mg,per_daily_dose,context: got per_daily_dose expected per_serving
+incorrect,108.jpeg,Vitamin B1,1.1,mg,per_serving,Vitamin B1,1.1,mg,per_daily_dose,context: got per_daily_dose expected per_serving
+incorrect,108.jpeg,Vitamin B2,1.4,mg,per_serving,Vitamin B2,1.4,mg,per_daily_dose,context: got per_daily_dose expected per_serving
+incorrect,108.jpeg,Vitamin B6,1.4,mg,per_serving,Vitamin B6,1.4,mg,per_daily_dose,context: got per_daily_dose expected per_serving
+incorrect,108.jpeg,Vitamin B12,2.5,µg,per_serving,Vitamin B12,2.519,mg,per_daily_dose,qty: got 2.519 expected 2.5 | unit: got mg expected µg | context: got per_daily_dose expected per_serving
+missing,108.jpeg,Vitamin C,80,mg,per_serving,,,,,nutrient not found in predictions
+missing,108.jpeg,Vitamin E (α-TE),12,mg,per_serving,,,,,nutrient not found in predictions
+missing,108.jpeg,Niacin (NE),16,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,108.jpeg,Biotin,50,µg,per_serving,Biotin,509,mg,per_daily_dose,qty: got 509 expected 50 | unit: got mg expected µg | context: got per_daily_dose expected per_serving
+missing,108.jpeg,Folsäure,200,µg,per_serving,,,,,nutrient not found in predictions
+missing,108.jpeg,Pantothensäure,6.0,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,109.jpeg,Brennwert,420,kJ,per_100g,Brennwert,,,per_100g,qty: got None expected 420 | unit: got None expected kJ
+missing,109.jpeg,Brennwert,99,kcal,per_100g,,,,,nutrient not found in predictions
+incorrect,109.jpeg,Fett,0,g,per_100g,Fett,,,per_100g,qty: got None expected 0 | unit: got None expected g
+missing,109.jpeg,- davon gesättigte Fettsäuren,0.2,g,per_100g,,,,,nutrient not found in predictions
+missing,109.jpeg,- davon Zucker,9.8,g,per_100g,,,,,nutrient not found in predictions
+missing,109.jpeg,Eiweiß,11.0,g,per_100g,,,,,nutrient not found in predictions
+missing,110.jpeg,Melissen Extrakt,15,mg,per_serving,,,,,nutrient not found in predictions
+missing,110.jpeg,Melissen Extrakt,30,mg,per_serving,,,,,nutrient not found in predictions
+missing,110.jpeg,Pantothensäure,3.0,mg,per_serving,,,,,nutrient not found in predictions
+missing,110.jpeg,Pantothensäure,6.0,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,111.jpeg,Vitamin B12,17.5,µg,per_daily_dose,Vitamin B12,17.5,g,,unit: got g expected µg | context: got None expected per_daily_dose
+missing,112.jpeg,Vitamin B12,17.5,µg,per_daily_dose,,,,,nutrient not found in predictions
+incorrect,113.jpeg,ENERGIE,1546,kJ,per_100g,Energie,,,per_serving,qty: got None expected 1546 | unit: got None expected kJ | context: got per_serving expected per_100g
+missing,113.jpeg,ENERGIE,369,kcal,per_100g,,,,,nutrient not found in predictions
+missing,113.jpeg,ENERGIE,464,kJ,per_serving,,,,,nutrient not found in predictions
+missing,113.jpeg,ENERGIE,111,kcal,per_serving,,,,,nutrient not found in predictions
+missing,113.jpeg,ENERGIE,964,kJ,per_serving,,,,,nutrient not found in predictions
+missing,113.jpeg,ENERGIE,228,kcal,per_serving,,,,,nutrient not found in predictions
+incorrect,113.jpeg,FETT,4.5,g,per_100g,FETT,4.5,g,per_serving,context: got per_serving expected per_100g
+incorrect,113.jpeg,FETT,5.1,g,per_serving,DAVONGESATTIGTE FETTSAUREN,3.1,g,per_serving,nutrient: German vs English term mismatch | qty: got 3.1 expected 5.1
+missing,113.jpeg,DAVON GESÄTTIGTE FETTSÄUREN,3.1,g,per_100g,,,,,nutrient not found in predictions
+missing,113.jpeg,DAVON GESÄTTIGTE FETTSÄUREN,0.9,g,per_serving,,,,,nutrient not found in predictions
+missing,113.jpeg,DAVON GESÄTTIGTE FETTSÄUREN,3.5,g,per_serving,,,,,nutrient not found in predictions
+incorrect,113.jpeg,KOHLENHYDRATE,7.7,g,per_100g,Kohlenhydrate,17,g,per_serving,qty: got 17 expected 7.7 | context: got per_serving expected per_100g
+incorrect,113.jpeg,KOHLENHYDRATE,14.3,g,per_serving,Kohlenhydrate,3.1,g,per_serving,qty: got 3.1 expected 14.3
+missing,113.jpeg,DAVON ZUCKER,3.9,g,per_100g,,,,,nutrient not found in predictions
+missing,113.jpeg,DAVON ZUCKER,1.2,g,per_serving,,,,,nutrient not found in predictions
+missing,113.jpeg,DAVON ZUCKER,13.2,g,per_serving,,,,,nutrient not found in predictions
+incorrect,113.jpeg,BALLASTSTOFFE,1.9,g,per_100g,Ballaststoffe,1.9,g,per_serving,context: got per_serving expected per_100g
+missing,113.jpeg,EIWEIß,72.7,g,per_100g,,,,,nutrient not found in predictions
+missing,113.jpeg,EIWEIß,21.8,g,per_serving,,,,,nutrient not found in predictions
+missing,113.jpeg,EIWEIß,30.2,g,per_serving,,,,,nutrient not found in predictions
+incorrect,113.jpeg,SALZ,0.53,g,per_100g,SALZ,72.7,g,per_serving,qty: got 72.7 expected 0.53 | context: got per_serving expected per_100g
+incorrect,113.jpeg,SALZ,0.17,g,per_serving,SALZ,145,g,per_serving,qty: got 145 expected 0.17
+incorrect,113.jpeg,SALZ,0.45,g,per_serving,SALZ,21.8,g,per_serving,qty: got 21.8 expected 0.45
+incorrect,113.jpeg,KOFFEIN,267,mg,per_100g,KOFFEIN,80,mg,per_serving,qty: got 80 expected 267 | context: got per_serving expected per_100g
+missing,113.jpeg,KOFFEIN,80,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,114.jpeg,ENERGIE,1541,kJ,per_100g,Energie,,,per_serving,qty: got None expected 1541 | unit: got None expected kJ | context: got per_serving expected per_100g
+missing,114.jpeg,ENERGIE,368,kcal,per_100g,,,,,nutrient not found in predictions
+missing,114.jpeg,ENERGIE,462,kJ,per_serving,,,,,nutrient not found in predictions
+missing,114.jpeg,ENERGIE,111,kcal,per_serving,,,,,nutrient not found in predictions
+incorrect,114.jpeg,FETT,4.8,g,per_100g,FETT,4.8,g,per_serving,context: got per_serving expected per_100g
+incorrect,114.jpeg,FETT,1.4,g,per_serving,FETT,148,g,per_serving,qty: got 148 expected 1.4
+missing,114.jpeg,DAVON GESÄTTIGTE FETTSÄUREN,3.3,g,per_100g,,,,,nutrient not found in predictions
+missing,114.jpeg,DAVON GESÄTTIGTE FETTSÄUREN,1.0,g,per_serving,,,,,nutrient not found in predictions
+incorrect,114.jpeg,KOHLENHYDRATE,8.8,g,per_100g,Kohlenhydrate,8.8,g,per_serving,context: got per_serving expected per_100g
+missing,114.jpeg,DAVON ZUCKER,4.1,g,per_100g,,,,,nutrient not found in predictions
+missing,114.jpeg,DAVON ZUCKER,1.2,g,per_serving,,,,,nutrient not found in predictions
+incorrect,114.jpeg,BALLASTSTOFFE,2.8,g,per_100g,Ballaststoffe,2.8,g,per_serving,context: got per_serving expected per_100g
+missing,114.jpeg,EIWEIß,70.1,g,per_100g,,,,,nutrient not found in predictions
+missing,114.jpeg,EIWEIß,21.0,g,per_serving,,,,,nutrient not found in predictions
+incorrect,114.jpeg,SALZ,0.51,g,per_100g,SALZ,0.51,g,per_serving,context: got per_serving expected per_100g
+incorrect,114.jpeg,KOFFEIN,268,mg,per_100g,KOFFEIN,268,mg,,context: got None expected per_100g
+incorrect,114.jpeg,KOFFEIN,80,mg,per_serving,KOFFEIN,80,mg,,context: got None expected per_serving
+incorrect,115.jpeg,Brennwert,438,kJ,per_100g,Brennwert,,,per_100g,qty: got None expected 438 | unit: got None expected kJ
+missing,115.jpeg,Brennwert,103,kcal,per_100g,,,,,nutrient not found in predictions
+incorrect,115.jpeg,Fett,0,g,per_100g,Fett,,,per_100g,qty: got None expected 0 | unit: got None expected g
+missing,115.jpeg,- davon gesättigte Fettsäuren,0.2,g,per_100g,,,,,nutrient not found in predictions
+incorrect,115.jpeg,Kohlenhydrate,12.0,g,per_100g,Kohlenhydrate,10.0,g,per_100g,qty: got 10.0 expected 12.0
+missing,115.jpeg,- davon Zucker,10.0,g,per_100g,,,,,nutrient not found in predictions
+incorrect,115.jpeg,Ballaststoffe,1.6,g,per_100g,Ballaststoffe,11.0,g,per_100g,qty: got 11.0 expected 1.6
+missing,115.jpeg,Eiweiß,11.0,g,per_100g,,,,,nutrient not found in predictions
+incorrect,115.jpeg,Salz,0.05,g,per_100g,Salz,,,per_100g,qty: got None expected 0.05 | unit: got None expected g
+incorrect,116.jpeg,ENERGIE,1696,kJ,per_100g,ENERGIE,,,per_100g,qty: got None expected 1696 | unit: got None expected kJ
+missing,116.jpeg,ENERGIE,404,kcal,per_100g,,,,,nutrient not found in predictions
+missing,116.jpeg,ENERGIE,509,kJ,per_serving,,,,,nutrient not found in predictions
+missing,116.jpeg,ENERGIE,121,kcal,per_serving,,,,,nutrient not found in predictions
+incorrect,116.jpeg,FETT,3.5,g,per_serving,FETT:,3.5,g,per_100g,context: got per_100g expected per_serving
+missing,116.jpeg,- DAVON GESÄTTIGTE FETTSÄUREN,1.4,g,per_100g,,,,,nutrient not found in predictions
+missing,116.jpeg,- DAVON GESÄTTIGTE FETTSÄUREN,0.4,g,per_serving,,,,,nutrient not found in predictions
+incorrect,116.jpeg,KOHLENHYDRATE,8.2,g,per_serving,KOHLENHYDRATE:,8.2,g,per_100g,context: got per_100g expected per_serving
+missing,116.jpeg,- DAVON ZUCKER,4.6,g,per_100g,,,,,nutrient not found in predictions
+missing,116.jpeg,- DAVON ZUCKER,1.4,g,per_serving,,,,,nutrient not found in predictions
+incorrect,116.jpeg,BALLASTSTOFFE,3.7,g,per_serving,Ballaststoffe,3.7,g,per_100g,context: got per_100g expected per_serving
+missing,116.jpeg,EIWEIß,41.0,g,per_100g,,,,,nutrient not found in predictions
+missing,116.jpeg,EIWEIß,12.0,g,per_serving,,,,,nutrient not found in predictions
+incorrect,116.jpeg,SALZ,0.61,g,per_serving,SALZ,0.61,g,per_100g,context: got per_100g expected per_serving
+incorrect,117.jpeg,ENERGIE,1617,kJ,per_100g,ENERGIE,,,per_serving,qty: got None expected 1617 | unit: got None expected kJ | context: got per_serving expected per_100g
+missing,117.jpeg,ENERGIE,385,kcal,per_100g,,,,,nutrient not found in predictions
+missing,117.jpeg,ENERGIE,728,kJ,per_serving,,,,,nutrient not found in predictions
+missing,117.jpeg,ENERGIE,173,kcal,per_serving,,,,,nutrient not found in predictions
+incorrect,117.jpeg,FETT,13.6,g,per_100g,FETT,6.1,,per_serving,qty: got 6.1 expected 13.6 | unit: got None expected g | context: got per_serving expected per_100g
+missing,117.jpeg,FETT,6.1,g,per_serving,,,,,nutrient not found in predictions
+missing,117.jpeg,- DAVON GESÄTTIGTE FETTSÄUREN,3.4,g,per_100g,,,,,nutrient not found in predictions
+missing,117.jpeg,- DAVON GESÄTTIGTE FETTSÄUREN,1.5,g,per_serving,,,,,nutrient not found in predictions
+incorrect,117.jpeg,KOHLENHYDRATE,37.1,g,per_100g,Kohlenhydrate,,,per_serving,qty: got None expected 37.1 | unit: got None expected g | context: got per_serving expected per_100g
+missing,117.jpeg,KOHLENHYDRATE,16.7,g,per_serving,,,,,nutrient not found in predictions
+missing,117.jpeg,- DAVON ZUCKER,30.1,g,per_100g,,,,,nutrient not found in predictions
+missing,117.jpeg,- DAVON ZUCKER,13.5,g,per_serving,,,,,nutrient not found in predictions
+incorrect,117.jpeg,BALLASTSTOFFE,9.0,g,per_100g,Ballaststoffe,,,per_serving,qty: got None expected 9.0 | unit: got None expected g | context: got per_serving expected per_100g
+missing,117.jpeg,BALLASTSTOFFE,4.0,g,per_serving,,,,,nutrient not found in predictions
+missing,117.jpeg,EIWEIß,24.5,g,per_100g,,,,,nutrient not found in predictions
+missing,117.jpeg,EIWEIß,11.0,g,per_serving,,,,,nutrient not found in predictions
+incorrect,117.jpeg,SALZ,0.10,g,per_100g,SALZ,0.04,g,per_serving,qty: got 0.04 expected 0.10 | context: got per_serving expected per_100g
+missing,117.jpeg,SALZ,0.04,g,per_serving,,,,,nutrient not found in predictions
+incorrect,118.jpeg,ENERGIE,1440,kJ,per_100g,ENERGIE,8.0,g,per_100g,qty: got 8.0 expected 1440 | unit: got g expected kJ
+incorrect,118.jpeg,ENERGIE,344,kcal,per_100g,ENERGIE,10,g,per_100g,qty: got 10 expected 344 | unit: got g expected kcal
+missing,118.jpeg,ENERGIE,1152,kJ,per_serving,,,,,nutrient not found in predictions
+missing,118.jpeg,ENERGIE,275,kcal,per_serving,,,,,nutrient not found in predictions
+incorrect,118.jpeg,FETT,10,g,per_100g,FETT:,2.1,g,per_100g,qty: got 2.1 expected 10
+incorrect,118.jpeg,FETT,8.0,g,per_serving,FETT:,48,g,per_100g,qty: got 48 expected 8.0 | context: got per_100g expected per_serving
+missing,118.jpeg,- DAVON GESÄTTIGTE FETTSÄUREN,2.6,g,per_100g,,,,,nutrient not found in predictions
+missing,118.jpeg,- DAVON GESÄTTIGTE FETTSÄUREN,2.1,g,per_serving,,,,,nutrient not found in predictions
+incorrect,118.jpeg,KOHLENHYDRATE,48,g,per_100g,KOHLENHYDRATE:,3.2,g,per_100g,qty: got 3.2 expected 48
+incorrect,118.jpeg,KOHLENHYDRATE,38,g,per_serving,KOHLENHYDRATE:,4.0,g,per_100g,qty: got 4.0 expected 38 | context: got per_100g expected per_serving
+missing,118.jpeg,- DAVON ZUCKER,4.0,g,per_100g,,,,,nutrient not found in predictions
+missing,118.jpeg,- DAVON ZUCKER,3.2,g,per_serving,,,,,nutrient not found in predictions
+missing,118.jpeg,- DAVON MEHRWERTIGE ALKOHOLE,21,g,per_100g,,,,,nutrient not found in predictions
+missing,118.jpeg,- DAVON MEHRWERTIGE ALKOHOLE,17,g,per_serving,,,,,nutrient not found in predictions
+incorrect,118.jpeg,BALLASTSTOFFE,3.0,g,per_100g,Ballaststoffe,19,g,per_100g,qty: got 19 expected 3.0
+incorrect,118.jpeg,BALLASTSTOFFE,2.4,g,per_serving,Ballaststoffe,24,g,per_100g,qty: got 24 expected 2.4 | context: got per_100g expected per_serving
+missing,118.jpeg,EIWEIß,24,g,per_100g,,,,,nutrient not found in predictions
+missing,118.jpeg,EIWEIß,19,g,per_serving,,,,,nutrient not found in predictions
+incorrect,118.jpeg,SALZ,0.70,g,per_100g,SALZ,,,per_100g,qty: got None expected 0.70 | unit: got None expected g
+missing,118.jpeg,SALZ,0.56,g,per_serving,,,,,nutrient not found in predictions
+missing,119.jpeg,ENERGIE,1471,kJ,per_100g,,,,,nutrient not found in predictions
+missing,119.jpeg,ENERGIE,352,kcal,per_100g,,,,,nutrient not found in predictions
+missing,119.jpeg,ENERGIE,1177,kJ,per_serving,,,,,nutrient not found in predictions
+missing,119.jpeg,ENERGIE,282,kcal,per_serving,,,,,nutrient not found in predictions
+incorrect,119.jpeg,FETT,11,g,per_100g,FETT:,24,g,per_100g,qty: got 24 expected 11
+incorrect,119.jpeg,FETT,8.4,g,per_serving,FETT:,3.0,g,per_100g,qty: got 3.0 expected 8.4 | context: got per_100g expected per_serving
+missing,119.jpeg,- DAVON GESÄTTIGTE FETTSÄUREN,3.0,g,per_100g,,,,,nutrient not found in predictions
+missing,119.jpeg,- DAVON GESÄTTIGTE FETTSÄUREN,2.4,g,per_serving,,,,,nutrient not found in predictions
+incorrect,119.jpeg,KOHLENHYDRATE,47,g,per_100g,KOHLENHYDRATE:,3.2,g,per_100g,qty: got 3.2 expected 47
+incorrect,119.jpeg,KOHLENHYDRATE,38,g,per_serving,KOHLENHYDRATE:,4.0,g,per_100g,qty: got 4.0 expected 38 | context: got per_100g expected per_serving
+missing,119.jpeg,- DAVON ZUCKER,3.2,g,per_serving,,,,,nutrient not found in predictions
+missing,119.jpeg,- DAVON MEHRWERTIGE ALKOHOLE,21,g,per_100g,,,,,nutrient not found in predictions
+missing,119.jpeg,- DAVON MEHRWERTIGE ALKOHOLE,17,g,per_serving,,,,,nutrient not found in predictions
+incorrect,119.jpeg,BALLASTSTOFFE,4.5,g,per_100g,Ballaststoffe,19,g,per_100g,qty: got 19 expected 4.5
+incorrect,119.jpeg,BALLASTSTOFFE,3.6,g,per_serving,Ballaststoffe,24,g,per_100g,qty: got 24 expected 3.6 | context: got per_100g expected per_serving
+missing,119.jpeg,EIWEIß,24,g,per_100g,,,,,nutrient not found in predictions
+missing,119.jpeg,EIWEIß,19,g,per_serving,,,,,nutrient not found in predictions
+incorrect,119.jpeg,SALZ,0.70,g,per_100g,SALZ,,,per_100g,qty: got None expected 0.70 | unit: got None expected g
+missing,119.jpeg,SALZ,0.56,g,per_serving,,,,,nutrient not found in predictions
+missing,12.jpeg,Energy / Energia / Energie / Energi / Energie / Energi,547,kJ,per_100ml,,,,,nutrient not found in predictions
+missing,12.jpeg,Energy / Energia / Energie / Energi / Energie / Energi,129,kcal,per_100ml,,,,,nutrient not found in predictions
+missing,12.jpeg,Energy / Energia / Energie / Energi / Energie / Energi,328,kJ,per_serving,,,,,nutrient not found in predictions
+missing,12.jpeg,Energy / Energia / Energie / Energi / Energie / Energi,77,kcal,per_serving,,,,,nutrient not found in predictions
+missing,12.jpeg,Fat / Rasva / Matières grasses / Fett / Tłuszcz / Fett,0.0,g,per_100ml,,,,,nutrient not found in predictions
+missing,12.jpeg,Fat / Rasva / Matières grasses / Fett / Tłuszcz / Fett,0.0,g,per_serving,,,,,nutrient not found in predictions
+missing,12.jpeg,of which saturates / josta tyydyttyneiden rasvojen osuus / dont matières grasses saturées / med andel mättat fett / w tym tłuszcze nasycone / varav mättat,0.0,g,per_100ml,,,,,nutrient not found in predictions
+missing,12.jpeg,of which saturates / josta tyydyttyneiden rasvojen osuus / dont matières grasses saturées / med andel mättat fett / w tym tłuszcze nasycone / varav mättat,0.0,g,per_serving,,,,,nutrient not found in predictions
+missing,12.jpeg,Carbohydrate / Hiilihydraatit / Glucides / Karbohydrater / Węglowodany / Kolhydrater,32,g,per_100ml,,,,,nutrient not found in predictions
+missing,12.jpeg,Carbohydrate / Hiilihydraatit / Glucides / Karbohydrater / Węglowodany / Kolhydrater,19,g,per_serving,,,,,nutrient not found in predictions
+missing,12.jpeg,of which sugars / josta sokereiden osuus / dont sucres / med andel sukker / w tym cukry / varav socker,1.1,g,per_100ml,,,,,nutrient not found in predictions
+missing,12.jpeg,of which sugars / josta sokereiden osuus / dont sucres / med andel sukker / w tym cukry / varav socker,0.7,g,per_serving,,,,,nutrient not found in predictions
+missing,12.jpeg,Protein / Proteiinit / Protéines / Protein / Białko / Protein,0.1,g,per_100ml,,,,,nutrient not found in predictions
+missing,12.jpeg,Protein / Proteiinit / Protéines / Protein / Białko / Protein,0.0,g,per_serving,,,,,nutrient not found in predictions
+missing,12.jpeg,Salt / Suola / Sel / Salt / Sól / Salt,0.6,g,per_100ml,,,,,nutrient not found in predictions
+missing,12.jpeg,Salt / Suola / Sel / Salt / Sól / Salt,0.4,g,per_serving,,,,,nutrient not found in predictions
+incorrect,120.jpeg,INOSITOL,100,mg,per_serving,INOSITOL,100,mg,per_daily_dose,context: got per_daily_dose expected per_serving
+missing,120.jpeg,ALPHA-LIPONSÄURE,42,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,120.jpeg,CHOLIN,20,mg,per_serving,choline,20,mg,per_daily_dose,context: got per_daily_dose expected per_serving
+incorrect,120.jpeg,RUTIN,20,mg,per_serving,RUTIN,20,mg,per_daily_dose,context: got per_daily_dose expected per_serving
+incorrect,120.jpeg,LACTOBACILLUS ACIDOPHILUS,3.6,x 10^9 KBE,per_serving,LACTOBACILLUS,,,per_daily_dose,nutrient: Specificity rule violated: 'LACTOBACILLUS ACIDOPHILUS' vs 'LACTOBACILLUS' | qty: got None expected 3.6 | unit: got None expected x 10^9 KBE | context: got per_daily_dose expected per_serving
+missing,120.jpeg,BIFIDOBACTERIUM BIFIDUM,3.6,x 10^9 KBE,per_serving,,,,,nutrient not found in predictions
+missing,120.jpeg,VITAMIN C,250,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,120.jpeg,NIACIN,16,mg,per_serving,Niacin,16,mg,per_daily_dose,context: got per_daily_dose expected per_serving
+missing,120.jpeg,VITAMIN E,30,mg,per_serving,,,,,nutrient not found in predictions
+missing,120.jpeg,PANTOTHENSÄURE,5,mg,per_serving,,,,,nutrient not found in predictions
+missing,120.jpeg,VITAMIN B6,0.9,mg,per_serving,,,,,nutrient not found in predictions
+missing,120.jpeg,VITAMIN B2,1.1,mg,per_serving,,,,,nutrient not found in predictions
+missing,120.jpeg,VITAMIN B1,1,mg,per_serving,,,,,nutrient not found in predictions
+missing,120.jpeg,FOLSÄURE,200,µg,per_serving,,,,,nutrient not found in predictions
+incorrect,120.jpeg,BIOTIN,40,µg,per_serving,Biotin,40,g,per_daily_dose,unit: got g expected µg | context: got per_daily_dose expected per_serving
+missing,120.jpeg,VITAMIN B12,4.1,µg,per_serving,,,,,nutrient not found in predictions
+missing,120.jpeg,VITAMIN D3,5.2,µg,per_serving,,,,,nutrient not found in predictions
+missing,120.jpeg,VITAMIN K,60.4,µg,per_serving,,,,,nutrient not found in predictions
+incorrect,120.jpeg,CALCIUM,121,mg,per_serving,Calcium,121,mg,per_daily_dose,context: got per_daily_dose expected per_serving
+incorrect,120.jpeg,ZINK,6.5,mg,per_serving,ZINK,6.5,mg,per_100g,context: got per_100g expected per_serving
+incorrect,120.jpeg,JOD,100,µg,per_serving,Jod,100,g,per_100g,unit: got g expected µg | context: got per_100g expected per_serving
+incorrect,120.jpeg,SELEN,22,µg,per_serving,SELEN,22,g,per_100g,unit: got g expected µg | context: got per_100g expected per_serving
+incorrect,120.jpeg,KUPFER,1,mg,per_serving,KUPFER,0.4,mg,per_100g,qty: got 0.4 expected 1 | context: got per_100g expected per_serving
+incorrect,120.jpeg,MANGAN,0.4,mg,per_serving,MANGAN,0.4,mg,per_100g,context: got per_100g expected per_serving
+incorrect,120.jpeg,CHROM,25,µg,per_serving,CHROM,25,g,per_100g,unit: got g expected µg | context: got per_100g expected per_serving
+missing,120.jpeg,MOLYBDÄN,45,µg,per_serving,,,,,nutrient not found in predictions
+incorrect,121.jpeg,ENERGIE,1401,kJ,per_100g,ENERGIE,,,per_100g,qty: got None expected 1401 | unit: got None expected kJ
+missing,121.jpeg,ENERGIE,336,kcal,per_100g,,,,,nutrient not found in predictions
+missing,121.jpeg,ENERGIE,631,kJ,per_serving,,,,,nutrient not found in predictions
+missing,121.jpeg,ENERGIE,151,kcal,per_serving,,,,,nutrient not found in predictions
+incorrect,121.jpeg,FETT,5.2,g,per_serving,FETT:,5.2,g,per_100g,context: got per_100g expected per_serving
+missing,121.jpeg,- DAVON GESÄTTIGTE FETTSÄUREN,6.5,g,per_100g,,,,,nutrient not found in predictions
+missing,121.jpeg,- DAVON GESÄTTIGTE FETTSÄUREN,2.9,g,per_serving,,,,,nutrient not found in predictions
+incorrect,121.jpeg,KOHLENHYDRATE,20,g,per_100g,KOHLENHYDRATE:,2.9,g,per_100g,qty: got 2.9 expected 20
+incorrect,121.jpeg,KOHLENHYDRATE,9.1,g,per_serving,KOHLENHYDRATE:,9.1,g,per_100g,context: got per_100g expected per_serving
+missing,121.jpeg,- DAVON ZUCKER,4.9,g,per_100g,,,,,nutrient not found in predictions
+missing,121.jpeg,- DAVON ZUCKER,2.2,g,per_serving,,,,,nutrient not found in predictions
+missing,121.jpeg,- DAVON MEHRWERTIGE ALKOHOLE,15,g,per_100g,,,,,nutrient not found in predictions
+missing,121.jpeg,- DAVON MEHRWERTIGE ALKOHOLE,6.7,g,per_serving,,,,,nutrient not found in predictions
+incorrect,121.jpeg,BALLASTSTOFFE,7.9,g,per_serving,Ballaststoffe,79,g,per_100g,qty: got 79 expected 7.9 | context: got per_100g expected per_serving
+missing,121.jpeg,EIWEIß,35,g,per_100g,,,,,nutrient not found in predictions
+missing,121.jpeg,EIWEIß,16,g,per_serving,,,,,nutrient not found in predictions
+incorrect,121.jpeg,SALZ,0.09,g,per_serving,SALZ,0.09,g,per_100g,context: got per_100g expected per_serving
+missing,122.jpeg,Lion's Mane (30% Polysaccharide),4000,mg,per_serving,,,,,nutrient not found in predictions
+missing,122.jpeg,Vitamin B6,0.21,mg,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Energie/Energy,818,kJ,per_100g,,,,,nutrient not found in predictions
+missing,15.jpeg,Energie/Energy,196,kcal,per_100g,,,,,nutrient not found in predictions
+missing,15.jpeg,Energie/Energy,34,kJ,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Energie/Energy,8,kcal,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Energie/Energy,69,kJ,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Energie/Energy,16,kcal,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Fett/Fat,0,g,per_100g,,,,,nutrient not found in predictions
+missing,15.jpeg,Fett/Fat,0,g,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Fett/Fat,0,g,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,davon gesättigte Fettsäuren/of which saturates,0,g,per_100g,,,,,nutrient not found in predictions
+missing,15.jpeg,davon gesättigte Fettsäuren/of which saturates,0,g,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,davon gesättigte Fettsäuren/of which saturates,0,g,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Kohlenhydrate/Carbohydrate,13.1,g,per_100g,,,,,nutrient not found in predictions
+missing,15.jpeg,Kohlenhydrate/Carbohydrate,0.6,g,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Kohlenhydrate/Carbohydrate,1.1,g,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,davon Zucker/of which sugars,0.5,g,per_100g,,,,,nutrient not found in predictions
+missing,15.jpeg,davon Zucker/of which sugars,0,g,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,davon Zucker/of which sugars,0,g,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Eiweiß/Protein,0,g,per_100g,,,,,nutrient not found in predictions
+missing,15.jpeg,Eiweiß/Protein,0,g,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Eiweiß/Protein,0,g,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Salz/Salt,15.0,g,per_100g,,,,,nutrient not found in predictions
+missing,15.jpeg,Salz/Salt,0.63,g,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Salz/Salt,1.26,g,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Natrium/Sodium,5952,mg,per_100g,,,,,nutrient not found in predictions
+missing,15.jpeg,Natrium/Sodium,250,mg,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Natrium/Sodium,500,mg,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Kalium/Potassium,3571,mg,per_100g,,,,,nutrient not found in predictions
+missing,15.jpeg,Kalium/Potassium,150,mg,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Kalium/Potassium,300,mg,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Chlorid/Chloride,4762,mg,per_100g,,,,,nutrient not found in predictions
+missing,15.jpeg,Chlorid/Chloride,200,mg,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Chlorid/Chloride,400,mg,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Calcium,1429,mg,per_100g,,,,,nutrient not found in predictions
+missing,15.jpeg,Calcium,60,mg,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Calcium,120,mg,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Magnesium,670,mg,per_100g,,,,,nutrient not found in predictions
+missing,15.jpeg,Magnesium,28.1,mg,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Magnesium,56.3,mg,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Koffein/Caffeine,1786,mg,per_100g,,,,,nutrient not found in predictions
+missing,15.jpeg,Koffein/Caffeine,75.0,mg,per_serving,,,,,nutrient not found in predictions
+missing,15.jpeg,Koffein/Caffeine,150,mg,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Brennwert/Energy value,1474,kJ,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Brennwert/Energy value,346,kcal,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Brennwert/Energy value,221,kJ,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Brennwert/Energy value,52,kcal,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Eiweiß/Protein,0.1,g,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Eiweiß/Protein,0.1,g,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Kohlenhydrate/Carbohydrate,78.1,g,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Kohlenhydrate/Carbohydrate,11.7,g,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Fett/Fat,0.1,g,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Fett/Fat,0.1,g,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Ballaststoffe/Fibre,0.5,g,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Ballaststoffe/Fibre,0.1,g,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Kalium/Potassium,667,mg,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Kalium/Potassium,100,mg,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Calcium,667,mg,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Calcium,100,mg,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Magnesium,300,mg,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Magnesium,45,mg,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Phosphor/Phosphorus,667,mg,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Phosphor/Phosphorus,100,mg,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Vitamin C,400,mg,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Vitamin C,60,mg,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Koffein aus Guarana-Extrakt-Pulver / Caffeine from guarana extract powder,200,mg,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Koffein aus Guarana-Extrakt-Pulver / Caffeine from guarana extract powder,30,mg,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Niacin,240,mg NE,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Niacin,36,mg NE,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Pantothensäure/Pantothenic Acid,60,mg,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Pantothensäure/Pantothenic Acid,9,mg,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Vitamin B6,13.3,mg,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Vitamin B6,2.0,mg,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Vitamin B2,10.7,mg,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Vitamin B2,1.6,mg,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Vitamin B1,9.3,mg,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Vitamin B1,1.4,mg,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Folsäure/Folic Acid,1333,µg,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Folsäure/Folic Acid,200,µg,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Biotin,1000,µg,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Biotin,150,µg,per_serving,,,,,nutrient not found in predictions
+missing,16.jpeg,Vitamin B12,6.7,µg,per_100g,,,,,nutrient not found in predictions
+missing,16.jpeg,Vitamin B12,1.0,µg,per_serving,,,,,nutrient not found in predictions
+incorrect,17.jpeg,Caffeine,100,mg,per_serving,Caffeine,100,mg,,context: got None expected per_serving
+incorrect,17.jpeg,Vitamin B3,2.4,mg NE,per_serving,Vitamin B3,2.4,mg,,unit: got mg expected mg NE | context: got None expected per_serving
+missing,17.jpeg,Vitamin B6,0.22,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,17.jpeg,Vitamin B12,0.38,µg,per_serving,Vitamin B12,0.38,mg,,unit: got mg expected µg | context: got None expected per_serving
+incorrect,2.jpeg,Energie/energy,1195,kJ,per_100g,Energie/energy kJ (kcal,837197,g,per_100g,nutrient: Energie/energy vs Brennwert/energy kJ (kcal) | qty: got 837197 expected 1195 | unit: got g expected kJ
+incorrect,2.jpeg,Energie/energy,281,kcal,per_100g,Energie/energy kJ (kcal,60,g,per_100g,"nutrient: R1: 'Energie/energy kJ (kcal' is a sub-nutrient of 'Energie/energy', violating R1. | qty: got 60 expected 281 | unit: got g expected kcal"
+missing,2.jpeg,Energie/energy,837,kJ,per_serving,,,,,nutrient not found in predictions
+missing,2.jpeg,Energie/energy,197,kcal,per_serving,,,,,nutrient not found in predictions
+missing,2.jpeg,Fett/fat,0,g,per_100g,,,,,nutrient not found in predictions
+missing,2.jpeg,Fett/fat,0,g,per_serving,,,,,nutrient not found in predictions
+missing,2.jpeg,davon gesättigte Fettsäuren/of which saturates,0,g,per_100g,,,,,nutrient not found in predictions
+missing,2.jpeg,davon gesättigte Fettsäuren/of which saturates,0,g,per_serving,,,,,nutrient not found in predictions
+incorrect,2.jpeg,Kohlenhydrate/carbohydrates,50,g,per_serving,Kohlenhydrate/carbohydrates,50,g,per_100g,context: got per_100g expected per_serving
+incorrect,2.jpeg,davon Zuckerarten/of which sugars,25,g,per_serving,davon Zuckerarten/of which sugars,70,g,per_100g,qty: got 70 expected 25 | context: got per_100g expected per_serving
+missing,2.jpeg,Eiweiss/Protein,0,g,per_100g,,,,,nutrient not found in predictions
+missing,2.jpeg,Eiweiss/Protein,0,g,per_serving,,,,,nutrient not found in predictions
+incorrect,2.jpeg,Salz/salt,0.30,g,per_serving,Salz/salt,0.30,g,per_100g,context: got per_100g expected per_serving
+missing,2.jpeg,Natrium/sodium,120,mg,per_serving,,,,,nutrient not found in predictions
+missing,2.jpeg,Kalium/potassium,110,mg,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Brennwert/Energy Value,1474,kJ,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Brennwert/Energy Value,346,kcal,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Brennwert/Energy Value,221,kJ,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Brennwert/Energy Value,52,kcal,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Eiweiß/Protein,0.1,g,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Eiweiß/Protein,0.1,g,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Kohlenhydrate/Carbohydrate,78.1,g,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Kohlenhydrate/Carbohydrate,11.7,g,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Fett/Fat,0.5,g,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Fett/Fat,0.1,g,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Natrium/Sodium,667,mg,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Natrium/Sodium,100,mg,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Kalium/Potassium,667,mg,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Kalium/Potassium,100,mg,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Calcium,800,mg,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Calcium,120,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,20.jpeg,Magnesium,45,mg,per_serving,magnesium,667,mg,per_100g,qty: got 667 expected 45 | context: got per_100g expected per_serving
+missing,20.jpeg,Chlorid/Chloride,667,mg,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Chlorid/Chloride,100,mg,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Phosphor/Phosphorus,800,mg,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Phosphor/Phosphorus,120,mg,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Selen/Selenium,200,µg,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Selen/Selenium,30,µg,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Koffein (aus Guaranaextraktpulver) / Caffeine (from Guarana extract powder),250,mg,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Koffein (aus Guaranaextraktpulver) / Caffeine (from Guarana extract powder),37.5,mg,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Vitamin C,800,mg,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Vitamin C,120,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,20.jpeg,Niacin,240,mg NE,per_100g,Niacin,240,mg,per_100g,unit: got mg expected mg NE
+incorrect,20.jpeg,Niacin,36,mg NE,per_serving,Niacin,250,mg,per_100g,qty: got 250 expected 36 | unit: got mg expected mg NE | context: got per_100g expected per_serving
+missing,20.jpeg,Vitamin E,67,mg α-TE,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Vitamin E,10,mg α-TE,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Pantothensäure/Pantothenic Acid,40,mg,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Pantothensäure/Pantothenic Acid,6,mg,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Vitamin B6,13.3,mg,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Vitamin B6,2.0,mg,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Vitamin B2,10.7,mg,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Vitamin B2,1.6,mg,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Vitamin B1,9.3,mg,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Vitamin B1,1.4,mg,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Folsäure/Folic Acid,1333,µg,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Folsäure/Folic Acid,200,µg,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Vitamin B12,6.7,µg,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Vitamin B12,1.0,µg,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Biotin,1000,µg,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Biotin,150,µg,per_serving,,,,,nutrient not found in predictions
+missing,20.jpeg,Vitamin A (aus/from Provitamin A),2220,µg RE,per_100g,,,,,nutrient not found in predictions
+missing,20.jpeg,Vitamin A (aus/from Provitamin A),333,µg RE,per_serving,,,,,nutrient not found in predictions
+missing,201.jpeg,Energie/ Energy/ Energie/ Wartość energetyczna/ Energetická hodnota/ Energia/ Energia/ Valor energético/ Energia,1642,kJ,per_100g,,,,,nutrient not found in predictions
+missing,201.jpeg,Energie/ Energy/ Energie/ Wartość energetyczna/ Energetická hodnota/ Energia/ Energia/ Valor energético/ Energia,392,kcal,per_100g,,,,,nutrient not found in predictions
+missing,201.jpeg,Energie/ Energy/ Energie/ Wartość energetyczna/ Energetická hodnota/ Energia/ Energia/ Valor energético/ Energia,493,kJ,per_serving,,,,,nutrient not found in predictions
+missing,201.jpeg,Energie/ Energy/ Energie/ Wartość energetyczna/ Energetická hodnota/ Energia/ Energia/ Valor energético/ Energia,118,kcal,per_serving,,,,,nutrient not found in predictions
+missing,201.jpeg,Vetten/ Fat/ Fett/ Matières grasses/ Tłuszcz/ Tuky/ Grassi/ Tuky/ Grasas/ Lípidos,6.7,g,per_100g,,,,,nutrient not found in predictions
+missing,201.jpeg,Vetten/ Fat/ Fett/ Matières grasses/ Tłuszcz/ Tuky/ Grassi/ Tuky/ Grasas/ Lípidos,2,g,per_serving,,,,,nutrient not found in predictions
+missing,201.jpeg,- waarvan verzadigde vetzuren/ of which saturates/ davon gesättigte Fettsäuren/ dont acides gras saturés/ w tym kwasy tłuszczowe nasycone/ z toho nasycené mastné kyseliny/ di cui acidi grassi saturi/ z toho nasýtené mastné kyseliny/ de las cuales saturadas/ dos quais saturados,4.2,g,per_100g,,,,,nutrient not found in predictions
+missing,201.jpeg,- waarvan verzadigde vetzuren/ of which saturates/ davon gesättigte Fettsäuren/ dont acides gras saturés/ w tym kwasy tłuszczowe nasycone/ z toho nasycené mastné kyseliny/ di cui acidi grassi saturi/ z toho nasýtené mastné kyseliny/ de las cuales saturadas/ dos quais saturados,1.3,g,per_serving,,,,,nutrient not found in predictions
+missing,201.jpeg,Koolhydraten/ Carbohydrate/ Kohlenhydrate/ Glucides/ Węglowodany/ Sacharidy/ Carboidrati/ Sacharidy/ Hidratos de carbono/ Hidratos de carbono,8.1,g,per_100g,,,,,nutrient not found in predictions
+missing,201.jpeg,Koolhydraten/ Carbohydrate/ Kohlenhydrate/ Glucides/ Węglowodany/ Sacharidy/ Carboidrati/ Sacharidy/ Hidratos de carbono/ Hidratos de carbono,2.4,g,per_serving,,,,,nutrient not found in predictions
+missing,201.jpeg,- waarvan suikers/ of which sugars/ davon Zucker/ dont sucres/ w tym cukry/ z toho cukry/ di cui zuccheri/ z toho cukry/ de los cuales azúcares/ dos quais açúcares,7.7,g,per_100g,,,,,nutrient not found in predictions
+missing,201.jpeg,- waarvan suikers/ of which sugars/ davon Zucker/ dont sucres/ w tym cukry/ z toho cukry/ di cui zuccheri/ z toho cukry/ de los cuales azúcares/ dos quais açúcares,2.3,g,per_serving,,,,,nutrient not found in predictions
+missing,201.jpeg,Eiwitten/ Protein/ Eiweiß/ Protéines/ Białko/ Bílkoviny/ Proteine/ Bielkoviny/ Proteínas/ Proteínas,77,g,per_100g,,,,,nutrient not found in predictions
+missing,201.jpeg,Eiwitten/ Protein/ Eiweiß/ Protéines/ Białko/ Bílkoviny/ Proteine/ Bielkoviny/ Proteínas/ Proteínas,23,g,per_serving,,,,,nutrient not found in predictions
+missing,201.jpeg,Zout/ Salt/ Salz/ Sel/ Sól/ Sůl/ Sale/ Soľ/ Sal/ Sal,0.05,g,per_100g,,,,,nutrient not found in predictions
+missing,201.jpeg,Zout/ Salt/ Salz/ Sel/ Sól/ Sůl/ Sale/ Soľ/ Sal/ Sal,0.02,g,per_serving,,,,,nutrient not found in predictions
+incorrect,26.jpeg,ENERGY,942,kJ,per_100g,ENERGY,,,per_100g,qty: got None expected 942 | unit: got None expected kJ
+missing,26.jpeg,ENERGY,255,KCAL,per_100g,,,,,nutrient not found in predictions
+incorrect,26.jpeg,FAT,0,g,per_100g,FAT,,,per_100g,qty: got None expected 0 | unit: got None expected g
+incorrect,26.jpeg,OF WHICH SATURATES,0,g,per_100g,SATURATES,56,g,per_100g,"nutrient: OF WHICH SATURATES is a sub-nutrient of SATURATES, violating R1. | qty: got 56 expected 0"
+incorrect,26.jpeg,OF WHICH SUGARS,7,g,per_100g,OF WHICH SUGARS,56,g,per_100g,qty: got 56 expected 7
+incorrect,26.jpeg,PROTEIN,0.1,g,per_100g,protein,20.19,,per_100g,qty: got 20.19 expected 0.1 | unit: got None expected g
+incorrect,26.jpeg,SALT,0.1,g,per_100g,SALT,,,per_100g,qty: got None expected 0.1 | unit: got None expected g
+incorrect,30.jpeg,ENERGY,907,kJ,per_serving,ENERGY kJ/kcal,,,per_100g,nutrient: ENERGY does not match ENERGY kJ/kcal due to specificity rule violation. | qty: got None expected 907 | unit: got None expected kJ | context: got per_100g expected per_serving
+missing,30.jpeg,ENERGY,215,kcal,per_serving,,,,,nutrient not found in predictions
+missing,30.jpeg,ENERGY,1649,kJ,per_100g,,,,,nutrient not found in predictions
+missing,30.jpeg,ENERGY,391,kcal,per_100g,,,,,nutrient not found in predictions
+incorrect,30.jpeg,PROTEIN,2.7,g,per_serving,protein,2.7,,per_100g,unit: got None expected g | context: got per_100g expected per_serving
+incorrect,30.jpeg,PROTEIN,4.8,g,per_100g,protein,4.8,,per_100g,unit: got None expected g
+incorrect,30.jpeg,FAT,5.0,g,per_serving,-SATURATED FAT g,5.0,,per_100g,"nutrient: Saturated fat is a sub-nutrient of fat, violating R1. | unit: got None expected g | context: got per_100g expected per_serving"
+incorrect,30.jpeg,FAT,9.1,g,per_100g,-SATURATED FAT g,2.7,,per_100g,"nutrient: FAT vs -SATURATED FAT g, R1 violated | qty: got 2.7 expected 9.1 | unit: got None expected g"
+missing,30.jpeg,- SATURATED FAT,2.7,g,per_serving,,,,,nutrient not found in predictions
+missing,30.jpeg,- SATURATED FAT,4.9,g,per_100g,,,,,nutrient not found in predictions
+incorrect,30.jpeg,CARBOHYDRATE,39,g,per_serving,carbohydrate,39,,per_100g,unit: got None expected g | context: got per_100g expected per_serving
+incorrect,30.jpeg,CARBOHYDRATE,71,g,per_100g,carbohydrate,2.7,,per_100g,qty: got 2.7 expected 71 | unit: got None expected g
+missing,30.jpeg,- SUGARS,19,g,per_serving,,,,,nutrient not found in predictions
+missing,30.jpeg,- SUGARS,35,g,per_100g,,,,,nutrient not found in predictions
+incorrect,30.jpeg,DIETARY FIBRE,2.0,g,per_serving,dietary fibre,2.0,,per_100g,unit: got None expected g | context: got per_100g expected per_serving
+incorrect,30.jpeg,DIETARY FIBRE,3.6,g,per_100g,dietary fibre,19,,per_100g,qty: got 19 expected 3.6 | unit: got None expected g
+incorrect,30.jpeg,SODIUM,70,mg,per_serving,SODIUM(mg,70,,per_100g,unit: got None expected mg | context: got per_100g expected per_serving
+incorrect,30.jpeg,SODIUM,130,mg,per_100g,SODIUM(mg,2.0,,per_100g,qty: got 2.0 expected 130 | unit: got None expected mg
+missing,33.jpeg,Energie/energy,1660,kJ,per_100g,,,,,nutrient not found in predictions
+missing,33.jpeg,Energie/energy,390,kcal,per_100g,,,,,nutrient not found in predictions
+missing,33.jpeg,Energie/energy,1245,kJ,per_serving,,,,,nutrient not found in predictions
+missing,33.jpeg,Energie/energy,293,kcal,per_serving,,,,,nutrient not found in predictions
+incorrect,33.jpeg,Fett/fat,0,g,per_100g,Fett/fat,88,g,,qty: got 88 expected 0 | context: got None expected per_100g
+missing,33.jpeg,Fett/fat,0,g,per_serving,,,,,nutrient not found in predictions
+incorrect,33.jpeg,davon gesättigte Fettsäuren/of which saturates,0,g,per_100g,of which saturates,89,g,,nutrient: Nutrient substring mismatch; 'davon gesättigte Fettsäuren' vs 'of which saturates' | qty: got 89 expected 0 | context: got None expected per_100g
+incorrect,33.jpeg,davon gesättigte Fettsäuren/of which saturates,0,g,per_serving,of which saturates,88,g,,"nutrient: Ground truth includes 'davon gesättigte Fettsäuren', while prediction only matches 'of which saturates'. | qty: got 88 expected 0 | context: got None expected per_serving"
+incorrect,33.jpeg,Kohlenhydrate/carbohydrates,97,g,per_100g,Kohlenhydrate/carbohydrates,89,g,,qty: got 89 expected 97 | context: got None expected per_100g
+incorrect,33.jpeg,Kohlenhydrate/carbohydrates,73,g,per_serving,Kohlenhydrate/carbohydrates,229,,,qty: got 229 expected 73 | unit: got None expected g | context: got None expected per_serving
+incorrect,33.jpeg,davon Zuckerarten/of which sugars,56,g,per_100g,davon Zuckerarten,89,g,,"nutrient: Ground truth includes 'sugars', prediction does not. | qty: got 89 expected 56 | context: got None expected per_100g"
+incorrect,33.jpeg,davon Zuckerarten/of which sugars,42,g,per_serving,davon Zuckerarten,229,,,"nutrient: Ground truth includes 'of which sugars', while prediction does not. | qty: got 229 expected 42 | unit: got None expected g | context: got None expected per_serving"
+incorrect,33.jpeg,Eiweiss/protein,0,g,per_100g,Eiweiss/protein,6350,g,,qty: got 6350 expected 0 | context: got None expected per_100g
+incorrect,33.jpeg,Eiweiss/protein,0,g,per_serving,Eiweiss/protein,0.40,g,,qty: got 0.40 expected 0 | context: got None expected per_serving
+incorrect,33.jpeg,Salz/salt,0.53,g,per_100g,Salz/salt,6350,g,,qty: got 6350 expected 0.53 | context: got None expected per_100g
+incorrect,33.jpeg,Salz/salt,0.40,g,per_serving,Salz/salt,0.40,g,,context: got None expected per_serving
+missing,33.jpeg,Natrium/sodium,210,mg,per_100g,,,,,nutrient not found in predictions
+missing,33.jpeg,Natrium/sodium,158,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,33.jpeg,Calcium,35,mg,per_100g,Calcium,210,mg,,qty: got 210 expected 35 | context: got None expected per_100g
+incorrect,33.jpeg,Calcium,26,mg,per_serving,Calcium,158,mg,,qty: got 158 expected 26 | context: got None expected per_serving
+incorrect,33.jpeg,Magnesium,25,mg,per_100g,Magnesium,,,,qty: got None expected 25 | unit: got None expected mg | context: got None expected per_100g
+missing,33.jpeg,Magnesium,19,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,33.jpeg,Kalium/potassium,55,mg,per_100g,Kalium/potassium,,,,qty: got None expected 55 | unit: got None expected mg | context: got None expected per_100g
+missing,33.jpeg,Kalium/potassium,41,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,33.jpeg,Chlorid/chlorure,140,mg,per_100g,Chlorid/chlorure,,,,qty: got None expected 140 | unit: got None expected mg | context: got None expected per_100g
+missing,33.jpeg,Chlorid/chlorure,105,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,34.jpeg,Energy,319,kcal,per_100g,Energy,319,kj,per_100g,unit: got kj expected kcal
+incorrect,34.jpeg,Energy,339,kJ,per_serving,Energy,80,kj,per_100g,qty: got 80 expected 339 | context: got per_100g expected per_serving
+missing,34.jpeg,Energy,80,kcal,per_serving,,,,,nutrient not found in predictions
+incorrect,34.jpeg,Fat,0,g,per_100g,Fat,80,g,per_100g,qty: got 80 expected 0
+incorrect,34.jpeg,Fat,0,g,per_serving,Fat,319,kj,per_100g,qty: got 319 expected 0 | unit: got kj expected g | context: got per_100g expected per_serving
+incorrect,34.jpeg,Carbohydrate,20,g,per_serving,Carbohydrate,20,g,per_100g,context: got per_100g expected per_serving
+incorrect,34.jpeg,of which sugars,77,g,per_100g,of which sugars,80,g,per_100g,qty: got 80 expected 77
+incorrect,34.jpeg,of which sugars,19,g,per_serving,of which sugars,56,g,per_100g,qty: got 56 expected 19 | context: got per_100g expected per_serving
+incorrect,34.jpeg,Fibre,5,g,per_100g,Fibre,56,g,per_100g,qty: got 56 expected 5
+incorrect,34.jpeg,Fibre,1.2,g,per_serving,Fibre,778,g,per_100g,qty: got 778 expected 1.2 | context: got per_100g expected per_serving
+incorrect,34.jpeg,Protein,0,g,per_100g,Protein,56,g,per_100g,qty: got 56 expected 0
+incorrect,34.jpeg,Protein,0,g,per_serving,Protein,3.58,g,per_100g,qty: got 3.58 expected 0 | context: got per_100g expected per_serving
+incorrect,34.jpeg,Salt,3.5,g,per_100g,Salt,3.58,g,per_100g,qty: got 3.58 expected 3.5
+incorrect,34.jpeg,Salt,0.9,g,per_serving,Salt,0.9,g,per_100g,context: got per_100g expected per_serving
+incorrect,34.jpeg,Calcium,100,mg,per_serving,Calcium,100,mg,per_100g,context: got per_100g expected per_serving
+incorrect,34.jpeg,Potassium,100,mg,per_serving,Potassium,100,mg,per_100g,context: got per_100g expected per_serving
+incorrect,34.jpeg,Magnesium,25,mg,per_serving,Magnesium,2.6,mg,per_100g,qty: got 2.6 expected 25 | context: got per_100g expected per_serving
+incorrect,34.jpeg,Zinc,0.7,mg,per_serving,Zinc,100,mg,per_100g,qty: got 100 expected 0.7 | context: got per_100g expected per_serving
+incorrect,34.jpeg,C,72,mg,per_100g,Carbohydrate,778,g,per_100g,nutrient: Different nutrients: C vs Carbohydrate | qty: got 778 expected 72
+incorrect,34.jpeg,C,18,mg,per_serving,of which sugars,778,g,per_100g,"nutrient: Ground truth is 'C' (likely Vitamin C), but prediction is 'of which sugars'. | qty: got 778 expected 18 | unit: got g expected mg | context: got per_100g expected per_serving"
+missing,34.jpeg,B3,12,mg,per_100g,,,,,nutrient not found in predictions
+missing,34.jpeg,B3,3.0,mg,per_serving,,,,,nutrient not found in predictions
+missing,34.jpeg,B6,3.2,mg,per_100g,,,,,nutrient not found in predictions
+missing,34.jpeg,B6,0.8,mg,per_serving,,,,,nutrient not found in predictions
+missing,34.jpeg,B5,2.9,mg,per_100g,,,,,nutrient not found in predictions
+missing,34.jpeg,B5,0.7,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,34.jpeg,B1,0.8,mg,per_100g,B1,85,mg,per_100g,qty: got 85 expected 0.8
+incorrect,34.jpeg,B1,0.2,mg,per_serving,B1,82,mg,per_100g,qty: got 82 expected 0.2 | context: got per_100g expected per_serving
+missing,34.jpeg,B2,0.8,mg,per_100g,,,,,nutrient not found in predictions
+missing,34.jpeg,B2,0.2,mg,per_serving,,,,,nutrient not found in predictions
+missing,34.jpeg,Folic acid,34,µg,per_100g,,,,,nutrient not found in predictions
+missing,34.jpeg,Folic acid,8.4,µg,per_serving,,,,,nutrient not found in predictions
+incorrect,34.jpeg,B12,3.5,µg,per_100g,B1,2.9,mg,per_100g,qty: got 2.9 expected 3.5 | unit: got mg expected µg
+missing,34.jpeg,B12,0.9,µg,per_serving,,,,,nutrient not found in predictions
+incorrect,35.jpeg,Magnesium,225,mg,per_serving,Magnesium,2.1,g,per_100g,qty: got 2.1 expected 225 | unit: got g expected mg | context: got per_100g expected per_serving
+missing,35.jpeg,Vitamin C,100.8,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,4.jpeg,ENERGY,952,kJ,per_100g,ENERGY,11,,per_100g,qty: got 11 expected 952 | unit: got None expected kJ
+missing,4.jpeg,ENERGY,224,KCAL,per_100g,,,,,nutrient not found in predictions
+incorrect,4.jpeg,FAT,0,,per_100g,FAT,11,,per_100g,qty: got 11 expected 0
+incorrect,4.jpeg,OF WHICH SATURATES,0,,per_100g,saturates,11,,per_100g,nutrient: Nutrient names do not match due to specificity rules. | qty: got 11 expected 0
+incorrect,4.jpeg,CARBOHYDRATE,56,g,per_100g,carbohydrate,,,per_100g,qty: got None expected 56 | unit: got None expected g
+missing,4.jpeg,OF WHICH SUGARS,6.1,g,per_100g,,,,,nutrient not found in predictions
+incorrect,4.jpeg,PROTEIN,0,,per_100g,protein,,,per_100g,qty: got None expected 0
+incorrect,4.jpeg,SALT,0.12,g,per_100g,SALT-,,,per_100g,qty: got None expected 0.12 | unit: got None expected g
+incorrect,41.jpeg,ENERGY,612,kJ,per_100g,ENERGY,01,,per_100g,qty: got 01 expected 612 | unit: got None expected kJ
+missing,41.jpeg,ENERGY,144,KCAL,per_100g,,,,,nutrient not found in predictions
+incorrect,41.jpeg,FAT,0,g,per_100g,FAT,01,,per_100g,qty: got 01 expected 0 | unit: got None expected g
+incorrect,41.jpeg,OF WHICH SATURATES,0,g,per_100g,SATURATES,01,,per_100g,nutrient: OF WHICH SATURATES is more specific than SATURATES | qty: got 01 expected 0 | unit: got None expected g
+incorrect,41.jpeg,CARBOHYDRATE,36,g,per_100g,CARBOHYDRATE,41,,per_100g,qty: got 41 expected 36 | unit: got None expected g
+missing,41.jpeg,OF WHICH SUGARS,11,g,per_100g,,,,,nutrient not found in predictions
+incorrect,41.jpeg,PROTEIN,0,g,per_100g,PROTEIN,4101,,per_100g,qty: got 4101 expected 0 | unit: got None expected g
+incorrect,41.jpeg,SALT,0.10,g,per_100g,SALT,4101,,per_100g,qty: got 4101 expected 0.10 | unit: got None expected g
+missing,42.jpeg,ENERGY/ ENERGIE,1567,kJ,per_100g,,,,,nutrient not found in predictions
+missing,42.jpeg,ENERGY/ ENERGIE,374,KCAL,per_100g,,,,,nutrient not found in predictions
+missing,42.jpeg,ENERGY/ ENERGIE,736,kJ,per_serving,,,,,nutrient not found in predictions
+missing,42.jpeg,ENERGY/ ENERGIE,176,KCAL,per_serving,,,,,nutrient not found in predictions
+missing,42.jpeg,PROTEIN/ EIWESS,0.1,g,per_100g,,,,,nutrient not found in predictions
+missing,42.jpeg,PROTEIN/ EIWESS,0,g,per_serving,,,,,nutrient not found in predictions
+missing,42.jpeg,FAT/ FETT,0,g,per_100g,,,,,nutrient not found in predictions
+missing,42.jpeg,FAT/ FETT,0,g,per_serving,,,,,nutrient not found in predictions
+missing,42.jpeg,- SATURATED FAT/ DAVON GESÄTTIGDE FETTSÄUREN,0,g,per_100g,,,,,nutrient not found in predictions
+missing,42.jpeg,- SATURATED FAT/ DAVON GESÄTTIGDE FETTSÄUREN,0,g,per_serving,,,,,nutrient not found in predictions
+incorrect,42.jpeg,CARBOHYDRATE/ KOHLENHYDRATE,94,g,per_100g,carbohydrate,,,per_100g,"nutrient: Ground truth is 'CARBOHYDRATE/ KOHLENHYDRATE', prediction is 'carbohydrate'. R1 violation. | qty: got None expected 94"
+missing,42.jpeg,CARBOHYDRATE/ KOHLENHYDRATE,44,g,per_serving,,,,,nutrient not found in predictions
+missing,42.jpeg,- SUGARS/ DAVON ZUCKER,38,g,per_100g,,,,,nutrient not found in predictions
+missing,42.jpeg,- SUGARS/ DAVON ZUCKER,18,g,per_serving,,,,,nutrient not found in predictions
+incorrect,42.jpeg,DIETARY FIBRE,0,g,per_100g,dietary fibre,240,,per_100g,qty: got 240 expected 0 | unit: got None expected g
+incorrect,42.jpeg,DIETARY FIBRE,0,g,per_serving,dietary fibre,500,,per_100g,qty: got 500 expected 0 | unit: got None expected g | context: got per_100g expected per_serving
+missing,42.jpeg,SODIUM,500,mg,per_100g,,,,,nutrient not found in predictions
+missing,42.jpeg,SODIUM,240,mg,per_serving,,,,,nutrient not found in predictions
+missing,45.jpeg,ENERGY/ ENERGIE/ ENERGI/ ENERGIA,1567,kJ,per_100g,,,,,nutrient not found in predictions
+missing,45.jpeg,ENERGY/ ENERGIE/ ENERGI/ ENERGIA,374,KCAL,per_100g,,,,,nutrient not found in predictions
+missing,45.jpeg,ENERGY/ ENERGIE/ ENERGI/ ENERGIA,736,kJ,per_serving,,,,,nutrient not found in predictions
+missing,45.jpeg,ENERGY/ ENERGIE/ ENERGI/ ENERGIA,176,KCAL,per_serving,,,,,nutrient not found in predictions
+missing,45.jpeg,PROTEIN/ EIWESS/ PROTEIN/ PROTEINI,0.1,g,per_100g,,,,,nutrient not found in predictions
+missing,45.jpeg,PROTEIN/ EIWESS/ PROTEIN/ PROTEINI,0,g,per_serving,,,,,nutrient not found in predictions
+missing,45.jpeg,FAT/ FETT/ FEDT/ RASVAT,0,g,per_100g,,,,,nutrient not found in predictions
+missing,45.jpeg,FAT/ FETT/ FEDT/ RASVAT,0,g,per_serving,,,,,nutrient not found in predictions
+missing,45.jpeg,- SATURATED FAT/ DAVON GESÄTTIGDE FETTSÄUREN/ HERAF MÆTTEDE FEDTSYRER/ JOISTA TYYDYTTYNEITÄ,0,g,per_100g,,,,,nutrient not found in predictions
+missing,45.jpeg,- SATURATED FAT/ DAVON GESÄTTIGDE FETTSÄUREN/ HERAF MÆTTEDE FEDTSYRER/ JOISTA TYYDYTTYNEITÄ,0,g,per_serving,,,,,nutrient not found in predictions
+missing,45.jpeg,CARBOHYDRATE/ KOHLENHYDRATE/ KULHYDRAT/ HIILIHYDRAATTI,94,g,per_100g,,,,,nutrient not found in predictions
+missing,45.jpeg,CARBOHYDRATE/ KOHLENHYDRATE/ KULHYDRAT/ HIILIHYDRAATTI,44,g,per_serving,,,,,nutrient not found in predictions
+missing,45.jpeg,- SUGARS/ DAVON ZUCKER/ HERAF SUKKERARTER/ JOISTA SOKEREITA,38,g,per_100g,,,,,nutrient not found in predictions
+missing,45.jpeg,- SUGARS/ DAVON ZUCKER/ HERAF SUKKERARTER/ JOISTA SOKEREITA,18,g,per_serving,,,,,nutrient not found in predictions
+missing,45.jpeg,DIETARY FIBRE,0,g,per_100g,,,,,nutrient not found in predictions
+missing,45.jpeg,DIETARY FIBRE,0,g,per_serving,,,,,nutrient not found in predictions
+missing,45.jpeg,SODIUM/ SALZ/ SALT/ SUOLA,500,mg,per_100g,,,,,nutrient not found in predictions
+missing,45.jpeg,SODIUM/ SALZ/ SALT/ SUOLA,240,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,51.jpeg,Energy | Energie,1541,kJ,per_100g,Energy | Energie (kca,1541,g,per_100g,unit: got g expected kJ
+incorrect,51.jpeg,Energy | Energie,363,kcal,per_100g,Energy | Energie (kca,925 (218,g,per_100g,qty: got 925 (218 expected 363 | unit: got g expected kcal
+incorrect,51.jpeg,Energy | Energie,925,kJ,per_serving,Energy | Energie (kca,60,g,per_100g,qty: got 60 expected 925 | unit: got g expected kJ | context: got per_100g expected per_serving
+missing,51.jpeg,Energy | Energie,218,kcal,per_serving,,,,,nutrient not found in predictions
+missing,51.jpeg,Fat | Fett | Matières grasses | Vetten,<0.5,g,per_100g,,,,,nutrient not found in predictions
+missing,51.jpeg,Fat | Fett | Matières grasses | Vetten,<0.5,g,per_serving,,,,,nutrient not found in predictions
+missing,51.jpeg,- of which saturates | davon gesättigte Fettsäuren | dont acides gras saturés | waarvan verzadigde vetzuren,<0.5,g,per_100g,,,,,nutrient not found in predictions
+missing,51.jpeg,- of which saturates | davon gesättigte Fettsäuren | dont acides gras saturés | waarvan verzadigde vetzuren,<0.5,g,per_serving,,,,,nutrient not found in predictions
+missing,51.jpeg,Carbohydrate | Kohlenhydrate | Glucides | Koolhydraten,84,g,per_100g,,,,,nutrient not found in predictions
+missing,51.jpeg,Carbohydrate | Kohlenhydrate | Glucides | Koolhydraten,50,g,per_serving,,,,,nutrient not found in predictions
+missing,51.jpeg,- of which sugars | davon Zucker | dont sucres | waarvan suikers,62,g,per_100g,,,,,nutrient not found in predictions
+missing,51.jpeg,- of which sugars | davon Zucker | dont sucres | waarvan suikers,37,g,per_serving,,,,,nutrient not found in predictions
+missing,51.jpeg,Protein | Eiweiß | Protéines | Eiwitten,6.7,g,per_100g,,,,,nutrient not found in predictions
+missing,51.jpeg,Protein | Eiweiß | Protéines | Eiwitten,4.0,g,per_serving,,,,,nutrient not found in predictions
+missing,51.jpeg,Salt | Salz | Sel | Zout,0.13,g,per_100g,,,,,nutrient not found in predictions
+missing,51.jpeg,Salt | Salz | Sel | Zout,0.08,g,per_serving,,,,,nutrient not found in predictions
+missing,51.jpeg,Vitamin B6 | Vitamine B6,0.35,mg,per_100g,,,,,nutrient not found in predictions
+missing,51.jpeg,Vitamin B6 | Vitamine B6,0.21,mg,per_serving,,,,,nutrient not found in predictions
+missing,53.jpeg,Energy / Energie,1541,kJ,per_100g,,,,,nutrient not found in predictions
+missing,53.jpeg,Energy / Energie,363,kcal,per_100g,,,,,nutrient not found in predictions
+missing,53.jpeg,Fat / Fett / Matières grasses / Vetten,<0.5,g,per_100g,,,,,nutrient not found in predictions
+missing,53.jpeg,- of which saturates / davon gesättigte Fettsäuren / dont acides gras saturés / waarvan verzadigde vetzuren,<0.5,g,per_100g,,,,,nutrient not found in predictions
+missing,53.jpeg,Carbohydrate / Kohlenhydrate / Glucides / Koolhydraten,84,g,per_100g,,,,,nutrient not found in predictions
+missing,53.jpeg,- of which sugars / davon Zucker / dont sucres / waarvan suikers,62,g,per_100g,,,,,nutrient not found in predictions
+missing,53.jpeg,Protein / Eiweiß / Protéines / Eiwitten,6.7,g,per_100g,,,,,nutrient not found in predictions
+missing,53.jpeg,Salt / Salz / Sel / Zout,0.13,g,per_100g,,,,,nutrient not found in predictions
+missing,53.jpeg,Vitamin B6,0.35,mg,per_100g,,,,,nutrient not found in predictions
+missing,53.jpeg,Energy / Energie,925,kJ,per_serving,,,,,nutrient not found in predictions
+missing,53.jpeg,Energy / Energie,218,kcal,per_serving,,,,,nutrient not found in predictions
+missing,53.jpeg,Fat / Fett / Matières grasses / Vetten,<0.5,g,per_serving,,,,,nutrient not found in predictions
+missing,53.jpeg,- of which saturates / davon gesättigte Fettsäuren / dont acides gras saturés / waarvan verzadigde vetzuren,<0.5,g,per_serving,,,,,nutrient not found in predictions
+missing,53.jpeg,Carbohydrate / Kohlenhydrate / Glucides / Koolhydraten,50,g,per_serving,,,,,nutrient not found in predictions
+missing,53.jpeg,- of which sugars / davon Zucker / dont suikers / waarvan suikers,37,g,per_serving,,,,,nutrient not found in predictions
+missing,53.jpeg,Protein / Eiweiß / Protéines / Eiwitten,4.0,g,per_serving,,,,,nutrient not found in predictions
+missing,53.jpeg,Salt / Salz / Sel / Zout,0.08,g,per_serving,,,,,nutrient not found in predictions
+missing,53.jpeg,Vitamin B6,0.21,mg,per_serving,,,,,nutrient not found in predictions
+missing,56.jpeg,Brennwert ...... Energie,1604,kJ,per_100g,,,,,nutrient not found in predictions
+missing,56.jpeg,Brennwert ...... Energie,383,kcal,per_100g,,,,,nutrient not found in predictions
+missing,56.jpeg,Brennwert ...... Energie,96.2,kJ,per_serving,,,,,nutrient not found in predictions
+missing,56.jpeg,Brennwert ...... Energie,23,kcal,per_serving,,,,,nutrient not found in predictions
+missing,56.jpeg,Eiweiß ......... Protéines,83,g,per_100g,,,,,nutrient not found in predictions
+missing,56.jpeg,Eiweiß ......... Protéines,4.99,g,per_serving,,,,,nutrient not found in predictions
+missing,56.jpeg,Kohlenhydrate ... Glucides,3.67,g,per_100g,,,,,nutrient not found in predictions
+missing,56.jpeg,Kohlenhydrate ... Glucides,0.22,g,per_serving,,,,,nutrient not found in predictions
+incorrect,56.jpeg,Fett ........... Lipides,0.26,g,per_serving,Fett,3.67,g,per_100g,qty: got 3.67 expected 0.26 | context: got per_100g expected per_serving
+missing,57.jpeg,Brennwert / Energie,383,kcal,per_100g,,,,,nutrient not found in predictions
+missing,57.jpeg,Brennwert / Energie,1604,kJ,per_100g,,,,,nutrient not found in predictions
+missing,57.jpeg,Eiweiß / Protéines,83,g,per_100g,,,,,nutrient not found in predictions
+missing,57.jpeg,Kohlenhydrate / Glucides,3.67,g,per_100g,,,,,nutrient not found in predictions
+incorrect,57.jpeg,Fett / Lipides,4.3,g,per_100g,Fett,3.67,g,per_100g,"nutrient: Ground truth is 'Fett / Lipides', prediction is 'Fett'. | qty: got 3.67 expected 4.3"
+missing,57.jpeg,Brennwert / Energie,23,kcal,per_serving,,,,,nutrient not found in predictions
+missing,57.jpeg,Brennwert / Energie,96.2,kJ,per_serving,,,,,nutrient not found in predictions
+missing,57.jpeg,Eiweiß / Protéines,4.99,g,per_serving,,,,,nutrient not found in predictions
+missing,57.jpeg,Kohlenhydrate / Glucides,0.22,g,per_serving,,,,,nutrient not found in predictions
+missing,59.jpeg,Brennwert/Energy Value,1391,kJ,per_100g,,,,,nutrient not found in predictions
+missing,59.jpeg,Brennwert/Energy Value,330,kcal,per_100g,,,,,nutrient not found in predictions
+missing,59.jpeg,Brennwert/Energy Value,278,kJ,per_serving,,,,,nutrient not found in predictions
+missing,59.jpeg,Brennwert/Energy Value,66,kcal,per_serving,,,,,nutrient not found in predictions
+missing,59.jpeg,Eiweiß/Protein,0.7,g,per_100g,,,,,nutrient not found in predictions
+missing,59.jpeg,Eiweiß/Protein,0.14,g,per_serving,,,,,nutrient not found in predictions
+missing,59.jpeg,Kohlenhydrate/Carbohydrate,66.6,g,per_100g,,,,,nutrient not found in predictions
+missing,59.jpeg,Kohlenhydrate/Carbohydrate,13.3,g,per_serving,,,,,nutrient not found in predictions
+missing,59.jpeg,davon Zucker / of which Sugars,64.4,g,per_100g,,,,,nutrient not found in predictions
+missing,59.jpeg,davon Zucker / of which Sugars,12.9,g,per_serving,,,,,nutrient not found in predictions
+missing,59.jpeg,davon Fructose / of which Fructose,63.7,g,per_100g,,,,,nutrient not found in predictions
+missing,59.jpeg,davon Fructose / of which Fructose,12.7,g,per_serving,,,,,nutrient not found in predictions
+missing,59.jpeg,Fett/Fat,0.3,g,per_100g,,,,,nutrient not found in predictions
+missing,59.jpeg,Fett/Fat,<0.1,g,per_serving,,,,,nutrient not found in predictions
+missing,59.jpeg,davon gesättigte Fettsäuren/ of which Saturates,<0.3,g,per_100g,,,,,nutrient not found in predictions
+missing,59.jpeg,davon gesättigte Fettsäuren/ of which Saturates,<0.1,g,per_serving,,,,,nutrient not found in predictions
+missing,59.jpeg,Ballaststoffe / Fibre,25,g,per_100g,,,,,nutrient not found in predictions
+missing,59.jpeg,Ballaststoffe / Fibre,5,g,per_serving,,,,,nutrient not found in predictions
+missing,59.jpeg,Natrium/Sodium,<0.1,g,per_100g,,,,,nutrient not found in predictions
+missing,59.jpeg,Natrium/Sodium,<0.02,g,per_serving,,,,,nutrient not found in predictions
+missing,59.jpeg,Selen/Selenium,150,µg,per_100g,,,,,nutrient not found in predictions
+missing,59.jpeg,Selen/Selenium,30,µg,per_serving,,,,,nutrient not found in predictions
+missing,59.jpeg,Vitamin C,300,mg,per_100g,,,,,nutrient not found in predictions
+missing,59.jpeg,Vitamin C,60,mg,per_serving,,,,,nutrient not found in predictions
+missing,59.jpeg,Vitamin E,50,mg α-TE,per_100g,,,,,nutrient not found in predictions
+missing,59.jpeg,Vitamin E,10,mg α-TE,per_serving,,,,,nutrient not found in predictions
+missing,59.jpeg,Vitamin A (aus/from Provitamin A),1667,µg RE,per_100g,,,,,nutrient not found in predictions
+missing,59.jpeg,Vitamin A (aus/from Provitamin A),333,µg RE,per_serving,,,,,nutrient not found in predictions
+missing,6.jpeg,VITAMIN C,28,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,6.jpeg,MAGNESIUM,56,mg,per_serving,magnesium,,,,qty: got None expected 56 | unit: got None expected mg | context: got None expected per_serving
+incorrect,6.jpeg,KALIUM,70,mg,per_serving,KALIUM,,,,qty: got None expected 70 | unit: got None expected mg | context: got None expected per_serving
+missing,6.jpeg,CALCIUM,9,mg,per_serving,,,,,nutrient not found in predictions
+missing,6.jpeg,NATRIUM,200,mg,per_serving,,,,,nutrient not found in predictions
+missing,6.jpeg,GRÜNER TEE,1,mg,per_serving,,,,,nutrient not found in predictions
+missing,61.jpeg,Energy / Energie / Energia / Energie / Energia / Energijska vrednost,1424,kJ,per_100g,,,,,nutrient not found in predictions
+missing,61.jpeg,Energy / Energie / Energia / Energie / Energia / Energijska vrednost,341,kcal,per_100g,,,,,nutrient not found in predictions
+missing,61.jpeg,Energy / Energie / Energia / Energie / Energia / Energijska vrednost,427,kJ,per_serving,,,,,nutrient not found in predictions
+missing,61.jpeg,Energy / Energie / Energia / Energie / Energia / Energijska vrednost,102,kcal,per_serving,,,,,nutrient not found in predictions
+missing,61.jpeg,Fat / Fett / Grassi / Graisse / Grasas / Maščobe,0,g,per_100g,,,,,nutrient not found in predictions
+missing,61.jpeg,Fat / Fett / Grassi / Graisse / Grasas / Maščobe,0,g,per_serving,,,,,nutrient not found in predictions
+missing,61.jpeg,of which saturated / davon gesättigte / di cui saturi / dont saturés / de las cuales saturadas / od tega nasičene,0,g,per_100g,,,,,nutrient not found in predictions
+missing,61.jpeg,of which saturated / davon gesättigte / di cui saturi / dont saturés / de las cuales saturadas / od tega nasičene,0,g,per_serving,,,,,nutrient not found in predictions
+missing,61.jpeg,Carbohydrates / Kohlenhydrate / Carboidrati / Glucides / Carbohidratos / Ogljikovi hidrati,84.4,g,per_100g,,,,,nutrient not found in predictions
+missing,61.jpeg,Carbohydrates / Kohlenhydrate / Carboidrati / Glucides / Carbohidratos / Ogljikovi hidrati,25.3,g,per_serving,,,,,nutrient not found in predictions
+missing,61.jpeg,of which sugars / davon Zucker / di cui zuccheri / dont sucres / de los cuales azúcares / od tega sladkorji,48.7,g,per_100g,,,,,nutrient not found in predictions
+missing,61.jpeg,of which sugars / davon Zucker / di cui zuccheri / dont sucres / de los cuales azúcares / od tega sladkorji,14.6,g,per_serving,,,,,nutrient not found in predictions
+missing,61.jpeg,Protein / Eiweiß / Proteine / Protéines / Proteína / Beljakovine,0.6,g,per_100g,,,,,nutrient not found in predictions
+missing,61.jpeg,Protein / Eiweiß / Proteine / Protéines / Proteína / Beljakovine,0.2,g,per_serving,,,,,nutrient not found in predictions
+missing,61.jpeg,Salt / Salz / Sale / Sel / Sal / Sol,1.73,g,per_100g,,,,,nutrient not found in predictions
+missing,61.jpeg,Salt / Salz / Sale / Sel / Sal / Sol,0.52,g,per_serving,,,,,nutrient not found in predictions
+missing,61.jpeg,Magnesium / Magnesium / Magnesio / Magnésium / Magnesio / Magnezij,250,mg,per_100g,,,,,nutrient not found in predictions
+missing,61.jpeg,Magnesium / Magnesium / Magnesio / Magnésium / Magnesio / Magnezij,75,mg,per_serving,,,,,nutrient not found in predictions
+missing,61.jpeg,Potassium / Kalium / Potassio / Potassium / Potasio / Kalij,333.3,mg,per_100g,,,,,nutrient not found in predictions
+missing,61.jpeg,Potassium / Kalium / Potassio / Potassium / Potasio / Kalij,100,mg,per_serving,,,,,nutrient not found in predictions
+missing,61.jpeg,Calcium / Kalzium / Calcio / Calcium / Calcio / Kalcij,166.7,mg,per_100g,,,,,nutrient not found in predictions
+missing,61.jpeg,Calcium / Kalzium / Calcio / Calcium / Calcio / Kalcij,50,mg,per_serving,,,,,nutrient not found in predictions
+missing,63.jpeg,Energy / Energie / Energia / Energie / Energia / Energijska vrednost,1424,kJ,per_100g,,,,,nutrient not found in predictions
+missing,63.jpeg,Energy / Energie / Energia / Energie / Energia / Energijska vrednost,341,kcal,per_100g,,,,,nutrient not found in predictions
+missing,63.jpeg,Energy / Energie / Energia / Energie / Energia / Energijska vrednost,427,kJ,per_serving,,,,,nutrient not found in predictions
+missing,63.jpeg,Energy / Energie / Energia / Energie / Energia / Energijska vrednost,102,kcal,per_serving,,,,,nutrient not found in predictions
+missing,63.jpeg,Fat / Fett / Grassi / Graisse / Grasas / Maščobe,0,g,per_100g,,,,,nutrient not found in predictions
+missing,63.jpeg,Fat / Fett / Grassi / Graisse / Grasas / Maščobe,0,g,per_serving,,,,,nutrient not found in predictions
+missing,63.jpeg,of which saturated / davon gesättigte / di cui saturi / dont saturés / de las cuales saturadas / od tega nasičene,0,g,per_100g,,,,,nutrient not found in predictions
+missing,63.jpeg,of which saturated / davon gesättigte / di cui saturi / dont saturés / de las cuales saturadas / od tega nasičene,0,g,per_serving,,,,,nutrient not found in predictions
+missing,63.jpeg,Carbohydrates / Kohlenhydrate / Carboidrati / Glucides / Carbohidratos / Ogljikovi hidrati,84.4,g,per_100g,,,,,nutrient not found in predictions
+missing,63.jpeg,Carbohydrates / Kohlenhydrate / Carboidrati / Glucides / Carbohidratos / Ogljikovi hidrati,25.3,g,per_serving,,,,,nutrient not found in predictions
+missing,63.jpeg,of which sugars / davon Zucker / di cui zuccheri / dont sucres / de los cuales azúcares / od tega sladkorji,48.7,g,per_100g,,,,,nutrient not found in predictions
+missing,63.jpeg,of which sugars / davon Zucker / di cui zuccheri / dont sucres / de los cuales azúcares / od tega sladkorji,14.6,g,per_serving,,,,,nutrient not found in predictions
+missing,63.jpeg,Protein / Eiweiß / Proteine / Protéines / Proteína / Beljakovine,0.6,g,per_100g,,,,,nutrient not found in predictions
+missing,63.jpeg,Protein / Eiweiß / Proteine / Protéines / Proteína / Beljakovine,0.2,g,per_serving,,,,,nutrient not found in predictions
+missing,63.jpeg,Salt / Salz / Sale / Sel / Sal / Sol,1.73,g,per_100g,,,,,nutrient not found in predictions
+missing,63.jpeg,Salt / Salz / Sale / Sel / Sal / Sol,0.52,g,per_serving,,,,,nutrient not found in predictions
+missing,63.jpeg,Magnesium / Magnesium / Magnesio / Magnésium / Magnesio / Magnezij,250,mg,per_100g,,,,,nutrient not found in predictions
+missing,63.jpeg,Magnesium / Magnesium / Magnesio / Magnésium / Magnesio / Magnezij,75,mg,per_serving,,,,,nutrient not found in predictions
+missing,63.jpeg,Potassium / Kalium / Potassio / Potassium / Potasio / Kalij,333.3,mg,per_100g,,,,,nutrient not found in predictions
+missing,63.jpeg,Potassium / Kalium / Potassio / Potassium / Potasio / Kalij,100,mg,per_serving,,,,,nutrient not found in predictions
+missing,63.jpeg,Calcium / Kalzium / Calcio / Calcium / Calcio / Kalcij,166.7,mg,per_100g,,,,,nutrient not found in predictions
+missing,63.jpeg,Calcium / Kalzium / Calcio / Calcium / Calcio / Kalcij,50,mg,per_serving,,,,,nutrient not found in predictions
+missing,64.jpeg,Vitamin(e) C,50,mg,per_daily_dose,,,,,nutrient not found in predictions
+missing,64.jpeg,Vitamin(e) B2,0.6,mg,per_daily_dose,,,,,nutrient not found in predictions
+incorrect,64.jpeg,Niacin(e),7.0,mg,per_daily_dose,niacin,7.0,mg,,context: got None expected per_daily_dose
+missing,64.jpeg,Vitamin(e) B6,0.6,mg,per_daily_dose,,,,,nutrient not found in predictions
+missing,64.jpeg,Folsäure / folic acid,80,µg,per_daily_dose,,,,,nutrient not found in predictions
+missing,64.jpeg,Vitamin(e) B12,2.0,µg,per_daily_dose,,,,,nutrient not found in predictions
+missing,64.jpeg,Pantothensäure / pantothenic acid,2.5,mg,per_daily_dose,,,,,nutrient not found in predictions
+missing,64.jpeg,Zink / zinc,3.0,mg,per_daily_dose,,,,,nutrient not found in predictions
+missing,67.jpeg,Colecalciferol,25,µg,per_daily_dose,,,,,nutrient not found in predictions
+missing,67.jpeg,Vitamin D3,1000,I.E.,per_daily_dose,,,,,nutrient not found in predictions
+missing,68.jpeg,Energy / Energi(e/a) / Valor energético,1578,kJ,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,Energy / Energi(e/a) / Valor energético,372,kcal,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,Fat / Fett / Matières grasses / Vetten / Grasas / Lipidos / Grassi,0.6,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,of which saturates / davon gesättigte Fettsäuren / dont acides gras saturés / waarvan verzadigde vetzuren / de las cuales saturadas / dos quais ácidos gordos saturados / di cui acidi grassi saturi / varav mättat fett,0.5,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,Carbohydrate / Kohlenhydrate / Glucides / Koolhydraten / Hidratos de carbono / Carboidrati / Kolhydrat,5.2,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,of which sugars / davon Zucker / dont sucres / waarvan suikers / de los cuales azúcares / dos quais açúcares / di cui zuccheri / varav sockerarter,2.1,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,Protein(e) / Eiweiß / Protéines / Eiwitten / Proteínas,84,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,Salt / Salz / Sel / Zout / Sal / Sale,0.42,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Valine / L-Valin / L-valina,5.7,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Leucine / L-Leucin / L-leucina,9.2,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Isoleucine / L-Isoleucin / L-isoleucina,6.2,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Lysine / L-Lysin / L-lisina,8.8,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Histidine / L-Histidin / L-histidina,1.5,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Methionine / L-Methionin / L-metionina,2.0,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Phenylalanine / L-Phenylalanin / L-fenilalanina,2.6,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Threonine / L-Threonin / L-treonina,6.2,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Tryptophan / L-Tryptophan / L-triptófano,1.6,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,Energy / Energi(e/a) / Valor energético,379,kJ,per_serving,,,,,nutrient not found in predictions
+missing,68.jpeg,Energy / Energi(e/a) / Valor energético,89,kcal,per_serving,,,,,nutrient not found in predictions
+missing,68.jpeg,Fat / Fett / Matières grasses / Vetten / Grasas / Lipidos / Grassi,0.1,g,per_serving,,,,,nutrient not found in predictions
+missing,68.jpeg,of which saturates / davon gesättigte Fettsäuren / dont acides gras saturés / waarvan verzadigde vetzuren / de las cuales saturadas / dos quais ácidos gordos saturados / di cui acidi grassi saturi / varav mättat fett,0.1,g,per_serving,,,,,nutrient not found in predictions
+missing,68.jpeg,Carbohydrate / Kohlenhydrate / Glucides / Koolhydraten / Hidratos de carbono / Carboidrati / Kolhydrat,1.2,g,per_serving,,,,,nutrient not found in predictions
+missing,68.jpeg,of which sugars / davon Zucker / dont sucres / waarvan suikers / de los cuales azúcares / dos quais açúcares / di cui zuccheri / varav sockerarter,0.5,g,per_serving,,,,,nutrient not found in predictions
+missing,68.jpeg,Protein(e) / Eiweiß / Protéines / Eiwitten / Proteínas,20,g,per_serving,,,,,nutrient not found in predictions
+missing,68.jpeg,Salt / Salz / Sel / Zout / Sal / Sale,0.10,g,per_serving,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Valine / L-Valin / L-valina,1.4,g,per_serving,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Leucine / L-Leucin / L-leucina,2.2,g,per_serving,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Isoleucine / L-Isoleucin / L-isoleucina,1.5,g,per_serving,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Lysine / L-Lysin / L-lisina,2.1,g,per_serving,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Histidine / L-Histidin / L-histidina,351,mg,per_serving,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Methionine / L-Methionin / L-metionina,472,mg,per_serving,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Phenylalanine / L-Phenylalanin / L-fenilalanina,629,mg,per_serving,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Threonine / L-Threonin / L-treonina,1.5,g,per_serving,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Tryptophan / L-Tryptophan / L-triptófano,384,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,78.jpeg,Vitamin D,50,µg,per_serving,rnit Vitamin D3,,,,"nutrient: Prediction includes 'rnit' prefix and 'D3', which do not match ground truth. | qty: got None expected 50 | unit: got None expected µg | context: got None expected per_serving"
+missing,78.jpeg,Vitamin D,2000,I.E.,per_serving,,,,,nutrient not found in predictions
+missing,8.jpeg,ENERGY,892,kJ,per_serving,,,,,nutrient not found in predictions
+missing,8.jpeg,ENERGY,1486,kJ,per_100g,,,,,nutrient not found in predictions
+missing,8.jpeg,ENERGY,213,kcal,per_serving,,,,,nutrient not found in predictions
+missing,8.jpeg,ENERGY,355,kcal,per_100g,,,,,nutrient not found in predictions
+incorrect,8.jpeg,PROTEIN,2.2,g,per_serving,protein,,,,qty: got None expected 2.2 | unit: got None expected g | context: got None expected per_serving
+missing,8.jpeg,PROTEIN,3.7,g,per_100g,,,,,nutrient not found in predictions
+incorrect,8.jpeg,FAT,4.8,g,per_serving,-SATURATED FAT,8111813322,,,"nutrient: Saturated fat is a sub-nutrient of fat, violating R1. | qty: got 8111813322 expected 4.8 | unit: got None expected g | context: got None expected per_serving"
+missing,8.jpeg,FAT,7.9,g,per_100g,,,,,nutrient not found in predictions
+missing,8.jpeg,- SATURATED FAT,3.4,g,per_serving,,,,,nutrient not found in predictions
+missing,8.jpeg,- SATURATED FAT,5.7,g,per_100g,,,,,nutrient not found in predictions
+incorrect,8.jpeg,CARBOHYDRATE,41,g,per_serving,carbohydrate,8111813322,,,qty: got 8111813322 expected 41 | unit: got None expected g | context: got None expected per_serving
+missing,8.jpeg,CARBOHYDRATE,69,g,per_100g,,,,,nutrient not found in predictions
+missing,8.jpeg,- SUGARS,21,g,per_serving,,,,,nutrient not found in predictions
+missing,8.jpeg,- SUGARS,35,g,per_100g,,,,,nutrient not found in predictions
+missing,8.jpeg,DIETARY FIBRE,1.9,g,per_serving,,,,,nutrient not found in predictions
+missing,8.jpeg,DIETARY FIBRE,3.2,g,per_100g,,,,,nutrient not found in predictions
+missing,8.jpeg,SODIUM,43,mg,per_serving,,,,,nutrient not found in predictions
+missing,8.jpeg,SODIUM,72,mg,per_100g,,,,,nutrient not found in predictions
+incorrect,82.jpeg,Energy,0,kJ,per_100g,Energy,,,per_serving,qty: got None expected 0 | unit: got None expected kJ | context: got per_serving expected per_100g
+missing,82.jpeg,Energy,0,kcal,per_100g,,,,,nutrient not found in predictions
+incorrect,82.jpeg,Protein,0,g,per_100g,Protein,60,,per_serving,qty: got 60 expected 0 | unit: got None expected g | context: got per_serving expected per_100g
+incorrect,82.jpeg,Carbohydrates,0,g,per_100g,Carbohydrates,60,,per_serving,qty: got 60 expected 0 | unit: got None expected g | context: got per_serving expected per_100g
+incorrect,82.jpeg,Fat,0,g,per_100g,Fat,60,,per_serving,qty: got 60 expected 0 | unit: got None expected g | context: got per_serving expected per_100g
+incorrect,82.jpeg,Creatine monohydrate,100,g,per_100g,Creatine,,,per_serving,nutrient: Specificity rule violated: 'Creatine' is more specific than 'Creatine monohydrate'. | qty: got None expected 100 | unit: got None expected g | context: got per_serving expected per_100g
+missing,82.jpeg,Energy,0,kJ,per_serving,,,,,nutrient not found in predictions
+missing,82.jpeg,Energy,0,kcal,per_serving,,,,,nutrient not found in predictions
+missing,82.jpeg,Protein,0,g,per_serving,,,,,nutrient not found in predictions
+missing,82.jpeg,Carbohydrates,0,g,per_serving,,,,,nutrient not found in predictions
+missing,82.jpeg,Fat,0,g,per_serving,,,,,nutrient not found in predictions
+missing,82.jpeg,Creatine monohydrate,3,g,per_serving,,,,,nutrient not found in predictions
+missing,88.jpeg,Energie / energy / energia,234,kJ,per_100ml,,,,,nutrient not found in predictions
+missing,88.jpeg,Energie / energy / energia,55,kcal,per_100ml,,,,,nutrient not found in predictions
+missing,88.jpeg,Fett / lipides / fat / grassi,0.7,g,per_100ml,,,,,nutrient not found in predictions
+incorrect,88.jpeg,davon gesättigte Fettsäuren / of which saturated fatty acids,0.5,g,per_100ml,which saturated fatty acids,4.1,g,per_serving,nutrient: Missing 'davon' and 'gesättigte Fettsäuren' in prediction. | qty: got 4.1 expected 0.5 | context: got per_serving expected per_100ml
+missing,88.jpeg,Kohlenhydrate / glucides / carbohydrates / carboidrati,4.1,g,per_100ml,,,,,nutrient not found in predictions
+missing,88.jpeg,davon Zuckerarten / of which sugars,3.5,g,per_100ml,,,,,nutrient not found in predictions
+missing,88.jpeg,Eiweiss / protein(e) / protéines,8.0,g,per_100ml,,,,,nutrient not found in predictions
+missing,88.jpeg,Salz / sel / salt / sale,0.10,g,per_100ml,,,,,nutrient not found in predictions
+missing,88.jpeg,Energie / energy / energia,772,kJ,per_serving,,,,,nutrient not found in predictions
+missing,88.jpeg,Energie / energy / energia,181,kcal,per_serving,,,,,nutrient not found in predictions
+missing,88.jpeg,Fett / lipides / fat / grassi,2.3,g,per_serving,,,,,nutrient not found in predictions
+incorrect,88.jpeg,davon gesättigte Fettsäuren / of which saturated fatty acids,1.6,g,per_serving,which saturated fatty acids,13,g,per_serving,nutrient: Missing 'davon' and 'gesättigte Fettsäuren' in prediction. | qty: got 13 expected 1.6
+missing,88.jpeg,Kohlenhydrate / glucides / carbohydrates / carboidrati,13,g,per_serving,,,,,nutrient not found in predictions
+missing,88.jpeg,davon Zuckerarten / of which sugars,11,g,per_serving,,,,,nutrient not found in predictions
+missing,88.jpeg,Eiweiss / protein(e) / protéines,26,g,per_serving,,,,,nutrient not found in predictions
+missing,88.jpeg,Salz / sel / salt / sale,0.33,g,per_serving,,,,,nutrient not found in predictions
+incorrect,9.jpeg,Zink,5,mg,per_serving,Zink,,,per_serving,qty: got None expected 5 | unit: got None expected mg
+missing,9.jpeg,Zink,10,mg,per_serving,,,,,nutrient not found in predictions
+incorrect,9.jpeg,Vitamin C,30,mg,per_serving,Vitamin C,,,per_serving,qty: got None expected 30 | unit: got None expected mg
+incorrect,9.jpeg,Vitamin C,60,mg,per_serving,Vitamin Czuachten,,,per_serving,nutrient: Nutrient spelling differs and does not match after normalization. | qty: got None expected 60 | unit: got None expected mg
+missing,90.jpeg,Energie / energy,192,kJ,per_100ml,,,,,nutrient not found in predictions
+missing,90.jpeg,Energie / energy,45,kcal,per_100ml,,,,,nutrient not found in predictions
+missing,90.jpeg,Fett / lipides / fat,<0.1,g,per_100ml,,,,,nutrient not found in predictions
+missing,90.jpeg,Kohlenhydrate / glucides / carbohydrates,10,g,per_100ml,,,,,nutrient not found in predictions
+missing,90.jpeg,davon Zuckerarten / of which sugars,10,g,per_100ml,,,,,nutrient not found in predictions
+missing,90.jpeg,Eiweiss / protéines / protein,<0.1,g,per_100ml,,,,,nutrient not found in predictions
+missing,90.jpeg,Salz / sel / salt,0.16,g,per_100ml,,,,,nutrient not found in predictions
+missing,90.jpeg,Energie / energy,115,kJ,per_daily_dose,,,,,nutrient not found in predictions
+missing,90.jpeg,Energie / energy,27,kcal,per_daily_dose,,,,,nutrient not found in predictions
+missing,90.jpeg,Fett / lipides / fat,0,g,per_daily_dose,,,,,nutrient not found in predictions
+incorrect,90.jpeg,davon gesättigte Fettsäuren / of which saturated fatty acids,0,g,per_daily_dose,of which saturated fatty acids,60,g,per_100ml,nutrient: Missing 'davon' and 'gesättigte Fettsäuren' in prediction. | qty: got 60 expected 0 | context: got per_100ml expected per_daily_dose
+missing,90.jpeg,Kohlenhydrate / glucides / carbohydrates,6.0,g,per_daily_dose,,,,,nutrient not found in predictions
+missing,90.jpeg,davon Zuckerarten / of which sugars,6.0,g,per_daily_dose,,,,,nutrient not found in predictions
+missing,90.jpeg,Eiweiss / protéines / protein,<0.1,g,per_daily_dose,,,,,nutrient not found in predictions
+missing,90.jpeg,Salz / sel / salt,0.10,g,per_daily_dose,,,,,nutrient not found in predictions
+missing,90.jpeg,Magnesium / magnésium,56,mg,per_daily_dose,,,,,nutrient not found in predictions
+missing,91.jpeg,Energie / energy / energia,234,kJ,per_100ml,,,,,nutrient not found in predictions
+missing,91.jpeg,Energie / energy / energia,55,kcal,per_100ml,,,,,nutrient not found in predictions
+missing,91.jpeg,Fett / lipides / fat / grassi,0.7,g,per_100ml,,,,,nutrient not found in predictions
+incorrect,91.jpeg,davon gesättigte Fettsäuren / of which saturated fatty acids,0.5,g,per_100ml,of which saturated fatty acids,0.5,g,per_serving,context: got per_serving expected per_100ml
+missing,91.jpeg,Kohlenhydrate / glucides / carbohydrates / carboidrati,4.1,g,per_100ml,,,,,nutrient not found in predictions
+missing,91.jpeg,davon Zuckerarten / of which sugars,3.5,g,per_100ml,,,,,nutrient not found in predictions
+missing,91.jpeg,Eiweiss / protein(e) / protéines,8.0,g,per_100ml,,,,,nutrient not found in predictions
+missing,91.jpeg,Salz / sel / salt / sale,0.10,g,per_100ml,,,,,nutrient not found in predictions
+missing,91.jpeg,Energie / energy / energia,772,kJ,per_serving,,,,,nutrient not found in predictions
+missing,91.jpeg,Energie / energy / energia,181,kcal,per_serving,,,,,nutrient not found in predictions
+missing,91.jpeg,Fett / lipides / fat / grassi,2.3,g,per_serving,,,,,nutrient not found in predictions
+missing,91.jpeg,Kohlenhydrate / glucides / carbohydrates / carboidrati,13,g,per_serving,,,,,nutrient not found in predictions
+missing,91.jpeg,davon Zuckerarten / of which sugars,11,g,per_serving,,,,,nutrient not found in predictions
+missing,91.jpeg,Eiweiss / protein(e) / protéines,26,g,per_serving,,,,,nutrient not found in predictions
+missing,91.jpeg,Salz / sel / salt / sale,0.33,g,per_serving,,,,,nutrient not found in predictions

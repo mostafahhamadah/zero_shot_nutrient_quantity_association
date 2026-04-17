@@ -1,0 +1,93 @@
+=================================================================
+  IMAGE: 91.jpeg
+  OCR tokens (after corrector): 38
+  Serialized tokens:            38
+  Visual lines detected:        12
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ TROPIC MANGO
+  Line 02 │ TYPISCHE NAHRWERTE per 100ml PERDRINK
+  Line 03 │ VALEUR NUTRITIVE/NUTRITION (330ML)
+  Line 04 │ FACTS/VALORI NUTRITIVI
+  Line 05 │ Energie/energy/energia kJ (kcal) 234 (55) 772 (181)
+  Line 06 │ Fet/lipides/fat/grassi 0.79 239
+  Line 07 │ davon gesattigte Fettsauren/ 0.5 g 1.6 g
+  Line 08 │ of which saturated fatty acids 13 g
+  Line 09 │ Kohlenhydrate/glucides/ 4.1 g
+  Line 10 │ tartohydrates/carboidrati avon Zuckerarten/of which sugars 3.5 g 11 g
+  Line 11 │ Eweiss/protein(el/proteines 8.0 g 26 g
+  Line 12 │ Sahz/sel/sall/sale" 0.10 g
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  48.0px  [1 tokens]
+    → TROPIC MANGO
+  Line 02  y= 100.3px  [3 tokens]
+    → TYPISCHE NAHRWERTE | per 100ml | PERDRINK
+  Line 03  y= 116.2px  [2 tokens]
+    → VALEUR NUTRITIVE/NUTRITION | (330ML)
+  Line 04  y= 134.0px  [1 tokens]
+    → FACTS/VALORI NUTRITIVI
+  Line 05  y= 150.3px  [3 tokens]
+    → Energie/energy/energia kJ (kcal) | 234 (55) | 772 (181)
+  Line 06  y= 170.3px  [3 tokens]
+    → Fet/lipides/fat/grassi | 0.79 | 239
+  Line 07  y= 185.3px  [5 tokens]
+    → davon gesattigte Fettsauren/ | 0.5 | g | 1.6 | g
+  Line 08  y= 212.3px  [3 tokens]
+    → of which saturated fatty acids | 13 | g
+  Line 09  y= 223.3px  [3 tokens]
+    → Kohlenhydrate/glucides/ | 4.1 | g
+  Line 10  y= 250.8px  [6 tokens]
+    → tartohydrates/carboidrati | avon Zuckerarten/of which sugars | 3.5 | g | 11 | g
+  Line 11  y= 272.6px  [5 tokens]
+    → Eweiss/protein(el/proteines | 8.0 | g | 26 | g
+  Line 12  y= 294.2px  [3 tokens]
+    → Sahz/sel/sall/sale" | 0.10 | g
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      12  TROPIC MANGO
+     3     1      13      31  TYPISCHE NAHRWERTE
+     2     1      32      41  per 100ml
+     1     1      42      50  PERDRINK
+     5     2      51      77  VALEUR NUTRITIVE/NUTRITION
+     4     2      78      85  (330ML)
+     6     3      86     108  FACTS/VALORI NUTRITIVI
+     9     4     109     141  Energie/energy/energia kJ (kcal)
+     8     4     142     150  234 (55)
+     7     4     151     160  772 (181)
+    12     5     161     183  Fet/lipides/fat/grassi
+    11     5     184     188  0.79
+    10     5     189     192  239
+    17     6     193     221  davon gesattigte Fettsauren/
+    15     6     222     225  0.5
+    16     6     226     227  g
+    13     6     228     231  1.6
+    14     6     232     233  g
+    18     7     234     264  of which saturated fatty acids
+    19     7     265     267  13
+    20     7     268     269  g
+    23     8     270     293  Kohlenhydrate/glucides/
+    21     8     294     297  4.1
+    22     8     298     299  g
+    24     9     300     325  tartohydrates/carboidrati
+    29     9     326     358  avon Zuckerarten/of which sugars
+    27     9     359     362  3.5
+    28     9     363     364  g
+    25     9     365     367  11
+    26     9     368     369  g
+    34    10     370     397  Eweiss/protein(el/proteines
+    32    10     398     401  8.0
+    33    10     402     403  g
+    30    10     404     406  26
+    31    10     407     408  g
+    35    11     409     428  Sahz/sel/sall/sale"
+    36    11     429     433  0.10
+    37    11     434     435  g
+
+=================================================================

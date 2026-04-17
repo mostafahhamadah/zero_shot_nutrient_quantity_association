@@ -1,0 +1,43 @@
+=================================================================
+  IMAGE: 111.jpeg
+  OCR tokens (after corrector): 9
+  Serialized tokens:            9
+  Visual lines detected:        5
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Vitamine
+  Line 02 │ 1 Tagesdosis (8 ml) %NRV*je Tagesdosis
+  Line 03 │ Vitamin B12 17.5 g 700%
+  Line 04 │ *NRV(nutrientreferencevalue)=
+  Line 05 │ Nährstoffbezugswert gemäBEU-Lebensmittelinformationsverordnung
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  57.5px  [1 tokens]
+    → Vitamine
+  Line 02  y= 115.0px  [2 tokens]
+    → 1 Tagesdosis (8 ml) | %NRV*je Tagesdosis
+  Line 03  y= 168.2px  [4 tokens]
+    → Vitamin B12 | 17.5 | g | 700%
+  Line 04  y= 247.5px  [1 tokens]
+    → *NRV(nutrientreferencevalue)=
+  Line 05  y= 294.0px  [1 tokens]
+    → Nährstoffbezugswert gemäBEU-Lebensmittelinformationsverordnung
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       8  Vitamine
+     2     1       9      28  1 Tagesdosis (8 ml)
+     1     1      29      47  %NRV*je Tagesdosis
+     4     2      48      59  Vitamin B12
+     5     2      60      64  17.5
+     6     2      65      66  g
+     3     2      67      71  700%
+     7     3      72     101  *NRV(nutrientreferencevalue)=
+     8     4     102     164  Nährstoffbezugswert gemäBEU-Lebensmittelinformationsverordnung
+
+=================================================================

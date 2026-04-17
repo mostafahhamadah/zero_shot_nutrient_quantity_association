@@ -1,0 +1,108 @@
+=================================================================
+  IMAGE: 33.jpeg
+  OCR tokens (after corrector): 41
+  Serialized tokens:            41
+  Visual lines detected:        16
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Nahrwerte/nutrition facts 10075g300ml
+  Line 02 │ Energle/energy kJ kca 1660(3901245(293
+  Line 03 │ Fett/fat davon gesettige Fesren 88
+  Line 04 │ of which saturates
+  Line 05 │ davon Zuckerarten/ Kohlenhydrate/carbohydrates 89 229
+  Line 06 │ of which sugars
+  Line 07 │ Eiweiss/protein Og 0 g
+  Line 08 │ Salz/salt 6350 0.40 g
+  Line 09 │ Mineralstofie/minerals %NRY' SNRVS
+  Line 10 │ Natriurm/sodium 210 mg 158
+  Line 11 │ Calcium 35mg4% 26mg3%
+  Line 12 │ Magnesium 25mg7% 19g5%
+  Line 13 │ Kalium/potassium 55mg3% 42%
+  Line 14 │ Chlorid/chlorure 140mg 18%105mg13%
+  Line 15 │ NRV.nutrient reference values
+  Line 16 │ 100mfertige Zubereitung enthaten 415k99 a
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  31.2px  [2 tokens]
+    → Nahrwerte/nutrition facts | 10075g300ml
+  Line 02  y=  47.0px  [2 tokens]
+    → Energle/energy kJ kca | 1660(3901245(293
+  Line 03  y=  68.8px  [3 tokens]
+    → Fett/fat | davon gesettige Fesren | 88
+  Line 04  y=  85.5px  [1 tokens]
+    → of which saturates
+  Line 05  y= 105.9px  [4 tokens]
+    → davon Zuckerarten/ | Kohlenhydrate/carbohydrates | 89 | 229
+  Line 06  y= 122.5px  [1 tokens]
+    → of which sugars
+  Line 07  y= 136.6px  [4 tokens]
+    → Eiweiss/protein | Og | 0 | g
+  Line 08  y= 151.8px  [4 tokens]
+    → Salz/salt | 6350 | 0.40 | g
+  Line 09  y= 170.0px  [3 tokens]
+    → Mineralstofie/minerals | %NRY' | SNRVS
+  Line 10  y= 186.2px  [4 tokens]
+    → Natriurm/sodium | 210 | mg | 158
+  Line 11  y= 201.5px  [3 tokens]
+    → Calcium | 35mg4% | 26mg3%
+  Line 12  y= 216.5px  [3 tokens]
+    → Magnesium | 25mg7% | 19g5%
+  Line 13  y= 231.3px  [3 tokens]
+    → Kalium/potassium | 55mg3% | 42%
+  Line 14  y= 245.5px  [2 tokens]
+    → Chlorid/chlorure | 140mg 18%105mg13%
+  Line 15  y= 262.5px  [1 tokens]
+    → NRV.nutrient reference values
+  Line 16  y= 273.5px  [1 tokens]
+    → 100mfertige Zubereitung enthaten 415k99 a
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      25  Nahrwerte/nutrition facts
+     1     0      26      37  10075g300ml
+     2     1      38      59  Energle/energy kJ kca
+     3     1      60      76  1660(3901245(293
+     4     2      77      85  Fett/fat
+     6     2      86     108  davon gesettige Fesren
+     5     2     109     111  88
+     7     3     112     130  of which saturates
+    11     4     131     149  davon Zuckerarten/
+     8     4     150     177  Kohlenhydrate/carbohydrates
+     9     4     178     180  89
+    10     4     181     184  229
+    12     5     185     200  of which sugars
+    14     6     201     216  Eiweiss/protein
+    13     6     217     219  Og
+    15     6     220     221  0
+    16     6     222     223  g
+    18     7     224     233  Salz/salt
+    17     7     234     238  6350
+    19     7     239     243  0.40
+    20     7     244     245  g
+    23     8     246     268  Mineralstofie/minerals
+    21     8     269     274  %NRY'
+    22     8     275     280  SNRVS
+    27     9     281     296  Natriurm/sodium
+    24     9     297     300  210
+    25     9     301     303  mg
+    26     9     304     307  158
+    30    10     308     315  Calcium
+    28    10     316     322  35mg4%
+    29    10     323     329  26mg3%
+    33    11     330     339  Magnesium
+    31    11     340     346  25mg7%
+    32    11     347     352  19g5%
+    36    12     353     369  Kalium/potassium
+    34    12     370     376  55mg3%
+    35    12     377     380  42%
+    38    13     381     397  Chlorid/chlorure
+    37    13     398     415  140mg 18%105mg13%
+    39    14     416     445  NRV.nutrient reference values
+    40    15     446     487  100mfertige Zubereitung enthaten 415k99 a
+
+=================================================================

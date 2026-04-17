@@ -1,0 +1,5233 @@
+=================================================================
+  IMAGE: 1.jpeg
+  OCR tokens (after corrector): 16
+  Serialized tokens:            16
+  Visual lines detected:        7
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Nahrstoffe** Je Tagesdosis
+  Line 02 │ Magnesium (gesamt) 400 mg
+  Line 03 │ Zutaten je Tagesdosis**
+  Line 04 │ 420 mg
+  Line 05 │ magnesiumoxid 400 mg
+  Line 06 │ 350 mg
+  Line 07 │ magnesiummalat 333 mg
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  81.8px  [2 tokens]
+    → Nahrstoffe** | Je Tagesdosis
+  Line 02  y= 113.8px  [3 tokens]
+    → Magnesium (gesamt) | 400 | mg
+  Line 03  y= 149.0px  [1 tokens]
+    → Zutaten je Tagesdosis**
+  Line 04  y= 175.5px  [2 tokens]
+    → 420 | mg
+  Line 05  y= 191.7px  [3 tokens]
+    → magnesiumoxid | 400 | mg
+  Line 06  y= 206.5px  [2 tokens]
+    → 350 | mg
+  Line 07  y= 223.5px  [3 tokens]
+    → magnesiummalat | 333 | mg
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      12  Nahrstoffe**
+     1     0      13      26  Je Tagesdosis
+     4     1      27      45  Magnesium (gesamt)
+     2     1      46      49  400
+     3     1      50      52  mg
+     5     2      53      76  Zutaten je Tagesdosis**
+     6     3      77      80  420
+     7     3      81      83  mg
+    10     4      84      97  magnesiumoxid
+     8     4      98     101  400
+     9     4     102     104  mg
+    11     5     105     108  350
+    12     5     109     111  mg
+    15     6     112     126  magnesiummalat
+    13     6     127     130  333
+    14     6     131     133  mg
+
+=================================================================
+
+=================================================================
+  IMAGE: 101.jpeg
+  OCR tokens (after corrector): 27
+  Serialized tokens:            27
+  Visual lines detected:        12
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Durchschnittliche Nahrwerte
+  Line 02 │ je 100g
+  Line 03 │ Energie 1625k/383kcal
+  Line 04 │ Fett 0.8 g
+  Line 05 │ -davon gesattigte Fettsauren <0.1g
+  Line 06 │ Kohlenhydrate 86.1 g
+  Line 07 │ -davon Zucker 8.9 g
+  Line 08 │ Ballaststoffe 3.0 g
+  Line 09 │ Eiweiss 6.3 g
+  Line 10 │ Salz 660.0
+  Line 11 │ Thiamin 0.44mg88%3
+  Line 12 │ Natrium 36 mg
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  28.5px  [1 tokens]
+    → Durchschnittliche Nahrwerte
+  Line 02  y=  61.0px  [1 tokens]
+    → je 100g
+  Line 03  y=  87.8px  [2 tokens]
+    → Energie | 1625k/383kcal
+  Line 04  y= 118.2px  [3 tokens]
+    → Fett | 0.8 | g
+  Line 05  y= 141.5px  [1 tokens]
+    → -davon gesattigte Fettsauren <0.1g
+  Line 06  y= 171.7px  [3 tokens]
+    → Kohlenhydrate | 86.1 | g
+  Line 07  y= 196.0px  [3 tokens]
+    → -davon Zucker | 8.9 | g
+  Line 08  y= 226.5px  [3 tokens]
+    → Ballaststoffe | 3.0 | g
+  Line 09  y= 258.5px  [3 tokens]
+    → Eiweiss | 6.3 | g
+  Line 10  y= 289.5px  [2 tokens]
+    → Salz | 660.0
+  Line 11  y= 322.2px  [2 tokens]
+    → Thiamin | 0.44mg88%3
+  Line 12  y= 356.2px  [3 tokens]
+    → Natrium | 36 | mg
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      27  Durchschnittliche Nahrwerte
+     1     1      28      35  je 100g
+     2     2      36      43  Energie
+     3     2      44      57  1625k/383kcal
+     4     3      58      62  Fett
+     5     3      63      66  0.8
+     6     3      67      68  g
+     7     4      69     103  -davon gesattigte Fettsauren <0.1g
+     8     5     104     117  Kohlenhydrate
+     9     5     118     122  86.1
+    10     5     123     124  g
+    11     6     125     138  -davon Zucker
+    12     6     139     142  8.9
+    13     6     143     144  g
+    14     7     145     158  Ballaststoffe
+    15     7     159     162  3.0
+    16     7     163     164  g
+    17     8     165     172  Eiweiss
+    18     8     173     176  6.3
+    19     8     177     178  g
+    21     9     179     183  Salz
+    20     9     184     189  660.0
+    23    10     190     197  Thiamin
+    22    10     198     208  0.44mg88%3
+    26    11     209     216  Natrium
+    24    11     217     219  36
+    25    11     220     222  mg
+
+=================================================================
+
+=================================================================
+  IMAGE: 102.jpeg
+  OCR tokens (after corrector): 39
+  Serialized tokens:            39
+  Visual lines detected:        11
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Durchschnittliche Nahrwerte
+  Line 02 │ je 100g 1Riegel12.5g
+  Line 03 │ 1502k/356kcal 188kJ/45kcal
+  Line 04 │ Energie 7.7 g 1.0 g
+  Line 05 │ Fett
+  Line 06 │ davon gesattigte 1.1 g 0.1 g
+  Line 07 │ Fettsauren 6€9 7.9 g
+  Line 08 │ Kohlenhydrate -davonZucker 31 g 66.8
+  Line 09 │ Ballaststoffe 5.1 g 69.0
+  Line 10 │ Eiweiss 5.9 g 0.7 g
+  Line 11 │ Salz 0.14 g 0.02 g
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  25.5px  [1 tokens]
+    → Durchschnittliche Nahrwerte
+  Line 02  y=  44.0px  [2 tokens]
+    → je 100g | 1Riegel12.5g
+  Line 03  y=  61.2px  [2 tokens]
+    → 1502k/356kcal | 188kJ/45kcal
+  Line 04  y=  77.4px  [5 tokens]
+    → Energie | 7.7 | g | 1.0 | g
+  Line 05  y=  89.0px  [1 tokens]
+    → Fett
+  Line 06  y= 103.8px  [5 tokens]
+    → davon gesattigte | 1.1 | g | 0.1 | g
+  Line 07  y= 117.9px  [4 tokens]
+    → Fettsauren | 6€9 | 7.9 | g
+  Line 08  y= 134.6px  [5 tokens]
+    → Kohlenhydrate | -davonZucker | 31 | g | 66.8
+  Line 09  y= 152.1px  [4 tokens]
+    → Ballaststoffe | 5.1 | g | 69.0
+  Line 10  y= 166.6px  [5 tokens]
+    → Eiweiss | 5.9 | g | 0.7 | g
+  Line 11  y= 182.4px  [5 tokens]
+    → Salz | 0.14 | g | 0.02 | g
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      27  Durchschnittliche Nahrwerte
+     2     1      28      35  je 100g
+     1     1      36      48  1Riegel12.5g
+     4     2      49      62  1502k/356kcal
+     3     2      63      75  188kJ/45kcal
+     5     3      76      83  Energie
+     8     3      84      87  7.7
+     9     3      88      89  g
+     6     3      90      93  1.0
+     7     3      94      95  g
+    10     4      96     100  Fett
+    11     5     101     117  davon gesattigte
+    14     5     118     121  1.1
+    15     5     122     123  g
+    12     5     124     127  0.1
+    13     5     128     129  g
+    16     6     130     140  Fettsauren
+    19     6     141     144  6€9
+    17     6     145     148  7.9
+    18     6     149     150  g
+    20     7     151     164  Kohlenhydrate
+    24     7     165     177  -davonZucker
+    22     7     178     180  31
+    23     7     181     182  g
+    21     7     183     187  66.8
+    28     8     188     201  Ballaststoffe
+    26     8     202     205  5.1
+    27     8     206     207  g
+    25     8     208     212  69.0
+    33     9     213     220  Eiweiss
+    31     9     221     224  5.9
+    32     9     225     226  g
+    29     9     227     230  0.7
+    30     9     231     232  g
+    38    10     233     237  Salz
+    36    10     238     242  0.14
+    37    10     243     244  g
+    34    10     245     249  0.02
+    35    10     250     251  g
+
+=================================================================
+
+=================================================================
+  IMAGE: 103.jpeg
+  OCR tokens (after corrector): 44
+  Serialized tokens:            44
+  Visual lines detected:        12
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Durchschnittliche pro pro Port.
+  Line 02 │ Nahrwerte 100g 12g)
+  Line 03 │ 1383kJ/ 166k/
+  Line 04 │ Energie 328 kcal 39 kcal
+  Line 05 │ Fett 3.7 g 6t'0
+  Line 06 │ davon gesattigte 0.4 g Og
+  Line 07 │ Fettsauren
+  Line 08 │ Kohlenhydrate 51 g 6.1 g
+  Line 09 │ davon Zucker 51 g 6.1 g
+  Line 10 │ Ballaststoffe 16 g 1.9 g
+  Line 11 │ Eiweiss 7.7 g 66.0
+  Line 12 │ Salz Og Og
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  33.2px  [3 tokens]
+    → Durchschnittliche | pro | pro Port.
+  Line 02  y=  46.5px  [3 tokens]
+    → Nahrwerte | 100g | 12g)
+  Line 03  y=  62.0px  [2 tokens]
+    → 1383kJ/ | 166k/
+  Line 04  y=  74.3px  [5 tokens]
+    → Energie | 328 | kcal | 39 | kcal
+  Line 05  y=  90.9px  [4 tokens]
+    → Fett | 3.7 | g | 6t'0
+  Line 06  y= 108.8px  [4 tokens]
+    → davon gesattigte | 0.4 | g | Og
+  Line 07  y= 118.5px  [1 tokens]
+    → Fettsauren
+  Line 08  y= 136.3px  [5 tokens]
+    → Kohlenhydrate | 51 | g | 6.1 | g
+  Line 09  y= 151.7px  [5 tokens]
+    → davon Zucker | 51 | g | 6.1 | g
+  Line 10  y= 171.7px  [5 tokens]
+    → Ballaststoffe | 16 | g | 1.9 | g
+  Line 11  y= 190.5px  [4 tokens]
+    → Eiweiss | 7.7 | g | 66.0
+  Line 12  y= 210.3px  [3 tokens]
+    → Salz | Og | Og
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      17  Durchschnittliche
+     1     0      18      21  pro
+     2     0      22      31  pro Port.
+     4     1      32      41  Nahrwerte
+     3     1      42      46  100g
+     5     1      47      51  12g)
+     6     2      52      59  1383kJ/
+     7     2      60      65  166k/
+     8     3      66      73  Energie
+     9     3      74      77  328
+    10     3      78      82  kcal
+    11     3      83      85  39
+    12     3      86      90  kcal
+    16     4      91      95  Fett
+    13     4      96      99  3.7
+    14     4     100     101  g
+    15     4     102     106  6t'0
+    17     5     107     123  davon gesattigte
+    18     5     124     127  0.4
+    19     5     128     129  g
+    20     5     130     132  Og
+    21     6     133     143  Fettsauren
+    24     7     144     157  Kohlenhydrate
+    22     7     158     160  51
+    23     7     161     162  g
+    25     7     163     166  6.1
+    26     7     167     168  g
+    29     8     169     181  davon Zucker
+    27     8     182     184  51
+    28     8     185     186  g
+    30     8     187     190  6.1
+    31     8     191     192  g
+    32     9     193     206  Ballaststoffe
+    33     9     207     209  16
+    34     9     210     211  g
+    35     9     212     215  1.9
+    36     9     216     217  g
+    39    10     218     225  Eiweiss
+    37    10     226     229  7.7
+    38    10     230     231  g
+    40    10     232     236  66.0
+    43    11     237     241  Salz
+    41    11     242     244  Og
+    42    11     245     247  Og
+
+=================================================================
+
+=================================================================
+  IMAGE: 104.jpeg
+  OCR tokens (after corrector): 46
+  Serialized tokens:            46
+  Visual lines detected:        11
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Nahrwerte Durchschnittliche pro pro Port.
+  Line 02 │ 100g 14g)
+  Line 03 │ Energie 1528kJ/ 214k/
+  Line 04 │ Fett 361 kcal 51 kcal
+  Line 05 │ davon gesattigte 2.6 g 60
+  Line 06 │ Fettsauren 0.6 g 60
+  Line 07 │ Kohlenhydrate 72 g 10 g
+  Line 08 │ davon Zucker 72 g 10 g
+  Line 09 │ Ballaststoffe 10 g 1.4 g
+  Line 10 │ Eiweif 3.2 g Og
+  Line 11 │ Salz 0.1 g 0 g
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  31.2px  [4 tokens]
+    → Nahrwerte | Durchschnittliche | pro | pro Port.
+  Line 02  y=  45.0px  [2 tokens]
+    → 100g | 14g)
+  Line 03  y=  61.2px  [3 tokens]
+    → Energie | 1528kJ/ | 214k/
+  Line 04  y=  76.9px  [5 tokens]
+    → Fett | 361 | kcal | 51 | kcal
+  Line 05  y=  94.2px  [4 tokens]
+    → davon gesattigte | 2.6 | g | 60
+  Line 06  y= 113.8px  [4 tokens]
+    → Fettsauren | 0.6 | g | 60
+  Line 07  y= 139.1px  [5 tokens]
+    → Kohlenhydrate | 72 | g | 10 | g
+  Line 08  y= 155.2px  [5 tokens]
+    → davon Zucker | 72 | g | 10 | g
+  Line 09  y= 175.7px  [5 tokens]
+    → Ballaststoffe | 10 | g | 1.4 | g
+  Line 10  y= 195.2px  [4 tokens]
+    → Eiweif | 3.2 | g | Og
+  Line 11  y= 217.2px  [5 tokens]
+    → Salz | 0.1 | g | 0 | g
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     3     0       0       9  Nahrwerte
+     0     0      10      27  Durchschnittliche
+     1     0      28      31  pro
+     2     0      32      41  pro Port.
+     4     1      42      46  100g
+     5     1      47      51  14g)
+     6     2      52      59  Energie
+     7     2      60      67  1528kJ/
+     8     2      68      73  214k/
+    13     3      74      78  Fett
+     9     3      79      82  361
+    10     3      83      87  kcal
+    11     3      88      90  51
+    12     3      91      95  kcal
+    17     4      96     112  davon gesattigte
+    14     4     113     116  2.6
+    15     4     117     118  g
+    16     4     119     121  60
+    20     5     122     132  Fettsauren
+    18     5     133     136  0.6
+    19     5     137     138  g
+    21     5     139     141  60
+    22     6     142     155  Kohlenhydrate
+    23     6     156     158  72
+    24     6     159     160  g
+    25     6     161     163  10
+    26     6     164     165  g
+    27     7     166     178  davon Zucker
+    28     7     179     181  72
+    29     7     182     183  g
+    30     7     184     186  10
+    31     7     187     188  g
+    32     8     189     202  Ballaststoffe
+    33     8     203     205  10
+    34     8     206     207  g
+    35     8     208     211  1.4
+    36     8     212     213  g
+    37     9     214     220  Eiweif
+    38     9     221     224  3.2
+    39     9     225     226  g
+    40     9     227     229  Og
+    41    10     230     234  Salz
+    42    10     235     238  0.1
+    43    10     239     240  g
+    44    10     241     242  0
+    45    10     243     244  g
+
+=================================================================
+
+=================================================================
+  IMAGE: 105.jpeg
+  OCR tokens (after corrector): 34
+  Serialized tokens:            34
+  Visual lines detected:        12
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Durchschnittliche Nahrwerte
+  Line 02 │ Je100g1Portion12g
+  Line 03 │ Energie 1320k 38 158k kcal
+  Line 04 │ 313 kcal 0.3 g
+  Line 05 │ Fett
+  Line 06 │ davon gesattigte 600
+  Line 07 │ Fettsauren 0.4 g 6.3 g
+  Line 08 │ Kohlenhydrate 52.1g 6.2 g
+  Line 09 │ -davonZucker 514g 1.9 g
+  Line 10 │ Balastoffe 15.5g 0.8 g
+  Line 11 │ 7.0 g 0.00 g
+  Line 12 │ Salz 600
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  16.5px  [1 tokens]
+    → Durchschnittliche Nahrwerte
+  Line 02  y=  36.0px  [1 tokens]
+    → Je100g1Portion12g
+  Line 03  y=  55.5px  [5 tokens]
+    → Energie | 1320k | 38 | 158k | kcal
+  Line 04  y=  74.0px  [4 tokens]
+    → 313 | kcal | 0.3 | g
+  Line 05  y=  84.5px  [1 tokens]
+    → Fett
+  Line 06  y= 101.0px  [2 tokens]
+    → davon gesattigte | 600
+  Line 07  y= 114.6px  [5 tokens]
+    → Fettsauren | 0.4 | g | 6.3 | g
+  Line 08  y= 130.7px  [3 tokens]
+    → Kohlenhydrate 52.1g | 6.2 | g
+  Line 09  y= 146.8px  [3 tokens]
+    → -davonZucker 514g | 1.9 | g
+  Line 10  y= 160.7px  [3 tokens]
+    → Balastoffe 15.5g | 0.8 | g
+  Line 11  y= 174.2px  [4 tokens]
+    → 7.0 | g | 0.00 | g
+  Line 12  y= 188.8px  [2 tokens]
+    → Salz | 600
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      27  Durchschnittliche Nahrwerte
+     1     1      28      45  Je100g1Portion12g
+     3     2      46      53  Energie
+     4     2      54      59  1320k
+     5     2      60      62  38
+     2     2      63      67  158k
+     6     2      68      72  kcal
+     7     3      73      76  313
+     8     3      77      81  kcal
+     9     3      82      85  0.3
+    10     3      86      87  g
+    11     4      88      92  Fett
+    12     5      93     109  davon gesattigte
+    13     5     110     113  600
+    16     6     114     124  Fettsauren
+    14     6     125     128  0.4
+    15     6     129     130  g
+    17     6     131     134  6.3
+    18     6     135     136  g
+    19     7     137     156  Kohlenhydrate 52.1g
+    20     7     157     160  6.2
+    21     7     161     162  g
+    22     8     163     180  -davonZucker 514g
+    23     8     181     184  1.9
+    24     8     185     186  g
+    25     9     187     203  Balastoffe 15.5g
+    26     9     204     207  0.8
+    27     9     208     209  g
+    28    10     210     213  7.0
+    29    10     214     215  g
+    30    10     216     220  0.00
+    31    10     221     222  g
+    33    11     223     227  Salz
+    32    11     228     231  600
+
+=================================================================
+
+=================================================================
+  IMAGE: 106.jpeg
+  OCR tokens (after corrector): 25
+  Serialized tokens:            25
+  Visual lines detected:        17
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Vitamine und Mineralstoffe/
+  Line 02 │ Vitamines et sels mineraux/Vitamine
+  Line 03 │ e sali minerali/Vitaminok es asvanyi
+  Line 04 │ anyagok/Vitamini in minerali
+  Line 05 │ Pro Stick/Parsachet/ %
+  Line 06 │ Per bustina/Egy NRV/
+  Line 07 │ tasakban/Navrecko PDV
+  Line 08 │ VitaminE/Vtamine E/
+  Line 09 │ Vitamina E/E-vitamin/
+  Line 10 │ VitaminE 12 mg a-TE 100%
+  Line 11 │ Magnesium/Magnesium/
+  Line 12 │ Magnesio/Magnezium/
+  Line 13 │ Magnezij 250 mg 67%
+  Line 14 │ *NRV=Nahrstoffbezugswert/valeurs
+  Line 15 │ nutrionnelles de reference/taplalkozasi
+  Line 16 │ referenciaertek/VNR=Valori Nutritivi di
+  Line 17 │ Riferimento/*PDV=priporoceni dnevni vnos
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  16.5px  [1 tokens]
+    → Vitamine und Mineralstoffe/
+  Line 02  y=  30.5px  [1 tokens]
+    → Vitamines et sels mineraux/Vitamine
+  Line 03  y=  44.0px  [1 tokens]
+    → e sali minerali/Vitaminok es asvanyi
+  Line 04  y=  57.5px  [1 tokens]
+    → anyagok/Vitamini in minerali
+  Line 05  y=  75.5px  [2 tokens]
+    → Pro Stick/Parsachet/ | %
+  Line 06  y=  89.0px  [2 tokens]
+    → Per bustina/Egy | NRV/
+  Line 07  y= 101.0px  [1 tokens]
+    → tasakban/Navrecko PDV
+  Line 08  y= 116.0px  [1 tokens]
+    → VitaminE/Vtamine E/
+  Line 09  y= 128.5px  [1 tokens]
+    → Vitamina E/E-vitamin/
+  Line 10  y= 140.4px  [4 tokens]
+    → VitaminE | 12 | mg a-TE | 100%
+  Line 11  y= 154.5px  [1 tokens]
+    → Magnesium/Magnesium/
+  Line 12  y= 166.5px  [1 tokens]
+    → Magnesio/Magnezium/
+  Line 13  y= 178.9px  [4 tokens]
+    → Magnezij | 250 | mg | 67%
+  Line 14  y= 195.0px  [1 tokens]
+    → *NRV=Nahrstoffbezugswert/valeurs
+  Line 15  y= 206.0px  [1 tokens]
+    → nutrionnelles de reference/taplalkozasi
+  Line 16  y= 217.0px  [1 tokens]
+    → referenciaertek/VNR=Valori Nutritivi di
+  Line 17  y= 228.5px  [1 tokens]
+    → Riferimento/*PDV=priporoceni dnevni vnos
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      27  Vitamine und Mineralstoffe/
+     1     1      28      63  Vitamines et sels mineraux/Vitamine
+     2     2      64     100  e sali minerali/Vitaminok es asvanyi
+     3     3     101     129  anyagok/Vitamini in minerali
+     4     4     130     150  Pro Stick/Parsachet/
+     5     4     151     152  %
+     6     5     153     168  Per bustina/Egy
+     7     5     169     173  NRV/
+     8     6     174     195  tasakban/Navrecko PDV
+     9     7     196     215  VitaminE/Vtamine E/
+    10     8     216     237  Vitamina E/E-vitamin/
+    12     9     238     246  VitaminE
+    13     9     247     249  12
+    14     9     250     257  mg a-TE
+    11     9     258     262  100%
+    15    10     263     283  Magnesium/Magnesium/
+    16    11     284     303  Magnesio/Magnezium/
+    18    12     304     312  Magnezij
+    19    12     313     316  250
+    20    12     317     319  mg
+    17    12     320     323  67%
+    21    13     324     356  *NRV=Nahrstoffbezugswert/valeurs
+    22    14     357     396  nutrionnelles de reference/taplalkozasi
+    23    15     397     436  referenciaertek/VNR=Valori Nutritivi di
+    24    16     437     477  Riferimento/*PDV=priporoceni dnevni vnos
+
+=================================================================
+
+=================================================================
+  IMAGE: 107.jpeg
+  OCR tokens (after corrector): 26
+  Serialized tokens:            26
+  Visual lines detected:        10
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Zusammensetzung
+  Line 02 │ 1Tablette (4.3g)
+  Line 03 │ Vitamin B1 1.1 mg
+  Line 04 │ Vitamin B2 14 mg
+  Line 05 │ Vitamin B6 1409 2.59
+  Line 06 │ VitaminC Vitamin B12 80 mg
+  Line 07 │ Vitamin E 12mgo-E 16mghE
+  Line 08 │ Biotin Niacin 5019
+  Line 09 │ Folsaure 2009 69
+  Line 10 │ Pantothensaure Viafo
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  18.0px  [1 tokens]
+    → Zusammensetzung
+  Line 02  y=  45.5px  [1 tokens]
+    → 1Tablette (4.3g)
+  Line 03  y=  67.0px  [3 tokens]
+    → Vitamin B1 | 1.1 | mg
+  Line 04  y=  88.7px  [3 tokens]
+    → Vitamin B2 | 14 | mg
+  Line 05  y= 116.8px  [3 tokens]
+    → Vitamin B6 | 1409 | 2.59
+  Line 06  y= 148.0px  [4 tokens]
+    → VitaminC | Vitamin B12 | 80 | mg
+  Line 07  y= 180.3px  [3 tokens]
+    → Vitamin E | 12mgo-E | 16mghE
+  Line 08  y= 209.2px  [3 tokens]
+    → Biotin | Niacin | 5019
+  Line 09  y= 239.2px  [3 tokens]
+    → Folsaure | 2009 | 69
+  Line 10  y= 272.8px  [2 tokens]
+    → Pantothensaure | Viafo
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      15  Zusammensetzung
+     1     1      16      32  1Tablette (4.3g)
+     4     2      33      43  Vitamin B1
+     2     2      44      47  1.1
+     3     2      48      50  mg
+     7     3      51      61  Vitamin B2
+     5     3      62      64  14
+     6     3      65      67  mg
+     9     4      68      78  Vitamin B6
+     8     4      79      83  1409
+    10     4      84      88  2.59
+    14     5      89      97  VitaminC
+    11     5      98     109  Vitamin B12
+    12     5     110     112  80
+    13     5     113     115  mg
+    16     6     116     125  Vitamin E
+    15     6     126     133  12mgo-E
+    17     6     134     140  16mghE
+    20     7     141     147  Biotin
+    18     7     148     154  Niacin
+    19     7     155     159  5019
+    22     8     160     168  Folsaure
+    21     8     169     173  2009
+    23     8     174     176  69
+    24     9     177     191  Pantothensaure
+    25     9     192     197  Viafo
+
+=================================================================
+
+=================================================================
+  IMAGE: 108.jpeg
+  OCR tokens (after corrector): 33
+  Serialized tokens:            33
+  Visual lines detected:        14
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Zusammensetzung
+  Line 02 │ 1 Tablette (5.6g)
+  Line 03 │ Magnesium 240 mg
+  Line 04 │ Vitamin B1 1.1 mg
+  Line 05 │ Vitamin B2 1.4 mg
+  Line 06 │ Vitamin B6 1.4 mg
+  Line 07 │ Vitamin B12 2.519
+  Line 08 │ VitaminC 80 mg
+  Line 09 │ VitaminE (a-TE) 12 mg
+  Line 10 │ 16 mg
+  Line 11 │ Biotin 509
+  Line 12 │ Folsaure 200 g
+  Line 13 │ Pantothensaure 6.0 mg
+  Line 14 │ 14Porti
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  87.5px  [1 tokens]
+    → Zusammensetzung
+  Line 02  y= 179.5px  [1 tokens]
+    → 1 Tablette (5.6g)
+  Line 03  y= 239.7px  [3 tokens]
+    → Magnesium | 240 | mg
+  Line 04  y= 304.0px  [3 tokens]
+    → Vitamin B1 | 1.1 | mg
+  Line 05  y= 369.2px  [3 tokens]
+    → Vitamin B2 | 1.4 | mg
+  Line 06  y= 432.3px  [3 tokens]
+    → Vitamin B6 | 1.4 | mg
+  Line 07  y= 499.5px  [2 tokens]
+    → Vitamin B12 | 2.519
+  Line 08  y= 554.0px  [3 tokens]
+    → VitaminC | 80 | mg
+  Line 09  y= 619.7px  [3 tokens]
+    → VitaminE (a-TE) | 12 | mg
+  Line 10  y= 666.5px  [2 tokens]
+    → 16 | mg
+  Line 11  y= 735.5px  [2 tokens]
+    → Biotin | 509
+  Line 12  y= 794.2px  [3 tokens]
+    → Folsaure | 200 | g
+  Line 13  y= 858.0px  [3 tokens]
+    → Pantothensaure | 6.0 | mg
+  Line 14  y=1044.5px  [1 tokens]
+    → 14Porti
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      15  Zusammensetzung
+     1     1      16      33  1 Tablette (5.6g)
+     4     2      34      43  Magnesium
+     2     2      44      47  240
+     3     2      48      50  mg
+     7     3      51      61  Vitamin B1
+     5     3      62      65  1.1
+     6     3      66      68  mg
+    10     4      69      79  Vitamin B2
+     8     4      80      83  1.4
+     9     4      84      86  mg
+    13     5      87      97  Vitamin B6
+    11     5      98     101  1.4
+    12     5     102     104  mg
+    15     6     105     116  Vitamin B12
+    14     6     117     122  2.519
+    18     7     123     131  VitaminC
+    16     7     132     134  80
+    17     7     135     137  mg
+    21     8     138     153  VitaminE (a-TE)
+    19     8     154     156  12
+    20     8     157     159  mg
+    22     9     160     162  16
+    23     9     163     165  mg
+    25    10     166     172  Biotin
+    24    10     173     176  509
+    28    11     177     185  Folsaure
+    26    11     186     189  200
+    27    11     190     191  g
+    31    12     192     206  Pantothensaure
+    29    12     207     210  6.0
+    30    12     211     213  mg
+    32    13     214     221  14Porti
+
+=================================================================
+
+=================================================================
+  IMAGE: 109.jpeg
+  OCR tokens (after corrector): 26
+  Serialized tokens:            26
+  Visual lines detected:        11
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Durchschnittliche Nahrwerte
+  Line 02 │ je 100g
+  Line 03 │ Brennwert 420 kJ/99kcal
+  Line 04 │ Fett 0 g
+  Line 05 │ davon gesattigte
+  Line 06 │ Fettsauren 0.2 g
+  Line 07 │ Kohlenhydrate 12.0 g
+  Line 08 │ -davon Zucker 9.8 g
+  Line 09 │ Ballaststoffe 1.5 g
+  Line 10 │ Eiweiss 11.0 g
+  Line 11 │ Salz 0.05 g
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y= 203.5px  [1 tokens]
+    → Durchschnittliche Nahrwerte
+  Line 02  y= 278.0px  [1 tokens]
+    → je 100g
+  Line 03  y= 341.0px  [2 tokens]
+    → Brennwert | 420 kJ/99kcal
+  Line 04  y= 396.3px  [3 tokens]
+    → Fett | 0 | g
+  Line 05  y= 454.0px  [1 tokens]
+    → davon gesattigte
+  Line 06  y= 494.3px  [3 tokens]
+    → Fettsauren | 0.2 | g
+  Line 07  y= 548.5px  [3 tokens]
+    → Kohlenhydrate | 12.0 | g
+  Line 08  y= 599.2px  [3 tokens]
+    → -davon Zucker | 9.8 | g
+  Line 09  y= 653.5px  [3 tokens]
+    → Ballaststoffe | 1.5 | g
+  Line 10  y= 705.7px  [3 tokens]
+    → Eiweiss | 11.0 | g
+  Line 11  y= 760.0px  [3 tokens]
+    → Salz | 0.05 | g
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      27  Durchschnittliche Nahrwerte
+     1     1      28      35  je 100g
+     3     2      36      45  Brennwert
+     2     2      46      59  420 kJ/99kcal
+     6     3      60      64  Fett
+     4     3      65      66  0
+     5     3      67      68  g
+     7     4      69      85  davon gesattigte
+    10     5      86      96  Fettsauren
+     8     5      97     100  0.2
+     9     5     101     102  g
+    13     6     103     116  Kohlenhydrate
+    11     6     117     121  12.0
+    12     6     122     123  g
+    16     7     124     137  -davon Zucker
+    14     7     138     141  9.8
+    15     7     142     143  g
+    19     8     144     157  Ballaststoffe
+    17     8     158     161  1.5
+    18     8     162     163  g
+    22     9     164     171  Eiweiss
+    20     9     172     176  11.0
+    21     9     177     178  g
+    25    10     179     183  Salz
+    23    10     184     188  0.05
+    24    10     189     190  g
+
+=================================================================
+
+=================================================================
+  IMAGE: 110.jpeg
+  OCR tokens (after corrector): 28
+  Serialized tokens:            28
+  Visual lines detected:        7
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Zusammensetzung
+  Line 02 │ pro Stick % NRV* pro2 Sticks %NRV
+  Line 03 │ Melissen Extrakt 15 mg *+ 30 mg **
+  Line 04 │ Niacin 8.0 mg NE 50% 16 mg NE 100%
+  Line 05 │ Pantothensaure 3.0 mg 50% 6.0 mg 100%
+  Line 06 │ *NRV=Nahrstoffbezugswert gemaB Lebensmittelinformationsverordnung
+  Line 07 │ **Kein NRVvorhanden.
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y= 253.0px  [1 tokens]
+    → Zusammensetzung
+  Line 02  y= 318.2px  [4 tokens]
+    → pro Stick | % NRV* | pro2 Sticks | %NRV
+  Line 03  y= 369.2px  [7 tokens]
+    → Melissen Extrakt | 15 | mg | *+ | 30 | mg | **
+  Line 04  y= 425.5px  [7 tokens]
+    → Niacin | 8.0 | mg NE | 50% | 16 | mg NE | 100%
+  Line 05  y= 480.3px  [7 tokens]
+    → Pantothensaure | 3.0 | mg | 50% | 6.0 | mg | 100%
+  Line 06  y= 571.0px  [1 tokens]
+    → *NRV=Nahrstoffbezugswert gemaB Lebensmittelinformationsverordnung
+  Line 07  y= 612.5px  [1 tokens]
+    → **Kein NRVvorhanden.
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      15  Zusammensetzung
+     1     1      16      25  pro Stick
+     2     1      26      32  % NRV*
+     3     1      33      44  pro2 Sticks
+     4     1      45      49  %NRV
+     5     2      50      66  Melissen Extrakt
+     7     2      67      69  15
+     8     2      70      72  mg
+     6     2      73      75  *+
+    10     2      76      78  30
+    11     2      79      81  mg
+     9     2      82      84  **
+    12     3      85      91  Niacin
+    13     3      92      95  8.0
+    14     3      96     101  mg NE
+    15     3     102     105  50%
+    16     3     106     108  16
+    17     3     109     114  mg NE
+    18     3     115     119  100%
+    19     4     120     134  Pantothensaure
+    20     4     135     138  3.0
+    21     4     139     141  mg
+    22     4     142     145  50%
+    23     4     146     149  6.0
+    24     4     150     152  mg
+    25     4     153     157  100%
+    26     5     158     223  *NRV=Nahrstoffbezugswert gemaB Lebensmittelinformationsverordnung
+    27     6     224     244  **Kein NRVvorhanden.
+
+=================================================================
+
+=================================================================
+  IMAGE: 111.jpeg
+  OCR tokens (after corrector): 9
+  Serialized tokens:            9
+  Visual lines detected:        5
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Vitamine
+  Line 02 │ 1 Tagesdosis (8 ml) %NRV*je Tagesdosis
+  Line 03 │ Vitamin B12 17.5 g 700%
+  Line 04 │ *NRV(nutrientreferencevalue)=
+  Line 05 │ Nährstoffbezugswert gemäBEU-Lebensmittelinformationsverordnung
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  57.5px  [1 tokens]
+    → Vitamine
+  Line 02  y= 115.0px  [2 tokens]
+    → 1 Tagesdosis (8 ml) | %NRV*je Tagesdosis
+  Line 03  y= 168.2px  [4 tokens]
+    → Vitamin B12 | 17.5 | g | 700%
+  Line 04  y= 247.5px  [1 tokens]
+    → *NRV(nutrientreferencevalue)=
+  Line 05  y= 294.0px  [1 tokens]
+    → Nährstoffbezugswert gemäBEU-Lebensmittelinformationsverordnung
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       8  Vitamine
+     2     1       9      28  1 Tagesdosis (8 ml)
+     1     1      29      47  %NRV*je Tagesdosis
+     4     2      48      59  Vitamin B12
+     5     2      60      64  17.5
+     6     2      65      66  g
+     3     2      67      71  700%
+     7     3      72     101  *NRV(nutrientreferencevalue)=
+     8     4     102     164  Nährstoffbezugswert gemäBEU-Lebensmittelinformationsverordnung
+
+=================================================================
+
+=================================================================
+  IMAGE: 112.jpeg
+  OCR tokens (after corrector): 8
+  Serialized tokens:            8
+  Visual lines detected:        4
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Vitamine
+  Line 02 │ 1 Tagesdosis (8 ml) %NRV*je Tagesdosis
+  Line 03 │ VitaminB12 17.5 g 700%
+  Line 04 │ *NRV(nutrientreference value=
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  59.5px  [1 tokens]
+    → Vitamine
+  Line 02  y= 112.2px  [2 tokens]
+    → 1 Tagesdosis (8 ml) | %NRV*je Tagesdosis
+  Line 03  y= 159.5px  [4 tokens]
+    → VitaminB12 | 17.5 | g | 700%
+  Line 04  y= 232.0px  [1 tokens]
+    → *NRV(nutrientreference value=
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       8  Vitamine
+     2     1       9      28  1 Tagesdosis (8 ml)
+     1     1      29      47  %NRV*je Tagesdosis
+     4     2      48      58  VitaminB12
+     5     2      59      63  17.5
+     6     2      64      65  g
+     3     2      66      70  700%
+     7     3      71     100  *NRV(nutrientreference value=
+
+=================================================================
+
+=================================================================
+  IMAGE: 113.jpeg
+  OCR tokens (after corrector): 73
+  Serialized tokens:            73
+  Visual lines detected:        15
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ %RM P
+  Line 02 │ DURCHSCHNITTLICHE %RM PROPORTION PROPORTION
+  Line 03 │ NAHRWERTE(BERECHNET): pro 100g pro 100g INWASSER" INWASSER"
+  Line 04 │ Energie
+  Line 05 │ 11 1546 464
+  Line 06 │ kcal 369 18 111 6
+  Line 07 │ FETT 4.5 g 6 1.3 g 2
+  Line 08 │ DAVONGESATTIGTE FETTSAUREN 3.1 g 16 0.9 g 5
+  Line 09 │ Kohlenhydrate 17 g 3 2.3 g <1
+  Line 10 │ DAVONZUCKER 3.9 g 4 1.2 g 1
+  Line 11 │ Ballaststoffe 1.9 g 0.6 g
+  Line 12 │ Eiweiss 72.7 g 145 21.8 g 44
+  Line 13 │ SALZ 0.53 g 6 0.17 g 3
+  Line 14 │ KOFFEIN 267 mg 80 mg
+  Line 15 │ UNDKALTZUGE
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y= 170.2px  [2 tokens]
+    → %RM | P
+  Line 02  y= 209.6px  [4 tokens]
+    → DURCHSCHNITTLICHE | %RM | PROPORTION | PROPORTION
+  Line 03  y= 255.7px  [5 tokens]
+    → NAHRWERTE(BERECHNET): | pro 100g | pro 100g | INWASSER" | INWASSER"
+  Line 04  y= 330.0px  [1 tokens]
+    → Energie
+  Line 05  y= 381.7px  [3 tokens]
+    → 11 | 1546 | 464
+  Line 06  y= 427.5px  [5 tokens]
+    → kcal | 369 | 18 | 111 | 6
+  Line 07  y= 473.9px  [7 tokens]
+    → FETT | 4.5 | g | 6 | 1.3 | g | 2
+  Line 08  y= 518.6px  [7 tokens]
+    → DAVONGESATTIGTE FETTSAUREN | 3.1 | g | 16 | 0.9 | g | 5
+  Line 09  y= 562.3px  [7 tokens]
+    → Kohlenhydrate | 17 | g | 3 | 2.3 | g | <1
+  Line 10  y= 604.9px  [7 tokens]
+    → DAVONZUCKER | 3.9 | g | 4 | 1.2 | g | 1
+  Line 11  y= 649.9px  [5 tokens]
+    → Ballaststoffe | 1.9 | g | 0.6 | g
+  Line 12  y= 690.4px  [7 tokens]
+    → Eiweiss | 72.7 | g | 145 | 21.8 | g | 44
+  Line 13  y= 732.5px  [7 tokens]
+    → SALZ | 0.53 | g | 6 | 0.17 | g | 3
+  Line 14  y= 811.1px  [5 tokens]
+    → KOFFEIN | 267 | mg | 80 | mg
+  Line 15  y=1020.5px  [1 tokens]
+    → UNDKALTZUGE
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       3  %RM
+     1     0       4       5  P
+     2     1       6      23  DURCHSCHNITTLICHE
+     3     1      24      27  %RM
+     4     1      28      38  PROPORTION
+     5     1      39      49  PROPORTION
+     6     2      50      71  NAHRWERTE(BERECHNET):
+     7     2      72      80  pro 100g
+    10     2      81      89  pro 100g
+     8     2      90      99  INWASSER"
+     9     2     100     109  INWASSER"
+    11     3     110     117  Energie
+    12     4     118     120  11
+    14     4     121     125  1546
+    13     4     126     129  464
+    15     5     130     134  kcal
+    18     5     135     138  369
+    19     5     139     141  18
+    17     5     142     145  111
+    16     5     146     147  6
+    20     6     148     152  FETT
+    25     6     153     156  4.5
+    26     6     157     158  g
+    24     6     159     160  6
+    22     6     161     164  1.3
+    23     6     165     166  g
+    21     6     167     168  2
+    28     7     169     195  DAVONGESATTIGTE FETTSAUREN
+    32     7     196     199  3.1
+    33     7     200     201  g
+    31     7     202     204  16
+    29     7     205     208  0.9
+    30     7     209     210  g
+    27     7     211     212  5
+    35     8     213     226  Kohlenhydrate
+    39     8     227     229  17
+    40     8     230     231  g
+    38     8     232     233  3
+    36     8     234     237  2.3
+    37     8     238     239  g
+    34     8     240     242  <1
+    42     9     243     254  DAVONZUCKER
+    46     9     255     258  3.9
+    47     9     259     260  g
+    45     9     261     262  4
+    43     9     263     266  1.2
+    44     9     267     268  g
+    41     9     269     270  1
+    48    10     271     284  Ballaststoffe
+    51    10     285     288  1.9
+    52    10     289     290  g
+    49    10     291     294  0.6
+    50    10     295     296  g
+    53    11     297     304  Eiweiss
+    58    11     305     309  72.7
+    59    11     310     311  g
+    57    11     312     315  145
+    55    11     316     320  21.8
+    56    11     321     322  g
+    54    11     323     325  44
+    60    12     326     330  SALZ
+    65    12     331     335  0.53
+    66    12     336     337  g
+    64    12     338     339  6
+    62    12     340     344  0.17
+    63    12     345     346  g
+    61    12     347     348  3
+    67    13     349     356  KOFFEIN
+    70    13     357     360  267
+    71    13     361     363  mg
+    68    13     364     366  80
+    69    13     367     369  mg
+    72    14     370     381  UNDKALTZUGE
+
+=================================================================
+
+=================================================================
+  IMAGE: 114.jpeg
+  OCR tokens (after corrector): 73
+  Serialized tokens:            73
+  Visual lines detected:        16
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ %RM'
+  Line 02 │ DURCHSCHNITTLICHE %RM PROPORTION PROPORTION
+  Line 03 │ NAHRWERTE(BERECHNET): pro 100g pro 100g INWASSER" INWASSER'
+  Line 04 │ Energie
+  Line 05 │ kJ 1541 462
+  Line 06 │ kcal 368 18 111 6
+  Line 07 │ FETT 4.8 g 1 148 2
+  Line 08 │ DAVONGESATTIGTEFETTSAUREN 3.3 g 17 1.0 g S
+  Line 09 │ Kohlenhydrate 8.8 g 3 2.6 g 1
+  Line 10 │ DAVONZUCKER 4.1 g 5 1.2 g 1
+  Line 11 │ Ballaststoffe 2.8 g 0.9 g 42
+  Line 12 │ Eiweiss 70.1 g 140 21.0 g 3
+  Line 13 │ SALZ 0.51 g 6 0.17 g
+  Line 14 │ KOFFEIN 268 mg 80 mg
+  Line 15 │ PORTION:30g PULVERIN250ml WASSER
+  Line 16 │ H SHAKEN.ALTERNATIV.30g AITZU
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y= 210.0px  [1 tokens]
+    → %RM'
+  Line 02  y= 248.5px  [4 tokens]
+    → DURCHSCHNITTLICHE | %RM | PROPORTION | PROPORTION
+  Line 03  y= 297.4px  [5 tokens]
+    → NAHRWERTE(BERECHNET): | pro 100g | pro 100g | INWASSER" | INWASSER'
+  Line 04  y= 388.0px  [1 tokens]
+    → Energie
+  Line 05  y= 435.7px  [3 tokens]
+    → kJ | 1541 | 462
+  Line 06  y= 481.9px  [5 tokens]
+    → kcal | 368 | 18 | 111 | 6
+  Line 07  y= 531.0px  [6 tokens]
+    → FETT | 4.8 | g | 1 | 148 | 2
+  Line 08  y= 577.4px  [7 tokens]
+    → DAVONGESATTIGTEFETTSAUREN | 3.3 | g | 17 | 1.0 | g | S
+  Line 09  y= 623.7px  [7 tokens]
+    → Kohlenhydrate | 8.8 | g | 3 | 2.6 | g | 1
+  Line 10  y= 669.7px  [7 tokens]
+    → DAVONZUCKER | 4.1 | g | 5 | 1.2 | g | 1
+  Line 11  y= 722.6px  [6 tokens]
+    → Ballaststoffe | 2.8 | g | 0.9 | g | 42
+  Line 12  y= 767.2px  [7 tokens]
+    → Eiweiss | 70.1 | g | 140 | 21.0 | g | 3
+  Line 13  y= 811.8px  [6 tokens]
+    → SALZ | 0.51 | g | 6 | 0.17 | g
+  Line 14  y= 893.6px  [5 tokens]
+    → KOFFEIN | 268 | mg | 80 | mg
+  Line 15  y=1022.0px  [1 tokens]
+    → PORTION:30g PULVERIN250ml WASSER
+  Line 16  y=1080.8px  [2 tokens]
+    → H SHAKEN.ALTERNATIV.30g | AITZU
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       4  %RM'
+     2     1       5      22  DURCHSCHNITTLICHE
+     1     1      23      26  %RM
+     3     1      27      37  PROPORTION
+     4     1      38      48  PROPORTION
+     8     2      49      70  NAHRWERTE(BERECHNET):
+     5     2      71      79  pro 100g
+     6     2      80      88  pro 100g
+     7     2      89      98  INWASSER"
+     9     2      99     108  INWASSER'
+    10     3     109     116  Energie
+    13     4     117     119  kJ
+    12     4     120     124  1541
+    11     4     125     128  462
+    18     5     129     133  kcal
+    17     5     134     137  368
+    16     5     138     140  18
+    15     5     141     144  111
+    14     5     145     146  6
+    22     6     147     151  FETT
+    23     6     152     155  4.8
+    24     6     156     157  g
+    21     6     158     159  1
+    20     6     160     163  148
+    19     6     164     165  2
+    29     7     166     191  DAVONGESATTIGTEFETTSAUREN
+    30     7     192     195  3.3
+    31     7     196     197  g
+    28     7     198     200  17
+    26     7     201     204  1.0
+    27     7     205     206  g
+    25     7     207     208  S
+    36     8     209     222  Kohlenhydrate
+    37     8     223     226  8.8
+    38     8     227     228  g
+    35     8     229     230  3
+    33     8     231     234  2.6
+    34     8     235     236  g
+    32     8     237     238  1
+    43     9     239     250  DAVONZUCKER
+    44     9     251     254  4.1
+    45     9     255     256  g
+    42     9     257     258  5
+    40     9     259     262  1.2
+    41     9     263     264  g
+    39     9     265     266  1
+    48    10     267     280  Ballaststoffe
+    49    10     281     284  2.8
+    50    10     285     286  g
+    46    10     287     290  0.9
+    47    10     291     292  g
+    51    10     293     295  42
+    55    11     296     303  Eiweiss
+    57    11     304     308  70.1
+    58    11     309     310  g
+    54    11     311     314  140
+    52    11     315     319  21.0
+    53    11     320     321  g
+    56    11     322     323  3
+    62    12     324     328  SALZ
+    63    12     329     333  0.51
+    64    12     334     335  g
+    61    12     336     337  6
+    59    12     338     342  0.17
+    60    12     343     344  g
+    67    13     345     352  KOFFEIN
+    68    13     353     356  268
+    69    13     357     359  mg
+    65    13     360     362  80
+    66    13     363     365  mg
+    70    14     366     398  PORTION:30g PULVERIN250ml WASSER
+    71    15     399     422  H SHAKEN.ALTERNATIV.30g
+    72    15     423     428  AITZU
+
+=================================================================
+
+=================================================================
+  IMAGE: 115.jpeg
+  OCR tokens (after corrector): 29
+  Serialized tokens:            29
+  Visual lines detected:        15
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Durchschnittliche Nahrwerte
+  Line 02 │ je 100g
+  Line 03 │ 438kJ/103kcal
+  Line 04 │ Brennwert 0 g
+  Line 05 │ Fett
+  Line 06 │ davon gesattigte 0.2 g
+  Line 07 │ Fettsauren 12.0 g
+  Line 08 │ Kohlenhydrate 10.0 g
+  Line 09 │ -davon Zucker 1.6 g
+  Line 10 │ Ballaststoffe 11.0 g
+  Line 11 │ Eiweiss 0.05 g
+  Line 12 │ Salz
+  Line 13 │ ALDI
+  Line 14 │ ALDI
+  Line 15 │ ne
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y= 161.0px  [1 tokens]
+    → Durchschnittliche Nahrwerte
+  Line 02  y= 213.0px  [1 tokens]
+    → je 100g
+  Line 03  y= 265.5px  [1 tokens]
+    → 438kJ/103kcal
+  Line 04  y= 302.8px  [3 tokens]
+    → Brennwert | 0 | g
+  Line 05  y= 345.5px  [1 tokens]
+    → Fett
+  Line 06  y= 388.2px  [3 tokens]
+    → davon gesattigte | 0.2 | g
+  Line 07  y= 434.3px  [3 tokens]
+    → Fettsauren | 12.0 | g
+  Line 08  y= 477.3px  [3 tokens]
+    → Kohlenhydrate | 10.0 | g
+  Line 09  y= 521.3px  [3 tokens]
+    → -davon Zucker | 1.6 | g
+  Line 10  y= 568.2px  [3 tokens]
+    → Ballaststoffe | 11.0 | g
+  Line 11  y= 616.0px  [3 tokens]
+    → Eiweiss | 0.05 | g
+  Line 12  y= 667.5px  [1 tokens]
+    → Salz
+  Line 13  y= 857.5px  [1 tokens]
+    → ALDI
+  Line 14  y= 895.5px  [1 tokens]
+    → ALDI
+  Line 15  y= 944.0px  [1 tokens]
+    → ne
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      27  Durchschnittliche Nahrwerte
+     1     1      28      35  je 100g
+     2     2      36      49  438kJ/103kcal
+     3     3      50      59  Brennwert
+     4     3      60      61  0
+     5     3      62      63  g
+     6     4      64      68  Fett
+     7     5      69      85  davon gesattigte
+     8     5      86      89  0.2
+     9     5      90      91  g
+    10     6      92     102  Fettsauren
+    11     6     103     107  12.0
+    12     6     108     109  g
+    13     7     110     123  Kohlenhydrate
+    14     7     124     128  10.0
+    15     7     129     130  g
+    16     8     131     144  -davon Zucker
+    17     8     145     148  1.6
+    18     8     149     150  g
+    19     9     151     164  Ballaststoffe
+    20     9     165     169  11.0
+    21     9     170     171  g
+    24    10     172     179  Eiweiss
+    22    10     180     184  0.05
+    23    10     185     186  g
+    25    11     187     191  Salz
+    26    12     192     196  ALDI
+    27    13     197     201  ALDI
+    28    14     202     204  ne
+
+=================================================================
+
+=================================================================
+  IMAGE: 116.jpeg
+  OCR tokens (after corrector): 52
+  Serialized tokens:            52
+  Visual lines detected:        11
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ PRO PRO RM*PRO
+  Line 02 │ NAHRWERTE DURCHSCHNITTLICHE 100g PORTION** PORTION**
+  Line 03 │ ENERGIE kJ/kcal 1696/404 509/121 off
+  Line 04 │ FETT: 12.0 g 3.5 g 2%
+  Line 05 │ davon gesattigte 1.4 g 0.4 g
+  Line 06 │ Fettsauren
+  Line 07 │ KOHLENHYDRATE: 27.0 g 8.2 g
+  Line 08 │ -DAVONZUCKER 4.6 g 1.4 g
+  Line 09 │ Ballaststoffe 12.0 g 3.7 g 24%
+  Line 10 │ Eiweiss 41.0 g 12.0 g 10%
+  Line 11 │ SALZ 2.02 g 0.61 g
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  82.0px  [3 tokens]
+    → PRO | PRO | RM*PRO
+  Line 02  y= 138.8px  [5 tokens]
+    → NAHRWERTE | DURCHSCHNITTLICHE | 100g | PORTION** | PORTION**
+  Line 03  y= 228.1px  [5 tokens]
+    → ENERGIE | kJ/kcal | 1696/404 | 509/121 | off
+  Line 04  y= 289.4px  [6 tokens]
+    → FETT: | 12.0 | g | 3.5 | g | 2%
+  Line 05  y= 341.5px  [5 tokens]
+    → davon gesattigte | 1.4 | g | 0.4 | g
+  Line 06  y= 401.5px  [1 tokens]
+    → Fettsauren
+  Line 07  y= 448.5px  [5 tokens]
+    → KOHLENHYDRATE: | 27.0 | g | 8.2 | g
+  Line 08  y= 503.0px  [5 tokens]
+    → -DAVONZUCKER | 4.6 | g | 1.4 | g
+  Line 09  y= 555.5px  [6 tokens]
+    → Ballaststoffe | 12.0 | g | 3.7 | g | 24%
+  Line 10  y= 607.0px  [6 tokens]
+    → Eiweiss | 41.0 | g | 12.0 | g | 10%
+  Line 11  y= 661.6px  [5 tokens]
+    → SALZ | 2.02 | g | 0.61 | g
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     2     0       0       3  PRO
+     1     0       4       7  PRO
+     0     0       8      14  RM*PRO
+     7     1      15      24  NAHRWERTE
+     3     1      25      42  DURCHSCHNITTLICHE
+     6     1      43      47  100g
+     5     1      48      57  PORTION**
+     4     1      58      67  PORTION**
+    11     2      68      75  ENERGIE
+    12     2      76      83  kJ/kcal
+    10     2      84      92  1696/404
+     9     2      93     100  509/121
+     8     2     101     104  off
+    17     3     105     110  FETT:
+    15     3     111     115  12.0
+    16     3     116     117  g
+    13     3     118     121  3.5
+    14     3     122     123  g
+    18     3     124     126  2%
+    23     4     127     143  davon gesattigte
+    21     4     144     147  1.4
+    22     4     148     149  g
+    19     4     150     153  0.4
+    20     4     154     155  g
+    24     5     156     166  Fettsauren
+    29     6     167     181  KOHLENHYDRATE:
+    25     6     182     186  27.0
+    26     6     187     188  g
+    27     6     189     192  8.2
+    28     6     193     194  g
+    34     7     195     207  -DAVONZUCKER
+    32     7     208     211  4.6
+    33     7     212     213  g
+    30     7     214     217  1.4
+    31     7     218     219  g
+    40     8     220     233  Ballaststoffe
+    38     8     234     238  12.0
+    39     8     239     240  g
+    36     8     241     244  3.7
+    37     8     245     246  g
+    35     8     247     250  24%
+    44     9     251     258  Eiweiss
+    45     9     259     263  41.0
+    46     9     264     265  g
+    42     9     266     270  12.0
+    43     9     271     272  g
+    41     9     273     276  10%
+    47    10     277     281  SALZ
+    50    10     282     286  2.02
+    51    10     287     288  g
+    48    10     289     293  0.61
+    49    10     294     295  g
+
+=================================================================
+
+=================================================================
+  IMAGE: 117.jpeg
+  OCR tokens (after corrector): 14
+  Serialized tokens:            14
+  Visual lines detected:        8
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ DURCHSCHNITTLICHENAURWERTE PROPORTION
+  Line 02 │ ENERGIE kJ/kcal 728/173
+  Line 03 │ FETT 6.1
+  Line 04 │ Kohlenhydrate
+  Line 05 │ -DAVONZUCKER
+  Line 06 │ Ballaststoffe
+  Line 07 │ Eiweiss
+  Line 08 │ SALZ 0.04 g
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y= 113.5px  [2 tokens]
+    → DURCHSCHNITTLICHENAURWERTE | PROPORTION
+  Line 02  y= 171.2px  [3 tokens]
+    → ENERGIE | kJ/kcal | 728/173
+  Line 03  y= 215.2px  [2 tokens]
+    → FETT | 6.1
+  Line 04  y= 305.5px  [1 tokens]
+    → Kohlenhydrate
+  Line 05  y= 351.0px  [1 tokens]
+    → -DAVONZUCKER
+  Line 06  y= 397.5px  [1 tokens]
+    → Ballaststoffe
+  Line 07  y= 443.0px  [1 tokens]
+    → Eiweiss
+  Line 08  y= 489.0px  [3 tokens]
+    → SALZ | 0.04 | g
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0      26  DURCHSCHNITTLICHENAURWERTE
+     0     0      27      37  PROPORTION
+     3     1      38      45  ENERGIE
+     4     1      46      53  kJ/kcal
+     2     1      54      61  728/173
+     6     2      62      66  FETT
+     5     2      67      70  6.1
+     7     3      71      84  Kohlenhydrate
+     8     4      85      97  -DAVONZUCKER
+     9     5      98     111  Ballaststoffe
+    10     6     112     119  Eiweiss
+    13     7     120     124  SALZ
+    11     7     125     129  0.04
+    12     7     130     131  g
+
+=================================================================
+
+=================================================================
+  IMAGE: 118.jpeg
+  OCR tokens (after corrector): 52
+  Serialized tokens:            52
+  Visual lines detected:        14
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ UADZORLON
+  Line 02 │ KNOCHEN BEI. PROPORTION(80g) pro 100g
+  Line 03 │ DURCHSCHNITTLICHENAHRWERTE
+  Line 04 │ 1152/275 1440/344
+  Line 05 │ ENERGIE kJ/kcal 8.0 g 10 g
+  Line 06 │ FETT: 2.1 g 2.6 g
+  Line 07 │ -DAVON GESATTIGTEFETTSAUREN 38 g 48 g
+  Line 08 │ KOHLENHYDRATE: 3.2 g 4.0 g
+  Line 09 │ -DAVONZUCKER 17 g 21 g
+  Line 10 │ -DAVONMEHRWERTIGEALKOHOLE 2.4 g 3.0 g
+  Line 11 │ Ballaststoffe 19 g 24 g
+  Line 12 │ Eiweiss 0.56 g 0.70 g
+  Line 13 │ SALZ WEITEREKENNZEICHNUNG
+  Line 14 │ TLTEINEPORTION(8O) ZUTATENVERZEICHNIS
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  11.5px  [1 tokens]
+    → UADZORLON
+  Line 02  y=  56.8px  [3 tokens]
+    → KNOCHEN BEI. | PROPORTION(80g) | pro 100g
+  Line 03  y=  98.0px  [1 tokens]
+    → DURCHSCHNITTLICHENAHRWERTE
+  Line 04  y= 127.8px  [2 tokens]
+    → 1152/275 | 1440/344
+  Line 05  y= 169.7px  [6 tokens]
+    → ENERGIE | kJ/kcal | 8.0 | g | 10 | g
+  Line 06  y= 206.8px  [5 tokens]
+    → FETT: | 2.1 | g | 2.6 | g
+  Line 07  y= 238.5px  [5 tokens]
+    → -DAVON GESATTIGTEFETTSAUREN | 38 | g | 48 | g
+  Line 08  y= 277.4px  [5 tokens]
+    → KOHLENHYDRATE: | 3.2 | g | 4.0 | g
+  Line 09  y= 312.8px  [5 tokens]
+    → -DAVONZUCKER | 17 | g | 21 | g
+  Line 10  y= 345.3px  [5 tokens]
+    → -DAVONMEHRWERTIGEALKOHOLE | 2.4 | g | 3.0 | g
+  Line 11  y= 382.6px  [5 tokens]
+    → Ballaststoffe | 19 | g | 24 | g
+  Line 12  y= 418.3px  [5 tokens]
+    → Eiweiss | 0.56 | g | 0.70 | g
+  Line 13  y= 468.8px  [2 tokens]
+    → SALZ | WEITEREKENNZEICHNUNG
+  Line 14  y= 494.0px  [2 tokens]
+    → TLTEINEPORTION(8O) | ZUTATENVERZEICHNIS
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       9  UADZORLON
+     1     1      10      22  KNOCHEN BEI.
+     3     1      23      38  PROPORTION(80g)
+     2     1      39      47  pro 100g
+     4     2      48      74  DURCHSCHNITTLICHENAHRWERTE
+     6     3      75      83  1152/275
+     5     3      84      92  1440/344
+    11     4      93     100  ENERGIE
+    12     4     101     108  kJ/kcal
+     9     4     109     112  8.0
+    10     4     113     114  g
+     7     4     115     117  10
+     8     4     118     119  g
+    17     5     120     125  FETT:
+    15     5     126     129  2.1
+    16     5     130     131  g
+    13     5     132     135  2.6
+    14     5     136     137  g
+    18     6     138     165  -DAVON GESATTIGTEFETTSAUREN
+    21     6     166     168  38
+    22     6     169     170  g
+    19     6     171     173  48
+    20     6     174     175  g
+    27     7     176     190  KOHLENHYDRATE:
+    25     7     191     194  3.2
+    26     7     195     196  g
+    23     7     197     200  4.0
+    24     7     201     202  g
+    32     8     203     215  -DAVONZUCKER
+    28     8     216     218  17
+    29     8     219     220  g
+    30     8     221     223  21
+    31     8     224     225  g
+    33     9     226     251  -DAVONMEHRWERTIGEALKOHOLE
+    34     9     252     255  2.4
+    35     9     256     257  g
+    36     9     258     261  3.0
+    37     9     262     263  g
+    42    10     264     277  Ballaststoffe
+    38    10     278     280  19
+    39    10     281     282  g
+    40    10     283     285  24
+    41    10     286     287  g
+    47    11     288     295  Eiweiss
+    43    11     296     300  0.56
+    44    11     301     302  g
+    45    11     303     307  0.70
+    46    11     308     309  g
+    48    12     310     314  SALZ
+    49    12     315     335  WEITEREKENNZEICHNUNG
+    50    13     336     354  TLTEINEPORTION(8O)
+    51    13     355     373  ZUTATENVERZEICHNIS
+
+=================================================================
+
+=================================================================
+  IMAGE: 119.jpeg
+  OCR tokens (after corrector): 50
+  Serialized tokens:            50
+  Visual lines detected:        14
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ KNOCHENBEI
+  Line 02 │ PROPORTION(8O) pro 100g
+  Line 03 │ DURCHSCHHITTLICHEHAHRWERTE
+  Line 04 │ 1177/282 1471/352
+  Line 05 │ EHERGIEJ/kcal 8.4 g 1 g
+  Line 06 │ FETT: 24 g 3.0 g
+  Line 07 │ -DAVONGESATTIGTEFETTSAUREN 38 g 47 g
+  Line 08 │ KOHLENHYDRATE: 3.2 g 4.0 g
+  Line 09 │ -DAVONZUCKER 17 g 21 g
+  Line 10 │ -DAVON MEHRWERTIGEALKOHOLE 3.6 g 4.5 g
+  Line 11 │ Ballaststoffe 19 g 24 g
+  Line 12 │ Eiweiss 0.56 g 0.70 g
+  Line 13 │ SALZ
+  Line 14 │ LTEINEPORTION(80) ZLITATENVERZEICH ML
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  23.5px  [1 tokens]
+    → KNOCHENBEI
+  Line 02  y=  61.2px  [2 tokens]
+    → PROPORTION(8O) | pro 100g
+  Line 03  y=  91.5px  [1 tokens]
+    → DURCHSCHHITTLICHEHAHRWERTE
+  Line 04  y= 126.8px  [2 tokens]
+    → 1177/282 | 1471/352
+  Line 05  y= 170.0px  [5 tokens]
+    → EHERGIEJ/kcal | 8.4 | g | 1 | g
+  Line 06  y= 210.0px  [5 tokens]
+    → FETT: | 24 | g | 3.0 | g
+  Line 07  y= 246.7px  [5 tokens]
+    → -DAVONGESATTIGTEFETTSAUREN | 38 | g | 47 | g
+  Line 08  y= 288.5px  [5 tokens]
+    → KOHLENHYDRATE: | 3.2 | g | 4.0 | g
+  Line 09  y= 327.3px  [5 tokens]
+    → -DAVONZUCKER | 17 | g | 21 | g
+  Line 10  y= 364.8px  [5 tokens]
+    → -DAVON MEHRWERTIGEALKOHOLE | 3.6 | g | 4.5 | g
+  Line 11  y= 404.8px  [5 tokens]
+    → Ballaststoffe | 19 | g | 24 | g
+  Line 12  y= 442.0px  [5 tokens]
+    → Eiweiss | 0.56 | g | 0.70 | g
+  Line 13  y= 476.5px  [1 tokens]
+    → SALZ
+  Line 14  y= 525.0px  [3 tokens]
+    → LTEINEPORTION(80) | ZLITATENVERZEICH | ML
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      10  KNOCHENBEI
+     2     1      11      25  PROPORTION(8O)
+     1     1      26      34  pro 100g
+     3     2      35      61  DURCHSCHHITTLICHEHAHRWERTE
+     5     3      62      70  1177/282
+     4     3      71      79  1471/352
+    10     4      80      93  EHERGIEJ/kcal
+     8     4      94      97  8.4
+     9     4      98      99  g
+     6     4     100     101  1
+     7     4     102     103  g
+    15     5     104     109  FETT:
+    13     5     110     112  24
+    14     5     113     114  g
+    11     5     115     118  3.0
+    12     5     119     120  g
+    16     6     121     147  -DAVONGESATTIGTEFETTSAUREN
+    17     6     148     150  38
+    18     6     151     152  g
+    19     6     153     155  47
+    20     6     156     157  g
+    23     7     158     172  KOHLENHYDRATE:
+    21     7     173     176  3.2
+    22     7     177     178  g
+    24     7     179     182  4.0
+    25     7     183     184  g
+    28     8     185     197  -DAVONZUCKER
+    26     8     198     200  17
+    27     8     201     202  g
+    29     8     203     205  21
+    30     8     206     207  g
+    31     9     208     234  -DAVON MEHRWERTIGEALKOHOLE
+    32     9     235     238  3.6
+    33     9     239     240  g
+    34     9     241     244  4.5
+    35     9     245     246  g
+    36    10     247     260  Ballaststoffe
+    37    10     261     263  19
+    38    10     264     265  g
+    39    10     266     268  24
+    40    10     269     270  g
+    43    11     271     278  Eiweiss
+    41    11     279     283  0.56
+    42    11     284     285  g
+    44    11     286     290  0.70
+    45    11     291     292  g
+    46    12     293     297  SALZ
+    47    13     298     315  LTEINEPORTION(80)
+    48    13     316     332  ZLITATENVERZEICH
+    49    13     333     335  ML
+
+=================================================================
+
+=================================================================
+  IMAGE: 12.jpeg
+  OCR tokens (after corrector): 22
+  Serialized tokens:            22
+  Visual lines detected:        9
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ per100mi perser 10
+  Line 02 │ 547
+  Line 03 │ 129 kcal IN
+  Line 04 │ 0.0 g
+  Line 05 │ 0.00
+  Line 06 │ 32 g
+  Line 07 │ 1.1 g 0.3
+  Line 08 │ on/Pietn M/Fotines/ProteinTBaba/Proten 0.1 g
+  Line 09 │ Sca/Se/Sat/Sa/Sat 0.6 g
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=   9.5px  [3 tokens]
+    → per100mi | perser | 10
+  Line 02  y=  21.5px  [1 tokens]
+    → 547
+  Line 03  y=  31.0px  [3 tokens]
+    → 129 | kcal | IN
+  Line 04  y=  41.5px  [2 tokens]
+    → 0.0 | g
+  Line 05  y=  53.0px  [1 tokens]
+    → 0.00
+  Line 06  y=  82.5px  [2 tokens]
+    → 32 | g
+  Line 07  y= 104.3px  [3 tokens]
+    → 1.1 | g | 0.3
+  Line 08  y= 122.5px  [4 tokens]
+    → on/Pietn | M/Fotines/ProteinTBaba/Proten | 0.1 | g
+  Line 09  y= 133.5px  [3 tokens]
+    → Sca/Se/Sat/Sa/Sat | 0.6 | g
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0       8  per100mi
+     0     0       9      15  perser
+     2     0      16      18  10
+     3     1      19      22  547
+     4     2      23      26  129
+     5     2      27      31  kcal
+     6     2      32      34  IN
+     7     3      35      38  0.0
+     8     3      39      40  g
+     9     4      41      45  0.00
+    10     5      46      48  32
+    11     5      49      50  g
+    12     6      51      54  1.1
+    13     6      55      56  g
+    14     6      57      60  0.3
+    18     7      61      69  on/Pietn
+    15     7      70      99  M/Fotines/ProteinTBaba/Proten
+    16     7     100     103  0.1
+    17     7     104     105  g
+    19     8     106     123  Sca/Se/Sat/Sa/Sat
+    20     8     124     127  0.6
+    21     8     128     129  g
+
+=================================================================
+
+=================================================================
+  IMAGE: 120.jpeg
+  OCR tokens (after corrector): 107
+  Serialized tokens:            107
+  Visual lines detected:        32
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ SUBSTANZ pro 10g
+  Line 02 │ INOSITOL 100 mg
+  Line 03 │ ALPHA-LIPONSAURE 42 mg
+  Line 04 │ choline 20 mg
+  Line 05 │ R, RUTIN 20 mg
+  Line 06 │ LACTOBACILLUS 3.6x10KBE
+  Line 07 │ ACIDOPHILUS
+  Line 08 │ BIFIDOBACTERIUMBIFIDUM 3.6x10KBE
+  Line 09 │ ZUSAMMENSETZUNG pro 10g %NRVPRO10G
+  Line 10 │ VITAMINC 250 mg 313
+  Line 11 │ HI Niacin 16 mg 100
+  Line 12 │ Cl- VITAMINE 30 mg 250
+  Line 13 │ Pantothensaure 5 mg 83
+  Line 14 │ VITAMINB6 0.9 mg 64
+  Line 15 │ VITAMINB2 1 mg 79
+  Line 16 │ VITAMINB1 1 mg 91
+  Line 17 │ S 100
+  Line 18 │ Folsaure 200 g 80
+  Line 19 │ Biotin 40 g 164
+  Line 20 │ VITAMINB12 4.1 g 104
+  Line 21 │ VITAMIND3 5.2 g 81
+  Line 22 │ VITAMINK 60.4 g 15
+  Line 23 │ Calcium 121 mg 65
+  Line 24 │ ZINK 6.5 mg 68
+  Line 25 │ ON
+  Line 26 │ Jod 100g 40
+  Line 27 │ 22 g 100
+  Line 28 │ SELEN 1 mg 20
+  Line 29 │ V KUPFER 0.4 mg 63
+  Line 30 │ MANGAN 25 g 90
+  Line 31 │ CHROM 45 g
+  Line 32 │ MOLYBDAN
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  68.0px  [2 tokens]
+    → SUBSTANZ | pro 10g
+  Line 02  y= 142.3px  [3 tokens]
+    → INOSITOL | 100 | mg
+  Line 03  y= 185.2px  [3 tokens]
+    → ALPHA-LIPONSAURE | 42 | mg
+  Line 04  y= 230.3px  [3 tokens]
+    → choline | 20 | mg
+  Line 05  y= 275.8px  [4 tokens]
+    → R, | RUTIN | 20 | mg
+  Line 06  y= 320.8px  [2 tokens]
+    → LACTOBACILLUS | 3.6x10KBE
+  Line 07  y= 365.5px  [1 tokens]
+    → ACIDOPHILUS
+  Line 08  y= 400.5px  [2 tokens]
+    → BIFIDOBACTERIUMBIFIDUM | 3.6x10KBE
+  Line 09  y= 483.0px  [3 tokens]
+    → ZUSAMMENSETZUNG | pro 10g | %NRVPRO10G
+  Line 10  y= 557.9px  [4 tokens]
+    → VITAMINC | 250 | mg | 313
+  Line 11  y= 598.6px  [5 tokens]
+    → HI | Niacin | 16 | mg | 100
+  Line 12  y= 646.1px  [5 tokens]
+    → Cl- | VITAMINE | 30 | mg | 250
+  Line 13  y= 687.6px  [4 tokens]
+    → Pantothensaure | 5 | mg | 83
+  Line 14  y= 731.5px  [4 tokens]
+    → VITAMINB6 | 0.9 | mg | 64
+  Line 15  y= 774.1px  [4 tokens]
+    → VITAMINB2 | 1 | mg | 79
+  Line 16  y= 815.9px  [4 tokens]
+    → VITAMINB1 | 1 | mg | 91
+  Line 17  y= 836.5px  [2 tokens]
+    → S | 100
+  Line 18  y= 868.5px  [4 tokens]
+    → Folsaure | 200 | g | 80
+  Line 19  y= 909.9px  [4 tokens]
+    → Biotin | 40 | g | 164
+  Line 20  y= 951.0px  [4 tokens]
+    → VITAMINB12 | 4.1 | g | 104
+  Line 21  y= 991.5px  [4 tokens]
+    → VITAMIND3 | 5.2 | g | 81
+  Line 22  y=1031.2px  [4 tokens]
+    → VITAMINK | 60.4 | g | 15
+  Line 23  y=1069.5px  [4 tokens]
+    → Calcium | 121 | mg | 65
+  Line 24  y=1108.9px  [4 tokens]
+    → ZINK | 6.5 | mg | 68
+  Line 25  y=1126.0px  [1 tokens]
+    → ON
+  Line 26  y=1149.5px  [3 tokens]
+    → Jod | 100g | 40
+  Line 27  y=1182.2px  [3 tokens]
+    → 22 | g | 100
+  Line 28  y=1215.8px  [4 tokens]
+    → SELEN | 1 | mg | 20
+  Line 29  y=1255.6px  [5 tokens]
+    → V | KUPFER | 0.4 | mg | 63
+  Line 30  y=1295.0px  [4 tokens]
+    → MANGAN | 25 | g | 90
+  Line 31  y=1337.0px  [3 tokens]
+    → CHROM | 45 | g
+  Line 32  y=1367.0px  [1 tokens]
+    → MOLYBDAN
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0       8  SUBSTANZ
+     0     0       9      16  pro 10g
+     4     1      17      25  INOSITOL
+     2     1      26      29  100
+     3     1      30      32  mg
+     7     2      33      49  ALPHA-LIPONSAURE
+     5     2      50      52  42
+     6     2      53      55  mg
+    10     3      56      63  choline
+     8     3      64      66  20
+     9     3      67      69  mg
+    13     4      70      72  R,
+    14     4      73      78  RUTIN
+    11     4      79      81  20
+    12     4      82      84  mg
+    16     5      85      98  LACTOBACILLUS
+    15     5      99     108  3.6x10KBE
+    17     6     109     120  ACIDOPHILUS
+    19     7     121     143  BIFIDOBACTERIUMBIFIDUM
+    18     7     144     153  3.6x10KBE
+    22     8     154     169  ZUSAMMENSETZUNG
+    21     8     170     177  pro 10g
+    20     8     178     188  %NRVPRO10G
+    26     9     189     197  VITAMINC
+    24     9     198     201  250
+    25     9     202     204  mg
+    23     9     205     208  313
+    27    10     209     211  HI
+    31    10     212     218  Niacin
+    29    10     219     221  16
+    30    10     222     224  mg
+    28    10     225     228  100
+    36    11     229     232  Cl-
+    35    11     233     241  VITAMINE
+    33    11     242     244  30
+    34    11     245     247  mg
+    32    11     248     251  250
+    40    12     252     266  Pantothensaure
+    38    12     267     268  5
+    39    12     269     271  mg
+    37    12     272     274  83
+    42    13     275     284  VITAMINB6
+    43    13     285     288  0.9
+    44    13     289     291  mg
+    41    13     292     294  64
+    46    14     295     304  VITAMINB2
+    47    14     305     306  1
+    48    14     307     309  mg
+    45    14     310     312  79
+    50    15     313     322  VITAMINB1
+    51    15     323     324  1
+    52    15     325     327  mg
+    49    15     328     330  91
+    53    16     331     332  S
+    54    16     333     336  100
+    55    17     337     345  Folsaure
+    56    17     346     349  200
+    57    17     350     351  g
+    58    17     352     354  80
+    59    18     355     361  Biotin
+    60    18     362     364  40
+    61    18     365     366  g
+    62    18     367     370  164
+    63    19     371     381  VITAMINB12
+    64    19     382     385  4.1
+    65    19     386     387  g
+    66    19     388     391  104
+    69    20     392     401  VITAMIND3
+    67    20     402     405  5.2
+    68    20     406     407  g
+    70    20     408     410  81
+    74    21     411     419  VITAMINK
+    71    21     420     424  60.4
+    72    21     425     426  g
+    73    21     427     429  15
+    78    22     430     437  Calcium
+    75    22     438     441  121
+    76    22     442     444  mg
+    77    22     445     447  65
+    82    23     448     452  ZINK
+    79    23     453     456  6.5
+    80    23     457     459  mg
+    81    23     460     462  68
+    83    24     463     465  ON
+    86    25     466     469  Jod
+    84    25     470     474  100g
+    85    25     475     477  40
+    88    26     478     480  22
+    89    26     481     482  g
+    87    26     483     486  100
+    90    27     487     492  SELEN
+    92    27     493     494  1
+    93    27     495     497  mg
+    91    27     498     500  20
+    96    28     501     502  V
+    94    28     503     509  KUPFER
+    97    28     510     513  0.4
+    98    28     514     516  mg
+    95    28     517     519  63
+    99    29     520     526  MANGAN
+   101    29     527     529  25
+   102    29     530     531  g
+   100    29     532     534  90
+   103    30     535     540  CHROM
+   104    30     541     543  45
+   105    30     544     545  g
+   106    31     546     554  MOLYBDAN
+
+=================================================================
+
+=================================================================
+  IMAGE: 121.jpeg
+  OCR tokens (after corrector): 51
+  Serialized tokens:            51
+  Visual lines detected:        14
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ EIWEIBRIEGELMITKOKOS-MANDEL-GESCHMACKUNDKOKOSRASPELN
+  Line 02 │ UBERZOGENMITYOLLMILCHSCHOKOLADE(17%),MITSUBUNGSMITTELN
+  Line 03 │ DURCHSCHNITTLICHENAHRWERTE PROPORTION(45g) pro 100g
+  Line 04 │ ENERGIE KJ/KCAL 631/151 1.401/336
+  Line 05 │ FETT: 5.2 g 12 g
+  Line 06 │ -DAVONGESATTIGTEFETTSAUREN 2.9 g 6.5 g
+  Line 07 │ KOHLENHYDRATE: 9.1 g 20 g
+  Line 08 │ -DAVONZUCKER 2.2 g 49 g
+  Line 09 │ Ballaststoffe -DAVONMEHRWERTIGEALKOHOLE 6.7 g 15 g
+  Line 10 │ Eiweiss 79 g 18 g
+  Line 11 │ SALZ 16 g 35 g
+  Line 12 │ 0.09 g 0.20 g
+  Line 13 │ MIND.30%WENIGERKOHLENHYDRATEALSHERKOMMLICHE
+  Line 14 │ PROTEIN-RIEGELOHNEBALLASTSTOFFANREICHERUNG
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  31.0px  [1 tokens]
+    → EIWEIBRIEGELMITKOKOS-MANDEL-GESCHMACKUNDKOKOSRASPELN
+  Line 02  y=  69.0px  [1 tokens]
+    → UBERZOGENMITYOLLMILCHSCHOKOLADE(17%),MITSUBUNGSMITTELN
+  Line 03  y= 138.8px  [3 tokens]
+    → DURCHSCHNITTLICHENAHRWERTE | PROPORTION(45g) | pro 100g
+  Line 04  y= 197.9px  [4 tokens]
+    → ENERGIE | KJ/KCAL | 631/151 | 1.401/336
+  Line 05  y= 234.3px  [5 tokens]
+    → FETT: | 5.2 | g | 12 | g
+  Line 06  y= 264.9px  [5 tokens]
+    → -DAVONGESATTIGTEFETTSAUREN | 2.9 | g | 6.5 | g
+  Line 07  y= 295.3px  [5 tokens]
+    → KOHLENHYDRATE: | 9.1 | g | 20 | g
+  Line 08  y= 325.8px  [5 tokens]
+    → -DAVONZUCKER | 2.2 | g | 49 | g
+  Line 09  y= 360.5px  [6 tokens]
+    → Ballaststoffe | -DAVONMEHRWERTIGEALKOHOLE | 6.7 | g | 15 | g
+  Line 10  y= 392.5px  [5 tokens]
+    → Eiweiss | 79 | g | 18 | g
+  Line 11  y= 422.6px  [5 tokens]
+    → SALZ | 16 | g | 35 | g
+  Line 12  y= 449.2px  [4 tokens]
+    → 0.09 | g | 0.20 | g
+  Line 13  y= 500.5px  [1 tokens]
+    → MIND.30%WENIGERKOHLENHYDRATEALSHERKOMMLICHE
+  Line 14  y= 536.0px  [1 tokens]
+    → PROTEIN-RIEGELOHNEBALLASTSTOFFANREICHERUNG
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      52  EIWEIBRIEGELMITKOKOS-MANDEL-GESCHMACKUNDKOKOSRASPELN
+     1     1      53     107  UBERZOGENMITYOLLMILCHSCHOKOLADE(17%),MITSUBUNGSMITTELN
+     2     2     108     134  DURCHSCHNITTLICHENAHRWERTE
+     3     2     135     150  PROPORTION(45g)
+     4     2     151     159  pro 100g
+     5     3     160     167  ENERGIE
+     6     3     168     175  KJ/KCAL
+     7     3     176     183  631/151
+     8     3     184     193  1.401/336
+     9     4     194     199  FETT:
+    10     4     200     203  5.2
+    11     4     204     205  g
+    12     4     206     208  12
+    13     4     209     210  g
+    14     5     211     237  -DAVONGESATTIGTEFETTSAUREN
+    15     5     238     241  2.9
+    16     5     242     243  g
+    17     5     244     247  6.5
+    18     5     248     249  g
+    19     6     250     264  KOHLENHYDRATE:
+    20     6     265     268  9.1
+    21     6     269     270  g
+    22     6     271     273  20
+    23     6     274     275  g
+    24     7     276     288  -DAVONZUCKER
+    25     7     289     292  2.2
+    26     7     293     294  g
+    27     7     295     297  49
+    28     7     298     299  g
+    34     8     300     313  Ballaststoffe
+    29     8     314     339  -DAVONMEHRWERTIGEALKOHOLE
+    30     8     340     343  6.7
+    31     8     344     345  g
+    32     8     346     348  15
+    33     8     349     350  g
+    39     9     351     358  Eiweiss
+    35     9     359     361  79
+    36     9     362     363  g
+    37     9     364     366  18
+    38     9     367     368  g
+    44    10     369     373  SALZ
+    40    10     374     376  16
+    41    10     377     378  g
+    42    10     379     381  35
+    43    10     382     383  g
+    45    11     384     388  0.09
+    46    11     389     390  g
+    47    11     391     395  0.20
+    48    11     396     397  g
+    49    12     398     441  MIND.30%WENIGERKOHLENHYDRATEALSHERKOMMLICHE
+    50    13     442     484  PROTEIN-RIEGELOHNEBALLASTSTOFFANREICHERUNG
+
+=================================================================
+
+=================================================================
+  IMAGE: 15.jpeg
+  OCR tokens (after corrector): 3
+  Serialized tokens:            3
+  Visual lines detected:        1
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Zutaten: Sauerungsmittel (Citronensaure) Saurereg AeriNatn Koffein 5 Mineralstoffen und SuBungsmittel-Zitronen Geschmack.Zwsi
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y= 246.5px  [3 tokens]
+    → Zutaten: Sauerungsmittel (Citronensaure) Saurereg | AeriNatn | Koffein 5 Mineralstoffen und SuBungsmittel-Zitronen Geschmack.Zwsi
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      49  Zutaten: Sauerungsmittel (Citronensaure) Saurereg
+     2     0      50      58  AeriNatn
+     1     0      59     125  Koffein 5 Mineralstoffen und SuBungsmittel-Zitronen Geschmack.Zwsi
+
+=================================================================
+
+=================================================================
+  IMAGE: 17.jpeg
+  OCR tokens (after corrector): 19
+  Serialized tokens:            19
+  Visual lines detected:        7
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Product information
+  Line 02 │ Typical vslues per piece %NRV
+  Line 03 │ Caffeine 100 mg
+  Line 04 │ Vitamin B3 2.4 mg NE 15
+  Line 05 │ Vitamin86 0.22 mg 15
+  Line 06 │ Vitamin B12 0.38 ug 15
+  Line 07 │ Suitable for vegetarians and vegans.
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  10.0px  [1 tokens]
+    → Product information
+  Line 02  y=  26.0px  [2 tokens]
+    → Typical vslues per piece | %NRV
+  Line 03  y=  44.5px  [3 tokens]
+    → Caffeine | 100 | mg
+  Line 04  y=  62.5px  [4 tokens]
+    → Vitamin B3 | 2.4 | mg NE | 15
+  Line 05  y=  80.2px  [4 tokens]
+    → Vitamin86 | 0.22 | mg | 15
+  Line 06  y=  97.6px  [4 tokens]
+    → Vitamin B12 | 0.38 | ug | 15
+  Line 07  y= 115.5px  [1 tokens]
+    → Suitable for vegetarians and vegans.
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      19  Product information
+     1     1      20      44  Typical vslues per piece
+     2     1      45      49  %NRV
+     3     2      50      58  Caffeine
+     4     2      59      62  100
+     5     2      63      65  mg
+     6     3      66      76  Vitamin B3
+     7     3      77      80  2.4
+     8     3      81      86  mg NE
+     9     3      87      89  15
+    10     4      90      99  Vitamin86
+    12     4     100     104  0.22
+    13     4     105     107  mg
+    11     4     108     110  15
+    17     5     111     122  Vitamin B12
+    14     5     123     127  0.38
+    15     5     128     130  ug
+    16     5     131     133  15
+    18     6     134     170  Suitable for vegetarians and vegans.
+
+=================================================================
+
+=================================================================
+  IMAGE: 2.jpeg
+  OCR tokens (after corrector): 29
+  Serialized tokens:            29
+  Visual lines detected:        9
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ 100g1Tube70g
+  Line 02 │ Nahrwerte/nutrition facts 1195(281 837197
+  Line 03 │ Energie/energy kJ (kcal) 0 g
+  Line 04 │ Fett/tat 60
+  Line 05 │ ofwhich saturates Kohlenhydrate/carbohydrates 70 g 50 g
+  Line 06 │ davon Zuckerarten/of which sugars 33 g 259
+  Line 07 │ 0 g 0 g
+  Line 08 │ Erweiss/Protein 0.43 g 0.30 g
+  Line 09 │ Salz/salt
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  15.0px  [1 tokens]
+    → 100g1Tube70g
+  Line 02  y=  33.5px  [3 tokens]
+    → Nahrwerte/nutrition facts | 1195(281 | 837197
+  Line 03  y=  53.0px  [3 tokens]
+    → Energie/energy kJ (kcal) | 0 | g
+  Line 04  y=  73.5px  [2 tokens]
+    → Fett/tat | 60
+  Line 05  y= 111.0px  [6 tokens]
+    → ofwhich saturates | Kohlenhydrate/carbohydrates | 70 | g | 50 | g
+  Line 06  y= 130.9px  [4 tokens]
+    → davon Zuckerarten/of which sugars | 33 | g | 259
+  Line 07  y= 150.0px  [4 tokens]
+    → 0 | g | 0 | g
+  Line 08  y= 165.0px  [5 tokens]
+    → Erweiss/Protein | 0.43 | g | 0.30 | g
+  Line 09  y= 183.0px  [1 tokens]
+    → Salz/salt
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      12  100g1Tube70g
+     2     1      13      38  Nahrwerte/nutrition facts
+     3     1      39      47  1195(281
+     1     1      48      54  837197
+     4     2      55      79  Energie/energy kJ (kcal)
+     5     2      80      81  0
+     6     2      82      83  g
+     8     3      84      92  Fett/tat
+     7     3      93      95  60
+     9     4      96     113  ofwhich saturates
+    14     4     114     141  Kohlenhydrate/carbohydrates
+    10     4     142     144  70
+    11     4     145     146  g
+    12     4     147     149  50
+    13     4     150     151  g
+    18     5     152     185  davon Zuckerarten/of which sugars
+    16     5     186     188  33
+    17     5     189     190  g
+    15     5     191     194  259
+    21     6     195     196  0
+    22     6     197     198  g
+    19     6     199     200  0
+    20     6     201     202  g
+    23     7     203     218  Erweiss/Protein
+    26     7     219     223  0.43
+    27     7     224     225  g
+    24     7     226     230  0.30
+    25     7     231     232  g
+    28     8     233     242  Salz/salt
+
+=================================================================
+
+=================================================================
+  IMAGE: 20.jpeg
+  OCR tokens (after corrector): 86
+  Serialized tokens:            86
+  Visual lines detected:        26
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Durchschn.Gehalt pro100gPulver/ MRDA pro Tagesportion Portn=5g per Day Dit  Portin=15g
+  Line 02 │ Average Value per 100 g powder
+  Line 03 │ Benwentnrgy Value 1474346 kcal
+  Line 04 │ Ewes/Proton 0.19
+  Line 05 │ Ychienhydiate/Carbohydrate 78.10 cal
+  Line 06 │ Fenlfa 050
+  Line 07 │ Natrium/Sodum 667 mg
+  Line 08 │ Galcom/Potasium 667 mg
+  Line 09 │ Cadum 6009 100
+  Line 10 │ magnesium 300 mg 100%
+  Line 11 │ CHarid/Chonde 667 mg
+  Line 12 │ Phosptor/Ptosphoruss 800 mg 100.%
+  Line 13 │ SlenSeenium 200 g
+  Line 14 │ onGaranaakve/
+  Line 15 │ VraminC f t 250 mg
+  Line 16 │ Niacin 800 mg 133395
+  Line 17 │ Vtanint 240. mg NE 1333 5P9
+  Line 18 │ 67mg-TE 667.%
+  Line 19 │ Panothenaure/Pantothenic Acid 40 mg 667% TAS
+  Line 20 │ Vitamn.86 13.3 mg 667%
+  Line 21 │ Vitamin82 10.7 mg 667%
+  Line 22 │ 9.3m 667%
+  Line 23 │ FolsaureffolicAod 1333 g 667%
+  Line 24 │ noe Vaain612 6.7 g 667%
+  Line 25 │ 1000 g 667%
+  Line 26 │ om PoanA 2220RE 280
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  48.8px  [5 tokens]
+    → Durchschn.Gehalt | pro100gPulver/ | MRDA | pro Tagesportion Portn=5g | per Day Dit  Portin=15g
+  Line 02  y=  67.0px  [2 tokens]
+    → Average Value | per 100 g powder
+  Line 03  y=  83.8px  [3 tokens]
+    → Benwentnrgy Value | 1474346 | kcal
+  Line 04  y=  98.0px  [2 tokens]
+    → Ewes/Proton | 0.19
+  Line 05  y= 112.7px  [3 tokens]
+    → Ychienhydiate/Carbohydrate | 78.10 | cal
+  Line 06  y= 129.0px  [2 tokens]
+    → Fenlfa | 050
+  Line 07  y= 147.2px  [3 tokens]
+    → Natrium/Sodum | 667 | mg
+  Line 08  y= 163.3px  [3 tokens]
+    → Galcom/Potasium | 667 | mg
+  Line 09  y= 176.8px  [3 tokens]
+    → Cadum | 6009 | 100
+  Line 10  y= 193.9px  [4 tokens]
+    → magnesium | 300 | mg | 100%
+  Line 11  y= 210.0px  [3 tokens]
+    → CHarid/Chonde | 667 | mg
+  Line 12  y= 225.4px  [4 tokens]
+    → Phosptor/Ptosphoruss | 800 | mg | 100.%
+  Line 13  y= 240.8px  [3 tokens]
+    → SlenSeenium | 200 | g
+  Line 14  y= 253.0px  [1 tokens]
+    → onGaranaakve/
+  Line 15  y= 273.5px  [4 tokens]
+    → VraminC | f t | 250 | mg
+  Line 16  y= 288.8px  [4 tokens]
+    → Niacin | 800 | mg | 133395
+  Line 17  y= 303.2px  [5 tokens]
+    → Vtanint | 240. | mg NE | 1333 | 5P9
+  Line 18  y= 316.8px  [2 tokens]
+    → 67mg-TE | 667.%
+  Line 19  y= 330.7px  [5 tokens]
+    → Panothenaure/Pantothenic Acid | 40 | mg | 667% | TAS
+  Line 20  y= 345.2px  [4 tokens]
+    → Vitamn.86 | 13.3 | mg | 667%
+  Line 21  y= 360.5px  [4 tokens]
+    → Vitamin82 | 10.7 | mg | 667%
+  Line 22  y= 376.8px  [2 tokens]
+    → 9.3m | 667%
+  Line 23  y= 390.2px  [4 tokens]
+    → FolsaureffolicAod | 1333 | g | 667%
+  Line 24  y= 405.8px  [5 tokens]
+    → noe | Vaain612 | 6.7 | g | 667%
+  Line 25  y= 421.2px  [3 tokens]
+    → 1000 | g | 667%
+  Line 26  y= 433.0px  [3 tokens]
+    → om PoanA | 2220RE | 280
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0      16  Durchschn.Gehalt
+     3     0      17      31  pro100gPulver/
+     2     0      32      36  MRDA
+     0     0      37      62  pro Tagesportion Portn=5g
+     4     0      63      86  per Day Dit  Portin=15g
+     5     1      87     100  Average Value
+     6     1     101     117  per 100 g powder
+     7     2     118     135  Benwentnrgy Value
+     8     2     136     143  1474346
+     9     2     144     148  kcal
+    10     3     149     160  Ewes/Proton
+    11     3     161     165  0.19
+    13     4     166     192  Ychienhydiate/Carbohydrate
+    14     4     193     198  78.10
+    12     4     199     202  cal
+    15     5     203     209  Fenlfa
+    16     5     210     213  050
+    17     6     214     227  Natrium/Sodum
+    18     6     228     231  667
+    19     6     232     234  mg
+    20     7     235     250  Galcom/Potasium
+    21     7     251     254  667
+    22     7     255     257  mg
+    23     8     258     263  Cadum
+    25     8     264     268  6009
+    24     8     269     272  100
+    26     9     273     282  magnesium
+    28     9     283     286  300
+    29     9     287     289  mg
+    27     9     290     294  100%
+    30    10     295     308  CHarid/Chonde
+    31    10     309     312  667
+    32    10     313     315  mg
+    33    11     316     336  Phosptor/Ptosphoruss
+    35    11     337     340  800
+    36    11     341     343  mg
+    34    11     344     349  100.%
+    37    12     350     361  SlenSeenium
+    38    12     362     365  200
+    39    12     366     367  g
+    40    13     368     381  onGaranaakve/
+    44    14     382     389  VraminC
+    41    14     390     393  f t
+    42    14     394     397  250
+    43    14     398     400  mg
+    48    15     401     407  Niacin
+    46    15     408     411  800
+    47    15     412     414  mg
+    45    15     415     421  133395
+    53    16     422     429  Vtanint
+    51    16     430     434  240.
+    52    16     435     440  mg NE
+    50    16     441     445  1333
+    49    16     446     449  5P9
+    55    17     450     457  67mg-TE
+    54    17     458     463  667.%
+    57    18     464     493  Panothenaure/Pantothenic Acid
+    59    18     494     496  40
+    60    18     497     499  mg
+    58    18     500     504  667%
+    56    18     505     508  TAS
+    61    19     509     518  Vitamn.86
+    63    19     519     523  13.3
+    64    19     524     526  mg
+    62    19     527     531  667%
+    65    20     532     541  Vitamin82
+    67    20     542     546  10.7
+    68    20     547     549  mg
+    66    20     550     554  667%
+    70    21     555     559  9.3m
+    69    21     560     564  667%
+    71    22     565     582  FolsaureffolicAod
+    73    22     583     587  1333
+    74    22     588     589  g
+    72    22     590     594  667%
+    79    23     595     598  noe
+    75    23     599     607  Vaain612
+    77    23     608     611  6.7
+    78    23     612     613  g
+    76    23     614     618  667%
+    81    24     619     623  1000
+    82    24     624     625  g
+    80    24     626     630  667%
+    83    25     631     639  om PoanA
+    85    25     640     646  2220RE
+    84    25     647     650  280
+
+=================================================================
+
+=================================================================
+  IMAGE: 201.jpeg
+  OCR tokens (after corrector): 39
+  Serialized tokens:            39
+  Visual lines detected:        13
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Supplement Facts
+  Line 02 │ Per/Per/Pro/Pour/ Per/Per/Pro/Pour/
+  Line 03 │ W/Na/Per/Na/Por/ W/Na/Per/Na/Por
+  Line 04 │ nutricional/ Por 100g Por 30gO
+  Line 05 │ Energie/ Energy/Energie/Energie/Wartosc energetyczna/Energeticka
+  Line 06 │ hodnota/Energia/Energia/Valor energetico/Energia 1642 kJ/392kcal 493kJ/118kcal
+  Line 07 │ 69 2 g
+  Line 08 │ 4.2 g 1.3 g
+  Line 09 │ cuales saturadas/ dos quais saturados
+  Line 10 │ 8.1 g 24 g
+  Line 11 │ cukry/di cui zuccheri/z toho cukry/de los cuales azucares/dos quais acucares 779 2.3 g
+  Line 12 │ Proteinas/Proteinas Eiwitten/Protein/Eiweib/Protéines/Biatko/Bilkoviny/Proteine/Bielkoviny/ 77 g 23 g
+  Line 13 │ Zout/Salt/Salz/Sel/Sol/Sul/Sale/Sol/Sal/Sal 0.05 g 0.02 g
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  53.0px  [1 tokens]
+    → Supplement Facts
+  Line 02  y= 211.8px  [2 tokens]
+    → Per/Per/Pro/Pour/ | Per/Per/Pro/Pour/
+  Line 03  y= 240.0px  [2 tokens]
+    → W/Na/Per/Na/Por/ | W/Na/Per/Na/Por
+  Line 04  y= 267.3px  [3 tokens]
+    → nutricional/ | Por 100g | Por 30gO
+  Line 05  y= 294.0px  [1 tokens]
+    → Energie/ Energy/Energie/Energie/Wartosc energetyczna/Energeticka
+  Line 06  y= 321.2px  [3 tokens]
+    → hodnota/Energia/Energia/Valor energetico/Energia | 1642 kJ/392kcal | 493kJ/118kcal
+  Line 07  y= 373.5px  [3 tokens]
+    → 69 | 2 | g
+  Line 08  y= 433.8px  [4 tokens]
+    → 4.2 | g | 1.3 | g
+  Line 09  y= 475.5px  [1 tokens]
+    → cuales saturadas/ dos quais saturados
+  Line 10  y= 521.2px  [4 tokens]
+    → 8.1 | g | 24 | g
+  Line 11  y= 583.1px  [4 tokens]
+    → cukry/di cui zuccheri/z toho cukry/de los cuales azucares/dos quais acucares | 779 | 2.3 | g
+  Line 12  y= 650.8px  [6 tokens]
+    → Proteinas/Proteinas | Eiwitten/Protein/Eiweib/Protéines/Biatko/Bilkoviny/Proteine/Bielkoviny/ | 77 | g | 23 | g
+  Line 13  y= 703.1px  [5 tokens]
+    → Zout/Salt/Salz/Sel/Sol/Sul/Sale/Sol/Sal/Sal | 0.05 | g | 0.02 | g
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      16  Supplement Facts
+     1     1      17      34  Per/Per/Pro/Pour/
+     2     1      35      52  Per/Per/Pro/Pour/
+     3     2      53      69  W/Na/Per/Na/Por/
+     4     2      70      85  W/Na/Per/Na/Por
+     5     3      86      98  nutricional/
+     6     3      99     107  Por 100g
+     7     3     108     116  Por 30gO
+     8     4     117     181  Energie/ Energy/Energie/Energie/Wartosc energetyczna/Energeticka
+    11     5     182     230  hodnota/Energia/Energia/Valor energetico/Energia
+     9     5     231     246  1642 kJ/392kcal
+    10     5     247     260  493kJ/118kcal
+    12     6     261     263  69
+    13     6     264     265  2
+    14     6     266     267  g
+    15     7     268     271  4.2
+    16     7     272     273  g
+    17     7     274     277  1.3
+    18     7     278     279  g
+    19     8     280     317  cuales saturadas/ dos quais saturados
+    22     9     318     321  8.1
+    23     9     322     323  g
+    20     9     324     326  24
+    21     9     327     328  g
+    27    10     329     405  cukry/di cui zuccheri/z toho cukry/de los cuales azucares/dos quais acucares
+    26    10     406     409  779
+    24    10     410     413  2.3
+    25    10     414     415  g
+    31    11     416     435  Proteinas/Proteinas
+    28    11     436     507  Eiwitten/Protein/Eiweib/Protéines/Biatko/Bilkoviny/Proteine/Bielkoviny/
+    29    11     508     510  77
+    30    11     511     512  g
+    32    11     513     515  23
+    33    11     516     517  g
+    34    12     518     561  Zout/Salt/Salz/Sel/Sol/Sul/Sale/Sol/Sal/Sal
+    35    12     562     566  0.05
+    36    12     567     568  g
+    37    12     569     573  0.02
+    38    12     574     575  g
+
+=================================================================
+
+=================================================================
+  IMAGE: 26.jpeg
+  OCR tokens (after corrector): 87
+  Serialized tokens:            87
+  Visual lines detected:        10
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ DK/NO/SE FIN NL/BE ES FR/BE/CH. UK/AUS PR.100g EG-
+  Line 02 │ DE/AT/CH NAERINGSINDHOLD RAVINTOSISALTO VOEDINGSWAARDEN INFO NUTRICIONAL ICIONAL INFONUTRITIONNELLE NUTRITIONAL INFO
+  Line 03 │ NAHRWERTE energie Energie VALOR ENERGETICO Eistian Energie ENERGY 942/255kJ/KCAL
+  Line 04 │ Energie energie RASVAT VETTEN GRASAS lipides GRAISSES FAT Og
+  Line 05 │ FETT FEDT HERAFMEITEDE JOISTA WAARVAN DE LAS CUALES DOSQUAIS SATURADOS DONTACIDES GRAS SATURES OFWHICH
+  Line 06 │ Fettsauren davon gesattigte FEDTSYRER TYYDYITYNEITA VERZADIGDE VETZUREN SATURADAS HIDRATOS DE CARBONO HIDRATOS DE CARBONO GLUCIDES SATURATES CARBOHYDRATE 56 g
+  Line 07 │ Kohlenhydrate KULHYDRAT HIILIHYDRAATTI JOISTA SOKEREITA KOOLHYDRATEN WAARVAN SUIKERS DE LOS CUALES AZUCARES DOS QUAIS ACUCARES DONTSUCRES OF WHICH SUGARS 3.1.5
+  Line 08 │ DAVON ZUCKER HERAFSUKKERARTER EIWITTEN protein proteins CROTFWES protein 20.19
+  Line 09 │ eiweiss PROTEIN protein zout SAL. SAL SF SAIT-
+  Line 10 │ SALZ SALT SUOLA
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  15.2px  [8 tokens]
+    → DK/NO/SE | FIN | NL/BE | ES | FR/BE/CH. | UK/AUS | PR.100g | EG-
+  Line 02  y=  34.0px  [8 tokens]
+    → DE/AT/CH | NAERINGSINDHOLD | RAVINTOSISALTO | VOEDINGSWAARDEN | INFO NUTRICIONAL | ICIONAL | INFONUTRITIONNELLE | NUTRITIONAL INFO
+  Line 03  y=  49.5px  [8 tokens]
+    → NAHRWERTE | energie | Energie | VALOR ENERGETICO | Eistian | Energie | ENERGY | 942/255kJ/KCAL
+  Line 04  y=  64.0px  [9 tokens]
+    → Energie | energie | RASVAT | VETTEN | GRASAS | lipides | GRAISSES | FAT | Og
+  Line 05  y=  81.0px  [11 tokens]
+    → FETT | FEDT | HERAFMEITEDE | JOISTA | WAARVAN | DE LAS CUALES | DOSQUAIS | SATURADOS | DONTACIDES | GRAS SATURES | OFWHICH
+  Line 06  y=  99.7px  [13 tokens]
+    → Fettsauren | davon gesattigte | FEDTSYRER | TYYDYITYNEITA | VERZADIGDE VETZUREN | SATURADAS | HIDRATOS DE CARBONO | HIDRATOS DE CARBONO | GLUCIDES | SATURATES | CARBOHYDRATE | 56 | g
+  Line 07  y= 119.4px  [11 tokens]
+    → Kohlenhydrate | KULHYDRAT | HIILIHYDRAATTI | JOISTA SOKEREITA | KOOLHYDRATEN | WAARVAN SUIKERS | DE LOS CUALES AZUCARES | DOS QUAIS ACUCARES | DONTSUCRES | OF WHICH SUGARS | 3.1.5
+  Line 08  y= 135.0px  [8 tokens]
+    → DAVON ZUCKER | HERAFSUKKERARTER | EIWITTEN | protein | proteins | CROTFWES | protein | 20.19
+  Line 09  y= 149.9px  [8 tokens]
+    → eiweiss | PROTEIN | protein | zout | SAL. | SAL | SF | SAIT-
+  Line 10  y= 165.2px  [3 tokens]
+    → SALZ | SALT | SUOLA
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     6     0       0       8  DK/NO/SE
+     5     0       9      12  FIN
+     2     0      13      18  NL/BE
+     4     0      19      21  ES
+     1     0      22      31  FR/BE/CH.
+     3     0      32      38  UK/AUS
+     7     0      39      46  PR.100g
+     0     0      47      50  EG-
+     8     1      51      59  DE/AT/CH
+    15     1      60      75  NAERINGSINDHOLD
+    14     1      76      90  RAVINTOSISALTO
+    12     1      91     106  VOEDINGSWAARDEN
+    10     1     107     123  INFO NUTRICIONAL
+    11     1     124     131  ICIONAL
+     9     1     132     150  INFONUTRITIONNELLE
+    13     1     151     167  NUTRITIONAL INFO
+    18     2     168     177  NAHRWERTE
+    23     2     178     185  energie
+    22     2     186     193  Energie
+    17     2     194     210  VALOR ENERGETICO
+    21     2     211     218  Eistian
+    16     2     219     226  Energie
+    19     2     227     233  ENERGY
+    20     2     234     248  942/255kJ/KCAL
+    30     3     249     256  Energie
+    24     3     257     264  energie
+    32     3     265     271  RASVAT
+    31     3     272     278  VETTEN
+    28     3     279     285  GRASAS
+    26     3     286     293  lipides
+    27     3     294     302  GRAISSES
+    29     3     303     306  FAT
+    25     3     307     309  Og
+    38     4     310     314  FETT
+    33     4     315     319  FEDT
+    42     4     320     332  HERAFMEITEDE
+    40     4     333     339  JOISTA
+    39     4     340     347  WAARVAN
+    37     4     348     361  DE LAS CUALES
+    35     4     362     370  DOSQUAIS
+    43     4     371     380  SATURADOS
+    34     4     381     391  DONTACIDES
+    41     4     392     404  GRAS SATURES
+    36     4     405     412  OFWHICH
+    56     5     413     423  Fettsauren
+    45     5     424     440  davon gesattigte
+    52     5     441     450  FEDTSYRER
+    48     5     451     464  TYYDYITYNEITA
+    47     5     465     484  VERZADIGDE VETZUREN
+    46     5     485     494  SATURADAS
+    55     5     495     514  HIDRATOS DE CARBONO
+    53     5     515     534  HIDRATOS DE CARBONO
+    51     5     535     543  GLUCIDES
+    44     5     544     553  SATURATES
+    54     5     554     566  CARBOHYDRATE
+    49     5     567     569  56
+    50     5     570     571  g
+    64     6     572     585  Kohlenhydrate
+    61     6     586     595  KULHYDRAT
+    58     6     596     610  HIILIHYDRAATTI
+    67     6     611     627  JOISTA SOKEREITA
+    57     6     628     640  KOOLHYDRATEN
+    65     6     641     656  WAARVAN SUIKERS
+    63     6     657     679  DE LOS CUALES AZUCARES
+    59     6     680     698  DOS QUAIS ACUCARES
+    60     6     699     709  DONTSUCRES
+    62     6     710     725  OF WHICH SUGARS
+    66     6     726     731  3.1.5
+    73     7     732     744  DAVON ZUCKER
+    69     7     745     761  HERAFSUKKERARTER
+    74     7     762     770  EIWITTEN
+    72     7     771     778  protein
+    70     7     779     787  proteins
+    68     7     788     796  CROTFWES
+    71     7     797     804  protein
+    75     7     805     810  20.19
+    82     8     811     818  eiweiss
+    80     8     819     826  PROTEIN
+    76     8     827     834  protein
+    83     8     835     839  zout
+    81     8     840     844  SAL.
+    79     8     845     848  SAL
+    77     8     849     851  SF
+    78     8     852     857  SAIT-
+    86     9     858     862  SALZ
+    85     9     863     867  SALT
+    84     9     868     873  SUOLA
+
+=================================================================
+
+=================================================================
+  IMAGE: 27.jpeg
+  OCR tokens (after corrector): 32
+  Serialized tokens:            32
+  Visual lines detected:        14
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ badadin.Getutu pro 100g RDA"
+  Line 02 │ mob00t
+  Line 03 │ 1254(300kal)
+  Line 04 │ <0.1 g
+  Line 05 │ 499
+  Line 06 │ <0.,59
+  Line 07 │ 4000 mg 500%
+  Line 08 │ 2000 mg 533%
+  Line 09 │ 75 mg 750%
+  Line 10 │ 10000 g 1000
+  Line 11 │ oezin 15 mg 750%
+  Line 12 │ 8969 2740%
+  Line 13 │ 251 9 456%
+  Line 14 │ 37 g 740%
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  57.0px  [3 tokens]
+    → badadin.Getutu | pro 100g | RDA"
+  Line 02  y=  76.5px  [1 tokens]
+    → mob00t
+  Line 03  y=  98.0px  [1 tokens]
+    → 1254(300kal)
+  Line 04  y= 122.0px  [2 tokens]
+    → <0.1 | g
+  Line 05  y= 143.5px  [1 tokens]
+    → 499
+  Line 06  y= 164.5px  [1 tokens]
+    → <0.,59
+  Line 07  y= 185.5px  [3 tokens]
+    → 4000 | mg | 500%
+  Line 08  y= 207.2px  [3 tokens]
+    → 2000 | mg | 533%
+  Line 09  y= 228.5px  [3 tokens]
+    → 75 | mg | 750%
+  Line 10  y= 249.8px  [3 tokens]
+    → 10000 | g | 1000
+  Line 11  y= 271.6px  [4 tokens]
+    → oezin | 15 | mg | 750%
+  Line 12  y= 291.0px  [2 tokens]
+    → 8969 | 2740%
+  Line 13  y= 312.8px  [2 tokens]
+    → 251 9 | 456%
+  Line 14  y= 332.8px  [3 tokens]
+    → 37 | g | 740%
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      14  badadin.Getutu
+     2     0      15      23  pro 100g
+     1     0      24      28  RDA"
+     3     1      29      35  mob00t
+     4     2      36      48  1254(300kal)
+     5     3      49      53  <0.1
+     6     3      54      55  g
+     7     4      56      59  499
+     8     5      60      66  <0.,59
+    10     6      67      71  4000
+    11     6      72      74  mg
+     9     6      75      79  500%
+    13     7      80      84  2000
+    14     7      85      87  mg
+    12     7      88      92  533%
+    16     8      93      95  75
+    17     8      96      98  mg
+    15     8      99     103  750%
+    19     9     104     109  10000
+    20     9     110     111  g
+    18     9     112     116  1000
+    24    10     117     122  oezin
+    22    10     123     125  15
+    23    10     126     128  mg
+    21    10     129     133  750%
+    26    11     134     138  8969
+    25    11     139     144  2740%
+    28    12     145     150  251 9
+    27    12     151     155  456%
+    30    13     156     158  37
+    31    13     159     160  g
+    29    13     161     165  740%
+
+=================================================================
+
+=================================================================
+  IMAGE: 30.jpeg
+  OCR tokens (after corrector): 29
+  Serialized tokens:            29
+  Visual lines detected:        11
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ AUS NUTRITION INFORMATION
+  Line 02 │ Per Bar 55g Per100g
+  Line 03 │ TYPICALVALUES
+  Line 04 │ ENERGY kJ/kcal 907/215 1649/391
+  Line 05 │ protein 2.7 4.8
+  Line 06 │ FAT:(9 5.0 9.1
+  Line 07 │ -SATURATED FAT g 2.7 4.9
+  Line 08 │ carbohydrate 39 71
+  Line 09 │ -SUGARSg 19 35
+  Line 10 │ dietary fibre 2.0 3.6
+  Line 11 │ SODIUM(mg) 70 130
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  52.5px  [2 tokens]
+    → AUS | NUTRITION INFORMATION
+  Line 02  y=  88.5px  [2 tokens]
+    → Per Bar 55g | Per100g
+  Line 03  y= 111.5px  [1 tokens]
+    → TYPICALVALUES
+  Line 04  y= 139.2px  [3 tokens]
+    → ENERGY kJ/kcal | 907/215 | 1649/391
+  Line 05  y= 165.3px  [3 tokens]
+    → protein | 2.7 | 4.8
+  Line 06  y= 190.8px  [3 tokens]
+    → FAT:(9 | 5.0 | 9.1
+  Line 07  y= 217.5px  [3 tokens]
+    → -SATURATED FAT g | 2.7 | 4.9
+  Line 08  y= 242.2px  [3 tokens]
+    → carbohydrate | 39 | 71
+  Line 09  y= 266.2px  [3 tokens]
+    → -SUGARSg | 19 | 35
+  Line 10  y= 290.8px  [3 tokens]
+    → dietary fibre | 2.0 | 3.6
+  Line 11  y= 313.7px  [3 tokens]
+    → SODIUM(mg) | 70 | 130
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       3  AUS
+     1     0       4      25  NUTRITION INFORMATION
+     3     1      26      37  Per Bar 55g
+     2     1      38      45  Per100g
+     4     2      46      59  TYPICALVALUES
+     5     3      60      74  ENERGY kJ/kcal
+     7     3      75      82  907/215
+     6     3      83      91  1649/391
+     8     4      92      99  protein
+    10     4     100     103  2.7
+     9     4     104     107  4.8
+    11     5     108     114  FAT:(9
+    13     5     115     118  5.0
+    12     5     119     122  9.1
+    14     6     123     139  -SATURATED FAT g
+    16     6     140     143  2.7
+    15     6     144     147  4.9
+    18     7     148     160  carbohydrate
+    19     7     161     163  39
+    17     7     164     166  71
+    20     8     167     175  -SUGARSg
+    22     8     176     178  19
+    21     8     179     181  35
+    23     9     182     195  dietary fibre
+    25     9     196     199  2.0
+    24     9     200     203  3.6
+    26    10     204     214  SODIUM(mg)
+    27    10     215     217  70
+    28    10     218     221  130
+
+=================================================================
+
+=================================================================
+  IMAGE: 33.jpeg
+  OCR tokens (after corrector): 41
+  Serialized tokens:            41
+  Visual lines detected:        16
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Nahrwerte/nutrition facts 10075g300ml
+  Line 02 │ Energle/energy kJ kca 1660(3901245(293
+  Line 03 │ Fett/fat davon gesettige Fesren 88
+  Line 04 │ of which saturates
+  Line 05 │ davon Zuckerarten/ Kohlenhydrate/carbohydrates 89 229
+  Line 06 │ of which sugars
+  Line 07 │ Eiweiss/protein Og 0 g
+  Line 08 │ Salz/salt 6350 0.40 g
+  Line 09 │ Mineralstofie/minerals %NRY' SNRVS
+  Line 10 │ Natriurm/sodium 210 mg 158
+  Line 11 │ Calcium 35mg4% 26mg3%
+  Line 12 │ Magnesium 25mg7% 19g5%
+  Line 13 │ Kalium/potassium 55mg3% 42%
+  Line 14 │ Chlorid/chlorure 140mg 18%105mg13%
+  Line 15 │ NRV.nutrient reference values
+  Line 16 │ 100mfertige Zubereitung enthaten 415k99 a
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  31.2px  [2 tokens]
+    → Nahrwerte/nutrition facts | 10075g300ml
+  Line 02  y=  47.0px  [2 tokens]
+    → Energle/energy kJ kca | 1660(3901245(293
+  Line 03  y=  68.8px  [3 tokens]
+    → Fett/fat | davon gesettige Fesren | 88
+  Line 04  y=  85.5px  [1 tokens]
+    → of which saturates
+  Line 05  y= 105.9px  [4 tokens]
+    → davon Zuckerarten/ | Kohlenhydrate/carbohydrates | 89 | 229
+  Line 06  y= 122.5px  [1 tokens]
+    → of which sugars
+  Line 07  y= 136.6px  [4 tokens]
+    → Eiweiss/protein | Og | 0 | g
+  Line 08  y= 151.8px  [4 tokens]
+    → Salz/salt | 6350 | 0.40 | g
+  Line 09  y= 170.0px  [3 tokens]
+    → Mineralstofie/minerals | %NRY' | SNRVS
+  Line 10  y= 186.2px  [4 tokens]
+    → Natriurm/sodium | 210 | mg | 158
+  Line 11  y= 201.5px  [3 tokens]
+    → Calcium | 35mg4% | 26mg3%
+  Line 12  y= 216.5px  [3 tokens]
+    → Magnesium | 25mg7% | 19g5%
+  Line 13  y= 231.3px  [3 tokens]
+    → Kalium/potassium | 55mg3% | 42%
+  Line 14  y= 245.5px  [2 tokens]
+    → Chlorid/chlorure | 140mg 18%105mg13%
+  Line 15  y= 262.5px  [1 tokens]
+    → NRV.nutrient reference values
+  Line 16  y= 273.5px  [1 tokens]
+    → 100mfertige Zubereitung enthaten 415k99 a
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      25  Nahrwerte/nutrition facts
+     1     0      26      37  10075g300ml
+     2     1      38      59  Energle/energy kJ kca
+     3     1      60      76  1660(3901245(293
+     4     2      77      85  Fett/fat
+     6     2      86     108  davon gesettige Fesren
+     5     2     109     111  88
+     7     3     112     130  of which saturates
+    11     4     131     149  davon Zuckerarten/
+     8     4     150     177  Kohlenhydrate/carbohydrates
+     9     4     178     180  89
+    10     4     181     184  229
+    12     5     185     200  of which sugars
+    14     6     201     216  Eiweiss/protein
+    13     6     217     219  Og
+    15     6     220     221  0
+    16     6     222     223  g
+    18     7     224     233  Salz/salt
+    17     7     234     238  6350
+    19     7     239     243  0.40
+    20     7     244     245  g
+    23     8     246     268  Mineralstofie/minerals
+    21     8     269     274  %NRY'
+    22     8     275     280  SNRVS
+    27     9     281     296  Natriurm/sodium
+    24     9     297     300  210
+    25     9     301     303  mg
+    26     9     304     307  158
+    30    10     308     315  Calcium
+    28    10     316     322  35mg4%
+    29    10     323     329  26mg3%
+    33    11     330     339  Magnesium
+    31    11     340     346  25mg7%
+    32    11     347     352  19g5%
+    36    12     353     369  Kalium/potassium
+    34    12     370     376  55mg3%
+    35    12     377     380  42%
+    38    13     381     397  Chlorid/chlorure
+    37    13     398     415  140mg 18%105mg13%
+    39    14     416     445  NRV.nutrient reference values
+    40    15     446     487  100mfertige Zubereitung enthaten 415k99 a
+
+=================================================================
+
+=================================================================
+  IMAGE: 34.jpeg
+  OCR tokens (after corrector): 113
+  Serialized tokens:            113
+  Visual lines detected:        25
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ ILTH
+  Line 02 │ thNutritional Per Per 25g
+  Line 03 │ information 100g serving
+  Line 04 │ Energy 1356 kJ PIGEE
+  Line 05 │ 319 kcal 80 kcal
+  Line 06 │ y. Fat Og Og
+  Line 07 │ Carbohydrate 80 g 20 g
+  Line 08 │ of which sugars 778 19 g
+  Line 09 │ Fibre 56 1.2 g
+  Line 10 │ Protein Og
+  Line 11 │ Salt 3.58 0.9
+  Line 12 │ Minerals RDA
+  Line 13 │ Calcium 400 mg 100 mg 13%
+  Line 14 │ Potassium 400 mg 100 mg 5%
+  Line 15 │ S Magnesium 100 mg 25 mg 7%
+  Line 16 │ Zinc 2.6 mg 0.7 mg 7%
+  Line 17 │ Vitamins
+  Line 18 │ C 72 mg 18 mg 22%
+  Line 19 │ 83 12 mg 3.0 mg 19%
+  Line 20 │ 86 3.2 mg 0.8 mg 57%
+  Line 21 │ 85 2.9 mg 0.7 mg 12%
+  Line 22 │ B1 0.8 mg 0.2 mg 18%
+  Line 23 │ 82 0.8 mg 0.2 mg 14%
+  Line 24 │ Follcacld 34 ug 8.4 ug 4%
+  Line 25 │ 812 3.50 g 0.9 ug 35%
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  38.5px  [1 tokens]
+    → ILTH
+  Line 02  y=  86.0px  [3 tokens]
+    → thNutritional | Per | Per 25g
+  Line 03  y=  98.8px  [3 tokens]
+    → information | 100g | serving
+  Line 04  y= 111.9px  [4 tokens]
+    → Energy | 1356 | kJ | PIGEE
+  Line 05  y= 124.0px  [4 tokens]
+    → 319 | kcal | 80 | kcal
+  Line 06  y= 139.9px  [4 tokens]
+    → y. | Fat | Og | Og
+  Line 07  y= 152.1px  [5 tokens]
+    → Carbohydrate | 80 | g | 20 | g
+  Line 08  y= 166.2px  [4 tokens]
+    → of which sugars | 778 | 19 | g
+  Line 09  y= 180.4px  [4 tokens]
+    → Fibre | 56 | 1.2 | g
+  Line 10  y= 195.0px  [2 tokens]
+    → Protein | Og
+  Line 11  y= 208.0px  [3 tokens]
+    → Salt | 3.58 | 0.9
+  Line 12  y= 221.8px  [2 tokens]
+    → Minerals | RDA
+  Line 13  y= 235.2px  [6 tokens]
+    → Calcium | 400 | mg | 100 | mg | 13%
+  Line 14  y= 249.2px  [6 tokens]
+    → Potassium | 400 | mg | 100 | mg | 5%
+  Line 15  y= 263.1px  [7 tokens]
+    → S | Magnesium | 100 | mg | 25 | mg | 7%
+  Line 16  y= 277.8px  [6 tokens]
+    → Zinc | 2.6 | mg | 0.7 | mg | 7%
+  Line 17  y= 292.5px  [1 tokens]
+    → Vitamins
+  Line 18  y= 306.5px  [6 tokens]
+    → C | 72 | mg | 18 | mg | 22%
+  Line 19  y= 321.0px  [6 tokens]
+    → 83 | 12 | mg | 3.0 | mg | 19%
+  Line 20  y= 335.9px  [6 tokens]
+    → 86 | 3.2 | mg | 0.8 | mg | 57%
+  Line 21  y= 351.4px  [6 tokens]
+    → 85 | 2.9 | mg | 0.7 | mg | 12%
+  Line 22  y= 366.8px  [6 tokens]
+    → B1 | 0.8 | mg | 0.2 | mg | 18%
+  Line 23  y= 382.1px  [6 tokens]
+    → 82 | 0.8 | mg | 0.2 | mg | 14%
+  Line 24  y= 397.4px  [6 tokens]
+    → Follcacld | 34 | ug | 8.4 | ug | 4%
+  Line 25  y= 412.8px  [6 tokens]
+    → 812 | 3.50 | g | 0.9 | ug | 35%
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       4  ILTH
+     3     1       5      18  thNutritional
+     2     1      19      22  Per
+     1     1      23      30  Per 25g
+     6     2      31      42  information
+     5     2      43      47  100g
+     4     2      48      55  serving
+    10     3      56      62  Energy
+     8     3      63      67  1356
+     9     3      68      70  kJ
+     7     3      71      76  PIGEE
+    13     4      77      80  319
+    14     4      81      85  kcal
+    11     4      86      88  80
+    12     4      89      93  kcal
+    18     5      94      96  y.
+    17     5      97     100  Fat
+    16     5     101     103  Og
+    15     5     104     106  Og
+    23     6     107     119  Carbohydrate
+    19     6     120     122  80
+    20     6     123     124  g
+    21     6     125     127  20
+    22     6     128     129  g
+    27     7     130     145  of which sugars
+    24     7     146     149  778
+    25     7     150     152  19
+    26     7     153     154  g
+    31     8     155     160  Fibre
+    28     8     161     163  56
+    29     8     164     167  1.2
+    30     8     168     169  g
+    33     9     170     177  Protein
+    32     9     178     180  Og
+    34    10     181     185  Salt
+    35    10     186     190  3.58
+    36    10     191     194  0.9
+    38    11     195     203  Minerals
+    37    11     204     207  RDA
+    44    12     208     215  Calcium
+    39    12     216     219  400
+    40    12     220     222  mg
+    41    12     223     226  100
+    42    12     227     229  mg
+    43    12     230     233  13%
+    50    13     234     243  Potassium
+    45    13     244     247  400
+    46    13     248     250  mg
+    47    13     251     254  100
+    48    13     255     257  mg
+    49    13     258     260  5%
+    52    14     261     262  S
+    57    14     263     272  Magnesium
+    53    14     273     276  100
+    54    14     277     279  mg
+    55    14     280     282  25
+    56    14     283     285  mg
+    51    14     286     288  7%
+    59    15     289     293  Zinc
+    60    15     294     297  2.6
+    61    15     298     300  mg
+    62    15     301     304  0.7
+    63    15     305     307  mg
+    58    15     308     310  7%
+    64    16     311     319  Vitamins
+    65    17     320     321  C
+    66    17     322     324  72
+    67    17     325     327  mg
+    68    17     328     330  18
+    69    17     331     333  mg
+    70    17     334     337  22%
+    71    18     338     340  83
+    72    18     341     343  12
+    73    18     344     346  mg
+    74    18     347     350  3.0
+    75    18     351     353  mg
+    76    18     354     357  19%
+    77    19     358     360  86
+    78    19     361     364  3.2
+    79    19     365     367  mg
+    80    19     368     371  0.8
+    81    19     372     374  mg
+    82    19     375     378  57%
+    83    20     379     381  85
+    84    20     382     385  2.9
+    85    20     386     388  mg
+    87    20     389     392  0.7
+    88    20     393     395  mg
+    86    20     396     399  12%
+    89    21     400     402  B1
+    90    21     403     406  0.8
+    91    21     407     409  mg
+    92    21     410     413  0.2
+    93    21     414     416  mg
+    94    21     417     420  18%
+    95    22     421     423  82
+    96    22     424     427  0.8
+    97    22     428     430  mg
+    99    22     431     434  0.2
+   100    22     435     437  mg
+    98    22     438     441  14%
+   101    23     442     451  Follcacld
+   102    23     452     454  34
+   103    23     455     457  ug
+   104    23     458     461  8.4
+   105    23     462     464  ug
+   106    23     465     467  4%
+   107    24     468     471  812
+   108    24     472     476  3.50
+   109    24     477     478  g
+   110    24     479     482  0.9
+   111    24     483     485  ug
+   112    24     486     489  35%
+
+=================================================================
+
+=================================================================
+  IMAGE: 35.jpeg
+  OCR tokens (after corrector): 12
+  Serialized tokens:            12
+  Visual lines detected:        5
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Zusammensetzung pro 100g pro3Tabletten/(NRV)
+  Line 02 │ 4.7 g 225mg/60%
+  Line 03 │ Magnesium 100.8mg/126%)
+  Line 04 │ Vitamin C 2.1 g
+  Line 05 │ *NRV=%der Nahrstoffbezugswerte gemaB EU-VO 1169/2011
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  27.8px  [3 tokens]
+    → Zusammensetzung | pro 100g | pro3Tabletten/(NRV)
+  Line 02  y=  47.8px  [3 tokens]
+    → 4.7 | g | 225mg/60%
+  Line 03  y=  62.2px  [2 tokens]
+    → Magnesium | 100.8mg/126%)
+  Line 04  y=  76.8px  [3 tokens]
+    → Vitamin C | 2.1 | g
+  Line 05  y=  98.0px  [1 tokens]
+    → *NRV=%der Nahrstoffbezugswerte gemaB EU-VO 1169/2011
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     2     0       0      15  Zusammensetzung
+     1     0      16      24  pro 100g
+     0     0      25      44  pro3Tabletten/(NRV)
+     4     1      45      48  4.7
+     5     1      49      50  g
+     3     1      51      60  225mg/60%
+     6     2      61      70  Magnesium
+     7     2      71      84  100.8mg/126%)
+    10     3      85      94  Vitamin C
+     8     3      95      98  2.1
+     9     3      99     100  g
+    11     4     101     153  *NRV=%der Nahrstoffbezugswerte gemaB EU-VO 1169/2011
+
+=================================================================
+
+=================================================================
+  IMAGE: 4.jpeg
+  OCR tokens (after corrector): 90
+  Serialized tokens:            90
+  Visual lines detected:        9
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ 505729 NATOR LE671UD.AUSRMG SPORT.DISTRIBUTION PTY LTD.SUITE21.3-9TERMNUSSTREET.CASTLE IT UK PR.100g
+  Line 02 │ DE/AT/CH DK/NO/SE NL E FR/BE ES INFONUTRICOPAL FI RAVINTOSISALTO NALORI NUTRZONALI NUTRTION NO
+  Line 03 │ NAHAWERTE NERINGSINDHOLD VOEDINSWAARDEN INFONUTRITICNELLE VALOR ENERGETICO INFO NUTRICIONAL ENERGA energie VALOREENERGETICO FAT ENERGY 11
+  Line 04 │ Energie energie Energie Energie GRAISSES GRASAS LPOXS DOSOUAS OSTA RASVAT GRASSI OFNFICH saturates
+  Line 05 │ FETT FEDT HERAFMETTEDE VETTEN WAARVAN DONTACIDES GRAS SATURES SATURADAS DELAS CUALES SATURALOS IYYUYTTYAETA HIUHYDRAATTI SATUR carbohydrate carbohydrate FINOYSUGARS
+  Line 06 │ Fettsauren davon gesattigte FEDTSYRER KOOLHYDRATEN verzadigde vetzuren GLUCIDES DELOSCOALESAEUCA HIDRATOSDECABRONO MIORATOS DECAAS protein proteines SALT- protein
+  Line 07 │ Kohlenhydrate KULHYDRAT HERAF SUOERARTER WAARVAN SUIKERS PROTEINES DONTSUCRES protein SAL FROTENAS SUOLA SALE
+  Line 08 │ DAVON ZUCKER PROTEIN EIWITTEN SEL SAL
+  Line 09 │ eiweiss CALT ZCS.
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  14.7px  [6 tokens]
+    → 505729 | NATOR | LE671UD.AUSRMG SPORT.DISTRIBUTION PTY LTD.SUITE21.3-9TERMNUSSTREET.CASTLE | IT | UK | PR.100g
+  Line 02  y=  31.0px  [11 tokens]
+    → DE/AT/CH | DK/NO/SE | NL | E | FR/BE | ES | INFONUTRICOPAL | FI | RAVINTOSISALTO | NALORI NUTRZONALI | NUTRTION NO
+  Line 03  y=  46.2px  [12 tokens]
+    → NAHAWERTE | NERINGSINDHOLD | VOEDINSWAARDEN | INFONUTRITICNELLE | VALOR ENERGETICO | INFO NUTRICIONAL | ENERGA | energie | VALOREENERGETICO | FAT | ENERGY | 11
+  Line 04  y=  61.5px  [13 tokens]
+    → Energie | energie | Energie | Energie | GRAISSES | GRASAS | LPOXS | DOSOUAS | OSTA | RASVAT | GRASSI | OFNFICH | saturates
+  Line 05  y=  78.2px  [16 tokens]
+    → FETT | FEDT | HERAFMETTEDE | VETTEN | WAARVAN | DONTACIDES | GRAS SATURES | SATURADAS | DELAS CUALES | SATURALOS | IYYUYTTYAETA | HIUHYDRAATTI | SATUR | carbohydrate | carbohydrate | FINOYSUGARS
+  Line 06  y=  95.4px  [13 tokens]
+    → Fettsauren | davon gesattigte | FEDTSYRER | KOOLHYDRATEN | verzadigde vetzuren | GLUCIDES | DELOSCOALESAEUCA | HIDRATOSDECABRONO | MIORATOS DECAAS | protein | proteines | SALT- | protein
+  Line 07  y= 110.4px  [11 tokens]
+    → Kohlenhydrate | KULHYDRAT | HERAF SUOERARTER | WAARVAN SUIKERS | PROTEINES | DONTSUCRES | protein | SAL | FROTENAS | SUOLA | SALE
+  Line 08  y= 124.4px  [5 tokens]
+    → DAVON ZUCKER | PROTEIN | EIWITTEN | SEL | SAL
+  Line 09  y= 136.7px  [3 tokens]
+    → eiweiss | CALT | ZCS.
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     2     0       0       6  505729
+     0     0       7      12  NATOR
+     1     0      13      86  LE671UD.AUSRMG SPORT.DISTRIBUTION PTY LTD.SUITE21.3-9TERMNUSSTREET.CASTLE
+     5     0      87      89  IT
+     3     0      90      92  UK
+     4     0      93     100  PR.100g
+    15     1     101     109  DE/AT/CH
+    13     1     110     118  DK/NO/SE
+    11     1     119     121  NL
+    10     1     122     123  E
+     9     1     124     129  FR/BE
+     7     1     130     132  ES
+    16     1     133     147  INFONUTRICOPAL
+     6     1     148     150  FI
+    14     1     151     165  RAVINTOSISALTO
+    12     1     166     183  NALORI NUTRZONALI
+     8     1     184     195  NUTRTION NO
+    28     2     196     205  NAHAWERTE
+    23     2     206     220  NERINGSINDHOLD
+    21     2     221     235  VOEDINSWAARDEN
+    19     2     236     253  INFONUTRITICNELLE
+    27     2     254     270  VALOR ENERGETICO
+    17     2     271     287  INFO NUTRICIONAL
+    24     2     288     294  ENERGA
+    22     2     295     302  energie
+    20     2     303     319  VALOREENERGETICO
+    26     2     320     323  FAT
+    18     2     324     330  ENERGY
+    25     2     331     333  11
+    38     3     334     341  Energie
+    35     3     342     349  energie
+    32     3     350     357  Energie
+    30     3     358     365  Energie
+    39     3     366     374  GRAISSES
+    36     3     375     381  GRASAS
+    33     3     382     387  LPOXS
+    41     3     388     395  DOSOUAS
+    37     3     396     400  OSTA
+    31     3     401     407  RASVAT
+    29     3     408     414  GRASSI
+    34     3     415     422  OFNFICH
+    40     3     423     432  saturates
+    50     4     433     437  FETT
+    46     4     438     442  FEDT
+    56     4     443     455  HERAFMETTEDE
+    42     4     456     462  VETTEN
+    52     4     463     470  WAARVAN
+    48     4     471     481  DONTACIDES
+    57     4     482     494  GRAS SATURES
+    54     4     495     504  SATURADAS
+    44     4     505     517  DELAS CUALES
+    49     4     518     527  SATURALOS
+    45     4     528     540  IYYUYTTYAETA
+    53     4     541     553  HIUHYDRAATTI
+    43     4     554     559  SATUR
+    51     4     560     572  carbohydrate
+    47     4     573     585  carbohydrate
+    55     4     586     597  FINOYSUGARS
+    66     5     598     608  Fettsauren
+    58     5     609     625  davon gesattigte
+    63     5     626     635  FEDTSYRER
+    69     5     636     648  KOOLHYDRATEN
+    60     5     649     668  verzadigde vetzuren
+    64     5     669     677  GLUCIDES
+    67     5     678     694  DELOSCOALESAEUCA
+    61     5     695     712  HIDRATOSDECABRONO
+    59     5     713     728  MIORATOS DECAAS
+    68     5     729     736  protein
+    65     5     737     746  proteines
+    70     5     747     752  SALT-
+    62     5     753     760  protein
+    78     6     761     774  Kohlenhydrate
+    74     6     775     784  KULHYDRAT
+    81     6     785     801  HERAF SUOERARTER
+    75     6     802     817  WAARVAN SUIKERS
+    79     6     818     827  PROTEINES
+    71     6     828     838  DONTSUCRES
+    77     6     839     846  protein
+    80     6     847     850  SAL
+    72     6     851     859  FROTENAS
+    76     6     860     865  SUOLA
+    73     6     866     870  SALE
+    84     7     871     883  DAVON ZUCKER
+    86     7     884     891  PROTEIN
+    83     7     892     900  EIWITTEN
+    85     7     901     904  SEL
+    82     7     905     908  SAL
+    88     8     909     916  eiweiss
+    89     8     917     921  CALT
+    87     8     922     926  ZCS.
+
+=================================================================
+
+=================================================================
+  IMAGE: 41.jpeg
+  OCR tokens (after corrector): 15
+  Serialized tokens:            15
+  Visual lines detected:        10
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ UK PR.100g
+  Line 02 │ NUTRITION INEO
+  Line 03 │ ENERGY 612/144KANCAL
+  Line 04 │ FAT 01
+  Line 05 │ OFWHICH
+  Line 06 │ SATURATES
+  Line 07 │ CARBOHYDRATE
+  Line 08 │ OFWHICH SUGARS
+  Line 09 │ PROTEIN 41
+  Line 10 │ SALT 4101
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  13.0px  [2 tokens]
+    → UK | PR.100g
+  Line 02  y=  24.5px  [1 tokens]
+    → NUTRITION INEO
+  Line 03  y=  36.0px  [2 tokens]
+    → ENERGY | 612/144KANCAL
+  Line 04  y=  49.5px  [2 tokens]
+    → FAT | 01
+  Line 05  y=  58.0px  [1 tokens]
+    → OFWHICH
+  Line 06  y=  69.0px  [1 tokens]
+    → SATURATES
+  Line 07  y=  81.0px  [1 tokens]
+    → CARBOHYDRATE
+  Line 08  y=  92.0px  [1 tokens]
+    → OFWHICH SUGARS
+  Line 09  y= 103.2px  [2 tokens]
+    → PROTEIN | 41
+  Line 10  y= 114.8px  [2 tokens]
+    → SALT | 4101
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       2  UK
+     1     0       3      10  PR.100g
+     2     1      11      25  NUTRITION INEO
+     4     2      26      32  ENERGY
+     3     2      33      46  612/144KANCAL
+     5     3      47      50  FAT
+     6     3      51      53  01
+     7     4      54      61  OFWHICH
+     8     5      62      71  SATURATES
+     9     6      72      84  CARBOHYDRATE
+    10     7      85      99  OFWHICH SUGARS
+    12     8     100     107  PROTEIN
+    11     8     108     110  41
+    14     9     111     115  SALT
+    13     9     116     120  4101
+
+=================================================================
+
+=================================================================
+  IMAGE: 42.jpeg
+  OCR tokens (after corrector): 21
+  Serialized tokens:            21
+  Visual lines detected:        11
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ US NUTRITIONALINFORMATION
+  Line 02 │ 1SERV.47gMAKES500ml
+  Line 03 │ FOALYALUES PER SERVE47 100g
+  Line 04 │ RERGYKIKCAL 736/176 1567/374
+  Line 05 │ FROTEIN(g) 0.1
+  Line 06 │ FAT (g)
+  Line 07 │ -SATURATED FAT (g 0
+  Line 08 │ carbohydrate 4
+  Line 09 │ -SUGARS (g
+  Line 10 │ dietary fibre
+  Line 11 │ (0)ICOs 240 500
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  20.5px  [2 tokens]
+    → US | NUTRITIONALINFORMATION
+  Line 02  y=  33.0px  [1 tokens]
+    → 1SERV.47gMAKES500ml
+  Line 03  y=  51.0px  [3 tokens]
+    → FOALYALUES | PER SERVE47 | 100g
+  Line 04  y=  70.8px  [3 tokens]
+    → RERGYKIKCAL | 736/176 | 1567/374
+  Line 05  y=  88.8px  [2 tokens]
+    → FROTEIN(g) | 0.1
+  Line 06  y= 105.0px  [1 tokens]
+    → FAT (g)
+  Line 07  y= 121.0px  [2 tokens]
+    → -SATURATED FAT (g | 0
+  Line 08  y= 137.2px  [2 tokens]
+    → carbohydrate | 4
+  Line 09  y= 153.0px  [1 tokens]
+    → -SUGARS (g
+  Line 10  y= 170.0px  [1 tokens]
+    → dietary fibre
+  Line 11  y= 188.8px  [3 tokens]
+    → (0)ICOs | 240 | 500
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0       2  US
+     0     0       3      25  NUTRITIONALINFORMATION
+     2     1      26      45  1SERV.47gMAKES500ml
+     3     2      46      56  FOALYALUES
+     4     2      57      68  PER SERVE47
+     5     2      69      73  100g
+     6     3      74      85  RERGYKIKCAL
+     7     3      86      93  736/176
+     8     3      94     102  1567/374
+     9     4     103     113  FROTEIN(g)
+    10     4     114     117  0.1
+    11     5     118     125  FAT (g)
+    12     6     126     143  -SATURATED FAT (g
+    13     6     144     145  0
+    14     7     146     158  carbohydrate
+    15     7     159     160  4
+    16     8     161     171  -SUGARS (g
+    17     9     172     185  dietary fibre
+    19    10     186     193  (0)ICOs
+    20    10     194     197  240
+    18    10     198     201  500
+
+=================================================================
+
+=================================================================
+  IMAGE: 45_1.jpeg
+  OCR tokens (after corrector): 26
+  Serialized tokens:            26
+  Visual lines detected:        11
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ AUS NUTRITIONALINFORMATION
+  Line 02 │ 1 SERV.47g MAKES 500ml
+  Line 03 │ FCALVALUES PERSERVE47g 100g
+  Line 04 │ ERGY KJKCAL 736/176 1567/374
+  Line 05 │ PROTEIN (g) 0.1
+  Line 06 │ FAT(g) 0
+  Line 07 │ saturated 0
+  Line 08 │ carbohydrate 44 64
+  Line 09 │ SUGARS(0) 8 38
+  Line 10 │ dietary fibre 0 0
+  Line 11 │ SODILM (mg) 240 500
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  20.0px  [2 tokens]
+    → AUS | NUTRITIONALINFORMATION
+  Line 02  y=  35.0px  [1 tokens]
+    → 1 SERV.47g MAKES 500ml
+  Line 03  y=  59.5px  [2 tokens]
+    → FCALVALUES PERSERVE47g | 100g
+  Line 04  y=  83.2px  [3 tokens]
+    → ERGY KJKCAL | 736/176 | 1567/374
+  Line 05  y= 102.8px  [2 tokens]
+    → PROTEIN (g) | 0.1
+  Line 06  y= 122.0px  [2 tokens]
+    → FAT(g) | 0
+  Line 07  y= 141.2px  [2 tokens]
+    → saturated | 0
+  Line 08  y= 158.8px  [3 tokens]
+    → carbohydrate | 44 | 64
+  Line 09  y= 179.0px  [3 tokens]
+    → SUGARS(0) | 8 | 38
+  Line 10  y= 196.7px  [3 tokens]
+    → dietary fibre | 0 | 0
+  Line 11  y= 215.7px  [3 tokens]
+    → SODILM (mg) | 240 | 500
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0       3  AUS
+     0     0       4      26  NUTRITIONALINFORMATION
+     2     1      27      49  1 SERV.47g MAKES 500ml
+     3     2      50      72  FCALVALUES PERSERVE47g
+     4     2      73      77  100g
+     7     3      78      89  ERGY KJKCAL
+     6     3      90      97  736/176
+     5     3      98     106  1567/374
+     9     4     107     118  PROTEIN (g)
+     8     4     119     122  0.1
+    11     5     123     129  FAT(g)
+    10     5     130     131  0
+    13     6     132     141  saturated
+    12     6     142     143  0
+    16     7     144     156  carbohydrate
+    15     7     157     159  44
+    14     7     160     162  64
+    19     8     163     172  SUGARS(0)
+    18     8     173     174  8
+    17     8     175     177  38
+    22     9     178     191  dietary fibre
+    21     9     192     193  0
+    20     9     194     195  0
+    25    10     196     207  SODILM (mg)
+    24    10     208     211  240
+    23    10     212     215  500
+
+=================================================================
+
+=================================================================
+  IMAGE: 45_2.jpeg
+  OCR tokens (after corrector): 20
+  Serialized tokens:            20
+  Visual lines detected:        10
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ UK/AUS PR.100g
+  Line 02 │ VELLE NUTRITIONALINFO
+  Line 03 │ ENERGY 1567/374kJ/KCAL
+  Line 04 │ FAT 0 g
+  Line 05 │ OFWHICH
+  Line 06 │ SATURATES 0 g
+  Line 07 │ CARBOHYDRATE 94 g
+  Line 08 │ OFWHICH SUGARS 390
+  Line 09 │ PROTEIN 0.19
+  Line 10 │ SAT
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  18.2px  [2 tokens]
+    → UK/AUS | PR.100g
+  Line 02  y=  39.5px  [1 tokens]
+    → VELLE NUTRITIONALINFO
+  Line 03  y=  59.5px  [2 tokens]
+    → ENERGY | 1567/374kJ/KCAL
+  Line 04  y=  79.8px  [3 tokens]
+    → FAT | 0 | g
+  Line 05  y=  98.0px  [1 tokens]
+    → OFWHICH
+  Line 06  y= 112.2px  [3 tokens]
+    → SATURATES | 0 | g
+  Line 07  y= 130.5px  [3 tokens]
+    → CARBOHYDRATE | 94 | g
+  Line 08  y= 148.2px  [2 tokens]
+    → OFWHICH SUGARS | 390
+  Line 09  y= 164.8px  [2 tokens]
+    → PROTEIN | 0.19
+  Line 10  y= 179.0px  [1 tokens]
+    → SAT
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       6  UK/AUS
+     1     0       7      14  PR.100g
+     2     1      15      36  VELLE NUTRITIONALINFO
+     4     2      37      43  ENERGY
+     3     2      44      59  1567/374kJ/KCAL
+     5     3      60      63  FAT
+     6     3      64      65  0
+     7     3      66      67  g
+     8     4      68      75  OFWHICH
+    11     5      76      85  SATURATES
+     9     5      86      87  0
+    10     5      88      89  g
+    12     6      90     102  CARBOHYDRATE
+    13     6     103     105  94
+    14     6     106     107  g
+    15     7     108     122  OFWHICH SUGARS
+    16     7     123     126  390
+    17     8     127     134  PROTEIN
+    18     8     135     139  0.19
+    19     9     140     143  SAT
+
+=================================================================
+
+=================================================================
+  IMAGE: 51.jpeg
+  OCR tokens (after corrector): 38
+  Serialized tokens:            38
+  Visual lines detected:        10
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Nutrition Inormation per  Nahrwertangabea pro  Informations
+  Line 02 │ Energy | Energie  (kca nutritionnelles par Yoedingswaarde informatie per 100g 60 g
+  Line 03 │ FatFett Maberes grassesVetten 1541(365) 925 (218)
+  Line 04 │ of whkh saturatesdavon geattigte Fetsuren 0.5 g <0.5 g
+  Line 05 │ dont acides gras satures  waanvan verzadigde velzuren 4050 0.50
+  Line 06 │ CarbohydrateKohlenhydrate6lucdesKoolhydraten 64 g 50 g
+  Line 07 │ ProteinEiweleProteinesEiwitten 629 57 g
+  Line 08 │ Sait1SaZout 6.7 g 4.0 g
+  Line 09 │ Vitamin Bine B6 0.3 g 0.08 g
+  Line 10 │ 0.35 mg 25%) 0.21 mg 15%
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  15.5px  [1 tokens]
+    → Nutrition Inormation per  Nahrwertangabea pro  Informations
+  Line 02  y=  38.0px  [5 tokens]
+    → Energy | Energie  (kca | nutritionnelles par Yoedingswaarde informatie per | 100g | 60 | g
+  Line 03  y=  58.5px  [3 tokens]
+    → FatFett Maberes grassesVetten | 1541(365) | 925 (218)
+  Line 04  y=  75.6px  [5 tokens]
+    → of whkh saturatesdavon geattigte Fetsuren | 0.5 | g | <0.5 | g
+  Line 05  y=  98.7px  [3 tokens]
+    → dont acides gras satures  waanvan verzadigde velzuren | 4050 | 0.50
+  Line 06  y= 116.5px  [5 tokens]
+    → CarbohydrateKohlenhydrate6lucdesKoolhydraten | 64 | g | 50 | g
+  Line 07  y= 133.1px  [4 tokens]
+    → ProteinEiweleProteinesEiwitten | 629 | 57 | g
+  Line 08  y= 149.3px  [5 tokens]
+    → Sait1SaZout | 6.7 | g | 4.0 | g
+  Line 09  y= 166.4px  [5 tokens]
+    → Vitamin Bine B6 | 0.3 | g | 0.08 | g
+  Line 10  y= 183.8px  [2 tokens]
+    → 0.35 mg 25%) | 0.21 mg 15%
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      59  Nutrition Inormation per  Nahrwertangabea pro  Informations
+     5     1      60      82  Energy | Energie  (kca
+     1     1      83     132  nutritionnelles par Yoedingswaarde informatie per
+     2     1     133     137  100g
+     3     1     138     140  60
+     4     1     141     142  g
+     8     2     143     172  FatFett Maberes grassesVetten
+     6     2     173     182  1541(365)
+     7     2     183     192  925 (218)
+    13     3     193     234  of whkh saturatesdavon geattigte Fetsuren
+     9     3     235     238  0.5
+    10     3     239     240  g
+    11     3     241     245  <0.5
+    12     3     246     247  g
+    14     4     248     301  dont acides gras satures  waanvan verzadigde velzuren
+    15     4     302     306  4050
+    16     4     307     311  0.50
+    17     5     312     356  CarbohydrateKohlenhydrate6lucdesKoolhydraten
+    18     5     357     359  64
+    19     5     360     361  g
+    20     5     362     364  50
+    21     5     365     366  g
+    25     6     367     397  ProteinEiweleProteinesEiwitten
+    22     6     398     401  629
+    23     6     402     404  57
+    24     6     405     406  g
+    26     7     407     418  Sait1SaZout
+    27     7     419     422  6.7
+    28     7     423     424  g
+    29     7     425     428  4.0
+    30     7     429     430  g
+    31     8     431     446  Vitamin Bine B6
+    32     8     447     450  0.3
+    33     8     451     452  g
+    34     8     453     457  0.08
+    35     8     458     459  g
+    36     9     460     472  0.35 mg 25%)
+    37     9     473     484  0.21 mg 15%
+
+=================================================================
+
+=================================================================
+  IMAGE: 53.jpeg
+  OCR tokens (after corrector): 33
+  Serialized tokens:            33
+  Visual lines detected:        10
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ naboa per lkshwertangabesno Intormatis
+  Line 02 │ nr deinmatie e 100g 62 g
+  Line 03 │ EneEergi c 54665) 925 (28)
+  Line 04 │ FaFett Maies grasses Veten <05 g <05 g
+  Line 05 │ fwh saturatsdavon gesaige Feauren dont acides gras satures waarvan verzadigde vezuren <05 g <0.5 g
+  Line 06 │ CarbohydrateKohlenhydrate GlucdesKooihydraten 618
+  Line 07 │ 629
+  Line 08 │ ProtenEwesProteines/Erwsten 6.7 g 4Dg
+  Line 09 │ SaltSazSelZout 0.Bg 0.08 g
+  Line 10 │ Vitamin 96Vitamine 85 0.35 mg (25% 02m5
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  21.5px  [1 tokens]
+    → naboa per lkshwertangabesno Intormatis
+  Line 02  y=  34.0px  [4 tokens]
+    → nr deinmatie e | 100g | 62 | g
+  Line 03  y=  54.2px  [3 tokens]
+    → EneEergi c | 54665) | 925 (28)
+  Line 04  y=  72.4px  [5 tokens]
+    → FaFett Maies grasses Veten | <05 | g | <05 | g
+  Line 05  y=  97.4px  [6 tokens]
+    → fwh saturatsdavon gesaige Feauren | dont acides gras satures waarvan verzadigde vezuren | <05 | g | <0.5 | g
+  Line 06  y= 118.2px  [2 tokens]
+    → CarbohydrateKohlenhydrate GlucdesKooihydraten | 618
+  Line 07  y= 128.5px  [1 tokens]
+    → 629
+  Line 08  y= 147.6px  [4 tokens]
+    → ProtenEwesProteines/Erwsten | 6.7 | g | 4Dg
+  Line 09  y= 164.5px  [4 tokens]
+    → SaltSazSelZout | 0.Bg | 0.08 | g
+  Line 10  y= 182.0px  [3 tokens]
+    → Vitamin 96Vitamine 85 | 0.35 mg (25% | 02m5
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      38  naboa per lkshwertangabesno Intormatis
+     4     1      39      53  nr deinmatie e
+     3     1      54      58  100g
+     1     1      59      61  62
+     2     1      62      63  g
+     7     2      64      74  EneEergi c
+     6     2      75      81  54665)
+     5     2      82      90  925 (28)
+    12     3      91     117  FaFett Maies grasses Veten
+    10     3     118     121  <05
+    11     3     122     123  g
+     8     3     124     127  <05
+     9     3     128     129  g
+    13     4     130     163  fwh saturatsdavon gesaige Feauren
+    18     4     164     215  dont acides gras satures waarvan verzadigde vezuren
+    16     4     216     219  <05
+    17     4     220     221  g
+    14     4     222     226  <0.5
+    15     4     227     228  g
+    20     5     229     274  CarbohydrateKohlenhydrate GlucdesKooihydraten
+    19     5     275     278  618
+    21     6     279     282  629
+    25     7     283     310  ProtenEwesProteines/Erwsten
+    23     7     311     314  6.7
+    24     7     315     316  g
+    22     7     317     320  4Dg
+    29     8     321     335  SaltSazSelZout
+    28     8     336     340  0.Bg
+    26     8     341     345  0.08
+    27     8     346     347  g
+    32     9     348     369  Vitamin 96Vitamine 85
+    31     9     370     382  0.35 mg (25%
+    30     9     383     387  02m5
+
+=================================================================
+
+=================================================================
+  IMAGE: 56.jpeg
+  OCR tokens (after corrector): 18
+  Serialized tokens:            18
+  Visual lines detected:        6
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Pour 100g par cullere6g 23 kca
+  Line 02 │ 96.2
+  Line 03 │ EiweiD 1604 4.998
+  Line 04 │ ........Proteines... 83 g .0.228
+  Line 05 │ Fett 3.67 g 0.268
+  Line 06 │ ZUTATEN:SO 4.3 g
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y= 122.5px  [3 tokens]
+    → Pour 100g | par cullere6g | 23 kca
+  Line 02  y= 146.0px  [1 tokens]
+    → 96.2
+  Line 03  y= 161.8px  [3 tokens]
+    → EiweiD | 1604 | 4.998
+  Line 04  y= 180.2px  [4 tokens]
+    → ........Proteines... | 83 | g | .0.228
+  Line 05  y= 199.0px  [4 tokens]
+    → Fett | 3.67 | g | 0.268
+  Line 06  y= 220.2px  [3 tokens]
+    → ZUTATEN:SO | 4.3 | g
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0       9  Pour 100g
+     0     0      10      23  par cullere6g
+     2     0      24      30  23 kca
+     3     1      31      35  96.2
+     4     2      36      42  EiweiD
+     5     2      43      47  1604
+     6     2      48      53  4.998
+     7     3      54      74  ........Proteines...
+     8     3      75      77  83
+     9     3      78      79  g
+    10     3      80      86  .0.228
+    11     4      87      91  Fett
+    12     4      92      96  3.67
+    13     4      97      98  g
+    14     4      99     104  0.268
+    17     5     105     115  ZUTATEN:SO
+    15     5     116     119  4.3
+    16     5     120     121  g
+
+=================================================================
+
+=================================================================
+  IMAGE: 57.jpeg
+  OCR tokens (after corrector): 22
+  Serialized tokens:            22
+  Visual lines detected:        7
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ pro 100g
+  Line 02 │ Brennwen.....Energie. Pour 100g par cuillere (6g 23 kcal
+  Line 03 │ 383kcal. 96.2
+  Line 04 │ Eineid 1604 4.99
+  Line 05 │ proteines 83 g .0.228
+  Line 06 │ Fett. 3.67 g .0.26g
+  Line 07 │ ZUTATEN lipides .43g
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  89.5px  [1 tokens]
+    → pro 100g
+  Line 02  y= 115.1px  [5 tokens]
+    → Brennwen.....Energie. | Pour 100g | par cuillere (6g | 23 | kcal
+  Line 03  y= 133.2px  [2 tokens]
+    → 383kcal. | 96.2
+  Line 04  y= 151.0px  [3 tokens]
+    → Eineid | 1604 | 4.99
+  Line 05  y= 169.8px  [4 tokens]
+    → proteines | 83 | g | .0.228
+  Line 06  y= 189.0px  [4 tokens]
+    → Fett. | 3.67 | g | .0.26g
+  Line 07  y= 208.5px  [3 tokens]
+    → ZUTATEN | lipides | .43g
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       8  pro 100g
+     5     1       9      30  Brennwen.....Energie.
+     2     1      31      40  Pour 100g
+     1     1      41      57  par cuillere (6g
+     3     1      58      60  23
+     4     1      61      65  kcal
+     6     2      66      74  383kcal.
+     7     2      75      79  96.2
+     9     3      80      86  Eineid
+     8     3      87      91  1604
+    10     3      92      96  4.99
+    11     4      97     106  proteines
+    12     4     107     109  83
+    13     4     110     111  g
+    14     4     112     118  .0.228
+    15     5     119     124  Fett.
+    16     5     125     129  3.67
+    17     5     130     131  g
+    18     5     132     138  .0.26g
+    21     6     139     146  ZUTATEN
+    19     6     147     154  lipides
+    20     6     155     159  .43g
+
+=================================================================
+
+=================================================================
+  IMAGE: 59.jpeg
+  OCR tokens (after corrector): 44
+  Serialized tokens:            44
+  Visual lines detected:        15
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Durchschn.Gealt
+  Line 02 │ Average Value per 100g powder per Daily Diet1 Portion=20g powder
+  Line 03 │ BewenergyValuc1391k330kcal 278kl66ca
+  Line 04 │ Eacib/Protein 07 g
+  Line 05 │ Ketienbydrate/Carbobydrate 69.99
+  Line 06 │ onZucker/ofwhich Sugars 644 g
+  Line 07 │ danrctose/olwhchFructose 63.7g
+  Line 08 │ Feti/fat 0.3 g
+  Line 09 │ of wtich Saturates davon gesattigte Fetisauren <0.3 g 61.0>
+  Line 10 │ Blasofe/Fibe 25 g 5 g
+  Line 11 │ Natum/Sadium <0.1 g <0.02 g
+  Line 12 │ YeamnC Sheni Seerium 150g273% 30g55
+  Line 13 │ VzaminE 300mg375% 60 mg
+  Line 14 │ 50mgcTE417% 10inga
+  Line 15 │ 3334%
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  43.0px  [1 tokens]
+    → Durchschn.Gealt
+  Line 02  y=  66.0px  [3 tokens]
+    → Average Value | per 100g powder | per Daily Diet1 Portion=20g powder
+  Line 03  y=  92.2px  [2 tokens]
+    → BewenergyValuc1391k330kcal | 278kl66ca
+  Line 04  y= 111.8px  [3 tokens]
+    → Eacib/Protein | 07 | g
+  Line 05  y= 134.5px  [2 tokens]
+    → Ketienbydrate/Carbobydrate | 69.99
+  Line 06  y= 155.0px  [3 tokens]
+    → onZucker/ofwhich Sugars | 644 | g
+  Line 07  y= 172.0px  [1 tokens]
+    → danrctose/olwhchFructose 63.7g
+  Line 08  y= 195.2px  [3 tokens]
+    → Feti/fat | 0.3 | g
+  Line 09  y= 217.9px  [5 tokens]
+    → of wtich Saturates | davon gesattigte Fetisauren | <0.3 | g | 61.0>
+  Line 10  y= 256.7px  [5 tokens]
+    → Blasofe/Fibe | 25 | g | 5 | g
+  Line 11  y= 277.3px  [5 tokens]
+    → Natum/Sadium | <0.1 | g | <0.02 | g
+  Line 12  y= 300.8px  [4 tokens]
+    → YeamnC | Sheni Seerium | 150g273% | 30g55
+  Line 13  y= 323.9px  [4 tokens]
+    → VzaminE | 300mg375% | 60 | mg
+  Line 14  y= 344.5px  [2 tokens]
+    → 50mgcTE417% | 10inga
+  Line 15  y= 362.0px  [1 tokens]
+    → 3334%
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      15  Durchschn.Gealt
+     1     1      16      29  Average Value
+     2     1      30      45  per 100g powder
+     3     1      46      80  per Daily Diet1 Portion=20g powder
+     4     2      81     107  BewenergyValuc1391k330kcal
+     5     2     108     117  278kl66ca
+     6     3     118     131  Eacib/Protein
+     7     3     132     134  07
+     8     3     135     136  g
+     9     4     137     163  Ketienbydrate/Carbobydrate
+    10     4     164     169  69.99
+    11     5     170     193  onZucker/ofwhich Sugars
+    12     5     194     197  644
+    13     5     198     199  g
+    14     6     200     230  danrctose/olwhchFructose 63.7g
+    15     7     231     239  Feti/fat
+    16     7     240     243  0.3
+    17     7     244     245  g
+    22     8     246     264  of wtich Saturates
+    18     8     265     292  davon gesattigte Fetisauren
+    20     8     293     297  <0.3
+    21     8     298     299  g
+    19     8     300     305  61.0>
+    23     9     306     318  Blasofe/Fibe
+    26     9     319     321  25
+    27     9     322     323  g
+    24     9     324     325  5
+    25     9     326     327  g
+    28    10     328     340  Natum/Sadium
+    31    10     341     345  <0.1
+    32    10     346     347  g
+    29    10     348     353  <0.02
+    30    10     354     355  g
+    36    11     356     362  YeamnC
+    33    11     363     376  Sheni Seerium
+    35    11     377     385  150g273%
+    34    11     386     391  30g55
+    40    12     392     399  VzaminE
+    39    12     400     409  300mg375%
+    37    12     410     412  60
+    38    12     413     415  mg
+    42    13     416     427  50mgcTE417%
+    41    13     428     434  10inga
+    43    14     435     440  3334%
+
+=================================================================
+
+=================================================================
+  IMAGE: 6.jpeg
+  OCR tokens (after corrector): 21
+  Serialized tokens:            21
+  Visual lines detected:        5
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ DEATICH NRWERTE DK/NG/SE NL/BE BAVA
+  Line 02 │ VITAMINE WAARDE NONTR VITAMINEC TONELLE CNNOLN
+  Line 03 │ KALIUM magnesium magnesium E3 REFRENCMENCL C-HUETL-NWE
+  Line 04 │ ALSEE potassium
+  Line 05 │ GRUAERTEE GROENETHEE
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  23.1px  [5 tokens]
+    → DEATICH | NRWERTE | DK/NG/SE | NL/BE | BAVA
+  Line 02  y=  35.0px  [6 tokens]
+    → VITAMINE | WAARDE | NONTR | VITAMINEC | TONELLE | CNNOLN
+  Line 03  y=  46.6px  [6 tokens]
+    → KALIUM | magnesium | magnesium | E3 | REFRENCMENCL | C-HUETL-NWE
+  Line 04  y=  56.2px  [2 tokens]
+    → ALSEE | potassium
+  Line 05  y=  79.0px  [2 tokens]
+    → GRUAERTEE | GROENETHEE
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       7  DEATICH
+     4     0       8      15  NRWERTE
+     2     0      16      24  DK/NG/SE
+     1     0      25      30  NL/BE
+     3     0      31      35  BAVA
+     9     1      36      44  VITAMINE
+     5     1      45      51  WAARDE
+     6     1      52      57  NONTR
+    10     1      58      67  VITAMINEC
+     7     1      68      75  TONELLE
+     8     1      76      82  CNNOLN
+    16     2      83      89  KALIUM
+    14     2      90      99  magnesium
+    15     2     100     109  magnesium
+    12     2     110     112  E3
+    11     2     113     125  REFRENCMENCL
+    13     2     126     137  C-HUETL-NWE
+    18     3     138     143  ALSEE
+    17     3     144     153  potassium
+    19     4     154     163  GRUAERTEE
+    20     4     164     174  GROENETHEE
+
+=================================================================
+
+=================================================================
+  IMAGE: 61.jpeg
+  OCR tokens (after corrector): 34
+  Serialized tokens:            34
+  Visual lines detected:        12
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Per serving/Portion/porzione pot/na100g per/pro/par
+  Line 02 │ portion/porcion/odmerek30g=1
+  Line 03 │ 427k/102.kcal 1424k/341kcal
+  Line 04 │ 60 0 g
+  Line 05 │ 00 60
+  Line 06 │ 2530 84.4 g
+  Line 07 │ 14.60 48.7 g
+  Line 08 │ Protein/Elwel/Proteine/Proteines/Proteina/Belakovine 0.20 0.6 g
+  Line 09 │ sos//s/// 0.520 1.73 g
+  Line 10 │ 75 mg[20% 250 mg
+  Line 11 │ 100 mg (5%) 333.3m
+  Line 12 │ Calclum/Katzlum/Calcio/Calclum/Calcio/Kalci) 1.%910w05 155.7 mg
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  42.8px  [3 tokens]
+    → Per serving/Portion/porzione | pot/na100g | per/pro/par
+  Line 02  y=  55.0px  [1 tokens]
+    → portion/porcion/odmerek30g=1
+  Line 03  y=  77.0px  [2 tokens]
+    → 427k/102.kcal | 1424k/341kcal
+  Line 04  y= 101.8px  [3 tokens]
+    → 60 | 0 | g
+  Line 05  y= 114.5px  [2 tokens]
+    → 00 | 60
+  Line 06  y= 126.8px  [3 tokens]
+    → 2530 | 84.4 | g
+  Line 07  y= 138.7px  [3 tokens]
+    → 14.60 | 48.7 | g
+  Line 08  y= 150.9px  [4 tokens]
+    → Protein/Elwel/Proteine/Proteines/Proteina/Belakovine | 0.20 | 0.6 | g
+  Line 09  y= 163.8px  [4 tokens]
+    → sos//s/// | 0.520 | 1.73 | g
+  Line 10  y= 174.5px  [3 tokens]
+    → 75 mg[20% | 250 | mg
+  Line 11  y= 186.0px  [2 tokens]
+    → 100 mg (5%) | 333.3m
+  Line 12  y= 198.0px  [4 tokens]
+    → Calclum/Katzlum/Calcio/Calclum/Calcio/Kalci) | 1.%910w05 | 155.7 | mg
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0      28  Per serving/Portion/porzione
+     2     0      29      39  pot/na100g
+     0     0      40      51  per/pro/par
+     3     1      52      80  portion/porcion/odmerek30g=1
+     5     2      81      94  427k/102.kcal
+     4     2      95     108  1424k/341kcal
+     8     3     109     111  60
+     6     3     112     113  0
+     7     3     114     115  g
+    10     4     116     118  00
+     9     4     119     121  60
+    13     5     122     126  2530
+    11     5     127     131  84.4
+    12     5     132     133  g
+    16     6     134     139  14.60
+    14     6     140     144  48.7
+    15     6     145     146  g
+    19     7     147     199  Protein/Elwel/Proteine/Proteines/Proteina/Belakovine
+    20     7     200     204  0.20
+    17     7     205     208  0.6
+    18     7     209     210  g
+    24     8     211     220  sos//s///
+    23     8     221     226  0.520
+    21     8     227     231  1.73
+    22     8     232     233  g
+    27     9     234     243  75 mg[20%
+    25     9     244     247  250
+    26     9     248     250  mg
+    28    10     251     262  100 mg (5%)
+    29    10     263     269  333.3m
+    30    11     270     314  Calclum/Katzlum/Calcio/Calclum/Calcio/Kalci)
+    31    11     315     324  1.%910w05
+    32    11     325     330  155.7
+    33    11     331     333  mg
+
+=================================================================
+
+=================================================================
+  IMAGE: 63.jpeg
+  OCR tokens (after corrector): 38
+  Serialized tokens:            38
+  Visual lines detected:        13
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Nutritional information/Nahrwert/Vaiord nutriionaf Per serving/Portion/porzione per/pro/par
+  Line 02 │ por/na100g
+  Line 03 │ 427k1/102kca 424/341ka
+  Line 04 │ Fat/Fett/Grassi/Gralsse/Grasas/Maltobe og 00
+  Line 05 │ 0 g og
+  Line 06 │ 2510 1440
+  Line 07 │ 146 g 48.7 g
+  Line 08 │ Protein/Elwei/Protelne/Proteines/Proteina/Belakovine 02 g 0.60
+  Line 09 │ Salt/Salz/Sale/Sel/Sal/So 75 m00 astg 173 g
+  Line 10 │ Magnestum/Magneslum /Magnesio/Msgneslum / Mgreslo/Magnes 100 mg(5% 250 mg
+  Line 11 │ Calctum/Katzhum/ Calde/Calcum/Calo /Kalc Potassun/Kathm/Potasste/Potassham/Potasie/Kat s0mg 335 mg
+  Line 12 │ W67mg
+  Line 13 │ Daym/neno
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  20.3px  [3 tokens]
+    → Nutritional information/Nahrwert/Vaiord nutriionaf | Per serving/Portion/porzione | per/pro/par
+  Line 02  y=  30.0px  [1 tokens]
+    → por/na100g
+  Line 03  y=  60.0px  [2 tokens]
+    → 427k1/102kca | 424/341ka
+  Line 04  y=  86.2px  [3 tokens]
+    → Fat/Fett/Grassi/Gralsse/Grasas/Maltobe | og | 00
+  Line 05  y= 102.3px  [3 tokens]
+    → 0 | g | og
+  Line 06  y= 113.5px  [2 tokens]
+    → 2510 | 1440
+  Line 07  y= 124.8px  [4 tokens]
+    → 146 | g | 48.7 | g
+  Line 08  y= 136.0px  [4 tokens]
+    → Protein/Elwei/Protelne/Proteines/Proteina/Belakovine | 02 | g | 0.60
+  Line 09  y= 150.6px  [5 tokens]
+    → Salt/Salz/Sale/Sel/Sal/So | 75 m00 | astg | 173 | g
+  Line 10  y= 162.9px  [4 tokens]
+    → Magnestum/Magneslum /Magnesio/Msgneslum / Mgreslo/Magnes | 100 mg(5% | 250 | mg
+  Line 11  y= 175.7px  [5 tokens]
+    → Calctum/Katzhum/ Calde/Calcum/Calo /Kalc | Potassun/Kathm/Potasste/Potassham/Potasie/Kat | s0mg | 335 | mg
+  Line 12  y= 185.5px  [1 tokens]
+    → W67mg
+  Line 13  y= 196.0px  [1 tokens]
+    → Daym/neno
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0      50  Nutritional information/Nahrwert/Vaiord nutriionaf
+     2     0      51      79  Per serving/Portion/porzione
+     0     0      80      91  per/pro/par
+     3     1      92     102  por/na100g
+     5     2     103     115  427k1/102kca
+     4     2     116     125  424/341ka
+     6     3     126     164  Fat/Fett/Grassi/Gralsse/Grasas/Maltobe
+     8     3     165     167  og
+     7     3     168     170  00
+    10     4     171     172  0
+    11     4     173     174  g
+     9     4     175     177  og
+    13     5     178     182  2510
+    12     5     183     187  1440
+    16     6     188     191  146
+    17     6     192     193  g
+    14     6     194     198  48.7
+    15     6     199     200  g
+    20     7     201     253  Protein/Elwei/Protelne/Proteines/Proteina/Belakovine
+    18     7     254     256  02
+    19     7     257     258  g
+    21     7     259     263  0.60
+    23     8     264     289  Salt/Salz/Sale/Sel/Sal/So
+    26     8     290     296  75 m00
+    22     8     297     301  astg
+    24     8     302     305  173
+    25     8     306     307  g
+    29     9     308     364  Magnestum/Magneslum /Magnesio/Msgneslum / Mgreslo/Magnes
+    30     9     365     374  100 mg(5%
+    27     9     375     378  250
+    28     9     379     381  mg
+    35    10     382     422  Calctum/Katzhum/ Calde/Calcum/Calo /Kalc
+    31    10     423     468  Potassun/Kathm/Potasste/Potassham/Potasie/Kat
+    34    10     469     473  s0mg
+    32    10     474     477  335
+    33    10     478     480  mg
+    36    11     481     486  W67mg
+    37    12     487     496  Daym/neno
+
+=================================================================
+
+=================================================================
+  IMAGE: 64.jpeg
+  OCR tokens (after corrector): 29
+  Serialized tokens:            29
+  Visual lines detected:        12
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Tagesration/daih SNRY"
+  Line 02 │ ratien (1 Ampalle
+  Line 03 │ fiask+2Cops
+  Line 04 │ VitaminelC 50 g 63%
+  Line 05 │ Vtamn2 0.6 mg 43%
+  Line 06 │ niacin 7.0 mg 45
+  Line 07 │ Vitamine86 0.5 mg
+  Line 08 │ Falsaure/folicaod 80
+  Line 09 │ Vitanine 812 204
+  Line 10 │ Fantothensaure/pastcthenic acd 2.5m
+  Line 11 │ Zo/ice 10m 306
+  Line 12 │ RV.tcevs
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  28.2px  [2 tokens]
+    → Tagesration/daih | SNRY"
+  Line 02  y=  42.5px  [1 tokens]
+    → ratien (1 Ampalle
+  Line 03  y=  55.0px  [1 tokens]
+    → fiask+2Cops
+  Line 04  y=  77.5px  [4 tokens]
+    → VitaminelC | 50 | g | 63%
+  Line 05  y=  93.2px  [4 tokens]
+    → Vtamn2 | 0.6 | mg | 43%
+  Line 06  y= 109.1px  [4 tokens]
+    → niacin | 7.0 | mg | 45
+  Line 07  y= 124.5px  [3 tokens]
+    → Vitamine86 | 0.5 | mg
+  Line 08  y= 140.0px  [2 tokens]
+    → Falsaure/folicaod | 80
+  Line 09  y= 155.0px  [2 tokens]
+    → Vitanine 812 | 204
+  Line 10  y= 169.8px  [2 tokens]
+    → Fantothensaure/pastcthenic acd | 2.5m
+  Line 11  y= 184.7px  [3 tokens]
+    → Zo/ice | 10m | 306
+  Line 12  y= 203.5px  [1 tokens]
+    → RV.tcevs
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0      16  Tagesration/daih
+     0     0      17      22  SNRY"
+     2     1      23      40  ratien (1 Ampalle
+     3     2      41      52  fiask+2Cops
+     7     3      53      63  VitaminelC
+     4     3      64      66  50
+     5     3      67      68  g
+     6     3      69      72  63%
+    11     4      73      79  Vtamn2
+     8     4      80      83  0.6
+     9     4      84      86  mg
+    10     4      87      90  43%
+    15     5      91      97  niacin
+    12     5      98     101  7.0
+    13     5     102     104  mg
+    14     5     105     107  45
+    18     6     108     118  Vitamine86
+    16     6     119     122  0.5
+    17     6     123     125  mg
+    19     7     126     143  Falsaure/folicaod
+    20     7     144     146  80
+    22     8     147     159  Vitanine 812
+    21     8     160     163  204
+    24     9     164     194  Fantothensaure/pastcthenic acd
+    23     9     195     199  2.5m
+    27    10     200     206  Zo/ice
+    26    10     207     210  10m
+    25    10     211     214  306
+    28    11     215     223  RV.tcevs
+
+=================================================================
+
+=================================================================
+  IMAGE: 67.jpeg
+  OCR tokens (after corrector): 13
+  Serialized tokens:            13
+  Visual lines detected:        12
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ VIGANTOL
+  Line 02 │ 10001.E VitaminD3Tabletten
+  Line 03 │ Fur Sauqlinge,Kinder und Erwachsene.Zum Einnehmen.
+  Line 04 │ Jede Tablette enthalt 25 q Colecalciferol,entsprechend 10001.E.Vitamin D
+  Line 05 │ Enthalt SucroseZucker).Tagesdosis bis zu 1000I.E.entsprechend 0.025mg)
+  Line 06 │ Zur Vorbeugung gegen Rachitis,auch bei Fruhgeborenen,bei erkennbarem
+  Line 07 │ Risiko einer Vitamin-D-Mangelerkrankung bei ansonsten Gesunden ohne
+  Line 08 │ Resorptionsstorung,zur unterstutzenden Behandlung der Osteoporose.
+  Line 09 │ Packungsbeilage beachten.Arzneimittel fur Kinder unzuganglich aufbewahren.
+  Line 10 │ Nicht uber 25 C lagern.Im Umkarton aufbewahren,
+  Line 11 │ um den Inhalt vor Licht zu schutzen.
+  Line 12 │ Apothekenpflichtig.Zul.-Nr.6154298.01.00
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  67.0px  [1 tokens]
+    → VIGANTOL
+  Line 02  y= 160.0px  [2 tokens]
+    → 10001.E | VitaminD3Tabletten
+  Line 03  y= 207.5px  [1 tokens]
+    → Fur Sauqlinge,Kinder und Erwachsene.Zum Einnehmen.
+  Line 04  y= 225.5px  [1 tokens]
+    → Jede Tablette enthalt 25 q Colecalciferol,entsprechend 10001.E.Vitamin D
+  Line 05  y= 245.0px  [1 tokens]
+    → Enthalt SucroseZucker).Tagesdosis bis zu 1000I.E.entsprechend 0.025mg)
+  Line 06  y= 270.0px  [1 tokens]
+    → Zur Vorbeugung gegen Rachitis,auch bei Fruhgeborenen,bei erkennbarem
+  Line 07  y= 288.5px  [1 tokens]
+    → Risiko einer Vitamin-D-Mangelerkrankung bei ansonsten Gesunden ohne
+  Line 08  y= 307.0px  [1 tokens]
+    → Resorptionsstorung,zur unterstutzenden Behandlung der Osteoporose.
+  Line 09  y= 331.0px  [1 tokens]
+    → Packungsbeilage beachten.Arzneimittel fur Kinder unzuganglich aufbewahren.
+  Line 10  y= 351.0px  [1 tokens]
+    → Nicht uber 25 C lagern.Im Umkarton aufbewahren,
+  Line 11  y= 370.5px  [1 tokens]
+    → um den Inhalt vor Licht zu schutzen.
+  Line 12  y= 391.5px  [1 tokens]
+    → Apothekenpflichtig.Zul.-Nr.6154298.01.00
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       8  VIGANTOL
+     1     1       9      16  10001.E
+     2     1      17      35  VitaminD3Tabletten
+     3     2      36      86  Fur Sauqlinge,Kinder und Erwachsene.Zum Einnehmen.
+     4     3      87     159  Jede Tablette enthalt 25 q Colecalciferol,entsprechend 10001.E.Vitamin D
+     5     4     160     230  Enthalt SucroseZucker).Tagesdosis bis zu 1000I.E.entsprechend 0.025mg)
+     6     5     231     299  Zur Vorbeugung gegen Rachitis,auch bei Fruhgeborenen,bei erkennbarem
+     7     6     300     367  Risiko einer Vitamin-D-Mangelerkrankung bei ansonsten Gesunden ohne
+     8     7     368     434  Resorptionsstorung,zur unterstutzenden Behandlung der Osteoporose.
+     9     8     435     509  Packungsbeilage beachten.Arzneimittel fur Kinder unzuganglich aufbewahren.
+    10     9     510     557  Nicht uber 25 C lagern.Im Umkarton aufbewahren,
+    11    10     558     594  um den Inhalt vor Licht zu schutzen.
+    12    11     595     635  Apothekenpflichtig.Zul.-Nr.6154298.01.00
+
+=================================================================
+
+=================================================================
+  IMAGE: 68.jpeg
+  OCR tokens (after corrector): 45
+  Serialized tokens:            45
+  Visual lines detected:        24
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ madda nutricional:/Informacao nutricional:/Dichiarazione nutrizionale:/Naringsinneh
+  Line 02 │ dd 100g 24gA
+  Line 03 │ alputiot
+  Line 04 │ Enegy/Eneg(ela)/Valor energetico k (kcal) 1578 (37) 59 0
+  Line 05 │ Fa/fe/Maeresgrases/Vetten/Grasas/Upidos/Grassi 0.69
+  Line 06 │ wnan verzadde vetzuren/de las cuales saturadas/dos quais acidos gordos
+  Line 07 │ ssturados/d cul acidigrassisaturi/varav mattat fett 05 g
+  Line 08 │ Cartoidras /Kohydrat 529
+  Line 09 │ 219 454
+  Line 10 │ Prter(e/Ehws8/Proteines/Eiwtten/Proteinas 64 g 2
+  Line 11 │ /S/2//25/ 0.49
+  Line 12 │ 100g
+  Line 13 │ AAl-tice/1-Van/L-valna 579
+  Line 14 │ AAesdre/1-Leucin/L-leucina 979 29
+  Line 15 │ 51
+  Line 16 │ Aure/t-lsoleucin/Lisoleudna 679
+  Line 17 │ Bre/1-lsn/L-isina 8.69
+  Line 18 │ SA
+  Line 19 │ e/Lsidn/t-hstidna/L-istidina 159
+  Line 20 │ 2.09 Sry
+  Line 21 │ 259 151
+  Line 22 │ 620
+  Line 23 │ 169
+  Line 24 │ A
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  38.5px  [1 tokens]
+    → madda nutricional:/Informacao nutricional:/Dichiarazione nutrizionale:/Naringsinneh
+  Line 02  y=  58.3px  [3 tokens]
+    → dd | 100g | 24gA
+  Line 03  y=  79.0px  [1 tokens]
+    → alputiot
+  Line 04  y=  96.7px  [3 tokens]
+    → Enegy/Eneg(ela)/Valor energetico k (kcal) | 1578 (37) | 59 0
+  Line 05  y= 118.2px  [2 tokens]
+    → Fa/fe/Maeresgrases/Vetten/Grasas/Upidos/Grassi | 0.69
+  Line 06  y= 149.0px  [1 tokens]
+    → wnan verzadde vetzuren/de las cuales saturadas/dos quais acidos gordos
+  Line 07  y= 166.7px  [3 tokens]
+    → ssturados/d cul acidigrassisaturi/varav mattat fett | 05 | g
+  Line 08  y= 191.5px  [2 tokens]
+    → Cartoidras /Kohydrat | 529
+  Line 09  y= 232.0px  [2 tokens]
+    → 219 | 454
+  Line 10  y= 253.2px  [4 tokens]
+    → Prter(e/Ehws8/Proteines/Eiwtten/Proteinas | 64 | g | 2
+  Line 11  y= 273.8px  [2 tokens]
+    → /S/2//25/ | 0.49
+  Line 12  y= 349.5px  [1 tokens]
+    → 100g
+  Line 13  y= 366.0px  [2 tokens]
+    → AAl-tice/1-Van/L-valna | 579
+  Line 14  y= 383.2px  [3 tokens]
+    → AAesdre/1-Leucin/L-leucina | 979 | 29
+  Line 15  y= 396.0px  [1 tokens]
+    → 51
+  Line 16  y= 406.5px  [2 tokens]
+    → Aure/t-lsoleucin/Lisoleudna | 679
+  Line 17  y= 422.8px  [2 tokens]
+    → Bre/1-lsn/L-isina | 8.69
+  Line 18  y= 435.5px  [1 tokens]
+    → SA
+  Line 19  y= 446.2px  [2 tokens]
+    → e/Lsidn/t-hstidna/L-istidina | 159
+  Line 20  y= 468.0px  [2 tokens]
+    → 2.09 | Sry
+  Line 21  y= 486.0px  [2 tokens]
+    → 259 | 151
+  Line 22  y= 502.0px  [1 tokens]
+    → 620
+  Line 23  y= 521.0px  [1 tokens]
+    → 169
+  Line 24  y= 566.5px  [1 tokens]
+    → A
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      83  madda nutricional:/Informacao nutricional:/Dichiarazione nutrizionale:/Naringsinneh
+     1     1      84      86  dd
+     2     1      87      91  100g
+     3     1      92      96  24gA
+     4     2      97     105  alputiot
+     5     3     106     147  Enegy/Eneg(ela)/Valor energetico k (kcal)
+     6     3     148     157  1578 (37)
+     7     3     158     162  59 0
+     8     4     163     209  Fa/fe/Maeresgrases/Vetten/Grasas/Upidos/Grassi
+     9     4     210     214  0.69
+    10     5     215     285  wnan verzadde vetzuren/de las cuales saturadas/dos quais acidos gordos
+    11     6     286     337  ssturados/d cul acidigrassisaturi/varav mattat fett
+    12     6     338     340  05
+    13     6     341     342  g
+    15     7     343     363  Cartoidras /Kohydrat
+    14     7     364     367  529
+    17     8     368     371  219
+    16     8     372     375  454
+    19     9     376     417  Prter(e/Ehws8/Proteines/Eiwtten/Proteinas
+    20     9     418     420  64
+    21     9     421     422  g
+    18     9     423     424  2
+    22    10     425     434  /S/2//25/
+    23    10     435     439  0.49
+    24    11     440     444  100g
+    25    12     445     467  AAl-tice/1-Van/L-valna
+    26    12     468     471  579
+    28    13     472     498  AAesdre/1-Leucin/L-leucina
+    29    13     499     502  979
+    27    13     503     505  29
+    30    14     506     508  51
+    31    15     509     536  Aure/t-lsoleucin/Lisoleudna
+    32    15     537     540  679
+    33    16     541     558  Bre/1-lsn/L-isina
+    34    16     559     563  8.69
+    35    17     564     566  SA
+    37    18     567     595  e/Lsidn/t-hstidna/L-istidina
+    36    18     596     599  159
+    38    19     600     604  2.09
+    39    19     605     608  Sry
+    40    20     609     612  259
+    41    20     613     616  151
+    42    21     617     620  620
+    43    22     621     624  169
+    44    23     625     626  A
+
+=================================================================
+
+=================================================================
+  IMAGE: 78.jpeg
+  OCR tokens (after corrector): 34
+  Serialized tokens:            34
+  Visual lines detected:        23
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ DSKTEN
+  Line 02 │ VIGANTOLVIT
+  Line 03 │ Nahrungseryanzungsmittel
+  Line 04 │ rnit Vitamin D3
+  Line 05 │ Tcn.Ghooin
+  Line 06 │ VitaminD3 20001.E VEMIESRESIRFEHUG
+  Line 07 │ FEe1hY
+  Line 08 │ Vitamin D tragt bei zur
+  Line 09 │ Erhaltung normaler Knochen und einer
+  Line 10 │ normalen Muskelfunktion WCerheeg
+  Line 11 │ normalen Funktion.des Inmunsystens
+  Line 12 │ und der Zellteilung
+  Line 13 │ norrnalen Aufnahrne von Calcium 1.
+  Line 14 │ Enrkugurdeertelmoiie
+  Line 15 │ Nahrstoff Ipro Kapsel pukarermwy Parvreeenrue
+  Line 16 │ VitaminD50g20001E1000% deSrerrinDetrotniMetdenme
+  Line 17 │ Referenznenge for die tagiche Zufuhr Nercaren.rrnCam
+  Line 18 │ pema8Verordnung EUNr.116//2011 epdn utcoUrWgxg
+  Line 19 │ EdungvonNerectencohiwc
+  Line 20 │ 120Kapseln=21.6g EaaevnWaraccrsopr
+  Line 21 │ Vianin Denphgn
+  Line 22 │ Mindestens haltbar bi Ende:siehe Seterkarche pRptrabcerPecmencn
+  Line 23 │ Nicht ober 25C und trocken lagern Kindernkagen
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  37.0px  [1 tokens]
+    → DSKTEN
+  Line 02  y=  48.0px  [1 tokens]
+    → VIGANTOLVIT
+  Line 03  y=  81.5px  [1 tokens]
+    → Nahrungseryanzungsmittel
+  Line 04  y= 103.5px  [1 tokens]
+    → rnit Vitamin D3
+  Line 05  y= 114.5px  [1 tokens]
+    → Tcn.Ghooin
+  Line 06  y= 139.5px  [2 tokens]
+    → VitaminD3 20001.E | VEMIESRESIRFEHUG
+  Line 07  y= 156.0px  [1 tokens]
+    → FEe1hY
+  Line 08  y= 175.0px  [1 tokens]
+    → Vitamin D tragt bei zur
+  Line 09  y= 197.5px  [1 tokens]
+    → Erhaltung normaler Knochen und einer
+  Line 10  y= 214.5px  [2 tokens]
+    → normalen Muskelfunktion | WCerheeg
+  Line 11  y= 237.5px  [1 tokens]
+    → normalen Funktion.des Inmunsystens
+  Line 12  y= 255.5px  [1 tokens]
+    → und der Zellteilung
+  Line 13  y= 272.8px  [2 tokens]
+    → norrnalen Aufnahrne von Calcium | 1.
+  Line 14  y= 287.5px  [1 tokens]
+    → Enrkugurdeertelmoiie
+  Line 15  y= 313.8px  [3 tokens]
+    → Nahrstoff Ipro Kapsel | pukarermwy | Parvreeenrue
+  Line 16  y= 342.8px  [2 tokens]
+    → VitaminD50g20001E1000% | deSrerrinDetrotniMetdenme
+  Line 17  y= 368.2px  [2 tokens]
+    → Referenznenge for die tagiche Zufuhr | Nercaren.rrnCam
+  Line 18  y= 386.5px  [2 tokens]
+    → pema8Verordnung EUNr.116//2011 | epdn utcoUrWgxg
+  Line 19  y= 399.5px  [1 tokens]
+    → EdungvonNerectencohiwc
+  Line 20  y= 418.2px  [2 tokens]
+    → 120Kapseln=21.6g | EaaevnWaraccrsopr
+  Line 21  y= 434.5px  [1 tokens]
+    → Vianin Denphgn
+  Line 22  y= 450.0px  [2 tokens]
+    → Mindestens haltbar bi Ende:siehe Seterkarche | pRptrabcerPecmencn
+  Line 23  y= 467.2px  [2 tokens]
+    → Nicht ober 25C und trocken lagern | Kindernkagen
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       6  DSKTEN
+     1     1       7      18  VIGANTOLVIT
+     2     2      19      43  Nahrungseryanzungsmittel
+     3     3      44      59  rnit Vitamin D3
+     4     4      60      70  Tcn.Ghooin
+     6     5      71      88  VitaminD3 20001.E
+     5     5      89     105  VEMIESRESIRFEHUG
+     7     6     106     112  FEe1hY
+     8     7     113     136  Vitamin D tragt bei zur
+     9     8     137     173  Erhaltung normaler Knochen und einer
+    11     9     174     197  normalen Muskelfunktion
+    10     9     198     206  WCerheeg
+    12    10     207     241  normalen Funktion.des Inmunsystens
+    13    11     242     261  und der Zellteilung
+    15    12     262     293  norrnalen Aufnahrne von Calcium
+    14    12     294     296  1.
+    16    13     297     317  Enrkugurdeertelmoiie
+    18    14     318     339  Nahrstoff Ipro Kapsel
+    19    14     340     350  pukarermwy
+    17    14     351     363  Parvreeenrue
+    20    15     364     386  VitaminD50g20001E1000%
+    21    15     387     412  deSrerrinDetrotniMetdenme
+    23    16     413     449  Referenznenge for die tagiche Zufuhr
+    22    16     450     465  Nercaren.rrnCam
+    25    17     466     496  pema8Verordnung EUNr.116//2011
+    24    17     497     512  epdn utcoUrWgxg
+    26    18     513     535  EdungvonNerectencohiwc
+    28    19     536     552  120Kapseln=21.6g
+    27    19     553     570  EaaevnWaraccrsopr
+    29    20     571     585  Vianin Denphgn
+    30    21     586     630  Mindestens haltbar bi Ende:siehe Seterkarche
+    31    21     631     649  pRptrabcerPecmencn
+    32    22     650     683  Nicht ober 25C und trocken lagern
+    33    22     684     696  Kindernkagen
+
+=================================================================
+
+=================================================================
+  IMAGE: 8.jpeg
+  OCR tokens (after corrector): 9
+  Serialized tokens:            9
+  Visual lines detected:        8
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ TYPICALVALUES
+  Line 02 │ 892/213
+  Line 03 │ protein
+  Line 04 │ FAT:(g
+  Line 05 │ -SATURATED FAT
+  Line 06 │ carbohydrate 8111813322
+  Line 07 │ -SUGARS(g)
+  Line 08 │ SOOIM (mg)
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  37.0px  [1 tokens]
+    → TYPICALVALUES
+  Line 02  y=  54.0px  [1 tokens]
+    → 892/213
+  Line 03  y=  64.0px  [1 tokens]
+    → protein
+  Line 04  y=  78.0px  [1 tokens]
+    → FAT:(g
+  Line 05  y=  91.5px  [1 tokens]
+    → -SATURATED FAT
+  Line 06  y= 105.5px  [2 tokens]
+    → carbohydrate | 8111813322
+  Line 07  y= 118.5px  [1 tokens]
+    → -SUGARS(g)
+  Line 08  y= 145.0px  [1 tokens]
+    → SOOIM (mg)
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      13  TYPICALVALUES
+     1     1      14      21  892/213
+     2     2      22      29  protein
+     3     3      30      36  FAT:(g
+     4     4      37      51  -SATURATED FAT
+     6     5      52      64  carbohydrate
+     5     5      65      75  8111813322
+     7     6      76      86  -SUGARS(g)
+     8     7      87      97  SOOIM (mg)
+
+=================================================================
+
+=================================================================
+  IMAGE: 82.jpeg
+  OCR tokens (after corrector): 21
+  Serialized tokens:            21
+  Visual lines detected:        9
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Nutrition information:
+  Line 02 │ per 100g per serving
+  Line 03 │ 3g/1level teaspoon
+  Line 04 │ Energy 0kJ/okcal OkJ/o kcal
+  Line 05 │ Protein og 60
+  Line 06 │ Carbohydrates 60 og
+  Line 07 │ Fat og og
+  Line 08 │ Creatine 100g 3 g
+  Line 09 │ monohydrate
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  21.0px  [1 tokens]
+    → Nutrition information:
+  Line 02  y=  45.5px  [2 tokens]
+    → per 100g | per serving
+  Line 03  y=  65.5px  [1 tokens]
+    → 3g/1level teaspoon
+  Line 04  y=  91.2px  [3 tokens]
+    → Energy | 0kJ/okcal | OkJ/o kcal
+  Line 05  y= 117.5px  [3 tokens]
+    → Protein | og | 60
+  Line 06  y= 143.7px  [3 tokens]
+    → Carbohydrates | 60 | og
+  Line 07  y= 167.5px  [3 tokens]
+    → Fat | og | og
+  Line 08  y= 194.9px  [4 tokens]
+    → Creatine | 100g | 3 | g
+  Line 09  y= 208.0px  [1 tokens]
+    → monohydrate
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      22  Nutrition information:
+     1     1      23      31  per 100g
+     2     1      32      43  per serving
+     3     2      44      62  3g/1level teaspoon
+     4     3      63      69  Energy
+     5     3      70      79  0kJ/okcal
+     6     3      80      90  OkJ/o kcal
+     7     4      91      98  Protein
+     8     4      99     101  og
+     9     4     102     104  60
+    10     5     105     118  Carbohydrates
+    12     5     119     121  60
+    11     5     122     124  og
+    13     6     125     128  Fat
+    14     6     129     131  og
+    15     6     132     134  og
+    16     7     135     143  Creatine
+    17     7     144     148  100g
+    18     7     149     150  3
+    19     7     151     152  g
+    20     8     153     164  monohydrate
+
+=================================================================
+
+=================================================================
+  IMAGE: 88.jpeg
+  OCR tokens (after corrector): 31
+  Serialized tokens:            31
+  Visual lines detected:        10
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ per 100ml PERDRINK
+  Line 02 │ (330ML)
+  Line 03 │ eeneenegia kkcal 23455 772(181)
+  Line 04 │ 3.7 g
+  Line 05 │ e/pdes/fat/grassi n gesattigte Fettsuren 0.5 g
+  Line 06 │ Ghlerhydrate/glucides which saturated fatty acids 4.1 g 13 g
+  Line 07 │ catohydrates/carboidrati 3.5 g 11 g
+  Line 08 │ Eweiss/protein(el/proteines 8.0 g
+  Line 09 │ 0.10 g 0.33 g
+  Line 10 │ Sal/sel/salt/sale"
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  23.5px  [2 tokens]
+    → per 100ml | PERDRINK
+  Line 02  y=  42.0px  [1 tokens]
+    → (330ML)
+  Line 03  y=  71.2px  [3 tokens]
+    → eeneenegia kkcal | 23455 | 772(181)
+  Line 04  y=  83.5px  [2 tokens]
+    → 3.7 | g
+  Line 05  y= 101.2px  [4 tokens]
+    → e/pdes/fat/grassi | n gesattigte Fettsuren | 0.5 | g
+  Line 06  y= 135.6px  [6 tokens]
+    → Ghlerhydrate/glucides | which saturated fatty acids | 4.1 | g | 13 | g
+  Line 07  y= 165.1px  [5 tokens]
+    → catohydrates/carboidrati | 3.5 | g | 11 | g
+  Line 08  y= 186.2px  [3 tokens]
+    → Eweiss/protein(el/proteines | 8.0 | g
+  Line 09  y= 204.2px  [4 tokens]
+    → 0.10 | g | 0.33 | g
+  Line 10  y= 215.5px  [1 tokens]
+    → Sal/sel/salt/sale"
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       9  per 100ml
+     1     0      10      18  PERDRINK
+     2     1      19      26  (330ML)
+     5     2      27      43  eeneenegia kkcal
+     3     2      44      49  23455
+     4     2      50      58  772(181)
+     6     3      59      62  3.7
+     7     3      63      64  g
+     8     4      65      82  e/pdes/fat/grassi
+    11     4      83     105  n gesattigte Fettsuren
+     9     4     106     109  0.5
+    10     4     110     111  g
+    17     5     112     133  Ghlerhydrate/glucides
+    12     5     134     161  which saturated fatty acids
+    13     5     162     165  4.1
+    14     5     166     167  g
+    15     5     168     170  13
+    16     5     171     172  g
+    18     6     173     197  catohydrates/carboidrati
+    19     6     198     201  3.5
+    20     6     202     203  g
+    21     6     204     206  11
+    22     6     207     208  g
+    25     7     209     236  Eweiss/protein(el/proteines
+    23     7     237     240  8.0
+    24     7     241     242  g
+    26     8     243     247  0.10
+    27     8     248     249  g
+    28     8     250     254  0.33
+    29     8     255     256  g
+    30     9     257     275  Sal/sel/salt/sale"
+
+=================================================================
+
+=================================================================
+  IMAGE: 9.jpeg
+  OCR tokens (after corrector): 12
+  Serialized tokens:            12
+  Visual lines detected:        6
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ und in Zeiten ertohten Bedarts ist auf eine ausreichende Ven
+  Line 02 │ Vitamin Czuachten
+  Line 03 │ Nahrwertangaben pro1 Tablette pro 2 Tabletten
+  Line 04 │ Zink 5mg50% 10mg.(100%
+  Line 05 │ Vitamin C 30mg38% 60mg75%
+  Line 06 │ %der Referenzmenge gema3 Verordnung EU) Nr.1169/2011
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=   8.0px  [1 tokens]
+    → und in Zeiten ertohten Bedarts ist auf eine ausreichende Ven
+  Line 02  y=  19.5px  [1 tokens]
+    → Vitamin Czuachten
+  Line 03  y=  41.7px  [3 tokens]
+    → Nahrwertangaben | pro1 Tablette | pro 2 Tabletten
+  Line 04  y=  56.3px  [3 tokens]
+    → Zink | 5mg50% | 10mg.(100%
+  Line 05  y=  68.7px  [3 tokens]
+    → Vitamin C | 30mg38% | 60mg75%
+  Line 06  y=  81.0px  [1 tokens]
+    → %der Referenzmenge gema3 Verordnung EU) Nr.1169/2011
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      60  und in Zeiten ertohten Bedarts ist auf eine ausreichende Ven
+     1     1      61      78  Vitamin Czuachten
+     2     2      79      94  Nahrwertangaben
+     3     2      95     108  pro1 Tablette
+     4     2     109     124  pro 2 Tabletten
+     5     3     125     129  Zink
+     6     3     130     136  5mg50%
+     7     3     137     147  10mg.(100%
+     8     4     148     157  Vitamin C
+     9     4     158     165  30mg38%
+    10     4     166     173  60mg75%
+    11     5     174     226  %der Referenzmenge gema3 Verordnung EU) Nr.1169/2011
+
+=================================================================
+
+=================================================================
+  IMAGE: 90.jpeg
+  OCR tokens (after corrector): 43
+  Serialized tokens:            43
+  Visual lines detected:        12
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ nutritionfacts Nahrwerte/valeurs nutritives 100ml 2Shots**
+  Line 02 │ Energie/energy kJ(kcal 192(45) (60ml)
+  Line 03 │ Fett/lipides/fat 115(27)
+  Line 04 │ davon gesattigte Fettsauren/ <0.1 g 0 g
+  Line 05 │ of which saturated fatty acids <0.1 g 60
+  Line 06 │ Kohlenhydrate/glucides/carbohydrates 10 g 6.0 g
+  Line 07 │ davon Zuckerarten/of which sugars/ 10 g 609
+  Line 08 │ Salz/sel/salt Eiweiss/proteines/protein <0.1 g <0.1 g
+  Line 09 │ 0.16 g 0.10 g
+  Line 10 │ Magnesium/magnesium 15%NRV* 56 mg
+  Line 11 │ *NRV,nutrient reference values
+  Line 12 │ **Tagesration/ration journalier/daily ration
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  62.9px  [4 tokens]
+    → nutritionfacts | Nahrwerte/valeurs nutritives | 100ml | 2Shots**
+  Line 02  y=  99.5px  [3 tokens]
+    → Energie/energy kJ(kcal | 192(45) | (60ml)
+  Line 03  y= 121.0px  [2 tokens]
+    → Fett/lipides/fat | 115(27)
+  Line 04  y= 141.4px  [5 tokens]
+    → davon gesattigte Fettsauren/ | <0.1 | g | 0 | g
+  Line 05  y= 162.5px  [4 tokens]
+    → of which saturated fatty acids | <0.1 | g | 60
+  Line 06  y= 204.0px  [5 tokens]
+    → Kohlenhydrate/glucides/carbohydrates | 10 | g | 6.0 | g
+  Line 07  y= 225.0px  [4 tokens]
+    → davon Zuckerarten/of which sugars/ | 10 | g | 609
+  Line 08  y= 251.9px  [6 tokens]
+    → Salz/sel/salt | Eiweiss/proteines/protein | <0.1 | g | <0.1 | g
+  Line 09  y= 275.2px  [4 tokens]
+    → 0.16 | g | 0.10 | g
+  Line 10  y= 299.0px  [4 tokens]
+    → Magnesium/magnesium | 15%NRV* | 56 | mg
+  Line 11  y= 323.5px  [1 tokens]
+    → *NRV,nutrient reference values
+  Line 12  y= 349.0px  [1 tokens]
+    → **Tagesration/ration journalier/daily ration
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     3     0       0      14  nutritionfacts
+     0     0      15      43  Nahrwerte/valeurs nutritives
+     1     0      44      49  100ml
+     2     0      50      58  2Shots**
+     5     1      59      81  Energie/energy kJ(kcal
+     6     1      82      89  192(45)
+     4     1      90      96  (60ml)
+     8     2      97     113  Fett/lipides/fat
+     7     2     114     121  115(27)
+    13     3     122     150  davon gesattigte Fettsauren/
+     9     3     151     155  <0.1
+    10     3     156     157  g
+    11     3     158     159  0
+    12     3     160     161  g
+    17     4     162     192  of which saturated fatty acids
+    14     4     193     197  <0.1
+    15     4     198     199  g
+    16     4     200     202  60
+    18     5     203     239  Kohlenhydrate/glucides/carbohydrates
+    19     5     240     242  10
+    20     5     243     244  g
+    21     5     245     248  6.0
+    22     5     249     250  g
+    23     6     251     285  davon Zuckerarten/of which sugars/
+    24     6     286     288  10
+    25     6     289     290  g
+    26     6     291     294  609
+    32     7     295     308  Salz/sel/salt
+    27     7     309     334  Eiweiss/proteines/protein
+    28     7     335     339  <0.1
+    29     7     340     341  g
+    30     7     342     346  <0.1
+    31     7     347     348  g
+    33     8     349     353  0.16
+    34     8     354     355  g
+    35     8     356     360  0.10
+    36     8     361     362  g
+    37     9     363     382  Magnesium/magnesium
+    38     9     383     390  15%NRV*
+    39     9     391     393  56
+    40     9     394     396  mg
+    41    10     397     427  *NRV,nutrient reference values
+    42    11     428     472  **Tagesration/ration journalier/daily ration
+
+=================================================================
+
+=================================================================
+  IMAGE: 91.jpeg
+  OCR tokens (after corrector): 38
+  Serialized tokens:            38
+  Visual lines detected:        12
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ TROPIC MANGO
+  Line 02 │ TYPISCHE NAHRWERTE per 100ml PERDRINK
+  Line 03 │ VALEUR NUTRITIVE/NUTRITION (330ML)
+  Line 04 │ FACTS/VALORI NUTRITIVI
+  Line 05 │ Energie/energy/energia kJ (kcal) 234 (55) 772 (181)
+  Line 06 │ Fet/lipides/fat/grassi 0.79 239
+  Line 07 │ davon gesattigte Fettsauren/ 0.5 g 1.6 g
+  Line 08 │ of which saturated fatty acids 13 g
+  Line 09 │ Kohlenhydrate/glucides/ 4.1 g
+  Line 10 │ tartohydrates/carboidrati avon Zuckerarten/of which sugars 3.5 g 11 g
+  Line 11 │ Eweiss/protein(el/proteines 8.0 g 26 g
+  Line 12 │ Sahz/sel/sall/sale" 0.10 g
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  48.0px  [1 tokens]
+    → TROPIC MANGO
+  Line 02  y= 100.3px  [3 tokens]
+    → TYPISCHE NAHRWERTE | per 100ml | PERDRINK
+  Line 03  y= 116.2px  [2 tokens]
+    → VALEUR NUTRITIVE/NUTRITION | (330ML)
+  Line 04  y= 134.0px  [1 tokens]
+    → FACTS/VALORI NUTRITIVI
+  Line 05  y= 150.3px  [3 tokens]
+    → Energie/energy/energia kJ (kcal) | 234 (55) | 772 (181)
+  Line 06  y= 170.3px  [3 tokens]
+    → Fet/lipides/fat/grassi | 0.79 | 239
+  Line 07  y= 185.3px  [5 tokens]
+    → davon gesattigte Fettsauren/ | 0.5 | g | 1.6 | g
+  Line 08  y= 212.3px  [3 tokens]
+    → of which saturated fatty acids | 13 | g
+  Line 09  y= 223.3px  [3 tokens]
+    → Kohlenhydrate/glucides/ | 4.1 | g
+  Line 10  y= 250.8px  [6 tokens]
+    → tartohydrates/carboidrati | avon Zuckerarten/of which sugars | 3.5 | g | 11 | g
+  Line 11  y= 272.6px  [5 tokens]
+    → Eweiss/protein(el/proteines | 8.0 | g | 26 | g
+  Line 12  y= 294.2px  [3 tokens]
+    → Sahz/sel/sall/sale" | 0.10 | g
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      12  TROPIC MANGO
+     3     1      13      31  TYPISCHE NAHRWERTE
+     2     1      32      41  per 100ml
+     1     1      42      50  PERDRINK
+     5     2      51      77  VALEUR NUTRITIVE/NUTRITION
+     4     2      78      85  (330ML)
+     6     3      86     108  FACTS/VALORI NUTRITIVI
+     9     4     109     141  Energie/energy/energia kJ (kcal)
+     8     4     142     150  234 (55)
+     7     4     151     160  772 (181)
+    12     5     161     183  Fet/lipides/fat/grassi
+    11     5     184     188  0.79
+    10     5     189     192  239
+    17     6     193     221  davon gesattigte Fettsauren/
+    15     6     222     225  0.5
+    16     6     226     227  g
+    13     6     228     231  1.6
+    14     6     232     233  g
+    18     7     234     264  of which saturated fatty acids
+    19     7     265     267  13
+    20     7     268     269  g
+    23     8     270     293  Kohlenhydrate/glucides/
+    21     8     294     297  4.1
+    22     8     298     299  g
+    24     9     300     325  tartohydrates/carboidrati
+    29     9     326     358  avon Zuckerarten/of which sugars
+    27     9     359     362  3.5
+    28     9     363     364  g
+    25     9     365     367  11
+    26     9     368     369  g
+    34    10     370     397  Eweiss/protein(el/proteines
+    32    10     398     401  8.0
+    33    10     402     403  g
+    30    10     404     406  26
+    31    10     407     408  g
+    35    11     409     428  Sahz/sel/sall/sale"
+    36    11     429     433  0.10
+    37    11     434     435  g
+
+=================================================================

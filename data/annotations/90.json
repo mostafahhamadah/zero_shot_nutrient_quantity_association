@@ -1,0 +1,141 @@
+{
+    "image_id": "90.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Energie/energy kJ (kcal)",
+            "quantity": "192",
+            "unit": "kJ",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energie/energy kJ (kcal)",
+            "quantity": "45",
+            "unit": "kcal",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Fett/lipides/fat",
+            "quantity": "< 0.1",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "davon gesättigte Fettsäuren/of which saturated fatty acids",
+            "quantity": "< 0.1",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Kohlenhydrate/glucides/carbohydrates",
+            "quantity": "10",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "davon Zuckerarten/of which sugars",
+            "quantity": "10",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Eiweiss/protéines/protein",
+            "quantity": "< 0.1",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Salz/sel/salt",
+            "quantity": "0.16",
+            "unit": "g",
+            "context": "per_100ml",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energie/energy kJ (kcal)",
+            "quantity": "115",
+            "unit": "kJ",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 Shots (60 ml)"
+        },
+        {
+            "nutrient": "Energie/energy kJ (kcal)",
+            "quantity": "27",
+            "unit": "kcal",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 Shots (60 ml)"
+        },
+        {
+            "nutrient": "Fett/lipides/fat",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 Shots (60 ml)"
+        },
+        {
+            "nutrient": "davon gesättigte Fettsäuren/of which saturated fatty acids",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 Shots (60 ml)"
+        },
+        {
+            "nutrient": "Kohlenhydrate/glucides/carbohydrates",
+            "quantity": "6.0",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 Shots (60 ml)"
+        },
+        {
+            "nutrient": "davon Zuckerarten/of which sugars",
+            "quantity": "6.0",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 Shots (60 ml)"
+        },
+        {
+            "nutrient": "Eiweiss/protéines/protein",
+            "quantity": "< 0.1",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 Shots (60 ml)"
+        },
+        {
+            "nutrient": "Salz/sel/salt",
+            "quantity": "0.10",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 Shots (60 ml)"
+        },
+        {
+            "nutrient": "Magnesium/magnésium",
+            "quantity": "56",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "15",
+            "serving_size": "2 Shots (60 ml)"
+        }
+    ]
+}

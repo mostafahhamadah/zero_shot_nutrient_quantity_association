@@ -1,0 +1,82 @@
+=================================================================
+  IMAGE: 53.jpeg
+  OCR tokens (after corrector): 33
+  Serialized tokens:            33
+  Visual lines detected:        10
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ naboa per lkshwertangabesno Intormatis
+  Line 02 │ nr deinmatie e 100g 62 g
+  Line 03 │ EneEergi c 54665) 925 (28)
+  Line 04 │ FaFett Maies grasses Veten <05 g <05 g
+  Line 05 │ fwh saturatsdavon gesaige Feauren dont acides gras satures waarvan verzadigde vezuren <05 g <0.5 g
+  Line 06 │ CarbohydrateKohlenhydrate GlucdesKooihydraten 618
+  Line 07 │ 629
+  Line 08 │ ProtenEwesProteines/Erwsten 6.7 g 4Dg
+  Line 09 │ SaltSazSelZout 0.Bg 0.08 g
+  Line 10 │ Vitamin 96Vitamine 85 0.35 mg (25% 02m5
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  21.5px  [1 tokens]
+    → naboa per lkshwertangabesno Intormatis
+  Line 02  y=  34.0px  [4 tokens]
+    → nr deinmatie e | 100g | 62 | g
+  Line 03  y=  54.2px  [3 tokens]
+    → EneEergi c | 54665) | 925 (28)
+  Line 04  y=  72.4px  [5 tokens]
+    → FaFett Maies grasses Veten | <05 | g | <05 | g
+  Line 05  y=  97.4px  [6 tokens]
+    → fwh saturatsdavon gesaige Feauren | dont acides gras satures waarvan verzadigde vezuren | <05 | g | <0.5 | g
+  Line 06  y= 118.2px  [2 tokens]
+    → CarbohydrateKohlenhydrate GlucdesKooihydraten | 618
+  Line 07  y= 128.5px  [1 tokens]
+    → 629
+  Line 08  y= 147.6px  [4 tokens]
+    → ProtenEwesProteines/Erwsten | 6.7 | g | 4Dg
+  Line 09  y= 164.5px  [4 tokens]
+    → SaltSazSelZout | 0.Bg | 0.08 | g
+  Line 10  y= 182.0px  [3 tokens]
+    → Vitamin 96Vitamine 85 | 0.35 mg (25% | 02m5
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      38  naboa per lkshwertangabesno Intormatis
+     4     1      39      53  nr deinmatie e
+     3     1      54      58  100g
+     1     1      59      61  62
+     2     1      62      63  g
+     7     2      64      74  EneEergi c
+     6     2      75      81  54665)
+     5     2      82      90  925 (28)
+    12     3      91     117  FaFett Maies grasses Veten
+    10     3     118     121  <05
+    11     3     122     123  g
+     8     3     124     127  <05
+     9     3     128     129  g
+    13     4     130     163  fwh saturatsdavon gesaige Feauren
+    18     4     164     215  dont acides gras satures waarvan verzadigde vezuren
+    16     4     216     219  <05
+    17     4     220     221  g
+    14     4     222     226  <0.5
+    15     4     227     228  g
+    20     5     229     274  CarbohydrateKohlenhydrate GlucdesKooihydraten
+    19     5     275     278  618
+    21     6     279     282  629
+    25     7     283     310  ProtenEwesProteines/Erwsten
+    23     7     311     314  6.7
+    24     7     315     316  g
+    22     7     317     320  4Dg
+    29     8     321     335  SaltSazSelZout
+    28     8     336     340  0.Bg
+    26     8     341     345  0.08
+    27     8     346     347  g
+    32     9     348     369  Vitamin 96Vitamine 85
+    31     9     370     382  0.35 mg (25%
+    30     9     383     387  02m5
+
+=================================================================

@@ -1,0 +1,21 @@
+Experiment  : experiment_paddle_10
+OCR Engine  : PaddleOCR (Experiment 2v1)
+Corrector   : paddleocr_corrector v2  (C1/C2/C3/C6/C7/C8/C9/C10)
+Evaluator   : LLM-Assisted (Phi-4 Mini)
+Schema      : nutrient|quantity|unit|context
+Timestamp   : 2026-04-05T00:36:14.976372
+Notes       : paddleocr_corrector v2: C1/C2/C3/C6/C7/C9/C10
+
+Corrector   : 430 tokens changed  (386 splits)
+
+Full Tuple Precision : 1.2%
+Full Tuple Recall    : 0.8%
+Full Tuple F1        : 1.0%
+Nutrient F1          : 0.676
+Quantity Acc         : 15.1%
+Unit Acc             : 15.7%
+Context Acc          : 44.3%
+
+LLM calls    : 323
+Fast hits    : 5
+Eval time    : 2992.0s

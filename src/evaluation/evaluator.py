@@ -1,29 +1,30 @@
 """
-evaluator.py  v3
-================
+evaluator.py  v3.1
+==================
 Stage 6 — Tuple Evaluator
+
+CHANGE IN v3.1:
+  Added gt_rows parameter to __init__() so GT can be passed as a
+  pre-loaded list of dicts instead of a CSV file path.
+  This avoids encoding issues with German special characters (ä,ö,ü,ß,µ)
+  when loading from JSON annotations directly.
+
+  Usage with JSON annotations (no CSV involved):
+      evaluator = TupleEvaluator(gt_rows=load_gt_from_json('data/annotations'))
+      metrics   = evaluator.run(...)
+
+  Usage with CSV (original behaviour — unchanged):
+      evaluator = TupleEvaluator(gt_csv='data/annotations/gold_annotations.csv')
+      metrics   = evaluator.run(...)
 
 CHANGE IN v3:
   1. Full tuple definition corrected:
      fok = qok AND uok AND cok  (nutrient + quantity + unit + context all correct)
      Previously fok = qok AND uok only — context was ignored.
 
-  2. Full Tuple Precision, Recall, F1 added:
-     - Full Tuple Precision = full_correct / total_predicted
-       (of all tuples the pipeline produced, what fraction are fully correct)
-     - Full Tuple Recall    = full_correct / total_gt
-       (of all GT tuples, what fraction did the pipeline get fully correct)
-     - Full Tuple F1        = harmonic mean of precision and recall
+  2. Full Tuple Precision, Recall, F1 added.
 
-  3. Deep pipeline diagnostics:
-     Accepts optional per-image diagnostics dict from run_experiment.py.
-     Saves pipeline_diagnostics.csv with per-stage token and edge counts.
-     Enables post-experiment investigation of exactly where tuples are lost.
-
-CHANGE IN v2:
-  All evaluation logic moved from run_experiment.py into this module.
-  norm_qty / norm_unit consolidated here.
-  norm_context removed — handled by SemanticClassifier v4.
+  3. Deep pipeline diagnostics CSV saved when diagnostics dict provided.
 """
 
 import csv
@@ -62,25 +63,50 @@ class TupleEvaluator:
     """
     Evaluates predicted tuples against ground truth annotations.
 
-    v3: Full tuple definition corrected (qty + unit + context all required).
-        Full Tuple Precision, Recall, F1 added.
-        Pipeline diagnostics CSV saved when diagnostics dict provided.
+    Accepts GT either as a CSV file path or as a pre-loaded list of dicts.
+    Pre-loaded list is preferred when annotations are stored as JSON files
+    to avoid any CSV encoding issues with special characters.
 
-    Usage:
+    Usage (JSON annotations — recommended):
+        gt_rows   = load_gt_from_json('data/annotations')
+        evaluator = TupleEvaluator(gt_rows=gt_rows)
+        metrics   = evaluator.run(predictions, experiment, out_dir)
+
+    Usage (CSV — original behaviour):
         evaluator = TupleEvaluator(gt_csv='data/annotations/gold_annotations.csv')
-        metrics = evaluator.run(
-            predictions  = all_tuples,
-            experiment   = 'experiment_07',
-            out_dir      = Path('results/experiment_07'),
-            notes        = 'description',
-            diagnostics  = per_image_diagnostics,   # optional
-        )
+        metrics   = evaluator.run(predictions, experiment, out_dir)
     """
 
-    def __init__(self, gt_csv: str = 'data/annotations/gold_annotations.csv'):
-        self.gt_csv = gt_csv
+    def __init__(self,
+                 gt_csv : str  = 'data/annotations/gold_annotations.csv',
+                 gt_rows: list = None):
+        """
+        Parameters
+        ----------
+        gt_csv  : str   — path to CSV file (used if gt_rows is None)
+        gt_rows : list  — pre-loaded GT rows as List[Dict] with keys:
+                          image_id, nutrient, quantity, unit, context
+                          When provided, gt_csv is ignored entirely.
+        """
+        self.gt_csv  = gt_csv
+        self._gt_rows_preloaded = gt_rows   # None = load from CSV at run time
 
     def _load_gt(self) -> list:
+        """Load GT rows — from pre-loaded list or CSV file."""
+        if self._gt_rows_preloaded is not None:
+            # Pre-loaded: normalise keys, strip whitespace, return as-is
+            rows = []
+            for row in self._gt_rows_preloaded:
+                rows.append({
+                    'image_id': str(row.get('image_id', '')).strip(),
+                    'nutrient': str(row.get('nutrient', '')).strip(),
+                    'quantity': str(row.get('quantity', '')).strip(),
+                    'unit':     str(row.get('unit',     '')).strip(),
+                    'context':  str(row.get('context',  '')).strip(),
+                })
+            return rows
+
+        # Fallback: load from CSV (original behaviour)
         rows = []
         with open(self.gt_csv, encoding='utf-8') as f:
             for row in csv.DictReader(f):
@@ -105,26 +131,6 @@ class TupleEvaluator:
             out_dir     : Path to results directory (must exist)
             notes       : optional notes string
             diagnostics : optional dict keyed by image_id with per-stage counts
-                          produced by run_experiment.py pipeline loop.
-                          Schema per image_id:
-                          {
-                            'ocr_total':        int,  # raw tokens from OCR
-                            'ocr_low_conf':     int,  # tokens below conf threshold
-                            'clf_nutrient':     int,  # tokens classified NUTRIENT
-                            'clf_quantity':     int,
-                            'clf_unit':         int,
-                            'clf_context':      int,
-                            'clf_noise':        int,
-                            'clf_unknown':      int,
-                            'graph_same_row':   int,  # edges per type
-                            'graph_same_col':   int,
-                            'graph_adjacent':   int,
-                            'graph_ctx_scope':  int,
-                            'assoc_tuples':     int,  # tuples produced
-                            'assoc_no_qty':     int,  # nutrients with no qty
-                            'assoc_no_unit':    int,  # nutrients with no unit
-                            'assoc_no_ctx':     int,  # nutrients with no context
-                          }
 
         Returns:
             dict with all metric keys
@@ -148,7 +154,7 @@ class TupleEvaluator:
         total_gt   = len(gt_rows)
         total_pred = len(predictions)
         tp = fp = fn = 0
-        full_correct = 0          # tuples where ALL 4 fields match
+        full_correct = 0
         per_image    = []
         pair_rows    = []
         analysis_rows = []
@@ -203,9 +209,6 @@ class TupleEvaluator:
                 qok = bool(gq) and gq == pq
                 uok = bool(gu) and gu == pu
                 cok = bool(gc) and gc == pc
-
-                # v3: full tuple requires ALL FOUR fields correct
-                # nutrient is already matched above (tp condition)
                 fok = qok and uok and cok
 
                 if qok: qty_m  += 1
@@ -275,7 +278,6 @@ class TupleEvaluator:
             })
 
         # ── Compute metrics ───────────────────────────────────────────────────
-        # Nutrient-level
         nutr_precision = tp / (tp + fp) if (tp + fp) > 0 else 0
         nutr_recall    = tp / (tp + fn) if (tp + fn) > 0 else 0
         nutr_f1        = (2 * nutr_precision * nutr_recall /
@@ -283,15 +285,10 @@ class TupleEvaluator:
                           if (nutr_precision + nutr_recall) > 0 else 0)
         np_ = len(pair_rows)
 
-        # Field-level match accuracies (among nutrient-matched pairs)
         qty_acc  = sum(1 for r in pair_rows if r['qty_match'])  / max(np_, 1)
         unit_acc = sum(1 for r in pair_rows if r['unit_match']) / max(np_, 1)
         ctx_acc  = sum(1 for r in pair_rows if r['ctx_match'])  / max(np_, 1)
 
-        # Full tuple metrics
-        # Precision: of all predicted tuples, how many are fully correct
-        # Recall:    of all GT tuples, how many did we get fully correct
-        # F1:        harmonic mean
         full_precision = full_correct / total_pred if total_pred > 0 else 0
         full_recall    = full_correct / total_gt   if total_gt   > 0 else 0
         full_f1        = (2 * full_precision * full_recall /
@@ -402,22 +399,16 @@ class TupleEvaluator:
             diag_csv = out_dir / 'pipeline_diagnostics.csv'
             diag_fields = [
                 'image_id',
-                # OCR stage
                 'ocr_total', 'ocr_low_conf', 'ocr_passed',
-                # Classifier stage
                 'clf_nutrient', 'clf_quantity', 'clf_unit',
                 'clf_context',  'clf_noise',    'clf_unknown',
                 'clf_noise_pct',
-                # Graph stage
                 'graph_same_row', 'graph_same_col',
                 'graph_adjacent', 'graph_ctx_scope',
                 'graph_total_edges',
-                # Association stage
                 'assoc_tuples', 'assoc_no_qty',
                 'assoc_no_unit', 'assoc_no_ctx',
-                # GT reference
                 'gt_tuples',
-                # Loss funnel
                 'lost_at_ocr', 'lost_at_clf', 'lost_at_graph', 'lost_at_assoc',
             ]
             diag_rows = []
@@ -426,11 +417,9 @@ class TupleEvaluator:
                 gt  = len(gt_by_img.get(img, []))
                 diag_rows.append({
                     'image_id':          img,
-                    # OCR
                     'ocr_total':         d.get('ocr_total',    0),
                     'ocr_low_conf':      d.get('ocr_low_conf', 0),
                     'ocr_passed':        d.get('ocr_total',    0) - d.get('ocr_low_conf', 0),
-                    # Classifier
                     'clf_nutrient':      d.get('clf_nutrient', 0),
                     'clf_quantity':      d.get('clf_quantity', 0),
                     'clf_unit':          d.get('clf_unit',     0),
@@ -440,7 +429,6 @@ class TupleEvaluator:
                     'clf_noise_pct':     round(
                         d.get('clf_noise', 0) /
                         max(d.get('ocr_total', 1), 1) * 100, 1),
-                    # Graph
                     'graph_same_row':    d.get('graph_same_row',  0),
                     'graph_same_col':    d.get('graph_same_col',  0),
                     'graph_adjacent':    d.get('graph_adjacent',  0),
@@ -449,17 +437,11 @@ class TupleEvaluator:
                                           d.get('graph_same_col', 0) +
                                           d.get('graph_adjacent', 0) +
                                           d.get('graph_ctx_scope', 0)),
-                    # Association
                     'assoc_tuples':      d.get('assoc_tuples',  0),
                     'assoc_no_qty':      d.get('assoc_no_qty',  0),
                     'assoc_no_unit':     d.get('assoc_no_unit', 0),
                     'assoc_no_ctx':      d.get('assoc_no_ctx',  0),
-                    # GT reference
                     'gt_tuples':         gt,
-                    # Loss funnel — how many GT tuples are unaccounted at each stage
-                    # If clf_nutrient < gt → lost at classification
-                    # If graph_ctx_scope == 0 and gt has context → lost at graph
-                    # If assoc_no_qty > 0 → lost at association
                     'lost_at_ocr':   max(0, gt - d.get('clf_nutrient', 0)),
                     'lost_at_clf':   d.get('clf_unknown', 0),
                     'lost_at_graph': max(0, gt - d.get('graph_ctx_scope', 1)
@@ -472,7 +454,7 @@ class TupleEvaluator:
                 w.writeheader()
                 w.writerows(diag_rows)
 
-            # Print diagnostics summary
+            W = 65
             print(f"\n{'='*W}")
             print(f"  PIPELINE DIAGNOSTICS SUMMARY")
             print(f"{'='*W}")
@@ -508,7 +490,6 @@ class TupleEvaluator:
             print(f"{'='*W}")
             print(f"    {diag_csv}")
 
-        # ── Print analysis summary ────────────────────────────────────────────
         n_missing   = sum(1 for r in analysis_rows if r['tag'] == 'missing')
         n_incorrect = sum(1 for r in analysis_rows if r['tag'] == 'incorrect')
         print(f"\n{'='*W}")
@@ -522,8 +503,7 @@ class TupleEvaluator:
         print(f"{'='*W}")
 
         print(f"\n  Saved:")
-        for p in [metrics_json, summary_csv, per_img_csv,
-                  pairs_csv, analysis_csv]:
+        for p in [metrics_json, summary_csv, per_img_csv, pairs_csv, analysis_csv]:
             print(f"    {p}")
 
         return metrics

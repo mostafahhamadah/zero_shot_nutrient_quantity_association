@@ -1,0 +1,229 @@
+{
+    "image_id": "59.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Brennwert/Energy Value",
+            "quantity": "1391",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Brennwert/Energy Value",
+            "quantity": "330",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Eiweiß/Protein",
+            "quantity": "0.7",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Kohlenhydrate/Carbohydrate",
+            "quantity": "66.6",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "davon Zucker / of which Sugars",
+            "quantity": "64.4",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "davon Fructose / of which Fructose",
+            "quantity": "63.7",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Fett/Fat",
+            "quantity": "0.3",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "davon gesättigte Fettsäuren/of which Saturates",
+            "quantity": "<0.3",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Ballaststoffe / Fibre",
+            "quantity": "25",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Natrium / Sodium",
+            "quantity": "<0.1",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Selen / Selenium",
+            "quantity": "150",
+            "unit": "µg",
+            "context": "per_100g",
+            "nrv_percent": "273",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Vitamin C",
+            "quantity": "300",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "375",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Vitamin E",
+            "quantity": "50",
+            "unit": "mg α-TE",
+            "context": "per_100g",
+            "nrv_percent": "417",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Vitamin A (aus/from Provitamin A)",
+            "quantity": "1667",
+            "unit": "µg RE",
+            "context": "per_100g",
+            "nrv_percent": "208",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Brennwert/Energy Value",
+            "quantity": "278",
+            "unit": "kJ",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 20 g Pulver"
+        },
+        {
+            "nutrient": "Brennwert/Energy Value",
+            "quantity": "66",
+            "unit": "kcal",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 20 g Pulver"
+        },
+        {
+            "nutrient": "Eiweiß/Protein",
+            "quantity": "0.14",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 20 g Pulver"
+        },
+        {
+            "nutrient": "Kohlenhydrate/Carbohydrate",
+            "quantity": "13.3",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 20 g Pulver"
+        },
+        {
+            "nutrient": "davon Zucker / of which Sugars",
+            "quantity": "12.9",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 20 g Pulver"
+        },
+        {
+            "nutrient": "davon Fructose / of which Fructose",
+            "quantity": "12.7",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 20 g Pulver"
+        },
+        {
+            "nutrient": "Fett/Fat",
+            "quantity": "<0.1",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 20 g Pulver"
+        },
+        {
+            "nutrient": "davon gesättigte Fettsäuren/of which Saturates",
+            "quantity": "<0.1",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 20 g Pulver"
+        },
+        {
+            "nutrient": "Ballaststoffe / Fibre",
+            "quantity": "5",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 20 g Pulver"
+        },
+        {
+            "nutrient": "Natrium / Sodium",
+            "quantity": "<0.02",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Portion = 20 g Pulver"
+        },
+        {
+            "nutrient": "Selen / Selenium",
+            "quantity": "30",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "55",
+            "serving_size": "1 Portion = 20 g Pulver"
+        },
+        {
+            "nutrient": "Vitamin C",
+            "quantity": "60",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "75",
+            "serving_size": "1 Portion = 20 g Pulver"
+        },
+        {
+            "nutrient": "Vitamin E",
+            "quantity": "10",
+            "unit": "mg α-TE",
+            "context": "per_daily_dose",
+            "nrv_percent": "83",
+            "serving_size": "1 Portion = 20 g Pulver"
+        },
+        {
+            "nutrient": "Vitamin A (aus/from Provitamin A)",
+            "quantity": "333",
+            "unit": "µg RE",
+            "context": "per_daily_dose",
+            "nrv_percent": "42",
+            "serving_size": "1 Portion = 20 g Pulver"
+        }
+    ]
+}

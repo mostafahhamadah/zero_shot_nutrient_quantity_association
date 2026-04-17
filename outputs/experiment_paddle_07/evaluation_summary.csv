@@ -1,0 +1,2 @@
+experiment,timestamp,notes,evaluator,schema,images_evaluated,gt_tuples,predicted_tuples,matched_pairs,nutrient_precision,nutrient_recall,nutrient_f1,quantity_acc,unit_acc,context_acc,full_tuple_correct,full_tuple_precision,full_tuple_recall,full_tuple_f1,llm_calls,fast_hits,eval_time_s
+experiment_paddle_07,2026-04-02T21:07:52.562591,qwen2.5:7b instead of phi4-mini,LLM-Assisted (phi4-mini),nutrient|quantity|unit|context,57,866,564,486,0.8617,0.5612,0.6797,0.284,0.8128,0.5823,36,0.0638,0.0416,0.0503,334,26,1918.8

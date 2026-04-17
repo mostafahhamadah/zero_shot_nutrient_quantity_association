@@ -1,0 +1,67 @@
+=================================================================
+  IMAGE: 82.jpeg
+  OCR tokens (after corrector): 21
+  Serialized tokens:            21
+  Visual lines detected:        9
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Nutrition information:
+  Line 02 │ per 100g per serving
+  Line 03 │ 3g/1level teaspoon
+  Line 04 │ Energy 0kJ/okcal OkJ/o kcal
+  Line 05 │ Protein og 60
+  Line 06 │ Carbohydrates 60 og
+  Line 07 │ Fat og og
+  Line 08 │ Creatine 100g 3 g
+  Line 09 │ monohydrate
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  21.0px  [1 tokens]
+    → Nutrition information:
+  Line 02  y=  45.5px  [2 tokens]
+    → per 100g | per serving
+  Line 03  y=  65.5px  [1 tokens]
+    → 3g/1level teaspoon
+  Line 04  y=  91.2px  [3 tokens]
+    → Energy | 0kJ/okcal | OkJ/o kcal
+  Line 05  y= 117.5px  [3 tokens]
+    → Protein | og | 60
+  Line 06  y= 143.7px  [3 tokens]
+    → Carbohydrates | 60 | og
+  Line 07  y= 167.5px  [3 tokens]
+    → Fat | og | og
+  Line 08  y= 194.9px  [4 tokens]
+    → Creatine | 100g | 3 | g
+  Line 09  y= 208.0px  [1 tokens]
+    → monohydrate
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      22  Nutrition information:
+     1     1      23      31  per 100g
+     2     1      32      43  per serving
+     3     2      44      62  3g/1level teaspoon
+     4     3      63      69  Energy
+     5     3      70      79  0kJ/okcal
+     6     3      80      90  OkJ/o kcal
+     7     4      91      98  Protein
+     8     4      99     101  og
+     9     4     102     104  60
+    10     5     105     118  Carbohydrates
+    12     5     119     121  60
+    11     5     122     124  og
+    13     6     125     128  Fat
+    14     6     129     131  og
+    15     6     132     134  og
+    16     7     135     143  Creatine
+    17     7     144     148  100g
+    18     7     149     150  3
+    19     7     151     152  g
+    20     8     153     164  monohydrate
+
+=================================================================

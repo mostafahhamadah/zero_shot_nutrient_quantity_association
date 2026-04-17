@@ -1,0 +1,68 @@
+=================================================================
+  IMAGE: 12.jpeg
+  OCR tokens (after corrector): 22
+  Serialized tokens:            22
+  Visual lines detected:        9
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ per100mi perser 10
+  Line 02 │ 547
+  Line 03 │ 129 kcal IN
+  Line 04 │ 0.0 g
+  Line 05 │ 0.00
+  Line 06 │ 32 g
+  Line 07 │ 1.1 g 0.3
+  Line 08 │ on/Pietn M/Fotines/ProteinTBaba/Proten 0.1 g
+  Line 09 │ Sca/Se/Sat/Sa/Sat 0.6 g
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=   9.5px  [3 tokens]
+    → per100mi | perser | 10
+  Line 02  y=  21.5px  [1 tokens]
+    → 547
+  Line 03  y=  31.0px  [3 tokens]
+    → 129 | kcal | IN
+  Line 04  y=  41.5px  [2 tokens]
+    → 0.0 | g
+  Line 05  y=  53.0px  [1 tokens]
+    → 0.00
+  Line 06  y=  82.5px  [2 tokens]
+    → 32 | g
+  Line 07  y= 104.3px  [3 tokens]
+    → 1.1 | g | 0.3
+  Line 08  y= 122.5px  [4 tokens]
+    → on/Pietn | M/Fotines/ProteinTBaba/Proten | 0.1 | g
+  Line 09  y= 133.5px  [3 tokens]
+    → Sca/Se/Sat/Sa/Sat | 0.6 | g
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0       8  per100mi
+     0     0       9      15  perser
+     2     0      16      18  10
+     3     1      19      22  547
+     4     2      23      26  129
+     5     2      27      31  kcal
+     6     2      32      34  IN
+     7     3      35      38  0.0
+     8     3      39      40  g
+     9     4      41      45  0.00
+    10     5      46      48  32
+    11     5      49      50  g
+    12     6      51      54  1.1
+    13     6      55      56  g
+    14     6      57      60  0.3
+    18     7      61      69  on/Pietn
+    15     7      70      99  M/Fotines/ProteinTBaba/Proten
+    16     7     100     103  0.1
+    17     7     104     105  g
+    19     8     106     123  Sca/Se/Sat/Sa/Sat
+    20     8     124     127  0.6
+    21     8     128     129  g
+
+=================================================================

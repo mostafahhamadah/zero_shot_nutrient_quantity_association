@@ -1,0 +1,213 @@
+{
+    "image_id": "33.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Energie/energy kJ",
+            "quantity": "1660",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energie/energy kcal",
+            "quantity": "390",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Fett/fat",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "davon gesättigte Fettsäuren/of which saturates",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Kohlenhydrate/carbohydrates",
+            "quantity": "97",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "davon Zuckerarten/of which sugars",
+            "quantity": "56",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Eiweiss/protein",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Salz/salt",
+            "quantity": "0.53",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Natrium/sodium",
+            "quantity": "210",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Calcium",
+            "quantity": "35",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "4",
+            "serving_size": null
+        },
+        {
+            "nutrient": "Magnesium",
+            "quantity": "25",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "7",
+            "serving_size": null
+        },
+        {
+            "nutrient": "Kalium/potassium",
+            "quantity": "55",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "3",
+            "serving_size": null
+        },
+        {
+            "nutrient": "Chlorid/chlorure",
+            "quantity": "140",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "18",
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energie/energy kJ",
+            "quantity": "1245",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "75 g (300 ml)"
+        },
+        {
+            "nutrient": "Energie/energy kcal",
+            "quantity": "293",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "75 g (300 ml)"
+        },
+        {
+            "nutrient": "Fett/fat",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "75 g (300 ml)"
+        },
+        {
+            "nutrient": "davon gesättigte Fettsäuren/of which saturates",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "75 g (300 ml)"
+        },
+        {
+            "nutrient": "Kohlenhydrate/carbohydrates",
+            "quantity": "73",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "75 g (300 ml)"
+        },
+        {
+            "nutrient": "davon Zuckerarten/of which sugars",
+            "quantity": "42",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "75 g (300 ml)"
+        },
+        {
+            "nutrient": "Eiweiss/protein",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "75 g (300 ml)"
+        },
+        {
+            "nutrient": "Salz/salt",
+            "quantity": "0.40",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "75 g (300 ml)"
+        },
+        {
+            "nutrient": "Natrium/sodium",
+            "quantity": "158",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "75 g (300 ml)"
+        },
+        {
+            "nutrient": "Calcium",
+            "quantity": "26",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "3",
+            "serving_size": "75 g (300 ml)"
+        },
+        {
+            "nutrient": "Magnesium",
+            "quantity": "19",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "5",
+            "serving_size": "75 g (300 ml)"
+        },
+        {
+            "nutrient": "Kalium/potassium",
+            "quantity": "41",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "2",
+            "serving_size": "75 g (300 ml)"
+        },
+        {
+            "nutrient": "Chlorid/chlorure",
+            "quantity": "105",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "13",
+            "serving_size": "75 g (300 ml)"
+        }
+    ]
+}

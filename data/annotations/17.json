@@ -1,0 +1,37 @@
+{
+    "image_id": "17.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Caffeine",
+            "quantity": "100",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "piece"
+        },
+        {
+            "nutrient": "Vitamin B3",
+            "quantity": "2.4",
+            "unit": "mg NE",
+            "context": "per_serving",
+            "nrv_percent": "15",
+            "serving_size": "piece"
+        },
+        {
+            "nutrient": "Vitamin B6",
+            "quantity": "0.22",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "15",
+            "serving_size": "piece"
+        },
+        {
+            "nutrient": "Vitamin B12",
+            "quantity": "0.38",
+            "unit": "µg",
+            "context": "per_serving",
+            "nrv_percent": "15",
+            "serving_size": "piece"
+        }
+    ]
+}

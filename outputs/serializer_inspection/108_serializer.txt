@@ -1,0 +1,94 @@
+=================================================================
+  IMAGE: 108.jpeg
+  OCR tokens (after corrector): 33
+  Serialized tokens:            33
+  Visual lines detected:        14
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Zusammensetzung
+  Line 02 │ 1 Tablette (5.6g)
+  Line 03 │ Magnesium 240 mg
+  Line 04 │ Vitamin B1 1.1 mg
+  Line 05 │ Vitamin B2 1.4 mg
+  Line 06 │ Vitamin B6 1.4 mg
+  Line 07 │ Vitamin B12 2.519
+  Line 08 │ VitaminC 80 mg
+  Line 09 │ VitaminE (a-TE) 12 mg
+  Line 10 │ 16 mg
+  Line 11 │ Biotin 509
+  Line 12 │ Folsaure 200 g
+  Line 13 │ Pantothensaure 6.0 mg
+  Line 14 │ 14Porti
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  87.5px  [1 tokens]
+    → Zusammensetzung
+  Line 02  y= 179.5px  [1 tokens]
+    → 1 Tablette (5.6g)
+  Line 03  y= 239.7px  [3 tokens]
+    → Magnesium | 240 | mg
+  Line 04  y= 304.0px  [3 tokens]
+    → Vitamin B1 | 1.1 | mg
+  Line 05  y= 369.2px  [3 tokens]
+    → Vitamin B2 | 1.4 | mg
+  Line 06  y= 432.3px  [3 tokens]
+    → Vitamin B6 | 1.4 | mg
+  Line 07  y= 499.5px  [2 tokens]
+    → Vitamin B12 | 2.519
+  Line 08  y= 554.0px  [3 tokens]
+    → VitaminC | 80 | mg
+  Line 09  y= 619.7px  [3 tokens]
+    → VitaminE (a-TE) | 12 | mg
+  Line 10  y= 666.5px  [2 tokens]
+    → 16 | mg
+  Line 11  y= 735.5px  [2 tokens]
+    → Biotin | 509
+  Line 12  y= 794.2px  [3 tokens]
+    → Folsaure | 200 | g
+  Line 13  y= 858.0px  [3 tokens]
+    → Pantothensaure | 6.0 | mg
+  Line 14  y=1044.5px  [1 tokens]
+    → 14Porti
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      15  Zusammensetzung
+     1     1      16      33  1 Tablette (5.6g)
+     4     2      34      43  Magnesium
+     2     2      44      47  240
+     3     2      48      50  mg
+     7     3      51      61  Vitamin B1
+     5     3      62      65  1.1
+     6     3      66      68  mg
+    10     4      69      79  Vitamin B2
+     8     4      80      83  1.4
+     9     4      84      86  mg
+    13     5      87      97  Vitamin B6
+    11     5      98     101  1.4
+    12     5     102     104  mg
+    15     6     105     116  Vitamin B12
+    14     6     117     122  2.519
+    18     7     123     131  VitaminC
+    16     7     132     134  80
+    17     7     135     137  mg
+    21     8     138     153  VitaminE (a-TE)
+    19     8     154     156  12
+    20     8     157     159  mg
+    22     9     160     162  16
+    23     9     163     165  mg
+    25    10     166     172  Biotin
+    24    10     173     176  509
+    28    11     177     185  Folsaure
+    26    11     186     189  200
+    27    11     190     191  g
+    31    12     192     206  Pantothensaure
+    29    12     207     210  6.0
+    30    12     211     213  mg
+    32    13     214     221  14Porti
+
+=================================================================

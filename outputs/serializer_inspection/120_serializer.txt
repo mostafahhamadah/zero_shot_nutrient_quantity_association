@@ -1,0 +1,222 @@
+=================================================================
+  IMAGE: 120.jpeg
+  OCR tokens (after corrector): 107
+  Serialized tokens:            107
+  Visual lines detected:        32
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ SUBSTANZ pro 10g
+  Line 02 │ INOSITOL 100 mg
+  Line 03 │ ALPHA-LIPONSAURE 42 mg
+  Line 04 │ choline 20 mg
+  Line 05 │ R, RUTIN 20 mg
+  Line 06 │ LACTOBACILLUS 3.6x10KBE
+  Line 07 │ ACIDOPHILUS
+  Line 08 │ BIFIDOBACTERIUMBIFIDUM 3.6x10KBE
+  Line 09 │ ZUSAMMENSETZUNG pro 10g %NRVPRO10G
+  Line 10 │ VITAMINC 250 mg 313
+  Line 11 │ HI Niacin 16 mg 100
+  Line 12 │ Cl- VITAMINE 30 mg 250
+  Line 13 │ Pantothensaure 5 mg 83
+  Line 14 │ VITAMINB6 0.9 mg 64
+  Line 15 │ VITAMINB2 1 mg 79
+  Line 16 │ VITAMINB1 1 mg 91
+  Line 17 │ S 100
+  Line 18 │ Folsaure 200 g 80
+  Line 19 │ Biotin 40 g 164
+  Line 20 │ VITAMINB12 4.1 g 104
+  Line 21 │ VITAMIND3 5.2 g 81
+  Line 22 │ VITAMINK 60.4 g 15
+  Line 23 │ Calcium 121 mg 65
+  Line 24 │ ZINK 6.5 mg 68
+  Line 25 │ ON
+  Line 26 │ Jod 100g 40
+  Line 27 │ 22 g 100
+  Line 28 │ SELEN 1 mg 20
+  Line 29 │ V KUPFER 0.4 mg 63
+  Line 30 │ MANGAN 25 g 90
+  Line 31 │ CHROM 45 g
+  Line 32 │ MOLYBDAN
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  68.0px  [2 tokens]
+    → SUBSTANZ | pro 10g
+  Line 02  y= 142.3px  [3 tokens]
+    → INOSITOL | 100 | mg
+  Line 03  y= 185.2px  [3 tokens]
+    → ALPHA-LIPONSAURE | 42 | mg
+  Line 04  y= 230.3px  [3 tokens]
+    → choline | 20 | mg
+  Line 05  y= 275.8px  [4 tokens]
+    → R, | RUTIN | 20 | mg
+  Line 06  y= 320.8px  [2 tokens]
+    → LACTOBACILLUS | 3.6x10KBE
+  Line 07  y= 365.5px  [1 tokens]
+    → ACIDOPHILUS
+  Line 08  y= 400.5px  [2 tokens]
+    → BIFIDOBACTERIUMBIFIDUM | 3.6x10KBE
+  Line 09  y= 483.0px  [3 tokens]
+    → ZUSAMMENSETZUNG | pro 10g | %NRVPRO10G
+  Line 10  y= 557.9px  [4 tokens]
+    → VITAMINC | 250 | mg | 313
+  Line 11  y= 598.6px  [5 tokens]
+    → HI | Niacin | 16 | mg | 100
+  Line 12  y= 646.1px  [5 tokens]
+    → Cl- | VITAMINE | 30 | mg | 250
+  Line 13  y= 687.6px  [4 tokens]
+    → Pantothensaure | 5 | mg | 83
+  Line 14  y= 731.5px  [4 tokens]
+    → VITAMINB6 | 0.9 | mg | 64
+  Line 15  y= 774.1px  [4 tokens]
+    → VITAMINB2 | 1 | mg | 79
+  Line 16  y= 815.9px  [4 tokens]
+    → VITAMINB1 | 1 | mg | 91
+  Line 17  y= 836.5px  [2 tokens]
+    → S | 100
+  Line 18  y= 868.5px  [4 tokens]
+    → Folsaure | 200 | g | 80
+  Line 19  y= 909.9px  [4 tokens]
+    → Biotin | 40 | g | 164
+  Line 20  y= 951.0px  [4 tokens]
+    → VITAMINB12 | 4.1 | g | 104
+  Line 21  y= 991.5px  [4 tokens]
+    → VITAMIND3 | 5.2 | g | 81
+  Line 22  y=1031.2px  [4 tokens]
+    → VITAMINK | 60.4 | g | 15
+  Line 23  y=1069.5px  [4 tokens]
+    → Calcium | 121 | mg | 65
+  Line 24  y=1108.9px  [4 tokens]
+    → ZINK | 6.5 | mg | 68
+  Line 25  y=1126.0px  [1 tokens]
+    → ON
+  Line 26  y=1149.5px  [3 tokens]
+    → Jod | 100g | 40
+  Line 27  y=1182.2px  [3 tokens]
+    → 22 | g | 100
+  Line 28  y=1215.8px  [4 tokens]
+    → SELEN | 1 | mg | 20
+  Line 29  y=1255.6px  [5 tokens]
+    → V | KUPFER | 0.4 | mg | 63
+  Line 30  y=1295.0px  [4 tokens]
+    → MANGAN | 25 | g | 90
+  Line 31  y=1337.0px  [3 tokens]
+    → CHROM | 45 | g
+  Line 32  y=1367.0px  [1 tokens]
+    → MOLYBDAN
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0       8  SUBSTANZ
+     0     0       9      16  pro 10g
+     4     1      17      25  INOSITOL
+     2     1      26      29  100
+     3     1      30      32  mg
+     7     2      33      49  ALPHA-LIPONSAURE
+     5     2      50      52  42
+     6     2      53      55  mg
+    10     3      56      63  choline
+     8     3      64      66  20
+     9     3      67      69  mg
+    13     4      70      72  R,
+    14     4      73      78  RUTIN
+    11     4      79      81  20
+    12     4      82      84  mg
+    16     5      85      98  LACTOBACILLUS
+    15     5      99     108  3.6x10KBE
+    17     6     109     120  ACIDOPHILUS
+    19     7     121     143  BIFIDOBACTERIUMBIFIDUM
+    18     7     144     153  3.6x10KBE
+    22     8     154     169  ZUSAMMENSETZUNG
+    21     8     170     177  pro 10g
+    20     8     178     188  %NRVPRO10G
+    26     9     189     197  VITAMINC
+    24     9     198     201  250
+    25     9     202     204  mg
+    23     9     205     208  313
+    27    10     209     211  HI
+    31    10     212     218  Niacin
+    29    10     219     221  16
+    30    10     222     224  mg
+    28    10     225     228  100
+    36    11     229     232  Cl-
+    35    11     233     241  VITAMINE
+    33    11     242     244  30
+    34    11     245     247  mg
+    32    11     248     251  250
+    40    12     252     266  Pantothensaure
+    38    12     267     268  5
+    39    12     269     271  mg
+    37    12     272     274  83
+    42    13     275     284  VITAMINB6
+    43    13     285     288  0.9
+    44    13     289     291  mg
+    41    13     292     294  64
+    46    14     295     304  VITAMINB2
+    47    14     305     306  1
+    48    14     307     309  mg
+    45    14     310     312  79
+    50    15     313     322  VITAMINB1
+    51    15     323     324  1
+    52    15     325     327  mg
+    49    15     328     330  91
+    53    16     331     332  S
+    54    16     333     336  100
+    55    17     337     345  Folsaure
+    56    17     346     349  200
+    57    17     350     351  g
+    58    17     352     354  80
+    59    18     355     361  Biotin
+    60    18     362     364  40
+    61    18     365     366  g
+    62    18     367     370  164
+    63    19     371     381  VITAMINB12
+    64    19     382     385  4.1
+    65    19     386     387  g
+    66    19     388     391  104
+    69    20     392     401  VITAMIND3
+    67    20     402     405  5.2
+    68    20     406     407  g
+    70    20     408     410  81
+    74    21     411     419  VITAMINK
+    71    21     420     424  60.4
+    72    21     425     426  g
+    73    21     427     429  15
+    78    22     430     437  Calcium
+    75    22     438     441  121
+    76    22     442     444  mg
+    77    22     445     447  65
+    82    23     448     452  ZINK
+    79    23     453     456  6.5
+    80    23     457     459  mg
+    81    23     460     462  68
+    83    24     463     465  ON
+    86    25     466     469  Jod
+    84    25     470     474  100g
+    85    25     475     477  40
+    88    26     478     480  22
+    89    26     481     482  g
+    87    26     483     486  100
+    90    27     487     492  SELEN
+    92    27     493     494  1
+    93    27     495     497  mg
+    91    27     498     500  20
+    96    28     501     502  V
+    94    28     503     509  KUPFER
+    97    28     510     513  0.4
+    98    28     514     516  mg
+    95    28     517     519  63
+    99    29     520     526  MANGAN
+   101    29     527     529  25
+   102    29     530     531  g
+   100    29     532     534  90
+   103    30     535     540  CHROM
+   104    30     541     543  45
+   105    30     544     545  g
+   106    31     546     554  MOLYBDAN
+
+=================================================================

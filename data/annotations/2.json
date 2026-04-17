@@ -1,0 +1,133 @@
+{
+    "image_id": "2.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Energie/energy kJ",
+            "quantity": "1195",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energie/energy kcal",
+            "quantity": "281",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Fett/fat",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "davon gesättigte Fettsäuren/of which saturates",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Kohlenhydrate/carbohydrates",
+            "quantity": "70",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "davon Zuckerarten/of which sugars",
+            "quantity": "33",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Eiweiss/Protein",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Salz/salt",
+            "quantity": "0.43",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energie/energy kJ",
+            "quantity": "837",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Tube (70g)"
+        },
+        {
+            "nutrient": "Energie/energy kcal",
+            "quantity": "197",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Tube (70g)"
+        },
+        {
+            "nutrient": "Fett/fat",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Tube (70g)"
+        },
+        {
+            "nutrient": "davon gesättigte Fettsäuren/of which saturates",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Tube (70g)"
+        },
+        {
+            "nutrient": "Kohlenhydrate/carbohydrates",
+            "quantity": "50",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Tube (70g)"
+        },
+        {
+            "nutrient": "davon Zuckerarten/of which sugars",
+            "quantity": "25",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Tube (70g)"
+        },
+        {
+            "nutrient": "Eiweiss/Protein",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Tube (70g)"
+        },
+        {
+            "nutrient": "Salz/salt",
+            "quantity": "0.30",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Tube (70g)"
+        }
+    ]
+}

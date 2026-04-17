@@ -1,0 +1,87 @@
+=================================================================
+  IMAGE: 51.jpeg
+  OCR tokens (after corrector): 38
+  Serialized tokens:            38
+  Visual lines detected:        10
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Nutrition Inormation per  Nahrwertangabea pro  Informations
+  Line 02 │ Energy | Energie  (kca nutritionnelles par Yoedingswaarde informatie per 100g 60 g
+  Line 03 │ FatFett Maberes grassesVetten 1541(365) 925 (218)
+  Line 04 │ of whkh saturatesdavon geattigte Fetsuren 0.5 g <0.5 g
+  Line 05 │ dont acides gras satures  waanvan verzadigde velzuren 4050 0.50
+  Line 06 │ CarbohydrateKohlenhydrate6lucdesKoolhydraten 64 g 50 g
+  Line 07 │ ProteinEiweleProteinesEiwitten 629 57 g
+  Line 08 │ Sait1SaZout 6.7 g 4.0 g
+  Line 09 │ Vitamin Bine B6 0.3 g 0.08 g
+  Line 10 │ 0.35 mg 25%) 0.21 mg 15%
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  15.5px  [1 tokens]
+    → Nutrition Inormation per  Nahrwertangabea pro  Informations
+  Line 02  y=  38.0px  [5 tokens]
+    → Energy | Energie  (kca | nutritionnelles par Yoedingswaarde informatie per | 100g | 60 | g
+  Line 03  y=  58.5px  [3 tokens]
+    → FatFett Maberes grassesVetten | 1541(365) | 925 (218)
+  Line 04  y=  75.6px  [5 tokens]
+    → of whkh saturatesdavon geattigte Fetsuren | 0.5 | g | <0.5 | g
+  Line 05  y=  98.7px  [3 tokens]
+    → dont acides gras satures  waanvan verzadigde velzuren | 4050 | 0.50
+  Line 06  y= 116.5px  [5 tokens]
+    → CarbohydrateKohlenhydrate6lucdesKoolhydraten | 64 | g | 50 | g
+  Line 07  y= 133.1px  [4 tokens]
+    → ProteinEiweleProteinesEiwitten | 629 | 57 | g
+  Line 08  y= 149.3px  [5 tokens]
+    → Sait1SaZout | 6.7 | g | 4.0 | g
+  Line 09  y= 166.4px  [5 tokens]
+    → Vitamin Bine B6 | 0.3 | g | 0.08 | g
+  Line 10  y= 183.8px  [2 tokens]
+    → 0.35 mg 25%) | 0.21 mg 15%
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      59  Nutrition Inormation per  Nahrwertangabea pro  Informations
+     5     1      60      82  Energy | Energie  (kca
+     1     1      83     132  nutritionnelles par Yoedingswaarde informatie per
+     2     1     133     137  100g
+     3     1     138     140  60
+     4     1     141     142  g
+     8     2     143     172  FatFett Maberes grassesVetten
+     6     2     173     182  1541(365)
+     7     2     183     192  925 (218)
+    13     3     193     234  of whkh saturatesdavon geattigte Fetsuren
+     9     3     235     238  0.5
+    10     3     239     240  g
+    11     3     241     245  <0.5
+    12     3     246     247  g
+    14     4     248     301  dont acides gras satures  waanvan verzadigde velzuren
+    15     4     302     306  4050
+    16     4     307     311  0.50
+    17     5     312     356  CarbohydrateKohlenhydrate6lucdesKoolhydraten
+    18     5     357     359  64
+    19     5     360     361  g
+    20     5     362     364  50
+    21     5     365     366  g
+    25     6     367     397  ProteinEiweleProteinesEiwitten
+    22     6     398     401  629
+    23     6     402     404  57
+    24     6     405     406  g
+    26     7     407     418  Sait1SaZout
+    27     7     419     422  6.7
+    28     7     423     424  g
+    29     7     425     428  4.0
+    30     7     429     430  g
+    31     8     431     446  Vitamin Bine B6
+    32     8     447     450  0.3
+    33     8     451     452  g
+    34     8     453     457  0.08
+    35     8     458     459  g
+    36     9     460     472  0.35 mg 25%)
+    37     9     473     484  0.21 mg 15%
+
+=================================================================

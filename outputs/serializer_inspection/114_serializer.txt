@@ -1,0 +1,140 @@
+=================================================================
+  IMAGE: 114.jpeg
+  OCR tokens (after corrector): 73
+  Serialized tokens:            73
+  Visual lines detected:        16
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ %RM'
+  Line 02 │ DURCHSCHNITTLICHE %RM PROPORTION PROPORTION
+  Line 03 │ NAHRWERTE(BERECHNET): pro 100g pro 100g INWASSER" INWASSER'
+  Line 04 │ Energie
+  Line 05 │ kJ 1541 462
+  Line 06 │ kcal 368 18 111 6
+  Line 07 │ FETT 4.8 g 1 148 2
+  Line 08 │ DAVONGESATTIGTEFETTSAUREN 3.3 g 17 1.0 g S
+  Line 09 │ Kohlenhydrate 8.8 g 3 2.6 g 1
+  Line 10 │ DAVONZUCKER 4.1 g 5 1.2 g 1
+  Line 11 │ Ballaststoffe 2.8 g 0.9 g 42
+  Line 12 │ Eiweiss 70.1 g 140 21.0 g 3
+  Line 13 │ SALZ 0.51 g 6 0.17 g
+  Line 14 │ KOFFEIN 268 mg 80 mg
+  Line 15 │ PORTION:30g PULVERIN250ml WASSER
+  Line 16 │ H SHAKEN.ALTERNATIV.30g AITZU
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y= 210.0px  [1 tokens]
+    → %RM'
+  Line 02  y= 248.5px  [4 tokens]
+    → DURCHSCHNITTLICHE | %RM | PROPORTION | PROPORTION
+  Line 03  y= 297.4px  [5 tokens]
+    → NAHRWERTE(BERECHNET): | pro 100g | pro 100g | INWASSER" | INWASSER'
+  Line 04  y= 388.0px  [1 tokens]
+    → Energie
+  Line 05  y= 435.7px  [3 tokens]
+    → kJ | 1541 | 462
+  Line 06  y= 481.9px  [5 tokens]
+    → kcal | 368 | 18 | 111 | 6
+  Line 07  y= 531.0px  [6 tokens]
+    → FETT | 4.8 | g | 1 | 148 | 2
+  Line 08  y= 577.4px  [7 tokens]
+    → DAVONGESATTIGTEFETTSAUREN | 3.3 | g | 17 | 1.0 | g | S
+  Line 09  y= 623.7px  [7 tokens]
+    → Kohlenhydrate | 8.8 | g | 3 | 2.6 | g | 1
+  Line 10  y= 669.7px  [7 tokens]
+    → DAVONZUCKER | 4.1 | g | 5 | 1.2 | g | 1
+  Line 11  y= 722.6px  [6 tokens]
+    → Ballaststoffe | 2.8 | g | 0.9 | g | 42
+  Line 12  y= 767.2px  [7 tokens]
+    → Eiweiss | 70.1 | g | 140 | 21.0 | g | 3
+  Line 13  y= 811.8px  [6 tokens]
+    → SALZ | 0.51 | g | 6 | 0.17 | g
+  Line 14  y= 893.6px  [5 tokens]
+    → KOFFEIN | 268 | mg | 80 | mg
+  Line 15  y=1022.0px  [1 tokens]
+    → PORTION:30g PULVERIN250ml WASSER
+  Line 16  y=1080.8px  [2 tokens]
+    → H SHAKEN.ALTERNATIV.30g | AITZU
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       4  %RM'
+     2     1       5      22  DURCHSCHNITTLICHE
+     1     1      23      26  %RM
+     3     1      27      37  PROPORTION
+     4     1      38      48  PROPORTION
+     8     2      49      70  NAHRWERTE(BERECHNET):
+     5     2      71      79  pro 100g
+     6     2      80      88  pro 100g
+     7     2      89      98  INWASSER"
+     9     2      99     108  INWASSER'
+    10     3     109     116  Energie
+    13     4     117     119  kJ
+    12     4     120     124  1541
+    11     4     125     128  462
+    18     5     129     133  kcal
+    17     5     134     137  368
+    16     5     138     140  18
+    15     5     141     144  111
+    14     5     145     146  6
+    22     6     147     151  FETT
+    23     6     152     155  4.8
+    24     6     156     157  g
+    21     6     158     159  1
+    20     6     160     163  148
+    19     6     164     165  2
+    29     7     166     191  DAVONGESATTIGTEFETTSAUREN
+    30     7     192     195  3.3
+    31     7     196     197  g
+    28     7     198     200  17
+    26     7     201     204  1.0
+    27     7     205     206  g
+    25     7     207     208  S
+    36     8     209     222  Kohlenhydrate
+    37     8     223     226  8.8
+    38     8     227     228  g
+    35     8     229     230  3
+    33     8     231     234  2.6
+    34     8     235     236  g
+    32     8     237     238  1
+    43     9     239     250  DAVONZUCKER
+    44     9     251     254  4.1
+    45     9     255     256  g
+    42     9     257     258  5
+    40     9     259     262  1.2
+    41     9     263     264  g
+    39     9     265     266  1
+    48    10     267     280  Ballaststoffe
+    49    10     281     284  2.8
+    50    10     285     286  g
+    46    10     287     290  0.9
+    47    10     291     292  g
+    51    10     293     295  42
+    55    11     296     303  Eiweiss
+    57    11     304     308  70.1
+    58    11     309     310  g
+    54    11     311     314  140
+    52    11     315     319  21.0
+    53    11     320     321  g
+    56    11     322     323  3
+    62    12     324     328  SALZ
+    63    12     329     333  0.51
+    64    12     334     335  g
+    61    12     336     337  6
+    59    12     338     342  0.17
+    60    12     343     344  g
+    67    13     345     352  KOFFEIN
+    68    13     353     356  268
+    69    13     357     359  mg
+    65    13     360     362  80
+    66    13     363     365  mg
+    70    14     366     398  PORTION:30g PULVERIN250ml WASSER
+    71    15     399     422  H SHAKEN.ALTERNATIV.30g
+    72    15     423     428  AITZU
+
+=================================================================

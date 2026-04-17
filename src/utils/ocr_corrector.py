@@ -3,54 +3,37 @@ ocr_corrector.py
 ================
 Stage 2.5 — OCR Post-Correction Layer
 
-Applies two levels of correction to raw OCR tokens before
-semantic classification:
-
 Level 1 — Rule-based character correction:
   - Fix known OCR character confusions (0↔O, 1↔I, rn→m, etc.)
   - Strip leading/trailing OCR artifacts (' " | } ] [ )
   - Normalize numeric formats (1.195 → 1195, 40Omg → 400mg)
   - Normalize whitespace and punctuation
 
+Level 1b — Token-pair merge pass (NEW):
+  - Merges split micro-sign tokens: "µ" + "g" → "µg"
+  - Merges suffix-split tokens: "40µ" + "g" → "40µg"
+  - Runs after individual Level 1 corrections, before Level 2
+
 Level 2 — Lexicon-guided fuzzy snap:
   - If a token is within edit distance of a known nutrient → correct it
   - Uses a curated nutrient + unit lexicon
   - Snaps only when confidence is high enough to avoid false corrections
-
-Zero-shot: no training data required.
-
-Thesis positioning:
-  This module is documented as "OCR Post-Correction Layer" and
-  represents a pipeline contribution that improves downstream
-  graph-based association by reducing token noise.
-
-Usage:
-    from ocr_corrector import OCRCorrector
-
-    corrector = OCRCorrector()
-    tokens = [...]  # from ocr_runner.py
-    corrected = corrector.correct_all(tokens)
 """
 
 import re
 from difflib import SequenceMatcher
 
 
-# ── Known OCR character confusion map ────────────────────────────────────────
+# ── Known OCR character confusion map ─────────────────────────────────────────
 
-# Applied at character level inside tokens
 CHAR_CONFUSION_MAP = [
-    # Common OCR misreads in nutrition context
-    ("0", "O"),   # zero vs letter O — context-dependent
-    ("1", "I"),   # one vs letter I — context-dependent
-    ("rn", "m"),  # classic OCR split
-    ("vv", "w"),  # double-v for w
-    ("li", "li"), # already correct but normalizes font variants
+    ("0", "O"),
+    ("1", "I"),
+    ("rn", "m"),
+    ("vv", "w"),
+    ("li", "li"),
 ]
 
-# Direct token-level substitutions (after normalization)
-# Format: (wrong_pattern, correct_replacement)
-# These are applied as regex substitutions on the normalized token
 TOKEN_CORRECTIONS = [
     # Magnesium variants
     (r'\bHagnesium\b', 'Magnesium'),
@@ -114,10 +97,10 @@ TOKEN_CORRECTIONS = [
     (r'\bPantothensaure\b', 'Pantothensäure'),
 
     # Numeric corruption patterns
-    (r'\b4O(\d)', r'40\1'),   # 4O → 40 (letter O as zero)
-    (r'\bO(\d{2,})', r'0\1'), # Leading O before digits → 0
-    (r'(\d)O(\d)', r'\g<1>0\2'),  # digit-O-digit → digit-0-digit
-    (r'(\d)l(\d)', r'\g<1>1\2'),  # digit-l-digit → digit-1-digit (lowercase L as 1)
+    (r'\b4O(\d)', r'40\1'),
+    (r'\bO(\d{2,})', r'0\1'),
+    (r'(\d)O(\d)', r'\g<1>0\2'),
+    (r'(\d)l(\d)', r'\g<1>1\2'),
 
     # Unit corruptions
     (r'\bmg\s*[|}\]]+', 'mg'),
@@ -130,20 +113,26 @@ TOKEN_CORRECTIONS = [
     (r'\bMcg\b', 'µg'),
     (r'\bmcg\b', 'µg'),
 
-    # Artifact removal at word boundaries
-    (r"^['\"'`]+", ''),   # leading quote artifacts
-    (r"['\"'`]+$", ''),   # trailing quote artifacts
-    (r'[|}\]]+$', ''),    # trailing bracket/pipe artifacts
-    (r'^[|{\[]+', ''),    # leading bracket artifacts
+    # Artifact removal
+    (r"^['\"'`]+", ''),
+    (r"['\"'`]+$", ''),
+    (r'[|}\]]+$', ''),
+    (r'^[|{\[]+', ''),
+
     # Corrupted unit suffixes attached to quantities
-    (r'(\d+)\s*m0\b', r'\1mg'),    # 400m0 → 400mg
-    (r'(\d+)\s*M9\b', r'\1mg'),    # 420 M9 → 420mg  
-    (r'(\d+)\s*m\b(?!l)', r'\1mg'), # 350m → 350mg (but not 350ml)
-    (r'(\d+)\s*K[Jj]\b', r'\1kJ'), # 736KJ → 736kJ
-    (r'(\d+)\s*Kcal\b', r'\1kcal'),# 200Kcal → 200kcal
+    (r'(\d+)\s*m0\b', r'\1mg'),
+    (r'(\d+)\s*M9\b', r'\1mg'),
+    (r'(\d+)\s*m\b(?!l)', r'\1mg'),
+    (r'(\d+)\s*K[Jj]\b', r'\1kJ'),
+    (r'(\d+)\s*Kcal\b', r'\1kcal'),
+
+    # NEW v2 — micro-sign attached to number without 'g':
+    # "40µ" alone (no following g token) → "40µg"
+    (r'^(\d+[.,]?\d*)\s*µ$', r'\1µg'),
+    (r'^(\d+[.,]?\d*)\s*μ$', r'\1µg'),
 ]
 
-# ── Nutrient lexicon for Level 2 fuzzy snap ──────────────────────────────────
+# ── Nutrient lexicon for Level 2 fuzzy snap ───────────────────────────────────
 
 SNAP_LEXICON = [
     # Macronutrients DE
@@ -168,7 +157,7 @@ SNAP_LEXICON = [
     "Thiamin", "Riboflavin", "Niacin", "Pantothensäure",
     "Pantothenic Acid", "Biotin", "Folsäure", "Folic Acid",
     "Cobalamin", "Retinol", "Tocopherol", "Cholecalciferol",
-    # Other common nutrients
+    # Other
     "Koffein", "Caffeine", "Kreatin", "Creatine",
     "Inositol", "Cholin", "Choline", "Lutein", "Lycopin",
     "Kaliumcitrat", "Magnesiumoxid", "Magnesiumcitrat",
@@ -177,8 +166,6 @@ SNAP_LEXICON = [
     "mg", "g", "kg", "µg", "kJ", "kcal", "ml", "IU", "IE",
 ]
 
-# Words that must NEVER be snapped to nutrient names
-# These are table headers, legal terms, or instruction words
 SNAP_BLACKLIST = {
     "facts", "nutrition", "information", "reference", "values",
     "serving", "portion", "per", "daily", "intake", "value",
@@ -190,51 +177,47 @@ SNAP_BLACKLIST = {
     "see", "siehe", "vide", "nota",
 }
 
-# Minimum length for Level 2 fuzzy snap to apply
-MIN_SNAP_LENGTH = 5
+MIN_SNAP_LENGTH  = 5
+SNAP_THRESHOLD   = 0.75
 
-# Similarity threshold for snap (0.0–1.0). Higher = more conservative.
-SNAP_THRESHOLD = 0.75
+# ── Micro-sign token that PaddleOCR splits off separately ─────────────────────
+# PaddleOCR splits "40µg" → ["40µ", "g"] or ["40", "µ", "g"] or ["40", "µg"]
+# _MICRO_RE matches a token that IS the micro sign (alone or with digit-suffix)
+_MICRO_ALONE_RE  = re.compile(r'^[µμ]$')
+_MICRO_SUFFIX_RE = re.compile(r'^(\d+[.,]?\d*)\s*[µμ]$')   # "40µ"
 
-
-# ── Helper: edit distance similarity ─────────────────────────────────────────
 
 def similarity(a: str, b: str) -> float:
-    """SequenceMatcher ratio — fast approximate string similarity."""
     return SequenceMatcher(None, a.lower(), b.lower()).ratio()
 
 
 def find_best_snap(token: str, lexicon: list,
                    threshold: float = SNAP_THRESHOLD) -> tuple:
-    """
-    Find best lexicon match for a token using fuzzy similarity.
-
-    Returns:
-        (best_match, score) if score >= threshold, else (None, 0.0)
-    """
     best_score = 0.0
     best_match = None
     token_lower = token.lower()
-
     for candidate in lexicon:
         score = similarity(token_lower, candidate.lower())
         if score > best_score:
             best_score = score
             best_match = candidate
-
     if best_score >= threshold:
         return best_match, best_score
     return None, 0.0
 
 
-# ── Corrector ─────────────────────────────────────────────────────────────────
-
 class OCRCorrector:
     """
     Two-level OCR post-correction for supplement label tokens.
 
-    Level 1: Rule-based character/token corrections
-    Level 2: Lexicon-guided fuzzy snap for nutrient names
+    v2 additions:
+      Level 1b — token-pair merge pass:
+        Fixes PaddleOCR micro-sign split:
+          "40µ" + "g"  → "40µg"   (suffix form)
+          "40"  + "µ"  + "g" → "40µg"  (three-token form)
+          "µ"   + "g"  → "µg"     (bare micro + g)
+        This runs as a post-pass after individual Level 1 corrections
+        and before Level 2 snap, operating on the full token list.
     """
 
     def __init__(self,
@@ -243,147 +226,253 @@ class OCRCorrector:
                  apply_level1: bool = True,
                  apply_level2: bool = True):
         self.snap_threshold = snap_threshold
-        self.snap_lexicon = snap_lexicon or SNAP_LEXICON
-        self.apply_level1 = apply_level1
-        self.apply_level2 = apply_level2
+        self.snap_lexicon   = snap_lexicon or SNAP_LEXICON
+        self.apply_level1   = apply_level1
+        self.apply_level2   = apply_level2
+
+    # ── Level 1 (individual token) ──────────────────────────────────────────
 
     def level1_correct(self, text: str) -> str:
-        """
-        Apply rule-based corrections to a token string.
-
-        Steps:
-          1. Strip leading/trailing whitespace
-          2. Apply TOKEN_CORRECTIONS regex substitutions
-          3. Normalize internal whitespace
-        """
         if not text:
             return text
-
         corrected = text.strip()
-
         for pattern, replacement in TOKEN_CORRECTIONS:
             try:
                 corrected = re.sub(pattern, replacement, corrected,
                                    flags=re.IGNORECASE)
             except re.error:
-                pass  # Skip malformed patterns
-
-        # Normalize internal whitespace
+                pass
         corrected = re.sub(r'\s+', ' ', corrected).strip()
-
         return corrected
 
-    def level2_snap(self, text: str, original_conf: float) -> tuple:
+    # ── Level 1b — token-pair merge pass ───────────────────────────────────
+
+    def level1b_merge_pairs(self, tokens: list) -> list:
         """
-        Apply lexicon-guided fuzzy snap to a token.
+        Merge split micro-sign tokens across the full token list.
 
-        Only applies if:
-          - Token length >= MIN_SNAP_LENGTH
-          - Token is not in SNAP_BLACKLIST
-          - Token is not already in lexicon exactly
-          - Best match score >= snap_threshold
+        PaddleOCR splits "40µg" in three ways:
+          Form A: ["40µ",  "g"]          → token[i] ends "µ", token[i+1]="g"
+          Form B: ["40",   "µ",  "g"]    → token[i]= number, [i+1]="µ", [i+2]="g"
+          Form C: ["µ",    "g"]          → standalone micro + g
 
-        Returns:
-            (corrected_text, was_snapped, snap_score)
+        Rule: if the merged token would be spatially adjacent (within 30px
+        horizontally) AND on the same row (cy within 15px), merge.
+
+        The merged token inherits:
+          - token text of first + second (+ third if Form B)
+          - bbox: x1 of first, x2 of last, y1/y2/cy/cx averaged
+          - conf: min of merged tokens
         """
-        if len(text) < MIN_SNAP_LENGTH:
-            return text, False, 0.0
+        if not tokens:
+            return tokens
 
-        # Never snap blacklisted words
-        if text.lower().strip() in SNAP_BLACKLIST:
-            return text, False, 0.0
+        result = []
+        skip = set()
 
-        # Skip if already an exact match
-        if any(text.lower() == lex.lower() for lex in self.snap_lexicon):
-            return text, False, 1.0
+        for i, tok in enumerate(tokens):
+            if i in skip:
+                continue
 
-        best_match, score = find_best_snap(text, self.snap_lexicon,
-                                           self.snap_threshold)
+            txt_i = tok.get("token", "").strip()
 
-        if best_match:
-            return best_match, True, score
+            # ── Form B: number  +  "µ"  +  "g" ──────────────────────────
+            if (i + 2 < len(tokens)
+                    and i + 1 not in skip
+                    and i + 2 not in skip):
+                txt_j = tokens[i+1].get("token", "").strip()
+                txt_k = tokens[i+2].get("token", "").strip()
+                # number + bare micro + "g"
+                if (re.match(r'^\d+[.,]?\d*$', txt_i)
+                        and _MICRO_ALONE_RE.match(txt_j)
+                        and txt_k.lower() == "g"
+                        and self._adjacent(tok, tokens[i+2])):
+                    merged = self._merge3(tok, tokens[i+1], tokens[i+2],
+                                          txt_i + "µg")
+                    result.append(merged)
+                    skip.update({i+1, i+2})
+                    continue
 
-        return text, False, 0.0
+            # ── Form A: "40µ"  +  "g" ────────────────────────────────────
+            if (i + 1 < len(tokens)
+                    and i + 1 not in skip):
+                txt_j = tokens[i+1].get("token", "").strip()
+                m = _MICRO_SUFFIX_RE.match(txt_i)
+                if (m and txt_j.lower() == "g"
+                        and self._adjacent(tok, tokens[i+1])):
+                    merged_text = m.group(1) + "µg"
+                    merged = self._merge2(tok, tokens[i+1], merged_text)
+                    result.append(merged)
+                    skip.add(i + 1)
+                    continue
 
-    def correct_token(self, token: dict) -> dict:
-        """
-        Apply both correction levels to a single token dict.
+            # ── Form C: bare "µ"  +  "g" ─────────────────────────────────
+            if (i + 1 < len(tokens)
+                    and i + 1 not in skip):
+                txt_j = tokens[i+1].get("token", "").strip()
+                if (_MICRO_ALONE_RE.match(txt_i)
+                        and txt_j.lower() == "g"
+                        and self._adjacent(tok, tokens[i+1])):
+                    merged = self._merge2(tok, tokens[i+1], "µg")
+                    result.append(merged)
+                    skip.add(i + 1)
+                    continue
 
-        Args:
-            token: dict with keys: token, x1, y1, x2, y2, conf
-
-        Returns:
-            corrected token dict with added keys:
-              original_token: original text before correction
-              l1_corrected: text after Level 1
-              l2_snapped: whether Level 2 snap was applied
-              snap_score: Level 2 similarity score
-        """
-        result = token.copy()
-        original = token.get("token", "")
-        conf = token.get("conf", 0.0)
-
-        current = original
-
-        # Level 1
-        if self.apply_level1:
-            current = self.level1_correct(current)
-
-        l1_text = current
-
-        # Level 2
-        snapped = False
-        snap_score = 0.0
-        if self.apply_level2 and len(current) >= MIN_SNAP_LENGTH:
-            snapped_text, snapped, snap_score = self.level2_snap(
-                current, conf)
-            if snapped:
-                current = snapped_text
-
-        result["token"] = current
-        result["original_token"] = original
-        result["l1_corrected"] = l1_text
-        result["l2_snapped"] = snapped
-        result["snap_score"] = round(snap_score, 4)
+            # No merge — pass through
+            result.append(tok)
 
         return result
 
+    @staticmethod
+    def _adjacent(t1: dict, t2: dict, max_gap_px: int = 30,
+                  max_row_diff_px: int = 15) -> bool:
+        """True if t1 and t2 are spatially close enough to merge."""
+        gap     = t2.get("x1", 0) - t1.get("x2", 0)
+        row_diff = abs(t1.get("cy", 0) - t2.get("cy", 0))
+        return gap <= max_gap_px and row_diff <= max_row_diff_px
+
+    @staticmethod
+    def _merge2(t1: dict, t2: dict, new_text: str) -> dict:
+        merged = t1.copy()
+        merged["token"]    = new_text
+        merged["x2"]       = t2.get("x2", t1.get("x2", 0))
+        merged["cx"]       = (t1.get("x1", 0) + t2.get("x2", 0)) / 2
+        merged["conf"]     = min(t1.get("conf", 1.0), t2.get("conf", 1.0))
+        merged["merged_from"] = [t1.get("token", ""), t2.get("token", "")]
+        return merged
+
+    @staticmethod
+    def _merge3(t1: dict, t2: dict, t3: dict, new_text: str) -> dict:
+        merged = t1.copy()
+        merged["token"]    = new_text
+        merged["x2"]       = t3.get("x2", t1.get("x2", 0))
+        merged["cx"]       = (t1.get("x1", 0) + t3.get("x2", 0)) / 2
+        merged["conf"]     = min(t1.get("conf", 1.0), t2.get("conf", 1.0),
+                                 t3.get("conf", 1.0))
+        merged["merged_from"] = [t1.get("token", ""), t2.get("token", ""),
+                                  t3.get("token", "")]
+        return merged
+
+    # ── Level 2 ────────────────────────────────────────────────────────────
+
+    def level2_snap(self, text: str, original_conf: float) -> tuple:
+        if len(text) < MIN_SNAP_LENGTH:
+            return text, False, 0.0
+        if text.lower().strip() in SNAP_BLACKLIST:
+            return text, False, 0.0
+        if any(text.lower() == lex.lower() for lex in self.snap_lexicon):
+            return text, False, 1.0
+        best_match, score = find_best_snap(text, self.snap_lexicon,
+                                           self.snap_threshold)
+        if best_match:
+            return best_match, True, score
+        return text, False, 0.0
+
+    # ── Per-token correction ────────────────────────────────────────────────
+
+    def correct_token(self, token: dict) -> dict:
+        result   = token.copy()
+        original = token.get("token", "")
+        conf     = token.get("conf", 0.0)
+        current  = original
+
+        if self.apply_level1:
+            current = self.level1_correct(current)
+        l1_text = current
+
+        snapped    = False
+        snap_score = 0.0
+        if self.apply_level2 and len(current) >= MIN_SNAP_LENGTH:
+            snapped_text, snapped, snap_score = self.level2_snap(current, conf)
+            if snapped:
+                current = snapped_text
+
+        result["token"]          = current
+        result["original_token"] = original
+        result["l1_corrected"]   = l1_text
+        result["l2_snapped"]     = snapped
+        result["snap_score"]     = round(snap_score, 4)
+        return result
+
+    # ── Full pipeline ───────────────────────────────────────────────────────
+
     def correct_all(self, tokens: list) -> list:
         """
-        Apply correction to all tokens.
+        Apply all correction levels to the full token list.
 
-        Args:
-            tokens: list of token dicts from ocr_runner.py
-
-        Returns:
-            list of corrected token dicts
+        Order:
+          1. Level 1 applied per-token (rule-based char corrections)
+          2. Level 1b applied to the full list (merge split µg tokens)
+          3. Level 2 applied per-token (fuzzy lexicon snap)
         """
-        return [self.correct_token(t) for t in tokens]
+        # Step 1: Level 1 per-token
+        after_l1 = []
+        for tok in tokens:
+            result   = tok.copy()
+            original = tok.get("token", "")
+            current  = original
+            if self.apply_level1:
+                current = self.level1_correct(current)
+            result["token"]          = current
+            result["original_token"] = original
+            result["l1_corrected"]   = current
+            result["l2_snapped"]     = False
+            result["snap_score"]     = 0.0
+            after_l1.append(result)
+
+        # Step 2: Level 1b — merge split µg tokens across list
+        after_l1b = self.level1b_merge_pairs(after_l1)
+
+        # Step 3: Level 2 per-token (fuzzy snap)
+        final = []
+        for tok in after_l1b:
+            result  = tok.copy()
+            current = tok.get("token", "")
+            conf    = tok.get("conf", 0.0)
+            snapped    = False
+            snap_score = 0.0
+            if self.apply_level2 and len(current) >= MIN_SNAP_LENGTH:
+                snapped_text, snapped, snap_score = self.level2_snap(current, conf)
+                if snapped:
+                    current = snapped_text
+            result["token"]      = current
+            result["l2_snapped"] = snapped
+            result["snap_score"] = round(snap_score, 4)
+            final.append(result)
+
+        return final
+
+    # ── Report ──────────────────────────────────────────────────────────────
 
     def correction_report(self, corrected_tokens: list) -> None:
-        """Print a report of all corrections made."""
-        changed = [
-            t for t in corrected_tokens
-            if t.get("original_token") != t.get("token")
-        ]
+        changed = [t for t in corrected_tokens
+                   if t.get("original_token") != t.get("token")]
         snapped = [t for t in corrected_tokens if t.get("l2_snapped")]
+        merged  = [t for t in corrected_tokens if t.get("merged_from")]
 
         print(f"\n{'='*65}")
-        print(f"OCR CORRECTION REPORT")
+        print(f"OCR CORRECTION REPORT  (v2 — with µg merge)")
         print(f"{'='*65}")
         print(f"Total tokens:     {len(corrected_tokens)}")
         print(f"Tokens changed:   {len(changed)}")
         print(f"  Level 1 (rule): {len(changed) - len(snapped)}")
+        print(f"  Level 1b (µg):  {len(merged)}")
         print(f"  Level 2 (snap): {len(snapped)}")
 
+        if merged:
+            print(f"\nMerged µg tokens:")
+            for t in merged:
+                src = " + ".join(f'"{x}"' for x in t["merged_from"])
+                print(f"  {src}  →  \"{t['token']}\"")
+
         if changed:
-            print(f"\nCorrections made:")
-            print(f"  {'ORIGINAL':<35} → {'CORRECTED':<35} {'TYPE'}")
+            print(f"\nAll corrections:")
+            print(f"  {'ORIGINAL':<35} → {'CORRECTED':<35} TYPE")
             print(f"  {'-'*80}")
             for t in changed:
-                orig = t['original_token'][:33]
-                corr = t['token'][:33]
-                ctype = "SNAP" if t['l2_snapped'] else "RULE"
+                orig  = t['original_token'][:33]
+                corr  = t['token'][:33]
+                ctype = "SNAP" if t['l2_snapped'] else ("MERGE" if t.get("merged_from") else "RULE")
                 score = f"({t['snap_score']:.2f})" if t['l2_snapped'] else ""
                 print(f"  {orig:<35} → {corr:<35} {ctype} {score}")
         print(f"{'='*65}\n")
@@ -392,44 +481,28 @@ class OCRCorrector:
 # ── Standalone test ───────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    import sys
-    import json
-    sys.path.insert(0, ".")
-
-    from src.ocr.ocr_runner import run_ocr_on_image
-    from src.classification.semantic_classifier import SemanticClassifier
-    from src.graph.graph_constructor import GraphConstructor
-    from src.matching.association import TupleAssociator
-
-    IMAGE = "data/raw/3.jpeg"
-    IMAGE_ID = "3.jpeg"
-    THRESHOLD = 0.30
-
-    print(f"Running full corrected pipeline on {IMAGE}...\n")
-
-    # Step 1: OCR
-    tokens = run_ocr_on_image(IMAGE)
-
-    # Step 2: Correct
+    # Quick unit test for the µg merge logic
     corrector = OCRCorrector()
-    corrected = corrector.correct_all(tokens)
-    corrector.correction_report(corrected)
 
-    # Step 3: Classify
-    classifier = SemanticClassifier(confidence_threshold=THRESHOLD)
-    labeled = classifier.classify_all(corrected)
+    test_cases = [
+        # Form A: number + "µ" as suffix
+        [{"token": "40µ",  "x1": 0, "x2": 20, "y1": 0, "y2": 10, "cx": 10, "cy": 5, "conf": 0.9},
+         {"token": "g",    "x1": 22,"x2": 28, "y1": 0, "y2": 10, "cx": 25, "cy": 5, "conf": 0.9}],
+        # Form B: number + bare "µ" + "g"
+        [{"token": "22",   "x1": 0, "x2": 15, "y1": 0, "y2": 10, "cx": 7,  "cy": 5, "conf": 0.9},
+         {"token": "µ",    "x1": 16,"x2": 20, "y1": 0, "y2": 10, "cx": 18, "cy": 5, "conf": 0.9},
+         {"token": "g",    "x1": 21,"x2": 26, "y1": 0, "y2": 10, "cx": 23, "cy": 5, "conf": 0.9}],
+        # Form C: bare µ + g
+        [{"token": "µ",    "x1": 0, "x2": 6,  "y1": 0, "y2": 10, "cx": 3,  "cy": 5, "conf": 0.9},
+         {"token": "g",    "x1": 7, "x2": 12, "y1": 0, "y2": 10, "cx": 9,  "cy": 5, "conf": 0.9}],
+        # Already correct — should not change
+        [{"token": "50µg", "x1": 0, "x2": 25, "y1": 0, "y2": 10, "cx": 12, "cy": 5, "conf": 0.9}],
+    ]
 
-    # Step 4: Graph
-    constructor = GraphConstructor()
-    graph = constructor.build(labeled)
+    print("Testing µg merge logic:")
+    for i, tokens in enumerate(test_cases, 1):
+        result = corrector.correct_all(tokens)
+        out = [t["token"] for t in result if t["token"].strip()]
+        print(f"  Case {i}: {[t['token'] for t in tokens]} → {out}")
 
-    # Step 5: Associate
-    associator = TupleAssociator()
-    tuples = associator.extract(graph, image_id=IMAGE_ID)
-    associator.print_tuples(tuples)
-
-    # Save
-    out = "data/ocr_output/3_corrected_tuples.json"
-    with open(out, "w", encoding="utf-8") as f:
-        json.dump(tuples, f, ensure_ascii=False, indent=2)
-    print(f"Saved: {out}")
+    print("\nAll cases passed if merged values show 'µg' where expected.")

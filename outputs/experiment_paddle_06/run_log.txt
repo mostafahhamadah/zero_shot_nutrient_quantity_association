@@ -1,0 +1,18 @@
+Experiment  : experiment_paddle_06
+OCR Engine  : PaddleOCR (Experiment 2v1)
+Corrector   : Partial (Levels 1+2 only)
+Evaluator   : LLM-Assisted (Phi-4 Mini)
+Schema      : nutrient|quantity|unit|context
+Timestamp   : 2026-04-02T06:49:45.257430
+Notes       : conf_thresh 0.30->0.05 to recover context tokens
+
+Full Tuple Precision : 5.1%
+Full Tuple Recall    : 3.4%
+Full Tuple F1        : 4.1%
+Nutrient F1          : 0.680
+Unit Acc             : 79.6%
+Context Acc          : 59.5%
+
+LLM calls    : 334
+Fast hits    : 26
+Eval time    : 602.0s

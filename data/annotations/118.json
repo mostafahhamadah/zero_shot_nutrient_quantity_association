@@ -1,0 +1,165 @@
+{
+    "image_id": "118.jpeg",
+    "nutrients": [
+        {
+            "nutrient": "ENERGIE",
+            "quantity": "1440",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "ENERGIE",
+            "quantity": "344",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "FETT:",
+            "quantity": "10",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "- DAVON GESÄTTIGTE FETTSÄUREN",
+            "quantity": "2.6",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "KOHLENHYDRATE:",
+            "quantity": "48",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "- DAVON ZUCKER",
+            "quantity": "4.0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "- DAVON MEHRWERTIGE ALKOHOLE",
+            "quantity": "21",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "BALLASTSTOFFE",
+            "quantity": "3.0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "EIWEIẞ",
+            "quantity": "24",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "SALZ",
+            "quantity": "0.70",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "ENERGIE",
+            "quantity": "1152",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "80 g"
+        },
+        {
+            "nutrient": "ENERGIE",
+            "quantity": "275",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "80 g"
+        },
+        {
+            "nutrient": "FETT:",
+            "quantity": "8.0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "80 g"
+        },
+        {
+            "nutrient": "- DAVON GESÄTTIGTE FETTSÄUREN",
+            "quantity": "2.1",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "80 g"
+        },
+        {
+            "nutrient": "KOHLENHYDRATE:",
+            "quantity": "38",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "80 g"
+        },
+        {
+            "nutrient": "- DAVON ZUCKER",
+            "quantity": "3.2",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "80 g"
+        },
+        {
+            "nutrient": "- DAVON MEHRWERTIGE ALKOHOLE",
+            "quantity": "17",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "80 g"
+        },
+        {
+            "nutrient": "BALLASTSTOFFE",
+            "quantity": "2.4",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "80 g"
+        },
+        {
+            "nutrient": "EIWEIẞ",
+            "quantity": "19",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "80 g"
+        },
+        {
+            "nutrient": "SALZ",
+            "quantity": "0.56",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "80 g"
+        }
+    ]
+}

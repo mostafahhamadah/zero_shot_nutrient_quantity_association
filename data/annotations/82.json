@@ -1,0 +1,101 @@
+{
+    "image_id": "82.jpeg",
+    "nutrients": [
+        {
+            "nutrient": "Energy",
+            "quantity": "0",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energy",
+            "quantity": "0",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Protein",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Carbohydrates",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Fat",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Creatine monohydrate",
+            "quantity": "100",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energy",
+            "quantity": "0",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "3 g/1 level teaspoon"
+        },
+        {
+            "nutrient": "Energy",
+            "quantity": "0",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "3 g/1 level teaspoon"
+        },
+        {
+            "nutrient": "Protein",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "3 g/1 level teaspoon"
+        },
+        {
+            "nutrient": "Carbohydrates",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "3 g/1 level teaspoon"
+        },
+        {
+            "nutrient": "Fat",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "3 g/1 level teaspoon"
+        },
+        {
+            "nutrient": "Creatine monohydrate",
+            "quantity": "3",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "3 g/1 level teaspoon"
+        }
+    ]
+}

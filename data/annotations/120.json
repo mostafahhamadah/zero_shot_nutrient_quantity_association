@@ -1,0 +1,213 @@
+{
+    "image_id": "120.jpeg",
+    "nutrients": [
+        {
+            "nutrient": "INOSITOL",
+            "quantity": "100",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "ALPHA-LIPONSÄURE",
+            "quantity": "42",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "CHOLIN",
+            "quantity": "20",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "RUTIN",
+            "quantity": "20",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "LACTOBACILLUS ACIDOPHILUS",
+            "quantity": "3.6 x 10^8",
+            "unit": "KBE",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "BIFIDOBACTERIUM BIFIDUM",
+            "quantity": "3.6 x 10^8",
+            "unit": "KBE",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "VITAMIN C",
+            "quantity": "250",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "313",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "NIACIN",
+            "quantity": "16",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "100",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "VITAMIN E",
+            "quantity": "30",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "250",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "PANTOTHENSÄURE",
+            "quantity": "5",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "83",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "VITAMIN B6",
+            "quantity": "0.9",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "64",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "VITAMIN B2",
+            "quantity": "1.1",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "79",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "VITAMIN B1",
+            "quantity": "1",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "91",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "FOLSÄURE",
+            "quantity": "200",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "100",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "BIOTIN",
+            "quantity": "40",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "80",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "VITAMIN B12",
+            "quantity": "4.1",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "164",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "VITAMIN D3",
+            "quantity": "5.2",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "104",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "VITAMIN K",
+            "quantity": "60.4",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "81",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "CALCIUM",
+            "quantity": "121",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "15",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "ZINK",
+            "quantity": "6.5",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "65",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "JOD",
+            "quantity": "100",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "68",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "SELEN",
+            "quantity": "22",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "40",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "KUPFER",
+            "quantity": "1",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "100",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "MANGAN",
+            "quantity": "0.4",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "20",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "CHROM",
+            "quantity": "25",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "63",
+            "serving_size": "10 G"
+        },
+        {
+            "nutrient": "MOLYBDÄN",
+            "quantity": "45",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "90",
+            "serving_size": "10 G"
+        }
+    ]
+}

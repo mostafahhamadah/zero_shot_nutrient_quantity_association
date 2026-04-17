@@ -1,0 +1,82 @@
+=================================================================
+  IMAGE: 101.jpeg
+  OCR tokens (after corrector): 27
+  Serialized tokens:            27
+  Visual lines detected:        12
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Durchschnittliche Nahrwerte
+  Line 02 │ je 100g
+  Line 03 │ Energie 1625k/383kcal
+  Line 04 │ Fett 0.8 g
+  Line 05 │ -davon gesattigte Fettsauren <0.1g
+  Line 06 │ Kohlenhydrate 86.1 g
+  Line 07 │ -davon Zucker 8.9 g
+  Line 08 │ Ballaststoffe 3.0 g
+  Line 09 │ Eiweiss 6.3 g
+  Line 10 │ Salz 660.0
+  Line 11 │ Thiamin 0.44mg88%3
+  Line 12 │ Natrium 36 mg
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  28.5px  [1 tokens]
+    → Durchschnittliche Nahrwerte
+  Line 02  y=  61.0px  [1 tokens]
+    → je 100g
+  Line 03  y=  87.8px  [2 tokens]
+    → Energie | 1625k/383kcal
+  Line 04  y= 118.2px  [3 tokens]
+    → Fett | 0.8 | g
+  Line 05  y= 141.5px  [1 tokens]
+    → -davon gesattigte Fettsauren <0.1g
+  Line 06  y= 171.7px  [3 tokens]
+    → Kohlenhydrate | 86.1 | g
+  Line 07  y= 196.0px  [3 tokens]
+    → -davon Zucker | 8.9 | g
+  Line 08  y= 226.5px  [3 tokens]
+    → Ballaststoffe | 3.0 | g
+  Line 09  y= 258.5px  [3 tokens]
+    → Eiweiss | 6.3 | g
+  Line 10  y= 289.5px  [2 tokens]
+    → Salz | 660.0
+  Line 11  y= 322.2px  [2 tokens]
+    → Thiamin | 0.44mg88%3
+  Line 12  y= 356.2px  [3 tokens]
+    → Natrium | 36 | mg
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      27  Durchschnittliche Nahrwerte
+     1     1      28      35  je 100g
+     2     2      36      43  Energie
+     3     2      44      57  1625k/383kcal
+     4     3      58      62  Fett
+     5     3      63      66  0.8
+     6     3      67      68  g
+     7     4      69     103  -davon gesattigte Fettsauren <0.1g
+     8     5     104     117  Kohlenhydrate
+     9     5     118     122  86.1
+    10     5     123     124  g
+    11     6     125     138  -davon Zucker
+    12     6     139     142  8.9
+    13     6     143     144  g
+    14     7     145     158  Ballaststoffe
+    15     7     159     162  3.0
+    16     7     163     164  g
+    17     8     165     172  Eiweiss
+    18     8     173     176  6.3
+    19     8     177     178  g
+    21     9     179     183  Salz
+    20     9     184     189  660.0
+    23    10     190     197  Thiamin
+    22    10     198     208  0.44mg88%3
+    26    11     209     216  Natrium
+    24    11     217     219  36
+    25    11     220     222  mg
+
+=================================================================

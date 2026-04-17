@@ -1,0 +1,37 @@
+{
+    "image_id": "67.jpeg",
+    "nutrients": [
+        {
+            "nutrient": "Colecalciferol",
+            "quantity": "25",
+            "unit": "µg",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "Jede Tablette"
+        },
+        {
+            "nutrient": "Vitamin D3",
+            "quantity": "1000",
+            "unit": "I.E.",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "Jede Tablette"
+        },
+        {
+            "nutrient": "Colecalciferol",
+            "quantity": "0.025",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "Tagesdosis bis zu 1000 I.E."
+        },
+        {
+            "nutrient": "Vitamin D3",
+            "quantity": "1000",
+            "unit": "I.E.",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "Tagesdosis bis zu 1000 I.E."
+        }
+    ]
+}

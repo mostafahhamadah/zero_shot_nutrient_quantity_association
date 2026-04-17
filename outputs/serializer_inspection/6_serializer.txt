@@ -1,0 +1,55 @@
+=================================================================
+  IMAGE: 6.jpeg
+  OCR tokens (after corrector): 21
+  Serialized tokens:            21
+  Visual lines detected:        5
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ DEATICH NRWERTE DK/NG/SE NL/BE BAVA
+  Line 02 │ VITAMINE WAARDE NONTR VITAMINEC TONELLE CNNOLN
+  Line 03 │ KALIUM magnesium magnesium E3 REFRENCMENCL C-HUETL-NWE
+  Line 04 │ ALSEE potassium
+  Line 05 │ GRUAERTEE GROENETHEE
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  23.1px  [5 tokens]
+    → DEATICH | NRWERTE | DK/NG/SE | NL/BE | BAVA
+  Line 02  y=  35.0px  [6 tokens]
+    → VITAMINE | WAARDE | NONTR | VITAMINEC | TONELLE | CNNOLN
+  Line 03  y=  46.6px  [6 tokens]
+    → KALIUM | magnesium | magnesium | E3 | REFRENCMENCL | C-HUETL-NWE
+  Line 04  y=  56.2px  [2 tokens]
+    → ALSEE | potassium
+  Line 05  y=  79.0px  [2 tokens]
+    → GRUAERTEE | GROENETHEE
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       7  DEATICH
+     4     0       8      15  NRWERTE
+     2     0      16      24  DK/NG/SE
+     1     0      25      30  NL/BE
+     3     0      31      35  BAVA
+     9     1      36      44  VITAMINE
+     5     1      45      51  WAARDE
+     6     1      52      57  NONTR
+    10     1      58      67  VITAMINEC
+     7     1      68      75  TONELLE
+     8     1      76      82  CNNOLN
+    16     2      83      89  KALIUM
+    14     2      90      99  magnesium
+    15     2     100     109  magnesium
+    12     2     110     112  E3
+    11     2     113     125  REFRENCMENCL
+    13     2     126     137  C-HUETL-NWE
+    18     3     138     143  ALSEE
+    17     3     144     153  potassium
+    19     4     154     163  GRUAERTEE
+    20     4     164     174  GROENETHEE
+
+=================================================================

@@ -1,0 +1,109 @@
+{
+    "image_id": "27.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Brennwert/Energy Value",
+            "quantity": "1254",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Brennwert/Energy Value",
+            "quantity": "300",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Eiweiß/Protein",
+            "quantity": "0.1",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Kohlenhydrate/Carbohydrate",
+            "quantity": "49",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Fett/Fat",
+            "quantity": "0.5",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Calcium",
+            "quantity": "4000",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "500",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Magnesium",
+            "quantity": "2000",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "533",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Zink/Zinc",
+            "quantity": "75",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "750",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Kupfer/Copper",
+            "quantity": "10000",
+            "unit": "µg",
+            "context": "per_100g",
+            "nrv_percent": "1000",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Mangan/Manganese",
+            "quantity": "15",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "750",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Chrom/Chromium",
+            "quantity": "896",
+            "unit": "µg",
+            "context": "per_100g",
+            "nrv_percent": "2240",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Selen/Selenium",
+            "quantity": "251",
+            "unit": "µg",
+            "context": "per_100g",
+            "nrv_percent": "456",
+            "serving_size": "100 g Pulver"
+        },
+        {
+            "nutrient": "Vitamin D",
+            "quantity": "37",
+            "unit": "µg",
+            "context": "per_100g",
+            "nrv_percent": "740",
+            "serving_size": "100 g Pulver"
+        }
+    ]
+}

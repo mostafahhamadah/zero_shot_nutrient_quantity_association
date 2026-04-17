@@ -1,0 +1,2 @@
+experiment,timestamp,notes,evaluator,schema,images_evaluated,gt_tuples,predicted_tuples,matched_pairs,nutrient_precision,nutrient_recall,nutrient_f1,quantity_acc,unit_acc,context_acc,full3f_correct,full3f_precision,full3f_recall,full3f_f1,full4f_correct,full_tuple_precision,full_tuple_recall,full_tuple_f1,context_cost_pp,llm_calls,fast_hits,eval_time_s
+graph_v2_exp39,2026-04-09T11:42:58.870278,,LLM-Assisted (qwen2.5:7b),nutrient|quantity|unit|context,57,866,944,628,0.6653,0.7252,0.6939,0.7675,0.8169,0.8519,404,0.428,0.4665,0.4464,378,0.4004,0.4365,0.4177,2.9,197,268,2023.1

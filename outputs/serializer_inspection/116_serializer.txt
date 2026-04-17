@@ -1,0 +1,104 @@
+=================================================================
+  IMAGE: 116.jpeg
+  OCR tokens (after corrector): 52
+  Serialized tokens:            52
+  Visual lines detected:        11
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ PRO PRO RM*PRO
+  Line 02 │ NAHRWERTE DURCHSCHNITTLICHE 100g PORTION** PORTION**
+  Line 03 │ ENERGIE kJ/kcal 1696/404 509/121 off
+  Line 04 │ FETT: 12.0 g 3.5 g 2%
+  Line 05 │ davon gesattigte 1.4 g 0.4 g
+  Line 06 │ Fettsauren
+  Line 07 │ KOHLENHYDRATE: 27.0 g 8.2 g
+  Line 08 │ -DAVONZUCKER 4.6 g 1.4 g
+  Line 09 │ Ballaststoffe 12.0 g 3.7 g 24%
+  Line 10 │ Eiweiss 41.0 g 12.0 g 10%
+  Line 11 │ SALZ 2.02 g 0.61 g
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  82.0px  [3 tokens]
+    → PRO | PRO | RM*PRO
+  Line 02  y= 138.8px  [5 tokens]
+    → NAHRWERTE | DURCHSCHNITTLICHE | 100g | PORTION** | PORTION**
+  Line 03  y= 228.1px  [5 tokens]
+    → ENERGIE | kJ/kcal | 1696/404 | 509/121 | off
+  Line 04  y= 289.4px  [6 tokens]
+    → FETT: | 12.0 | g | 3.5 | g | 2%
+  Line 05  y= 341.5px  [5 tokens]
+    → davon gesattigte | 1.4 | g | 0.4 | g
+  Line 06  y= 401.5px  [1 tokens]
+    → Fettsauren
+  Line 07  y= 448.5px  [5 tokens]
+    → KOHLENHYDRATE: | 27.0 | g | 8.2 | g
+  Line 08  y= 503.0px  [5 tokens]
+    → -DAVONZUCKER | 4.6 | g | 1.4 | g
+  Line 09  y= 555.5px  [6 tokens]
+    → Ballaststoffe | 12.0 | g | 3.7 | g | 24%
+  Line 10  y= 607.0px  [6 tokens]
+    → Eiweiss | 41.0 | g | 12.0 | g | 10%
+  Line 11  y= 661.6px  [5 tokens]
+    → SALZ | 2.02 | g | 0.61 | g
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     2     0       0       3  PRO
+     1     0       4       7  PRO
+     0     0       8      14  RM*PRO
+     7     1      15      24  NAHRWERTE
+     3     1      25      42  DURCHSCHNITTLICHE
+     6     1      43      47  100g
+     5     1      48      57  PORTION**
+     4     1      58      67  PORTION**
+    11     2      68      75  ENERGIE
+    12     2      76      83  kJ/kcal
+    10     2      84      92  1696/404
+     9     2      93     100  509/121
+     8     2     101     104  off
+    17     3     105     110  FETT:
+    15     3     111     115  12.0
+    16     3     116     117  g
+    13     3     118     121  3.5
+    14     3     122     123  g
+    18     3     124     126  2%
+    23     4     127     143  davon gesattigte
+    21     4     144     147  1.4
+    22     4     148     149  g
+    19     4     150     153  0.4
+    20     4     154     155  g
+    24     5     156     166  Fettsauren
+    29     6     167     181  KOHLENHYDRATE:
+    25     6     182     186  27.0
+    26     6     187     188  g
+    27     6     189     192  8.2
+    28     6     193     194  g
+    34     7     195     207  -DAVONZUCKER
+    32     7     208     211  4.6
+    33     7     212     213  g
+    30     7     214     217  1.4
+    31     7     218     219  g
+    40     8     220     233  Ballaststoffe
+    38     8     234     238  12.0
+    39     8     239     240  g
+    36     8     241     244  3.7
+    37     8     245     246  g
+    35     8     247     250  24%
+    44     9     251     258  Eiweiss
+    45     9     259     263  41.0
+    46     9     264     265  g
+    42     9     266     270  12.0
+    43     9     271     272  g
+    41     9     273     276  10%
+    47    10     277     281  SALZ
+    50    10     282     286  2.02
+    51    10     287     288  g
+    48    10     289     293  0.61
+    49    10     294     295  g
+
+=================================================================

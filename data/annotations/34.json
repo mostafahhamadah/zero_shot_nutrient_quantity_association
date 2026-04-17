@@ -1,0 +1,325 @@
+{
+    "image_id": "34.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Energy",
+            "quantity": "1356",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energy",
+            "quantity": "319",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Fat",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Carbohydrate",
+            "quantity": "80",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "of which sugars",
+            "quantity": "77",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Fibre",
+            "quantity": "5",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Protein",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Salt",
+            "quantity": "3.5",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Calcium",
+            "quantity": "400",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Potassium",
+            "quantity": "400",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Magnesium",
+            "quantity": "100",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Zinc",
+            "quantity": "2.6",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "C",
+            "quantity": "72",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "B3",
+            "quantity": "12",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "B6",
+            "quantity": "3.2",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "B5",
+            "quantity": "2.9",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "B1",
+            "quantity": "0.8",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "B2",
+            "quantity": "0.8",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Folic acid",
+            "quantity": "34",
+            "unit": "µg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "B12",
+            "quantity": "3.5",
+            "unit": "µg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energy",
+            "quantity": "339",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "Energy",
+            "quantity": "80",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "Fat",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "Carbohydrate",
+            "quantity": "20",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "of which sugars",
+            "quantity": "19",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "Fibre",
+            "quantity": "1.2",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "Protein",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "Salt",
+            "quantity": "0.9",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "Calcium",
+            "quantity": "100",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "13",
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "Potassium",
+            "quantity": "100",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "5",
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "Magnesium",
+            "quantity": "25",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "7",
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "Zinc",
+            "quantity": "0.7",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "7",
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "C",
+            "quantity": "18",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "22",
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "B3",
+            "quantity": "3.0",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "19",
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "B6",
+            "quantity": "0.8",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "57",
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "B5",
+            "quantity": "0.7",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "12",
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "B1",
+            "quantity": "0.2",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "18",
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "B2",
+            "quantity": "0.2",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "14",
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "Folic acid",
+            "quantity": "8.4",
+            "unit": "µg",
+            "context": "per_serving",
+            "nrv_percent": "4",
+            "serving_size": "25g serving"
+        },
+        {
+            "nutrient": "B12",
+            "quantity": "0.9",
+            "unit": "µg",
+            "context": "per_serving",
+            "nrv_percent": "35",
+            "serving_size": "25g serving"
+        }
+    ]
+}

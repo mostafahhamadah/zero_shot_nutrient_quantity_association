@@ -1,0 +1,79 @@
+CORRECTOR BEFORE→AFTER EXAMPLES
+=================================================================
+
+C1   Comma/apostrophe → decimal period
+--------------------------------------------------
+  101.jpeg                         '0,8g'  →  '0.8'  +  'g'  [SPLIT]
+  101.jpeg      '-davon gesattigte Fettsauren <0,1g'  →  '-davon gesattigte Fettsauren <0.1g'
+  101.jpeg                        '86,1g'  →  '86.1'  +  'g'  [SPLIT]
+  101.jpeg                         '8,9g'  →  '8.9'  +  'g'  [SPLIT]
+  101.jpeg                         '3,0g'  →  '3.0'  +  'g'  [SPLIT]
+  101.jpeg                         '6,3g'  →  '6.3'  +  'g'  [SPLIT]
+  101.jpeg                        "660'0"  →  '660.0'
+  101.jpeg                '0,44 mg (88%)'  →  '0.44 mg (88%)'
+  102.jpeg               '1 Riegel*12,5g'  →  '1 Riegel*12.5g'
+  102.jpeg                         '1,0g'  →  '1.0'  +  'g'  [SPLIT]
+
+C2   Fused integer qty+unit split
+--------------------------------------------------
+  1.jpeg                         '400 mg'  →  '400'  +  'mg'  [SPLIT]
+  1.jpeg                         '420 mg'  →  '420'  +  'mg'  [SPLIT]
+  1.jpeg                         '400 mg'  →  '400'  +  'mg'  [SPLIT]
+  1.jpeg                         '350 mg'  →  '350'  +  'mg'  [SPLIT]
+  1.jpeg                         '333 mg'  →  '333'  +  'mg'  [SPLIT]
+  101.jpeg                        '36 mg'  →  '36'  +  'mg'  [SPLIT]
+  102.jpeg                          '31g'  →  '31'  +  'g'  [SPLIT]
+  103.jpeg                      '328kcal'  →  '328'  +  'kcal'  [SPLIT]
+  103.jpeg                       '39kcal'  →  '39'  +  'kcal'  [SPLIT]
+  103.jpeg                          '51g'  →  '51'  +  'g'  [SPLIT]
+
+C3   Fused decimal qty+unit split
+--------------------------------------------------
+  101.jpeg                         '0,8g'  →  '0.8'  +  'g'  [SPLIT]
+  101.jpeg                        '86,1g'  →  '86.1'  +  'g'  [SPLIT]
+  101.jpeg                         '8,9g'  →  '8.9'  +  'g'  [SPLIT]
+  101.jpeg                         '3,0g'  →  '3.0'  +  'g'  [SPLIT]
+  101.jpeg                         '6,3g'  →  '6.3'  +  'g'  [SPLIT]
+  102.jpeg                         '1,0g'  →  '1.0'  +  'g'  [SPLIT]
+  102.jpeg                         '7,7g'  →  '7.7'  +  'g'  [SPLIT]
+  102.jpeg                         '0,1g'  →  '0.1'  +  'g'  [SPLIT]
+  102.jpeg                         '1,1g'  →  '1.1'  +  'g'  [SPLIT]
+  102.jpeg                         '7,9g'  →  '7.9'  +  'g'  [SPLIT]
+
+C6   ENERGIE+kJ label split
+--------------------------------------------------
+  116.jpeg               'ENERGIEkJ/kcal'  →  'ENERGIE'  +  'kJ/kcal'  [SPLIT]
+  117.jpeg               'ENERGIEkJ/kcal'  →  'ENERGIE'  +  'kJ/kcal'  [SPLIT]
+  118.jpeg               'ENERGIEkJ/kcal'  →  'ENERGIE'  +  'kJ/kcal'  [SPLIT]
+  119.jpeg                'ENERGIELWkcal'  →  'ENERGIE'
+  121.jpeg               'ENERGIEKJ/KCAL'  →  'ENERGIE'  +  'KJ/KCAL'  [SPLIT]
+
+C7   Context token normalised
+--------------------------------------------------
+  101.jpeg                       'Je100g'  →  'je 100g'
+  102.jpeg                       'Je100g'  →  'je 100g'
+  105.jpeg        'Je100g 1Portion (12g)'  →  'je 100g'
+  109.jpeg                      'Je100 g'  →  'je 100g'
+  113.jpeg                      'PRO100g'  →  'pro 100g'
+  113.jpeg                      'PRO100g'  →  'pro 100g'
+  114.jpeg                      'PRO100g'  →  'pro 100g'
+  114.jpeg                      'PRO100g'  →  'pro 100g'
+  115.jpeg                      'Je100 g'  →  'je 100g'
+  118.jpeg                      'PR0100g'  →  'pro 100g'
+
+C9   m9 → mg
+--------------------------------------------------
+  107.jpeg                       '1,4 m9'  →  '1.4'  +  'mg'  [SPLIT]
+
+C9   pg → µg
+--------------------------------------------------
+  107.jpeg                        '200pg'  →  '200'  +  'µg'  [SPLIT]
+
+C10  Border chars stripped
+--------------------------------------------------
+  20.jpeg                          'f t '  →  'f t'
+  20.jpeg                           ' PA'  →  'PA'
+  53.jpeg                   'EneEnergie '  →  'EneEnergie'
+  59.jpeg                       '10inga '  →  '10inga'
+  88.jpeg       ' which saturated fatty acids'  →  'which saturated fatty acids'
+

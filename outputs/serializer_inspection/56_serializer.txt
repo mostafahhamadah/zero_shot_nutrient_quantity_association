@@ -1,0 +1,55 @@
+=================================================================
+  IMAGE: 56.jpeg
+  OCR tokens (after corrector): 18
+  Serialized tokens:            18
+  Visual lines detected:        6
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Pour 100g par cullere6g 23 kca
+  Line 02 │ 96.2
+  Line 03 │ EiweiD 1604 4.998
+  Line 04 │ ........Proteines... 83 g .0.228
+  Line 05 │ Fett 3.67 g 0.268
+  Line 06 │ ZUTATEN:SO 4.3 g
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y= 122.5px  [3 tokens]
+    → Pour 100g | par cullere6g | 23 kca
+  Line 02  y= 146.0px  [1 tokens]
+    → 96.2
+  Line 03  y= 161.8px  [3 tokens]
+    → EiweiD | 1604 | 4.998
+  Line 04  y= 180.2px  [4 tokens]
+    → ........Proteines... | 83 | g | .0.228
+  Line 05  y= 199.0px  [4 tokens]
+    → Fett | 3.67 | g | 0.268
+  Line 06  y= 220.2px  [3 tokens]
+    → ZUTATEN:SO | 4.3 | g
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0       9  Pour 100g
+     0     0      10      23  par cullere6g
+     2     0      24      30  23 kca
+     3     1      31      35  96.2
+     4     2      36      42  EiweiD
+     5     2      43      47  1604
+     6     2      48      53  4.998
+     7     3      54      74  ........Proteines...
+     8     3      75      77  83
+     9     3      78      79  g
+    10     3      80      86  .0.228
+    11     4      87      91  Fett
+    12     4      92      96  3.67
+    13     4      97      98  g
+    14     4      99     104  0.268
+    17     5     105     115  ZUTATEN:SO
+    15     5     116     119  4.3
+    16     5     120     121  g
+
+=================================================================

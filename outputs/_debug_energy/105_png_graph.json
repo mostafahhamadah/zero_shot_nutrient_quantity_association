@@ -1,0 +1,6724 @@
+{
+  "num_nodes": 47,
+  "num_edges": 798,
+  "nodes": [
+    {
+      "token": "Durchschnittliche Nahrwerte",
+      "x1": 169,
+      "y1": 116,
+      "x2": 1632,
+      "y2": 258,
+      "cx": 900.5,
+      "cy": 187.0,
+      "conf": 0.971,
+      "label": "UNKNOWN",
+      "norm": "durchschnittliche nahrwerte",
+      "center": [
+        900.5,
+        187.0
+      ],
+      "width": 1463,
+      "height": 142,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 0,
+      "column_id": 0,
+      "rank_in_row": 0,
+      "data_rank_in_column": 0,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 1.0,
+      "column_confidence": 0.4594,
+      "id": 0
+    },
+    {
+      "token": "1Portion*12g)",
+      "x1": 1054,
+      "y1": 298,
+      "x2": 1733,
+      "y2": 469,
+      "cx": 1393.5,
+      "cy": 383.5,
+      "conf": 0.9579,
+      "label": "UNKNOWN",
+      "norm": "1portion*12g)",
+      "center": [
+        1393.5,
+        383.5
+      ],
+      "width": 679,
+      "height": 171,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 1,
+      "column_id": 1,
+      "rank_in_row": 9,
+      "data_rank_in_column": 0,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.0458,
+      "column_confidence": 0.056,
+      "id": 1
+    },
+    {
+      "token": "je 100g",
+      "x1": 602,
+      "y1": 339,
+      "x2": 958,
+      "y2": 494,
+      "cx": 780.0,
+      "cy": 416.5,
+      "conf": 0.9478,
+      "label": "CONTEXT",
+      "norm": "per_100g",
+      "center": [
+        780.0,
+        416.5
+      ],
+      "width": 356,
+      "height": 155,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": true,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 1,
+      "column_id": 0,
+      "rank_in_row": 4,
+      "data_rank_in_column": -1,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.0601,
+      "column_confidence": 0.3086,
+      "id": 2
+    },
+    {
+      "token": "158",
+      "x1": 1475,
+      "y1": 442,
+      "x2": 1639,
+      "y2": 579,
+      "cx": 1557.0,
+      "cy": 510.5,
+      "conf": 0.9451,
+      "label": "QUANTITY",
+      "norm": "158",
+      "center": [
+        1557.0,
+        510.5
+      ],
+      "width": 164,
+      "height": 137,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 1,
+      "column_id": 1,
+      "rank_in_row": 11,
+      "data_rank_in_column": 1,
+      "qty_rank_in_column": 0,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.1064,
+      "column_confidence": 0.3869,
+      "id": 3
+    },
+    {
+      "token": "kJ",
+      "x1": 1639,
+      "y1": 442,
+      "x2": 1749,
+      "y2": 579,
+      "cx": 1694.0,
+      "cy": 510.5,
+      "conf": 0.9451,
+      "label": "UNIT",
+      "norm": "kj",
+      "center": [
+        1694.0,
+        510.5
+      ],
+      "width": 110,
+      "height": 137,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 1,
+      "column_id": 1,
+      "rank_in_row": 14,
+      "data_rank_in_column": 2,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.1064,
+      "column_confidence": 0.6864,
+      "id": 4
+    },
+    {
+      "token": "Energie",
+      "x1": 90,
+      "y1": 507,
+      "x2": 374,
+      "y2": 681,
+      "cx": 232.0,
+      "cy": 594.0,
+      "conf": 0.9979,
+      "label": "NUTRIENT",
+      "norm": "energie",
+      "center": [
+        232.0,
+        594.0
+      ],
+      "width": 284,
+      "height": 174,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 1,
+      "column_id": 0,
+      "rank_in_row": 1,
+      "data_rank_in_column": 1,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": 0,
+      "column_role": "MIXED",
+      "row_confidence": 0.2196,
+      "column_confidence": 0.1442,
+      "id": 5
+    },
+    {
+      "token": "1320",
+      "x1": 645,
+      "y1": 542,
+      "x2": 853,
+      "y2": 660,
+      "cx": 749.0,
+      "cy": 601.0,
+      "conf": 0.9891,
+      "label": "QUANTITY",
+      "norm": "1320",
+      "center": [
+        749.0,
+        601.0
+      ],
+      "width": 208,
+      "height": 118,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 1,
+      "column_id": 0,
+      "rank_in_row": 3,
+      "data_rank_in_column": 2,
+      "qty_rank_in_column": 0,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.224,
+      "column_confidence": 0.2526,
+      "id": 6
+    },
+    {
+      "token": "kJ",
+      "x1": 853,
+      "y1": 542,
+      "x2": 958,
+      "y2": 660,
+      "cx": 905.5,
+      "cy": 601.0,
+      "conf": 0.9891,
+      "label": "UNIT",
+      "norm": "kj",
+      "center": [
+        905.5,
+        601.0
+      ],
+      "width": 105,
+      "height": 118,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 1,
+      "column_id": 0,
+      "rank_in_row": 7,
+      "data_rank_in_column": 3,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.224,
+      "column_confidence": 0.4587,
+      "id": 7
+    },
+    {
+      "token": "38",
+      "x1": 1453,
+      "y1": 575,
+      "x2": 1554,
+      "y2": 717,
+      "cx": 1503.5,
+      "cy": 646.0,
+      "conf": 0.9642,
+      "label": "QUANTITY",
+      "norm": "38",
+      "center": [
+        1503.5,
+        646.0
+      ],
+      "width": 101,
+      "height": 142,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 1,
+      "column_id": 1,
+      "rank_in_row": 10,
+      "data_rank_in_column": 3,
+      "qty_rank_in_column": 1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.1809,
+      "column_confidence": 0.2519,
+      "id": 8
+    },
+    {
+      "token": "kcal",
+      "x1": 1554,
+      "y1": 575,
+      "x2": 1757,
+      "y2": 717,
+      "cx": 1655.5,
+      "cy": 646.0,
+      "conf": 0.9642,
+      "label": "UNIT",
+      "norm": "kcal",
+      "center": [
+        1655.5,
+        646.0
+      ],
+      "width": 203,
+      "height": 142,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 1,
+      "column_id": 1,
+      "rank_in_row": 13,
+      "data_rank_in_column": 4,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.1809,
+      "column_confidence": 0.6514,
+      "id": 9
+    },
+    {
+      "token": "313",
+      "x1": 619,
+      "y1": 683,
+      "x2": 769,
+      "y2": 813,
+      "cx": 694.0,
+      "cy": 748.0,
+      "conf": 0.9897,
+      "label": "QUANTITY",
+      "norm": "313",
+      "center": [
+        694.0,
+        748.0
+      ],
+      "width": 150,
+      "height": 130,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 1,
+      "column_id": 0,
+      "rank_in_row": 2,
+      "data_rank_in_column": 4,
+      "qty_rank_in_column": 1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.0921,
+      "column_confidence": 0.155,
+      "id": 10
+    },
+    {
+      "token": "kcal",
+      "x1": 769,
+      "y1": 683,
+      "x2": 971,
+      "y2": 813,
+      "cx": 870.0,
+      "cy": 748.0,
+      "conf": 0.9897,
+      "label": "UNIT",
+      "norm": "kcal",
+      "center": [
+        870.0,
+        748.0
+      ],
+      "width": 202,
+      "height": 130,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 1,
+      "column_id": 0,
+      "rank_in_row": 6,
+      "data_rank_in_column": 5,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.0921,
+      "column_confidence": 0.4503,
+      "id": 11
+    },
+    {
+      "token": "0.3",
+      "x1": 1541,
+      "y1": 763,
+      "x2": 1712,
+      "y2": 910,
+      "cx": 1626.5,
+      "cy": 836.5,
+      "conf": 0.9909,
+      "label": "QUANTITY",
+      "norm": "0.3",
+      "center": [
+        1626.5,
+        836.5
+      ],
+      "width": 171,
+      "height": 147,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 1,
+      "column_id": 1,
+      "rank_in_row": 12,
+      "data_rank_in_column": 5,
+      "qty_rank_in_column": 2,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.1224,
+      "column_confidence": 0.5847,
+      "id": 12
+    },
+    {
+      "token": "g",
+      "x1": 1712,
+      "y1": 763,
+      "x2": 1770,
+      "y2": 910,
+      "cx": 1741.0,
+      "cy": 836.5,
+      "conf": 0.9909,
+      "label": "UNIT",
+      "norm": "g",
+      "center": [
+        1741.0,
+        836.5
+      ],
+      "width": 58,
+      "height": 147,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 1,
+      "column_id": 1,
+      "rank_in_row": 15,
+      "data_rank_in_column": 6,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.1224,
+      "column_confidence": 0.6479,
+      "id": 13
+    },
+    {
+      "token": "Fett",
+      "x1": 82,
+      "y1": 838,
+      "x2": 266,
+      "y2": 988,
+      "cx": 174.0,
+      "cy": 913.0,
+      "conf": 0.9979,
+      "label": "NUTRIENT",
+      "norm": "fett",
+      "center": [
+        174.0,
+        913.0
+      ],
+      "width": 184,
+      "height": 150,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 1,
+      "column_id": 0,
+      "rank_in_row": 0,
+      "data_rank_in_column": 6,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": 1,
+      "column_role": "MIXED",
+      "row_confidence": 0.1495,
+      "column_confidence": 0.0893,
+      "id": 14
+    },
+    {
+      "token": "2.7",
+      "x1": 754,
+      "y1": 860,
+      "x2": 928,
+      "y2": 998,
+      "cx": 841.0,
+      "cy": 929.0,
+      "conf": 0.9975,
+      "label": "QUANTITY",
+      "norm": "2.7",
+      "center": [
+        841.0,
+        929.0
+      ],
+      "width": 174,
+      "height": 138,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 1,
+      "column_id": 0,
+      "rank_in_row": 5,
+      "data_rank_in_column": 7,
+      "qty_rank_in_column": 2,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.1394,
+      "column_confidence": 0.4196,
+      "id": 15
+    },
+    {
+      "token": "g",
+      "x1": 928,
+      "y1": 860,
+      "x2": 986,
+      "y2": 998,
+      "cx": 957.0,
+      "cy": 929.0,
+      "conf": 0.9975,
+      "label": "UNIT",
+      "norm": "g",
+      "center": [
+        957.0,
+        929.0
+      ],
+      "width": 58,
+      "height": 138,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 1,
+      "column_id": 0,
+      "rank_in_row": 8,
+      "data_rank_in_column": 8,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.1394,
+      "column_confidence": 0.4153,
+      "id": 16
+    },
+    {
+      "token": "davon gesattigte",
+      "x1": 104,
+      "y1": 995,
+      "x2": 812,
+      "y2": 1166,
+      "cx": 458.0,
+      "cy": 1080.5,
+      "conf": 0.9746,
+      "label": "NUTRIENT",
+      "norm": "davon gesattigte",
+      "center": [
+        458.0,
+        1080.5
+      ],
+      "width": 708,
+      "height": 171,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 2,
+      "column_id": 0,
+      "rank_in_row": 1,
+      "data_rank_in_column": 9,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": 2,
+      "column_role": "MIXED",
+      "row_confidence": 0.2504,
+      "column_confidence": 0.1404,
+      "id": 17
+    },
+    {
+      "token": "0.0",
+      "x1": 1561,
+      "y1": 1030,
+      "x2": 1725,
+      "y2": 1157,
+      "cx": 1643.0,
+      "cy": 1093.5,
+      "conf": 0.9545,
+      "label": "QUANTITY",
+      "norm": "0.0",
+      "center": [
+        1643.0,
+        1093.5
+      ],
+      "width": 164,
+      "height": 127,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 2,
+      "column_id": 1,
+      "rank_in_row": 4,
+      "data_rank_in_column": 7,
+      "qty_rank_in_column": 3,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.2716,
+      "column_confidence": 0.6246,
+      "id": 18
+    },
+    {
+      "token": "g",
+      "x1": 1725,
+      "y1": 1030,
+      "x2": 1780,
+      "y2": 1157,
+      "cx": 1752.5,
+      "cy": 1093.5,
+      "conf": 0.9545,
+      "label": "UNIT",
+      "norm": "g",
+      "center": [
+        1752.5,
+        1093.5
+      ],
+      "width": 55,
+      "height": 127,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 2,
+      "column_id": 1,
+      "rank_in_row": 6,
+      "data_rank_in_column": 8,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.2716,
+      "column_confidence": 0.6327,
+      "id": 19
+    },
+    {
+      "token": "0.4",
+      "x1": 774,
+      "y1": 1127,
+      "x2": 947,
+      "y2": 1268,
+      "cx": 860.5,
+      "cy": 1197.5,
+      "conf": 0.993,
+      "label": "QUANTITY",
+      "norm": "0.4",
+      "center": [
+        860.5,
+        1197.5
+      ],
+      "width": 173,
+      "height": 141,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 2,
+      "column_id": 0,
+      "rank_in_row": 2,
+      "data_rank_in_column": 10,
+      "qty_rank_in_column": 3,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.3558,
+      "column_confidence": 0.4433,
+      "id": 20
+    },
+    {
+      "token": "g",
+      "x1": 947,
+      "y1": 1127,
+      "x2": 1005,
+      "y2": 1268,
+      "cx": 976.0,
+      "cy": 1197.5,
+      "conf": 0.993,
+      "label": "UNIT",
+      "norm": "g",
+      "center": [
+        976.0,
+        1197.5
+      ],
+      "width": 58,
+      "height": 141,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 2,
+      "column_id": 0,
+      "rank_in_row": 3,
+      "data_rank_in_column": 11,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.3558,
+      "column_confidence": 0.393,
+      "id": 21
+    },
+    {
+      "token": "Fettsauren",
+      "x1": 157,
+      "y1": 1147,
+      "x2": 570,
+      "y2": 1285,
+      "cx": 363.5,
+      "cy": 1216.0,
+      "conf": 0.9935,
+      "label": "NUTRIENT",
+      "norm": "fettsauren",
+      "center": [
+        363.5,
+        1216.0
+      ],
+      "width": 413,
+      "height": 138,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 2,
+      "column_id": 0,
+      "rank_in_row": 0,
+      "data_rank_in_column": 12,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": 3,
+      "column_role": "MIXED",
+      "row_confidence": 0.3774,
+      "column_confidence": 0.1872,
+      "id": 22
+    },
+    {
+      "token": "6.3",
+      "x1": 1575,
+      "y1": 1198,
+      "x2": 1741,
+      "y2": 1340,
+      "cx": 1658.0,
+      "cy": 1269.0,
+      "conf": 0.9953,
+      "label": "QUANTITY",
+      "norm": "6.3",
+      "center": [
+        1658.0,
+        1269.0
+      ],
+      "width": 166,
+      "height": 142,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 2,
+      "column_id": 1,
+      "rank_in_row": 5,
+      "data_rank_in_column": 9,
+      "qty_rank_in_column": 4,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.3055,
+      "column_confidence": 0.6558,
+      "id": 23
+    },
+    {
+      "token": "g",
+      "x1": 1741,
+      "y1": 1198,
+      "x2": 1797,
+      "y2": 1340,
+      "cx": 1769.0,
+      "cy": 1269.0,
+      "conf": 0.9953,
+      "label": "UNIT",
+      "norm": "g",
+      "center": [
+        1769.0,
+        1269.0
+      ],
+      "width": 56,
+      "height": 142,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 2,
+      "column_id": 1,
+      "rank_in_row": 7,
+      "data_rank_in_column": 10,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.3055,
+      "column_confidence": 0.6065,
+      "id": 24
+    },
+    {
+      "token": "e 52.1g",
+      "x1": 657,
+      "y1": 1312,
+      "x2": 1015,
+      "y2": 1450,
+      "cx": 836.0,
+      "cy": 1381.0,
+      "conf": 0.9229,
+      "label": "UNKNOWN",
+      "norm": "e 52.1g",
+      "center": [
+        836.0,
+        1381.0
+      ],
+      "width": 358,
+      "height": 138,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 3,
+      "column_id": 0,
+      "rank_in_row": 4,
+      "data_rank_in_column": 13,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.1192,
+      "column_confidence": 0.4116,
+      "id": 25
+    },
+    {
+      "token": "Kohlenhydrate",
+      "x1": 123,
+      "y1": 1321,
+      "x2": 727,
+      "y2": 1469,
+      "cx": 425.0,
+      "cy": 1395.0,
+      "conf": 0.9936,
+      "label": "NUTRIENT",
+      "norm": "kohlenhydrate",
+      "center": [
+        425.0,
+        1395.0
+      ],
+      "width": 604,
+      "height": 148,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 3,
+      "column_id": 0,
+      "rank_in_row": 3,
+      "data_rank_in_column": 14,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": 4,
+      "column_role": "MIXED",
+      "row_confidence": 0.134,
+      "column_confidence": 0.1672,
+      "id": 26
+    },
+    {
+      "token": "6.2",
+      "x1": 1592,
+      "y1": 1349,
+      "x2": 1756,
+      "y2": 1489,
+      "cx": 1674.0,
+      "cy": 1419.0,
+      "conf": 0.9773,
+      "label": "QUANTITY",
+      "norm": "6.2",
+      "center": [
+        1674.0,
+        1419.0
+      ],
+      "width": 164,
+      "height": 140,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 3,
+      "column_id": 1,
+      "rank_in_row": 11,
+      "data_rank_in_column": 11,
+      "qty_rank_in_column": 5,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.138,
+      "column_confidence": 0.6769,
+      "id": 27
+    },
+    {
+      "token": "g",
+      "x1": 1756,
+      "y1": 1349,
+      "x2": 1811,
+      "y2": 1489,
+      "cx": 1783.5,
+      "cy": 1419.0,
+      "conf": 0.9773,
+      "label": "UNIT",
+      "norm": "g",
+      "center": [
+        1783.5,
+        1419.0
+      ],
+      "width": 55,
+      "height": 140,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 3,
+      "column_id": 1,
+      "rank_in_row": 15,
+      "data_rank_in_column": 12,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.138,
+      "column_confidence": 0.5778,
+      "id": 28
+    },
+    {
+      "token": "51.4",
+      "x1": 741,
+      "y1": 1459,
+      "x2": 966,
+      "y2": 1582,
+      "cx": 853.5,
+      "cy": 1520.5,
+      "conf": 0.9962,
+      "label": "QUANTITY",
+      "norm": "51.4",
+      "center": [
+        853.5,
+        1520.5
+      ],
+      "width": 225,
+      "height": 123,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 3,
+      "column_id": 0,
+      "rank_in_row": 5,
+      "data_rank_in_column": 15,
+      "qty_rank_in_column": 4,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.14,
+      "column_confidence": 0.4361,
+      "id": 29
+    },
+    {
+      "token": "g",
+      "x1": 966,
+      "y1": 1459,
+      "x2": 1023,
+      "y2": 1582,
+      "cx": 994.5,
+      "cy": 1520.5,
+      "conf": 0.9962,
+      "label": "UNIT",
+      "norm": "g",
+      "center": [
+        994.5,
+        1520.5
+      ],
+      "width": 57,
+      "height": 123,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 3,
+      "column_id": 0,
+      "rank_in_row": 8,
+      "data_rank_in_column": 16,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.14,
+      "column_confidence": 0.3659,
+      "id": 30
+    },
+    {
+      "token": "-davon Zucker",
+      "x1": 136,
+      "y1": 1474,
+      "x2": 712,
+      "y2": 1586,
+      "cx": 424.0,
+      "cy": 1530.0,
+      "conf": 0.9485,
+      "label": "NUTRIENT",
+      "norm": "davon zucker",
+      "center": [
+        424.0,
+        1530.0
+      ],
+      "width": 576,
+      "height": 112,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 3,
+      "column_id": 0,
+      "rank_in_row": 2,
+      "data_rank_in_column": 17,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": 5,
+      "column_role": "MIXED",
+      "row_confidence": 0.141,
+      "column_confidence": 0.1679,
+      "id": 31
+    },
+    {
+      "token": "1.9",
+      "x1": 1606,
+      "y1": 1529,
+      "x2": 1771,
+      "y2": 1666,
+      "cx": 1688.5,
+      "cy": 1597.5,
+      "conf": 0.9981,
+      "label": "QUANTITY",
+      "norm": "1.9",
+      "center": [
+        1688.5,
+        1597.5
+      ],
+      "width": 165,
+      "height": 137,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 3,
+      "column_id": 1,
+      "rank_in_row": 13,
+      "data_rank_in_column": 13,
+      "qty_rank_in_column": 6,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.1178,
+      "column_confidence": 0.6864,
+      "id": 32
+    },
+    {
+      "token": "g",
+      "x1": 1771,
+      "y1": 1529,
+      "x2": 1827,
+      "y2": 1666,
+      "cx": 1799.0,
+      "cy": 1597.5,
+      "conf": 0.9981,
+      "label": "UNIT",
+      "norm": "g",
+      "center": [
+        1799.0,
+        1597.5
+      ],
+      "width": 56,
+      "height": 137,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 3,
+      "column_id": 1,
+      "rank_in_row": 16,
+      "data_rank_in_column": 14,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.1178,
+      "column_confidence": 0.5403,
+      "id": 33
+    },
+    {
+      "token": "15.5",
+      "x1": 777,
+      "y1": 1631,
+      "x2": 995,
+      "y2": 1751,
+      "cx": 886.0,
+      "cy": 1691.0,
+      "conf": 0.9778,
+      "label": "QUANTITY",
+      "norm": "15.5",
+      "center": [
+        886.0,
+        1691.0
+      ],
+      "width": 218,
+      "height": 120,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 3,
+      "column_id": 0,
+      "rank_in_row": 6,
+      "data_rank_in_column": 18,
+      "qty_rank_in_column": 5,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.1608,
+      "column_confidence": 0.4573,
+      "id": 34
+    },
+    {
+      "token": "g",
+      "x1": 995,
+      "y1": 1631,
+      "x2": 1050,
+      "y2": 1751,
+      "cx": 1022.5,
+      "cy": 1691.0,
+      "conf": 0.9778,
+      "label": "UNIT",
+      "norm": "g",
+      "center": [
+        1022.5,
+        1691.0
+      ],
+      "width": 55,
+      "height": 120,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 3,
+      "column_id": 0,
+      "rank_in_row": 9,
+      "data_rank_in_column": 19,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.1608,
+      "column_confidence": 0.3197,
+      "id": 35
+    },
+    {
+      "token": "Ballaststoffe",
+      "x1": 143,
+      "y1": 1647,
+      "x2": 634,
+      "y2": 1759,
+      "cx": 388.5,
+      "cy": 1703.0,
+      "conf": 0.9967,
+      "label": "NUTRIENT",
+      "norm": "ballaststoffe",
+      "center": [
+        388.5,
+        1703.0
+      ],
+      "width": 491,
+      "height": 112,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 3,
+      "column_id": 0,
+      "rank_in_row": 1,
+      "data_rank_in_column": 20,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": 6,
+      "column_role": "MIXED",
+      "row_confidence": 0.1547,
+      "column_confidence": 0.1835,
+      "id": 36
+    },
+    {
+      "token": "0.8",
+      "x1": 1620,
+      "y1": 1697,
+      "x2": 1781,
+      "y2": 1813,
+      "cx": 1700.5,
+      "cy": 1755.0,
+      "conf": 0.9918,
+      "label": "QUANTITY",
+      "norm": "0.8",
+      "center": [
+        1700.5,
+        1755.0
+      ],
+      "width": 161,
+      "height": 116,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 3,
+      "column_id": 1,
+      "rank_in_row": 14,
+      "data_rank_in_column": 15,
+      "qty_rank_in_column": 7,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.136,
+      "column_confidence": 0.6835,
+      "id": 37
+    },
+    {
+      "token": "g",
+      "x1": 1781,
+      "y1": 1697,
+      "x2": 1835,
+      "y2": 1813,
+      "cx": 1808.0,
+      "cy": 1755.0,
+      "conf": 0.9918,
+      "label": "UNIT",
+      "norm": "g",
+      "center": [
+        1808.0,
+        1755.0
+      ],
+      "width": 54,
+      "height": 116,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 3,
+      "column_id": 1,
+      "rank_in_row": 17,
+      "data_rank_in_column": 16,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.136,
+      "column_confidence": 0.5146,
+      "id": 38
+    },
+    {
+      "token": "7.0",
+      "x1": 836,
+      "y1": 1789,
+      "x2": 1007,
+      "y2": 1915,
+      "cx": 921.5,
+      "cy": 1852.0,
+      "conf": 0.9827,
+      "label": "QUANTITY",
+      "norm": "7.0",
+      "center": [
+        921.5,
+        1852.0
+      ],
+      "width": 171,
+      "height": 126,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 3,
+      "column_id": 0,
+      "rank_in_row": 7,
+      "data_rank_in_column": 21,
+      "qty_rank_in_column": 6,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.1819,
+      "column_confidence": 0.4502,
+      "id": 39
+    },
+    {
+      "token": "g",
+      "x1": 1007,
+      "y1": 1789,
+      "x2": 1064,
+      "y2": 1915,
+      "cx": 1035.5,
+      "cy": 1852.0,
+      "conf": 0.9827,
+      "label": "UNIT",
+      "norm": "g",
+      "center": [
+        1035.5,
+        1852.0
+      ],
+      "width": 57,
+      "height": 126,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 3,
+      "column_id": 0,
+      "rank_in_row": 10,
+      "data_rank_in_column": 22,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.1819,
+      "column_confidence": 0.2953,
+      "id": 40
+    },
+    {
+      "token": "Eiweiss",
+      "x1": 155,
+      "y1": 1815,
+      "x2": 426,
+      "y2": 1929,
+      "cx": 290.5,
+      "cy": 1872.0,
+      "conf": 0.8957,
+      "label": "NUTRIENT",
+      "norm": "eiweiss",
+      "center": [
+        290.5,
+        1872.0
+      ],
+      "width": 271,
+      "height": 114,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 3,
+      "column_id": 0,
+      "rank_in_row": 0,
+      "data_rank_in_column": 23,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": 7,
+      "column_role": "MIXED",
+      "row_confidence": 0.1837,
+      "column_confidence": 0.1765,
+      "id": 41
+    },
+    {
+      "token": "0.00",
+      "x1": 1575,
+      "y1": 1826,
+      "x2": 1787,
+      "y2": 1951,
+      "cx": 1681.0,
+      "cy": 1888.5,
+      "conf": 0.9701,
+      "label": "QUANTITY",
+      "norm": "0.00",
+      "center": [
+        1681.0,
+        1888.5
+      ],
+      "width": 212,
+      "height": 125,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 3,
+      "column_id": 1,
+      "rank_in_row": 12,
+      "data_rank_in_column": 17,
+      "qty_rank_in_column": 8,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.175,
+      "column_confidence": 0.6831,
+      "id": 42
+    },
+    {
+      "token": "g",
+      "x1": 1787,
+      "y1": 1826,
+      "x2": 1840,
+      "y2": 1951,
+      "cx": 1813.5,
+      "cy": 1888.5,
+      "conf": 0.9701,
+      "label": "UNIT",
+      "norm": "g",
+      "center": [
+        1813.5,
+        1888.5
+      ],
+      "width": 53,
+      "height": 125,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": null,
+      "dosage_stream_id": 0,
+      "row_id": 3,
+      "column_id": 1,
+      "rank_in_row": 18,
+      "data_rank_in_column": 18,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "DOSAGE",
+      "row_confidence": 0.175,
+      "column_confidence": 0.4973,
+      "id": 43
+    },
+    {
+      "token": "0.03",
+      "x1": 806,
+      "y1": 1938,
+      "x2": 1027,
+      "y2": 2071,
+      "cx": 916.5,
+      "cy": 2004.5,
+      "conf": 0.954,
+      "label": "QUANTITY",
+      "norm": "0.03",
+      "center": [
+        916.5,
+        2004.5
+      ],
+      "width": 221,
+      "height": 133,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 4,
+      "column_id": 0,
+      "rank_in_row": 1,
+      "data_rank_in_column": 24,
+      "qty_rank_in_column": 7,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.81,
+      "column_confidence": 0.4539,
+      "id": 44
+    },
+    {
+      "token": "g",
+      "x1": 1027,
+      "y1": 1938,
+      "x2": 1083,
+      "y2": 2071,
+      "cx": 1055.0,
+      "cy": 2004.5,
+      "conf": 0.954,
+      "label": "UNIT",
+      "norm": "g",
+      "center": [
+        1055.0,
+        2004.5
+      ],
+      "width": 56,
+      "height": 133,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 4,
+      "column_id": 0,
+      "rank_in_row": 2,
+      "data_rank_in_column": 25,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": -1,
+      "column_role": "MIXED",
+      "row_confidence": 0.81,
+      "column_confidence": 0.2553,
+      "id": 45
+    },
+    {
+      "token": "Salz",
+      "x1": 160,
+      "y1": 1983,
+      "x2": 349,
+      "y2": 2106,
+      "cx": 254.5,
+      "cy": 2044.5,
+      "conf": 0.9958,
+      "label": "NUTRIENT",
+      "norm": "salz",
+      "center": [
+        254.5,
+        2044.5
+      ],
+      "width": 189,
+      "height": 123,
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        1.0
+      ],
+      "angle_deg": 0.0,
+      "is_enriched": true,
+      "is_header": false,
+      "column_context_id": "per_100g",
+      "dosage_stream_id": -1,
+      "row_id": 4,
+      "column_id": 0,
+      "rank_in_row": 0,
+      "data_rank_in_column": 26,
+      "qty_rank_in_column": -1,
+      "nutrient_rank_in_column": 8,
+      "column_role": "MIXED",
+      "row_confidence": 0.6201,
+      "column_confidence": 0.1607,
+      "id": 46
+    }
+  ],
+  "edges": [
+    {
+      "src": 0,
+      "dst": 1,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8417
+    },
+    {
+      "src": 1,
+      "dst": 0,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8417
+    },
+    {
+      "src": 0,
+      "dst": 2,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.6795
+    },
+    {
+      "src": 2,
+      "dst": 0,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.6795
+    },
+    {
+      "src": 2,
+      "dst": 0,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 0,
+      "dst": 3,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2719
+    },
+    {
+      "src": 3,
+      "dst": 0,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2719
+    },
+    {
+      "src": 0,
+      "dst": 4,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2714
+    },
+    {
+      "src": 4,
+      "dst": 0,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2714
+    },
+    {
+      "src": 0,
+      "dst": 5,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0147
+    },
+    {
+      "src": 5,
+      "dst": 0,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0147
+    },
+    {
+      "src": 0,
+      "dst": 7,
+      "type": "COL_COMPAT",
+      "weight": 0.9406
+    },
+    {
+      "src": 7,
+      "dst": 0,
+      "type": "COL_COMPAT",
+      "weight": 0.9406
+    },
+    {
+      "src": 0,
+      "dst": 11,
+      "type": "COL_COMPAT",
+      "weight": 0.6379
+    },
+    {
+      "src": 11,
+      "dst": 0,
+      "type": "COL_COMPAT",
+      "weight": 0.6379
+    },
+    {
+      "src": 0,
+      "dst": 15,
+      "type": "COL_COMPAT",
+      "weight": 0.2937
+    },
+    {
+      "src": 15,
+      "dst": 0,
+      "type": "COL_COMPAT",
+      "weight": 0.2937
+    },
+    {
+      "src": 0,
+      "dst": 16,
+      "type": "COL_COMPAT",
+      "weight": 0.3293
+    },
+    {
+      "src": 16,
+      "dst": 0,
+      "type": "COL_COMPAT",
+      "weight": 0.3293
+    },
+    {
+      "src": 0,
+      "dst": 20,
+      "type": "COL_COMPAT",
+      "weight": 0.5252
+    },
+    {
+      "src": 20,
+      "dst": 0,
+      "type": "COL_COMPAT",
+      "weight": 0.5252
+    },
+    {
+      "src": 0,
+      "dst": 21,
+      "type": "COL_COMPAT",
+      "weight": 0.1038
+    },
+    {
+      "src": 21,
+      "dst": 0,
+      "type": "COL_COMPAT",
+      "weight": 0.1038
+    },
+    {
+      "src": 0,
+      "dst": 25,
+      "type": "COL_COMPAT",
+      "weight": 0.2343
+    },
+    {
+      "src": 25,
+      "dst": 0,
+      "type": "COL_COMPAT",
+      "weight": 0.2343
+    },
+    {
+      "src": 0,
+      "dst": 29,
+      "type": "COL_COMPAT",
+      "weight": 0.4421
+    },
+    {
+      "src": 29,
+      "dst": 0,
+      "type": "COL_COMPAT",
+      "weight": 0.4421
+    },
+    {
+      "src": 0,
+      "dst": 34,
+      "type": "COL_COMPAT",
+      "weight": 0.8279
+    },
+    {
+      "src": 34,
+      "dst": 0,
+      "type": "COL_COMPAT",
+      "weight": 0.8279
+    },
+    {
+      "src": 0,
+      "dst": 39,
+      "type": "COL_COMPAT",
+      "weight": 0.7507
+    },
+    {
+      "src": 39,
+      "dst": 0,
+      "type": "COL_COMPAT",
+      "weight": 0.7507
+    },
+    {
+      "src": 0,
+      "dst": 44,
+      "type": "COL_COMPAT",
+      "weight": 0.8101
+    },
+    {
+      "src": 44,
+      "dst": 0,
+      "type": "COL_COMPAT",
+      "weight": 0.8101
+    },
+    {
+      "src": 1,
+      "dst": 2,
+      "type": "ROW_COMPAT",
+      "weight": 0.6866
+    },
+    {
+      "src": 2,
+      "dst": 1,
+      "type": "ROW_COMPAT",
+      "weight": 0.6866
+    },
+    {
+      "src": 2,
+      "dst": 1,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 1,
+      "dst": 3,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 1.0
+    },
+    {
+      "src": 3,
+      "dst": 1,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 1.0
+    },
+    {
+      "src": 1,
+      "dst": 4,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 1.0
+    },
+    {
+      "src": 4,
+      "dst": 1,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 1.0
+    },
+    {
+      "src": 1,
+      "dst": 6,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.1538
+    },
+    {
+      "src": 6,
+      "dst": 1,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.1538
+    },
+    {
+      "src": 1,
+      "dst": 7,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.5228
+    },
+    {
+      "src": 7,
+      "dst": 1,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.5228
+    },
+    {
+      "src": 1,
+      "dst": 8,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.5806
+    },
+    {
+      "src": 8,
+      "dst": 1,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.5806
+    },
+    {
+      "src": 1,
+      "dst": 9,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.5806
+    },
+    {
+      "src": 9,
+      "dst": 1,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.5806
+    },
+    {
+      "src": 1,
+      "dst": 11,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0918
+    },
+    {
+      "src": 11,
+      "dst": 1,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0918
+    },
+    {
+      "src": 2,
+      "dst": 3,
+      "type": "ROW_COMPAT",
+      "weight": 0.1073
+    },
+    {
+      "src": 3,
+      "dst": 2,
+      "type": "ROW_COMPAT",
+      "weight": 0.1073
+    },
+    {
+      "src": 2,
+      "dst": 3,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 4,
+      "type": "ROW_COMPAT",
+      "weight": 0.1073
+    },
+    {
+      "src": 4,
+      "dst": 2,
+      "type": "ROW_COMPAT",
+      "weight": 0.1073
+    },
+    {
+      "src": 2,
+      "dst": 4,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 5,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0964
+    },
+    {
+      "src": 5,
+      "dst": 2,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0964
+    },
+    {
+      "src": 2,
+      "dst": 5,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 5,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 6,
+      "type": "COL_COMPAT",
+      "weight": 0.632
+    },
+    {
+      "src": 6,
+      "dst": 2,
+      "type": "COL_COMPAT",
+      "weight": 0.632
+    },
+    {
+      "src": 2,
+      "dst": 6,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 6,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 7,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8101
+    },
+    {
+      "src": 7,
+      "dst": 2,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8101
+    },
+    {
+      "src": 2,
+      "dst": 7,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 7,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 8,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 9,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 10,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2521
+    },
+    {
+      "src": 10,
+      "dst": 2,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2521
+    },
+    {
+      "src": 2,
+      "dst": 10,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 10,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 11,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2521
+    },
+    {
+      "src": 11,
+      "dst": 2,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2521
+    },
+    {
+      "src": 2,
+      "dst": 11,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 11,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 12,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 13,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 14,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 14,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 15,
+      "type": "COL_COMPAT",
+      "weight": 0.2759
+    },
+    {
+      "src": 15,
+      "dst": 2,
+      "type": "COL_COMPAT",
+      "weight": 0.2759
+    },
+    {
+      "src": 2,
+      "dst": 15,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 15,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 16,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 16,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 17,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 17,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 18,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 19,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 20,
+      "type": "COL_COMPAT",
+      "weight": 0.0444
+    },
+    {
+      "src": 20,
+      "dst": 2,
+      "type": "COL_COMPAT",
+      "weight": 0.0444
+    },
+    {
+      "src": 2,
+      "dst": 20,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 20,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 21,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 21,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 22,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 22,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 23,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 24,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 25,
+      "type": "COL_COMPAT",
+      "weight": 0.3352
+    },
+    {
+      "src": 25,
+      "dst": 2,
+      "type": "COL_COMPAT",
+      "weight": 0.3352
+    },
+    {
+      "src": 2,
+      "dst": 25,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 25,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 26,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 26,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 27,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 28,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 29,
+      "type": "COL_COMPAT",
+      "weight": 0.1275
+    },
+    {
+      "src": 29,
+      "dst": 2,
+      "type": "COL_COMPAT",
+      "weight": 0.1275
+    },
+    {
+      "src": 2,
+      "dst": 29,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 29,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 30,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 30,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 31,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 31,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 32,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 33,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 34,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 34,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 35,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 35,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 36,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 36,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 37,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 38,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 39,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 39,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 40,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 40,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 41,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 41,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 42,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 43,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 44,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 44,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 45,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 45,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 46,
+      "type": "CONTEXT_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 2,
+      "dst": 46,
+      "type": "HEADER_SCOPE",
+      "weight": 1.0
+    },
+    {
+      "src": 3,
+      "dst": 4,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 4,
+      "dst": 3,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 3,
+      "dst": 5,
+      "type": "ROW_COMPAT",
+      "weight": 0.207
+    },
+    {
+      "src": 5,
+      "dst": 3,
+      "type": "ROW_COMPAT",
+      "weight": 0.207
+    },
+    {
+      "src": 3,
+      "dst": 6,
+      "type": "ROW_COMPAT",
+      "weight": 0.1406
+    },
+    {
+      "src": 6,
+      "dst": 3,
+      "type": "ROW_COMPAT",
+      "weight": 0.1406
+    },
+    {
+      "src": 3,
+      "dst": 7,
+      "type": "ROW_COMPAT",
+      "weight": 0.1406
+    },
+    {
+      "src": 7,
+      "dst": 3,
+      "type": "ROW_COMPAT",
+      "weight": 0.1406
+    },
+    {
+      "src": 3,
+      "dst": 8,
+      "type": "COL_COMPAT",
+      "weight": 0.3649
+    },
+    {
+      "src": 8,
+      "dst": 3,
+      "type": "COL_COMPAT",
+      "weight": 0.3649
+    },
+    {
+      "src": 3,
+      "dst": 9,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 1.0
+    },
+    {
+      "src": 9,
+      "dst": 3,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 1.0
+    },
+    {
+      "src": 3,
+      "dst": 12,
+      "type": "COL_COMPAT",
+      "weight": 0.175
+    },
+    {
+      "src": 12,
+      "dst": 3,
+      "type": "COL_COMPAT",
+      "weight": 0.175
+    },
+    {
+      "src": 3,
+      "dst": 13,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2167
+    },
+    {
+      "src": 13,
+      "dst": 3,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2167
+    },
+    {
+      "src": 4,
+      "dst": 5,
+      "type": "ROW_COMPAT",
+      "weight": 0.207
+    },
+    {
+      "src": 5,
+      "dst": 4,
+      "type": "ROW_COMPAT",
+      "weight": 0.207
+    },
+    {
+      "src": 4,
+      "dst": 6,
+      "type": "ROW_COMPAT",
+      "weight": 0.1406
+    },
+    {
+      "src": 6,
+      "dst": 4,
+      "type": "ROW_COMPAT",
+      "weight": 0.1406
+    },
+    {
+      "src": 4,
+      "dst": 7,
+      "type": "ROW_COMPAT",
+      "weight": 0.1406
+    },
+    {
+      "src": 7,
+      "dst": 4,
+      "type": "ROW_COMPAT",
+      "weight": 0.1406
+    },
+    {
+      "src": 4,
+      "dst": 8,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.6637
+    },
+    {
+      "src": 8,
+      "dst": 4,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.6637
+    },
+    {
+      "src": 4,
+      "dst": 9,
+      "type": "COL_COMPAT",
+      "weight": 0.543
+    },
+    {
+      "src": 9,
+      "dst": 4,
+      "type": "COL_COMPAT",
+      "weight": 0.543
+    },
+    {
+      "src": 4,
+      "dst": 12,
+      "type": "COL_COMPAT",
+      "weight": 0.1987
+    },
+    {
+      "src": 12,
+      "dst": 4,
+      "type": "COL_COMPAT",
+      "weight": 0.1987
+    },
+    {
+      "src": 4,
+      "dst": 13,
+      "type": "COL_COMPAT",
+      "weight": 0.4421
+    },
+    {
+      "src": 13,
+      "dst": 4,
+      "type": "COL_COMPAT",
+      "weight": 0.4421
+    },
+    {
+      "src": 4,
+      "dst": 18,
+      "type": "COL_COMPAT",
+      "weight": 0.3946
+    },
+    {
+      "src": 18,
+      "dst": 4,
+      "type": "COL_COMPAT",
+      "weight": 0.3946
+    },
+    {
+      "src": 4,
+      "dst": 19,
+      "type": "COL_COMPAT",
+      "weight": 0.3056
+    },
+    {
+      "src": 19,
+      "dst": 4,
+      "type": "COL_COMPAT",
+      "weight": 0.3056
+    },
+    {
+      "src": 4,
+      "dst": 23,
+      "type": "COL_COMPAT",
+      "weight": 0.5726
+    },
+    {
+      "src": 23,
+      "dst": 4,
+      "type": "COL_COMPAT",
+      "weight": 0.5726
+    },
+    {
+      "src": 4,
+      "dst": 24,
+      "type": "COL_COMPAT",
+      "weight": 0.1097
+    },
+    {
+      "src": 24,
+      "dst": 4,
+      "type": "COL_COMPAT",
+      "weight": 0.1097
+    },
+    {
+      "src": 4,
+      "dst": 27,
+      "type": "COL_COMPAT",
+      "weight": 0.7626
+    },
+    {
+      "src": 27,
+      "dst": 4,
+      "type": "COL_COMPAT",
+      "weight": 0.7626
+    },
+    {
+      "src": 4,
+      "dst": 32,
+      "type": "COL_COMPAT",
+      "weight": 0.9347
+    },
+    {
+      "src": 32,
+      "dst": 4,
+      "type": "COL_COMPAT",
+      "weight": 0.9347
+    },
+    {
+      "src": 4,
+      "dst": 37,
+      "type": "COL_COMPAT",
+      "weight": 0.9228
+    },
+    {
+      "src": 37,
+      "dst": 4,
+      "type": "COL_COMPAT",
+      "weight": 0.9228
+    },
+    {
+      "src": 4,
+      "dst": 42,
+      "type": "COL_COMPAT",
+      "weight": 0.8457
+    },
+    {
+      "src": 42,
+      "dst": 4,
+      "type": "COL_COMPAT",
+      "weight": 0.8457
+    },
+    {
+      "src": 5,
+      "dst": 6,
+      "type": "ROW_COMPAT",
+      "weight": 0.9335
+    },
+    {
+      "src": 6,
+      "dst": 5,
+      "type": "ROW_COMPAT",
+      "weight": 0.9335
+    },
+    {
+      "src": 5,
+      "dst": 7,
+      "type": "ROW_COMPAT",
+      "weight": 0.9335
+    },
+    {
+      "src": 7,
+      "dst": 5,
+      "type": "ROW_COMPAT",
+      "weight": 0.9335
+    },
+    {
+      "src": 5,
+      "dst": 8,
+      "type": "ROW_COMPAT",
+      "weight": 0.5062
+    },
+    {
+      "src": 8,
+      "dst": 5,
+      "type": "ROW_COMPAT",
+      "weight": 0.5062
+    },
+    {
+      "src": 5,
+      "dst": 9,
+      "type": "ROW_COMPAT",
+      "weight": 0.5062
+    },
+    {
+      "src": 9,
+      "dst": 5,
+      "type": "ROW_COMPAT",
+      "weight": 0.5062
+    },
+    {
+      "src": 5,
+      "dst": 10,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0305
+    },
+    {
+      "src": 10,
+      "dst": 5,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0305
+    },
+    {
+      "src": 5,
+      "dst": 14,
+      "type": "COL_COMPAT",
+      "weight": 0.3115
+    },
+    {
+      "src": 14,
+      "dst": 5,
+      "type": "COL_COMPAT",
+      "weight": 0.3115
+    },
+    {
+      "src": 5,
+      "dst": 41,
+      "type": "COL_COMPAT",
+      "weight": 0.3056
+    },
+    {
+      "src": 41,
+      "dst": 5,
+      "type": "COL_COMPAT",
+      "weight": 0.3056
+    },
+    {
+      "src": 5,
+      "dst": 46,
+      "type": "COL_COMPAT",
+      "weight": 0.7329
+    },
+    {
+      "src": 46,
+      "dst": 5,
+      "type": "COL_COMPAT",
+      "weight": 0.7329
+    },
+    {
+      "src": 6,
+      "dst": 7,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 7,
+      "dst": 6,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 6,
+      "dst": 8,
+      "type": "ROW_COMPAT",
+      "weight": 0.5726
+    },
+    {
+      "src": 8,
+      "dst": 6,
+      "type": "ROW_COMPAT",
+      "weight": 0.5726
+    },
+    {
+      "src": 6,
+      "dst": 9,
+      "type": "ROW_COMPAT",
+      "weight": 0.5726
+    },
+    {
+      "src": 9,
+      "dst": 6,
+      "type": "ROW_COMPAT",
+      "weight": 0.5726
+    },
+    {
+      "src": 6,
+      "dst": 10,
+      "type": "COL_COMPAT",
+      "weight": 0.3471
+    },
+    {
+      "src": 10,
+      "dst": 6,
+      "type": "COL_COMPAT",
+      "weight": 0.3471
+    },
+    {
+      "src": 6,
+      "dst": 11,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.909
+    },
+    {
+      "src": 11,
+      "dst": 6,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.909
+    },
+    {
+      "src": 6,
+      "dst": 15,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2086
+    },
+    {
+      "src": 15,
+      "dst": 6,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2086
+    },
+    {
+      "src": 6,
+      "dst": 16,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.1548
+    },
+    {
+      "src": 16,
+      "dst": 6,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.1548
+    },
+    {
+      "src": 7,
+      "dst": 8,
+      "type": "ROW_COMPAT",
+      "weight": 0.5726
+    },
+    {
+      "src": 8,
+      "dst": 7,
+      "type": "ROW_COMPAT",
+      "weight": 0.5726
+    },
+    {
+      "src": 7,
+      "dst": 9,
+      "type": "ROW_COMPAT",
+      "weight": 0.5726
+    },
+    {
+      "src": 9,
+      "dst": 7,
+      "type": "ROW_COMPAT",
+      "weight": 0.5726
+    },
+    {
+      "src": 7,
+      "dst": 10,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.6554
+    },
+    {
+      "src": 10,
+      "dst": 7,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.6554
+    },
+    {
+      "src": 7,
+      "dst": 11,
+      "type": "COL_COMPAT",
+      "weight": 0.5786
+    },
+    {
+      "src": 11,
+      "dst": 7,
+      "type": "COL_COMPAT",
+      "weight": 0.5786
+    },
+    {
+      "src": 7,
+      "dst": 15,
+      "type": "COL_COMPAT",
+      "weight": 0.2343
+    },
+    {
+      "src": 15,
+      "dst": 7,
+      "type": "COL_COMPAT",
+      "weight": 0.2343
+    },
+    {
+      "src": 7,
+      "dst": 16,
+      "type": "COL_COMPAT",
+      "weight": 0.3887
+    },
+    {
+      "src": 16,
+      "dst": 7,
+      "type": "COL_COMPAT",
+      "weight": 0.3887
+    },
+    {
+      "src": 7,
+      "dst": 20,
+      "type": "COL_COMPAT",
+      "weight": 0.4658
+    },
+    {
+      "src": 20,
+      "dst": 7,
+      "type": "COL_COMPAT",
+      "weight": 0.4658
+    },
+    {
+      "src": 7,
+      "dst": 21,
+      "type": "COL_COMPAT",
+      "weight": 0.1631
+    },
+    {
+      "src": 21,
+      "dst": 7,
+      "type": "COL_COMPAT",
+      "weight": 0.1631
+    },
+    {
+      "src": 7,
+      "dst": 25,
+      "type": "COL_COMPAT",
+      "weight": 0.175
+    },
+    {
+      "src": 25,
+      "dst": 7,
+      "type": "COL_COMPAT",
+      "weight": 0.175
+    },
+    {
+      "src": 7,
+      "dst": 29,
+      "type": "COL_COMPAT",
+      "weight": 0.3827
+    },
+    {
+      "src": 29,
+      "dst": 7,
+      "type": "COL_COMPAT",
+      "weight": 0.3827
+    },
+    {
+      "src": 7,
+      "dst": 34,
+      "type": "COL_COMPAT",
+      "weight": 0.7685
+    },
+    {
+      "src": 34,
+      "dst": 7,
+      "type": "COL_COMPAT",
+      "weight": 0.7685
+    },
+    {
+      "src": 7,
+      "dst": 39,
+      "type": "COL_COMPAT",
+      "weight": 0.8101
+    },
+    {
+      "src": 39,
+      "dst": 7,
+      "type": "COL_COMPAT",
+      "weight": 0.8101
+    },
+    {
+      "src": 7,
+      "dst": 44,
+      "type": "COL_COMPAT",
+      "weight": 0.8694
+    },
+    {
+      "src": 44,
+      "dst": 7,
+      "type": "COL_COMPAT",
+      "weight": 0.8694
+    },
+    {
+      "src": 8,
+      "dst": 9,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 9,
+      "dst": 8,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 8,
+      "dst": 10,
+      "type": "ROW_COMPAT",
+      "weight": 0.0313
+    },
+    {
+      "src": 10,
+      "dst": 8,
+      "type": "ROW_COMPAT",
+      "weight": 0.0313
+    },
+    {
+      "src": 8,
+      "dst": 11,
+      "type": "ROW_COMPAT",
+      "weight": 0.0313
+    },
+    {
+      "src": 11,
+      "dst": 8,
+      "type": "ROW_COMPAT",
+      "weight": 0.0313
+    },
+    {
+      "src": 8,
+      "dst": 12,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.818
+    },
+    {
+      "src": 12,
+      "dst": 8,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.818
+    },
+    {
+      "src": 8,
+      "dst": 13,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.3488
+    },
+    {
+      "src": 13,
+      "dst": 8,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.3488
+    },
+    {
+      "src": 9,
+      "dst": 10,
+      "type": "ROW_COMPAT",
+      "weight": 0.0313
+    },
+    {
+      "src": 10,
+      "dst": 9,
+      "type": "ROW_COMPAT",
+      "weight": 0.0313
+    },
+    {
+      "src": 9,
+      "dst": 11,
+      "type": "ROW_COMPAT",
+      "weight": 0.0313
+    },
+    {
+      "src": 11,
+      "dst": 9,
+      "type": "ROW_COMPAT",
+      "weight": 0.0313
+    },
+    {
+      "src": 9,
+      "dst": 12,
+      "type": "COL_COMPAT",
+      "weight": 0.6557
+    },
+    {
+      "src": 12,
+      "dst": 9,
+      "type": "COL_COMPAT",
+      "weight": 0.6557
+    },
+    {
+      "src": 9,
+      "dst": 13,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.818
+    },
+    {
+      "src": 13,
+      "dst": 9,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.818
+    },
+    {
+      "src": 9,
+      "dst": 18,
+      "type": "COL_COMPAT",
+      "weight": 0.8516
+    },
+    {
+      "src": 18,
+      "dst": 9,
+      "type": "COL_COMPAT",
+      "weight": 0.8516
+    },
+    {
+      "src": 9,
+      "dst": 23,
+      "type": "COL_COMPAT",
+      "weight": 0.9703
+    },
+    {
+      "src": 23,
+      "dst": 9,
+      "type": "COL_COMPAT",
+      "weight": 0.9703
+    },
+    {
+      "src": 9,
+      "dst": 27,
+      "type": "COL_COMPAT",
+      "weight": 0.7804
+    },
+    {
+      "src": 27,
+      "dst": 9,
+      "type": "COL_COMPAT",
+      "weight": 0.7804
+    },
+    {
+      "src": 9,
+      "dst": 32,
+      "type": "COL_COMPAT",
+      "weight": 0.6083
+    },
+    {
+      "src": 32,
+      "dst": 9,
+      "type": "COL_COMPAT",
+      "weight": 0.6083
+    },
+    {
+      "src": 9,
+      "dst": 37,
+      "type": "COL_COMPAT",
+      "weight": 0.4658
+    },
+    {
+      "src": 37,
+      "dst": 9,
+      "type": "COL_COMPAT",
+      "weight": 0.4658
+    },
+    {
+      "src": 9,
+      "dst": 42,
+      "type": "COL_COMPAT",
+      "weight": 0.6973
+    },
+    {
+      "src": 42,
+      "dst": 9,
+      "type": "COL_COMPAT",
+      "weight": 0.6973
+    },
+    {
+      "src": 10,
+      "dst": 11,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 11,
+      "dst": 10,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 10,
+      "dst": 12,
+      "type": "ROW_COMPAT",
+      "weight": 0.1595
+    },
+    {
+      "src": 12,
+      "dst": 10,
+      "type": "ROW_COMPAT",
+      "weight": 0.1595
+    },
+    {
+      "src": 10,
+      "dst": 13,
+      "type": "ROW_COMPAT",
+      "weight": 0.1595
+    },
+    {
+      "src": 13,
+      "dst": 10,
+      "type": "ROW_COMPAT",
+      "weight": 0.1595
+    },
+    {
+      "src": 10,
+      "dst": 15,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.814
+    },
+    {
+      "src": 15,
+      "dst": 10,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.814
+    },
+    {
+      "src": 10,
+      "dst": 16,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.3439
+    },
+    {
+      "src": 16,
+      "dst": 10,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.3439
+    },
+    {
+      "src": 10,
+      "dst": 17,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2798
+    },
+    {
+      "src": 17,
+      "dst": 10,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2798
+    },
+    {
+      "src": 11,
+      "dst": 12,
+      "type": "ROW_COMPAT",
+      "weight": 0.1595
+    },
+    {
+      "src": 12,
+      "dst": 11,
+      "type": "ROW_COMPAT",
+      "weight": 0.1595
+    },
+    {
+      "src": 11,
+      "dst": 13,
+      "type": "ROW_COMPAT",
+      "weight": 0.1595
+    },
+    {
+      "src": 13,
+      "dst": 11,
+      "type": "ROW_COMPAT",
+      "weight": 0.1595
+    },
+    {
+      "src": 11,
+      "dst": 15,
+      "type": "COL_COMPAT",
+      "weight": 0.6557
+    },
+    {
+      "src": 15,
+      "dst": 11,
+      "type": "COL_COMPAT",
+      "weight": 0.6557
+    },
+    {
+      "src": 11,
+      "dst": 16,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.814
+    },
+    {
+      "src": 16,
+      "dst": 11,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.814
+    },
+    {
+      "src": 11,
+      "dst": 17,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2798
+    },
+    {
+      "src": 17,
+      "dst": 11,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2798
+    },
+    {
+      "src": 11,
+      "dst": 20,
+      "type": "COL_COMPAT",
+      "weight": 0.8872
+    },
+    {
+      "src": 20,
+      "dst": 11,
+      "type": "COL_COMPAT",
+      "weight": 0.8872
+    },
+    {
+      "src": 11,
+      "dst": 25,
+      "type": "COL_COMPAT",
+      "weight": 0.5964
+    },
+    {
+      "src": 25,
+      "dst": 11,
+      "type": "COL_COMPAT",
+      "weight": 0.5964
+    },
+    {
+      "src": 11,
+      "dst": 29,
+      "type": "COL_COMPAT",
+      "weight": 0.8041
+    },
+    {
+      "src": 29,
+      "dst": 11,
+      "type": "COL_COMPAT",
+      "weight": 0.8041
+    },
+    {
+      "src": 11,
+      "dst": 34,
+      "type": "COL_COMPAT",
+      "weight": 0.8101
+    },
+    {
+      "src": 34,
+      "dst": 11,
+      "type": "COL_COMPAT",
+      "weight": 0.8101
+    },
+    {
+      "src": 11,
+      "dst": 39,
+      "type": "COL_COMPAT",
+      "weight": 0.3887
+    },
+    {
+      "src": 39,
+      "dst": 11,
+      "type": "COL_COMPAT",
+      "weight": 0.3887
+    },
+    {
+      "src": 11,
+      "dst": 44,
+      "type": "COL_COMPAT",
+      "weight": 0.448
+    },
+    {
+      "src": 44,
+      "dst": 11,
+      "type": "COL_COMPAT",
+      "weight": 0.448
+    },
+    {
+      "src": 12,
+      "dst": 13,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 13,
+      "dst": 12,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 12,
+      "dst": 14,
+      "type": "ROW_COMPAT",
+      "weight": 0.2735
+    },
+    {
+      "src": 14,
+      "dst": 12,
+      "type": "ROW_COMPAT",
+      "weight": 0.2735
+    },
+    {
+      "src": 12,
+      "dst": 15,
+      "type": "ROW_COMPAT",
+      "weight": 0.1216
+    },
+    {
+      "src": 15,
+      "dst": 12,
+      "type": "ROW_COMPAT",
+      "weight": 0.1216
+    },
+    {
+      "src": 12,
+      "dst": 16,
+      "type": "ROW_COMPAT",
+      "weight": 0.1216
+    },
+    {
+      "src": 16,
+      "dst": 12,
+      "type": "ROW_COMPAT",
+      "weight": 0.1216
+    },
+    {
+      "src": 12,
+      "dst": 18,
+      "type": "COL_COMPAT",
+      "weight": 0.8041
+    },
+    {
+      "src": 18,
+      "dst": 12,
+      "type": "COL_COMPAT",
+      "weight": 0.8041
+    },
+    {
+      "src": 12,
+      "dst": 19,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.5224
+    },
+    {
+      "src": 19,
+      "dst": 12,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.5224
+    },
+    {
+      "src": 12,
+      "dst": 23,
+      "type": "COL_COMPAT",
+      "weight": 0.6261
+    },
+    {
+      "src": 23,
+      "dst": 12,
+      "type": "COL_COMPAT",
+      "weight": 0.6261
+    },
+    {
+      "src": 12,
+      "dst": 27,
+      "type": "COL_COMPAT",
+      "weight": 0.4361
+    },
+    {
+      "src": 27,
+      "dst": 12,
+      "type": "COL_COMPAT",
+      "weight": 0.4361
+    },
+    {
+      "src": 12,
+      "dst": 32,
+      "type": "COL_COMPAT",
+      "weight": 0.264
+    },
+    {
+      "src": 32,
+      "dst": 12,
+      "type": "COL_COMPAT",
+      "weight": 0.264
+    },
+    {
+      "src": 12,
+      "dst": 37,
+      "type": "COL_COMPAT",
+      "weight": 0.1216
+    },
+    {
+      "src": 37,
+      "dst": 12,
+      "type": "COL_COMPAT",
+      "weight": 0.1216
+    },
+    {
+      "src": 12,
+      "dst": 42,
+      "type": "COL_COMPAT",
+      "weight": 0.353
+    },
+    {
+      "src": 42,
+      "dst": 12,
+      "type": "COL_COMPAT",
+      "weight": 0.353
+    },
+    {
+      "src": 13,
+      "dst": 14,
+      "type": "ROW_COMPAT",
+      "weight": 0.2735
+    },
+    {
+      "src": 14,
+      "dst": 13,
+      "type": "ROW_COMPAT",
+      "weight": 0.2735
+    },
+    {
+      "src": 13,
+      "dst": 15,
+      "type": "ROW_COMPAT",
+      "weight": 0.1216
+    },
+    {
+      "src": 15,
+      "dst": 13,
+      "type": "ROW_COMPAT",
+      "weight": 0.1216
+    },
+    {
+      "src": 13,
+      "dst": 16,
+      "type": "ROW_COMPAT",
+      "weight": 0.1216
+    },
+    {
+      "src": 16,
+      "dst": 13,
+      "type": "ROW_COMPAT",
+      "weight": 0.1216
+    },
+    {
+      "src": 13,
+      "dst": 18,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.5252
+    },
+    {
+      "src": 18,
+      "dst": 13,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.5252
+    },
+    {
+      "src": 13,
+      "dst": 19,
+      "type": "COL_COMPAT",
+      "weight": 0.8635
+    },
+    {
+      "src": 19,
+      "dst": 13,
+      "type": "COL_COMPAT",
+      "weight": 0.8635
+    },
+    {
+      "src": 13,
+      "dst": 23,
+      "type": "COL_COMPAT",
+      "weight": 0.0147
+    },
+    {
+      "src": 23,
+      "dst": 13,
+      "type": "COL_COMPAT",
+      "weight": 0.0147
+    },
+    {
+      "src": 13,
+      "dst": 24,
+      "type": "COL_COMPAT",
+      "weight": 0.6676
+    },
+    {
+      "src": 24,
+      "dst": 13,
+      "type": "COL_COMPAT",
+      "weight": 0.6676
+    },
+    {
+      "src": 13,
+      "dst": 27,
+      "type": "COL_COMPAT",
+      "weight": 0.2047
+    },
+    {
+      "src": 27,
+      "dst": 13,
+      "type": "COL_COMPAT",
+      "weight": 0.2047
+    },
+    {
+      "src": 13,
+      "dst": 28,
+      "type": "COL_COMPAT",
+      "weight": 0.4955
+    },
+    {
+      "src": 28,
+      "dst": 13,
+      "type": "COL_COMPAT",
+      "weight": 0.4955
+    },
+    {
+      "src": 13,
+      "dst": 32,
+      "type": "COL_COMPAT",
+      "weight": 0.3768
+    },
+    {
+      "src": 32,
+      "dst": 13,
+      "type": "COL_COMPAT",
+      "weight": 0.3768
+    },
+    {
+      "src": 13,
+      "dst": 33,
+      "type": "COL_COMPAT",
+      "weight": 0.3115
+    },
+    {
+      "src": 33,
+      "dst": 13,
+      "type": "COL_COMPAT",
+      "weight": 0.3115
+    },
+    {
+      "src": 13,
+      "dst": 37,
+      "type": "COL_COMPAT",
+      "weight": 0.5192
+    },
+    {
+      "src": 37,
+      "dst": 13,
+      "type": "COL_COMPAT",
+      "weight": 0.5192
+    },
+    {
+      "src": 13,
+      "dst": 38,
+      "type": "COL_COMPAT",
+      "weight": 0.2047
+    },
+    {
+      "src": 38,
+      "dst": 13,
+      "type": "COL_COMPAT",
+      "weight": 0.2047
+    },
+    {
+      "src": 13,
+      "dst": 42,
+      "type": "COL_COMPAT",
+      "weight": 0.2877
+    },
+    {
+      "src": 42,
+      "dst": 13,
+      "type": "COL_COMPAT",
+      "weight": 0.2877
+    },
+    {
+      "src": 13,
+      "dst": 43,
+      "type": "COL_COMPAT",
+      "weight": 0.1394
+    },
+    {
+      "src": 43,
+      "dst": 13,
+      "type": "COL_COMPAT",
+      "weight": 0.1394
+    },
+    {
+      "src": 14,
+      "dst": 15,
+      "type": "ROW_COMPAT",
+      "weight": 0.8481
+    },
+    {
+      "src": 15,
+      "dst": 14,
+      "type": "ROW_COMPAT",
+      "weight": 0.8481
+    },
+    {
+      "src": 14,
+      "dst": 16,
+      "type": "ROW_COMPAT",
+      "weight": 0.8481
+    },
+    {
+      "src": 16,
+      "dst": 14,
+      "type": "ROW_COMPAT",
+      "weight": 0.8481
+    },
+    {
+      "src": 14,
+      "dst": 17,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.9723
+    },
+    {
+      "src": 17,
+      "dst": 14,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.9723
+    },
+    {
+      "src": 14,
+      "dst": 22,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.3708
+    },
+    {
+      "src": 22,
+      "dst": 14,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.3708
+    },
+    {
+      "src": 14,
+      "dst": 46,
+      "type": "COL_COMPAT",
+      "weight": 0.0444
+    },
+    {
+      "src": 46,
+      "dst": 14,
+      "type": "COL_COMPAT",
+      "weight": 0.0444
+    },
+    {
+      "src": 15,
+      "dst": 16,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 16,
+      "dst": 15,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 15,
+      "dst": 17,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 1.0
+    },
+    {
+      "src": 17,
+      "dst": 15,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 1.0
+    },
+    {
+      "src": 15,
+      "dst": 20,
+      "type": "COL_COMPAT",
+      "weight": 0.7685
+    },
+    {
+      "src": 20,
+      "dst": 15,
+      "type": "COL_COMPAT",
+      "weight": 0.7685
+    },
+    {
+      "src": 15,
+      "dst": 21,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.484
+    },
+    {
+      "src": 21,
+      "dst": 15,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.484
+    },
+    {
+      "src": 15,
+      "dst": 22,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0631
+    },
+    {
+      "src": 22,
+      "dst": 15,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0631
+    },
+    {
+      "src": 15,
+      "dst": 25,
+      "type": "COL_COMPAT",
+      "weight": 0.9406
+    },
+    {
+      "src": 25,
+      "dst": 15,
+      "type": "COL_COMPAT",
+      "weight": 0.9406
+    },
+    {
+      "src": 15,
+      "dst": 29,
+      "type": "COL_COMPAT",
+      "weight": 0.8516
+    },
+    {
+      "src": 29,
+      "dst": 15,
+      "type": "COL_COMPAT",
+      "weight": 0.8516
+    },
+    {
+      "src": 15,
+      "dst": 34,
+      "type": "COL_COMPAT",
+      "weight": 0.4658
+    },
+    {
+      "src": 34,
+      "dst": 15,
+      "type": "COL_COMPAT",
+      "weight": 0.4658
+    },
+    {
+      "src": 15,
+      "dst": 39,
+      "type": "COL_COMPAT",
+      "weight": 0.0444
+    },
+    {
+      "src": 39,
+      "dst": 15,
+      "type": "COL_COMPAT",
+      "weight": 0.0444
+    },
+    {
+      "src": 15,
+      "dst": 44,
+      "type": "COL_COMPAT",
+      "weight": 0.1038
+    },
+    {
+      "src": 44,
+      "dst": 15,
+      "type": "COL_COMPAT",
+      "weight": 0.1038
+    },
+    {
+      "src": 16,
+      "dst": 17,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.541
+    },
+    {
+      "src": 17,
+      "dst": 16,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.541
+    },
+    {
+      "src": 16,
+      "dst": 20,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.4896
+    },
+    {
+      "src": 20,
+      "dst": 16,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.4896
+    },
+    {
+      "src": 16,
+      "dst": 21,
+      "type": "COL_COMPAT",
+      "weight": 0.7745
+    },
+    {
+      "src": 21,
+      "dst": 16,
+      "type": "COL_COMPAT",
+      "weight": 0.7745
+    },
+    {
+      "src": 16,
+      "dst": 30,
+      "type": "COL_COMPAT",
+      "weight": 0.5548
+    },
+    {
+      "src": 30,
+      "dst": 16,
+      "type": "COL_COMPAT",
+      "weight": 0.5548
+    },
+    {
+      "src": 16,
+      "dst": 34,
+      "type": "COL_COMPAT",
+      "weight": 0.1572
+    },
+    {
+      "src": 34,
+      "dst": 16,
+      "type": "COL_COMPAT",
+      "weight": 0.1572
+    },
+    {
+      "src": 16,
+      "dst": 35,
+      "type": "COL_COMPAT",
+      "weight": 0.2225
+    },
+    {
+      "src": 35,
+      "dst": 16,
+      "type": "COL_COMPAT",
+      "weight": 0.2225
+    },
+    {
+      "src": 16,
+      "dst": 39,
+      "type": "COL_COMPAT",
+      "weight": 0.5786
+    },
+    {
+      "src": 39,
+      "dst": 16,
+      "type": "COL_COMPAT",
+      "weight": 0.5786
+    },
+    {
+      "src": 16,
+      "dst": 40,
+      "type": "COL_COMPAT",
+      "weight": 0.0681
+    },
+    {
+      "src": 40,
+      "dst": 16,
+      "type": "COL_COMPAT",
+      "weight": 0.0681
+    },
+    {
+      "src": 16,
+      "dst": 44,
+      "type": "COL_COMPAT",
+      "weight": 0.5192
+    },
+    {
+      "src": 44,
+      "dst": 16,
+      "type": "COL_COMPAT",
+      "weight": 0.5192
+    },
+    {
+      "src": 17,
+      "dst": 18,
+      "type": "ROW_COMPAT",
+      "weight": 0.8765
+    },
+    {
+      "src": 18,
+      "dst": 17,
+      "type": "ROW_COMPAT",
+      "weight": 0.8765
+    },
+    {
+      "src": 17,
+      "dst": 19,
+      "type": "ROW_COMPAT",
+      "weight": 0.8765
+    },
+    {
+      "src": 19,
+      "dst": 17,
+      "type": "ROW_COMPAT",
+      "weight": 0.8765
+    },
+    {
+      "src": 17,
+      "dst": 20,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 1.0
+    },
+    {
+      "src": 20,
+      "dst": 17,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 1.0
+    },
+    {
+      "src": 17,
+      "dst": 21,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.4658
+    },
+    {
+      "src": 21,
+      "dst": 17,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.4658
+    },
+    {
+      "src": 17,
+      "dst": 22,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 1.0
+    },
+    {
+      "src": 22,
+      "dst": 17,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 1.0
+    },
+    {
+      "src": 17,
+      "dst": 25,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.4223
+    },
+    {
+      "src": 25,
+      "dst": 17,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.4223
+    },
+    {
+      "src": 17,
+      "dst": 26,
+      "type": "COL_COMPAT",
+      "weight": 0.6083
+    },
+    {
+      "src": 26,
+      "dst": 17,
+      "type": "COL_COMPAT",
+      "weight": 0.6083
+    },
+    {
+      "src": 17,
+      "dst": 31,
+      "type": "COL_COMPAT",
+      "weight": 0.5964
+    },
+    {
+      "src": 31,
+      "dst": 17,
+      "type": "COL_COMPAT",
+      "weight": 0.5964
+    },
+    {
+      "src": 17,
+      "dst": 36,
+      "type": "COL_COMPAT",
+      "weight": 0.175
+    },
+    {
+      "src": 36,
+      "dst": 17,
+      "type": "COL_COMPAT",
+      "weight": 0.175
+    },
+    {
+      "src": 18,
+      "dst": 19,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 19,
+      "dst": 18,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 18,
+      "dst": 20,
+      "type": "ROW_COMPAT",
+      "weight": 0.0123
+    },
+    {
+      "src": 20,
+      "dst": 18,
+      "type": "ROW_COMPAT",
+      "weight": 0.0123
+    },
+    {
+      "src": 18,
+      "dst": 21,
+      "type": "ROW_COMPAT",
+      "weight": 0.0123
+    },
+    {
+      "src": 21,
+      "dst": 18,
+      "type": "ROW_COMPAT",
+      "weight": 0.0123
+    },
+    {
+      "src": 18,
+      "dst": 23,
+      "type": "COL_COMPAT",
+      "weight": 0.8219
+    },
+    {
+      "src": 23,
+      "dst": 18,
+      "type": "COL_COMPAT",
+      "weight": 0.8219
+    },
+    {
+      "src": 18,
+      "dst": 24,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8258
+    },
+    {
+      "src": 24,
+      "dst": 18,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8258
+    },
+    {
+      "src": 18,
+      "dst": 27,
+      "type": "COL_COMPAT",
+      "weight": 0.632
+    },
+    {
+      "src": 27,
+      "dst": 18,
+      "type": "COL_COMPAT",
+      "weight": 0.632
+    },
+    {
+      "src": 18,
+      "dst": 28,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2304
+    },
+    {
+      "src": 28,
+      "dst": 18,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2304
+    },
+    {
+      "src": 18,
+      "dst": 32,
+      "type": "COL_COMPAT",
+      "weight": 0.4599
+    },
+    {
+      "src": 32,
+      "dst": 18,
+      "type": "COL_COMPAT",
+      "weight": 0.4599
+    },
+    {
+      "src": 18,
+      "dst": 37,
+      "type": "COL_COMPAT",
+      "weight": 0.3174
+    },
+    {
+      "src": 37,
+      "dst": 18,
+      "type": "COL_COMPAT",
+      "weight": 0.3174
+    },
+    {
+      "src": 18,
+      "dst": 42,
+      "type": "COL_COMPAT",
+      "weight": 0.5489
+    },
+    {
+      "src": 42,
+      "dst": 18,
+      "type": "COL_COMPAT",
+      "weight": 0.5489
+    },
+    {
+      "src": 19,
+      "dst": 20,
+      "type": "ROW_COMPAT",
+      "weight": 0.0123
+    },
+    {
+      "src": 20,
+      "dst": 19,
+      "type": "ROW_COMPAT",
+      "weight": 0.0123
+    },
+    {
+      "src": 19,
+      "dst": 21,
+      "type": "ROW_COMPAT",
+      "weight": 0.0123
+    },
+    {
+      "src": 21,
+      "dst": 19,
+      "type": "ROW_COMPAT",
+      "weight": 0.0123
+    },
+    {
+      "src": 19,
+      "dst": 23,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8378
+    },
+    {
+      "src": 23,
+      "dst": 19,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8378
+    },
+    {
+      "src": 19,
+      "dst": 24,
+      "type": "COL_COMPAT",
+      "weight": 0.8041
+    },
+    {
+      "src": 24,
+      "dst": 19,
+      "type": "COL_COMPAT",
+      "weight": 0.8041
+    },
+    {
+      "src": 19,
+      "dst": 27,
+      "type": "COL_COMPAT",
+      "weight": 0.0681
+    },
+    {
+      "src": 27,
+      "dst": 19,
+      "type": "COL_COMPAT",
+      "weight": 0.0681
+    },
+    {
+      "src": 19,
+      "dst": 28,
+      "type": "COL_COMPAT",
+      "weight": 0.632
+    },
+    {
+      "src": 28,
+      "dst": 19,
+      "type": "COL_COMPAT",
+      "weight": 0.632
+    },
+    {
+      "src": 19,
+      "dst": 32,
+      "type": "COL_COMPAT",
+      "weight": 0.2403
+    },
+    {
+      "src": 32,
+      "dst": 19,
+      "type": "COL_COMPAT",
+      "weight": 0.2403
+    },
+    {
+      "src": 19,
+      "dst": 33,
+      "type": "COL_COMPAT",
+      "weight": 0.448
+    },
+    {
+      "src": 33,
+      "dst": 19,
+      "type": "COL_COMPAT",
+      "weight": 0.448
+    },
+    {
+      "src": 19,
+      "dst": 37,
+      "type": "COL_COMPAT",
+      "weight": 0.3827
+    },
+    {
+      "src": 37,
+      "dst": 19,
+      "type": "COL_COMPAT",
+      "weight": 0.3827
+    },
+    {
+      "src": 19,
+      "dst": 38,
+      "type": "COL_COMPAT",
+      "weight": 0.3412
+    },
+    {
+      "src": 38,
+      "dst": 19,
+      "type": "COL_COMPAT",
+      "weight": 0.3412
+    },
+    {
+      "src": 19,
+      "dst": 42,
+      "type": "COL_COMPAT",
+      "weight": 0.1512
+    },
+    {
+      "src": 42,
+      "dst": 19,
+      "type": "COL_COMPAT",
+      "weight": 0.1512
+    },
+    {
+      "src": 19,
+      "dst": 43,
+      "type": "COL_COMPAT",
+      "weight": 0.2759
+    },
+    {
+      "src": 43,
+      "dst": 19,
+      "type": "COL_COMPAT",
+      "weight": 0.2759
+    },
+    {
+      "src": 20,
+      "dst": 21,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 21,
+      "dst": 20,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 20,
+      "dst": 22,
+      "type": "ROW_COMPAT",
+      "weight": 0.8243
+    },
+    {
+      "src": 22,
+      "dst": 20,
+      "type": "ROW_COMPAT",
+      "weight": 0.8243
+    },
+    {
+      "src": 20,
+      "dst": 23,
+      "type": "ROW_COMPAT",
+      "weight": 0.321
+    },
+    {
+      "src": 23,
+      "dst": 20,
+      "type": "ROW_COMPAT",
+      "weight": 0.321
+    },
+    {
+      "src": 20,
+      "dst": 24,
+      "type": "ROW_COMPAT",
+      "weight": 0.321
+    },
+    {
+      "src": 24,
+      "dst": 20,
+      "type": "ROW_COMPAT",
+      "weight": 0.321
+    },
+    {
+      "src": 20,
+      "dst": 25,
+      "type": "COL_COMPAT",
+      "weight": 0.7092
+    },
+    {
+      "src": 25,
+      "dst": 20,
+      "type": "COL_COMPAT",
+      "weight": 0.7092
+    },
+    {
+      "src": 20,
+      "dst": 26,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.7197
+    },
+    {
+      "src": 26,
+      "dst": 20,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.7197
+    },
+    {
+      "src": 20,
+      "dst": 29,
+      "type": "COL_COMPAT",
+      "weight": 0.9169
+    },
+    {
+      "src": 29,
+      "dst": 20,
+      "type": "COL_COMPAT",
+      "weight": 0.9169
+    },
+    {
+      "src": 20,
+      "dst": 30,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2405
+    },
+    {
+      "src": 30,
+      "dst": 20,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2405
+    },
+    {
+      "src": 20,
+      "dst": 31,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.1488
+    },
+    {
+      "src": 31,
+      "dst": 20,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.1488
+    },
+    {
+      "src": 20,
+      "dst": 34,
+      "type": "COL_COMPAT",
+      "weight": 0.6973
+    },
+    {
+      "src": 34,
+      "dst": 20,
+      "type": "COL_COMPAT",
+      "weight": 0.6973
+    },
+    {
+      "src": 20,
+      "dst": 39,
+      "type": "COL_COMPAT",
+      "weight": 0.2759
+    },
+    {
+      "src": 39,
+      "dst": 20,
+      "type": "COL_COMPAT",
+      "weight": 0.2759
+    },
+    {
+      "src": 20,
+      "dst": 44,
+      "type": "COL_COMPAT",
+      "weight": 0.3352
+    },
+    {
+      "src": 44,
+      "dst": 20,
+      "type": "COL_COMPAT",
+      "weight": 0.3352
+    },
+    {
+      "src": 21,
+      "dst": 22,
+      "type": "ROW_COMPAT",
+      "weight": 0.8243
+    },
+    {
+      "src": 22,
+      "dst": 21,
+      "type": "ROW_COMPAT",
+      "weight": 0.8243
+    },
+    {
+      "src": 21,
+      "dst": 23,
+      "type": "ROW_COMPAT",
+      "weight": 0.321
+    },
+    {
+      "src": 23,
+      "dst": 21,
+      "type": "ROW_COMPAT",
+      "weight": 0.321
+    },
+    {
+      "src": 21,
+      "dst": 24,
+      "type": "ROW_COMPAT",
+      "weight": 0.321
+    },
+    {
+      "src": 24,
+      "dst": 21,
+      "type": "ROW_COMPAT",
+      "weight": 0.321
+    },
+    {
+      "src": 21,
+      "dst": 25,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8259
+    },
+    {
+      "src": 25,
+      "dst": 21,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8259
+    },
+    {
+      "src": 21,
+      "dst": 26,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.1046
+    },
+    {
+      "src": 26,
+      "dst": 21,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.1046
+    },
+    {
+      "src": 21,
+      "dst": 29,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2442
+    },
+    {
+      "src": 29,
+      "dst": 21,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2442
+    },
+    {
+      "src": 21,
+      "dst": 30,
+      "type": "COL_COMPAT",
+      "weight": 0.7804
+    },
+    {
+      "src": 30,
+      "dst": 21,
+      "type": "COL_COMPAT",
+      "weight": 0.7804
+    },
+    {
+      "src": 21,
+      "dst": 35,
+      "type": "COL_COMPAT",
+      "weight": 0.448
+    },
+    {
+      "src": 35,
+      "dst": 21,
+      "type": "COL_COMPAT",
+      "weight": 0.448
+    },
+    {
+      "src": 21,
+      "dst": 39,
+      "type": "COL_COMPAT",
+      "weight": 0.353
+    },
+    {
+      "src": 39,
+      "dst": 21,
+      "type": "COL_COMPAT",
+      "weight": 0.353
+    },
+    {
+      "src": 21,
+      "dst": 40,
+      "type": "COL_COMPAT",
+      "weight": 0.2937
+    },
+    {
+      "src": 40,
+      "dst": 21,
+      "type": "COL_COMPAT",
+      "weight": 0.2937
+    },
+    {
+      "src": 21,
+      "dst": 44,
+      "type": "COL_COMPAT",
+      "weight": 0.2937
+    },
+    {
+      "src": 44,
+      "dst": 21,
+      "type": "COL_COMPAT",
+      "weight": 0.2937
+    },
+    {
+      "src": 21,
+      "dst": 45,
+      "type": "COL_COMPAT",
+      "weight": 0.0622
+    },
+    {
+      "src": 45,
+      "dst": 21,
+      "type": "COL_COMPAT",
+      "weight": 0.0622
+    },
+    {
+      "src": 22,
+      "dst": 23,
+      "type": "ROW_COMPAT",
+      "weight": 0.4967
+    },
+    {
+      "src": 23,
+      "dst": 22,
+      "type": "ROW_COMPAT",
+      "weight": 0.4967
+    },
+    {
+      "src": 22,
+      "dst": 24,
+      "type": "ROW_COMPAT",
+      "weight": 0.4967
+    },
+    {
+      "src": 24,
+      "dst": 22,
+      "type": "ROW_COMPAT",
+      "weight": 0.4967
+    },
+    {
+      "src": 22,
+      "dst": 25,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.6395
+    },
+    {
+      "src": 25,
+      "dst": 22,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.6395
+    },
+    {
+      "src": 22,
+      "dst": 26,
+      "type": "COL_COMPAT",
+      "weight": 0.2699
+    },
+    {
+      "src": 26,
+      "dst": 22,
+      "type": "COL_COMPAT",
+      "weight": 0.2699
+    },
+    {
+      "src": 22,
+      "dst": 29,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0347
+    },
+    {
+      "src": 29,
+      "dst": 22,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0347
+    },
+    {
+      "src": 22,
+      "dst": 31,
+      "type": "COL_COMPAT",
+      "weight": 0.2818
+    },
+    {
+      "src": 31,
+      "dst": 22,
+      "type": "COL_COMPAT",
+      "weight": 0.2818
+    },
+    {
+      "src": 22,
+      "dst": 36,
+      "type": "COL_COMPAT",
+      "weight": 0.7032
+    },
+    {
+      "src": 36,
+      "dst": 22,
+      "type": "COL_COMPAT",
+      "weight": 0.7032
+    },
+    {
+      "src": 22,
+      "dst": 41,
+      "type": "COL_COMPAT",
+      "weight": 0.1334
+    },
+    {
+      "src": 41,
+      "dst": 22,
+      "type": "COL_COMPAT",
+      "weight": 0.1334
+    },
+    {
+      "src": 23,
+      "dst": 24,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 24,
+      "dst": 23,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 23,
+      "dst": 27,
+      "type": "COL_COMPAT",
+      "weight": 0.8101
+    },
+    {
+      "src": 27,
+      "dst": 23,
+      "type": "COL_COMPAT",
+      "weight": 0.8101
+    },
+    {
+      "src": 23,
+      "dst": 28,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.9308
+    },
+    {
+      "src": 28,
+      "dst": 23,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.9308
+    },
+    {
+      "src": 23,
+      "dst": 32,
+      "type": "COL_COMPAT",
+      "weight": 0.6379
+    },
+    {
+      "src": 32,
+      "dst": 23,
+      "type": "COL_COMPAT",
+      "weight": 0.6379
+    },
+    {
+      "src": 23,
+      "dst": 33,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2428
+    },
+    {
+      "src": 33,
+      "dst": 23,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2428
+    },
+    {
+      "src": 23,
+      "dst": 37,
+      "type": "COL_COMPAT",
+      "weight": 0.4955
+    },
+    {
+      "src": 37,
+      "dst": 23,
+      "type": "COL_COMPAT",
+      "weight": 0.4955
+    },
+    {
+      "src": 23,
+      "dst": 42,
+      "type": "COL_COMPAT",
+      "weight": 0.727
+    },
+    {
+      "src": 42,
+      "dst": 23,
+      "type": "COL_COMPAT",
+      "weight": 0.727
+    },
+    {
+      "src": 24,
+      "dst": 27,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.9644
+    },
+    {
+      "src": 27,
+      "dst": 24,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.9644
+    },
+    {
+      "src": 24,
+      "dst": 28,
+      "type": "COL_COMPAT",
+      "weight": 0.8279
+    },
+    {
+      "src": 28,
+      "dst": 24,
+      "type": "COL_COMPAT",
+      "weight": 0.8279
+    },
+    {
+      "src": 24,
+      "dst": 32,
+      "type": "COL_COMPAT",
+      "weight": 0.0444
+    },
+    {
+      "src": 32,
+      "dst": 24,
+      "type": "COL_COMPAT",
+      "weight": 0.0444
+    },
+    {
+      "src": 24,
+      "dst": 33,
+      "type": "COL_COMPAT",
+      "weight": 0.6439
+    },
+    {
+      "src": 33,
+      "dst": 24,
+      "type": "COL_COMPAT",
+      "weight": 0.6439
+    },
+    {
+      "src": 24,
+      "dst": 37,
+      "type": "COL_COMPAT",
+      "weight": 0.1868
+    },
+    {
+      "src": 37,
+      "dst": 24,
+      "type": "COL_COMPAT",
+      "weight": 0.1868
+    },
+    {
+      "src": 24,
+      "dst": 38,
+      "type": "COL_COMPAT",
+      "weight": 0.537
+    },
+    {
+      "src": 38,
+      "dst": 24,
+      "type": "COL_COMPAT",
+      "weight": 0.537
+    },
+    {
+      "src": 24,
+      "dst": 43,
+      "type": "COL_COMPAT",
+      "weight": 0.4717
+    },
+    {
+      "src": 43,
+      "dst": 24,
+      "type": "COL_COMPAT",
+      "weight": 0.4717
+    },
+    {
+      "src": 25,
+      "dst": 26,
+      "type": "ROW_COMPAT",
+      "weight": 0.867
+    },
+    {
+      "src": 26,
+      "dst": 25,
+      "type": "ROW_COMPAT",
+      "weight": 0.867
+    },
+    {
+      "src": 25,
+      "dst": 27,
+      "type": "ROW_COMPAT",
+      "weight": 0.6391
+    },
+    {
+      "src": 27,
+      "dst": 25,
+      "type": "ROW_COMPAT",
+      "weight": 0.6391
+    },
+    {
+      "src": 25,
+      "dst": 28,
+      "type": "ROW_COMPAT",
+      "weight": 0.6391
+    },
+    {
+      "src": 28,
+      "dst": 25,
+      "type": "ROW_COMPAT",
+      "weight": 0.6391
+    },
+    {
+      "src": 25,
+      "dst": 29,
+      "type": "COL_COMPAT",
+      "weight": 0.7923
+    },
+    {
+      "src": 29,
+      "dst": 25,
+      "type": "COL_COMPAT",
+      "weight": 0.7923
+    },
+    {
+      "src": 25,
+      "dst": 30,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.9644
+    },
+    {
+      "src": 30,
+      "dst": 25,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.9644
+    },
+    {
+      "src": 25,
+      "dst": 31,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.905
+    },
+    {
+      "src": 31,
+      "dst": 25,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.905
+    },
+    {
+      "src": 25,
+      "dst": 34,
+      "type": "COL_COMPAT",
+      "weight": 0.4065
+    },
+    {
+      "src": 34,
+      "dst": 25,
+      "type": "COL_COMPAT",
+      "weight": 0.4065
+    },
+    {
+      "src": 25,
+      "dst": 35,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2838
+    },
+    {
+      "src": 35,
+      "dst": 25,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2838
+    },
+    {
+      "src": 25,
+      "dst": 36,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2152
+    },
+    {
+      "src": 36,
+      "dst": 25,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2152
+    },
+    {
+      "src": 25,
+      "dst": 44,
+      "type": "COL_COMPAT",
+      "weight": 0.0444
+    },
+    {
+      "src": 44,
+      "dst": 25,
+      "type": "COL_COMPAT",
+      "weight": 0.0444
+    },
+    {
+      "src": 26,
+      "dst": 27,
+      "type": "ROW_COMPAT",
+      "weight": 0.7721
+    },
+    {
+      "src": 27,
+      "dst": 26,
+      "type": "ROW_COMPAT",
+      "weight": 0.7721
+    },
+    {
+      "src": 26,
+      "dst": 28,
+      "type": "ROW_COMPAT",
+      "weight": 0.7721
+    },
+    {
+      "src": 28,
+      "dst": 26,
+      "type": "ROW_COMPAT",
+      "weight": 0.7721
+    },
+    {
+      "src": 26,
+      "dst": 29,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.9446
+    },
+    {
+      "src": 29,
+      "dst": 26,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.9446
+    },
+    {
+      "src": 26,
+      "dst": 30,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0543
+    },
+    {
+      "src": 30,
+      "dst": 26,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0543
+    },
+    {
+      "src": 26,
+      "dst": 31,
+      "type": "COL_COMPAT",
+      "weight": 0.9881
+    },
+    {
+      "src": 31,
+      "dst": 26,
+      "type": "COL_COMPAT",
+      "weight": 0.9881
+    },
+    {
+      "src": 26,
+      "dst": 34,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.3291
+    },
+    {
+      "src": 34,
+      "dst": 26,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.3291
+    },
+    {
+      "src": 26,
+      "dst": 36,
+      "type": "COL_COMPAT",
+      "weight": 0.5667
+    },
+    {
+      "src": 36,
+      "dst": 26,
+      "type": "COL_COMPAT",
+      "weight": 0.5667
+    },
+    {
+      "src": 27,
+      "dst": 28,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 28,
+      "dst": 27,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 27,
+      "dst": 29,
+      "type": "ROW_COMPAT",
+      "weight": 0.0361
+    },
+    {
+      "src": 29,
+      "dst": 27,
+      "type": "ROW_COMPAT",
+      "weight": 0.0361
+    },
+    {
+      "src": 27,
+      "dst": 30,
+      "type": "ROW_COMPAT",
+      "weight": 0.0361
+    },
+    {
+      "src": 30,
+      "dst": 27,
+      "type": "ROW_COMPAT",
+      "weight": 0.0361
+    },
+    {
+      "src": 27,
+      "dst": 32,
+      "type": "COL_COMPAT",
+      "weight": 0.8279
+    },
+    {
+      "src": 32,
+      "dst": 27,
+      "type": "COL_COMPAT",
+      "weight": 0.8279
+    },
+    {
+      "src": 27,
+      "dst": 33,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.831
+    },
+    {
+      "src": 33,
+      "dst": 27,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.831
+    },
+    {
+      "src": 27,
+      "dst": 37,
+      "type": "COL_COMPAT",
+      "weight": 0.6854
+    },
+    {
+      "src": 37,
+      "dst": 27,
+      "type": "COL_COMPAT",
+      "weight": 0.6854
+    },
+    {
+      "src": 27,
+      "dst": 38,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.171
+    },
+    {
+      "src": 38,
+      "dst": 27,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.171
+    },
+    {
+      "src": 27,
+      "dst": 42,
+      "type": "COL_COMPAT",
+      "weight": 0.9169
+    },
+    {
+      "src": 42,
+      "dst": 27,
+      "type": "COL_COMPAT",
+      "weight": 0.9169
+    },
+    {
+      "src": 28,
+      "dst": 29,
+      "type": "ROW_COMPAT",
+      "weight": 0.0361
+    },
+    {
+      "src": 29,
+      "dst": 28,
+      "type": "ROW_COMPAT",
+      "weight": 0.0361
+    },
+    {
+      "src": 28,
+      "dst": 30,
+      "type": "ROW_COMPAT",
+      "weight": 0.0361
+    },
+    {
+      "src": 30,
+      "dst": 28,
+      "type": "ROW_COMPAT",
+      "weight": 0.0361
+    },
+    {
+      "src": 28,
+      "dst": 32,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8417
+    },
+    {
+      "src": 32,
+      "dst": 28,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8417
+    },
+    {
+      "src": 28,
+      "dst": 33,
+      "type": "COL_COMPAT",
+      "weight": 0.816
+    },
+    {
+      "src": 33,
+      "dst": 28,
+      "type": "COL_COMPAT",
+      "weight": 0.816
+    },
+    {
+      "src": 28,
+      "dst": 37,
+      "type": "COL_COMPAT",
+      "weight": 0.0147
+    },
+    {
+      "src": 37,
+      "dst": 28,
+      "type": "COL_COMPAT",
+      "weight": 0.0147
+    },
+    {
+      "src": 28,
+      "dst": 38,
+      "type": "COL_COMPAT",
+      "weight": 0.7092
+    },
+    {
+      "src": 38,
+      "dst": 28,
+      "type": "COL_COMPAT",
+      "weight": 0.7092
+    },
+    {
+      "src": 28,
+      "dst": 43,
+      "type": "COL_COMPAT",
+      "weight": 0.6439
+    },
+    {
+      "src": 43,
+      "dst": 28,
+      "type": "COL_COMPAT",
+      "weight": 0.6439
+    },
+    {
+      "src": 29,
+      "dst": 30,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 30,
+      "dst": 29,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 29,
+      "dst": 31,
+      "type": "ROW_COMPAT",
+      "weight": 0.9098
+    },
+    {
+      "src": 31,
+      "dst": 29,
+      "type": "ROW_COMPAT",
+      "weight": 0.9098
+    },
+    {
+      "src": 29,
+      "dst": 32,
+      "type": "ROW_COMPAT",
+      "weight": 0.2688
+    },
+    {
+      "src": 32,
+      "dst": 29,
+      "type": "ROW_COMPAT",
+      "weight": 0.2688
+    },
+    {
+      "src": 29,
+      "dst": 33,
+      "type": "ROW_COMPAT",
+      "weight": 0.2688
+    },
+    {
+      "src": 33,
+      "dst": 29,
+      "type": "ROW_COMPAT",
+      "weight": 0.2688
+    },
+    {
+      "src": 29,
+      "dst": 34,
+      "type": "COL_COMPAT",
+      "weight": 0.6142
+    },
+    {
+      "src": 34,
+      "dst": 29,
+      "type": "COL_COMPAT",
+      "weight": 0.6142
+    },
+    {
+      "src": 29,
+      "dst": 35,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.7747
+    },
+    {
+      "src": 35,
+      "dst": 29,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.7747
+    },
+    {
+      "src": 29,
+      "dst": 36,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.5046
+    },
+    {
+      "src": 36,
+      "dst": 29,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.5046
+    },
+    {
+      "src": 29,
+      "dst": 39,
+      "type": "COL_COMPAT",
+      "weight": 0.1928
+    },
+    {
+      "src": 39,
+      "dst": 29,
+      "type": "COL_COMPAT",
+      "weight": 0.1928
+    },
+    {
+      "src": 29,
+      "dst": 40,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.165
+    },
+    {
+      "src": 40,
+      "dst": 29,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.165
+    },
+    {
+      "src": 29,
+      "dst": 44,
+      "type": "COL_COMPAT",
+      "weight": 0.2521
+    },
+    {
+      "src": 44,
+      "dst": 29,
+      "type": "COL_COMPAT",
+      "weight": 0.2521
+    },
+    {
+      "src": 30,
+      "dst": 31,
+      "type": "ROW_COMPAT",
+      "weight": 0.9098
+    },
+    {
+      "src": 31,
+      "dst": 30,
+      "type": "ROW_COMPAT",
+      "weight": 0.9098
+    },
+    {
+      "src": 30,
+      "dst": 32,
+      "type": "ROW_COMPAT",
+      "weight": 0.2688
+    },
+    {
+      "src": 32,
+      "dst": 30,
+      "type": "ROW_COMPAT",
+      "weight": 0.2688
+    },
+    {
+      "src": 30,
+      "dst": 33,
+      "type": "ROW_COMPAT",
+      "weight": 0.2688
+    },
+    {
+      "src": 33,
+      "dst": 30,
+      "type": "ROW_COMPAT",
+      "weight": 0.2688
+    },
+    {
+      "src": 30,
+      "dst": 34,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8061
+    },
+    {
+      "src": 34,
+      "dst": 30,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8061
+    },
+    {
+      "src": 30,
+      "dst": 35,
+      "type": "COL_COMPAT",
+      "weight": 0.6676
+    },
+    {
+      "src": 35,
+      "dst": 30,
+      "type": "COL_COMPAT",
+      "weight": 0.6676
+    },
+    {
+      "src": 30,
+      "dst": 39,
+      "type": "COL_COMPAT",
+      "weight": 0.1334
+    },
+    {
+      "src": 39,
+      "dst": 30,
+      "type": "COL_COMPAT",
+      "weight": 0.1334
+    },
+    {
+      "src": 30,
+      "dst": 40,
+      "type": "COL_COMPAT",
+      "weight": 0.5133
+    },
+    {
+      "src": 40,
+      "dst": 30,
+      "type": "COL_COMPAT",
+      "weight": 0.5133
+    },
+    {
+      "src": 30,
+      "dst": 44,
+      "type": "COL_COMPAT",
+      "weight": 0.0741
+    },
+    {
+      "src": 44,
+      "dst": 30,
+      "type": "COL_COMPAT",
+      "weight": 0.0741
+    },
+    {
+      "src": 30,
+      "dst": 45,
+      "type": "COL_COMPAT",
+      "weight": 0.2818
+    },
+    {
+      "src": 45,
+      "dst": 30,
+      "type": "COL_COMPAT",
+      "weight": 0.2818
+    },
+    {
+      "src": 31,
+      "dst": 32,
+      "type": "ROW_COMPAT",
+      "weight": 0.359
+    },
+    {
+      "src": 32,
+      "dst": 31,
+      "type": "ROW_COMPAT",
+      "weight": 0.359
+    },
+    {
+      "src": 31,
+      "dst": 33,
+      "type": "ROW_COMPAT",
+      "weight": 0.359
+    },
+    {
+      "src": 33,
+      "dst": 31,
+      "type": "ROW_COMPAT",
+      "weight": 0.359
+    },
+    {
+      "src": 31,
+      "dst": 34,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.6872
+    },
+    {
+      "src": 34,
+      "dst": 31,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.6872
+    },
+    {
+      "src": 31,
+      "dst": 36,
+      "type": "COL_COMPAT",
+      "weight": 0.5786
+    },
+    {
+      "src": 36,
+      "dst": 31,
+      "type": "COL_COMPAT",
+      "weight": 0.5786
+    },
+    {
+      "src": 31,
+      "dst": 39,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0587
+    },
+    {
+      "src": 39,
+      "dst": 31,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0587
+    },
+    {
+      "src": 31,
+      "dst": 41,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0939
+    },
+    {
+      "src": 41,
+      "dst": 31,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0939
+    },
+    {
+      "src": 32,
+      "dst": 33,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 33,
+      "dst": 32,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 32,
+      "dst": 34,
+      "type": "ROW_COMPAT",
+      "weight": 0.1121
+    },
+    {
+      "src": 34,
+      "dst": 32,
+      "type": "ROW_COMPAT",
+      "weight": 0.1121
+    },
+    {
+      "src": 32,
+      "dst": 35,
+      "type": "ROW_COMPAT",
+      "weight": 0.1121
+    },
+    {
+      "src": 35,
+      "dst": 32,
+      "type": "ROW_COMPAT",
+      "weight": 0.1121
+    },
+    {
+      "src": 32,
+      "dst": 37,
+      "type": "COL_COMPAT",
+      "weight": 0.8575
+    },
+    {
+      "src": 37,
+      "dst": 32,
+      "type": "COL_COMPAT",
+      "weight": 0.8575
+    },
+    {
+      "src": 32,
+      "dst": 38,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8711
+    },
+    {
+      "src": 38,
+      "dst": 32,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8711
+    },
+    {
+      "src": 32,
+      "dst": 42,
+      "type": "COL_COMPAT",
+      "weight": 0.911
+    },
+    {
+      "src": 42,
+      "dst": 32,
+      "type": "COL_COMPAT",
+      "weight": 0.911
+    },
+    {
+      "src": 32,
+      "dst": 43,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.3637
+    },
+    {
+      "src": 43,
+      "dst": 32,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.3637
+    },
+    {
+      "src": 33,
+      "dst": 34,
+      "type": "ROW_COMPAT",
+      "weight": 0.1121
+    },
+    {
+      "src": 34,
+      "dst": 33,
+      "type": "ROW_COMPAT",
+      "weight": 0.1121
+    },
+    {
+      "src": 33,
+      "dst": 35,
+      "type": "ROW_COMPAT",
+      "weight": 0.1121
+    },
+    {
+      "src": 35,
+      "dst": 33,
+      "type": "ROW_COMPAT",
+      "weight": 0.1121
+    },
+    {
+      "src": 33,
+      "dst": 37,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8773
+    },
+    {
+      "src": 37,
+      "dst": 33,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8773
+    },
+    {
+      "src": 33,
+      "dst": 38,
+      "type": "COL_COMPAT",
+      "weight": 0.8932
+    },
+    {
+      "src": 38,
+      "dst": 33,
+      "type": "COL_COMPAT",
+      "weight": 0.8932
+    },
+    {
+      "src": 33,
+      "dst": 42,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.3669
+    },
+    {
+      "src": 42,
+      "dst": 33,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.3669
+    },
+    {
+      "src": 33,
+      "dst": 43,
+      "type": "COL_COMPAT",
+      "weight": 0.8279
+    },
+    {
+      "src": 43,
+      "dst": 33,
+      "type": "COL_COMPAT",
+      "weight": 0.8279
+    },
+    {
+      "src": 34,
+      "dst": 35,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 35,
+      "dst": 34,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 34,
+      "dst": 36,
+      "type": "ROW_COMPAT",
+      "weight": 0.886
+    },
+    {
+      "src": 36,
+      "dst": 34,
+      "type": "ROW_COMPAT",
+      "weight": 0.886
+    },
+    {
+      "src": 34,
+      "dst": 37,
+      "type": "ROW_COMPAT",
+      "weight": 0.3922
+    },
+    {
+      "src": 37,
+      "dst": 34,
+      "type": "ROW_COMPAT",
+      "weight": 0.3922
+    },
+    {
+      "src": 34,
+      "dst": 38,
+      "type": "ROW_COMPAT",
+      "weight": 0.3922
+    },
+    {
+      "src": 38,
+      "dst": 34,
+      "type": "ROW_COMPAT",
+      "weight": 0.3922
+    },
+    {
+      "src": 34,
+      "dst": 39,
+      "type": "COL_COMPAT",
+      "weight": 0.5786
+    },
+    {
+      "src": 39,
+      "dst": 34,
+      "type": "COL_COMPAT",
+      "weight": 0.5786
+    },
+    {
+      "src": 34,
+      "dst": 40,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8423
+    },
+    {
+      "src": 40,
+      "dst": 34,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8423
+    },
+    {
+      "src": 34,
+      "dst": 44,
+      "type": "COL_COMPAT",
+      "weight": 0.6379
+    },
+    {
+      "src": 44,
+      "dst": 34,
+      "type": "COL_COMPAT",
+      "weight": 0.6379
+    },
+    {
+      "src": 34,
+      "dst": 45,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2493
+    },
+    {
+      "src": 45,
+      "dst": 34,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2493
+    },
+    {
+      "src": 35,
+      "dst": 36,
+      "type": "ROW_COMPAT",
+      "weight": 0.886
+    },
+    {
+      "src": 36,
+      "dst": 35,
+      "type": "ROW_COMPAT",
+      "weight": 0.886
+    },
+    {
+      "src": 35,
+      "dst": 37,
+      "type": "ROW_COMPAT",
+      "weight": 0.3922
+    },
+    {
+      "src": 37,
+      "dst": 35,
+      "type": "ROW_COMPAT",
+      "weight": 0.3922
+    },
+    {
+      "src": 35,
+      "dst": 38,
+      "type": "ROW_COMPAT",
+      "weight": 0.3922
+    },
+    {
+      "src": 38,
+      "dst": 35,
+      "type": "ROW_COMPAT",
+      "weight": 0.3922
+    },
+    {
+      "src": 35,
+      "dst": 39,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8496
+    },
+    {
+      "src": 39,
+      "dst": 35,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8496
+    },
+    {
+      "src": 35,
+      "dst": 40,
+      "type": "COL_COMPAT",
+      "weight": 0.8457
+    },
+    {
+      "src": 40,
+      "dst": 35,
+      "type": "COL_COMPAT",
+      "weight": 0.8457
+    },
+    {
+      "src": 35,
+      "dst": 44,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2601
+    },
+    {
+      "src": 44,
+      "dst": 35,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.2601
+    },
+    {
+      "src": 35,
+      "dst": 45,
+      "type": "COL_COMPAT",
+      "weight": 0.6142
+    },
+    {
+      "src": 45,
+      "dst": 35,
+      "type": "COL_COMPAT",
+      "weight": 0.6142
+    },
+    {
+      "src": 36,
+      "dst": 37,
+      "type": "ROW_COMPAT",
+      "weight": 0.5062
+    },
+    {
+      "src": 37,
+      "dst": 36,
+      "type": "ROW_COMPAT",
+      "weight": 0.5062
+    },
+    {
+      "src": 36,
+      "dst": 38,
+      "type": "ROW_COMPAT",
+      "weight": 0.5062
+    },
+    {
+      "src": 38,
+      "dst": 36,
+      "type": "ROW_COMPAT",
+      "weight": 0.5062
+    },
+    {
+      "src": 36,
+      "dst": 39,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.1919
+    },
+    {
+      "src": 39,
+      "dst": 36,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.1919
+    },
+    {
+      "src": 36,
+      "dst": 41,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.7784
+    },
+    {
+      "src": 41,
+      "dst": 36,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.7784
+    },
+    {
+      "src": 36,
+      "dst": 44,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0177
+    },
+    {
+      "src": 44,
+      "dst": 36,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.0177
+    },
+    {
+      "src": 36,
+      "dst": 46,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.1136
+    },
+    {
+      "src": 46,
+      "dst": 36,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.1136
+    },
+    {
+      "src": 37,
+      "dst": 38,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 38,
+      "dst": 37,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 37,
+      "dst": 39,
+      "type": "ROW_COMPAT",
+      "weight": 0.0788
+    },
+    {
+      "src": 39,
+      "dst": 37,
+      "type": "ROW_COMPAT",
+      "weight": 0.0788
+    },
+    {
+      "src": 37,
+      "dst": 40,
+      "type": "ROW_COMPAT",
+      "weight": 0.0788
+    },
+    {
+      "src": 40,
+      "dst": 37,
+      "type": "ROW_COMPAT",
+      "weight": 0.0788
+    },
+    {
+      "src": 37,
+      "dst": 42,
+      "type": "COL_COMPAT",
+      "weight": 0.7685
+    },
+    {
+      "src": 42,
+      "dst": 37,
+      "type": "COL_COMPAT",
+      "weight": 0.7685
+    },
+    {
+      "src": 37,
+      "dst": 43,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.9433
+    },
+    {
+      "src": 43,
+      "dst": 37,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.9433
+    },
+    {
+      "src": 38,
+      "dst": 39,
+      "type": "ROW_COMPAT",
+      "weight": 0.0788
+    },
+    {
+      "src": 39,
+      "dst": 38,
+      "type": "ROW_COMPAT",
+      "weight": 0.0788
+    },
+    {
+      "src": 38,
+      "dst": 40,
+      "type": "ROW_COMPAT",
+      "weight": 0.0788
+    },
+    {
+      "src": 40,
+      "dst": 38,
+      "type": "ROW_COMPAT",
+      "weight": 0.0788
+    },
+    {
+      "src": 38,
+      "dst": 42,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.9486
+    },
+    {
+      "src": 42,
+      "dst": 38,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.9486
+    },
+    {
+      "src": 38,
+      "dst": 43,
+      "type": "COL_COMPAT",
+      "weight": 0.9347
+    },
+    {
+      "src": 43,
+      "dst": 38,
+      "type": "COL_COMPAT",
+      "weight": 0.9347
+    },
+    {
+      "src": 39,
+      "dst": 40,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 40,
+      "dst": 39,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 39,
+      "dst": 41,
+      "type": "ROW_COMPAT",
+      "weight": 0.8101
+    },
+    {
+      "src": 41,
+      "dst": 39,
+      "type": "ROW_COMPAT",
+      "weight": 0.8101
+    },
+    {
+      "src": 39,
+      "dst": 42,
+      "type": "ROW_COMPAT",
+      "weight": 0.6534
+    },
+    {
+      "src": 42,
+      "dst": 39,
+      "type": "ROW_COMPAT",
+      "weight": 0.6534
+    },
+    {
+      "src": 39,
+      "dst": 43,
+      "type": "ROW_COMPAT",
+      "weight": 0.6534
+    },
+    {
+      "src": 43,
+      "dst": 39,
+      "type": "ROW_COMPAT",
+      "weight": 0.6534
+    },
+    {
+      "src": 39,
+      "dst": 44,
+      "type": "COL_COMPAT",
+      "weight": 0.9406
+    },
+    {
+      "src": 44,
+      "dst": 39,
+      "type": "COL_COMPAT",
+      "weight": 0.9406
+    },
+    {
+      "src": 39,
+      "dst": 45,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8794
+    },
+    {
+      "src": 45,
+      "dst": 39,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.8794
+    },
+    {
+      "src": 40,
+      "dst": 41,
+      "type": "ROW_COMPAT",
+      "weight": 0.8101
+    },
+    {
+      "src": 41,
+      "dst": 40,
+      "type": "ROW_COMPAT",
+      "weight": 0.8101
+    },
+    {
+      "src": 40,
+      "dst": 42,
+      "type": "ROW_COMPAT",
+      "weight": 0.6534
+    },
+    {
+      "src": 42,
+      "dst": 40,
+      "type": "ROW_COMPAT",
+      "weight": 0.6534
+    },
+    {
+      "src": 40,
+      "dst": 43,
+      "type": "ROW_COMPAT",
+      "weight": 0.6534
+    },
+    {
+      "src": 43,
+      "dst": 40,
+      "type": "ROW_COMPAT",
+      "weight": 0.6534
+    },
+    {
+      "src": 40,
+      "dst": 44,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.909
+    },
+    {
+      "src": 44,
+      "dst": 40,
+      "type": "DIRECTIONAL_ADJ",
+      "weight": 0.909
+    },
+    {
+      "src": 40,
+      "dst": 45,
+      "type": "COL_COMPAT",
+      "weight": 0.7685
+    },
+    {
+      "src": 45,
+      "dst": 40,
+      "type": "COL_COMPAT",
+      "weight": 0.7685
+    },
+    {
+      "src": 41,
+      "dst": 42,
+      "type": "ROW_COMPAT",
+      "weight": 0.8433
+    },
+    {
+      "src": 42,
+      "dst": 41,
+      "type": "ROW_COMPAT",
+      "weight": 0.8433
+    },
+    {
+      "src": 41,
+      "dst": 43,
+      "type": "ROW_COMPAT",
+      "weight": 0.8433
+    },
+    {
+      "src": 43,
+      "dst": 41,
+      "type": "ROW_COMPAT",
+      "weight": 0.8433
+    },
+    {
+      "src": 41,
+      "dst": 46,
+      "type": "COL_COMPAT",
+      "weight": 0.5726
+    },
+    {
+      "src": 46,
+      "dst": 41,
+      "type": "COL_COMPAT",
+      "weight": 0.5726
+    },
+    {
+      "src": 42,
+      "dst": 43,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 43,
+      "dst": 42,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 44,
+      "dst": 45,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 45,
+      "dst": 44,
+      "type": "ROW_COMPAT",
+      "weight": 1.0
+    },
+    {
+      "src": 44,
+      "dst": 46,
+      "type": "ROW_COMPAT",
+      "weight": 0.6201
+    },
+    {
+      "src": 46,
+      "dst": 44,
+      "type": "ROW_COMPAT",
+      "weight": 0.6201
+    },
+    {
+      "src": 45,
+      "dst": 46,
+      "type": "ROW_COMPAT",
+      "weight": 0.6201
+    },
+    {
+      "src": 46,
+      "dst": 45,
+      "type": "ROW_COMPAT",
+      "weight": 0.6201
+    }
+  ],
+  "_scale": 4.21
+}

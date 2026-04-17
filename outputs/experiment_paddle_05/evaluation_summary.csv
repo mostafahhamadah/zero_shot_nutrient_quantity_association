@@ -1,0 +1,2 @@
+experiment,timestamp,notes,evaluator,schema,images_evaluated,gt_tuples,predicted_tuples,matched_pairs,nutrient_precision,nutrient_recall,nutrient_f1,quantity_acc,unit_acc,context_acc,full_tuple_correct,full_tuple_precision,full_tuple_recall,full_tuple_f1,llm_calls,fast_hits,eval_time_s
+experiment_paddle_05,2026-04-02T06:08:53.833381,Fix evaluator: strip_serving greedy + nutrient ratio + prompt rules,LLM-Assisted (phi4-mini),nutrient|quantity|unit|context,57,866,564,486,0.8617,0.5612,0.6797,0.393,0.7963,0.5947,29,0.0514,0.0335,0.0406,334,26,606.5

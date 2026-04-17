@@ -1,0 +1,37 @@
+{
+    "image_id": "35.jpeg",
+    "nutrients": [
+        {
+            "nutrient": "Magnesium",
+            "quantity": "4.7",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Vitamin C",
+            "quantity": "2.1",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Magnesium",
+            "quantity": "225",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "60",
+            "serving_size": "pro 3 Tabletten"
+        },
+        {
+            "nutrient": "Vitamin C",
+            "quantity": "100.8",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "126",
+            "serving_size": "pro 3 Tabletten"
+        }
+    ]
+}

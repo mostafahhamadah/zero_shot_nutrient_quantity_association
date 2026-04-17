@@ -1,0 +1,59 @@
+=================================================================
+  IMAGE: 17.jpeg
+  OCR tokens (after corrector): 19
+  Serialized tokens:            19
+  Visual lines detected:        7
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Product information
+  Line 02 │ Typical vslues per piece %NRV
+  Line 03 │ Caffeine 100 mg
+  Line 04 │ Vitamin B3 2.4 mg NE 15
+  Line 05 │ Vitamin86 0.22 mg 15
+  Line 06 │ Vitamin B12 0.38 ug 15
+  Line 07 │ Suitable for vegetarians and vegans.
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  10.0px  [1 tokens]
+    → Product information
+  Line 02  y=  26.0px  [2 tokens]
+    → Typical vslues per piece | %NRV
+  Line 03  y=  44.5px  [3 tokens]
+    → Caffeine | 100 | mg
+  Line 04  y=  62.5px  [4 tokens]
+    → Vitamin B3 | 2.4 | mg NE | 15
+  Line 05  y=  80.2px  [4 tokens]
+    → Vitamin86 | 0.22 | mg | 15
+  Line 06  y=  97.6px  [4 tokens]
+    → Vitamin B12 | 0.38 | ug | 15
+  Line 07  y= 115.5px  [1 tokens]
+    → Suitable for vegetarians and vegans.
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      19  Product information
+     1     1      20      44  Typical vslues per piece
+     2     1      45      49  %NRV
+     3     2      50      58  Caffeine
+     4     2      59      62  100
+     5     2      63      65  mg
+     6     3      66      76  Vitamin B3
+     7     3      77      80  2.4
+     8     3      81      86  mg NE
+     9     3      87      89  15
+    10     4      90      99  Vitamin86
+    12     4     100     104  0.22
+    13     4     105     107  mg
+    11     4     108     110  15
+    17     5     111     122  Vitamin B12
+    14     5     123     127  0.38
+    15     5     128     130  ug
+    16     5     131     133  15
+    18     6     134     170  Suitable for vegetarians and vegans.
+
+=================================================================

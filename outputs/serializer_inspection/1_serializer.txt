@@ -1,0 +1,56 @@
+=================================================================
+  IMAGE: 1.jpeg
+  OCR tokens (after corrector): 16
+  Serialized tokens:            16
+  Visual lines detected:        7
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Nahrstoffe** Je Tagesdosis
+  Line 02 │ Magnesium (gesamt) 400 mg
+  Line 03 │ Zutaten je Tagesdosis**
+  Line 04 │ 420 mg
+  Line 05 │ magnesiumoxid 400 mg
+  Line 06 │ 350 mg
+  Line 07 │ magnesiummalat 333 mg
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  81.8px  [2 tokens]
+    → Nahrstoffe** | Je Tagesdosis
+  Line 02  y= 113.8px  [3 tokens]
+    → Magnesium (gesamt) | 400 | mg
+  Line 03  y= 149.0px  [1 tokens]
+    → Zutaten je Tagesdosis**
+  Line 04  y= 175.5px  [2 tokens]
+    → 420 | mg
+  Line 05  y= 191.7px  [3 tokens]
+    → magnesiumoxid | 400 | mg
+  Line 06  y= 206.5px  [2 tokens]
+    → 350 | mg
+  Line 07  y= 223.5px  [3 tokens]
+    → magnesiummalat | 333 | mg
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      12  Nahrstoffe**
+     1     0      13      26  Je Tagesdosis
+     4     1      27      45  Magnesium (gesamt)
+     2     1      46      49  400
+     3     1      50      52  mg
+     5     2      53      76  Zutaten je Tagesdosis**
+     6     3      77      80  420
+     7     3      81      83  mg
+    10     4      84      97  magnesiumoxid
+     8     4      98     101  400
+     9     4     102     104  mg
+    11     5     105     108  350
+    12     5     109     111  mg
+    15     6     112     126  magnesiummalat
+    13     6     127     130  333
+    14     6     131     133  mg
+
+=================================================================

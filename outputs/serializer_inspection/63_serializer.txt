@@ -1,0 +1,96 @@
+=================================================================
+  IMAGE: 63.jpeg
+  OCR tokens (after corrector): 38
+  Serialized tokens:            38
+  Visual lines detected:        13
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Nutritional information/Nahrwert/Vaiord nutriionaf Per serving/Portion/porzione per/pro/par
+  Line 02 │ por/na100g
+  Line 03 │ 427k1/102kca 424/341ka
+  Line 04 │ Fat/Fett/Grassi/Gralsse/Grasas/Maltobe og 00
+  Line 05 │ 0 g og
+  Line 06 │ 2510 1440
+  Line 07 │ 146 g 48.7 g
+  Line 08 │ Protein/Elwei/Protelne/Proteines/Proteina/Belakovine 02 g 0.60
+  Line 09 │ Salt/Salz/Sale/Sel/Sal/So 75 m00 astg 173 g
+  Line 10 │ Magnestum/Magneslum /Magnesio/Msgneslum / Mgreslo/Magnes 100 mg(5% 250 mg
+  Line 11 │ Calctum/Katzhum/ Calde/Calcum/Calo /Kalc Potassun/Kathm/Potasste/Potassham/Potasie/Kat s0mg 335 mg
+  Line 12 │ W67mg
+  Line 13 │ Daym/neno
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  20.3px  [3 tokens]
+    → Nutritional information/Nahrwert/Vaiord nutriionaf | Per serving/Portion/porzione | per/pro/par
+  Line 02  y=  30.0px  [1 tokens]
+    → por/na100g
+  Line 03  y=  60.0px  [2 tokens]
+    → 427k1/102kca | 424/341ka
+  Line 04  y=  86.2px  [3 tokens]
+    → Fat/Fett/Grassi/Gralsse/Grasas/Maltobe | og | 00
+  Line 05  y= 102.3px  [3 tokens]
+    → 0 | g | og
+  Line 06  y= 113.5px  [2 tokens]
+    → 2510 | 1440
+  Line 07  y= 124.8px  [4 tokens]
+    → 146 | g | 48.7 | g
+  Line 08  y= 136.0px  [4 tokens]
+    → Protein/Elwei/Protelne/Proteines/Proteina/Belakovine | 02 | g | 0.60
+  Line 09  y= 150.6px  [5 tokens]
+    → Salt/Salz/Sale/Sel/Sal/So | 75 m00 | astg | 173 | g
+  Line 10  y= 162.9px  [4 tokens]
+    → Magnestum/Magneslum /Magnesio/Msgneslum / Mgreslo/Magnes | 100 mg(5% | 250 | mg
+  Line 11  y= 175.7px  [5 tokens]
+    → Calctum/Katzhum/ Calde/Calcum/Calo /Kalc | Potassun/Kathm/Potasste/Potassham/Potasie/Kat | s0mg | 335 | mg
+  Line 12  y= 185.5px  [1 tokens]
+    → W67mg
+  Line 13  y= 196.0px  [1 tokens]
+    → Daym/neno
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0      50  Nutritional information/Nahrwert/Vaiord nutriionaf
+     2     0      51      79  Per serving/Portion/porzione
+     0     0      80      91  per/pro/par
+     3     1      92     102  por/na100g
+     5     2     103     115  427k1/102kca
+     4     2     116     125  424/341ka
+     6     3     126     164  Fat/Fett/Grassi/Gralsse/Grasas/Maltobe
+     8     3     165     167  og
+     7     3     168     170  00
+    10     4     171     172  0
+    11     4     173     174  g
+     9     4     175     177  og
+    13     5     178     182  2510
+    12     5     183     187  1440
+    16     6     188     191  146
+    17     6     192     193  g
+    14     6     194     198  48.7
+    15     6     199     200  g
+    20     7     201     253  Protein/Elwei/Protelne/Proteines/Proteina/Belakovine
+    18     7     254     256  02
+    19     7     257     258  g
+    21     7     259     263  0.60
+    23     8     264     289  Salt/Salz/Sale/Sel/Sal/So
+    26     8     290     296  75 m00
+    22     8     297     301  astg
+    24     8     302     305  173
+    25     8     306     307  g
+    29     9     308     364  Magnestum/Magneslum /Magnesio/Msgneslum / Mgreslo/Magnes
+    30     9     365     374  100 mg(5%
+    27     9     375     378  250
+    28     9     379     381  mg
+    35    10     382     422  Calctum/Katzhum/ Calde/Calcum/Calo /Kalc
+    31    10     423     468  Potassun/Kathm/Potasste/Potassham/Potasie/Kat
+    34    10     469     473  s0mg
+    32    10     474     477  335
+    33    10     478     480  mg
+    36    11     481     486  W67mg
+    37    12     487     496  Daym/neno
+
+=================================================================

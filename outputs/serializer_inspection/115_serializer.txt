@@ -1,0 +1,93 @@
+=================================================================
+  IMAGE: 115.jpeg
+  OCR tokens (after corrector): 29
+  Serialized tokens:            29
+  Visual lines detected:        15
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Durchschnittliche Nahrwerte
+  Line 02 │ je 100g
+  Line 03 │ 438kJ/103kcal
+  Line 04 │ Brennwert 0 g
+  Line 05 │ Fett
+  Line 06 │ davon gesattigte 0.2 g
+  Line 07 │ Fettsauren 12.0 g
+  Line 08 │ Kohlenhydrate 10.0 g
+  Line 09 │ -davon Zucker 1.6 g
+  Line 10 │ Ballaststoffe 11.0 g
+  Line 11 │ Eiweiss 0.05 g
+  Line 12 │ Salz
+  Line 13 │ ALDI
+  Line 14 │ ALDI
+  Line 15 │ ne
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y= 161.0px  [1 tokens]
+    → Durchschnittliche Nahrwerte
+  Line 02  y= 213.0px  [1 tokens]
+    → je 100g
+  Line 03  y= 265.5px  [1 tokens]
+    → 438kJ/103kcal
+  Line 04  y= 302.8px  [3 tokens]
+    → Brennwert | 0 | g
+  Line 05  y= 345.5px  [1 tokens]
+    → Fett
+  Line 06  y= 388.2px  [3 tokens]
+    → davon gesattigte | 0.2 | g
+  Line 07  y= 434.3px  [3 tokens]
+    → Fettsauren | 12.0 | g
+  Line 08  y= 477.3px  [3 tokens]
+    → Kohlenhydrate | 10.0 | g
+  Line 09  y= 521.3px  [3 tokens]
+    → -davon Zucker | 1.6 | g
+  Line 10  y= 568.2px  [3 tokens]
+    → Ballaststoffe | 11.0 | g
+  Line 11  y= 616.0px  [3 tokens]
+    → Eiweiss | 0.05 | g
+  Line 12  y= 667.5px  [1 tokens]
+    → Salz
+  Line 13  y= 857.5px  [1 tokens]
+    → ALDI
+  Line 14  y= 895.5px  [1 tokens]
+    → ALDI
+  Line 15  y= 944.0px  [1 tokens]
+    → ne
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      27  Durchschnittliche Nahrwerte
+     1     1      28      35  je 100g
+     2     2      36      49  438kJ/103kcal
+     3     3      50      59  Brennwert
+     4     3      60      61  0
+     5     3      62      63  g
+     6     4      64      68  Fett
+     7     5      69      85  davon gesattigte
+     8     5      86      89  0.2
+     9     5      90      91  g
+    10     6      92     102  Fettsauren
+    11     6     103     107  12.0
+    12     6     108     109  g
+    13     7     110     123  Kohlenhydrate
+    14     7     124     128  10.0
+    15     7     129     130  g
+    16     8     131     144  -davon Zucker
+    17     8     145     148  1.6
+    18     8     149     150  g
+    19     9     151     164  Ballaststoffe
+    20     9     165     169  11.0
+    21     9     170     171  g
+    24    10     172     179  Eiweiss
+    22    10     180     184  0.05
+    23    10     185     186  g
+    25    11     187     191  Salz
+    26    12     192     196  ALDI
+    27    13     197     201  ALDI
+    28    14     202     204  ne
+
+=================================================================

@@ -1,0 +1,78 @@
+=================================================================
+  IMAGE: 45_1.jpeg
+  OCR tokens (after corrector): 26
+  Serialized tokens:            26
+  Visual lines detected:        11
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ AUS NUTRITIONALINFORMATION
+  Line 02 │ 1 SERV.47g MAKES 500ml
+  Line 03 │ FCALVALUES PERSERVE47g 100g
+  Line 04 │ ERGY KJKCAL 736/176 1567/374
+  Line 05 │ PROTEIN (g) 0.1
+  Line 06 │ FAT(g) 0
+  Line 07 │ saturated 0
+  Line 08 │ carbohydrate 44 64
+  Line 09 │ SUGARS(0) 8 38
+  Line 10 │ dietary fibre 0 0
+  Line 11 │ SODILM (mg) 240 500
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  20.0px  [2 tokens]
+    → AUS | NUTRITIONALINFORMATION
+  Line 02  y=  35.0px  [1 tokens]
+    → 1 SERV.47g MAKES 500ml
+  Line 03  y=  59.5px  [2 tokens]
+    → FCALVALUES PERSERVE47g | 100g
+  Line 04  y=  83.2px  [3 tokens]
+    → ERGY KJKCAL | 736/176 | 1567/374
+  Line 05  y= 102.8px  [2 tokens]
+    → PROTEIN (g) | 0.1
+  Line 06  y= 122.0px  [2 tokens]
+    → FAT(g) | 0
+  Line 07  y= 141.2px  [2 tokens]
+    → saturated | 0
+  Line 08  y= 158.8px  [3 tokens]
+    → carbohydrate | 44 | 64
+  Line 09  y= 179.0px  [3 tokens]
+    → SUGARS(0) | 8 | 38
+  Line 10  y= 196.7px  [3 tokens]
+    → dietary fibre | 0 | 0
+  Line 11  y= 215.7px  [3 tokens]
+    → SODILM (mg) | 240 | 500
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0       3  AUS
+     0     0       4      26  NUTRITIONALINFORMATION
+     2     1      27      49  1 SERV.47g MAKES 500ml
+     3     2      50      72  FCALVALUES PERSERVE47g
+     4     2      73      77  100g
+     7     3      78      89  ERGY KJKCAL
+     6     3      90      97  736/176
+     5     3      98     106  1567/374
+     9     4     107     118  PROTEIN (g)
+     8     4     119     122  0.1
+    11     5     123     129  FAT(g)
+    10     5     130     131  0
+    13     6     132     141  saturated
+    12     6     142     143  0
+    16     7     144     156  carbohydrate
+    15     7     157     159  44
+    14     7     160     162  64
+    19     8     163     172  SUGARS(0)
+    18     8     173     174  8
+    17     8     175     177  38
+    22     9     178     191  dietary fibre
+    21     9     192     193  0
+    20     9     194     195  0
+    25    10     196     207  SODILM (mg)
+    24    10     208     211  240
+    23    10     212     215  500
+
+=================================================================

@@ -1,0 +1,69 @@
+{
+    "image_id": "64.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Vitamin(e) C",
+            "quantity": "50",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "63",
+            "serving_size": "1 Ampulle/flask + 2 Caps."
+        },
+        {
+            "nutrient": "Vitamin(e) B2",
+            "quantity": "0.6",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "43",
+            "serving_size": "1 Ampulle/flask + 2 Caps."
+        },
+        {
+            "nutrient": "Niacin(e)",
+            "quantity": "7.0",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "44",
+            "serving_size": "1 Ampulle/flask + 2 Caps."
+        },
+        {
+            "nutrient": "Vitamin(e) B6",
+            "quantity": "0.6",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "43",
+            "serving_size": "1 Ampulle/flask + 2 Caps."
+        },
+        {
+            "nutrient": "Folsäure/folic acid",
+            "quantity": "80",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "40",
+            "serving_size": "1 Ampulle/flask + 2 Caps."
+        },
+        {
+            "nutrient": "Vitamin(e) B12",
+            "quantity": "2.0",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "80",
+            "serving_size": "1 Ampulle/flask + 2 Caps."
+        },
+        {
+            "nutrient": "Pantothensäure/pantothenic acid",
+            "quantity": "2.5",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "42",
+            "serving_size": "1 Ampulle/flask + 2 Caps."
+        },
+        {
+            "nutrient": "Zink/zinc",
+            "quantity": "3.0",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "30",
+            "serving_size": "1 Ampulle/flask + 2 Caps."
+        }
+    ]
+}

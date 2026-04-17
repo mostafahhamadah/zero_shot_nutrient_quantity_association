@@ -1,0 +1,64 @@
+=================================================================
+  IMAGE: 41.jpeg
+  OCR tokens (after corrector): 15
+  Serialized tokens:            15
+  Visual lines detected:        10
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ UK PR.100g
+  Line 02 │ NUTRITION INEO
+  Line 03 │ ENERGY 612/144KANCAL
+  Line 04 │ FAT 01
+  Line 05 │ OFWHICH
+  Line 06 │ SATURATES
+  Line 07 │ CARBOHYDRATE
+  Line 08 │ OFWHICH SUGARS
+  Line 09 │ PROTEIN 41
+  Line 10 │ SALT 4101
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  13.0px  [2 tokens]
+    → UK | PR.100g
+  Line 02  y=  24.5px  [1 tokens]
+    → NUTRITION INEO
+  Line 03  y=  36.0px  [2 tokens]
+    → ENERGY | 612/144KANCAL
+  Line 04  y=  49.5px  [2 tokens]
+    → FAT | 01
+  Line 05  y=  58.0px  [1 tokens]
+    → OFWHICH
+  Line 06  y=  69.0px  [1 tokens]
+    → SATURATES
+  Line 07  y=  81.0px  [1 tokens]
+    → CARBOHYDRATE
+  Line 08  y=  92.0px  [1 tokens]
+    → OFWHICH SUGARS
+  Line 09  y= 103.2px  [2 tokens]
+    → PROTEIN | 41
+  Line 10  y= 114.8px  [2 tokens]
+    → SALT | 4101
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0       2  UK
+     1     0       3      10  PR.100g
+     2     1      11      25  NUTRITION INEO
+     4     2      26      32  ENERGY
+     3     2      33      46  612/144KANCAL
+     5     3      47      50  FAT
+     6     3      51      53  01
+     7     4      54      61  OFWHICH
+     8     5      62      71  SATURATES
+     9     6      72      84  CARBOHYDRATE
+    10     7      85      99  OFWHICH SUGARS
+    12     8     100     107  PROTEIN
+    11     8     108     110  41
+    14     9     111     115  SALT
+    13     9     116     120  4101
+
+=================================================================

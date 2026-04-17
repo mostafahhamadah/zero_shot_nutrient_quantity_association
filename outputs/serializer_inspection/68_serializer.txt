@@ -1,0 +1,136 @@
+=================================================================
+  IMAGE: 68.jpeg
+  OCR tokens (after corrector): 45
+  Serialized tokens:            45
+  Visual lines detected:        24
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ madda nutricional:/Informacao nutricional:/Dichiarazione nutrizionale:/Naringsinneh
+  Line 02 │ dd 100g 24gA
+  Line 03 │ alputiot
+  Line 04 │ Enegy/Eneg(ela)/Valor energetico k (kcal) 1578 (37) 59 0
+  Line 05 │ Fa/fe/Maeresgrases/Vetten/Grasas/Upidos/Grassi 0.69
+  Line 06 │ wnan verzadde vetzuren/de las cuales saturadas/dos quais acidos gordos
+  Line 07 │ ssturados/d cul acidigrassisaturi/varav mattat fett 05 g
+  Line 08 │ Cartoidras /Kohydrat 529
+  Line 09 │ 219 454
+  Line 10 │ Prter(e/Ehws8/Proteines/Eiwtten/Proteinas 64 g 2
+  Line 11 │ /S/2//25/ 0.49
+  Line 12 │ 100g
+  Line 13 │ AAl-tice/1-Van/L-valna 579
+  Line 14 │ AAesdre/1-Leucin/L-leucina 979 29
+  Line 15 │ 51
+  Line 16 │ Aure/t-lsoleucin/Lisoleudna 679
+  Line 17 │ Bre/1-lsn/L-isina 8.69
+  Line 18 │ SA
+  Line 19 │ e/Lsidn/t-hstidna/L-istidina 159
+  Line 20 │ 2.09 Sry
+  Line 21 │ 259 151
+  Line 22 │ 620
+  Line 23 │ 169
+  Line 24 │ A
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  38.5px  [1 tokens]
+    → madda nutricional:/Informacao nutricional:/Dichiarazione nutrizionale:/Naringsinneh
+  Line 02  y=  58.3px  [3 tokens]
+    → dd | 100g | 24gA
+  Line 03  y=  79.0px  [1 tokens]
+    → alputiot
+  Line 04  y=  96.7px  [3 tokens]
+    → Enegy/Eneg(ela)/Valor energetico k (kcal) | 1578 (37) | 59 0
+  Line 05  y= 118.2px  [2 tokens]
+    → Fa/fe/Maeresgrases/Vetten/Grasas/Upidos/Grassi | 0.69
+  Line 06  y= 149.0px  [1 tokens]
+    → wnan verzadde vetzuren/de las cuales saturadas/dos quais acidos gordos
+  Line 07  y= 166.7px  [3 tokens]
+    → ssturados/d cul acidigrassisaturi/varav mattat fett | 05 | g
+  Line 08  y= 191.5px  [2 tokens]
+    → Cartoidras /Kohydrat | 529
+  Line 09  y= 232.0px  [2 tokens]
+    → 219 | 454
+  Line 10  y= 253.2px  [4 tokens]
+    → Prter(e/Ehws8/Proteines/Eiwtten/Proteinas | 64 | g | 2
+  Line 11  y= 273.8px  [2 tokens]
+    → /S/2//25/ | 0.49
+  Line 12  y= 349.5px  [1 tokens]
+    → 100g
+  Line 13  y= 366.0px  [2 tokens]
+    → AAl-tice/1-Van/L-valna | 579
+  Line 14  y= 383.2px  [3 tokens]
+    → AAesdre/1-Leucin/L-leucina | 979 | 29
+  Line 15  y= 396.0px  [1 tokens]
+    → 51
+  Line 16  y= 406.5px  [2 tokens]
+    → Aure/t-lsoleucin/Lisoleudna | 679
+  Line 17  y= 422.8px  [2 tokens]
+    → Bre/1-lsn/L-isina | 8.69
+  Line 18  y= 435.5px  [1 tokens]
+    → SA
+  Line 19  y= 446.2px  [2 tokens]
+    → e/Lsidn/t-hstidna/L-istidina | 159
+  Line 20  y= 468.0px  [2 tokens]
+    → 2.09 | Sry
+  Line 21  y= 486.0px  [2 tokens]
+    → 259 | 151
+  Line 22  y= 502.0px  [1 tokens]
+    → 620
+  Line 23  y= 521.0px  [1 tokens]
+    → 169
+  Line 24  y= 566.5px  [1 tokens]
+    → A
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      83  madda nutricional:/Informacao nutricional:/Dichiarazione nutrizionale:/Naringsinneh
+     1     1      84      86  dd
+     2     1      87      91  100g
+     3     1      92      96  24gA
+     4     2      97     105  alputiot
+     5     3     106     147  Enegy/Eneg(ela)/Valor energetico k (kcal)
+     6     3     148     157  1578 (37)
+     7     3     158     162  59 0
+     8     4     163     209  Fa/fe/Maeresgrases/Vetten/Grasas/Upidos/Grassi
+     9     4     210     214  0.69
+    10     5     215     285  wnan verzadde vetzuren/de las cuales saturadas/dos quais acidos gordos
+    11     6     286     337  ssturados/d cul acidigrassisaturi/varav mattat fett
+    12     6     338     340  05
+    13     6     341     342  g
+    15     7     343     363  Cartoidras /Kohydrat
+    14     7     364     367  529
+    17     8     368     371  219
+    16     8     372     375  454
+    19     9     376     417  Prter(e/Ehws8/Proteines/Eiwtten/Proteinas
+    20     9     418     420  64
+    21     9     421     422  g
+    18     9     423     424  2
+    22    10     425     434  /S/2//25/
+    23    10     435     439  0.49
+    24    11     440     444  100g
+    25    12     445     467  AAl-tice/1-Van/L-valna
+    26    12     468     471  579
+    28    13     472     498  AAesdre/1-Leucin/L-leucina
+    29    13     499     502  979
+    27    13     503     505  29
+    30    14     506     508  51
+    31    15     509     536  Aure/t-lsoleucin/Lisoleudna
+    32    15     537     540  679
+    33    16     541     558  Bre/1-lsn/L-isina
+    34    16     559     563  8.69
+    35    17     564     566  SA
+    37    18     567     595  e/Lsidn/t-hstidna/L-istidina
+    36    18     596     599  159
+    38    19     600     604  2.09
+    39    19     605     608  Sry
+    40    20     609     612  259
+    41    20     613     616  151
+    42    21     617     620  620
+    43    22     621     624  169
+    44    23     625     626  A
+
+=================================================================

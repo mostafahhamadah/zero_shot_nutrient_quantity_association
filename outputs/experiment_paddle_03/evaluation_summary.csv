@@ -1,0 +1,2 @@
+experiment,timestamp,notes,evaluator,schema,images_evaluated,gt_tuples,predicted_tuples,matched_pairs,nutrient_precision,nutrient_recall,nutrient_f1,quantity_acc,unit_acc,context_acc,full_tuple_correct,full_tuple_precision,full_tuple_recall,full_tuple_f1,llm_calls,fast_hits,eval_time_s
+experiment_paddle_03,2026-04-02T05:26:10.635485,Fix Bug2 ug merge + Bug6 qty cap,LLM-Assisted (phi4-mini),nutrient|quantity|unit|context,57,866,564,486,0.8617,0.5612,0.6797,0.2819,0.7819,0.5288,23,0.0408,0.0266,0.0322,306,22,529.6

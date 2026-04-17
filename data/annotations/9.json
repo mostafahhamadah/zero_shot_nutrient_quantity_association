@@ -1,0 +1,37 @@
+{
+    "image_id": "9.jpeg",
+    "nutrients": [
+        {
+            "nutrient": "Zink",
+            "quantity": "5",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "50",
+            "serving_size": "pro 1 Tablette"
+        },
+        {
+            "nutrient": "Vitamin C",
+            "quantity": "30",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "38",
+            "serving_size": "pro 1 Tablette"
+        },
+        {
+            "nutrient": "Zink",
+            "quantity": "10",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "100",
+            "serving_size": "pro 2 Tabletten"
+        },
+        {
+            "nutrient": "Vitamin C",
+            "quantity": "60",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "75",
+            "serving_size": "pro 2 Tabletten"
+        }
+    ]
+}

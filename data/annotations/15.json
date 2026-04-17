@@ -1,0 +1,341 @@
+{
+    "image_id": "15.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Energie",
+            "quantity": "161",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energie",
+            "quantity": "38",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Fett/Fat",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "davon gesättigte Fettsäuren/of which saturates",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Kohlenhydrate/Carbohydrate",
+            "quantity": "13.1",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "davon Zucker/of which sugars",
+            "quantity": "0.5",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Eiweiss/Protein",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Salz/Salt",
+            "quantity": "15.0",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Natrium/Sodium",
+            "quantity": "5.952",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Kalium/Potassium",
+            "quantity": "3571",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Chlorid(e)",
+            "quantity": "4762",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Magnesium",
+            "quantity": "670",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Calcium",
+            "quantity": "1428",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Koffein/Caffeine",
+            "quantity": "1785",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energie",
+            "quantity": "6.8",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "4.2 g"
+        },
+        {
+            "nutrient": "Energie",
+            "quantity": "1.6",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "4.2 g"
+        },
+        {
+            "nutrient": "Fett/Fat",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "4.2 g"
+        },
+        {
+            "nutrient": "davon gesättigte Fettsäuren/of which saturates",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "4.2 g"
+        },
+        {
+            "nutrient": "Kohlenhydrate/Carbohydrate",
+            "quantity": "0.6",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "4.2 g"
+        },
+        {
+            "nutrient": "davon Zucker/of which sugars",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "4.2 g"
+        },
+        {
+            "nutrient": "Eiweiss/Protein",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "4.2 g"
+        },
+        {
+            "nutrient": "Salz/Salt",
+            "quantity": "0.63",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "4.2 g"
+        },
+        {
+            "nutrient": "Natrium/Sodium",
+            "quantity": "250",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "4.2 g"
+        },
+        {
+            "nutrient": "Kalium/Potassium",
+            "quantity": "150",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "7.5",
+            "serving_size": "4.2 g"
+        },
+        {
+            "nutrient": "Chlorid(e)",
+            "quantity": "200",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "25",
+            "serving_size": "4.2 g"
+        },
+        {
+            "nutrient": "Magnesium",
+            "quantity": "28.1",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "7.5",
+            "serving_size": "4.2 g"
+        },
+        {
+            "nutrient": "Calcium",
+            "quantity": "60",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "7.5",
+            "serving_size": "4.2 g"
+        },
+        {
+            "nutrient": "Koffein/Caffeine",
+            "quantity": "75.0",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "4.2 g"
+        },
+        {
+            "nutrient": "Energie",
+            "quantity": "13.6",
+            "unit": "kJ",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 x 4.2 g"
+        },
+        {
+            "nutrient": "Energie",
+            "quantity": "3.2",
+            "unit": "kcal",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 x 4.2 g"
+        },
+        {
+            "nutrient": "Fett/Fat",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 x 4.2 g"
+        },
+        {
+            "nutrient": "davon gesättigte Fettsäuren/of which saturates",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 x 4.2 g"
+        },
+        {
+            "nutrient": "Kohlenhydrate/Carbohydrate",
+            "quantity": "1.1",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 x 4.2 g"
+        },
+        {
+            "nutrient": "davon Zucker/of which sugars",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 x 4.2 g"
+        },
+        {
+            "nutrient": "Eiweiss/Protein",
+            "quantity": "0",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 x 4.2 g"
+        },
+        {
+            "nutrient": "Salz/Salt",
+            "quantity": "1.26",
+            "unit": "g",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 x 4.2 g"
+        },
+        {
+            "nutrient": "Natrium/Sodium",
+            "quantity": "500",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 x 4.2 g"
+        },
+        {
+            "nutrient": "Kalium/Potassium",
+            "quantity": "300",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "15",
+            "serving_size": "2 x 4.2 g"
+        },
+        {
+            "nutrient": "Chlorid(e)",
+            "quantity": "400",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "50",
+            "serving_size": "2 x 4.2 g"
+        },
+        {
+            "nutrient": "Magnesium",
+            "quantity": "56.3",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "15",
+            "serving_size": "2 x 4.2 g"
+        },
+        {
+            "nutrient": "Calcium",
+            "quantity": "120",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "15",
+            "serving_size": "2 x 4.2 g"
+        },
+        {
+            "nutrient": "Koffein/Caffeine",
+            "quantity": "150",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "2 x 4.2 g"
+        }
+    ]
+}

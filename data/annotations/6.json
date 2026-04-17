@@ -1,0 +1,53 @@
+{
+    "image_id": "6.PNG",
+    "nutrients": [
+        {
+            "nutrient": "VITAMIN C",
+            "quantity": "28",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "35",
+            "serving_size": "4 g"
+        },
+        {
+            "nutrient": "MAGNESIUM",
+            "quantity": "56",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "15",
+            "serving_size": "4 g"
+        },
+        {
+            "nutrient": "POTASSIUM",
+            "quantity": "70",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "3.5",
+            "serving_size": "4 g"
+        },
+        {
+            "nutrient": "CALCIUM",
+            "quantity": "9",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "1.1",
+            "serving_size": "4 g"
+        },
+        {
+            "nutrient": "SODIUM",
+            "quantity": "200",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "4 g"
+        },
+        {
+            "nutrient": "GREEN TEA",
+            "quantity": "1",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "4 g"
+        }
+    ]
+}

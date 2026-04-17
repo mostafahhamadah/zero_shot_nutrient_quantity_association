@@ -1,0 +1,2 @@
+experiment,timestamp,notes,evaluator,schema,images_evaluated,gt_tuples,predicted_tuples,matched_pairs,nutrient_precision,nutrient_recall,nutrient_f1,quantity_acc,unit_acc,context_acc,full_tuple_correct,full_tuple_precision,full_tuple_recall,full_tuple_f1,llm_calls,fast_hits,eval_time_s
+experiment_paddle_08,2026-04-04T21:40:45.896081,qwen2.5:7b + R1-R15 prompt + serving_size in context + temperature=0,LLM-Assisted (phi4-mini),nutrient|quantity|unit|context,57,866,564,486,0.8617,0.5612,0.6797,0.1626,0.5165,0.4115,35,0.0621,0.0404,0.049,334,26,2857.6

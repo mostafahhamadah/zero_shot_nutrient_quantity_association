@@ -1,0 +1,73 @@
+=================================================================
+  IMAGE: 42.jpeg
+  OCR tokens (after corrector): 21
+  Serialized tokens:            21
+  Visual lines detected:        11
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ US NUTRITIONALINFORMATION
+  Line 02 │ 1SERV.47gMAKES500ml
+  Line 03 │ FOALYALUES PER SERVE47 100g
+  Line 04 │ RERGYKIKCAL 736/176 1567/374
+  Line 05 │ FROTEIN(g) 0.1
+  Line 06 │ FAT (g)
+  Line 07 │ -SATURATED FAT (g 0
+  Line 08 │ carbohydrate 4
+  Line 09 │ -SUGARS (g
+  Line 10 │ dietary fibre
+  Line 11 │ (0)ICOs 240 500
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  20.5px  [2 tokens]
+    → US | NUTRITIONALINFORMATION
+  Line 02  y=  33.0px  [1 tokens]
+    → 1SERV.47gMAKES500ml
+  Line 03  y=  51.0px  [3 tokens]
+    → FOALYALUES | PER SERVE47 | 100g
+  Line 04  y=  70.8px  [3 tokens]
+    → RERGYKIKCAL | 736/176 | 1567/374
+  Line 05  y=  88.8px  [2 tokens]
+    → FROTEIN(g) | 0.1
+  Line 06  y= 105.0px  [1 tokens]
+    → FAT (g)
+  Line 07  y= 121.0px  [2 tokens]
+    → -SATURATED FAT (g | 0
+  Line 08  y= 137.2px  [2 tokens]
+    → carbohydrate | 4
+  Line 09  y= 153.0px  [1 tokens]
+    → -SUGARS (g
+  Line 10  y= 170.0px  [1 tokens]
+    → dietary fibre
+  Line 11  y= 188.8px  [3 tokens]
+    → (0)ICOs | 240 | 500
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     1     0       0       2  US
+     0     0       3      25  NUTRITIONALINFORMATION
+     2     1      26      45  1SERV.47gMAKES500ml
+     3     2      46      56  FOALYALUES
+     4     2      57      68  PER SERVE47
+     5     2      69      73  100g
+     6     3      74      85  RERGYKIKCAL
+     7     3      86      93  736/176
+     8     3      94     102  1567/374
+     9     4     103     113  FROTEIN(g)
+    10     4     114     117  0.1
+    11     5     118     125  FAT (g)
+    12     6     126     143  -SATURATED FAT (g
+    13     6     144     145  0
+    14     7     146     158  carbohydrate
+    15     7     159     160  4
+    16     8     161     171  -SUGARS (g
+    17     9     172     185  dietary fibre
+    19    10     186     193  (0)ICOs
+    20    10     194     197  240
+    18    10     198     201  500
+
+=================================================================

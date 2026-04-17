@@ -1,0 +1,53 @@
+{
+    "image_id": "110.jpeg",
+    "nutrients": [
+        {
+            "nutrient": "Melissen Extrakt",
+            "quantity": "15",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "pro Stick"
+        },
+        {
+            "nutrient": "Niacin",
+            "quantity": "8.0",
+            "unit": "mg NE",
+            "context": "per_serving",
+            "nrv_percent": "50",
+            "serving_size": "pro Stick"
+        },
+        {
+            "nutrient": "Pantothensäure",
+            "quantity": "3.0",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "50",
+            "serving_size": "pro Stick"
+        },
+        {
+            "nutrient": "Melissen Extrakt",
+            "quantity": "30",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "pro 2 Sticks"
+        },
+        {
+            "nutrient": "Niacin",
+            "quantity": "16",
+            "unit": "mg NE",
+            "context": "per_daily_dose",
+            "nrv_percent": "100",
+            "serving_size": "pro 2 Sticks"
+        },
+        {
+            "nutrient": "Pantothensäure",
+            "quantity": "6.0",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": "100",
+            "serving_size": "pro 2 Sticks"
+        }
+    ]
+}

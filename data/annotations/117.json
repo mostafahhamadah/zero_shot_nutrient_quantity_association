@@ -1,0 +1,77 @@
+{
+    "image_id": "117.jpeg",
+    "nutrients": [
+        {
+            "nutrient": "ENERGIE",
+            "quantity": "728",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "45 g"
+        },
+        {
+            "nutrient": "ENERGIE",
+            "quantity": "173",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "45 g"
+        },
+        {
+            "nutrient": "FETT",
+            "quantity": "6.1",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "45 g"
+        },
+        {
+            "nutrient": "- DAVON GESÄTTIGTE FETTSÄUREN",
+            "quantity": "1.5",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "45 g"
+        },
+        {
+            "nutrient": "KOHLENHYDRATE",
+            "quantity": "16.7",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "45 g"
+        },
+        {
+            "nutrient": "- DAVON ZUCKER",
+            "quantity": "13.5",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "45 g"
+        },
+        {
+            "nutrient": "BALLASTSTOFFE",
+            "quantity": "4.0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "45 g"
+        },
+        {
+            "nutrient": "EIWEIẞ",
+            "quantity": "11.0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "45 g"
+        },
+        {
+            "nutrient": "SALZ",
+            "quantity": "0.04",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "45 g"
+        }
+    ]
+}

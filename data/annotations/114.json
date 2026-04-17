@@ -1,0 +1,165 @@
+{
+    "image_id": "114.jpeg",
+    "nutrients": [
+        {
+            "nutrient": "ENERGIE",
+            "quantity": "1541",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "ENERGIE",
+            "quantity": "368",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": "18",
+            "serving_size": null
+        },
+        {
+            "nutrient": "FETT",
+            "quantity": "4.8",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": "7",
+            "serving_size": null
+        },
+        {
+            "nutrient": "DAVON GESÄTTIGTE FETTSÄUREN",
+            "quantity": "3.3",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": "17",
+            "serving_size": null
+        },
+        {
+            "nutrient": "KOHLENHYDRATE",
+            "quantity": "8.8",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": "3",
+            "serving_size": null
+        },
+        {
+            "nutrient": "DAVON ZUCKER",
+            "quantity": "4.1",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": "5",
+            "serving_size": null
+        },
+        {
+            "nutrient": "BALLASTSTOFFE",
+            "quantity": "2.8",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "EIWEIẞ",
+            "quantity": "70.1",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": "140",
+            "serving_size": null
+        },
+        {
+            "nutrient": "SALZ",
+            "quantity": "0.51",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": "9",
+            "serving_size": null
+        },
+        {
+            "nutrient": "KOFFEIN",
+            "quantity": "268",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "ENERGIE",
+            "quantity": "462",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "30 g PULVER IN 250ml WASSER"
+        },
+        {
+            "nutrient": "ENERGIE",
+            "quantity": "111",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": "6",
+            "serving_size": "30 g PULVER IN 250ml WASSER"
+        },
+        {
+            "nutrient": "FETT",
+            "quantity": "1.4",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": "2",
+            "serving_size": "30 g PULVER IN 250ml WASSER"
+        },
+        {
+            "nutrient": "DAVON GESÄTTIGTE FETTSÄUREN",
+            "quantity": "1.0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": "5",
+            "serving_size": "30 g PULVER IN 250ml WASSER"
+        },
+        {
+            "nutrient": "KOHLENHYDRATE",
+            "quantity": "2.6",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": "1",
+            "serving_size": "30 g PULVER IN 250ml WASSER"
+        },
+        {
+            "nutrient": "DAVON ZUCKER",
+            "quantity": "1.2",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": "1",
+            "serving_size": "30 g PULVER IN 250ml WASSER"
+        },
+        {
+            "nutrient": "BALLASTSTOFFE",
+            "quantity": "0.9",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "30 g PULVER IN 250ml WASSER"
+        },
+        {
+            "nutrient": "EIWEIẞ",
+            "quantity": "21.0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": "42",
+            "serving_size": "30 g PULVER IN 250ml WASSER"
+        },
+        {
+            "nutrient": "SALZ",
+            "quantity": "0.17",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": "3",
+            "serving_size": "30 g PULVER IN 250ml WASSER"
+        },
+        {
+            "nutrient": "KOFFEIN",
+            "quantity": "80",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "30 g PULVER IN 250ml WASSER"
+        }
+    ]
+}

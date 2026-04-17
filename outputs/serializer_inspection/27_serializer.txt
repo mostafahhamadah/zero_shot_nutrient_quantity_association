@@ -1,0 +1,93 @@
+=================================================================
+  IMAGE: 27.jpeg
+  OCR tokens (after corrector): 32
+  Serialized tokens:            32
+  Visual lines detected:        14
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ badadin.Getutu pro 100g RDA"
+  Line 02 │ mob00t
+  Line 03 │ 1254(300kal)
+  Line 04 │ <0.1 g
+  Line 05 │ 499
+  Line 06 │ <0.,59
+  Line 07 │ 4000 mg 500%
+  Line 08 │ 2000 mg 533%
+  Line 09 │ 75 mg 750%
+  Line 10 │ 10000 g 1000
+  Line 11 │ oezin 15 mg 750%
+  Line 12 │ 8969 2740%
+  Line 13 │ 251 9 456%
+  Line 14 │ 37 g 740%
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  57.0px  [3 tokens]
+    → badadin.Getutu | pro 100g | RDA"
+  Line 02  y=  76.5px  [1 tokens]
+    → mob00t
+  Line 03  y=  98.0px  [1 tokens]
+    → 1254(300kal)
+  Line 04  y= 122.0px  [2 tokens]
+    → <0.1 | g
+  Line 05  y= 143.5px  [1 tokens]
+    → 499
+  Line 06  y= 164.5px  [1 tokens]
+    → <0.,59
+  Line 07  y= 185.5px  [3 tokens]
+    → 4000 | mg | 500%
+  Line 08  y= 207.2px  [3 tokens]
+    → 2000 | mg | 533%
+  Line 09  y= 228.5px  [3 tokens]
+    → 75 | mg | 750%
+  Line 10  y= 249.8px  [3 tokens]
+    → 10000 | g | 1000
+  Line 11  y= 271.6px  [4 tokens]
+    → oezin | 15 | mg | 750%
+  Line 12  y= 291.0px  [2 tokens]
+    → 8969 | 2740%
+  Line 13  y= 312.8px  [2 tokens]
+    → 251 9 | 456%
+  Line 14  y= 332.8px  [3 tokens]
+    → 37 | g | 740%
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      14  badadin.Getutu
+     2     0      15      23  pro 100g
+     1     0      24      28  RDA"
+     3     1      29      35  mob00t
+     4     2      36      48  1254(300kal)
+     5     3      49      53  <0.1
+     6     3      54      55  g
+     7     4      56      59  499
+     8     5      60      66  <0.,59
+    10     6      67      71  4000
+    11     6      72      74  mg
+     9     6      75      79  500%
+    13     7      80      84  2000
+    14     7      85      87  mg
+    12     7      88      92  533%
+    16     8      93      95  75
+    17     8      96      98  mg
+    15     8      99     103  750%
+    19     9     104     109  10000
+    20     9     110     111  g
+    18     9     112     116  1000
+    24    10     117     122  oezin
+    22    10     123     125  15
+    23    10     126     128  mg
+    21    10     129     133  750%
+    26    11     134     138  8969
+    25    11     139     144  2740%
+    28    12     145     150  251 9
+    27    12     151     155  456%
+    30    13     156     158  37
+    31    13     159     160  g
+    29    13     161     165  740%
+
+=================================================================

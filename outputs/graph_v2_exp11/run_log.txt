@@ -1,0 +1,17 @@
+Experiment  : graph_v2_exp11
+Pipeline    : Geometry-Aware V2 (PaddleOCR + Token Enricher + Graph V2)
+Evaluator   : LLM-Assisted (Qwen 2.5:7b)
+Schema      : nutrient|quantity|unit|context
+Timestamp   : 2026-04-08T06:28:00.962887
+Notes       : 
+
+Full Tuple Precision : 13.7%
+Full Tuple Recall    : 13.7%
+Full Tuple F1        : 13.7%
+Nutrient F1          : 0.481
+Unit Acc             : 61.9%
+Context Acc          : 53.5%
+
+LLM calls    : 63
+Fast hits    : 114
+Eval time    : 620.3s

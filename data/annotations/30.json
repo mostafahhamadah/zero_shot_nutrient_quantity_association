@@ -1,0 +1,149 @@
+{
+    "image_id": "30.PNG",
+    "nutrients": [
+        {
+            "nutrient": "ENERGY",
+            "quantity": "907",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "Per Bar 55g"
+        },
+        {
+            "nutrient": "ENERGY",
+            "quantity": "215",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "Per Bar 55g"
+        },
+        {
+            "nutrient": "PROTEIN",
+            "quantity": "2.7",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "Per Bar 55g"
+        },
+        {
+            "nutrient": "FAT",
+            "quantity": "5.0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "Per Bar 55g"
+        },
+        {
+            "nutrient": "SATURATED FAT",
+            "quantity": "2.7",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "Per Bar 55g"
+        },
+        {
+            "nutrient": "CARBOHYDRATE",
+            "quantity": "39",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "Per Bar 55g"
+        },
+        {
+            "nutrient": "SUGARS",
+            "quantity": "19",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "Per Bar 55g"
+        },
+        {
+            "nutrient": "DIETARY FIBRE",
+            "quantity": "2.0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "Per Bar 55g"
+        },
+        {
+            "nutrient": "SODIUM",
+            "quantity": "70",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "Per Bar 55g"
+        },
+        {
+            "nutrient": "ENERGY",
+            "quantity": "1649",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "ENERGY",
+            "quantity": "391",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "PROTEIN",
+            "quantity": "4.8",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "FAT",
+            "quantity": "9.1",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "SATURATED FAT",
+            "quantity": "4.9",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "CARBOHYDRATE",
+            "quantity": "71",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "SUGARS",
+            "quantity": "35",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "DIETARY FIBRE",
+            "quantity": "3.6",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "SODIUM",
+            "quantity": "130",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        }
+    ]
+}

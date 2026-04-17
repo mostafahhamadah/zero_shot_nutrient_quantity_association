@@ -1,0 +1,52 @@
+=================================================================
+  IMAGE: 8.jpeg
+  OCR tokens (after corrector): 9
+  Serialized tokens:            9
+  Visual lines detected:        8
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ TYPICALVALUES
+  Line 02 │ 892/213
+  Line 03 │ protein
+  Line 04 │ FAT:(g
+  Line 05 │ -SATURATED FAT
+  Line 06 │ carbohydrate 8111813322
+  Line 07 │ -SUGARS(g)
+  Line 08 │ SOOIM (mg)
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  37.0px  [1 tokens]
+    → TYPICALVALUES
+  Line 02  y=  54.0px  [1 tokens]
+    → 892/213
+  Line 03  y=  64.0px  [1 tokens]
+    → protein
+  Line 04  y=  78.0px  [1 tokens]
+    → FAT:(g
+  Line 05  y=  91.5px  [1 tokens]
+    → -SATURATED FAT
+  Line 06  y= 105.5px  [2 tokens]
+    → carbohydrate | 8111813322
+  Line 07  y= 118.5px  [1 tokens]
+    → -SUGARS(g)
+  Line 08  y= 145.0px  [1 tokens]
+    → SOOIM (mg)
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     0     0       0      13  TYPICALVALUES
+     1     1      14      21  892/213
+     2     2      22      29  protein
+     3     3      30      36  FAT:(g
+     4     4      37      51  -SATURATED FAT
+     6     5      52      64  carbohydrate
+     5     5      65      75  8111813322
+     7     6      76      86  -SUGARS(g)
+     8     7      87      97  SOOIM (mg)
+
+=================================================================

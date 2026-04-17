@@ -1,0 +1,149 @@
+{
+    "image_id": "102.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Energie",
+            "quantity": "1502",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energie",
+            "quantity": "356",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Fett",
+            "quantity": "7.7",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "- davon gesättigte Fettsäuren",
+            "quantity": "1.1",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Kohlenhydrate",
+            "quantity": "63",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "- davon Zucker",
+            "quantity": "31",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Ballaststoffe",
+            "quantity": "5.1",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Eiweiß",
+            "quantity": "5.9",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Salz",
+            "quantity": "0.14",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energie",
+            "quantity": "188",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Riegel* (12.5 g)"
+        },
+        {
+            "nutrient": "Energie",
+            "quantity": "45",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Riegel* (12.5 g)"
+        },
+        {
+            "nutrient": "Fett",
+            "quantity": "1.0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Riegel* (12.5 g)"
+        },
+        {
+            "nutrient": "- davon gesättigte Fettsäuren",
+            "quantity": "0.1",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Riegel* (12.5 g)"
+        },
+        {
+            "nutrient": "Kohlenhydrate",
+            "quantity": "7.9",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Riegel* (12.5 g)"
+        },
+        {
+            "nutrient": "- davon Zucker",
+            "quantity": "3.9",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Riegel* (12.5 g)"
+        },
+        {
+            "nutrient": "Ballaststoffe",
+            "quantity": "0.6",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Riegel* (12.5 g)"
+        },
+        {
+            "nutrient": "Eiweiß",
+            "quantity": "0.7",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Riegel* (12.5 g)"
+        },
+        {
+            "nutrient": "Salz",
+            "quantity": "0.02",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "1 Riegel* (12.5 g)"
+        }
+    ]
+}

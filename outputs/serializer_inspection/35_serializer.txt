@@ -1,0 +1,46 @@
+=================================================================
+  IMAGE: 35.jpeg
+  OCR tokens (after corrector): 12
+  Serialized tokens:            12
+  Visual lines detected:        5
+=================================================================
+
+  ── SERIALIZED TEXT (exact Qwen/GLiNER input) ───────────
+
+  Line 01 │ Zusammensetzung pro 100g pro3Tabletten/(NRV)
+  Line 02 │ 4.7 g 225mg/60%
+  Line 03 │ Magnesium 100.8mg/126%)
+  Line 04 │ Vitamin C 2.1 g
+  Line 05 │ *NRV=%der Nahrstoffbezugswerte gemaB EU-VO 1169/2011
+
+  ── LINE GROUPINGS ───────────────────────────────────────
+
+  Line 01  y=  27.8px  [3 tokens]
+    → Zusammensetzung | pro 100g | pro3Tabletten/(NRV)
+  Line 02  y=  47.8px  [3 tokens]
+    → 4.7 | g | 225mg/60%
+  Line 03  y=  62.2px  [2 tokens]
+    → Magnesium | 100.8mg/126%)
+  Line 04  y=  76.8px  [3 tokens]
+    → Vitamin C | 2.1 | g
+  Line 05  y=  98.0px  [1 tokens]
+    → *NRV=%der Nahrstoffbezugswerte gemaB EU-VO 1169/2011
+
+  ── TOKEN SPANS (char offsets for remapping) ─────────────
+
+   IDX  LINE   START     END  TEXT
+  ─────────────────────────────────────────────────────────────────
+     2     0       0      15  Zusammensetzung
+     1     0      16      24  pro 100g
+     0     0      25      44  pro3Tabletten/(NRV)
+     4     1      45      48  4.7
+     5     1      49      50  g
+     3     1      51      60  225mg/60%
+     6     2      61      70  Magnesium
+     7     2      71      84  100.8mg/126%)
+    10     3      85      94  Vitamin C
+     8     3      95      98  2.1
+     9     3      99     100  g
+    11     4     101     153  *NRV=%der Nahrstoffbezugswerte gemaB EU-VO 1169/2011
+
+=================================================================

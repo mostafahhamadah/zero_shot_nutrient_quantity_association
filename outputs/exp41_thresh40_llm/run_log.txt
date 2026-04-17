@@ -1,0 +1,18 @@
+Experiment  : exp41_thresh40_llm
+Pipeline    : Geometry-Aware V2 (PaddleOCR + Token Enricher + Graph V2)
+Classifier  : embedding_only
+Evaluator   : LLM-Assisted (qwen2.5:7b)
+Schema      : nutrient|quantity|unit|context
+Timestamp   : 2026-04-11T19:41:29.378428
+Notes       : 
+
+Full Tuple Precision : 27.5%
+Full Tuple Recall    : 29.1%
+Full Tuple F1        : 28.2%
+Nutrient F1          : 0.614
+Unit Acc             : 86.0%
+Context Acc          : 83.0%
+
+LLM calls    : 156
+Fast hits    : 252
+Eval time    : 1842.0s

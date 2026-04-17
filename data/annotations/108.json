@@ -1,0 +1,93 @@
+{
+    "image_id": "108.jpeg",
+    "nutrients": [
+        {
+            "nutrient": "Magnesium",
+            "quantity": "240",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (5.6 g)*"
+        },
+        {
+            "nutrient": "Vitamin B1",
+            "quantity": "1.1",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (5.6 g)*"
+        },
+        {
+            "nutrient": "Vitamin B2",
+            "quantity": "1.4",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (5.6 g)*"
+        },
+        {
+            "nutrient": "Vitamin B6",
+            "quantity": "1.4",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (5.6 g)*"
+        },
+        {
+            "nutrient": "Vitamin B12",
+            "quantity": "2.5",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (5.6 g)*"
+        },
+        {
+            "nutrient": "Vitamin C",
+            "quantity": "80",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (5.6 g)*"
+        },
+        {
+            "nutrient": "Vitamin E (α-TE)",
+            "quantity": "12",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (5.6 g)*"
+        },
+        {
+            "nutrient": "Niacin (NE)",
+            "quantity": "16",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (5.6 g)*"
+        },
+        {
+            "nutrient": "Biotin",
+            "quantity": "50",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (5.6 g)*"
+        },
+        {
+            "nutrient": "Folsäure",
+            "quantity": "200",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (5.6 g)*"
+        },
+        {
+            "nutrient": "Pantothensäure",
+            "quantity": "6.0",
+            "unit": "mg",
+            "context": "per_daily_dose",
+            "nrv_percent": null,
+            "serving_size": "1 Tablette (5.6 g)*"
+        }
+    ]
+}

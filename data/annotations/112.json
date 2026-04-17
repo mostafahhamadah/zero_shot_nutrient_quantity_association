@@ -1,0 +1,13 @@
+{
+    "image_id": "112.jpeg",
+    "nutrients": [
+        {
+            "nutrient": "Vitamin B12",
+            "quantity": "17.5",
+            "unit": "µg",
+            "context": "per_daily_dose",
+            "nrv_percent": "700",
+            "serving_size": "1 Tagesdosis (8 ml)"
+        }
+    ]
+}

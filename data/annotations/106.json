@@ -1,0 +1,21 @@
+{
+    "image_id": "106.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Vitamin E / Vitamine E / Vitamina E / E-vitamin / Vitamin E",
+            "quantity": "12",
+            "unit": "mg α-TE",
+            "context": "per_serving",
+            "nrv_percent": "100",
+            "serving_size": "Pro Stick"
+        },
+        {
+            "nutrient": "Magnesium / Magnésium / Magnesio / Magnézium / Magnezij",
+            "quantity": "250",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "67",
+            "serving_size": "Pro Stick"
+        }
+    ]
+}

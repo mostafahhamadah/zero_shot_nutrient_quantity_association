@@ -1,0 +1,149 @@
+{
+    "image_id": "53.PNG",
+    "nutrients": [
+        {
+            "nutrient": "Energy | Energie",
+            "quantity": "1541",
+            "unit": "kJ",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energy | Energie",
+            "quantity": "363",
+            "unit": "kcal",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Fat | Fett | Matières grasses | Vetten",
+            "quantity": "< 0.5",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "- of which saturates | davon gesättigte Fettsäuren | dont acides gras saturés | waarvan verzadigde vetzuren",
+            "quantity": "< 0.5",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Carbohydrate | Kohlenhydrate | Glucides | Koolhydraten",
+            "quantity": "84",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "- of which sugars | davon Zucker | dont sucres | waarvan suikers",
+            "quantity": "62",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Protein | Eiweiß | Protéines | Eiwitten",
+            "quantity": "6.7",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Salt | Salz | Sel | Zout",
+            "quantity": "0.13",
+            "unit": "g",
+            "context": "per_100g",
+            "nrv_percent": null,
+            "serving_size": null
+        },
+        {
+            "nutrient": "Vitamin B6 | Vitamine B6",
+            "quantity": "0.35",
+            "unit": "mg",
+            "context": "per_100g",
+            "nrv_percent": "25",
+            "serving_size": null
+        },
+        {
+            "nutrient": "Energy | Energie",
+            "quantity": "925",
+            "unit": "kJ",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "60 g"
+        },
+        {
+            "nutrient": "Energy | Energie",
+            "quantity": "218",
+            "unit": "kcal",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "60 g"
+        },
+        {
+            "nutrient": "Fat | Fett | Matières grasses | Vetten",
+            "quantity": "< 0.5",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "60 g"
+        },
+        {
+            "nutrient": "- of which saturates | davon gesättigte Fettsäuren | dont acides gras saturés | waarvan verzadigde vetzuren",
+            "quantity": "< 0.5",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "60 g"
+        },
+        {
+            "nutrient": "Carbohydrate | Kohlenhydrate | Glucides | Koolhydraten",
+            "quantity": "50",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "60 g"
+        },
+        {
+            "nutrient": "- of which sugars | davon Zucker | dont sucres | waarvan suikers",
+            "quantity": "37",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "60 g"
+        },
+        {
+            "nutrient": "Protein | Eiweiß | Protéines | Eiwitten",
+            "quantity": "4.0",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "60 g"
+        },
+        {
+            "nutrient": "Salt | Salz | Sel | Zout",
+            "quantity": "0.08",
+            "unit": "g",
+            "context": "per_serving",
+            "nrv_percent": null,
+            "serving_size": "60 g"
+        },
+        {
+            "nutrient": "Vitamin B6 | Vitamine B6",
+            "quantity": "0.21",
+            "unit": "mg",
+            "context": "per_serving",
+            "nrv_percent": "15",
+            "serving_size": "60 g"
+        }
+    ]
+}
