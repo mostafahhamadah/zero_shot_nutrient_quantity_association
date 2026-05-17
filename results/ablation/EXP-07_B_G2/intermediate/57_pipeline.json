@@ -1,0 +1,920 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "Pro 100g pro Essloffel(6g)",
+      "x1": 195,
+      "y1": 69,
+      "x2": 371,
+      "y2": 110,
+      "cx": 283.0,
+      "cy": 89.5,
+      "conf": 0.9185
+    },
+    {
+      "token": "par cuillere (6g",
+      "x1": 272,
+      "y1": 88,
+      "x2": 370,
+      "y2": 121,
+      "cx": 321.0,
+      "cy": 104.5,
+      "conf": 0.9538
+    },
+    {
+      "token": "Pour 100g",
+      "x1": 191,
+      "y1": 105,
+      "x2": 262,
+      "y2": 123,
+      "cx": 226.5,
+      "cy": 114.0,
+      "conf": 0.9524
+    },
+    {
+      "token": "23kcal",
+      "x1": 324,
+      "y1": 105,
+      "x2": 369,
+      "y2": 129,
+      "cx": 346.5,
+      "cy": 117.0,
+      "conf": 0.884
+    },
+    {
+      "token": "Brennwen.....Energie.",
+      "x1": 9,
+      "y1": 100,
+      "x2": 151,
+      "y2": 146,
+      "cx": 80.0,
+      "cy": 123.0,
+      "conf": 0.8501
+    },
+    {
+      "token": "383kcal.",
+      "x1": 201,
+      "y1": 121,
+      "x2": 261,
+      "y2": 141,
+      "cx": 231.0,
+      "cy": 131.0,
+      "conf": 0.9435
+    },
+    {
+      "token": "96.2",
+      "x1": 327,
+      "y1": 122,
+      "x2": 371,
+      "y2": 149,
+      "cx": 349.0,
+      "cy": 135.5,
+      "conf": 0.9118
+    },
+    {
+      "token": "1604",
+      "x1": 212,
+      "y1": 138,
+      "x2": 263,
+      "y2": 161,
+      "cx": 237.5,
+      "cy": 149.5,
+      "conf": 0.9941
+    },
+    {
+      "token": "Eineid",
+      "x1": 11,
+      "y1": 137,
+      "x2": 51,
+      "y2": 163,
+      "cx": 31.0,
+      "cy": 150.0,
+      "conf": 0.8276
+    },
+    {
+      "token": "4,99",
+      "x1": 331,
+      "y1": 142,
+      "x2": 371,
+      "y2": 165,
+      "cx": 351.0,
+      "cy": 153.5,
+      "conf": 0.8697
+    },
+    {
+      "token": "....Proteines.",
+      "x1": 74,
+      "y1": 152,
+      "x2": 160,
+      "y2": 181,
+      "cx": 117.0,
+      "cy": 166.5,
+      "conf": 0.9619
+    },
+    {
+      "token": "83g",
+      "x1": 229,
+      "y1": 161,
+      "x2": 263,
+      "y2": 179,
+      "cx": 246.0,
+      "cy": 170.0,
+      "conf": 0.9956
+    },
+    {
+      "token": ".0.228",
+      "x1": 328,
+      "y1": 160,
+      "x2": 371,
+      "y2": 185,
+      "cx": 349.5,
+      "cy": 172.5,
+      "conf": 0.8269
+    },
+    {
+      "token": "Fett.",
+      "x1": 14,
+      "y1": 174,
+      "x2": 43,
+      "y2": 196,
+      "cx": 28.5,
+      "cy": 185.0,
+      "conf": 0.8598
+    },
+    {
+      "token": "3,67 g",
+      "x1": 219,
+      "y1": 181,
+      "x2": 263,
+      "y2": 199,
+      "cx": 241.0,
+      "cy": 190.0,
+      "conf": 0.8801
+    },
+    {
+      "token": ".0,26g",
+      "x1": 328,
+      "y1": 178,
+      "x2": 372,
+      "y2": 204,
+      "cx": 350.0,
+      "cy": 191.0,
+      "conf": 0.8438
+    },
+    {
+      "token": ".Lipldes",
+      "x1": 93,
+      "y1": 193,
+      "x2": 148,
+      "y2": 217,
+      "cx": 120.5,
+      "cy": 205.0,
+      "conf": 0.957
+    },
+    {
+      "token": ".43g",
+      "x1": 223,
+      "y1": 201,
+      "x2": 263,
+      "y2": 216,
+      "cx": 243.0,
+      "cy": 208.5,
+      "conf": 0.912
+    },
+    {
+      "token": "ZUTATEN",
+      "x1": 14,
+      "y1": 200,
+      "x2": 64,
+      "y2": 224,
+      "cx": 39.0,
+      "cy": 212.0,
+      "conf": 0.9793
+    }
+  ],
+  "corrected": [
+    {
+      "token": "pro 100g",
+      "x1": 195,
+      "y1": 69,
+      "x2": 371,
+      "y2": 110,
+      "cx": 283.0,
+      "cy": 89.5,
+      "conf": 0.9185
+    },
+    {
+      "token": "par cuillere (6g",
+      "x1": 272,
+      "y1": 88,
+      "x2": 370,
+      "y2": 121,
+      "cx": 321.0,
+      "cy": 104.5,
+      "conf": 0.9538
+    },
+    {
+      "token": "Pour 100g",
+      "x1": 191,
+      "y1": 105,
+      "x2": 262,
+      "y2": 123,
+      "cx": 226.5,
+      "cy": 114.0,
+      "conf": 0.9524
+    },
+    {
+      "token": "23",
+      "x1": 324,
+      "y1": 105,
+      "x2": 339,
+      "y2": 129,
+      "cx": 331.5,
+      "cy": 117.0,
+      "conf": 0.884
+    },
+    {
+      "token": "kcal",
+      "x1": 339,
+      "y1": 105,
+      "x2": 369,
+      "y2": 129,
+      "cx": 354.0,
+      "cy": 117.0,
+      "conf": 0.884
+    },
+    {
+      "token": "Brennwen.....Energie.",
+      "x1": 9,
+      "y1": 100,
+      "x2": 151,
+      "y2": 146,
+      "cx": 80.0,
+      "cy": 123.0,
+      "conf": 0.8501
+    },
+    {
+      "token": "383kcal.",
+      "x1": 201,
+      "y1": 121,
+      "x2": 261,
+      "y2": 141,
+      "cx": 231.0,
+      "cy": 131.0,
+      "conf": 0.9435
+    },
+    {
+      "token": "96.2",
+      "x1": 327,
+      "y1": 122,
+      "x2": 371,
+      "y2": 149,
+      "cx": 349.0,
+      "cy": 135.5,
+      "conf": 0.9118
+    },
+    {
+      "token": "1604",
+      "x1": 212,
+      "y1": 138,
+      "x2": 263,
+      "y2": 161,
+      "cx": 237.5,
+      "cy": 149.5,
+      "conf": 0.9941
+    },
+    {
+      "token": "Eineid",
+      "x1": 11,
+      "y1": 137,
+      "x2": 51,
+      "y2": 163,
+      "cx": 31.0,
+      "cy": 150.0,
+      "conf": 0.8276
+    },
+    {
+      "token": "4.99",
+      "x1": 331,
+      "y1": 142,
+      "x2": 371,
+      "y2": 165,
+      "cx": 351.0,
+      "cy": 153.5,
+      "conf": 0.8697
+    },
+    {
+      "token": "proteines",
+      "x1": 74,
+      "y1": 152,
+      "x2": 160,
+      "y2": 181,
+      "cx": 117.0,
+      "cy": 166.5,
+      "conf": 0.9619
+    },
+    {
+      "token": "83",
+      "x1": 229,
+      "y1": 161,
+      "x2": 251,
+      "y2": 179,
+      "cx": 240.0,
+      "cy": 170.0,
+      "conf": 0.9956
+    },
+    {
+      "token": "g",
+      "x1": 251,
+      "y1": 161,
+      "x2": 263,
+      "y2": 179,
+      "cx": 257.0,
+      "cy": 170.0,
+      "conf": 0.9956
+    },
+    {
+      "token": ".0.228",
+      "x1": 328,
+      "y1": 160,
+      "x2": 371,
+      "y2": 185,
+      "cx": 349.5,
+      "cy": 172.5,
+      "conf": 0.8269
+    },
+    {
+      "token": "Fett.",
+      "x1": 14,
+      "y1": 174,
+      "x2": 43,
+      "y2": 196,
+      "cx": 28.5,
+      "cy": 185.0,
+      "conf": 0.8598
+    },
+    {
+      "token": "3.67",
+      "x1": 219,
+      "y1": 181,
+      "x2": 254,
+      "y2": 199,
+      "cx": 236.5,
+      "cy": 190.0,
+      "conf": 0.8801
+    },
+    {
+      "token": "g",
+      "x1": 254,
+      "y1": 181,
+      "x2": 263,
+      "y2": 199,
+      "cx": 258.5,
+      "cy": 190.0,
+      "conf": 0.8801
+    },
+    {
+      "token": ".0.26g",
+      "x1": 328,
+      "y1": 178,
+      "x2": 372,
+      "y2": 204,
+      "cx": 350.0,
+      "cy": 191.0,
+      "conf": 0.8438
+    },
+    {
+      "token": "Fat",
+      "x1": 93,
+      "y1": 193,
+      "x2": 148,
+      "y2": 217,
+      "cx": 120.5,
+      "cy": 205.0,
+      "conf": 0.957
+    },
+    {
+      "token": ".43g",
+      "x1": 223,
+      "y1": 201,
+      "x2": 263,
+      "y2": 216,
+      "cx": 243.0,
+      "cy": 208.5,
+      "conf": 0.912
+    },
+    {
+      "token": "ZUTATEN",
+      "x1": 14,
+      "y1": 200,
+      "x2": 64,
+      "y2": 224,
+      "cx": 39.0,
+      "cy": 212.0,
+      "conf": 0.9793
+    }
+  ],
+  "labeled": [
+    {
+      "token": "pro 100g",
+      "x1": 195,
+      "y1": 69,
+      "x2": 371,
+      "y2": 110,
+      "cx": 283.0,
+      "cy": 89.5,
+      "conf": 0.9185,
+      "label": "CONTEXT",
+      "norm": "per_100g",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "par cuillere (6g",
+      "x1": 272,
+      "y1": 88,
+      "x2": 370,
+      "y2": 121,
+      "cx": 321.0,
+      "cy": 104.5,
+      "conf": 0.9538,
+      "label": "UNKNOWN",
+      "norm": "par cuillere (6g",
+      "embedding_scores": {
+        "NUTRIENT": 0.5282288789749146,
+        "QUANTITY": 0.47123268246650696,
+        "UNIT": 0.4630124866962433,
+        "CONTEXT": 0.6410101652145386,
+        "NOISE": 0.48856788873672485
+      },
+      "embedding_confidence": 0.5282288789749146,
+      "classification_method": "embedding",
+      "embedding_context": "pro 100g par cuillere (6g"
+    },
+    {
+      "token": "Pour 100g",
+      "x1": 191,
+      "y1": 105,
+      "x2": 262,
+      "y2": 123,
+      "cx": 226.5,
+      "cy": 114.0,
+      "conf": 0.9524,
+      "label": "CONTEXT",
+      "norm": "per_100g",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "23",
+      "x1": 324,
+      "y1": 105,
+      "x2": 339,
+      "y2": 129,
+      "cx": 331.5,
+      "cy": 117.0,
+      "conf": 0.884,
+      "label": "QUANTITY",
+      "norm": "23",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "kcal",
+      "x1": 339,
+      "y1": 105,
+      "x2": 369,
+      "y2": 129,
+      "cx": 354.0,
+      "cy": 117.0,
+      "conf": 0.884,
+      "label": "UNIT",
+      "norm": "kcal",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Brennwen.....Energie.",
+      "x1": 9,
+      "y1": 100,
+      "x2": 151,
+      "y2": 146,
+      "cx": 80.0,
+      "cy": 123.0,
+      "conf": 0.8501,
+      "label": "NUTRIENT",
+      "norm": "brennwen.....energie",
+      "embedding_scores": {
+        "NUTRIENT": 0.6398028135299683,
+        "QUANTITY": 0.40415942668914795,
+        "UNIT": 0.4960918426513672,
+        "CONTEXT": 0.4337237477302551,
+        "NOISE": 0.49116671085357666
+      },
+      "embedding_confidence": 0.6398028135299683,
+      "classification_method": "embedding",
+      "embedding_context": "Brennwen.....Energie. Pour 100g 383kcal. 23 kcal"
+    },
+    {
+      "token": "383kcal.",
+      "x1": 201,
+      "y1": 121,
+      "x2": 261,
+      "y2": 141,
+      "cx": 231.0,
+      "cy": 131.0,
+      "conf": 0.9435,
+      "label": "QUANTITY",
+      "norm": "383kcal",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "96.2",
+      "x1": 327,
+      "y1": 122,
+      "x2": 371,
+      "y2": 149,
+      "cx": 349.0,
+      "cy": 135.5,
+      "conf": 0.9118,
+      "label": "QUANTITY",
+      "norm": "96.2",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "1604",
+      "x1": 212,
+      "y1": 138,
+      "x2": 263,
+      "y2": 161,
+      "cx": 237.5,
+      "cy": 149.5,
+      "conf": 0.9941,
+      "label": "QUANTITY",
+      "norm": "1604",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Eineid",
+      "x1": 11,
+      "y1": 137,
+      "x2": 51,
+      "y2": 163,
+      "cx": 31.0,
+      "cy": 150.0,
+      "conf": 0.8276,
+      "label": "UNKNOWN",
+      "norm": "eineid",
+      "embedding_scores": {
+        "NUTRIENT": 0.46937817335128784,
+        "QUANTITY": 0.4141467213630676,
+        "UNIT": 0.4386463463306427,
+        "CONTEXT": 0.38059261441230774,
+        "NOISE": 0.42427805066108704
+      },
+      "embedding_confidence": 0.46937817335128784,
+      "classification_method": "embedding",
+      "embedding_context": "Eineid 1604 96.2 4.99"
+    },
+    {
+      "token": "4.99",
+      "x1": 331,
+      "y1": 142,
+      "x2": 371,
+      "y2": 165,
+      "cx": 351.0,
+      "cy": 153.5,
+      "conf": 0.8697,
+      "label": "QUANTITY",
+      "norm": "4.99",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "proteines",
+      "x1": 74,
+      "y1": 152,
+      "x2": 160,
+      "y2": 181,
+      "cx": 117.0,
+      "cy": 166.5,
+      "conf": 0.9619,
+      "label": "NUTRIENT",
+      "norm": "proteines",
+      "embedding_scores": {
+        "NUTRIENT": 0.6928204298019409,
+        "QUANTITY": 0.47489461302757263,
+        "UNIT": 0.48559311032295227,
+        "CONTEXT": 0.4958047866821289,
+        "NOISE": 0.4650837779045105
+      },
+      "embedding_confidence": 0.6928204298019409,
+      "classification_method": "embedding",
+      "embedding_context": "proteines 83 g .0.228"
+    },
+    {
+      "token": "83",
+      "x1": 229,
+      "y1": 161,
+      "x2": 251,
+      "y2": 179,
+      "cx": 240.0,
+      "cy": 170.0,
+      "conf": 0.9956,
+      "label": "QUANTITY",
+      "norm": "83",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "g",
+      "x1": 251,
+      "y1": 161,
+      "x2": 263,
+      "y2": 179,
+      "cx": 257.0,
+      "cy": 170.0,
+      "conf": 0.9956,
+      "label": "UNIT",
+      "norm": "g",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": ".0.228",
+      "x1": 328,
+      "y1": 160,
+      "x2": 371,
+      "y2": 185,
+      "cx": 349.5,
+      "cy": 172.5,
+      "conf": 0.8269,
+      "label": "QUANTITY",
+      "norm": "0.228",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Fett.",
+      "x1": 14,
+      "y1": 174,
+      "x2": 43,
+      "y2": 196,
+      "cx": 28.5,
+      "cy": 185.0,
+      "conf": 0.8598,
+      "label": "NUTRIENT",
+      "norm": "fett",
+      "embedding_scores": {
+        "NUTRIENT": 0.8330526351928711,
+        "QUANTITY": 0.48689836263656616,
+        "UNIT": 0.5101009607315063,
+        "CONTEXT": 0.47265955805778503,
+        "NOISE": 0.48108169436454773
+      },
+      "embedding_confidence": 0.8330526351928711,
+      "classification_method": "embedding",
+      "embedding_context": "Fett. 3.67 g .0.26g"
+    },
+    {
+      "token": "3.67",
+      "x1": 219,
+      "y1": 181,
+      "x2": 254,
+      "y2": 199,
+      "cx": 236.5,
+      "cy": 190.0,
+      "conf": 0.8801,
+      "label": "QUANTITY",
+      "norm": "3.67",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "g",
+      "x1": 254,
+      "y1": 181,
+      "x2": 263,
+      "y2": 199,
+      "cx": 258.5,
+      "cy": 190.0,
+      "conf": 0.8801,
+      "label": "UNIT",
+      "norm": "g",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": ".0.26g",
+      "x1": 328,
+      "y1": 178,
+      "x2": 372,
+      "y2": 204,
+      "cx": 350.0,
+      "cy": 191.0,
+      "conf": 0.8438,
+      "label": "QUANTITY",
+      "norm": "0.26g",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Fat",
+      "x1": 93,
+      "y1": 193,
+      "x2": 148,
+      "y2": 217,
+      "cx": 120.5,
+      "cy": 205.0,
+      "conf": 0.957,
+      "label": "NUTRIENT",
+      "norm": "fat",
+      "embedding_scores": {
+        "NUTRIENT": 0.6564021110534668,
+        "QUANTITY": 0.43552926182746887,
+        "UNIT": 0.39795562624931335,
+        "CONTEXT": 0.4453889727592468,
+        "NOISE": 0.48874980211257935
+      },
+      "embedding_confidence": 0.6564021110534668,
+      "classification_method": "embedding",
+      "embedding_context": "ZUTATEN Fat .43g"
+    },
+    {
+      "token": ".43g",
+      "x1": 223,
+      "y1": 201,
+      "x2": 263,
+      "y2": 216,
+      "cx": 243.0,
+      "cy": 208.5,
+      "conf": 0.912,
+      "label": "QUANTITY",
+      "norm": "43g",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "ZUTATEN",
+      "x1": 14,
+      "y1": 200,
+      "x2": 64,
+      "y2": 224,
+      "cx": 39.0,
+      "cy": 212.0,
+      "conf": 0.9793,
+      "label": "NOISE",
+      "norm": "zutaten",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    }
+  ],
+  "tuples": [
+    {
+      "image_id": "57.jpeg",
+      "nutrient": "Brennwen.....Energie",
+      "quantity": "383",
+      "unit": "kcal",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "57.jpeg",
+      "nutrient": "Brennwen.....Energie",
+      "quantity": "23",
+      "unit": "kcal",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "57.jpeg",
+      "nutrient": "Brennwen.....Energie",
+      "quantity": "96.2",
+      "unit": "kcal",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "57.jpeg",
+      "nutrient": "proteines",
+      "quantity": "83",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "57.jpeg",
+      "nutrient": "proteines",
+      "quantity": "0.228",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "57.jpeg",
+      "nutrient": "proteines",
+      "quantity": "4.99",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "57.jpeg",
+      "nutrient": "Fett",
+      "quantity": "3.67",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "57.jpeg",
+      "nutrient": "Fett",
+      "quantity": "0.228",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "57.jpeg",
+      "nutrient": "Fett",
+      "quantity": "0.26",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "57.jpeg",
+      "nutrient": "Fat",
+      "quantity": "3.67",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "57.jpeg",
+      "nutrient": "Fat",
+      "quantity": "43",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "57.jpeg",
+      "nutrient": "Fat",
+      "quantity": "0.26",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    }
+  ],
+  "diagnostics": {
+    "enricher": {
+      "active_tokens": 21,
+      "num_rows": 1,
+      "num_columns": 2,
+      "column_roles": {
+        "0": "NUTRIENT",
+        "1": "DOSAGE"
+      },
+      "column_angles": {
+        "0": 0.0,
+        "1": 0.0
+      },
+      "column_contexts": {
+        "1": "per_100g"
+      },
+      "dosage_streams": 1,
+      "rank_counts": {
+        "0": 5,
+        "1": 14
+      },
+      "rank_consistent": false,
+      "headers_detected": 2
+    },
+    "associator": {
+      "nutrients": 4,
+      "quantities": 10,
+      "dosage_streams": 1,
+      "mode": "v2_streams",
+      "tuples": 12
+    },
+    "edges": 362,
+    "nodes": 21
+  },
+  "duration_s": 2.74,
+  "error": null
+}

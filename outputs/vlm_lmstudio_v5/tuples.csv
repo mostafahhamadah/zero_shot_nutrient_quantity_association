@@ -1,0 +1,300 @@
+image_id,nutrient,quantity,unit,context
+1.png,Magnesium,400,mg,per_daily_dose
+1.png,Magnesiumbisglycinat,333,mg,per_daily_dose
+2.png,Energy,1195 (281),kJ,per_100g
+2.png,Fat,0g,g,per_serving
+4.png,Energy,0,g,per_100g
+4.png,Fat,0,mg,per_100g
+6.png,Vitamin C,28,mg,per_100g
+6.png,Magnesium,56,mg,per_100g
+6.png,Potassium,70,mg,per_100g
+6.png,Calcium,9,mg,per_100g
+6.png,Sodium,200,mg,per_100g
+6.png,Green Tea,1,mg,per_serving
+8.png,Energy,892/213,kJ/kcal,per Bar 60g
+8.png,Protein,2.2,g,per Bar 60g
+8.png,FAT,4.8,g,per Bar 60g
+8.png,- SATURATED FAT,3.4,g,per Bar 60g
+8.png,Carbohydrate,41,g,per Bar 60g
+8.png,- SUGARS,21,g,per Bar 60g
+8.png,DIETARY FIBRE,1.9,g,per Bar 60g
+8.png,SODIUM,42,mg,per Bar 60g
+9.jpeg,Zink,5,mg,per_100g
+9.jpeg,Vitamin C,30,mg,per_serving
+12.png,Energy,547kJ,kJ,per serving
+12.png,Energy,129kcal,kcal,per serving
+12.png,Fatten / Rasva / Matières grasses / Fett / Tlustcze / Fett,0.0g,g,per serving
+12.png,Koolhydraten / Hillihydraatit / Glucides / Karbohydrater / Weglowodany / Kolhydrater,32g,g,per serving
+12.png,waarvan sukers / josta sokereiden osuus / dont sucres / med andel sukker / w tym cukry / varav socker,1.1g,g,per serving
+12.png,Eiwitten / Proteinit / Protéines / Protein / Bialko / Protein,0.1g,g,per serving
+12.png,Zout / Sucia / Sel / Salt / Sól / Salt,0.6g,g,per serving
+15.png,Salt,15.0 g,g,per_serving
+15.png,Magnesium,670 mg,mg,per_100g
+17.png,Caffeine,100,mg,per_100g
+17.png,Vitamin B3,2.4,mg NE,per_serving
+17.png,Vitamin B6,0.22,mg,per_100g
+17.png,Vitamin B12,0.38,µg,per_serving
+20.png,Brennwert/Energie,1474 kJ (346 kcal),kJ,per 100 g Pulver
+20.png,Ewebß/Protein,"<0,1 g",g,per 100 g Pulver
+20.png,Kohlenhydrate/Carbohydrate,"78,1 g",g,per 100 g Pulver
+20.png,Fett/Fat,"<0,5 g",g,per 100 g Pulver
+20.png,Natrium/Sodium,667 mg,mg,per 100 g Pulver
+20.png,Kalium/Potassium,667 mg,mg,per 100 g Pulver
+20.png,Calcium,800 mg,mg,per 100 g Pulver
+20.png,Magnesium,300 mg,mg,per 100 g Pulver
+20.png,Chlorid/Chloride,667 mg,mg,per 100 g Pulver
+20.png,Phosphor/Phosphorus,800 mg,mg,per 100 g Pulver
+20.png,Selen/Selenium,200 µg,µg,per 100 g Pulver
+26.png,Energy,942/255,kJ/KCAL,per_100g
+26.png,Fat,0,g,per_100g
+26.png,Saturated Fats,56,g,per_100g
+26.png,Carbohydrate,7,g,per_100g
+26.png,Protein,3.5,g,per_100g
+26.png,Salt,0.11,g,per_100g
+27.png,Brewswert/EnergyValue,1254 kJ (300kcal),,per_100g
+27.png,Esemß/Protein,"<0,1 g",g,per_serving
+27.png,Kublephydrate/Carbohydrate,49 g,g,per_100g
+27.png,Fert/Fat,"<0,5 g",g,per_serving
+27.png,Calcium,4000 mg,mg,per_100g
+27.png,Magnesium,2000 mg,mg,per_100g
+27.png,Zink/Zinc,75 mg,mg,per_serving
+27.png,Kuples/Copper,10000 μg,μg,per_100g
+27.png,Mangen/Manganese,15 mg,mg,per_serving
+27.png,Chrom/Chromium,896 μg,μg,per_100g
+27.png,Sefee/Selenium,251 μg,μg,per_serving
+27.png,Vitamin D,37 μg,μg,per_100g
+30.png,Energy,907/215,kJ/kcal,per Bar 55g
+30.png,Protein (g),2.7,g,per Bar 55g
+30.png,Fat:,9.1,g,per Bar 55g
+30.png,- Saturated Fat (g),2.7,g,per Bar 55g
+30.png,Carbohydrate (g),39,g,per Bar 55g
+30.png,- Sugars (g),19,g,per Bar 55g
+30.png,Dietary Fibre (g),2.0,g,per Bar 55g
+30.png,Sodium (mg),70,mg,per Bar 55g
+33.png,Energy,1660 (390),kJ,per_100g
+33.png,Fat,0 g,g,per_serving
+33.png,Saturated Fats,0 g,g,per_serving
+33.png,Kohlenhydrate,97 g,g,per_100g
+33.png,davon Zuckerrarten,56 g,g,per_serving
+33.png,Eiweiss,0 g,g,per_100g
+33.png,Salz,0.53 g,g,per_serving
+34.png,Energy,1356kJ/319kcal,kJ,Per 25g serving
+34.png,Fat,0g,g,Per 25g serving
+35.jpeg,Magnesium,4.7 g,g,per_100g
+35.jpeg,Vitamin C,2.1 g,g,per_100g
+41.png,Energy,612/144 KJ/KCAL,kJ/KCAL,per_100g
+41.png,Fat,0 g,g,per_100g
+41.png,Saturated Fats,0 g,g,per_100g
+41.png,Carbohydrate,36 g,g,per_100g
+41.png,Of which sugars,4.5 g,g,of which
+41.png,Protein,0 g,g,per_100g
+41.png,Salt,"0,10 g",g,per_100g
+42.png,Protein,0.1,g,per_100g
+42.png,FAT (g),0,g,per_100g
+51.png,Energy,1541 (363),kJ(kcal),per_100g
+51.png,Fat,<0.5,g,per_100g
+51.png,Carbohydrate,84,g,per_100g
+51.png,Protein,6.7,g,per_100g
+51.png,Salt,0.13,g,per_100g
+53.png,Energy,<0.5,g,per_100g
+53.png,Fat,<0.5,g,per_100g
+53.png,Carbohydrate,84 g,g,per_100g
+53.png,Protein,6.7 g,g,per_100g
+56.jpeg,Proteines,83,g,per_100g
+56.jpeg,Fett,4.3,g,per_100g
+57.jpeg,Energie,383kcal.,kJ,per_100g
+57.jpeg,Proteine,4.99,g,per_serving
+59.png,Energy,1391 kJ (330kcal),kJ,per_100g
+59.png,EiweiB/Protein,"0,7 g",g,per_100g
+59.png,Kohlenhydrate/Carbohydrate,"66,6 g",g,per_100g
+59.png,davon Zucker / of which Sugars,"64,4 g",g,per_100g
+59.png,davon Fructose / of which Fructose,"63,7 g",g,per_100g
+59.png,Fett/Fat,"0,3 g",g,per_100g
+59.png,davon gesättigte Fettsäuren/of which Saturates,"<0,3 g",g,per_100g
+59.png,Ballaststoffe/Fibre,25 g,g,per_100g
+59.png,Natrium/Sodium,"<0,1 g",g,per_100g
+59.png,Selen/Selenium,150 µg,µg,per_100g
+59.png,Vitamin C,300 mg,mg,per_100g
+59.png,Vitamin E,50 mg α-TE,µg,per_100g
+59.png,Vitamin A (aus/from Provitamin A),1667 µg RE,µg,per_100g
+61.png,Energy,427 kJ,kJ,per serving
+61.png,Fat,0 g,g,per serving
+61.png,Carbohydrate,25.3 g,g,per serving
+61.png,Sugars,14.6 g,g,per serving
+61.png,Protein,0.2 g,g,per serving
+61.png,Magnesium,75 mg,mg,per serving
+61.png,Potassium,100 mg,mg,per serving
+61.png,Calcium,50 mg,mg,per serving
+63.png,Energy,427 kJ / 102 kcal,kJ / kcal,per serving/Portion/porzione
+63.png,Fat,0 g,g,per serving/Portion/porzione
+63.png,Carbohydrate,25.3 g,g,per serving/Portion/porzione
+63.png,Saturated Fats,0 g,g,per serving/Portion/porzione
+63.png,Protein,0.2 g,g,per serving/Portion/porzione
+63.png,Salt,75 mg (20%*),mg,per serving/Portion/porzione
+63.png,Magnesium,100 mg (5%),mg,per serving/Portion/porzione
+63.png,Potassium,313.3 mg (6%*),mg,per serving/Portion/porzione
+63.png,Calcium,50 mg (6%),mg,per serving/Portion/porzione
+64.png,Vitamin C,50,mg,per_daily_dose
+64.png,Vitamin B2,0.6,mg,per_daily_dose
+64.png,Niacin,7.0,mg,per_daily_dose
+64.png,Vitamin B6,0.6,mg,per_daily_dose
+64.png,Folic Acid,80,µg,per_daily_dose
+64.png,Vitamin B12,2.0,µg,per_daily_dose
+64.png,Pantothenic Acid,3.0,mg,per_daily_dose
+67.jpeg,Vitamin D3,1000 I.E.,I.E.,per_serving
+68.jpeg,Magnesium,0.69,g,per_100g
+68.jpeg,Vitamin C,80,mg,per_daily_dose
+78.jpeg,Vitamin D,50,µg,per_serving
+82.jpeg,Energy,0,kJ/kcal,per_100g
+82.jpeg,Protein,0,g,per_serving
+82.jpeg,Carbohydrates,0,g,per_serving
+82.jpeg,Fat,0,g,per_serving
+88.png,Fett/lipides,0.7 g,g,per_100ml
+88.png,davon gesättigte Fettsäuren/of which saturated fatty acids,0.5 g,g,per_100ml
+88.png,Kohlenhydrate/glucides,"4,1 g",g,per_100ml
+88.png,davon Zuckerarten/of which sugars,3.5 g,g,per_100ml
+88.png,Eiweiß/protein(e),"8,0 g",g,per_100ml
+88.png,Salt/sel/salt,0.10 g,g,per_100ml
+90.png,Energy,192(45),kJ (kcal),per_100ml
+90.png,Fett/lipides/fat,<0.1 g,g,per_serving
+90.png,Kohlenhydrate/glucides/carbohydrates,10 g,g,per_100ml
+90.png,Eiweiss/proteines/protein,<0.1 g,g,per_serving
+90.png,Salz/sel/salt,0.16 g,g,per_100ml
+90.png,Magnesium/magnésium,56 mg,mg,Tagesration/ration journalier/daily ration
+91.png,Energy,234 (55),kJ,per_100ml
+91.png,Fatty Acids,0.7 g,g,per_100ml
+91.png,Saturated Fats,0.5 g,g,per_100ml
+91.png,Carbohydrates,4.1 g,g,per_100ml
+91.png,Sugars,8.5 g,g,per_100ml
+91.png,Protein,8.0 g,g,per_100ml
+91.png,Salt,0.10 g,g,per_100ml
+101.png,Energie,1625 kJ / 383 kcal,kJ / kcal,per_100g
+101.png,Fett,"0,8 g",g,per_serving
+101.png,Kohlenhydrate,"86,1 g",g,per_100g
+101.png,Ballaststoffe,"3,0 g",g,per_serving
+101.png,Eiweiß,"6,3 g",g,per_100g
+101.png,Salz,"0,09 g",g,per_serving
+101.png,Thiamin,"0,44 mg (88 %)",mg,per_100g
+102.png,Energie,1502 kJ / 356 kcal,kJ / kcal,per_100g
+102.png,Fett,"7,7 g",g,per_serving
+102.png,- davon gesättigte Fettsäuren,"1,1 g",g,per_100g
+102.png,Kohlenhydrate,63 g,g,per_serving
+102.png,- davon Zucker,31 g,g,per_100g
+102.png,Ballaststoffe,"5,1 g",g,per_serving
+102.png,Eiweiß,"5,9 g",g,per_100g
+102.png,Salz,"0,14 g",g,per_serving
+103.jpeg,Energie,1383kJ/228kcal,kJ/kcal,per_100g
+103.jpeg,Fett,"3,7g",g,per_100g
+104.jpeg,Energie,1528kJ,kcal,per_100g
+104.jpeg,Fett,2.6g,g,per_100g
+104.jpeg,Kohlenhydrate,72g,g,per_100g
+104.jpeg,Ballaststoffe,10g,g,per_100g
+104.jpeg,Eiweiß,3.2g,g,per_100g
+105.png,Energie,1320 kJ,kJ,Je 100 g
+105.png,Fett,"2,7 g",g,Je 100 g
+105.png,Kohlenhydrate,"52,1 g",g,Je 100 g
+105.png,Ballaststoffe,"15,5 g",g,Je 100 g
+105.png,Eiweiß,"7,0 g",g,Je 100 g
+105.png,Salz,"0,03 g",g,Je 100 g
+106.png,Vitamin E,12 mg α-TE,mg a-TE,per_100g
+106.png,Magnesium,250 mg,mg,per_daily_dose
+107.png,Vitamin B1,1.1,mg,per_100g
+107.png,Vitamin B2,1.4,mg,per_100g
+107.png,Vitamin B6,1.4,μg,per_100g
+107.png,Vitamin B12,2.5,μg,per_100g
+107.png,Vitamin C,80,mg,per_serving
+107.png,Vitamin E,12,mg α-TE,per_100g
+107.png,Niacin,50,μg,per_serving
+107.png,Biotin,200,μg,per_100g
+107.png,Folsäure,6,mg,per_serving
+108.jpeg,Magnesium,240,mg,per_100g
+108.jpeg,Vitamin B1,1.1,mg,per_serving
+108.jpeg,Vitamin B2,1.4,mg,per_serving
+108.jpeg,Vitamin B6,1.4,μg,per_100ml
+108.jpeg,Vitamin C,80,mg,per_serving
+108.jpeg,Vitamin E (α-TE),12,mg,per_100g
+108.jpeg,Niacin (NE),16,mg,per_serving
+108.jpeg,Biotin,50,μg,per_100ml
+108.jpeg,Folsäure,2009,μg,per_serving
+108.jpeg,Pantothenic Acid,6.0,mg,per_100ml
+109.jpeg,Energy,420 kJ / 99 kcal,kJ,per_100g
+109.jpeg,Fett,0 g,g,per_serving
+109.jpeg,Fettsäuren,"0,2 g",g,per_100g
+109.jpeg,Kohlenhydrate,"12,0 g",g,per_serving
+109.jpeg,- davon Zucker,"9,8 g",g,per_100g
+109.jpeg,Ballaststoffe,"1,5 g",g,per_serving
+109.jpeg,Eiweiß,"11,0 g",g,per_100g
+109.jpeg,Salz,"0,05 g",g,per_serving
+110.jpeg,Melissen Extrakt,15 mg,mg,per_100g
+110.jpeg,Niacin,8.0 mg NE,mg NE,per_daily_dose
+110.jpeg,Pantothenic Acid,3.0 mg,mg,per_100g
+111.jpeg,Vitamin B12,17.5,μg,per_daily_dose
+112.jpeg,Vitamin B12,17.5,µg,per_daily_dose
+113.jpeg,Energy,1546,kJ,per_100g
+113.jpeg,Fat,4.5,g,per_100g
+113.jpeg,Protein,72.7,g,per_100g
+114.jpeg,Energy,1541,kJ,per_100g
+114.jpeg,FAT,4.8 g,g,per_100g
+114.jpeg,Davon gesättigte Fettsäuren,3.3 g,g,per_100g
+114.jpeg,Kohlenhydrate,8.8 g,g,per_100g
+114.jpeg,Davon Zucker,4.1 g,g,per_100g
+114.jpeg,Ballaststoffe,2.8 g,g,per_100g
+114.jpeg,Eiweiß,70.1 g,g,per_100g
+114.jpeg,Salz,0.51 g,g,per_100g
+115.png,Fett,0 g,,per_100g
+115.png,davon gesättigte Fettsäuren,"0,2 g",,per_100g
+115.png,Kohlenhydrate,"12,0 g",,per_100g
+115.png,- davon Zucker,"10,0 g",,per_100g
+115.png,Ballaststoffe,"1,6 g",,per_100g
+115.png,Eiweiß,"11,0 g",,per_100g
+115.png,Salz,"0,05 g",,per_100g
+116.jpeg,Energy,1696/404,kJ/kcal,per_100g
+116.jpeg,Fat,12.0,g,per_serving
+117.jpeg,Energy,728/173,kJ/kcal,per_portion
+117.jpeg,Fatty Acids,6.1,g,per_portion
+117.jpeg,Saturated Fats,1.5,g,per_portion
+117.jpeg,Carbohydrates,16.7,g,per_portion
+117.jpeg,Sugars,13.5,g,per_portion
+117.jpeg,Fiber,4.0,g,per_portion
+117.jpeg,Protein,11.0,g,per_portion
+117.jpeg,Salt,0.04,g,per_portion
+118.jpeg,Energy,8.0,kJ/kcal,per_100g
+118.jpeg,Fats,2.6,g,per_serving
+119.jpeg,Energy,8.4 g,kJ/kcal,per_100g
+119.jpeg,Fat,2.4 g,g,per_serving
+119.jpeg,Saturated Fatty Acids,38 g,g,per_100g
+119.jpeg,Carbohydrates,3.2 g,g,per_serving
+119.jpeg,Sugars,17 g,g,per_100g
+119.jpeg,Alcoholic Substances,3.6 g,g,per_serving
+119.jpeg,Fiber,4.5 g,g,per_100g
+119.jpeg,Protein,24 g,g,per_serving
+119.jpeg,Salt,0.56 g,g,per_100g
+120.jpeg,Inositol,100,mg,per_10g
+120.jpeg,Alpha-liponsäure,42,mg,per_10g
+120.jpeg,Cholin,20,mg,per_10g
+120.jpeg,Rutin,20,mg,per_10g
+120.jpeg,Lactobacillus,3.6e+08,KBE,per_10g
+120.jpeg,Acidophilus,3.6e+08,KBE,per_10g
+120.jpeg,Bifidobacterium bifidum,3.6e+08,KBE,per_10g
+121.jpeg,Energy (KJ/KCAL),631/151,kJ/kcal,per_portion
+121.jpeg,Fat,5.2,g,per_portion
+121.jpeg,-Saturated Fatty Acids,2.9,g,per_portion
+121.jpeg,Carbohydrates,9.1,g,per_portion
+121.jpeg,-Sugars,2.2,g,per_portion
+121.jpeg,-Fatty Alcohols,6.7,g,per_portion
+121.jpeg,Fiber,7.9,g,per_portion
+121.jpeg,Protein,16,g,per_portion
+121.jpeg,Salt,0.09,g,per_portion
+201.jpeg,Energy,1642 kJ / 392 kcal,kJ / kcal,Per/Per/Pro Pour/W/Na/Per Na/Per Por/Per 100g
+201.jpeg,Fats,6.7 g,g,Por 30g
+201.jpeg,Saturated Fats,4.2 g,g,Per/Per/Pro Pour/W/Na/Per Na/Per Por/Per 100g
+201.jpeg,Carbohydrates,8.1 g,g,Por 30g
+201.jpeg,Sugars,7.7 g,g,Per/Per/Pro Pour/W/Na/Per Na/Per Por/Per 100g
+201.jpeg,Protein,23 g,g,Por 30g
+45_1.png,Protein,0.1,g,per_100g
+45_1.png,Fat,0,g,per_100g
+45_2.png,Energy,1567/374 kJ/kcal,kJ/kcaL,per_100g
+45_2.png,Fat,0 g,g,per_100g
+45_2.png,Carbohydrate,94 g,g,per_100g
+45_2.png,Protein,0.1 g,g,per_100g
+45_2.png,Salt,1.3 g,g,per_100g

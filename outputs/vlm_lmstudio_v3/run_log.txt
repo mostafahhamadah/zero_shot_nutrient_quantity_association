@@ -1,0 +1,36 @@
+Experiment  : vlm_lmstudio_v3
+Pipeline    : VLM-Assisted + Corrector V2 + EmbeddingSemanticClassifier (embedding_only)
+Corrector   : src.utils.paddleOCR_corrector_v2
+Classifier  : embedding_only
+Threshold   : 0.59
+Margin      : 0.04
+GT CSV      : test_set_normalized.csv
+Evaluator   : Fast rule-based
+Schema      : nutrient|quantity|unit|context
+VLM Backend : openai_compat
+VLM Model   : qwen/qwen2.5-vl-7b @ http://127.0.0.1:1234/v1/chat/completions
+VLM Image   : resized JPG, max side 896px
+VLM MaxTok  : 4096
+VLM Retries : 0
+Token Labels: ['CONTEXT', 'NUTRIENT', 'QUANTITY', 'UNIT']
+Structure   : False
+Timestamp   : 2026-05-13T08:26:26.665298
+Notes       : 
+
+GT tuples            : 866
+Predicted tuples     : 240
+Matched pairs        : 180
+Full 4F correct      : 61
+Full Tuple Precision : 25.4%
+Full Tuple Recall    : 7.0%
+Full Tuple F1        : 11.0%
+Nutrient F1          : 0.326
+Unit Acc             : 90.6%
+Context Acc          : 76.7%
+Quantity Acc         : 43.3%
+
+VLM total time        : 161.4s
+VLM avg/success image : 2.8s
+Total processing time : 376.6s
+Avg processing/image  : 6.6s
+Processing time CSV   : outputs\vlm_lmstudio_v3\processing_times.csv

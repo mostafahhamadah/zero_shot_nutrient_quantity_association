@@ -1,0 +1,33 @@
+{
+  "n_predictions": 471,
+  "n_ground_truth": 866,
+  "metrics": {
+    "experiment": "C_G1",
+    "timestamp": "2026-05-16T12:51:03.066040",
+    "notes": "ablation",
+    "evaluator": "LLM-Assisted (qwen2.5:7b)",
+    "schema": "nutrient|quantity|unit|context",
+    "images_evaluated": 57,
+    "gt_tuples": 866,
+    "predicted_tuples": 471,
+    "matched_pairs": 346,
+    "nutrient_precision": 0.7346,
+    "nutrient_recall": 0.3995,
+    "nutrient_f1": 0.5176,
+    "quantity_acc": 0.2572,
+    "unit_acc": 0.0058,
+    "context_acc": 0.0,
+    "full3f_correct": 0,
+    "full3f_precision": 0.0,
+    "full3f_recall": 0.0,
+    "full3f_f1": 0,
+    "full4f_correct": 0,
+    "full_tuple_precision": 0.0,
+    "full_tuple_recall": 0.0,
+    "full_tuple_f1": 0,
+    "context_cost_pp": 0,
+    "llm_calls": 0,
+    "fast_hits": 0,
+    "eval_time_s": 0.0
+  }
+}

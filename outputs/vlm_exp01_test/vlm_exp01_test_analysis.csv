@@ -1,0 +1,780 @@
+tag,image_id,gt_nutrient,gt_quantity,gt_unit,gt_context,pred_nutrient,pred_quantity,pred_unit,pred_context,reason
+missing,1.png,Magnesium (gesamt),400,mg,per_daily_dose,,,,,nutrient not found in predictions
+missing,101.png,Energy,1625,kJ,per_100g,,,,,nutrient not found in predictions
+missing,101.png,Energy,383,kcal,per_100g,,,,,nutrient not found in predictions
+missing,101.png,Fat,0.8,g,per_100g,,,,,nutrient not found in predictions
+missing,101.png,Saturated Fats,< 0.1,g,per_100g,,,,,nutrient not found in predictions
+missing,101.png,Carbohydrate,86.1,g,per_100g,,,,,nutrient not found in predictions
+missing,101.png,Sugars,8.9,g,per_100g,,,,,nutrient not found in predictions
+missing,101.png,Fibre,3.0,g,per_100g,,,,,nutrient not found in predictions
+missing,101.png,Protein,6.3,g,per_100g,,,,,nutrient not found in predictions
+missing,101.png,Salt,0.09,g,per_100g,,,,,nutrient not found in predictions
+missing,101.png,Vitamin B1,0.44,mg,per_100g,,,,,nutrient not found in predictions
+missing,101.png,Sodium,36,mg,per_100g,,,,,nutrient not found in predictions
+missing,102.png,Energy,1502,kJ,per_100g,,,,,nutrient not found in predictions
+missing,102.png,Energy,356,kcal,per_100g,,,,,nutrient not found in predictions
+missing,102.png,Fat,7.7,g,per_100g,,,,,nutrient not found in predictions
+missing,102.png,Saturated Fats,1.1,g,per_100g,,,,,nutrient not found in predictions
+missing,102.png,Carbohydrate,63,g,per_100g,,,,,nutrient not found in predictions
+missing,102.png,Sugars,31,g,per_100g,,,,,nutrient not found in predictions
+missing,102.png,Fibre,5.1,g,per_100g,,,,,nutrient not found in predictions
+missing,102.png,Protein,5.9,g,per_100g,,,,,nutrient not found in predictions
+missing,102.png,Salt,0.14,g,per_100g,,,,,nutrient not found in predictions
+missing,102.png,Energy,188,kJ,per_serving (1 Riegel* (12.5 g)),,,,,nutrient not found in predictions
+missing,102.png,Energy,45,kcal,per_serving (1 Riegel* (12.5 g)),,,,,nutrient not found in predictions
+missing,102.png,Fat,1.0,g,per_serving (1 Riegel* (12.5 g)),,,,,nutrient not found in predictions
+missing,102.png,Saturated Fats,0.1,g,per_serving (1 Riegel* (12.5 g)),,,,,nutrient not found in predictions
+missing,102.png,Carbohydrate,7.9,g,per_serving (1 Riegel* (12.5 g)),,,,,nutrient not found in predictions
+missing,102.png,Sugars,3.9,g,per_serving (1 Riegel* (12.5 g)),,,,,nutrient not found in predictions
+missing,102.png,Fibre,0.6,g,per_serving (1 Riegel* (12.5 g)),,,,,nutrient not found in predictions
+missing,102.png,Protein,0.7,g,per_serving (1 Riegel* (12.5 g)),,,,,nutrient not found in predictions
+missing,102.png,Salt,0.02,g,per_serving (1 Riegel* (12.5 g)),,,,,nutrient not found in predictions
+missing,103.jpeg,Energy,1383,kJ,per_100g,,,,,nutrient not found in predictions
+missing,103.jpeg,Energy,328,kcal,per_100g,,,,,nutrient not found in predictions
+missing,103.jpeg,Fat,3.7,g,per_100g,,,,,nutrient not found in predictions
+missing,103.jpeg,Saturated Fats,0.4,g,per_100g,,,,,nutrient not found in predictions
+missing,103.jpeg,Carbohydrate,51,g,per_100g,,,,,nutrient not found in predictions
+missing,103.jpeg,Sugars,51,g,per_100g,,,,,nutrient not found in predictions
+missing,103.jpeg,Fibre,16,g,per_100g,,,,,nutrient not found in predictions
+missing,103.jpeg,Protein,7.7,g,per_100g,,,,,nutrient not found in predictions
+missing,103.jpeg,Salt,0,g,per_100g,,,,,nutrient not found in predictions
+missing,103.jpeg,Energy,166,kJ,per_serving (pro Port. (12g)),,,,,nutrient not found in predictions
+missing,103.jpeg,Energy,39,kcal,per_serving (pro Port. (12g)),,,,,nutrient not found in predictions
+missing,103.jpeg,Fat,0.4,g,per_serving (pro Port. (12g)),,,,,nutrient not found in predictions
+missing,103.jpeg,Saturated Fats,0,g,per_serving (pro Port. (12g)),,,,,nutrient not found in predictions
+missing,103.jpeg,Carbohydrate,6.1,g,per_serving (pro Port. (12g)),,,,,nutrient not found in predictions
+missing,103.jpeg,Sugars,6.1,g,per_serving (pro Port. (12g)),,,,,nutrient not found in predictions
+missing,103.jpeg,Fibre,1.9,g,per_serving (pro Port. (12g)),,,,,nutrient not found in predictions
+missing,103.jpeg,Protein,0.9,g,per_serving (pro Port. (12g)),,,,,nutrient not found in predictions
+missing,103.jpeg,Salt,0,g,per_serving (pro Port. (12g)),,,,,nutrient not found in predictions
+missing,104.jpeg,Energy,1528,kJ,per_100g,,,,,nutrient not found in predictions
+missing,104.jpeg,Energy,361,kcal,per_100g,,,,,nutrient not found in predictions
+missing,104.jpeg,Fat,2.6,g,per_100g,,,,,nutrient not found in predictions
+missing,104.jpeg,Saturated Fats,0.6,g,per_100g,,,,,nutrient not found in predictions
+missing,104.jpeg,Carbohydrate,72,g,per_100g,,,,,nutrient not found in predictions
+missing,104.jpeg,Sugars,72,g,per_100g,,,,,nutrient not found in predictions
+missing,104.jpeg,Fibre,10,g,per_100g,,,,,nutrient not found in predictions
+missing,104.jpeg,Protein,3.2,g,per_100g,,,,,nutrient not found in predictions
+missing,104.jpeg,Salt,0.1,g,per_100g,,,,,nutrient not found in predictions
+missing,104.jpeg,Energy,214,kJ,per_serving (pro Port. (14g)),,,,,nutrient not found in predictions
+missing,104.jpeg,Energy,51,kcal,per_serving (pro Port. (14g)),,,,,nutrient not found in predictions
+missing,104.jpeg,Fat,0,g,per_serving (pro Port. (14g)),,,,,nutrient not found in predictions
+missing,104.jpeg,Saturated Fats,0,g,per_serving (pro Port. (14g)),,,,,nutrient not found in predictions
+missing,104.jpeg,Carbohydrate,10,g,per_serving (pro Port. (14g)),,,,,nutrient not found in predictions
+missing,104.jpeg,Sugars,10,g,per_serving (pro Port. (14g)),,,,,nutrient not found in predictions
+missing,104.jpeg,Fibre,1.4,g,per_serving (pro Port. (14g)),,,,,nutrient not found in predictions
+missing,104.jpeg,Protein,0,g,per_serving (pro Port. (14g)),,,,,nutrient not found in predictions
+missing,104.jpeg,Salt,0,g,per_serving (pro Port. (14g)),,,,,nutrient not found in predictions
+missing,105.png,Energy,1320,kJ,per_100g,,,,,nutrient not found in predictions
+missing,105.png,Energy,313,kcal,per_100g,,,,,nutrient not found in predictions
+missing,105.png,Fat,2.7,g,per_100g,,,,,nutrient not found in predictions
+missing,105.png,Saturated Fats,0.4,g,per_100g,,,,,nutrient not found in predictions
+missing,105.png,Carbohydrate,52.1,g,per_100g,,,,,nutrient not found in predictions
+missing,105.png,Sugars,51.4,g,per_100g,,,,,nutrient not found in predictions
+missing,105.png,Fibre,15.5,g,per_100g,,,,,nutrient not found in predictions
+missing,105.png,Protein,7.0,g,per_100g,,,,,nutrient not found in predictions
+missing,105.png,Salt,0.03,g,per_100g,,,,,nutrient not found in predictions
+missing,105.png,Energy,158,kJ,per_serving (1 Portion* (12 g)),,,,,nutrient not found in predictions
+missing,105.png,Energy,38,kcal,per_serving (1 Portion* (12 g)),,,,,nutrient not found in predictions
+missing,105.png,Fat,0.3,g,per_serving (1 Portion* (12 g)),,,,,nutrient not found in predictions
+missing,105.png,Saturated Fats,0.0,g,per_serving (1 Portion* (12 g)),,,,,nutrient not found in predictions
+missing,105.png,Carbohydrate,6.3,g,per_serving (1 Portion* (12 g)),,,,,nutrient not found in predictions
+missing,105.png,Sugars,6.2,g,per_serving (1 Portion* (12 g)),,,,,nutrient not found in predictions
+missing,105.png,Fibre,1.9,g,per_serving (1 Portion* (12 g)),,,,,nutrient not found in predictions
+missing,105.png,Protein,0.8,g,per_serving (1 Portion* (12 g)),,,,,nutrient not found in predictions
+missing,105.png,Salt,0.00,g,per_serving (1 Portion* (12 g)),,,,,nutrient not found in predictions
+incorrect,106.png,Vitamin E,12,mg α-TE,per_serving (Pro Stick),Vitamin E,12,mg α-TE,per_daily_dose,context: got per_daily_dose expected per_serving (Pro Stick)
+incorrect,106.png,Magnesium,250,mg,per_serving (Pro Stick),Magnesium,250,mg,per_daily_dose,context: got per_daily_dose expected per_serving (Pro Stick)
+missing,107.png,Folic Acid,200,µg,per_daily_dose (1 Tablette (4.3 g)*),,,,,nutrient not found in predictions
+missing,107.png,Pantothenic Acid,6,mg,per_daily_dose (1 Tablette (4.3 g)*),,,,,nutrient not found in predictions
+incorrect,108.jpeg,Vitamin E,12,mg,per_daily_dose (1 Tablette (5.6 g)*),Vitamin E (α-TE),12,mg,per_daily_dose,nutrient: no match
+incorrect,108.jpeg,Niacin,16,mg,per_daily_dose (1 Tablette (5.6 g)*),Niacin (NE),16,mg,per_daily_dose,nutrient: no match
+missing,108.jpeg,Folic Acid,200,µg,per_daily_dose (1 Tablette (5.6 g)*),,,,,nutrient not found in predictions
+missing,108.jpeg,Pantothenic Acid,6.0,mg,per_daily_dose (1 Tablette (5.6 g)*),,,,,nutrient not found in predictions
+incorrect,113.jpeg,Energy,369,kcal,per_100g,energy,11,kcal,per_serving,qty: got 11 expected 369 | context: got per_serving expected per_100g
+incorrect,113.jpeg,Fat,4.5,g,per_100g,fat,2,g,per_serving,qty: got 2 expected 4.5 | context: got per_serving expected per_100g
+incorrect,113.jpeg,Salt,0.53,g,per_100g,salt,3,g,per_serving,qty: got 3 expected 0.53 | context: got per_serving expected per_100g
+missing,113.jpeg,Energy,1546,kJ,per_100g,,,,,nutrient not found in predictions
+missing,113.jpeg,Saturated Fats,3.1,g,per_100g,,,,,nutrient not found in predictions
+missing,113.jpeg,Carbohydrate,7.7,g,per_100g,,,,,nutrient not found in predictions
+missing,113.jpeg,Sugars,3.9,g,per_100g,,,,,nutrient not found in predictions
+missing,113.jpeg,Fibre,1.9,g,per_100g,,,,,nutrient not found in predictions
+missing,113.jpeg,Protein,72.7,g,per_100g,,,,,nutrient not found in predictions
+missing,113.jpeg,Caffeine,267,mg,per_100g,,,,,nutrient not found in predictions
+missing,113.jpeg,Energy,464,kJ,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+missing,113.jpeg,Energy,111,kcal,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+missing,113.jpeg,Fat,1.3,g,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+missing,113.jpeg,Saturated Fats,0.9,g,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+missing,113.jpeg,Carbohydrate,2.3,g,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+missing,113.jpeg,Sugars,1.2,g,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+missing,113.jpeg,Fibre,0.6,g,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+missing,113.jpeg,Protein,21.8,g,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+missing,113.jpeg,Salt,0.17,g,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+incorrect,114.jpeg,Energy,368,kcal,per_100g,energy,368,g,per_100g,unit: got g expected kcal
+incorrect,114.jpeg,Energy,111,kcal,per_serving (30 g PULVER IN 250ml WASSER),energy,111,g,per_serving,unit: got g expected kcal
+incorrect,114.jpeg,Energy,1541,kJ,per_100g,energy,6,g,per_serving,qty: got 6 expected 1541 | unit: got g expected kJ | context: got per_serving expected per_100g
+missing,114.jpeg,Fat,4.8,g,per_100g,,,,,nutrient not found in predictions
+missing,114.jpeg,Saturated Fats,3.3,g,per_100g,,,,,nutrient not found in predictions
+missing,114.jpeg,Carbohydrate,8.8,g,per_100g,,,,,nutrient not found in predictions
+missing,114.jpeg,Sugars,4.1,g,per_100g,,,,,nutrient not found in predictions
+missing,114.jpeg,Fibre,2.8,g,per_100g,,,,,nutrient not found in predictions
+missing,114.jpeg,Protein,70.1,g,per_100g,,,,,nutrient not found in predictions
+missing,114.jpeg,Fat,1.4,g,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+missing,114.jpeg,Saturated Fats,1.0,g,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+missing,114.jpeg,Carbohydrate,2.6,g,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+missing,114.jpeg,Sugars,1.2,g,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+missing,114.jpeg,Fibre,0.9,g,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+missing,114.jpeg,Protein,21.0,g,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+missing,114.jpeg,Salt,0.17,g,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+missing,114.jpeg,Caffeine,80,mg,per_serving (30 g PULVER IN 250ml WASSER),,,,,nutrient not found in predictions
+missing,115.png,Energy,438,kJ,per_100g,,,,,nutrient not found in predictions
+missing,115.png,Energy,103,kcal,per_100g,,,,,nutrient not found in predictions
+missing,115.png,Fat,0,g,per_100g,,,,,nutrient not found in predictions
+missing,115.png,Saturated Fats,0.2,g,per_100g,,,,,nutrient not found in predictions
+missing,115.png,Carbohydrate,12.0,g,per_100g,,,,,nutrient not found in predictions
+missing,115.png,Sugars,10.0,g,per_100g,,,,,nutrient not found in predictions
+missing,115.png,Fibre,1.6,g,per_100g,,,,,nutrient not found in predictions
+missing,115.png,Protein,11.0,g,per_100g,,,,,nutrient not found in predictions
+missing,115.png,Salt,0.05,g,per_100g,,,,,nutrient not found in predictions
+missing,116.jpeg,Energy,1696,kJ,per_100g,,,,,nutrient not found in predictions
+missing,116.jpeg,Energy,404,kcal,per_100g,,,,,nutrient not found in predictions
+missing,116.jpeg,Fat,12.0,g,per_100g,,,,,nutrient not found in predictions
+missing,116.jpeg,Saturated Fats,1.4,g,per_100g,,,,,nutrient not found in predictions
+missing,116.jpeg,Carbohydrate,27.0,g,per_100g,,,,,nutrient not found in predictions
+missing,116.jpeg,Sugars,4.6,g,per_100g,,,,,nutrient not found in predictions
+missing,116.jpeg,Fibre,12.0,g,per_100g,,,,,nutrient not found in predictions
+missing,116.jpeg,Protein,41.0,g,per_100g,,,,,nutrient not found in predictions
+missing,116.jpeg,Salt,2.02,g,per_100g,,,,,nutrient not found in predictions
+missing,116.jpeg,Energy,509,kJ,per_serving (PORTION**),,,,,nutrient not found in predictions
+missing,116.jpeg,Energy,121,kcal,per_serving (PORTION**),,,,,nutrient not found in predictions
+missing,116.jpeg,Fat,3.5,g,per_serving (PORTION**),,,,,nutrient not found in predictions
+missing,116.jpeg,Saturated Fats,0.4,g,per_serving (PORTION**),,,,,nutrient not found in predictions
+missing,116.jpeg,Carbohydrate,8.2,g,per_serving (PORTION**),,,,,nutrient not found in predictions
+missing,116.jpeg,Sugars,1.4,g,per_serving (PORTION**),,,,,nutrient not found in predictions
+missing,116.jpeg,Fibre,3.7,g,per_serving (PORTION**),,,,,nutrient not found in predictions
+missing,116.jpeg,Protein,12.0,g,per_serving (PORTION**),,,,,nutrient not found in predictions
+missing,116.jpeg,Salt,0.61,g,per_serving (PORTION**),,,,,nutrient not found in predictions
+incorrect,117.jpeg,Energy,728,kJ,per_serving (45 g),energy,728,kJ/kcal,per_serving,unit: got kJ/kcal expected kJ
+missing,117.jpeg,Energy,173,kcal,per_serving (45 g),,,,,nutrient not found in predictions
+missing,117.jpeg,Saturated Fats,1.5,g,per_serving (45 g),,,,,nutrient not found in predictions
+missing,117.jpeg,Sugars,13.5,g,per_serving (45 g),,,,,nutrient not found in predictions
+missing,118.jpeg,Energy,1440,kJ,per_100g,,,,,nutrient not found in predictions
+missing,118.jpeg,Energy,344,kcal,per_100g,,,,,nutrient not found in predictions
+missing,118.jpeg,Fat,10,g,per_100g,,,,,nutrient not found in predictions
+missing,118.jpeg,Saturated Fats,2.6,g,per_100g,,,,,nutrient not found in predictions
+missing,118.jpeg,Carbohydrate,48,g,per_100g,,,,,nutrient not found in predictions
+missing,118.jpeg,Sugars,4.0,g,per_100g,,,,,nutrient not found in predictions
+missing,118.jpeg,Sugar Alcohols,21,g,per_100g,,,,,nutrient not found in predictions
+missing,118.jpeg,Fibre,3.0,g,per_100g,,,,,nutrient not found in predictions
+missing,118.jpeg,Protein,24,g,per_100g,,,,,nutrient not found in predictions
+missing,118.jpeg,Salt,0.70,g,per_100g,,,,,nutrient not found in predictions
+missing,118.jpeg,Energy,1152,kJ,per_serving (80 g),,,,,nutrient not found in predictions
+missing,118.jpeg,Energy,275,kcal,per_serving (80 g),,,,,nutrient not found in predictions
+missing,118.jpeg,Fat,8.0,g,per_serving (80 g),,,,,nutrient not found in predictions
+missing,118.jpeg,Saturated Fats,2.1,g,per_serving (80 g),,,,,nutrient not found in predictions
+missing,118.jpeg,Carbohydrate,38,g,per_serving (80 g),,,,,nutrient not found in predictions
+missing,118.jpeg,Sugars,3.2,g,per_serving (80 g),,,,,nutrient not found in predictions
+missing,118.jpeg,Sugar Alcohols,17,g,per_serving (80 g),,,,,nutrient not found in predictions
+missing,118.jpeg,Fibre,2.4,g,per_serving (80 g),,,,,nutrient not found in predictions
+missing,118.jpeg,Protein,19,g,per_serving (80 g),,,,,nutrient not found in predictions
+missing,118.jpeg,Salt,0.56,g,per_serving (80 g),,,,,nutrient not found in predictions
+missing,119.jpeg,Energy,1471,kJ,per_100g,,,,,nutrient not found in predictions
+missing,119.jpeg,Energy,352,kcal,per_100g,,,,,nutrient not found in predictions
+missing,119.jpeg,Fat,11,g,per_100g,,,,,nutrient not found in predictions
+missing,119.jpeg,Saturated Fats,3.0,g,per_100g,,,,,nutrient not found in predictions
+missing,119.jpeg,Carbohydrate,47,g,per_100g,,,,,nutrient not found in predictions
+missing,119.jpeg,Sugars,4.0,g,per_100g,,,,,nutrient not found in predictions
+missing,119.jpeg,Sugar Alcohols,21,g,per_100g,,,,,nutrient not found in predictions
+missing,119.jpeg,Fibre,4.5,g,per_100g,,,,,nutrient not found in predictions
+missing,119.jpeg,Protein,24,g,per_100g,,,,,nutrient not found in predictions
+missing,119.jpeg,Salt,0.70,g,per_100g,,,,,nutrient not found in predictions
+missing,119.jpeg,Energy,1177,kJ,per_serving (80 g),,,,,nutrient not found in predictions
+missing,119.jpeg,Energy,282,kcal,per_serving (80 g),,,,,nutrient not found in predictions
+missing,119.jpeg,Fat,8.4,g,per_serving (80 g),,,,,nutrient not found in predictions
+missing,119.jpeg,Saturated Fats,2.4,g,per_serving (80 g),,,,,nutrient not found in predictions
+missing,119.jpeg,Carbohydrate,38,g,per_serving (80 g),,,,,nutrient not found in predictions
+missing,119.jpeg,Sugars,3.2,g,per_serving (80 g),,,,,nutrient not found in predictions
+missing,119.jpeg,Sugar Alcohols,17,g,per_serving (80 g),,,,,nutrient not found in predictions
+missing,119.jpeg,Fibre,3.6,g,per_serving (80 g),,,,,nutrient not found in predictions
+missing,119.jpeg,Protein,19,g,per_serving (80 g),,,,,nutrient not found in predictions
+missing,119.jpeg,Salt,0.56,g,per_serving (80 g),,,,,nutrient not found in predictions
+missing,12.png,Energy,547,kJ,per_100ml,,,,,nutrient not found in predictions
+missing,12.png,Energy,129,kcal,per_100ml,,,,,nutrient not found in predictions
+missing,12.png,Fat,0.0,g,per_100ml,,,,,nutrient not found in predictions
+missing,12.png,Saturated Fats,0.0,g,per_100ml,,,,,nutrient not found in predictions
+missing,12.png,Carbohydrate,32,g,per_100ml,,,,,nutrient not found in predictions
+missing,12.png,Sugars,1.1,g,per_100ml,,,,,nutrient not found in predictions
+missing,12.png,Protein,0.1,g,per_100ml,,,,,nutrient not found in predictions
+missing,12.png,Salt,0.6,g,per_100ml,,,,,nutrient not found in predictions
+missing,12.png,Energy,328,kJ,per_serving (60ml),,,,,nutrient not found in predictions
+missing,12.png,Energy,77,kcal,per_serving (60ml),,,,,nutrient not found in predictions
+missing,12.png,Fat,0.0,g,per_serving (60ml),,,,,nutrient not found in predictions
+missing,12.png,Saturated Fats,0.0,g,per_serving (60ml),,,,,nutrient not found in predictions
+missing,12.png,Carbohydrate,19,g,per_serving (60ml),,,,,nutrient not found in predictions
+missing,12.png,Sugars,0.7,g,per_serving (60ml),,,,,nutrient not found in predictions
+missing,12.png,Protein,0.0,g,per_serving (60ml),,,,,nutrient not found in predictions
+missing,12.png,Salt,0.4,g,per_serving (60ml),,,,,nutrient not found in predictions
+missing,120.jpeg,Inositol,100,mg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Alpha-Liponsäure,42,mg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Choline,20,mg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Rutin,20,mg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Lactobacillus Acidophilus,3.6 x 10^8,KBE,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Bifidobacterium Bifidum,3.6 x 10^8,KBE,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Vitamin C,250,mg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Niacin,16,mg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Vitamin E,30,mg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Pantothenic Acid,5,mg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Vitamin B6,0.9,mg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Vitamin B2,1.1,mg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Vitamin B1,1,mg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Folic Acid,200,µg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Biotin,40,µg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Vitamin B12,4.1,µg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Vitamin D3,5.2,µg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Vitamin K,60.4,µg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Calcium,121,mg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Zinc,6.5,mg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Iodine,100,µg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Selenium,22,µg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Copper,1,mg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Manganese,0.4,mg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Chromium,25,µg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,120.jpeg,Molybdenum,45,µg,per_daily_dose (10 G),,,,,nutrient not found in predictions
+missing,121.jpeg,Energy,1.401,kJ,per_100g,,,,,nutrient not found in predictions
+missing,121.jpeg,Energy,336,kcal,per_100g,,,,,nutrient not found in predictions
+missing,121.jpeg,Fat,12,g,per_100g,,,,,nutrient not found in predictions
+missing,121.jpeg,Saturated Fats,6.5,g,per_100g,,,,,nutrient not found in predictions
+missing,121.jpeg,Carbohydrate,20,g,per_100g,,,,,nutrient not found in predictions
+missing,121.jpeg,Sugars,4.9,g,per_100g,,,,,nutrient not found in predictions
+missing,121.jpeg,Sugar Alcohols,15,g,per_100g,,,,,nutrient not found in predictions
+missing,121.jpeg,Fibre,18,g,per_100g,,,,,nutrient not found in predictions
+missing,121.jpeg,Protein,35,g,per_100g,,,,,nutrient not found in predictions
+missing,121.jpeg,Salt,0.20,g,per_100g,,,,,nutrient not found in predictions
+missing,121.jpeg,Energy,631,kJ,per_serving (45g),,,,,nutrient not found in predictions
+missing,121.jpeg,Energy,151,kcal,per_serving (45g),,,,,nutrient not found in predictions
+missing,121.jpeg,Fat,5.2,g,per_serving (45g),,,,,nutrient not found in predictions
+missing,121.jpeg,Saturated Fats,2.9,g,per_serving (45g),,,,,nutrient not found in predictions
+missing,121.jpeg,Carbohydrate,9.1,g,per_serving (45g),,,,,nutrient not found in predictions
+missing,121.jpeg,Sugars,2.2,g,per_serving (45g),,,,,nutrient not found in predictions
+missing,121.jpeg,Sugar Alcohols,6.7,g,per_serving (45g),,,,,nutrient not found in predictions
+missing,121.jpeg,Fibre,7.9,g,per_serving (45g),,,,,nutrient not found in predictions
+missing,121.jpeg,Protein,16,g,per_serving (45g),,,,,nutrient not found in predictions
+missing,121.jpeg,Salt,0.09,g,per_serving (45g),,,,,nutrient not found in predictions
+missing,15.png,Energy,161,kJ,per_100g,,,,,nutrient not found in predictions
+missing,15.png,Energy,38,kcal,per_100g,,,,,nutrient not found in predictions
+missing,15.png,Fat,0,g,per_100g,,,,,nutrient not found in predictions
+missing,15.png,Saturated Fats,0,g,per_100g,,,,,nutrient not found in predictions
+missing,15.png,Carbohydrate,13.1,g,per_100g,,,,,nutrient not found in predictions
+missing,15.png,Sugars,0.5,g,per_100g,,,,,nutrient not found in predictions
+missing,15.png,Protein,0,g,per_100g,,,,,nutrient not found in predictions
+missing,15.png,Salt,15.0,g,per_100g,,,,,nutrient not found in predictions
+missing,15.png,Sodium,5.952,mg,per_100g,,,,,nutrient not found in predictions
+missing,15.png,Potassium,3571,mg,per_100g,,,,,nutrient not found in predictions
+missing,15.png,Chloride,4762,mg,per_100g,,,,,nutrient not found in predictions
+missing,15.png,Magnesium,670,mg,per_100g,,,,,nutrient not found in predictions
+missing,15.png,Calcium,1428,mg,per_100g,,,,,nutrient not found in predictions
+missing,15.png,Caffeine,1785,mg,per_100g,,,,,nutrient not found in predictions
+missing,15.png,Energy,6.8,kJ,per_serving (4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Energy,1.6,kcal,per_serving (4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Fat,0,g,per_serving (4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Saturated Fats,0,g,per_serving (4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Carbohydrate,0.6,g,per_serving (4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Sugars,0,g,per_serving (4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Protein,0,g,per_serving (4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Salt,0.63,g,per_serving (4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Sodium,250,mg,per_serving (4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Potassium,150,mg,per_serving (4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Chloride,200,mg,per_serving (4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Magnesium,28.1,mg,per_serving (4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Calcium,60,mg,per_serving (4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Caffeine,75.0,mg,per_serving (4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Energy,13.6,kJ,per_daily_dose (2 x 4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Energy,3.2,kcal,per_daily_dose (2 x 4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Fat,0,g,per_daily_dose (2 x 4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Saturated Fats,0,g,per_daily_dose (2 x 4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Carbohydrate,1.1,g,per_daily_dose (2 x 4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Sugars,0,g,per_daily_dose (2 x 4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Protein,0,g,per_daily_dose (2 x 4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Salt,1.26,g,per_daily_dose (2 x 4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Sodium,500,mg,per_daily_dose (2 x 4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Potassium,300,mg,per_daily_dose (2 x 4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Chloride,400,mg,per_daily_dose (2 x 4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Magnesium,56.3,mg,per_daily_dose (2 x 4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Calcium,120,mg,per_daily_dose (2 x 4.2 g),,,,,nutrient not found in predictions
+missing,15.png,Caffeine,150,mg,per_daily_dose (2 x 4.2 g),,,,,nutrient not found in predictions
+missing,17.png,Niacin,2.4,mg NE,per_serving (piece),,,,,nutrient not found in predictions
+incorrect,2.png,Energy,1195,kJ,per_100g,Energie/energy kJ (kcal),1195,kJ,per_100g,nutrient: no match
+incorrect,2.png,Fat,0,g,per_100g,Fett/fat,0,g,per_100g,nutrient: no match
+incorrect,2.png,Carbohydrate,70,g,per_100g,Kohlenhydrate/carbohydrates,70,g,per_100g,nutrient: no match
+incorrect,2.png,Sugars,33,g,per_100g,davon Zuckerarten/of which sugars,33,g,per_100g,nutrient: no match
+incorrect,2.png,Protein,0,g,per_100g,Eiweiss/Protein,0,g,per_100g,nutrient: no match
+incorrect,2.png,Salt,0.43,g,per_100g,Salz/salt,0.43,g,per_100g,nutrient: no match
+incorrect,2.png,Energy,837,kJ,per_serving (1 Tube (70g)),Energie/energy kJ (kcal),837,kJ,per_daily_dose,nutrient: no match | context: got per_daily_dose expected per_serving (1 Tube (70g))
+incorrect,2.png,Fat,0,g,per_serving (1 Tube (70g)),Fett/fat,0,g,per_daily_dose,nutrient: no match | context: got per_daily_dose expected per_serving (1 Tube (70g))
+incorrect,2.png,Carbohydrate,50,g,per_serving (1 Tube (70g)),Kohlenhydrate/carbohydrates,50,g,per_daily_dose,nutrient: no match | context: got per_daily_dose expected per_serving (1 Tube (70g))
+incorrect,2.png,Sugars,25,g,per_serving (1 Tube (70g)),davon Zuckerarten/of which sugars,25,g,per_daily_dose,nutrient: no match | context: got per_daily_dose expected per_serving (1 Tube (70g))
+incorrect,2.png,Protein,0,g,per_serving (1 Tube (70g)),Eiweiss/Protein,0,g,per_daily_dose,nutrient: no match | context: got per_daily_dose expected per_serving (1 Tube (70g))
+incorrect,2.png,Salt,0.30,g,per_serving (1 Tube (70g)),Salz/salt,0.30,g,per_daily_dose,nutrient: no match | context: got per_daily_dose expected per_serving (1 Tube (70g))
+missing,2.png,Energy,281,kcal,per_100g,,,,,nutrient not found in predictions
+missing,2.png,Saturated Fats,0,g,per_100g,,,,,nutrient not found in predictions
+missing,2.png,Energy,197,kcal,per_serving (1 Tube (70g)),,,,,nutrient not found in predictions
+missing,2.png,Saturated Fats,0,g,per_serving (1 Tube (70g)),,,,,nutrient not found in predictions
+missing,20.png,Energy,1474,kJ,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Energy,346,kcal,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Protein,0.1,g,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Carbohydrate,78.1,g,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Fat,0.5,g,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Sodium,667,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Potassium,667,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Calcium,800,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Magnesium,300,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Chloride,667,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Phosphorus,800,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Selenium,200,µg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Caffeine,250,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Vitamin C,800,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Niacin,240,mg NE,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Vitamin E,67,mg α-TE,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Pantothenic Acid,40,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Vitamin B6,13.3,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Vitamin B2,10.7,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Vitamin B1,9.3,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Folic Acid,1333,µg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Vitamin B12,6.7,µg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Biotin,1000,µg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Vitamin A,2220,µg RE,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,20.png,Energy,223,kJ,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Energy,52,kcal,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Protein,0.1,g,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Carbohydrate,11.7,g,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Fat,0.1,g,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Sodium,100,mg,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Potassium,100,mg,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Calcium,120,mg,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Magnesium,45,mg,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Chloride,120,mg,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Phosphorus,120,mg,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Selenium,33,µg,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Caffeine,37.5,mg,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Vitamin C,37.5,mg,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Niacin,16,mg NE,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Vitamin E,10,mg α-TE,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Pantothenic Acid,6,mg,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Vitamin B6,1,mg,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Vitamin B2,1.6,mg,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Vitamin B1,200,µg,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Folic Acid,200,µg,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Vitamin B12,1,µg,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Biotin,153,µg,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,20.png,Vitamin A,225,µg RE,per_daily_dose (1 Portion = 15 g),,,,,nutrient not found in predictions
+missing,201.jpeg,Energy,1642,kJ,per_100g,,,,,nutrient not found in predictions
+missing,201.jpeg,Energy,392,kcal,per_100g,,,,,nutrient not found in predictions
+missing,201.jpeg,Fat,6.7,g,per_100g,,,,,nutrient not found in predictions
+missing,201.jpeg,Saturated Fats,4.2,g,per_100g,,,,,nutrient not found in predictions
+missing,201.jpeg,Carbohydrate,8.1,g,per_100g,,,,,nutrient not found in predictions
+missing,201.jpeg,Sugars,7.7,g,per_100g,,,,,nutrient not found in predictions
+missing,201.jpeg,Protein,77,g,per_100g,,,,,nutrient not found in predictions
+missing,201.jpeg,Salt,0.05,g,per_100g,,,,,nutrient not found in predictions
+missing,201.jpeg,Energy,493,kJ,per_serving (30 g (1 Scoop)),,,,,nutrient not found in predictions
+missing,201.jpeg,Energy,118,kcal,per_serving (30 g (1 Scoop)),,,,,nutrient not found in predictions
+missing,201.jpeg,Fat,2,g,per_serving (30 g (1 Scoop)),,,,,nutrient not found in predictions
+missing,201.jpeg,Saturated Fats,1.3,g,per_serving (30 g (1 Scoop)),,,,,nutrient not found in predictions
+missing,201.jpeg,Carbohydrate,2.4,g,per_serving (30 g (1 Scoop)),,,,,nutrient not found in predictions
+missing,201.jpeg,Sugars,2.3,g,per_serving (30 g (1 Scoop)),,,,,nutrient not found in predictions
+missing,201.jpeg,Protein,23,g,per_serving (30 g (1 Scoop)),,,,,nutrient not found in predictions
+missing,201.jpeg,Salt,0.02,g,per_serving (30 g (1 Scoop)),,,,,nutrient not found in predictions
+incorrect,26.png,Saturated Fats,0,g,per_100g,Saturated fats,56,g,per_100g,qty: got 56 expected 0
+incorrect,26.png,Carbohydrate,56,g,per_100g,Carbohydrate,7,g,per_100g,qty: got 7 expected 56
+incorrect,26.png,Sugars,7,g,per_100g,Sugars,3.5,g,per_100g,qty: got 3.5 expected 7
+incorrect,26.png,Protein,3.5,g,per_100g,Protein,0.11,g,per_100g,qty: got 0.11 expected 3.5
+incorrect,26.png,Salt,0.11,g,per_100g,Salt,0,g,per_100g,qty: got 0 expected 0.11
+incorrect,26.png,Energy,942,kJ,per_100g,Energy,942/255,kJ/KCAL,per_100g,qty: got 942/255 expected 942 | unit: got kJ/KCAL expected kJ
+missing,26.png,Energy,225,kcal,per_100g,,,,,nutrient not found in predictions
+missing,27.png,Energy,1254,kJ,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,27.png,Energy,300,kcal,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,27.png,Protein,0.1,g,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,27.png,Carbohydrate,49,g,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,27.png,Fat,0.5,g,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,27.png,Calcium,4000,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,27.png,Magnesium,2000,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,27.png,Zinc,75,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,27.png,Copper,10000,µg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,27.png,Manganese,15,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,27.png,Chromium,896,µg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,27.png,Selenium,251,µg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,27.png,Vitamin D,37,µg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,30.png,Energy,907,kJ,per_serving (Per Bar 55g),,,,,nutrient not found in predictions
+missing,30.png,Energy,215,kcal,per_serving (Per Bar 55g),,,,,nutrient not found in predictions
+missing,30.png,Protein,2.7,g,per_serving (Per Bar 55g),,,,,nutrient not found in predictions
+missing,30.png,Fat,5.0,g,per_serving (Per Bar 55g),,,,,nutrient not found in predictions
+missing,30.png,Saturated Fats,2.7,g,per_serving (Per Bar 55g),,,,,nutrient not found in predictions
+missing,30.png,Carbohydrate,39,g,per_serving (Per Bar 55g),,,,,nutrient not found in predictions
+missing,30.png,Sugars,19,g,per_serving (Per Bar 55g),,,,,nutrient not found in predictions
+missing,30.png,Fibre,2.0,g,per_serving (Per Bar 55g),,,,,nutrient not found in predictions
+missing,30.png,Sodium,70,mg,per_serving (Per Bar 55g),,,,,nutrient not found in predictions
+missing,30.png,Energy,1649,kJ,per_100g,,,,,nutrient not found in predictions
+missing,30.png,Energy,391,kcal,per_100g,,,,,nutrient not found in predictions
+missing,30.png,Protein,4.8,g,per_100g,,,,,nutrient not found in predictions
+missing,30.png,Fat,9.1,g,per_100g,,,,,nutrient not found in predictions
+missing,30.png,Saturated Fats,4.9,g,per_100g,,,,,nutrient not found in predictions
+missing,30.png,Carbohydrate,71,g,per_100g,,,,,nutrient not found in predictions
+missing,30.png,Sugars,35,g,per_100g,,,,,nutrient not found in predictions
+missing,30.png,Fibre,3.6,g,per_100g,,,,,nutrient not found in predictions
+missing,30.png,Sodium,130,mg,per_100g,,,,,nutrient not found in predictions
+incorrect,33.png,Energy,1660,kJ,per_100g,energy,1660,g,per_serving,unit: got g expected kJ | context: got per_serving expected per_100g
+incorrect,33.png,Potassium,55,mg,per_100g,potassium,105,mg,per_serving,qty: got 105 expected 55 | context: got per_serving expected per_100g
+incorrect,33.png,Chloride,140,mg,per_100g,chloride,100,ml,per_serving,qty: got 100 expected 140 | unit: got ml expected mg | context: got per_serving expected per_100g
+missing,33.png,Energy,390,kcal,per_100g,,,,,nutrient not found in predictions
+missing,33.png,Fat,0,g,per_100g,,,,,nutrient not found in predictions
+missing,33.png,Saturated Fats,0,g,per_100g,,,,,nutrient not found in predictions
+missing,33.png,Carbohydrate,97,g,per_100g,,,,,nutrient not found in predictions
+missing,33.png,Sugars,56,g,per_100g,,,,,nutrient not found in predictions
+missing,33.png,Protein,0,g,per_100g,,,,,nutrient not found in predictions
+missing,33.png,Salt,0.53,g,per_100g,,,,,nutrient not found in predictions
+missing,33.png,Sodium,210,mg,per_100g,,,,,nutrient not found in predictions
+missing,33.png,Calcium,35,mg,per_100g,,,,,nutrient not found in predictions
+missing,33.png,Magnesium,25,mg,per_100g,,,,,nutrient not found in predictions
+missing,33.png,Energy,1245,kJ,per_serving (75 g (300 ml)),,,,,nutrient not found in predictions
+missing,33.png,Energy,293,kcal,per_serving (75 g (300 ml)),,,,,nutrient not found in predictions
+missing,33.png,Carbohydrate,73,g,per_serving (75 g (300 ml)),,,,,nutrient not found in predictions
+missing,33.png,Sugars,42,g,per_serving (75 g (300 ml)),,,,,nutrient not found in predictions
+missing,33.png,Protein,0,g,per_serving (75 g (300 ml)),,,,,nutrient not found in predictions
+missing,33.png,Salt,0.40,g,per_serving (75 g (300 ml)),,,,,nutrient not found in predictions
+missing,33.png,Sodium,158,mg,per_serving (75 g (300 ml)),,,,,nutrient not found in predictions
+missing,33.png,Calcium,26,mg,per_serving (75 g (300 ml)),,,,,nutrient not found in predictions
+missing,33.png,Magnesium,19,mg,per_serving (75 g (300 ml)),,,,,nutrient not found in predictions
+missing,33.png,Potassium,41,mg,per_serving (75 g (300 ml)),,,,,nutrient not found in predictions
+missing,33.png,Chloride,105,mg,per_serving (75 g (300 ml)),,,,,nutrient not found in predictions
+missing,34.png,Energy,1356,kJ,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Energy,319,kcal,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Fat,0,g,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Carbohydrate,80,g,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Sugars,77,g,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Fibre,5,g,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Protein,0,g,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Salt,3.5,g,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Calcium,400,mg,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Potassium,400,mg,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Magnesium,100,mg,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Zinc,2.6,mg,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Vitamin C,72,mg,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Niacin,12,mg,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Vitamin B6,3.2,mg,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Pantothenic Acid,2.9,mg,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Vitamin B1,0.8,mg,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Vitamin B2,0.8,mg,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Folic Acid,34,µg,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Vitamin B12,3.5,µg,per_100g,,,,,nutrient not found in predictions
+missing,34.png,Energy,339,kJ,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Energy,80,kcal,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Fat,0,g,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Carbohydrate,20,g,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Sugars,19,g,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Fibre,1.2,g,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Protein,0,g,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Salt,0.9,g,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Calcium,100,mg,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Potassium,100,mg,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Magnesium,25,mg,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Zinc,0.7,mg,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Vitamin C,18,mg,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Niacin,3.0,mg,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Vitamin B6,0.8,mg,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Pantothenic Acid,0.7,mg,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Vitamin B1,0.2,mg,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Vitamin B2,0.2,mg,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Folic Acid,8.4,µg,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,34.png,Vitamin B12,0.9,µg,per_serving (25g serving),,,,,nutrient not found in predictions
+missing,35.jpeg,Magnesium,225,mg,per_serving (pro 3 Tabletten),,,,,nutrient not found in predictions
+missing,35.jpeg,Vitamin C,100.8,mg,per_serving (pro 3 Tabletten),,,,,nutrient not found in predictions
+incorrect,4.png,Saturated Fats,0,g,per_100g,Saturated fats,56,g,per_100g,qty: got 56 expected 0
+incorrect,4.png,Carbohydrate,56,g,per_100g,Carbohydrate,6.7,g,per_100g,qty: got 6.7 expected 56
+incorrect,4.png,Energy,952,,per_100g,Energy,0,g,per_100g,qty: got 0 expected 952 | unit: got g expected 
+missing,4.png,Energy,224,kcal,per_100g,,,,,nutrient not found in predictions
+missing,4.png,Sugars,6.7,g,per_100g,,,,,nutrient not found in predictions
+incorrect,41.png,Energy,612,kJ,per_100g,Energy,612/144,kJ/KCAL,per_100g,qty: got 612/144 expected 612 | unit: got kJ/KCAL expected kJ
+missing,41.png,Energy,144,kcal,per_100g,,,,,nutrient not found in predictions
+incorrect,42.png,Fibre,0,g,per_serving (PER SERVE 47g),dietary fibre,0,g,per_serving,nutrient: no match
+missing,42.png,Energy,736,kJ,per_serving (PER SERVE 47g),,,,,nutrient not found in predictions
+missing,42.png,Energy,176,kcal,per_serving (PER SERVE 47g),,,,,nutrient not found in predictions
+missing,42.png,Energy,1567,kJ,per_100g,,,,,nutrient not found in predictions
+missing,42.png,Energy,374,kcal,per_100g,,,,,nutrient not found in predictions
+missing,42.png,Protein,0.1,g,per_100g,,,,,nutrient not found in predictions
+missing,42.png,Fat,0,g,per_100g,,,,,nutrient not found in predictions
+missing,42.png,Saturated Fats,0,g,per_100g,,,,,nutrient not found in predictions
+missing,42.png,Carbohydrate,94,g,per_100g,,,,,nutrient not found in predictions
+missing,42.png,Sugars,38,g,per_100g,,,,,nutrient not found in predictions
+missing,42.png,Fibre,0,g,per_100g,,,,,nutrient not found in predictions
+missing,42.png,Sodium,500,mg,per_100g,,,,,nutrient not found in predictions
+missing,45_1.png,Energy,736,kJ,per_serving (1 SERV. 47g),,,,,nutrient not found in predictions
+missing,45_1.png,Energy,176,kcal,per_serving (1 SERV. 47g),,,,,nutrient not found in predictions
+missing,45_1.png,Protein,0,g,per_serving (1 SERV. 47g),,,,,nutrient not found in predictions
+missing,45_1.png,Fat,0,g,per_serving (1 SERV. 47g),,,,,nutrient not found in predictions
+missing,45_1.png,Saturated Fats,0,g,per_serving (1 SERV. 47g),,,,,nutrient not found in predictions
+missing,45_1.png,Carbohydrate,44,g,per_serving (1 SERV. 47g),,,,,nutrient not found in predictions
+missing,45_1.png,Sugars,18,g,per_serving (1 SERV. 47g),,,,,nutrient not found in predictions
+missing,45_1.png,Fibre,0,g,per_serving (1 SERV. 47g),,,,,nutrient not found in predictions
+missing,45_1.png,Sodium,240,mg,per_serving (1 SERV. 47g),,,,,nutrient not found in predictions
+missing,45_1.png,Energy,1567,kJ,per_100g,,,,,nutrient not found in predictions
+missing,45_1.png,Energy,374,kcal,per_100g,,,,,nutrient not found in predictions
+missing,45_1.png,Protein,0.1,g,per_100g,,,,,nutrient not found in predictions
+missing,45_1.png,Fat,0,g,per_100g,,,,,nutrient not found in predictions
+missing,45_1.png,Saturated Fats,0,g,per_100g,,,,,nutrient not found in predictions
+missing,45_1.png,Carbohydrate,94,g,per_100g,,,,,nutrient not found in predictions
+missing,45_1.png,Sugars,38,g,per_100g,,,,,nutrient not found in predictions
+missing,45_1.png,Fibre,0,g,per_100g,,,,,nutrient not found in predictions
+missing,45_1.png,Sodium,500,mg,per_100g,,,,,nutrient not found in predictions
+incorrect,45_2.png,Saturated Fats,0,g,per_100g,Saturated fats,16,g,per_100g,qty: got 16 expected 0
+incorrect,45_2.png,Energy,1567,kJ,per_100g,Energy,1567/374,kJ/kcal,per_100g,qty: got 1567/374 expected 1567 | unit: got kJ/kcal expected kJ
+incorrect,45_2.png,Sugars,38,g,per_100g,Of which Sugars,38,g,per_100g,nutrient: no match
+missing,45_2.png,Energy,374,kcal,per_100g,,,,,nutrient not found in predictions
+missing,51.png,Energy,1541,kJ,per_100g,,,,,nutrient not found in predictions
+missing,51.png,Energy,363,kcal,per_100g,,,,,nutrient not found in predictions
+missing,51.png,Fat,< 0.5,g,per_100g,,,,,nutrient not found in predictions
+missing,51.png,Saturated Fats,< 0.5,g,per_100g,,,,,nutrient not found in predictions
+missing,51.png,Carbohydrate,84,g,per_100g,,,,,nutrient not found in predictions
+missing,51.png,Sugars,62,g,per_100g,,,,,nutrient not found in predictions
+missing,51.png,Protein,6.7,g,per_100g,,,,,nutrient not found in predictions
+missing,51.png,Salt,0.13,g,per_100g,,,,,nutrient not found in predictions
+missing,51.png,Vitamin B6,0.35,mg,per_100g,,,,,nutrient not found in predictions
+missing,51.png,Energy,925,kJ,per_serving (60 g),,,,,nutrient not found in predictions
+missing,51.png,Energy,218,kcal,per_serving (60 g),,,,,nutrient not found in predictions
+missing,51.png,Fat,< 0.5,g,per_serving (60 g),,,,,nutrient not found in predictions
+missing,51.png,Saturated Fats,< 0.5,g,per_serving (60 g),,,,,nutrient not found in predictions
+missing,51.png,Carbohydrate,50,g,per_serving (60 g),,,,,nutrient not found in predictions
+missing,51.png,Sugars,37,g,per_serving (60 g),,,,,nutrient not found in predictions
+missing,51.png,Protein,4.0,g,per_serving (60 g),,,,,nutrient not found in predictions
+missing,51.png,Salt,0.08,g,per_serving (60 g),,,,,nutrient not found in predictions
+missing,51.png,Vitamin B6,0.21,mg,per_serving (60 g),,,,,nutrient not found in predictions
+missing,53.png,Energy,1541,kJ,per_100g,,,,,nutrient not found in predictions
+missing,53.png,Energy,363,kcal,per_100g,,,,,nutrient not found in predictions
+missing,53.png,Fat,< 0.5,g,per_100g,,,,,nutrient not found in predictions
+missing,53.png,Saturated Fats,< 0.5,g,per_100g,,,,,nutrient not found in predictions
+missing,53.png,Carbohydrate,84,g,per_100g,,,,,nutrient not found in predictions
+missing,53.png,Sugars,62,g,per_100g,,,,,nutrient not found in predictions
+missing,53.png,Protein,6.7,g,per_100g,,,,,nutrient not found in predictions
+missing,53.png,Salt,0.13,g,per_100g,,,,,nutrient not found in predictions
+missing,53.png,Vitamin B6,0.35,mg,per_100g,,,,,nutrient not found in predictions
+missing,53.png,Energy,925,kJ,per_serving (60 g),,,,,nutrient not found in predictions
+missing,53.png,Energy,218,kcal,per_serving (60 g),,,,,nutrient not found in predictions
+missing,53.png,Fat,< 0.5,g,per_serving (60 g),,,,,nutrient not found in predictions
+missing,53.png,Saturated Fats,< 0.5,g,per_serving (60 g),,,,,nutrient not found in predictions
+missing,53.png,Carbohydrate,50,g,per_serving (60 g),,,,,nutrient not found in predictions
+missing,53.png,Sugars,37,g,per_serving (60 g),,,,,nutrient not found in predictions
+missing,53.png,Protein,4.0,g,per_serving (60 g),,,,,nutrient not found in predictions
+missing,53.png,Salt,0.08,g,per_serving (60 g),,,,,nutrient not found in predictions
+missing,53.png,Vitamin B6,0.21,mg,per_serving (60 g),,,,,nutrient not found in predictions
+missing,56.jpeg,Energy,383,kcal,per_100g,,,,,nutrient not found in predictions
+missing,56.jpeg,Energy,1604,kJ,per_100g,,,,,nutrient not found in predictions
+missing,56.jpeg,Carbohydrate,3.67,g,per_100g,,,,,nutrient not found in predictions
+missing,56.jpeg,Fat,4.3,g,per_100g,,,,,nutrient not found in predictions
+missing,56.jpeg,Energy,23,kcal,per_serving (pro Esslöffel (6 g)),,,,,nutrient not found in predictions
+missing,56.jpeg,Energy,96.2,kJ,per_serving (pro Esslöffel (6 g)),,,,,nutrient not found in predictions
+missing,56.jpeg,Protein,4.99,g,per_serving (pro Esslöffel (6 g)),,,,,nutrient not found in predictions
+missing,56.jpeg,Carbohydrate,0.22,g,per_serving (pro Esslöffel (6 g)),,,,,nutrient not found in predictions
+missing,56.jpeg,Fat,0.26,g,per_serving (pro Esslöffel (6 g)),,,,,nutrient not found in predictions
+incorrect,57.jpeg,Fat,4.3,g,per_100g,Fat,43,g,per_100g,qty: got 43 expected 4.3
+missing,57.jpeg,Energy,383,kcal,per_100g,,,,,nutrient not found in predictions
+missing,57.jpeg,Energy,1604,kJ,per_100g,,,,,nutrient not found in predictions
+missing,57.jpeg,Carbohydrate,3.67,g,per_100g,,,,,nutrient not found in predictions
+missing,57.jpeg,Energy,23,kcal,per_serving (pro Esslöffel (6 g)),,,,,nutrient not found in predictions
+missing,57.jpeg,Energy,96.2,kJ,per_serving (pro Esslöffel (6 g)),,,,,nutrient not found in predictions
+missing,57.jpeg,Protein,4.99,g,per_serving (pro Esslöffel (6 g)),,,,,nutrient not found in predictions
+missing,57.jpeg,Carbohydrate,0.22,g,per_serving (pro Esslöffel (6 g)),,,,,nutrient not found in predictions
+missing,57.jpeg,Fat,0.26,g,per_serving (pro Esslöffel (6 g)),,,,,nutrient not found in predictions
+incorrect,59.png,Vitamin C,60,mg,per_daily_dose (1 Portion = 20 g Pulver),vitamin c,60,mg,per_100g,context: got per_100g expected per_daily_dose (1 Portion = 20 g Pulver)
+incorrect,59.png,Energy,1391,kJ,per_100g (100 g Pulver),energy,1391 kj,kj,per_100g,qty: got 1391 kj expected 1391
+incorrect,59.png,Vitamin E,50,mg α-TE,per_100g (100 g Pulver),vitamin e,10 mg,mg,per_100g,qty: got 10 mg expected 50 | unit: got mg expected mg α-TE
+incorrect,59.png,Vitamin A,1667,µg RE,per_100g (100 g Pulver),vitamin a,333 g,g,per_100g,qty: got 333 g expected 1667 | unit: got g expected µg RE
+incorrect,59.png,Protein,0.7,g,per_100g (100 g Pulver),eiweib/protein,0.7,g,per_100g,nutrient: no match
+missing,59.png,Energy,330,kcal,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Sugars,64.4,g,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Fructose,63.7,g,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Fat,0.3,g,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Saturated Fats,<0.3,g,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Fibre,25,g,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Sodium,<0.1,g,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Selenium,150,µg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Vitamin C,300,mg,per_100g (100 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Energy,278,kJ,per_daily_dose (1 Portion = 20 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Energy,66,kcal,per_daily_dose (1 Portion = 20 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Protein,0.14,g,per_daily_dose (1 Portion = 20 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Carbohydrate,13.3,g,per_daily_dose (1 Portion = 20 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Sugars,12.9,g,per_daily_dose (1 Portion = 20 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Fructose,12.7,g,per_daily_dose (1 Portion = 20 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Fat,<0.1,g,per_daily_dose (1 Portion = 20 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Saturated Fats,<0.1,g,per_daily_dose (1 Portion = 20 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Fibre,5,g,per_daily_dose (1 Portion = 20 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Sodium,<0.02,g,per_daily_dose (1 Portion = 20 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Selenium,30,µg,per_daily_dose (1 Portion = 20 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Vitamin E,10,mg α-TE,per_daily_dose (1 Portion = 20 g Pulver),,,,,nutrient not found in predictions
+missing,59.png,Vitamin A,333,µg RE,per_daily_dose (1 Portion = 20 g Pulver),,,,,nutrient not found in predictions
+missing,61.png,Energy,427,kJ,per_serving (30 g),,,,,nutrient not found in predictions
+missing,61.png,Energy,102,kcal,per_serving (30 g),,,,,nutrient not found in predictions
+missing,61.png,Fat,0,g,per_serving (30 g),,,,,nutrient not found in predictions
+missing,61.png,Saturated Fats,0,g,per_serving (30 g),,,,,nutrient not found in predictions
+missing,61.png,Carbohydrate,25.3,g,per_serving (30 g),,,,,nutrient not found in predictions
+missing,61.png,Sugars,14.6,g,per_serving (30 g),,,,,nutrient not found in predictions
+missing,61.png,Protein,0.2,g,per_serving (30 g),,,,,nutrient not found in predictions
+missing,61.png,Salt,0.52,g,per_serving (30 g),,,,,nutrient not found in predictions
+missing,61.png,Magnesium,75,mg,per_serving (30 g),,,,,nutrient not found in predictions
+missing,61.png,Potassium,100,mg,per_serving (30 g),,,,,nutrient not found in predictions
+missing,61.png,Calcium,50,mg,per_serving (30 g),,,,,nutrient not found in predictions
+missing,61.png,Energy,1424,kJ,per_100g,,,,,nutrient not found in predictions
+missing,61.png,Energy,341,kcal,per_100g,,,,,nutrient not found in predictions
+missing,61.png,Fat,0,g,per_100g,,,,,nutrient not found in predictions
+missing,61.png,Saturated Fats,0,g,per_100g,,,,,nutrient not found in predictions
+missing,61.png,Carbohydrate,84.4,g,per_100g,,,,,nutrient not found in predictions
+missing,61.png,Sugars,48.7,g,per_100g,,,,,nutrient not found in predictions
+missing,61.png,Protein,0.6,g,per_100g,,,,,nutrient not found in predictions
+missing,61.png,Salt,1.73,g,per_100g,,,,,nutrient not found in predictions
+missing,61.png,Magnesium,250,mg,per_100g,,,,,nutrient not found in predictions
+missing,61.png,Potassium,333.3,mg,per_100g,,,,,nutrient not found in predictions
+missing,61.png,Calcium,166.7,mg,per_100g,,,,,nutrient not found in predictions
+missing,63.png,Energy,427,kJ,per_serving (30 g),,,,,nutrient not found in predictions
+missing,63.png,Energy,102,kcal,per_serving (30 g),,,,,nutrient not found in predictions
+missing,63.png,Fat,0,g,per_serving (30 g),,,,,nutrient not found in predictions
+missing,63.png,Saturated Fats,0,g,per_serving (30 g),,,,,nutrient not found in predictions
+missing,63.png,Carbohydrate,25.3,g,per_serving (30 g),,,,,nutrient not found in predictions
+missing,63.png,Sugars,14.6,g,per_serving (30 g),,,,,nutrient not found in predictions
+missing,63.png,Protein,0.2,g,per_serving (30 g),,,,,nutrient not found in predictions
+missing,63.png,Salt,0.52,g,per_serving (30 g),,,,,nutrient not found in predictions
+missing,63.png,Magnesium,75,mg,per_serving (30 g),,,,,nutrient not found in predictions
+missing,63.png,Potassium,100,mg,per_serving (30 g),,,,,nutrient not found in predictions
+missing,63.png,Calcium,50,mg,per_serving (30 g),,,,,nutrient not found in predictions
+missing,63.png,Energy,1424,kJ,per_100g,,,,,nutrient not found in predictions
+missing,63.png,Energy,341,kcal,per_100g,,,,,nutrient not found in predictions
+missing,63.png,Fat,0,g,per_100g,,,,,nutrient not found in predictions
+missing,63.png,Saturated Fats,0,g,per_100g,,,,,nutrient not found in predictions
+missing,63.png,Carbohydrate,84.4,g,per_100g,,,,,nutrient not found in predictions
+missing,63.png,Sugars,48.7,g,per_100g,,,,,nutrient not found in predictions
+missing,63.png,Protein,0.6,g,per_100g,,,,,nutrient not found in predictions
+missing,63.png,Salt,1.73,g,per_100g,,,,,nutrient not found in predictions
+missing,63.png,Magnesium,250,mg,per_100g,,,,,nutrient not found in predictions
+missing,63.png,Potassium,333.3,mg,per_100g,,,,,nutrient not found in predictions
+missing,63.png,Calcium,166.7,mg,per_100g,,,,,nutrient not found in predictions
+missing,64.png,Vitamin C,50,mg,per_daily_dose (1 Ampulle/flask + 2 Caps.),,,,,nutrient not found in predictions
+missing,64.png,Vitamin B2,0.6,mg,per_daily_dose (1 Ampulle/flask + 2 Caps.),,,,,nutrient not found in predictions
+missing,64.png,Niacin,7.0,mg,per_daily_dose (1 Ampulle/flask + 2 Caps.),,,,,nutrient not found in predictions
+missing,64.png,Vitamin B6,0.6,mg,per_daily_dose (1 Ampulle/flask + 2 Caps.),,,,,nutrient not found in predictions
+missing,64.png,Folic Acid,80,µg,per_daily_dose (1 Ampulle/flask + 2 Caps.),,,,,nutrient not found in predictions
+missing,64.png,Vitamin B12,2.0,µg,per_daily_dose (1 Ampulle/flask + 2 Caps.),,,,,nutrient not found in predictions
+missing,64.png,Pantothenic Acid,2.5,mg,per_daily_dose (1 Ampulle/flask + 2 Caps.),,,,,nutrient not found in predictions
+missing,64.png,Zinc,3.0,mg,per_daily_dose (1 Ampulle/flask + 2 Caps.),,,,,nutrient not found in predictions
+missing,67.jpeg,Colecalciferol,25,µg,per_serving (Jede Tablette),,,,,nutrient not found in predictions
+missing,67.jpeg,Vitamin D3,1000,I.E.,per_serving (Jede Tablette),,,,,nutrient not found in predictions
+missing,67.jpeg,Colecalciferol,0.025,mg,per_daily_dose (Tagesdosis bis zu 1000 I.E.),,,,,nutrient not found in predictions
+incorrect,68.jpeg,Energy,1578,kJ,per_100g,Energy / Energie / Valor energético,1578,kJ (kcal),per_100g,nutrient: no match | unit: got kJ (kcal) expected kJ
+incorrect,68.jpeg,Fat,0.6,g,per_100g,Fat / Fett / Matières grasses / Vetten / Grasas / Lipidos / Grassi,0.69,g,per_100g,nutrient: no match | qty: got 0.69 expected 0.6
+incorrect,68.jpeg,Carbohydrate,5.2,g,per_100g,Carbohydrates / Kohlenhydrate / Glucides / Koolhydraten / Hidratos de carbono / Carbohidratos,5.29,g,per_100g,nutrient: no match | qty: got 5.29 expected 5.2
+incorrect,68.jpeg,Protein,84,g,per_100g,Protein(e) / Eiweiss / Proteines / Eiwtten / Proteinas,6.4,g,per_100g,nutrient: no match | qty: got 6.4 expected 84
+incorrect,68.jpeg,Salt,0.42,g,per_100g,Salt / Sal / Sel / Zout / Sale,0.49,g,per_100g,nutrient: no match | qty: got 0.49 expected 0.42
+incorrect,68.jpeg,L-Leucine,9.2,g,per_100g,L-Leucine / L-Leucin / L-Leucina,9.29,g,per_100g,nutrient: no match | qty: got 9.29 expected 9.2
+incorrect,68.jpeg,L-Isoleucine,6.2,g,per_100g,L-Isoleucine / L-Isoleucin / L-Isoleucina,6.79,g,per_100g,nutrient: no match | qty: got 6.79 expected 6.2
+incorrect,68.jpeg,L-Lysine,8.8,g,per_100g,L-Lysine / L-Lysin / L-Lisina,6.89,g,per_100g,nutrient: no match | qty: got 6.89 expected 8.8
+incorrect,68.jpeg,L-Histidine,1.5,g,per_100g,L-Histidine / L-Histidin / L-Histidina,15.6,g,per_100g,nutrient: no match | qty: got 15.6 expected 1.5
+incorrect,68.jpeg,L-Methionine,2.0,g,per_100g,L-Methionine / L-Methionin / L-Metionina / L-Metionin,2.09,g,per_100g,nutrient: no match | qty: got 2.09 expected 2.0
+incorrect,68.jpeg,L-Phenylalanine,2.6,g,per_100g,L-Phenylalanine / L-Fenylalanine / L-Fenylalanina / L-Fenylalanin,2.59,g,per_100g,nutrient: no match | qty: got 2.59 expected 2.6
+incorrect,68.jpeg,L-Threonine,6.2,g,per_100g,L-Threonine / L-Threonin / L-Treonina / L-Treconin,6.29,g,per_100g,nutrient: no match | qty: got 6.29 expected 6.2
+incorrect,68.jpeg,L-Tryptophan,1.6,g,per_100g,L-Tryptophan / L-Tryptophan(e) / L-Tryptofan / L-Tryptofan(e),1.69,g,per_100g,nutrient: no match | qty: got 1.69 expected 1.6
+missing,68.jpeg,Energy,372,kcal,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,Saturated Fats,0.5,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,Sugars,2.1,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,L-Valine,5.7,g,per_100g,,,,,nutrient not found in predictions
+missing,68.jpeg,Energy,379,kJ,per_serving (24 g),,,,,nutrient not found in predictions
+missing,68.jpeg,Energy,89,kcal,per_serving (24 g),,,,,nutrient not found in predictions
+missing,68.jpeg,Fat,0.1,g,per_serving (24 g),,,,,nutrient not found in predictions
+missing,68.jpeg,Saturated Fats,0.1,g,per_serving (24 g),,,,,nutrient not found in predictions
+missing,68.jpeg,Carbohydrate,1.2,g,per_serving (24 g),,,,,nutrient not found in predictions
+missing,68.jpeg,Sugars,0.5,g,per_serving (24 g),,,,,nutrient not found in predictions
+missing,68.jpeg,Protein,20,g,per_serving (24 g),,,,,nutrient not found in predictions
+missing,68.jpeg,Salt,0.10,g,per_serving (24 g),,,,,nutrient not found in predictions
+missing,68.jpeg,L-Valine,1.4,g,per_serving (24 g),,,,,nutrient not found in predictions
+missing,68.jpeg,L-Leucine,2.2,g,per_serving (24 g),,,,,nutrient not found in predictions
+missing,68.jpeg,L-Isoleucine,1.5,g,per_serving (24 g),,,,,nutrient not found in predictions
+missing,68.jpeg,L-Lysine,2.1,g,per_serving (24 g),,,,,nutrient not found in predictions
+missing,68.jpeg,L-Histidine,357,mg,per_serving (24 g),,,,,nutrient not found in predictions
+missing,68.jpeg,L-Methionine,472,mg,per_serving (24 g),,,,,nutrient not found in predictions
+missing,68.jpeg,L-Phenylalanine,629,mg,per_serving (24 g),,,,,nutrient not found in predictions
+missing,68.jpeg,L-Threonine,1.5,g,per_serving (24 g),,,,,nutrient not found in predictions
+missing,68.jpeg,L-Tryptophan,384,mg,per_serving (24 g),,,,,nutrient not found in predictions
+incorrect,78.jpeg,Vitamin D,50,µg,per_serving (pro Kapsel),Vitamin D,50,µg,per_daily_dose,context: got per_daily_dose expected per_serving (pro Kapsel)
+incorrect,78.jpeg,Vitamin D,2000,I.E.,per_serving (pro Kapsel),Vitamin D,2000,I.E.,per_daily_dose,context: got per_daily_dose expected per_serving (pro Kapsel)
+missing,8.png,Energy,892,kJ,per_serving (Per Bar 60g),,,,,nutrient not found in predictions
+missing,8.png,Energy,213,kcal,per_serving (Per Bar 60g),,,,,nutrient not found in predictions
+missing,8.png,Protein,2.2,g,per_serving (Per Bar 60g),,,,,nutrient not found in predictions
+missing,8.png,Fat,4.8,g,per_serving (Per Bar 60g),,,,,nutrient not found in predictions
+missing,8.png,Saturated Fats,3.4,g,per_serving (Per Bar 60g),,,,,nutrient not found in predictions
+missing,8.png,Carbohydrate,41,g,per_serving (Per Bar 60g),,,,,nutrient not found in predictions
+missing,8.png,Sugars,21,g,per_serving (Per Bar 60g),,,,,nutrient not found in predictions
+missing,8.png,Fibre,1.9,g,per_serving (Per Bar 60g),,,,,nutrient not found in predictions
+missing,8.png,Sodium,43,mg,per_serving (Per Bar 60g),,,,,nutrient not found in predictions
+missing,8.png,Energy,1486,kJ,per_100g,,,,,nutrient not found in predictions
+missing,8.png,Energy,355,kcal,per_100g,,,,,nutrient not found in predictions
+missing,8.png,Protein,3.7,g,per_100g,,,,,nutrient not found in predictions
+missing,8.png,Fat,7.9,g,per_100g,,,,,nutrient not found in predictions
+missing,8.png,Saturated Fats,5.7,g,per_100g,,,,,nutrient not found in predictions
+missing,8.png,Carbohydrate,69,g,per_100g,,,,,nutrient not found in predictions
+missing,8.png,Sugars,35,g,per_100g,,,,,nutrient not found in predictions
+missing,8.png,Fibre,3.2,g,per_100g,,,,,nutrient not found in predictions
+missing,8.png,Sodium,72,mg,per_100g,,,,,nutrient not found in predictions
+incorrect,82.jpeg,Energy,0,kJ,per_100g,Energy,0,kJ / 0 kcal,per_100g,unit: got kJ / 0 kcal expected kJ
+missing,82.jpeg,Energy,0,kcal,per_100g,,,,,nutrient not found in predictions
+missing,82.jpeg,Energy,0,kJ,per_serving (3 g/1 level teaspoon),,,,,nutrient not found in predictions
+missing,82.jpeg,Energy,0,kcal,per_serving (3 g/1 level teaspoon),,,,,nutrient not found in predictions
+missing,82.jpeg,Protein,0,g,per_serving (3 g/1 level teaspoon),,,,,nutrient not found in predictions
+missing,82.jpeg,Carbohydrate,0,g,per_serving (3 g/1 level teaspoon),,,,,nutrient not found in predictions
+missing,82.jpeg,Fat,0,g,per_serving (3 g/1 level teaspoon),,,,,nutrient not found in predictions
+missing,88.png,Energy,234,kJ,per_100ml,,,,,nutrient not found in predictions
+missing,88.png,Energy,55,kcal,per_100ml,,,,,nutrient not found in predictions
+missing,88.png,Fat,0.7,g,per_100ml,,,,,nutrient not found in predictions
+missing,88.png,Saturated Fats,0.5,g,per_100ml,,,,,nutrient not found in predictions
+missing,88.png,Carbohydrate,4.1,g,per_100ml,,,,,nutrient not found in predictions
+missing,88.png,Sugars,3.5,g,per_100ml,,,,,nutrient not found in predictions
+missing,88.png,Protein,8.0,g,per_100ml,,,,,nutrient not found in predictions
+missing,88.png,Salt,0.10,g,per_100ml,,,,,nutrient not found in predictions
+missing,88.png,Energy,772,kJ,per_serving (330 ML),,,,,nutrient not found in predictions
+missing,88.png,Energy,181,kcal,per_serving (330 ML),,,,,nutrient not found in predictions
+missing,88.png,Fat,2.3,g,per_serving (330 ML),,,,,nutrient not found in predictions
+missing,88.png,Saturated Fats,1.6,g,per_serving (330 ML),,,,,nutrient not found in predictions
+missing,88.png,Carbohydrate,13,g,per_serving (330 ML),,,,,nutrient not found in predictions
+missing,88.png,Sugars,11,g,per_serving (330 ML),,,,,nutrient not found in predictions
+missing,88.png,Protein,26,g,per_serving (330 ML),,,,,nutrient not found in predictions
+missing,88.png,Salt,0.33,g,per_serving (330 ML),,,,,nutrient not found in predictions
+incorrect,9.jpeg,Vitamin C,30,mg,per_serving (pro 1 Tablette),Vitamin C,30,mg,per_daily_dose,context: got per_daily_dose expected per_serving (pro 1 Tablette)
+incorrect,9.jpeg,Vitamin C,60,mg,per_daily_dose (pro 2 Tabletten),Vitamin C,60,mg,per_serving,context: got per_serving expected per_daily_dose (pro 2 Tabletten)
+missing,9.jpeg,Zinc,5,mg,per_serving (pro 1 Tablette),,,,,nutrient not found in predictions
+missing,9.jpeg,Zinc,10,mg,per_daily_dose (pro 2 Tabletten),,,,,nutrient not found in predictions
+missing,90.png,Energy,192,kJ,per_100ml,,,,,nutrient not found in predictions
+missing,90.png,Energy,45,kcal,per_100ml,,,,,nutrient not found in predictions
+missing,90.png,Fat,< 0.1,g,per_100ml,,,,,nutrient not found in predictions
+missing,90.png,Saturated Fats,< 0.1,g,per_100ml,,,,,nutrient not found in predictions
+missing,90.png,Carbohydrate,10,g,per_100ml,,,,,nutrient not found in predictions
+missing,90.png,Sugars,10,g,per_100ml,,,,,nutrient not found in predictions
+missing,90.png,Protein,< 0.1,g,per_100ml,,,,,nutrient not found in predictions
+missing,90.png,Salt,0.16,g,per_100ml,,,,,nutrient not found in predictions
+missing,90.png,Energy,115,kJ,per_daily_dose (2 Shots (60 ml)),,,,,nutrient not found in predictions
+missing,90.png,Energy,27,kcal,per_daily_dose (2 Shots (60 ml)),,,,,nutrient not found in predictions
+missing,90.png,Fat,0,g,per_daily_dose (2 Shots (60 ml)),,,,,nutrient not found in predictions
+missing,90.png,Saturated Fats,0,g,per_daily_dose (2 Shots (60 ml)),,,,,nutrient not found in predictions
+missing,90.png,Carbohydrate,6.0,g,per_daily_dose (2 Shots (60 ml)),,,,,nutrient not found in predictions
+missing,90.png,Sugars,6.0,g,per_daily_dose (2 Shots (60 ml)),,,,,nutrient not found in predictions
+missing,90.png,Protein,< 0.1,g,per_daily_dose (2 Shots (60 ml)),,,,,nutrient not found in predictions
+missing,90.png,Salt,0.10,g,per_daily_dose (2 Shots (60 ml)),,,,,nutrient not found in predictions
+missing,90.png,Magnesium,56,mg,per_daily_dose (2 Shots (60 ml)),,,,,nutrient not found in predictions
+missing,91.png,Energy,234,kJ,per_100ml,,,,,nutrient not found in predictions
+missing,91.png,Energy,55,kcal,per_100ml,,,,,nutrient not found in predictions
+missing,91.png,Fat,0.7,g,per_100ml,,,,,nutrient not found in predictions
+missing,91.png,Saturated Fats,0.5,g,per_100ml,,,,,nutrient not found in predictions
+missing,91.png,Carbohydrate,4.1,g,per_100ml,,,,,nutrient not found in predictions
+missing,91.png,Sugars,8.5,g,per_100ml,,,,,nutrient not found in predictions
+missing,91.png,Protein,8.0,g,per_100ml,,,,,nutrient not found in predictions
+missing,91.png,Salt,0.10,g,per_100ml,,,,,nutrient not found in predictions
+missing,91.png,Energy,772,kJ,per_serving (PER DRINK (330 ML)),,,,,nutrient not found in predictions
+missing,91.png,Energy,181,kcal,per_serving (PER DRINK (330 ML)),,,,,nutrient not found in predictions
+missing,91.png,Fat,2.3,g,per_serving (PER DRINK (330 ML)),,,,,nutrient not found in predictions
+missing,91.png,Saturated Fats,1.6,g,per_serving (PER DRINK (330 ML)),,,,,nutrient not found in predictions
+missing,91.png,Carbohydrate,13,g,per_serving (PER DRINK (330 ML)),,,,,nutrient not found in predictions
+missing,91.png,Sugars,11,g,per_serving (PER DRINK (330 ML)),,,,,nutrient not found in predictions
+missing,91.png,Protein,26,g,per_serving (PER DRINK (330 ML)),,,,,nutrient not found in predictions
+missing,91.png,Salt,0.33,g,per_serving (PER DRINK (330 ML)),,,,,nutrient not found in predictions

@@ -140,11 +140,8 @@ RULE_AUTHORITATIVE_LABELS = {"QUANTITY", "UNIT", "CONTEXT", "NOISE"}
 # we don't trust rule-based nutrient detection)
 EMBEDDING_RESOLUTION_LABELS = {"NUTRIENT", "UNKNOWN"}
 
-# Minimum similarity to accept NUTRIENT label from embeddings
-DEFAULT_NUTRIENT_THRESHOLD = 0.4
-
-# Minimum similarity gap between NUTRIENT and second-best category
-DEFAULT_MARGIN = 0.1
+DEFAULT_NUTRIENT_THRESHOLD = 0.59
+DEFAULT_MARGIN             = 0.04
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

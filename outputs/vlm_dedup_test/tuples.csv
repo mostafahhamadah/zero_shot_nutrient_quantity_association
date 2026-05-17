@@ -1,0 +1,17 @@
+image_id,nutrient,quantity,unit,context
+4.png,Nährwerte,952/224 kcal,kJ,per_100g
+4.png,Energie,0 g,kJ,per_daily_dose
+4.png,Nährwerte,56.6 g,g,per_100g
+4.png,Energie,0 g,kJ,per_daily_dose
+4.png,Nährwerte,56.6 g,g,per_100g
+4.png,Energie,0 g,kJ,per_daily_dose
+4.png,Nährwerte,6.7 g,g,per_100g
+4.png,Energie,55.6 g,kJ,per_daily_dose
+4.png,Nährwerte,0.12 g,g,per_100g
+4.png,Energie,0.1 g,kJ,per_daily_dose
+6.png,Vitamin C,28,mg,per_serving
+6.png,Magnesium,56,mg,per_serving
+6.png,Potassium,70,mg,per_serving
+6.png,Calcium,9,mg,per_serving
+6.png,Sodium,200,mg,per_serving
+6.png,Green Tea,1,mg,per_serving

@@ -1,0 +1,349 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "Vitamine",
+      "x1": 362,
+      "y1": 40,
+      "x2": 512,
+      "y2": 75,
+      "cx": 437.0,
+      "cy": 57.5,
+      "conf": 0.9969
+    },
+    {
+      "token": "%NRV*je Tagesdosis",
+      "x1": 511,
+      "y1": 92,
+      "x2": 814,
+      "y2": 133,
+      "cx": 662.5,
+      "cy": 112.5,
+      "conf": 0.9708
+    },
+    {
+      "token": "1 Tagesdosis (8 ml)",
+      "x1": 209,
+      "y1": 97,
+      "x2": 472,
+      "y2": 138,
+      "cx": 340.5,
+      "cy": 117.5,
+      "conf": 0.9452
+    },
+    {
+      "token": "700%",
+      "x1": 723,
+      "y1": 144,
+      "x2": 818,
+      "y2": 180,
+      "cx": 770.5,
+      "cy": 162.0,
+      "conf": 0.9983
+    },
+    {
+      "token": "Vitamin B12",
+      "x1": 63,
+      "y1": 153,
+      "x2": 232,
+      "y2": 187,
+      "cx": 147.5,
+      "cy": 170.0,
+      "conf": 0.9517
+    },
+    {
+      "token": "17,5 g",
+      "x1": 364,
+      "y1": 146,
+      "x2": 477,
+      "y2": 195,
+      "cx": 420.5,
+      "cy": 170.5,
+      "conf": 0.9637
+    },
+    {
+      "token": "*NRV(nutrientreferencevalue)=",
+      "x1": 251,
+      "y1": 229,
+      "x2": 633,
+      "y2": 266,
+      "cx": 442.0,
+      "cy": 247.5,
+      "conf": 0.9858
+    },
+    {
+      "token": "Nährstoffbezugswert gemäBEU-Lebensmittelinformationsverordnung",
+      "x1": 49,
+      "y1": 272,
+      "x2": 840,
+      "y2": 316,
+      "cx": 444.5,
+      "cy": 294.0,
+      "conf": 0.969
+    }
+  ],
+  "corrected": [
+    {
+      "token": "Vitamin E",
+      "x1": 362,
+      "y1": 40,
+      "x2": 512,
+      "y2": 75,
+      "cx": 437.0,
+      "cy": 57.5,
+      "conf": 0.9969
+    },
+    {
+      "token": "%NRV*je Tagesdosis",
+      "x1": 511,
+      "y1": 92,
+      "x2": 814,
+      "y2": 133,
+      "cx": 662.5,
+      "cy": 112.5,
+      "conf": 0.9708
+    },
+    {
+      "token": "1 Tagesdosis (8 ml)",
+      "x1": 209,
+      "y1": 97,
+      "x2": 472,
+      "y2": 138,
+      "cx": 340.5,
+      "cy": 117.5,
+      "conf": 0.9452
+    },
+    {
+      "token": "700%",
+      "x1": 723,
+      "y1": 144,
+      "x2": 818,
+      "y2": 180,
+      "cx": 770.5,
+      "cy": 162.0,
+      "conf": 0.9983
+    },
+    {
+      "token": "Vitamin B12",
+      "x1": 63,
+      "y1": 153,
+      "x2": 232,
+      "y2": 187,
+      "cx": 147.5,
+      "cy": 170.0,
+      "conf": 0.9517
+    },
+    {
+      "token": "17.5",
+      "x1": 364,
+      "y1": 146,
+      "x2": 454,
+      "y2": 195,
+      "cx": 409.0,
+      "cy": 170.5,
+      "conf": 0.9637
+    },
+    {
+      "token": "g",
+      "x1": 454,
+      "y1": 146,
+      "x2": 477,
+      "y2": 195,
+      "cx": 465.5,
+      "cy": 170.5,
+      "conf": 0.9637
+    },
+    {
+      "token": "*NRV(nutrientreferencevalue)=",
+      "x1": 251,
+      "y1": 229,
+      "x2": 633,
+      "y2": 266,
+      "cx": 442.0,
+      "cy": 247.5,
+      "conf": 0.9858
+    },
+    {
+      "token": "Nährstoffbezugswert gemäBEU-Lebensmittelinformationsverordnung",
+      "x1": 49,
+      "y1": 272,
+      "x2": 840,
+      "y2": 316,
+      "cx": 444.5,
+      "cy": 294.0,
+      "conf": 0.969
+    }
+  ],
+  "labeled": [
+    {
+      "token": "Vitamin E",
+      "x1": 362,
+      "y1": 40,
+      "x2": 512,
+      "y2": 75,
+      "cx": 437.0,
+      "cy": 57.5,
+      "conf": 0.9969,
+      "label": "NUTRIENT",
+      "norm": "vitamin e"
+    },
+    {
+      "token": "%NRV*je Tagesdosis",
+      "x1": 511,
+      "y1": 92,
+      "x2": 814,
+      "y2": 133,
+      "cx": 662.5,
+      "cy": 112.5,
+      "conf": 0.9708,
+      "label": "CONTEXT",
+      "norm": "%nrv*je tagesdosis"
+    },
+    {
+      "token": "1 Tagesdosis (8 ml)",
+      "x1": 209,
+      "y1": 97,
+      "x2": 472,
+      "y2": 138,
+      "cx": 340.5,
+      "cy": 117.5,
+      "conf": 0.9452,
+      "label": "CONTEXT",
+      "norm": "1 tagesdosis (8 ml)"
+    },
+    {
+      "token": "700%",
+      "x1": 723,
+      "y1": 144,
+      "x2": 818,
+      "y2": 180,
+      "cx": 770.5,
+      "cy": 162.0,
+      "conf": 0.9983,
+      "label": "NOISE",
+      "norm": "700%"
+    },
+    {
+      "token": "Vitamin B12",
+      "x1": 63,
+      "y1": 153,
+      "x2": 232,
+      "y2": 187,
+      "cx": 147.5,
+      "cy": 170.0,
+      "conf": 0.9517,
+      "label": "NUTRIENT",
+      "norm": "vitamin b12"
+    },
+    {
+      "token": "17.5",
+      "x1": 364,
+      "y1": 146,
+      "x2": 454,
+      "y2": 195,
+      "cx": 409.0,
+      "cy": 170.5,
+      "conf": 0.9637,
+      "label": "QUANTITY",
+      "norm": "17.5"
+    },
+    {
+      "token": "g",
+      "x1": 454,
+      "y1": 146,
+      "x2": 477,
+      "y2": 195,
+      "cx": 465.5,
+      "cy": 170.5,
+      "conf": 0.9637,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "*NRV(nutrientreferencevalue)=",
+      "x1": 251,
+      "y1": 229,
+      "x2": 633,
+      "y2": 266,
+      "cx": 442.0,
+      "cy": 247.5,
+      "conf": 0.9858,
+      "label": "NOISE",
+      "norm": "*nrv="
+    },
+    {
+      "token": "Nährstoffbezugswert gemäBEU-Lebensmittelinformationsverordnung",
+      "x1": 49,
+      "y1": 272,
+      "x2": 840,
+      "y2": 316,
+      "cx": 444.5,
+      "cy": 294.0,
+      "conf": 0.969,
+      "label": "NOISE",
+      "norm": "nährstoffbezugswert gemäbeu-lebensmittelinformationsverordnung"
+    }
+  ],
+  "tuples": [
+    {
+      "image_id": "111.jpeg",
+      "nutrient": "Vitamin E",
+      "quantity": null,
+      "unit": null,
+      "context": null,
+      "_score": 0.0,
+      "_stream": -1
+    },
+    {
+      "image_id": "111.jpeg",
+      "nutrient": "Vitamin B12",
+      "quantity": "17.5",
+      "unit": "g",
+      "context": "1 tagesdosis (8 ml)",
+      "_score": 1.0,
+      "_stream": -1
+    }
+  ],
+  "diagnostics": {
+    "enricher": {
+      "active_tokens": 6,
+      "num_rows": 3,
+      "num_columns": 4,
+      "column_roles": {
+        "0": "SINGLETON",
+        "1": "SINGLETON",
+        "2": "MIXED",
+        "3": "SINGLETON"
+      },
+      "column_angles": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "column_contexts": {
+        "1": "1 tagesdosis (8 ml)",
+        "3": "%nrv*je tagesdosis"
+      },
+      "dosage_streams": 0,
+      "rank_counts": {
+        "0": 1,
+        "1": 0,
+        "2": 3,
+        "3": 0
+      },
+      "rank_consistent": true,
+      "headers_detected": 2
+    },
+    "associator": {
+      "nutrients": 2,
+      "quantities": 1,
+      "dosage_streams": 0,
+      "mode": "v1_rows",
+      "tuples": 2
+    },
+    "edges": 28,
+    "nodes": 6
+  },
+  "duration_s": 1.513,
+  "error": null
+}

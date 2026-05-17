@@ -1,0 +1,164 @@
+% =============================================================================
+% thesis.tex — Root document
+%
+% Master Thesis: "Zero-Shot Nutrient and Quantity Association using
+%                 OCR-Guided Semantic Graph Matching"
+% Author:        Moustafa Hamada
+% Programme:     M.Sc. AI & Data Science (THD + USB)
+%
+% Build recipe:  xelatex × 3 + bibtex
+% Or:            latexmk -pdf thesis.tex
+%
+% Structure:
+%   thesis.tex       (this file — root, preamble, document structure)
+%   title.tex        (THD template — title page; consumes the variables below)
+%   declaration.tex  (THD template — declaration of originality)
+%   main.tex         (\input{}s the individual chapter files)
+%   Chapter_2_Background.tex
+%   Chapter_3_Related_Work.tex
+%   references.bib   (105-entry cleaned bibliography)
+% =============================================================================
+
+\documentclass[a4paper,11pt,twoside,openright]{scrbook}
+
+% ----------------------------------------------------------------------
+% Encoding and language
+% ----------------------------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+% ----------------------------------------------------------------------
+% Mathematics — required for Chapter 2's equation* and \text{} usage
+% ----------------------------------------------------------------------
+\usepackage{amsmath, amssymb}
+
+% ----------------------------------------------------------------------
+% Graphics, tables, formatting
+% ----------------------------------------------------------------------
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{relsize}
+\usepackage{ifthen}
+
+% ----------------------------------------------------------------------
+% URLs and hyperlinking
+% ----------------------------------------------------------------------
+\usepackage{url}
+\usepackage[
+    pdfusetitle,
+    colorlinks=false,
+    pdfborder={0 0 0},
+    bookmarksopen=true,
+    bookmarksnumbered=true
+]{hyperref}
+
+% ----------------------------------------------------------------------
+% Typography — Linux Libertine (THD template default)
+% ----------------------------------------------------------------------
+\usepackage{libertine}
+
+% ----------------------------------------------------------------------
+% Page layout — headers and footers
+% NOTE: If your professor's template uses different header/footer styling,
+%       replace this whole block with theirs.
+% ----------------------------------------------------------------------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\nouppercase{\leftmark}}
+\fancyhead[LO]{\nouppercase{\rightmark}}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[C]{\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+
+% =============================================================================
+% Title-page variables — consumed by title.tex (THD template)
+% =============================================================================
+% These commands are referenced inside title.tex. Update the TODO entries
+% with your real information before final submission.
+% =============================================================================
+
+\newcommand{\faculty}{Angewandte Informatik}
+\newcommand{\studies}{Artificial Intelligence and Data Science}
+\newcommand{\degree}{Master of Science (M.Sc.)}
+
+% TODO: replace with your real German thesis title
+\newcommand{\thesistitleDE}{Zero-Shot-Assoziation von N\"ahrstoffen und Mengen mittels OCR-gest\"utztem semantischem Graph-Matching}
+
+% English title
+\newcommand{\thesistitleEN}{Zero-Shot Nutrient and Quantity Association using OCR-Guided Semantic Graph Matching}
+
+% TODO: replace with your full name as it should appear on the title page
+\newcommand{\student}{Moustafa Hamada}
+
+% Matrikelnummer (THD student ID)
+\newcommand{\matrnr}{12401478}
+
+% TODO: Stammnummer (USB student ID); leave empty {} if you don't have one
+\newcommand{\stammnr}{}
+
+% TODO: Submission date (e.g. "September 2026" or "10. September 2026")
+\newcommand{\submissiondate}{September 2026}
+
+% TODO: Primary supervisor (Pr\"ufungsleitung) — name, title, affiliation
+\newcommand{\supervisor}{Prof.\ Dr.\ [Supervisor Name]\\Technische Hochschule Deggendorf}
+
+% TODO: Secondary supervisor (Erg\"anzende Pr\"ufende); leave empty {} if none
+\newcommand{\secsupervisor}{}
+
+% ----------------------------------------------------------------------
+% PDF metadata
+% ----------------------------------------------------------------------
+\hypersetup{
+  pdftitle  = {\thesistitleEN},
+  pdfauthor = {\student},
+  pdfsubject = {M.Sc. Thesis, AI \& Data Science, THD + USB}
+}
+
+% =============================================================================
+\begin{document}
+% =============================================================================
+
+% ----------------------------------------------------------------------
+% Title page and declaration (provided by THD template; do not edit here)
+% ----------------------------------------------------------------------
+\input{title}
+\input{declaration}
+
+% ----------------------------------------------------------------------
+% Front matter: Roman numerals, no chapter numbering
+% ----------------------------------------------------------------------
+\frontmatter
+
+% \input{abstract}      % NOTE: uncomment when abstract.tex exists
+% \input{acknowledgements}  % NOTE: uncomment when acknowledgements.tex exists
+
+\tableofcontents
+% \listoffigures        % NOTE: uncomment if you want a List of Figures
+% \listoftables         % NOTE: uncomment if you want a List of Tables
+
+% ----------------------------------------------------------------------
+% Main matter: Arabic numerals, chapter numbering on
+% ----------------------------------------------------------------------
+\mainmatter
+\input{main}
+
+% ----------------------------------------------------------------------
+% Back matter: bibliography, appendix
+% ----------------------------------------------------------------------
+\backmatter
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+% \appendix             % NOTE: uncomment to start an appendix
+% \input{appendix_a}    % NOTE: uncomment when appendix files exist
+
+% =============================================================================
+\end{document}
+% =============================================================================

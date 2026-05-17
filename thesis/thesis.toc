@@ -1,0 +1,64 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Background}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Problem Framing and Pipeline Commitments}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Optical Character Recognition and Post-OCR Repair}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}OCR as the Perceptual Entry Point}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}The Two-Stage Paradigm}{4}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}OCR Error Taxonomy}{5}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Post-OCR Correction and Text Normalisation}{6}{subsection.1.2.4}%
+\contentsline {section}{\numberline {1.3}Document Layout and Geometric Structure}{7}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Bounding Boxes and Reading Order}{7}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Columns, Rows, and Headers}{7}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Geometric Distortions}{8}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Context-Header Attachment Under Column Slope}{9}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}Token Classification and Named Entity Recognition}{10}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}The Classifier-Stage Design Space}{10}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Rule-Based Classification}{11}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Learned NER as a Classifier Alternative}{12}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Embedding-Based Classification (Brief Overview)}{13}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.5}Three Faces of Zero-Shot Classification}{13}{subsection.1.4.5}%
+\contentsline {section}{\numberline {1.5}Graph Representations of Documents}{14}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Graphs as a Document Representation}{14}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Edge Types and Soft Adjacency}{15}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Tail-Collision Avoidance}{16}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Bipartite Matching, with Rank-Under-Context as Fallback}{17}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}Deterministic versus Learned Graph Reasoning}{19}{subsection.1.5.5}%
+\contentsline {section}{\numberline {1.6}Embeddings and Semantic Similarity}{20}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Embeddings: From Word Vectors to Multilingual Sentence Encoders}{20}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}BGE-M3 and Cosine Similarity}{21}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Prototype Matching, Thresholds, and Margins}{21}{subsection.1.6.3}%
+\contentsline {subsection}{\numberline {1.6.4}Failure Modes of Prototype Matching}{23}{subsection.1.6.4}%
+\contentsline {section}{\numberline {1.7}Evaluation}{24}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Precision, Recall, and F1}{24}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Token-, Span-, and Tuple-Level Predicates}{24}{subsection.1.7.2}%
+\contentsline {subsection}{\numberline {1.7.3}The 4-Field Tuple F1 of This Thesis}{25}{subsection.1.7.3}%
+\contentsline {subsection}{\numberline {1.7.4}Normalisation and the Two-Tier Evaluator}{26}{subsection.1.7.4}%
+\contentsline {subsection}{\numberline {1.7.5}Per-Image Variance and Diagnostic Logging}{27}{subsection.1.7.5}%
+\contentsline {section}{\numberline {1.8}Modular Pipeline Design Philosophy}{27}{section.1.8}%
+\contentsline {chapter}{\numberline {2}Related Work}{29}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Supervised document information extraction and benchmark-driven progress}{30}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}The document-IE problem and its benchmark substrate}{30}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}The supervised paradigm and what it assumes}{31}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Where this thesis sits relative to the supervised regime}{32}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Table structure recognition}{33}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}The table structure recognition problem and its representations}{33}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Representative TSR systems and their architectural commitments}{33}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Why this thesis does not include a TSR stage}{34}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}OCR-free and vision-language document understanding}{35}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}From OCR-dependent pipelines to OCR-free document models}{35}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Representative OCR-free and vision-language systems}{36}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Why this thesis retains explicit OCR and modular extraction}{37}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Graph-based key information extraction}{39}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Graph-based KIE as a research line}{39}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Representative graph-based KIE systems: PICK, SPADE, and FormNet}{39}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Where this thesis sits: deterministic graph association without supervised graph learning}{40}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Zero-shot information extraction and semantic matching}{41}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Zero-shot IE as a research line}{41}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Representative zero-shot IE families}{42}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Where this thesis sits}{43}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Nutrition-label and food-data extraction}{44}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Prior work specifically on nutrition-label extraction}{44}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Adjacent food-data and retail-packaging extraction}{45}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}The gap this thesis addresses}{45}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.7}Positioning of this thesis}{46}{section.2.7}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

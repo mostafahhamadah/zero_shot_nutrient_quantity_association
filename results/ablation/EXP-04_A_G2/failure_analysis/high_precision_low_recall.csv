@@ -1,0 +1,2 @@
+image_id,n_ground_truth,n_predicted,nutrient_matches,qty_acc_pct,unit_acc_pct,ctx_acc_pct,f1_3field_pct,f1_4field_pct,tp,fp,fn,precision,recall,f1
+15.png,42,9,9,100,100,100,100,100,9,0,33,1.0,0.2143,1.0

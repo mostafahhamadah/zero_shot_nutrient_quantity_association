@@ -1,0 +1,19 @@
+Experiment   : exp40_norm
+Pipeline     : V2 + Corrector V2 + EmbeddingSemanticClassifier (embedding_only)
+Threshold    : 0.59
+Margin       : 0.04
+GT source    : test_set_normalized.csv
+Evaluator    : fast rule-based
+Timestamp    : 2026-05-07T18:25:44.024128
+Notes        : 
+
+GT tuples            : 866
+Predicted tuples     : 962
+Matched pairs        : 608
+Full 4F correct      : 342
+Full Tuple Precision : 35.5%
+Full Tuple Recall    : 39.5%
+Full Tuple F1        : 37.4%
+Nutrient F1          : 0.665
+Unit Acc             : 81.4%
+Context Acc          : 85.0%

@@ -1,0 +1,767 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "VR",
+      "x1": 2444,
+      "y1": 333,
+      "x2": 2537,
+      "y2": 417,
+      "cx": 2490.5,
+      "cy": 375.0,
+      "conf": 0.7415
+    },
+    {
+      "token": "Nahrstoffe**",
+      "x1": 57,
+      "y1": 379,
+      "x2": 499,
+      "y2": 579,
+      "cx": 278.0,
+      "cy": 479.0,
+      "conf": 0.9947
+    },
+    {
+      "token": "Je Tagesdosis***",
+      "x1": 1617,
+      "y1": 386,
+      "x2": 2297,
+      "y2": 658,
+      "cx": 1957.0,
+      "cy": 522.0,
+      "conf": 0.9985
+    },
+    {
+      "token": "400 mg",
+      "x1": 1995,
+      "y1": 621,
+      "x2": 2265,
+      "y2": 759,
+      "cx": 2130.0,
+      "cy": 690.0,
+      "conf": 0.9966
+    },
+    {
+      "token": "Magnesium (gesamt)",
+      "x1": 59,
+      "y1": 570,
+      "x2": 779,
+      "y2": 841,
+      "cx": 419.0,
+      "cy": 705.5,
+      "conf": 0.9975
+    },
+    {
+      "token": "420 mg",
+      "x1": 1984,
+      "y1": 1001,
+      "x2": 2248,
+      "y2": 1141,
+      "cx": 2116.0,
+      "cy": 1071.0,
+      "conf": 0.9983
+    },
+    {
+      "token": "Magnesiumoxid",
+      "x1": 92,
+      "y1": 1060,
+      "x2": 594,
+      "y2": 1271,
+      "cx": 343.0,
+      "cy": 1165.5,
+      "conf": 0.9974
+    },
+    {
+      "token": "400 mg",
+      "x1": 1984,
+      "y1": 1098,
+      "x2": 2246,
+      "y2": 1233,
+      "cx": 2115.0,
+      "cy": 1165.5,
+      "conf": 0.9968
+    },
+    {
+      "token": "350 mg",
+      "x1": 1987,
+      "y1": 1192,
+      "x2": 2245,
+      "y2": 1327,
+      "cx": 2116.0,
+      "cy": 1259.5,
+      "conf": 0.9979
+    },
+    {
+      "token": "Magnesiumbisglycinat",
+      "x1": 80,
+      "y1": 1133,
+      "x2": 853,
+      "y2": 1434,
+      "cx": 466.5,
+      "cy": 1283.5,
+      "conf": 0.9983
+    },
+    {
+      "token": "333 mg",
+      "x1": 1982,
+      "y1": 1280,
+      "x2": 2244,
+      "y2": 1425,
+      "cx": 2113.0,
+      "cy": 1352.5,
+      "conf": 0.9916
+    },
+    {
+      "token": "Magnesiummalat",
+      "x1": 88,
+      "y1": 1221,
+      "x2": 661,
+      "y2": 1490,
+      "cx": 374.5,
+      "cy": 1355.5,
+      "conf": 0.9958
+    },
+    {
+      "token": "**",
+      "x1": 188,
+      "y1": 1472,
+      "x2": 276,
+      "y2": 1541,
+      "cx": 232.0,
+      "cy": 1506.5,
+      "conf": 0.9651
+    },
+    {
+      "token": "Nahr",
+      "x1": 270,
+      "y1": 1507,
+      "x2": 438,
+      "y2": 1599,
+      "cx": 354.0,
+      "cy": 1553.0,
+      "conf": 0.9029
+    },
+    {
+      "token": "**",
+      "x1": 168,
+      "y1": 1553,
+      "x2": 246,
+      "y2": 1597,
+      "cx": 207.0,
+      "cy": 1575.0,
+      "conf": 0.719
+    }
+  ],
+  "corrected": [
+    {
+      "token": "VR",
+      "x1": 2444,
+      "y1": 333,
+      "x2": 2537,
+      "y2": 417,
+      "cx": 2490.5,
+      "cy": 375.0,
+      "conf": 0.7415
+    },
+    {
+      "token": "Nahrstoffe**",
+      "x1": 57,
+      "y1": 379,
+      "x2": 499,
+      "y2": 579,
+      "cx": 278.0,
+      "cy": 479.0,
+      "conf": 0.9947
+    },
+    {
+      "token": "Je Tagesdosis***",
+      "x1": 1617,
+      "y1": 386,
+      "x2": 2297,
+      "y2": 658,
+      "cx": 1957.0,
+      "cy": 522.0,
+      "conf": 0.9985
+    },
+    {
+      "token": "400",
+      "x1": 1995,
+      "y1": 621,
+      "x2": 2157,
+      "y2": 759,
+      "cx": 2076.0,
+      "cy": 690.0,
+      "conf": 0.9966
+    },
+    {
+      "token": "mg",
+      "x1": 2157,
+      "y1": 621,
+      "x2": 2265,
+      "y2": 759,
+      "cx": 2211.0,
+      "cy": 690.0,
+      "conf": 0.9966
+    },
+    {
+      "token": "Magnesium (gesamt)",
+      "x1": 59,
+      "y1": 570,
+      "x2": 779,
+      "y2": 841,
+      "cx": 419.0,
+      "cy": 705.5,
+      "conf": 0.9975
+    },
+    {
+      "token": "420",
+      "x1": 1984,
+      "y1": 1001,
+      "x2": 2142,
+      "y2": 1141,
+      "cx": 2063.0,
+      "cy": 1071.0,
+      "conf": 0.9983
+    },
+    {
+      "token": "mg",
+      "x1": 2142,
+      "y1": 1001,
+      "x2": 2248,
+      "y2": 1141,
+      "cx": 2195.0,
+      "cy": 1071.0,
+      "conf": 0.9983
+    },
+    {
+      "token": "Magnesiumoxid",
+      "x1": 92,
+      "y1": 1060,
+      "x2": 594,
+      "y2": 1271,
+      "cx": 343.0,
+      "cy": 1165.5,
+      "conf": 0.9974
+    },
+    {
+      "token": "400",
+      "x1": 1984,
+      "y1": 1098,
+      "x2": 2141,
+      "y2": 1233,
+      "cx": 2062.5,
+      "cy": 1165.5,
+      "conf": 0.9968
+    },
+    {
+      "token": "mg",
+      "x1": 2141,
+      "y1": 1098,
+      "x2": 2246,
+      "y2": 1233,
+      "cx": 2193.5,
+      "cy": 1165.5,
+      "conf": 0.9968
+    },
+    {
+      "token": "350",
+      "x1": 1987,
+      "y1": 1192,
+      "x2": 2141,
+      "y2": 1327,
+      "cx": 2064.0,
+      "cy": 1259.5,
+      "conf": 0.9979
+    },
+    {
+      "token": "mg",
+      "x1": 2141,
+      "y1": 1192,
+      "x2": 2245,
+      "y2": 1327,
+      "cx": 2193.0,
+      "cy": 1259.5,
+      "conf": 0.9979
+    },
+    {
+      "token": "Magnesiumbisglycinat",
+      "x1": 80,
+      "y1": 1133,
+      "x2": 853,
+      "y2": 1434,
+      "cx": 466.5,
+      "cy": 1283.5,
+      "conf": 0.9983
+    },
+    {
+      "token": "333",
+      "x1": 1982,
+      "y1": 1280,
+      "x2": 2139,
+      "y2": 1425,
+      "cx": 2060.5,
+      "cy": 1352.5,
+      "conf": 0.9916
+    },
+    {
+      "token": "mg",
+      "x1": 2139,
+      "y1": 1280,
+      "x2": 2244,
+      "y2": 1425,
+      "cx": 2191.5,
+      "cy": 1352.5,
+      "conf": 0.9916
+    },
+    {
+      "token": "Magnesiummalat",
+      "x1": 88,
+      "y1": 1221,
+      "x2": 661,
+      "y2": 1490,
+      "cx": 374.5,
+      "cy": 1355.5,
+      "conf": 0.9958
+    },
+    {
+      "token": "**",
+      "x1": 188,
+      "y1": 1472,
+      "x2": 276,
+      "y2": 1541,
+      "cx": 232.0,
+      "cy": 1506.5,
+      "conf": 0.9651
+    },
+    {
+      "token": "Nahr",
+      "x1": 270,
+      "y1": 1507,
+      "x2": 438,
+      "y2": 1599,
+      "cx": 354.0,
+      "cy": 1553.0,
+      "conf": 0.9029
+    },
+    {
+      "token": "**",
+      "x1": 168,
+      "y1": 1553,
+      "x2": 246,
+      "y2": 1597,
+      "cx": 207.0,
+      "cy": 1575.0,
+      "conf": 0.719
+    }
+  ],
+  "labeled": [
+    {
+      "token": "VR",
+      "x1": 2444,
+      "y1": 333,
+      "x2": 2537,
+      "y2": 417,
+      "cx": 2490.5,
+      "cy": 375.0,
+      "conf": 0.7415,
+      "label": "UNKNOWN",
+      "norm": "vr",
+      "embedding_scores": {
+        "NUTRIENT": 0.5350207090377808,
+        "QUANTITY": 0.4594965875148773,
+        "UNIT": 0.4361070394515991,
+        "CONTEXT": 0.41443100571632385,
+        "NOISE": 0.5083019733428955
+      },
+      "embedding_confidence": 0.5350207090377808,
+      "classification_method": "embedding",
+      "embedding_context": "VR"
+    },
+    {
+      "token": "Nahrstoffe**",
+      "x1": 57,
+      "y1": 379,
+      "x2": 499,
+      "y2": 579,
+      "cx": 278.0,
+      "cy": 479.0,
+      "conf": 0.9947,
+      "label": "NUTRIENT",
+      "norm": "nahrstoffe**",
+      "embedding_scores": {
+        "NUTRIENT": 0.6132442951202393,
+        "QUANTITY": 0.4580398201942444,
+        "UNIT": 0.38779228925704956,
+        "CONTEXT": 0.44339972734451294,
+        "NOISE": 0.5233519077301025
+      },
+      "embedding_confidence": 0.6132442951202393,
+      "classification_method": "embedding",
+      "embedding_context": "Nahrstoffe**"
+    },
+    {
+      "token": "Je Tagesdosis***",
+      "x1": 1617,
+      "y1": 386,
+      "x2": 2297,
+      "y2": 658,
+      "cx": 1957.0,
+      "cy": 522.0,
+      "conf": 0.9985,
+      "label": "CONTEXT",
+      "norm": "per_daily_dose",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "400",
+      "x1": 1995,
+      "y1": 621,
+      "x2": 2157,
+      "y2": 759,
+      "cx": 2076.0,
+      "cy": 690.0,
+      "conf": 0.9966,
+      "label": "QUANTITY",
+      "norm": "400",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 2157,
+      "y1": 621,
+      "x2": 2265,
+      "y2": 759,
+      "cx": 2211.0,
+      "cy": 690.0,
+      "conf": 0.9966,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Magnesium (gesamt)",
+      "x1": 59,
+      "y1": 570,
+      "x2": 779,
+      "y2": 841,
+      "cx": 419.0,
+      "cy": 705.5,
+      "conf": 0.9975,
+      "label": "NUTRIENT",
+      "norm": "magnesium",
+      "embedding_scores": {
+        "NUTRIENT": 0.7631146907806396,
+        "QUANTITY": 0.4087071418762207,
+        "UNIT": 0.46447765827178955,
+        "CONTEXT": 0.4503225088119507,
+        "NOISE": 0.41363030672073364
+      },
+      "embedding_confidence": 0.7631146907806396,
+      "classification_method": "embedding",
+      "embedding_context": "Magnesium (gesamt)"
+    },
+    {
+      "token": "420",
+      "x1": 1984,
+      "y1": 1001,
+      "x2": 2142,
+      "y2": 1141,
+      "cx": 2063.0,
+      "cy": 1071.0,
+      "conf": 0.9983,
+      "label": "QUANTITY",
+      "norm": "420",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 2142,
+      "y1": 1001,
+      "x2": 2248,
+      "y2": 1141,
+      "cx": 2195.0,
+      "cy": 1071.0,
+      "conf": 0.9983,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Magnesiumoxid",
+      "x1": 92,
+      "y1": 1060,
+      "x2": 594,
+      "y2": 1271,
+      "cx": 343.0,
+      "cy": 1165.5,
+      "conf": 0.9974,
+      "label": "NUTRIENT",
+      "norm": "magnesiumoxid",
+      "embedding_scores": {
+        "NUTRIENT": 0.8730087876319885,
+        "QUANTITY": 0.409023255109787,
+        "UNIT": 0.43972599506378174,
+        "CONTEXT": 0.44333550333976746,
+        "NOISE": 0.4166467487812042
+      },
+      "embedding_confidence": 0.8730087876319885,
+      "classification_method": "embedding",
+      "embedding_context": "Magnesiumoxid 400 mg"
+    },
+    {
+      "token": "400",
+      "x1": 1984,
+      "y1": 1098,
+      "x2": 2141,
+      "y2": 1233,
+      "cx": 2062.5,
+      "cy": 1165.5,
+      "conf": 0.9968,
+      "label": "QUANTITY",
+      "norm": "400",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 2141,
+      "y1": 1098,
+      "x2": 2246,
+      "y2": 1233,
+      "cx": 2193.5,
+      "cy": 1165.5,
+      "conf": 0.9968,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "350",
+      "x1": 1987,
+      "y1": 1192,
+      "x2": 2141,
+      "y2": 1327,
+      "cx": 2064.0,
+      "cy": 1259.5,
+      "conf": 0.9979,
+      "label": "QUANTITY",
+      "norm": "350",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 2141,
+      "y1": 1192,
+      "x2": 2245,
+      "y2": 1327,
+      "cx": 2193.0,
+      "cy": 1259.5,
+      "conf": 0.9979,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Magnesiumbisglycinat",
+      "x1": 80,
+      "y1": 1133,
+      "x2": 853,
+      "y2": 1434,
+      "cx": 466.5,
+      "cy": 1283.5,
+      "conf": 0.9983,
+      "label": "NUTRIENT",
+      "norm": "magnesiumbisglycinat",
+      "embedding_scores": {
+        "NUTRIENT": 0.6972573399543762,
+        "QUANTITY": 0.39764517545700073,
+        "UNIT": 0.42910483479499817,
+        "CONTEXT": 0.4065914750099182,
+        "NOISE": 0.4193568825721741
+      },
+      "embedding_confidence": 0.6972573399543762,
+      "classification_method": "embedding",
+      "embedding_context": "Magnesiumbisglycinat"
+    },
+    {
+      "token": "333",
+      "x1": 1982,
+      "y1": 1280,
+      "x2": 2139,
+      "y2": 1425,
+      "cx": 2060.5,
+      "cy": 1352.5,
+      "conf": 0.9916,
+      "label": "QUANTITY",
+      "norm": "333",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 2139,
+      "y1": 1280,
+      "x2": 2244,
+      "y2": 1425,
+      "cx": 2191.5,
+      "cy": 1352.5,
+      "conf": 0.9916,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Magnesiummalat",
+      "x1": 88,
+      "y1": 1221,
+      "x2": 661,
+      "y2": 1490,
+      "cx": 374.5,
+      "cy": 1355.5,
+      "conf": 0.9958,
+      "label": "NUTRIENT",
+      "norm": "magnesiummalat",
+      "embedding_scores": {
+        "NUTRIENT": 0.7067207098007202,
+        "QUANTITY": 0.4665566086769104,
+        "UNIT": 0.44529062509536743,
+        "CONTEXT": 0.45721593499183655,
+        "NOISE": 0.4401651918888092
+      },
+      "embedding_confidence": 0.7067207098007202,
+      "classification_method": "embedding",
+      "embedding_context": "Magnesiummalat 333 mg"
+    },
+    {
+      "token": "**",
+      "x1": 188,
+      "y1": 1472,
+      "x2": 276,
+      "y2": 1541,
+      "cx": 232.0,
+      "cy": 1506.5,
+      "conf": 0.9651,
+      "label": "UNKNOWN",
+      "norm": "**",
+      "embedding_scores": {
+        "NUTRIENT": 0.4773508906364441,
+        "QUANTITY": 0.4425174295902252,
+        "UNIT": 0.39356735348701477,
+        "CONTEXT": 0.4364573657512665,
+        "NOISE": 0.5011698007583618
+      },
+      "embedding_confidence": 0.4773508906364441,
+      "classification_method": "embedding",
+      "embedding_context": "**"
+    },
+    {
+      "token": "Nahr",
+      "x1": 270,
+      "y1": 1507,
+      "x2": 438,
+      "y2": 1599,
+      "cx": 354.0,
+      "cy": 1553.0,
+      "conf": 0.9029,
+      "label": "NUTRIENT",
+      "norm": "nahr",
+      "embedding_scores": {
+        "NUTRIENT": 0.6150275468826294,
+        "QUANTITY": 0.4197579324245453,
+        "UNIT": 0.2838203012943268,
+        "CONTEXT": 0.3475022614002228,
+        "NOISE": 0.45100006461143494
+      },
+      "embedding_confidence": 0.6150275468826294,
+      "classification_method": "embedding",
+      "embedding_context": "Nahr"
+    },
+    {
+      "token": "**",
+      "x1": 168,
+      "y1": 1553,
+      "x2": 246,
+      "y2": 1597,
+      "cx": 207.0,
+      "cy": 1575.0,
+      "conf": 0.719,
+      "label": "UNKNOWN",
+      "norm": "**",
+      "embedding_scores": {
+        "NUTRIENT": 0.4773508906364441,
+        "QUANTITY": 0.4425174295902252,
+        "UNIT": 0.39356735348701477,
+        "CONTEXT": 0.4364573657512665,
+        "NOISE": 0.5011698007583618
+      },
+      "embedding_confidence": 0.4773508906364441,
+      "classification_method": "embedding",
+      "embedding_context": "**"
+    }
+  ],
+  "tuples": [
+    {
+      "image_id": "1.png",
+      "nutrient": "Nahrstoffe",
+      "quantity": null,
+      "unit": null,
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "1.png",
+      "nutrient": "Magnesium (gesamt",
+      "quantity": "400",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "1.png",
+      "nutrient": "Magnesiumoxid",
+      "quantity": "400",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "1.png",
+      "nutrient": "Magnesiumbisglycinat",
+      "quantity": "333",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "1.png",
+      "nutrient": "Magnesiumbisglycinat",
+      "quantity": "350",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "1.png",
+      "nutrient": "Magnesiummalat",
+      "quantity": "333",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "1.png",
+      "nutrient": "Nahr",
+      "quantity": null,
+      "unit": null,
+      "context": "per_daily_dose"
+    }
+  ],
+  "diagnostics": {
+    "edges": 144,
+    "nodes": 20
+  },
+  "duration_s": 2.636,
+  "error": null
+}

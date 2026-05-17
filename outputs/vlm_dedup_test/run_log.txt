@@ -1,0 +1,36 @@
+Experiment  : vlm_dedup_test
+Pipeline    : VLM-Assisted + Corrector V2 + EmbeddingSemanticClassifier (embedding_only)
+Corrector   : src.utils.paddleOCR_corrector_v2
+Classifier  : embedding_only
+Threshold   : 0.59
+Margin      : 0.04
+GT CSV      : test_set_normalized.csv
+Evaluator   : Fast rule-based
+Schema      : nutrient|quantity|unit|context
+VLM Backend : openai_compat
+VLM Model   : qwen/qwen2.5-vl-7b @ http://127.0.0.1:1234/v1/chat/completions
+VLM Image   : resized JPG, max side 896px
+VLM MaxTok  : 4096
+VLM Retries : 0
+Token Labels: ['CONTEXT', 'NUTRIENT', 'QUANTITY', 'UNIT']
+Structure   : False
+Timestamp   : 2026-05-13T06:39:17.535307
+Notes       : 
+
+GT tuples            : 14
+Predicted tuples     : 16
+Matched pairs        : 6
+Full 4F correct      : 6
+Full Tuple Precision : 37.5%
+Full Tuple Recall    : 42.9%
+Full Tuple F1        : 40.0%
+Nutrient F1          : 0.400
+Unit Acc             : 100.0%
+Context Acc          : 100.0%
+Quantity Acc         : 100.0%
+
+VLM total time        : 772.5s
+VLM avg/success image : 386.3s
+Total processing time : 789.3s
+Avg processing/image  : 394.7s
+Processing time CSV   : outputs\vlm_dedup_test\processing_times.csv

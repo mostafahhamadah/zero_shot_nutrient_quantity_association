@@ -1,0 +1,3 @@
+image_id,status,ocr_tokens,corrector_edits,predicted_tuples,clf_nutrient,clf_quantity,clf_unit,clf_context,clf_via_embedding,vlm_backend,vlm_original_width,vlm_original_height,vlm_width,vlm_height,vlm_image_path,vlm_time_s,vlm_attempts,vlm_last_error,total_processing_time_s,error
+4.png,ok,100,26,10,38,5,5,1,84,openai_compat,4396,960,896,196,outputs\vlm_dedup_test\vlm_resized_images\4_vlm_896x196.jpg,494.6,1,,506.925,
+6.png,ok,15,8,6,6,6,6,1,8,openai_compat,2572,1632,896,569,outputs\vlm_dedup_test\vlm_resized_images\6_vlm_896x569.jpg,277.92,1,,282.417,

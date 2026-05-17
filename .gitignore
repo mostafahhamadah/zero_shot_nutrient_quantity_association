@@ -1,0 +1,7 @@
+results/ablation/*/intermediate/
+results/ablation/*/vlm_resized_images/
+results/ablation/*/raw_responses.json
+outputs/
+*.png
+__pycache__/
+.ipynb_checkpoints/

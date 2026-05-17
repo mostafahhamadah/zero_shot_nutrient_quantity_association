@@ -1,0 +1,3 @@
+experiment_id,experiment_name,ocr_engine,classifier_key,association_key,full_tuple_precision,full_tuple_recall,full_tuple_f1,n_images,n_predicted,n_ground_truth
+EXP-01,easyocr,easyocr,rule_based,graph_v2,0.1777,0.1801,0.1789,57,878,866
+EXP-02,paddleocr,paddleocr,rule_based,graph_v2,0.3969,0.418,0.4072,57,912,866

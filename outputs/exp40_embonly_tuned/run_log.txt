@@ -1,0 +1,18 @@
+Experiment   : exp40_embonly_tuned
+Pipeline     : V2 + EmbeddingSemanticClassifier (embedding_only)
+Threshold    : 0.59
+Margin       : 0.04
+Evaluator    : fast rule-based
+Timestamp    : 2026-05-01T08:31:13.403545
+Notes        : 
+
+GT tuples            : 866
+Predicted tuples     : 973
+Matched pairs        : 603
+Full 4F correct      : 263
+Full Tuple Precision : 27.0%
+Full Tuple Recall    : 30.4%
+Full Tuple F1        : 28.6%
+Nutrient F1          : 0.656
+Unit Acc             : 82.9%
+Context Acc          : 83.2%

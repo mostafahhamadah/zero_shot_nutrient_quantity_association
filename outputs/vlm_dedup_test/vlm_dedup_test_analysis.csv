@@ -1,0 +1,9 @@
+tag,image_id,gt_nutrient,gt_quantity,gt_unit,gt_context,pred_nutrient,pred_quantity,pred_unit,pred_context,reason
+missing,4.png,Energy,952,,per_100g,,,,,nutrient not found in predictions
+missing,4.png,Energy,224,kcal,per_100g,,,,,nutrient not found in predictions
+missing,4.png,Fat,0,g,per_100g,,,,,nutrient not found in predictions
+missing,4.png,Saturated Fats,0,g,per_100g,,,,,nutrient not found in predictions
+missing,4.png,Carbohydrate,56,g,per_100g,,,,,nutrient not found in predictions
+missing,4.png,Sugars,6.7,g,per_100g,,,,,nutrient not found in predictions
+missing,4.png,Protein,0.1,g,per_100g,,,,,nutrient not found in predictions
+missing,4.png,Salt,0.12,g,per_100g,,,,,nutrient not found in predictions

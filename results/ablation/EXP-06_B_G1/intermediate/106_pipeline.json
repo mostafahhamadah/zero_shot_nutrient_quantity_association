@@ -1,0 +1,1065 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "Vitamine und Mineralstoffe/",
+      "x1": 381,
+      "y1": 109,
+      "x2": 1448,
+      "y2": 217,
+      "cx": 914.5,
+      "cy": 163.0,
+      "conf": 0.9605
+    },
+    {
+      "token": "Vitamines et sels minéraux/Vitamine",
+      "x1": 220,
+      "y1": 235,
+      "x2": 1617,
+      "y2": 343,
+      "cx": 918.5,
+      "cy": 289.0,
+      "conf": 0.9861
+    },
+    {
+      "token": "e sali minerali/Vitaminok es asvanyi",
+      "x1": 249,
+      "y1": 364,
+      "x2": 1598,
+      "y2": 469,
+      "cx": 923.5,
+      "cy": 416.5,
+      "conf": 0.9649
+    },
+    {
+      "token": "anyagok/Vitamini in minerali",
+      "x1": 364,
+      "y1": 480,
+      "x2": 1480,
+      "y2": 612,
+      "cx": 922.0,
+      "cy": 546.0,
+      "conf": 0.9862
+    },
+    {
+      "token": "%",
+      "x1": 1583,
+      "y1": 673,
+      "x2": 1665,
+      "y2": 766,
+      "cx": 1624.0,
+      "cy": 719.5,
+      "conf": 0.9996
+    },
+    {
+      "token": "Pro Stick/ Par sachet/",
+      "x1": 754,
+      "y1": 671,
+      "x2": 1460,
+      "y2": 773,
+      "cx": 1107.0,
+      "cy": 722.0,
+      "conf": 0.9847
+    },
+    {
+      "token": "NRV/",
+      "x1": 1537,
+      "y1": 780,
+      "x2": 1711,
+      "y2": 892,
+      "cx": 1624.0,
+      "cy": 836.0,
+      "conf": 0.9788
+    },
+    {
+      "token": "Per bustina/Egy",
+      "x1": 841,
+      "y1": 794,
+      "x2": 1361,
+      "y2": 907,
+      "cx": 1101.0,
+      "cy": 850.5,
+      "conf": 0.9729
+    },
+    {
+      "token": "PDV*",
+      "x1": 1526,
+      "y1": 898,
+      "x2": 1719,
+      "y2": 1015,
+      "cx": 1622.5,
+      "cy": 956.5,
+      "conf": 0.9926
+    },
+    {
+      "token": "tasakban/Na vrecko",
+      "x1": 785,
+      "y1": 916,
+      "x2": 1443,
+      "y2": 1011,
+      "cx": 1114.0,
+      "cy": 963.5,
+      "conf": 0.9597
+    },
+    {
+      "token": "VitaminE/VitamineE",
+      "x1": 155,
+      "y1": 1066,
+      "x2": 870,
+      "y2": 1147,
+      "cx": 512.5,
+      "cy": 1106.5,
+      "conf": 0.9816
+    },
+    {
+      "token": "VitaminaE/E-vitamin/",
+      "x1": 160,
+      "y1": 1185,
+      "x2": 889,
+      "y2": 1266,
+      "cx": 524.5,
+      "cy": 1225.5,
+      "conf": 0.9777
+    },
+    {
+      "token": "100%",
+      "x1": 1518,
+      "y1": 1280,
+      "x2": 1730,
+      "y2": 1387,
+      "cx": 1624.0,
+      "cy": 1333.5,
+      "conf": 0.9991
+    },
+    {
+      "token": "VitaminE",
+      "x1": 157,
+      "y1": 1290,
+      "x2": 466,
+      "y2": 1389,
+      "cx": 311.5,
+      "cy": 1339.5,
+      "conf": 0.9921
+    },
+    {
+      "token": "12 mg a-TE",
+      "x1": 935,
+      "y1": 1287,
+      "x2": 1295,
+      "y2": 1397,
+      "cx": 1115.0,
+      "cy": 1342.0,
+      "conf": 0.9566
+    },
+    {
+      "token": "Magnesium/Magnesium/",
+      "x1": 169,
+      "y1": 1435,
+      "x2": 988,
+      "y2": 1532,
+      "cx": 578.5,
+      "cy": 1483.5,
+      "conf": 0.9773
+    },
+    {
+      "token": "Magnesio/Magnezium/",
+      "x1": 171,
+      "y1": 1541,
+      "x2": 940,
+      "y2": 1651,
+      "cx": 555.5,
+      "cy": 1596.0,
+      "conf": 0.9953
+    },
+    {
+      "token": "67%",
+      "x1": 1526,
+      "y1": 1638,
+      "x2": 1707,
+      "y2": 1747,
+      "cx": 1616.5,
+      "cy": 1692.5,
+      "conf": 0.9988
+    },
+    {
+      "token": "250 mg",
+      "x1": 988,
+      "y1": 1637,
+      "x2": 1245,
+      "y2": 1770,
+      "cx": 1116.5,
+      "cy": 1703.5,
+      "conf": 0.9807
+    },
+    {
+      "token": "Magnezij",
+      "x1": 171,
+      "y1": 1653,
+      "x2": 467,
+      "y2": 1773,
+      "cx": 319.0,
+      "cy": 1713.0,
+      "conf": 0.996
+    },
+    {
+      "token": "*NRV=Nahrstoffbezugswert/valeurs",
+      "x1": 343,
+      "y1": 1813,
+      "x2": 1542,
+      "y2": 1901,
+      "cx": 942.5,
+      "cy": 1857.0,
+      "conf": 0.9818
+    },
+    {
+      "token": "nutrionnelles de reference/taplalkozasi",
+      "x1": 319,
+      "y1": 1922,
+      "x2": 1552,
+      "y2": 2001,
+      "cx": 935.5,
+      "cy": 1961.5,
+      "conf": 0.9795
+    },
+    {
+      "token": "referenciaertek/VNR=Valori Nutritivi di",
+      "x1": 304,
+      "y1": 2022,
+      "x2": 1571,
+      "y2": 2108,
+      "cx": 937.5,
+      "cy": 2065.0,
+      "conf": 0.9772
+    },
+    {
+      "token": "Riferimento/*PDV=priporoeni dnevni vnos",
+      "x1": 246,
+      "y1": 2127,
+      "x2": 1660,
+      "y2": 2225,
+      "cx": 953.0,
+      "cy": 2176.0,
+      "conf": 0.9797
+    }
+  ],
+  "corrected": [
+    {
+      "token": "Vitamin E",
+      "x1": 381,
+      "y1": 109,
+      "x2": 1448,
+      "y2": 217,
+      "cx": 914.5,
+      "cy": 163.0,
+      "conf": 0.9605
+    },
+    {
+      "token": "Vitamines et sels minéraux/Vitamine",
+      "x1": 220,
+      "y1": 235,
+      "x2": 1617,
+      "y2": 343,
+      "cx": 918.5,
+      "cy": 289.0,
+      "conf": 0.9861
+    },
+    {
+      "token": "e sali minerali/Vitaminok es asvanyi",
+      "x1": 249,
+      "y1": 364,
+      "x2": 1598,
+      "y2": 469,
+      "cx": 923.5,
+      "cy": 416.5,
+      "conf": 0.9649
+    },
+    {
+      "token": "anyagok/Vitamini in minerali",
+      "x1": 364,
+      "y1": 480,
+      "x2": 1480,
+      "y2": 612,
+      "cx": 922.0,
+      "cy": 546.0,
+      "conf": 0.9862
+    },
+    {
+      "token": "%",
+      "x1": 1583,
+      "y1": 673,
+      "x2": 1665,
+      "y2": 766,
+      "cx": 1624.0,
+      "cy": 719.5,
+      "conf": 0.9996
+    },
+    {
+      "token": "Pro Stick/ Par sachet/",
+      "x1": 754,
+      "y1": 671,
+      "x2": 1460,
+      "y2": 773,
+      "cx": 1107.0,
+      "cy": 722.0,
+      "conf": 0.9847
+    },
+    {
+      "token": "NRV/",
+      "x1": 1537,
+      "y1": 780,
+      "x2": 1711,
+      "y2": 892,
+      "cx": 1624.0,
+      "cy": 836.0,
+      "conf": 0.9788
+    },
+    {
+      "token": "Per bustina/Egy",
+      "x1": 841,
+      "y1": 794,
+      "x2": 1361,
+      "y2": 907,
+      "cx": 1101.0,
+      "cy": 850.5,
+      "conf": 0.9729
+    },
+    {
+      "token": "PDV*",
+      "x1": 1526,
+      "y1": 898,
+      "x2": 1719,
+      "y2": 1015,
+      "cx": 1622.5,
+      "cy": 956.5,
+      "conf": 0.9926
+    },
+    {
+      "token": "tasakban/Na vrecko",
+      "x1": 785,
+      "y1": 916,
+      "x2": 1443,
+      "y2": 1011,
+      "cx": 1114.0,
+      "cy": 963.5,
+      "conf": 0.9597
+    },
+    {
+      "token": "Vitamin E",
+      "x1": 155,
+      "y1": 1066,
+      "x2": 870,
+      "y2": 1147,
+      "cx": 512.5,
+      "cy": 1106.5,
+      "conf": 0.9816
+    },
+    {
+      "token": "VitaminaE/E-vitamin/",
+      "x1": 160,
+      "y1": 1185,
+      "x2": 889,
+      "y2": 1266,
+      "cx": 524.5,
+      "cy": 1225.5,
+      "conf": 0.9777
+    },
+    {
+      "token": "100%",
+      "x1": 1518,
+      "y1": 1280,
+      "x2": 1730,
+      "y2": 1387,
+      "cx": 1624.0,
+      "cy": 1333.5,
+      "conf": 0.9991
+    },
+    {
+      "token": "Vitamin E",
+      "x1": 157,
+      "y1": 1290,
+      "x2": 466,
+      "y2": 1389,
+      "cx": 311.5,
+      "cy": 1339.5,
+      "conf": 0.9921
+    },
+    {
+      "token": "12",
+      "x1": 935,
+      "y1": 1287,
+      "x2": 1015,
+      "y2": 1397,
+      "cx": 975.0,
+      "cy": 1342.0,
+      "conf": 0.9566
+    },
+    {
+      "token": "mg a-TE",
+      "x1": 1015,
+      "y1": 1287,
+      "x2": 1295,
+      "y2": 1397,
+      "cx": 1155.0,
+      "cy": 1342.0,
+      "conf": 0.9566
+    },
+    {
+      "token": "Magnesium",
+      "x1": 169,
+      "y1": 1435,
+      "x2": 988,
+      "y2": 1532,
+      "cx": 578.5,
+      "cy": 1483.5,
+      "conf": 0.9773
+    },
+    {
+      "token": "Magnesium",
+      "x1": 171,
+      "y1": 1541,
+      "x2": 940,
+      "y2": 1651,
+      "cx": 555.5,
+      "cy": 1596.0,
+      "conf": 0.9953
+    },
+    {
+      "token": "67%",
+      "x1": 1526,
+      "y1": 1638,
+      "x2": 1707,
+      "y2": 1747,
+      "cx": 1616.5,
+      "cy": 1692.5,
+      "conf": 0.9988
+    },
+    {
+      "token": "250",
+      "x1": 988,
+      "y1": 1637,
+      "x2": 1142,
+      "y2": 1770,
+      "cx": 1065.0,
+      "cy": 1703.5,
+      "conf": 0.9807
+    },
+    {
+      "token": "mg",
+      "x1": 1142,
+      "y1": 1637,
+      "x2": 1245,
+      "y2": 1770,
+      "cx": 1193.5,
+      "cy": 1703.5,
+      "conf": 0.9807
+    },
+    {
+      "token": "Magnesium",
+      "x1": 171,
+      "y1": 1653,
+      "x2": 467,
+      "y2": 1773,
+      "cx": 319.0,
+      "cy": 1713.0,
+      "conf": 0.996
+    },
+    {
+      "token": "*NRV=Nahrstoffbezugswert/valeurs",
+      "x1": 343,
+      "y1": 1813,
+      "x2": 1542,
+      "y2": 1901,
+      "cx": 942.5,
+      "cy": 1857.0,
+      "conf": 0.9818
+    },
+    {
+      "token": "nutrionnelles de reference/taplalkozasi",
+      "x1": 319,
+      "y1": 1922,
+      "x2": 1552,
+      "y2": 2001,
+      "cx": 935.5,
+      "cy": 1961.5,
+      "conf": 0.9795
+    },
+    {
+      "token": "referenciaertek/VNR=Valori Nutritivi di",
+      "x1": 304,
+      "y1": 2022,
+      "x2": 1571,
+      "y2": 2108,
+      "cx": 937.5,
+      "cy": 2065.0,
+      "conf": 0.9772
+    },
+    {
+      "token": "Riferimento/*PDV=priporoeni dnevni vnos",
+      "x1": 246,
+      "y1": 2127,
+      "x2": 1660,
+      "y2": 2225,
+      "cx": 953.0,
+      "cy": 2176.0,
+      "conf": 0.9797
+    }
+  ],
+  "labeled": [
+    {
+      "token": "Vitamin E",
+      "x1": 381,
+      "y1": 109,
+      "x2": 1448,
+      "y2": 217,
+      "cx": 914.5,
+      "cy": 163.0,
+      "conf": 0.9605,
+      "label": "NUTRIENT",
+      "norm": "vitamin e",
+      "embedding_scores": {
+        "NUTRIENT": 0.7866164445877075,
+        "QUANTITY": 0.39454445242881775,
+        "UNIT": 0.3473619818687439,
+        "CONTEXT": 0.4682859182357788,
+        "NOISE": 0.470175564289093
+      },
+      "embedding_confidence": 0.7866164445877075,
+      "classification_method": "embedding",
+      "embedding_context": "Vitamin E"
+    },
+    {
+      "token": "Vitamines et sels minéraux/Vitamine",
+      "x1": 220,
+      "y1": 235,
+      "x2": 1617,
+      "y2": 343,
+      "cx": 918.5,
+      "cy": 289.0,
+      "conf": 0.9861,
+      "label": "UNKNOWN",
+      "norm": "vitamines et sels minéraux/vitamine",
+      "embedding_scores": {
+        "NUTRIENT": 0.5804312229156494,
+        "QUANTITY": 0.41634154319763184,
+        "UNIT": 0.4423580467700958,
+        "CONTEXT": 0.47811663150787354,
+        "NOISE": 0.4540526270866394
+      },
+      "embedding_confidence": 0.5804312229156494,
+      "classification_method": "embedding",
+      "embedding_context": "Vitamines et sels minéraux/Vitamine"
+    },
+    {
+      "token": "e sali minerali/Vitaminok es asvanyi",
+      "x1": 249,
+      "y1": 364,
+      "x2": 1598,
+      "y2": 469,
+      "cx": 923.5,
+      "cy": 416.5,
+      "conf": 0.9649,
+      "label": "NUTRIENT",
+      "norm": "e sali minerali/vitaminok es asvanyi",
+      "embedding_scores": {
+        "NUTRIENT": 0.6129988431930542,
+        "QUANTITY": 0.4368174374103546,
+        "UNIT": 0.3970620334148407,
+        "CONTEXT": 0.5134491324424744,
+        "NOISE": 0.46157944202423096
+      },
+      "embedding_confidence": 0.6129988431930542,
+      "classification_method": "embedding",
+      "embedding_context": "e sali minerali/Vitaminok es asvanyi"
+    },
+    {
+      "token": "anyagok/Vitamini in minerali",
+      "x1": 364,
+      "y1": 480,
+      "x2": 1480,
+      "y2": 612,
+      "cx": 922.0,
+      "cy": 546.0,
+      "conf": 0.9862,
+      "label": "NUTRIENT",
+      "norm": "anyagok/vitamini in minerali",
+      "embedding_scores": {
+        "NUTRIENT": 0.5920460224151611,
+        "QUANTITY": 0.4625271260738373,
+        "UNIT": 0.4443656802177429,
+        "CONTEXT": 0.438617080450058,
+        "NOISE": 0.44383201003074646
+      },
+      "embedding_confidence": 0.5920460224151611,
+      "classification_method": "embedding",
+      "embedding_context": "anyagok/Vitamini in minerali"
+    },
+    {
+      "token": "%",
+      "x1": 1583,
+      "y1": 673,
+      "x2": 1665,
+      "y2": 766,
+      "cx": 1624.0,
+      "cy": 719.5,
+      "conf": 0.9996,
+      "label": "NOISE",
+      "norm": "%",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Pro Stick/ Par sachet/",
+      "x1": 754,
+      "y1": 671,
+      "x2": 1460,
+      "y2": 773,
+      "cx": 1107.0,
+      "cy": 722.0,
+      "conf": 0.9847,
+      "label": "UNKNOWN",
+      "norm": "pro stick/ par sachet/",
+      "embedding_scores": {
+        "NUTRIENT": 0.4851136803627014,
+        "QUANTITY": 0.45309484004974365,
+        "UNIT": 0.3821049928665161,
+        "CONTEXT": 0.5755517482757568,
+        "NOISE": 0.4960697293281555
+      },
+      "embedding_confidence": 0.4851136803627014,
+      "classification_method": "embedding",
+      "embedding_context": "Pro Stick/ Par sachet/ %"
+    },
+    {
+      "token": "NRV/",
+      "x1": 1537,
+      "y1": 780,
+      "x2": 1711,
+      "y2": 892,
+      "cx": 1624.0,
+      "cy": 836.0,
+      "conf": 0.9788,
+      "label": "NOISE",
+      "norm": "nrv/",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Per bustina/Egy",
+      "x1": 841,
+      "y1": 794,
+      "x2": 1361,
+      "y2": 907,
+      "cx": 1101.0,
+      "cy": 850.5,
+      "conf": 0.9729,
+      "label": "UNKNOWN",
+      "norm": "per bustina/egy",
+      "embedding_scores": {
+        "NUTRIENT": 0.41415274143218994,
+        "QUANTITY": 0.4231456518173218,
+        "UNIT": 0.35853517055511475,
+        "CONTEXT": 0.4516620635986328,
+        "NOISE": 0.4794294238090515
+      },
+      "embedding_confidence": 0.41415274143218994,
+      "classification_method": "embedding",
+      "embedding_context": "Per bustina/Egy NRV/"
+    },
+    {
+      "token": "PDV*",
+      "x1": 1526,
+      "y1": 898,
+      "x2": 1719,
+      "y2": 1015,
+      "cx": 1622.5,
+      "cy": 956.5,
+      "conf": 0.9926,
+      "label": "UNKNOWN",
+      "norm": "pdv*",
+      "embedding_scores": {
+        "NUTRIENT": 0.43819040060043335,
+        "QUANTITY": 0.4328020215034485,
+        "UNIT": 0.4352152943611145,
+        "CONTEXT": 0.45195600390434265,
+        "NOISE": 0.5030481219291687
+      },
+      "embedding_confidence": 0.43819040060043335,
+      "classification_method": "embedding",
+      "embedding_context": "tasakban/Na vrecko PDV*"
+    },
+    {
+      "token": "tasakban/Na vrecko",
+      "x1": 785,
+      "y1": 916,
+      "x2": 1443,
+      "y2": 1011,
+      "cx": 1114.0,
+      "cy": 963.5,
+      "conf": 0.9597,
+      "label": "UNKNOWN",
+      "norm": "tasakban/na vrecko",
+      "embedding_scores": {
+        "NUTRIENT": 0.43819040060043335,
+        "QUANTITY": 0.4328020215034485,
+        "UNIT": 0.4352152943611145,
+        "CONTEXT": 0.45195600390434265,
+        "NOISE": 0.5030481219291687
+      },
+      "embedding_confidence": 0.43819040060043335,
+      "classification_method": "embedding",
+      "embedding_context": "tasakban/Na vrecko PDV*"
+    },
+    {
+      "token": "Vitamin E",
+      "x1": 155,
+      "y1": 1066,
+      "x2": 870,
+      "y2": 1147,
+      "cx": 512.5,
+      "cy": 1106.5,
+      "conf": 0.9816,
+      "label": "NUTRIENT",
+      "norm": "vitamin e",
+      "embedding_scores": {
+        "NUTRIENT": 0.7866164445877075,
+        "QUANTITY": 0.39454445242881775,
+        "UNIT": 0.3473619818687439,
+        "CONTEXT": 0.4682859182357788,
+        "NOISE": 0.470175564289093
+      },
+      "embedding_confidence": 0.7866164445877075,
+      "classification_method": "embedding",
+      "embedding_context": "Vitamin E"
+    },
+    {
+      "token": "VitaminaE/E-vitamin/",
+      "x1": 160,
+      "y1": 1185,
+      "x2": 889,
+      "y2": 1266,
+      "cx": 524.5,
+      "cy": 1225.5,
+      "conf": 0.9777,
+      "label": "NUTRIENT",
+      "norm": "vitaminae/e-vitamin/",
+      "embedding_scores": {
+        "NUTRIENT": 0.622957706451416,
+        "QUANTITY": 0.37904492020606995,
+        "UNIT": 0.3906247317790985,
+        "CONTEXT": 0.4815114140510559,
+        "NOISE": 0.4585193395614624
+      },
+      "embedding_confidence": 0.622957706451416,
+      "classification_method": "embedding",
+      "embedding_context": "VitaminaE/E-vitamin/"
+    },
+    {
+      "token": "100%",
+      "x1": 1518,
+      "y1": 1280,
+      "x2": 1730,
+      "y2": 1387,
+      "cx": 1624.0,
+      "cy": 1333.5,
+      "conf": 0.9991,
+      "label": "NOISE",
+      "norm": "100%",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Vitamin E",
+      "x1": 157,
+      "y1": 1290,
+      "x2": 466,
+      "y2": 1389,
+      "cx": 311.5,
+      "cy": 1339.5,
+      "conf": 0.9921,
+      "label": "NUTRIENT",
+      "norm": "vitamin e",
+      "embedding_scores": {
+        "NUTRIENT": 0.6460435390472412,
+        "QUANTITY": 0.4498628079891205,
+        "UNIT": 0.3710103929042816,
+        "CONTEXT": 0.47937214374542236,
+        "NOISE": 0.40543267130851746
+      },
+      "embedding_confidence": 0.6460435390472412,
+      "classification_method": "embedding",
+      "embedding_context": "Vitamin E 12 mg a-TE 100%"
+    },
+    {
+      "token": "12",
+      "x1": 935,
+      "y1": 1287,
+      "x2": 1015,
+      "y2": 1397,
+      "cx": 975.0,
+      "cy": 1342.0,
+      "conf": 0.9566,
+      "label": "QUANTITY",
+      "norm": "12",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg a-TE",
+      "x1": 1015,
+      "y1": 1287,
+      "x2": 1295,
+      "y2": 1397,
+      "cx": 1155.0,
+      "cy": 1342.0,
+      "conf": 0.9566,
+      "label": "UNIT",
+      "norm": "mg a-te",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Magnesium",
+      "x1": 169,
+      "y1": 1435,
+      "x2": 988,
+      "y2": 1532,
+      "cx": 578.5,
+      "cy": 1483.5,
+      "conf": 0.9773,
+      "label": "NUTRIENT",
+      "norm": "magnesium",
+      "embedding_scores": {
+        "NUTRIENT": 1.0,
+        "QUANTITY": 0.4334458112716675,
+        "UNIT": 0.4176342785358429,
+        "CONTEXT": 0.4175071120262146,
+        "NOISE": 0.498090922832489
+      },
+      "embedding_confidence": 1.0,
+      "classification_method": "embedding",
+      "embedding_context": "Magnesium"
+    },
+    {
+      "token": "Magnesium",
+      "x1": 171,
+      "y1": 1541,
+      "x2": 940,
+      "y2": 1651,
+      "cx": 555.5,
+      "cy": 1596.0,
+      "conf": 0.9953,
+      "label": "NUTRIENT",
+      "norm": "magnesium",
+      "embedding_scores": {
+        "NUTRIENT": 1.0,
+        "QUANTITY": 0.4334458112716675,
+        "UNIT": 0.4176342785358429,
+        "CONTEXT": 0.4175071120262146,
+        "NOISE": 0.498090922832489
+      },
+      "embedding_confidence": 1.0,
+      "classification_method": "embedding",
+      "embedding_context": "Magnesium"
+    },
+    {
+      "token": "67%",
+      "x1": 1526,
+      "y1": 1638,
+      "x2": 1707,
+      "y2": 1747,
+      "cx": 1616.5,
+      "cy": 1692.5,
+      "conf": 0.9988,
+      "label": "NOISE",
+      "norm": "67%",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "250",
+      "x1": 988,
+      "y1": 1637,
+      "x2": 1142,
+      "y2": 1770,
+      "cx": 1065.0,
+      "cy": 1703.5,
+      "conf": 0.9807,
+      "label": "QUANTITY",
+      "norm": "250",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 1142,
+      "y1": 1637,
+      "x2": 1245,
+      "y2": 1770,
+      "cx": 1193.5,
+      "cy": 1703.5,
+      "conf": 0.9807,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Magnesium",
+      "x1": 171,
+      "y1": 1653,
+      "x2": 467,
+      "y2": 1773,
+      "cx": 319.0,
+      "cy": 1713.0,
+      "conf": 0.996,
+      "label": "NUTRIENT",
+      "norm": "magnesium",
+      "embedding_scores": {
+        "NUTRIENT": 0.6837337613105774,
+        "QUANTITY": 0.41417497396469116,
+        "UNIT": 0.4400521218776703,
+        "CONTEXT": 0.4663645029067993,
+        "NOISE": 0.5489601492881775
+      },
+      "embedding_confidence": 0.6837337613105774,
+      "classification_method": "embedding",
+      "embedding_context": "Magnesium 250 mg 67%"
+    },
+    {
+      "token": "*NRV=Nahrstoffbezugswert/valeurs",
+      "x1": 343,
+      "y1": 1813,
+      "x2": 1542,
+      "y2": 1901,
+      "cx": 942.5,
+      "cy": 1857.0,
+      "conf": 0.9818,
+      "label": "NOISE",
+      "norm": "*nrv=nahrstoffbezugswert/valeurs",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "nutrionnelles de reference/taplalkozasi",
+      "x1": 319,
+      "y1": 1922,
+      "x2": 1552,
+      "y2": 2001,
+      "cx": 935.5,
+      "cy": 1961.5,
+      "conf": 0.9795,
+      "label": "UNKNOWN",
+      "norm": "nutrionnelles de reference/taplalkozasi",
+      "embedding_scores": {
+        "NUTRIENT": 0.4699135422706604,
+        "QUANTITY": 0.39875927567481995,
+        "UNIT": 0.3854244351387024,
+        "CONTEXT": 0.5767752528190613,
+        "NOISE": 0.4574683904647827
+      },
+      "embedding_confidence": 0.4699135422706604,
+      "classification_method": "embedding",
+      "embedding_context": "nutrionnelles de reference/taplalkozasi"
+    },
+    {
+      "token": "referenciaertek/VNR=Valori Nutritivi di",
+      "x1": 304,
+      "y1": 2022,
+      "x2": 1571,
+      "y2": 2108,
+      "cx": 937.5,
+      "cy": 2065.0,
+      "conf": 0.9772,
+      "label": "UNKNOWN",
+      "norm": "referenciaertek/vnr=valori nutritivi di",
+      "embedding_scores": {
+        "NUTRIENT": 0.5747020840644836,
+        "QUANTITY": 0.5142504572868347,
+        "UNIT": 0.4477558135986328,
+        "CONTEXT": 0.5818018317222595,
+        "NOISE": 0.5272139310836792
+      },
+      "embedding_confidence": 0.5747020840644836,
+      "classification_method": "embedding",
+      "embedding_context": "referenciaertek/VNR=Valori Nutritivi di"
+    },
+    {
+      "token": "Riferimento/*PDV=priporoeni dnevni vnos",
+      "x1": 246,
+      "y1": 2127,
+      "x2": 1660,
+      "y2": 2225,
+      "cx": 953.0,
+      "cy": 2176.0,
+      "conf": 0.9797,
+      "label": "UNKNOWN",
+      "norm": "riferimento/*pdv=priporoeni dnevni vnos",
+      "embedding_scores": {
+        "NUTRIENT": 0.4883100390434265,
+        "QUANTITY": 0.4881105422973633,
+        "UNIT": 0.4181777536869049,
+        "CONTEXT": 0.6797275543212891,
+        "NOISE": 0.5705522298812866
+      },
+      "embedding_confidence": 0.4883100390434265,
+      "classification_method": "embedding",
+      "embedding_context": "Riferimento/*PDV=priporoeni dnevni vnos"
+    }
+  ],
+  "tuples": [
+    {
+      "image_id": "106.png",
+      "nutrient": "Vitamin E",
+      "quantity": null,
+      "unit": null,
+      "context": null
+    },
+    {
+      "image_id": "106.png",
+      "nutrient": "e sali minerali/Vitaminok es asvanyi",
+      "quantity": null,
+      "unit": null,
+      "context": null
+    },
+    {
+      "image_id": "106.png",
+      "nutrient": "anyagok/Vitamini in minerali",
+      "quantity": "12",
+      "unit": "mg a-te",
+      "context": null
+    },
+    {
+      "image_id": "106.png",
+      "nutrient": "VitaminaE/E-vitamin",
+      "quantity": null,
+      "unit": null,
+      "context": null
+    },
+    {
+      "image_id": "106.png",
+      "nutrient": "Vitamin E",
+      "quantity": "12",
+      "unit": "mg a-te",
+      "context": null
+    },
+    {
+      "image_id": "106.png",
+      "nutrient": "Magnesium",
+      "quantity": null,
+      "unit": null,
+      "context": null
+    },
+    {
+      "image_id": "106.png",
+      "nutrient": "Magnesium",
+      "quantity": "250",
+      "unit": "mg",
+      "context": null
+    }
+  ],
+  "diagnostics": {
+    "edges": 180,
+    "nodes": 21
+  },
+  "duration_s": 5.141,
+  "error": null
+}

@@ -1,0 +1,529 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "VIGANTOL",
+      "x1": 81,
+      "y1": 38,
+      "x2": 412,
+      "y2": 96,
+      "cx": 246.5,
+      "cy": 67.0,
+      "conf": 0.9945
+    },
+    {
+      "token": "10001.E",
+      "x1": 85,
+      "y1": 140,
+      "x2": 235,
+      "y2": 175,
+      "cx": 160.0,
+      "cy": 157.5,
+      "conf": 0.9829
+    },
+    {
+      "token": "VitaminD3Tabletten",
+      "x1": 330,
+      "y1": 148,
+      "x2": 580,
+      "y2": 177,
+      "cx": 455.0,
+      "cy": 162.5,
+      "conf": 0.9927
+    },
+    {
+      "token": "Fur Sauqlinge,Kinder und Erwachsene.Zum Einnehmen.",
+      "x1": 89,
+      "y1": 199,
+      "x2": 457,
+      "y2": 216,
+      "cx": 273.0,
+      "cy": 207.5,
+      "conf": 0.9581
+    },
+    {
+      "token": "Jede Tablette enthalt 25 q Colecalciferol,entsprechend 10001.E.Vitamin D",
+      "x1": 88,
+      "y1": 215,
+      "x2": 562,
+      "y2": 236,
+      "cx": 325.0,
+      "cy": 225.5,
+      "conf": 0.9451
+    },
+    {
+      "token": "Enthalt SucroseZucker).Tagesdosis bis zu 1000I.E.entsprechend 0.025mg)",
+      "x1": 87,
+      "y1": 233,
+      "x2": 567,
+      "y2": 257,
+      "cx": 327.0,
+      "cy": 245.0,
+      "conf": 0.9364
+    },
+    {
+      "token": "Zur Vorbeugung gegen Rachitis,auch bei Fruhgeborenen,bei erkennbarem",
+      "x1": 88,
+      "y1": 257,
+      "x2": 573,
+      "y2": 283,
+      "cx": 330.5,
+      "cy": 270.0,
+      "conf": 0.9565
+    },
+    {
+      "token": "Risiko einer Vitamin-D-Mangelerkrankung bei ansonsten Gesunden ohne",
+      "x1": 90,
+      "y1": 276,
+      "x2": 571,
+      "y2": 301,
+      "cx": 330.5,
+      "cy": 288.5,
+      "conf": 0.9707
+    },
+    {
+      "token": "Resorptionsstorung,zur unterstutzenden Behandlung der Osteoporose.",
+      "x1": 90,
+      "y1": 294,
+      "x2": 548,
+      "y2": 320,
+      "cx": 319.0,
+      "cy": 307.0,
+      "conf": 0.9783
+    },
+    {
+      "token": "Packungsbeilage beachten.Arzneimittel fur Kinder unzuganglich aufbewahren.",
+      "x1": 92,
+      "y1": 317,
+      "x2": 567,
+      "y2": 345,
+      "cx": 329.5,
+      "cy": 331.0,
+      "conf": 0.9697
+    },
+    {
+      "token": "Nicht uber 25 C lagern.Im Umkarton aufbewahren,",
+      "x1": 91,
+      "y1": 339,
+      "x2": 421,
+      "y2": 363,
+      "cx": 256.0,
+      "cy": 351.0,
+      "conf": 0.9503
+    },
+    {
+      "token": "um den Inhalt vor Licht zu schutzen.",
+      "x1": 92,
+      "y1": 359,
+      "x2": 322,
+      "y2": 382,
+      "cx": 207.0,
+      "cy": 370.5,
+      "conf": 0.9657
+    },
+    {
+      "token": "Apothekenpflichtig.Zul.-Nr.6154298.01.00",
+      "x1": 93,
+      "y1": 378,
+      "x2": 368,
+      "y2": 405,
+      "cx": 230.5,
+      "cy": 391.5,
+      "conf": 0.9854
+    }
+  ],
+  "corrected": [
+    {
+      "token": "VIGANTOL",
+      "x1": 81,
+      "y1": 38,
+      "x2": 412,
+      "y2": 96,
+      "cx": 246.5,
+      "cy": 67.0,
+      "conf": 0.9945
+    },
+    {
+      "token": "10001.E",
+      "x1": 85,
+      "y1": 140,
+      "x2": 235,
+      "y2": 175,
+      "cx": 160.0,
+      "cy": 157.5,
+      "conf": 0.9829
+    },
+    {
+      "token": "VitaminD3Tabletten",
+      "x1": 330,
+      "y1": 148,
+      "x2": 580,
+      "y2": 177,
+      "cx": 455.0,
+      "cy": 162.5,
+      "conf": 0.9927
+    },
+    {
+      "token": "Fur Sauqlinge,Kinder und Erwachsene.Zum Einnehmen.",
+      "x1": 89,
+      "y1": 199,
+      "x2": 457,
+      "y2": 216,
+      "cx": 273.0,
+      "cy": 207.5,
+      "conf": 0.9581
+    },
+    {
+      "token": "Jede Tablette enthalt 25 q Colecalciferol,entsprechend 10001.E.Vitamin D",
+      "x1": 88,
+      "y1": 215,
+      "x2": 562,
+      "y2": 236,
+      "cx": 325.0,
+      "cy": 225.5,
+      "conf": 0.9451
+    },
+    {
+      "token": "Enthalt SucroseZucker).Tagesdosis bis zu 1000I.E.entsprechend 0.025mg)",
+      "x1": 87,
+      "y1": 233,
+      "x2": 567,
+      "y2": 257,
+      "cx": 327.0,
+      "cy": 245.0,
+      "conf": 0.9364
+    },
+    {
+      "token": "Zur Vorbeugung gegen Rachitis,auch bei Fruhgeborenen,bei erkennbarem",
+      "x1": 88,
+      "y1": 257,
+      "x2": 573,
+      "y2": 283,
+      "cx": 330.5,
+      "cy": 270.0,
+      "conf": 0.9565
+    },
+    {
+      "token": "Risiko einer Vitamin-D-Mangelerkrankung bei ansonsten Gesunden ohne",
+      "x1": 90,
+      "y1": 276,
+      "x2": 571,
+      "y2": 301,
+      "cx": 330.5,
+      "cy": 288.5,
+      "conf": 0.9707
+    },
+    {
+      "token": "Resorptionsstorung,zur unterstutzenden Behandlung der Osteoporose.",
+      "x1": 90,
+      "y1": 294,
+      "x2": 548,
+      "y2": 320,
+      "cx": 319.0,
+      "cy": 307.0,
+      "conf": 0.9783
+    },
+    {
+      "token": "Packungsbeilage beachten.Arzneimittel fur Kinder unzuganglich aufbewahren.",
+      "x1": 92,
+      "y1": 317,
+      "x2": 567,
+      "y2": 345,
+      "cx": 329.5,
+      "cy": 331.0,
+      "conf": 0.9697
+    },
+    {
+      "token": "Nicht uber 25 C lagern.Im Umkarton aufbewahren,",
+      "x1": 91,
+      "y1": 339,
+      "x2": 421,
+      "y2": 363,
+      "cx": 256.0,
+      "cy": 351.0,
+      "conf": 0.9503
+    },
+    {
+      "token": "um den Inhalt vor Licht zu schutzen.",
+      "x1": 92,
+      "y1": 359,
+      "x2": 322,
+      "y2": 382,
+      "cx": 207.0,
+      "cy": 370.5,
+      "conf": 0.9657
+    },
+    {
+      "token": "Apothekenpflichtig.Zul.-Nr.6154298.01.00",
+      "x1": 93,
+      "y1": 378,
+      "x2": 368,
+      "y2": 405,
+      "cx": 230.5,
+      "cy": 391.5,
+      "conf": 0.9854
+    }
+  ],
+  "labeled": [
+    {
+      "token": "VIGANTOL",
+      "x1": 81,
+      "y1": 38,
+      "x2": 412,
+      "y2": 96,
+      "cx": 246.5,
+      "cy": 67.0,
+      "conf": 0.9945,
+      "label": "UNKNOWN",
+      "norm": "vigantol",
+      "embedding_scores": {
+        "NUTRIENT": 0.576555609703064,
+        "QUANTITY": 0.31913018226623535,
+        "UNIT": 0.3068317770957947,
+        "CONTEXT": 0.3365359902381897,
+        "NOISE": 0.3895399272441864
+      },
+      "embedding_confidence": 0.576555609703064,
+      "classification_method": "embedding",
+      "embedding_context": "VIGANTOL"
+    },
+    {
+      "token": "10001.E",
+      "x1": 85,
+      "y1": 140,
+      "x2": 235,
+      "y2": 175,
+      "cx": 160.0,
+      "cy": 157.5,
+      "conf": 0.9829,
+      "label": "UNKNOWN",
+      "norm": "10001.e",
+      "embedding_scores": {
+        "NUTRIENT": 0.5631979703903198,
+        "QUANTITY": 0.4139423370361328,
+        "UNIT": 0.3484356999397278,
+        "CONTEXT": 0.44260305166244507,
+        "NOISE": 0.40347468852996826
+      },
+      "embedding_confidence": 0.5631979703903198,
+      "classification_method": "embedding",
+      "embedding_context": "10001.E VitaminD3Tabletten"
+    },
+    {
+      "token": "VitaminD3Tabletten",
+      "x1": 330,
+      "y1": 148,
+      "x2": 580,
+      "y2": 177,
+      "cx": 455.0,
+      "cy": 162.5,
+      "conf": 0.9927,
+      "label": "CONTEXT",
+      "norm": "per_daily_dose",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Fur Sauqlinge,Kinder und Erwachsene.Zum Einnehmen.",
+      "x1": 89,
+      "y1": 199,
+      "x2": 457,
+      "y2": 216,
+      "cx": 273.0,
+      "cy": 207.5,
+      "conf": 0.9581,
+      "label": "UNKNOWN",
+      "norm": "fur sauqlinge,kinder und erwachsene.zum einnehmen",
+      "embedding_scores": {
+        "NUTRIENT": 0.5471622347831726,
+        "QUANTITY": 0.4546673893928528,
+        "UNIT": 0.4338775873184204,
+        "CONTEXT": 0.5438527464866638,
+        "NOISE": 0.6037203669548035
+      },
+      "embedding_confidence": 0.5471622347831726,
+      "classification_method": "embedding",
+      "embedding_context": "Fur Sauqlinge,Kinder und Erwachsene.Zum Einnehmen."
+    },
+    {
+      "token": "Jede Tablette enthalt 25 q Colecalciferol,entsprechend 10001.E.Vitamin D",
+      "x1": 88,
+      "y1": 215,
+      "x2": 562,
+      "y2": 236,
+      "cx": 325.0,
+      "cy": 225.5,
+      "conf": 0.9451,
+      "label": "NOISE",
+      "norm": "jede tablette enthalt 25 q colecalciferol,entsprechend 10001.e.vitamin d",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Enthalt SucroseZucker).Tagesdosis bis zu 1000I.E.entsprechend 0.025mg)",
+      "x1": 87,
+      "y1": 233,
+      "x2": 567,
+      "y2": 257,
+      "cx": 327.0,
+      "cy": 245.0,
+      "conf": 0.9364,
+      "label": "CONTEXT",
+      "norm": "enthalt sucrosezucker).tagesdosis bis zu 1000i.e.entsprechend 0.025mg)",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Zur Vorbeugung gegen Rachitis,auch bei Fruhgeborenen,bei erkennbarem",
+      "x1": 88,
+      "y1": 257,
+      "x2": 573,
+      "y2": 283,
+      "cx": 330.5,
+      "cy": 270.0,
+      "conf": 0.9565,
+      "label": "UNKNOWN",
+      "norm": "zur vorbeugung gegen rachitis,auch bei fruhgeborenen,bei erkennbarem",
+      "embedding_scores": {
+        "NUTRIENT": 0.5090475678443909,
+        "QUANTITY": 0.39432042837142944,
+        "UNIT": 0.364159494638443,
+        "CONTEXT": 0.4717307686805725,
+        "NOISE": 0.5007648468017578
+      },
+      "embedding_confidence": 0.5090475678443909,
+      "classification_method": "embedding",
+      "embedding_context": "Zur Vorbeugung gegen Rachitis,auch bei Fruhgeborenen,bei erkennbarem"
+    },
+    {
+      "token": "Risiko einer Vitamin-D-Mangelerkrankung bei ansonsten Gesunden ohne",
+      "x1": 90,
+      "y1": 276,
+      "x2": 571,
+      "y2": 301,
+      "cx": 330.5,
+      "cy": 288.5,
+      "conf": 0.9707,
+      "label": "NOISE",
+      "norm": "risiko einer vitamin-d-mangelerkrankung bei ansonsten gesunden ohne",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Resorptionsstorung,zur unterstutzenden Behandlung der Osteoporose.",
+      "x1": 90,
+      "y1": 294,
+      "x2": 548,
+      "y2": 320,
+      "cx": 319.0,
+      "cy": 307.0,
+      "conf": 0.9783,
+      "label": "UNKNOWN",
+      "norm": "resorptionsstorung,zur unterstutzenden behandlung der osteoporose",
+      "embedding_scores": {
+        "NUTRIENT": 0.45264074206352234,
+        "QUANTITY": 0.38973960280418396,
+        "UNIT": 0.3778328597545624,
+        "CONTEXT": 0.419747531414032,
+        "NOISE": 0.41278454661369324
+      },
+      "embedding_confidence": 0.45264074206352234,
+      "classification_method": "embedding",
+      "embedding_context": "Resorptionsstorung,zur unterstutzenden Behandlung der Osteoporose."
+    },
+    {
+      "token": "Packungsbeilage beachten.Arzneimittel fur Kinder unzuganglich aufbewahren.",
+      "x1": 92,
+      "y1": 317,
+      "x2": 567,
+      "y2": 345,
+      "cx": 329.5,
+      "cy": 331.0,
+      "conf": 0.9697,
+      "label": "UNKNOWN",
+      "norm": "packungsbeilage beachten.arzneimittel fur kinder unzuganglich aufbewahren",
+      "embedding_scores": {
+        "NUTRIENT": 0.4164681136608124,
+        "QUANTITY": 0.38526323437690735,
+        "UNIT": 0.345457524061203,
+        "CONTEXT": 0.4277169704437256,
+        "NOISE": 0.5142036080360413
+      },
+      "embedding_confidence": 0.4164681136608124,
+      "classification_method": "embedding",
+      "embedding_context": "Packungsbeilage beachten.Arzneimittel fur Kinder unzuganglich aufbewahren."
+    },
+    {
+      "token": "Nicht uber 25 C lagern.Im Umkarton aufbewahren,",
+      "x1": 91,
+      "y1": 339,
+      "x2": 421,
+      "y2": 363,
+      "cx": 256.0,
+      "cy": 351.0,
+      "conf": 0.9503,
+      "label": "UNKNOWN",
+      "norm": "nicht uber 25 c lagern.im umkarton aufbewahren",
+      "embedding_scores": {
+        "NUTRIENT": 0.45395174622535706,
+        "QUANTITY": 0.3863217234611511,
+        "UNIT": 0.41595032811164856,
+        "CONTEXT": 0.43210914731025696,
+        "NOISE": 0.6485639810562134
+      },
+      "embedding_confidence": 0.45395174622535706,
+      "classification_method": "embedding",
+      "embedding_context": "Nicht uber 25 C lagern.Im Umkarton aufbewahren,"
+    },
+    {
+      "token": "um den Inhalt vor Licht zu schutzen.",
+      "x1": 92,
+      "y1": 359,
+      "x2": 322,
+      "y2": 382,
+      "cx": 207.0,
+      "cy": 370.5,
+      "conf": 0.9657,
+      "label": "UNKNOWN",
+      "norm": "um den inhalt vor licht zu schutzen",
+      "embedding_scores": {
+        "NUTRIENT": 0.4766325354576111,
+        "QUANTITY": 0.4318552613258362,
+        "UNIT": 0.4285958707332611,
+        "CONTEXT": 0.4743069112300873,
+        "NOISE": 0.5742530226707458
+      },
+      "embedding_confidence": 0.4766325354576111,
+      "classification_method": "embedding",
+      "embedding_context": "um den Inhalt vor Licht zu schutzen."
+    },
+    {
+      "token": "Apothekenpflichtig.Zul.-Nr.6154298.01.00",
+      "x1": 93,
+      "y1": 378,
+      "x2": 368,
+      "y2": 405,
+      "cx": 230.5,
+      "cy": 391.5,
+      "conf": 0.9854,
+      "label": "UNKNOWN",
+      "norm": "apothekenpflichtig.zul.-nr.6154298.01.00",
+      "embedding_scores": {
+        "NUTRIENT": 0.521367609500885,
+        "QUANTITY": 0.4510316252708435,
+        "UNIT": 0.4258984327316284,
+        "CONTEXT": 0.48858582973480225,
+        "NOISE": 0.4966915547847748
+      },
+      "embedding_confidence": 0.521367609500885,
+      "classification_method": "embedding",
+      "embedding_context": "Apothekenpflichtig.Zul.-Nr.6154298.01.00"
+    }
+  ],
+  "tuples": [],
+  "diagnostics": {
+    "edges": 60,
+    "nodes": 11
+  },
+  "duration_s": 4.736,
+  "error": null
+}

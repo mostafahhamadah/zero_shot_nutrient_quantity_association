@@ -1,0 +1,22 @@
+{
+  "n_images": 57,
+  "n_ground_truth": 866,
+  "n_predicted": 640,
+  "tp": 278,
+  "fp": 362,
+  "fn": 588,
+  "full_tuple_precision": 0.4344,
+  "full_tuple_recall": 0.321,
+  "full_tuple_f1": 0.3692,
+  "nutrient_f1": 0.7676,
+  "quantity_acc": 0.7907,
+  "unit_acc": 0.9308,
+  "context_acc": 0.5761,
+  "total_processing_time_s": 435.7,
+  "c15_normalisation": {
+    "applied": true,
+    "n_normalised": 131
+  },
+  "metric_source": "llm_tuple_evaluator",
+  "metric_pipeline": "end_to_end_vlm_with_c15"
+}

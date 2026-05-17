@@ -1,0 +1,7 @@
+image_id,gt_nutrient,pred_nutrient,gt_qty,pred_qty,gt_unit,pred_unit,gt_context,pred_context,qty_match,unit_match,ctx_match,full_match_3f,full_match_4f
+6.png,Vitamin C,Vitamin C,28,28,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True
+6.png,Magnesium,Magnesium,56,56,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True
+6.png,Potassium,Potassium,70,70,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True
+6.png,Calcium,Calcium,9,9,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True
+6.png,Sodium,Sodium,200,200,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True
+6.png,Green Tea,Green Tea,1,1,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True

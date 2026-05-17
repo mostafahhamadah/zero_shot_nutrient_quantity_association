@@ -1,0 +1,797 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "UK",
+      "x1": 350,
+      "y1": 39,
+      "x2": 615,
+      "y2": 202,
+      "cx": 482.5,
+      "cy": 120.5,
+      "conf": 0.9938
+    },
+    {
+      "token": "PR.4g",
+      "x1": 1843,
+      "y1": 121,
+      "x2": 2392,
+      "y2": 373,
+      "cx": 2117.5,
+      "cy": 247.0,
+      "conf": 0.9957
+    },
+    {
+      "token": "NUTRITIONNFO",
+      "x1": 316,
+      "y1": 284,
+      "x2": 1353,
+      "y2": 422,
+      "cx": 834.5,
+      "cy": 353.0,
+      "conf": 0.9781
+    },
+    {
+      "token": "VITAMIN C",
+      "x1": 321,
+      "y1": 453,
+      "x2": 1045,
+      "y2": 599,
+      "cx": 683.0,
+      "cy": 526.0,
+      "conf": 0.9502
+    },
+    {
+      "token": "28 mg",
+      "x1": 1951,
+      "y1": 449,
+      "x2": 2409,
+      "y2": 659,
+      "cx": 2180.0,
+      "cy": 554.0,
+      "conf": 0.9682
+    },
+    {
+      "token": "MAGNESIUM",
+      "x1": 329,
+      "y1": 639,
+      "x2": 1209,
+      "y2": 781,
+      "cx": 769.0,
+      "cy": 710.0,
+      "conf": 0.9958
+    },
+    {
+      "token": "56mg",
+      "x1": 1961,
+      "y1": 631,
+      "x2": 2419,
+      "y2": 851,
+      "cx": 2190.0,
+      "cy": 741.0,
+      "conf": 0.9983
+    },
+    {
+      "token": "POTASSIUM",
+      "x1": 324,
+      "y1": 826,
+      "x2": 1160,
+      "y2": 977,
+      "cx": 742.0,
+      "cy": 901.5,
+      "conf": 0.9919
+    },
+    {
+      "token": "70 mg",
+      "x1": 1970,
+      "y1": 813,
+      "x2": 2427,
+      "y2": 1044,
+      "cx": 2198.5,
+      "cy": 928.5,
+      "conf": 0.9659
+    },
+    {
+      "token": "CALCIUM",
+      "x1": 324,
+      "y1": 1017,
+      "x2": 970,
+      "y2": 1184,
+      "cx": 647.0,
+      "cy": 1100.5,
+      "conf": 0.9976
+    },
+    {
+      "token": "9mg",
+      "x1": 2040,
+      "y1": 1006,
+      "x2": 2434,
+      "y2": 1246,
+      "cx": 2237.0,
+      "cy": 1126.0,
+      "conf": 0.9823
+    },
+    {
+      "token": "SODIUM",
+      "x1": 324,
+      "y1": 1227,
+      "x2": 900,
+      "y2": 1377,
+      "cx": 612.0,
+      "cy": 1302.0,
+      "conf": 0.9946
+    },
+    {
+      "token": "200 mg",
+      "x1": 1885,
+      "y1": 1207,
+      "x2": 2426,
+      "y2": 1429,
+      "cx": 2155.5,
+      "cy": 1318.0,
+      "conf": 0.9262
+    },
+    {
+      "token": "GREEN TEA",
+      "x1": 332,
+      "y1": 1425,
+      "x2": 1109,
+      "y2": 1576,
+      "cx": 720.5,
+      "cy": 1500.5,
+      "conf": 0.9534
+    },
+    {
+      "token": "1 mg",
+      "x1": 2062,
+      "y1": 1417,
+      "x2": 2429,
+      "y2": 1629,
+      "cx": 2245.5,
+      "cy": 1523.0,
+      "conf": 0.9808
+    }
+  ],
+  "corrected": [
+    {
+      "token": "UK",
+      "x1": 350,
+      "y1": 39,
+      "x2": 615,
+      "y2": 202,
+      "cx": 482.5,
+      "cy": 120.5,
+      "conf": 0.9938
+    },
+    {
+      "token": "PR.4g",
+      "x1": 1843,
+      "y1": 121,
+      "x2": 2392,
+      "y2": 373,
+      "cx": 2117.5,
+      "cy": 247.0,
+      "conf": 0.9957
+    },
+    {
+      "token": "NUTRITIONNFO",
+      "x1": 316,
+      "y1": 284,
+      "x2": 1353,
+      "y2": 422,
+      "cx": 834.5,
+      "cy": 353.0,
+      "conf": 0.9781
+    },
+    {
+      "token": "Vitamin C",
+      "x1": 321,
+      "y1": 453,
+      "x2": 1045,
+      "y2": 599,
+      "cx": 683.0,
+      "cy": 526.0,
+      "conf": 0.9502
+    },
+    {
+      "token": "28",
+      "x1": 1951,
+      "y1": 449,
+      "x2": 2180,
+      "y2": 659,
+      "cx": 2065.5,
+      "cy": 554.0,
+      "conf": 0.9682
+    },
+    {
+      "token": "mg",
+      "x1": 2180,
+      "y1": 449,
+      "x2": 2409,
+      "y2": 659,
+      "cx": 2294.5,
+      "cy": 554.0,
+      "conf": 0.9682
+    },
+    {
+      "token": "Magnesium",
+      "x1": 329,
+      "y1": 639,
+      "x2": 1209,
+      "y2": 781,
+      "cx": 769.0,
+      "cy": 710.0,
+      "conf": 0.9958
+    },
+    {
+      "token": "56",
+      "x1": 1961,
+      "y1": 631,
+      "x2": 2190,
+      "y2": 851,
+      "cx": 2075.5,
+      "cy": 741.0,
+      "conf": 0.9983
+    },
+    {
+      "token": "mg",
+      "x1": 2190,
+      "y1": 631,
+      "x2": 2419,
+      "y2": 851,
+      "cx": 2304.5,
+      "cy": 741.0,
+      "conf": 0.9983
+    },
+    {
+      "token": "Potassium",
+      "x1": 324,
+      "y1": 826,
+      "x2": 1160,
+      "y2": 977,
+      "cx": 742.0,
+      "cy": 901.5,
+      "conf": 0.9919
+    },
+    {
+      "token": "70",
+      "x1": 1970,
+      "y1": 813,
+      "x2": 2198,
+      "y2": 1044,
+      "cx": 2084.0,
+      "cy": 928.5,
+      "conf": 0.9659
+    },
+    {
+      "token": "mg",
+      "x1": 2198,
+      "y1": 813,
+      "x2": 2427,
+      "y2": 1044,
+      "cx": 2312.5,
+      "cy": 928.5,
+      "conf": 0.9659
+    },
+    {
+      "token": "Calcium",
+      "x1": 324,
+      "y1": 1017,
+      "x2": 970,
+      "y2": 1184,
+      "cx": 647.0,
+      "cy": 1100.5,
+      "conf": 0.9976
+    },
+    {
+      "token": "9",
+      "x1": 2040,
+      "y1": 1006,
+      "x2": 2171,
+      "y2": 1246,
+      "cx": 2105.5,
+      "cy": 1126.0,
+      "conf": 0.9823
+    },
+    {
+      "token": "mg",
+      "x1": 2171,
+      "y1": 1006,
+      "x2": 2434,
+      "y2": 1246,
+      "cx": 2302.5,
+      "cy": 1126.0,
+      "conf": 0.9823
+    },
+    {
+      "token": "Sodium",
+      "x1": 324,
+      "y1": 1227,
+      "x2": 900,
+      "y2": 1377,
+      "cx": 612.0,
+      "cy": 1302.0,
+      "conf": 0.9946
+    },
+    {
+      "token": "200",
+      "x1": 1885,
+      "y1": 1207,
+      "x2": 2209,
+      "y2": 1429,
+      "cx": 2047.0,
+      "cy": 1318.0,
+      "conf": 0.9262
+    },
+    {
+      "token": "mg",
+      "x1": 2209,
+      "y1": 1207,
+      "x2": 2426,
+      "y2": 1429,
+      "cx": 2317.5,
+      "cy": 1318.0,
+      "conf": 0.9262
+    },
+    {
+      "token": "Green Tea",
+      "x1": 332,
+      "y1": 1425,
+      "x2": 1109,
+      "y2": 1576,
+      "cx": 720.5,
+      "cy": 1500.5,
+      "conf": 0.9534
+    },
+    {
+      "token": "1",
+      "x1": 2062,
+      "y1": 1417,
+      "x2": 2184,
+      "y2": 1629,
+      "cx": 2123.0,
+      "cy": 1523.0,
+      "conf": 0.9808
+    },
+    {
+      "token": "mg",
+      "x1": 2184,
+      "y1": 1417,
+      "x2": 2429,
+      "y2": 1629,
+      "cx": 2306.5,
+      "cy": 1523.0,
+      "conf": 0.9808
+    }
+  ],
+  "labeled": [
+    {
+      "token": "UK",
+      "x1": 350,
+      "y1": 39,
+      "x2": 615,
+      "y2": 202,
+      "cx": 482.5,
+      "cy": 120.5,
+      "conf": 0.9938,
+      "label": "UNKNOWN",
+      "norm": "uk",
+      "embedding_scores": {
+        "NUTRIENT": 0.5361610651016235,
+        "QUANTITY": 0.37993764877319336,
+        "UNIT": 0.3826782703399658,
+        "CONTEXT": 0.399861216545105,
+        "NOISE": 0.48133617639541626
+      },
+      "embedding_confidence": 0.5361610651016235,
+      "classification_method": "embedding",
+      "embedding_context": "UK"
+    },
+    {
+      "token": "PR.4g",
+      "x1": 1843,
+      "y1": 121,
+      "x2": 2392,
+      "y2": 373,
+      "cx": 2117.5,
+      "cy": 247.0,
+      "conf": 0.9957,
+      "label": "CONTEXT",
+      "norm": "per_serving",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "NUTRITIONNFO",
+      "x1": 316,
+      "y1": 284,
+      "x2": 1353,
+      "y2": 422,
+      "cx": 834.5,
+      "cy": 353.0,
+      "conf": 0.9781,
+      "label": "UNKNOWN",
+      "norm": "nutritionnfo",
+      "embedding_scores": {
+        "NUTRIENT": 0.5722618103027344,
+        "QUANTITY": 0.43102365732192993,
+        "UNIT": 0.39543068408966064,
+        "CONTEXT": 0.5773688554763794,
+        "NOISE": 0.5691076517105103
+      },
+      "embedding_confidence": 0.5722618103027344,
+      "classification_method": "embedding",
+      "embedding_context": "NUTRITIONNFO"
+    },
+    {
+      "token": "Vitamin C",
+      "x1": 321,
+      "y1": 453,
+      "x2": 1045,
+      "y2": 599,
+      "cx": 683.0,
+      "cy": 526.0,
+      "conf": 0.9502,
+      "label": "NUTRIENT",
+      "norm": "vitamin c",
+      "embedding_scores": {
+        "NUTRIENT": 1.0000001192092896,
+        "QUANTITY": 0.40554288029670715,
+        "UNIT": 0.38516491651535034,
+        "CONTEXT": 0.45259353518486023,
+        "NOISE": 0.48686569929122925
+      },
+      "embedding_confidence": 1.0000001192092896,
+      "classification_method": "embedding",
+      "embedding_context": "Vitamin C"
+    },
+    {
+      "token": "28",
+      "x1": 1951,
+      "y1": 449,
+      "x2": 2180,
+      "y2": 659,
+      "cx": 2065.5,
+      "cy": 554.0,
+      "conf": 0.9682,
+      "label": "QUANTITY",
+      "norm": "28",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 2180,
+      "y1": 449,
+      "x2": 2409,
+      "y2": 659,
+      "cx": 2294.5,
+      "cy": 554.0,
+      "conf": 0.9682,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Magnesium",
+      "x1": 329,
+      "y1": 639,
+      "x2": 1209,
+      "y2": 781,
+      "cx": 769.0,
+      "cy": 710.0,
+      "conf": 0.9958,
+      "label": "NUTRIENT",
+      "norm": "magnesium",
+      "embedding_scores": {
+        "NUTRIENT": 1.0,
+        "QUANTITY": 0.4334457218647003,
+        "UNIT": 0.41763418912887573,
+        "CONTEXT": 0.41750699281692505,
+        "NOISE": 0.4980909526348114
+      },
+      "embedding_confidence": 1.0,
+      "classification_method": "embedding",
+      "embedding_context": "Magnesium"
+    },
+    {
+      "token": "56",
+      "x1": 1961,
+      "y1": 631,
+      "x2": 2190,
+      "y2": 851,
+      "cx": 2075.5,
+      "cy": 741.0,
+      "conf": 0.9983,
+      "label": "QUANTITY",
+      "norm": "56",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 2190,
+      "y1": 631,
+      "x2": 2419,
+      "y2": 851,
+      "cx": 2304.5,
+      "cy": 741.0,
+      "conf": 0.9983,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Potassium",
+      "x1": 324,
+      "y1": 826,
+      "x2": 1160,
+      "y2": 977,
+      "cx": 742.0,
+      "cy": 901.5,
+      "conf": 0.9919,
+      "label": "NUTRIENT",
+      "norm": "potassium",
+      "embedding_scores": {
+        "NUTRIENT": 0.7613067626953125,
+        "QUANTITY": 0.3924320936203003,
+        "UNIT": 0.380916565656662,
+        "CONTEXT": 0.4279822111129761,
+        "NOISE": 0.4886423349380493
+      },
+      "embedding_confidence": 0.7613067626953125,
+      "classification_method": "embedding",
+      "embedding_context": "Potassium"
+    },
+    {
+      "token": "70",
+      "x1": 1970,
+      "y1": 813,
+      "x2": 2198,
+      "y2": 1044,
+      "cx": 2084.0,
+      "cy": 928.5,
+      "conf": 0.9659,
+      "label": "QUANTITY",
+      "norm": "70",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 2198,
+      "y1": 813,
+      "x2": 2427,
+      "y2": 1044,
+      "cx": 2312.5,
+      "cy": 928.5,
+      "conf": 0.9659,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Calcium",
+      "x1": 324,
+      "y1": 1017,
+      "x2": 970,
+      "y2": 1184,
+      "cx": 647.0,
+      "cy": 1100.5,
+      "conf": 0.9976,
+      "label": "NUTRIENT",
+      "norm": "calcium",
+      "embedding_scores": {
+        "NUTRIENT": 1.0,
+        "QUANTITY": 0.3875930607318878,
+        "UNIT": 0.40499716997146606,
+        "CONTEXT": 0.39967310428619385,
+        "NOISE": 0.4972265660762787
+      },
+      "embedding_confidence": 1.0,
+      "classification_method": "embedding",
+      "embedding_context": "Calcium"
+    },
+    {
+      "token": "9",
+      "x1": 2040,
+      "y1": 1006,
+      "x2": 2171,
+      "y2": 1246,
+      "cx": 2105.5,
+      "cy": 1126.0,
+      "conf": 0.9823,
+      "label": "QUANTITY",
+      "norm": "9",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 2171,
+      "y1": 1006,
+      "x2": 2434,
+      "y2": 1246,
+      "cx": 2302.5,
+      "cy": 1126.0,
+      "conf": 0.9823,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Sodium",
+      "x1": 324,
+      "y1": 1227,
+      "x2": 900,
+      "y2": 1377,
+      "cx": 612.0,
+      "cy": 1302.0,
+      "conf": 0.9946,
+      "label": "NUTRIENT",
+      "norm": "sodium",
+      "embedding_scores": {
+        "NUTRIENT": 0.6819177865982056,
+        "QUANTITY": 0.36484742164611816,
+        "UNIT": 0.36402472853660583,
+        "CONTEXT": 0.41591084003448486,
+        "NOISE": 0.48604485392570496
+      },
+      "embedding_confidence": 0.6819177865982056,
+      "classification_method": "embedding",
+      "embedding_context": "Sodium"
+    },
+    {
+      "token": "200",
+      "x1": 1885,
+      "y1": 1207,
+      "x2": 2209,
+      "y2": 1429,
+      "cx": 2047.0,
+      "cy": 1318.0,
+      "conf": 0.9262,
+      "label": "QUANTITY",
+      "norm": "200",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 2209,
+      "y1": 1207,
+      "x2": 2426,
+      "y2": 1429,
+      "cx": 2317.5,
+      "cy": 1318.0,
+      "conf": 0.9262,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Green Tea",
+      "x1": 332,
+      "y1": 1425,
+      "x2": 1109,
+      "y2": 1576,
+      "cx": 720.5,
+      "cy": 1500.5,
+      "conf": 0.9534,
+      "label": "NUTRIENT",
+      "norm": "green tea",
+      "embedding_scores": {
+        "NUTRIENT": 0.5977462530136108,
+        "QUANTITY": 0.3341889977455139,
+        "UNIT": 0.3442683517932892,
+        "CONTEXT": 0.43643903732299805,
+        "NOISE": 0.5375280380249023
+      },
+      "embedding_confidence": 0.5977462530136108,
+      "classification_method": "embedding",
+      "embedding_context": "Green Tea"
+    },
+    {
+      "token": "1",
+      "x1": 2062,
+      "y1": 1417,
+      "x2": 2184,
+      "y2": 1629,
+      "cx": 2123.0,
+      "cy": 1523.0,
+      "conf": 0.9808,
+      "label": "QUANTITY",
+      "norm": "1",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 2184,
+      "y1": 1417,
+      "x2": 2429,
+      "y2": 1629,
+      "cx": 2306.5,
+      "cy": 1523.0,
+      "conf": 0.9808,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    }
+  ],
+  "tuples": [
+    {
+      "nutrient": "Vitamin C",
+      "quantity": "28",
+      "unit": "mg",
+      "context": "per_serving",
+      "image_id": "6.png"
+    },
+    {
+      "nutrient": "Magnesium",
+      "quantity": "56",
+      "unit": "mg",
+      "context": "per_serving",
+      "image_id": "6.png"
+    },
+    {
+      "nutrient": "Potassium",
+      "quantity": "70",
+      "unit": "mg",
+      "context": "per_serving",
+      "image_id": "6.png"
+    },
+    {
+      "nutrient": "Calcium",
+      "quantity": "9",
+      "unit": "mg",
+      "context": "per_serving",
+      "image_id": "6.png"
+    },
+    {
+      "nutrient": "Sodium",
+      "quantity": "200",
+      "unit": "mg",
+      "context": "per_serving",
+      "image_id": "6.png"
+    },
+    {
+      "nutrient": "Green Tea",
+      "quantity": "1",
+      "unit": "mg",
+      "context": "per_serving",
+      "image_id": "6.png"
+    }
+  ],
+  "diagnostics": {
+    "vlm": {
+      "mode": "vlm",
+      "backend": "openai_compat",
+      "model": "google/gemma-3-4b",
+      "active_tokens": 19,
+      "nutrients": 6,
+      "quantities": 6,
+      "tuples": 6,
+      "attempts": 1,
+      "image_max_side": 896,
+      "last_error": null,
+      "elapsed_s": 5.16,
+      "prompt_char_len": 1434,
+      "max_tokens": 4096,
+      "parse_mode": "full",
+      "salvaged_objects": 0,
+      "postprocess": {
+        "postprocessed": 6,
+        "context_mapped": 0,
+        "deduped": 0,
+        "context_majority": "per_serving"
+      }
+    }
+  },
+  "duration_s": 8.039,
+  "error": null
+}

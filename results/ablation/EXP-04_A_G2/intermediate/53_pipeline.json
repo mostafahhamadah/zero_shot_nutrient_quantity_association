@@ -1,0 +1,1442 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "Nutrition Information perNährwertangaben proInformations",
+      "x1": 101,
+      "y1": 82,
+      "x2": 2065,
+      "y2": 206,
+      "cx": 1083.0,
+      "cy": 144.0,
+      "conf": 0.9645
+    },
+    {
+      "token": "60g",
+      "x1": 2869,
+      "y1": 160,
+      "x2": 3003,
+      "y2": 264,
+      "cx": 2936.0,
+      "cy": 212.0,
+      "conf": 0.9979
+    },
+    {
+      "token": "100g",
+      "x1": 2349,
+      "y1": 161,
+      "x2": 2557,
+      "y2": 281,
+      "cx": 2453.0,
+      "cy": 221.0,
+      "conf": 0.998
+    },
+    {
+      "token": "nutritionnelles par Voedingswaarde informatie per",
+      "x1": 98,
+      "y1": 177,
+      "x2": 1687,
+      "y2": 317,
+      "cx": 892.5,
+      "cy": 247.0,
+      "conf": 0.9794
+    },
+    {
+      "token": "925 (218)",
+      "x1": 2745,
+      "y1": 301,
+      "x2": 3000,
+      "y2": 402,
+      "cx": 2872.5,
+      "cy": 351.5,
+      "conf": 0.9965
+    },
+    {
+      "token": "1541 (363)",
+      "x1": 2227,
+      "y1": 316,
+      "x2": 2504,
+      "y2": 405,
+      "cx": 2365.5,
+      "cy": 360.5,
+      "conf": 0.9909
+    },
+    {
+      "token": "Energy  Energie kJ (kcal)",
+      "x1": 107,
+      "y1": 328,
+      "x2": 860,
+      "y2": 449,
+      "cx": 483.5,
+      "cy": 388.5,
+      "conf": 0.9699
+    },
+    {
+      "token": "<0,5g",
+      "x1": 2801,
+      "y1": 417,
+      "x2": 3011,
+      "y2": 533,
+      "cx": 2906.0,
+      "cy": 475.0,
+      "conf": 0.9529
+    },
+    {
+      "token": "<0,5g",
+      "x1": 2283,
+      "y1": 418,
+      "x2": 2514,
+      "y2": 549,
+      "cx": 2398.5,
+      "cy": 483.5,
+      "conf": 0.9842
+    },
+    {
+      "token": "Fat |Fett |Matieres grasses |Vetten",
+      "x1": 104,
+      "y1": 448,
+      "x2": 1181,
+      "y2": 572,
+      "cx": 642.5,
+      "cy": 510.0,
+      "conf": 0.936
+    },
+    {
+      "token": "- of which saturates I davon gesättigte Fettsäuren",
+      "x1": 108,
+      "y1": 552,
+      "x2": 1632,
+      "y2": 667,
+      "cx": 870.0,
+      "cy": 609.5,
+      "conf": 0.9573
+    },
+    {
+      "token": "<0,5g",
+      "x1": 2787,
+      "y1": 624,
+      "x2": 2984,
+      "y2": 719,
+      "cx": 2885.5,
+      "cy": 671.5,
+      "conf": 0.9698
+    },
+    {
+      "token": "<0,5 g",
+      "x1": 2284,
+      "y1": 630,
+      "x2": 2491,
+      "y2": 734,
+      "cx": 2387.5,
+      "cy": 682.0,
+      "conf": 0.981
+    },
+    {
+      "token": "dont acides gras saturés waarvan verzadigde vetzuren",
+      "x1": 159,
+      "y1": 663,
+      "x2": 1798,
+      "y2": 756,
+      "cx": 978.5,
+      "cy": 709.5,
+      "conf": 0.9665
+    },
+    {
+      "token": "50 g",
+      "x1": 2835,
+      "y1": 735,
+      "x2": 2986,
+      "y2": 846,
+      "cx": 2910.5,
+      "cy": 790.5,
+      "conf": 0.97
+    },
+    {
+      "token": "84 g",
+      "x1": 2336,
+      "y1": 748,
+      "x2": 2487,
+      "y2": 859,
+      "cx": 2411.5,
+      "cy": 803.5,
+      "conf": 0.8892
+    },
+    {
+      "token": "CarbohydrateKohlenhydrateGlucidesKoolhydraten",
+      "x1": 111,
+      "y1": 786,
+      "x2": 1740,
+      "y2": 872,
+      "cx": 925.5,
+      "cy": 829.0,
+      "conf": 0.9829
+    },
+    {
+      "token": "37 g",
+      "x1": 2841,
+      "y1": 842,
+      "x2": 2978,
+      "y2": 943,
+      "cx": 2909.5,
+      "cy": 892.5,
+      "conf": 0.9795
+    },
+    {
+      "token": "62 g",
+      "x1": 2341,
+      "y1": 854,
+      "x2": 2475,
+      "y2": 955,
+      "cx": 2408.0,
+      "cy": 904.5,
+      "conf": 0.9913
+    },
+    {
+      "token": "- of which sugars I davon Zucker  dont sucres I waarvan sukers",
+      "x1": 111,
+      "y1": 872,
+      "x2": 1969,
+      "y2": 986,
+      "cx": 1040.0,
+      "cy": 929.0,
+      "conf": 0.976
+    },
+    {
+      "token": "4,0g",
+      "x1": 2810,
+      "y1": 954,
+      "x2": 2983,
+      "y2": 1074,
+      "cx": 2896.5,
+      "cy": 1014.0,
+      "conf": 0.9832
+    },
+    {
+      "token": "6,7g",
+      "x1": 2329,
+      "y1": 980,
+      "x2": 2478,
+      "y2": 1081,
+      "cx": 2403.5,
+      "cy": 1030.5,
+      "conf": 0.9927
+    },
+    {
+      "token": "ProteinEiweiBProteinesEiwitten",
+      "x1": 114,
+      "y1": 1010,
+      "x2": 1209,
+      "y2": 1100,
+      "cx": 661.5,
+      "cy": 1055.0,
+      "conf": 0.9762
+    },
+    {
+      "token": "0,08g",
+      "x1": 2780,
+      "y1": 1087,
+      "x2": 2978,
+      "y2": 1192,
+      "cx": 2879.0,
+      "cy": 1139.5,
+      "conf": 0.99
+    },
+    {
+      "token": "0,13 g",
+      "x1": 2306,
+      "y1": 1103,
+      "x2": 2478,
+      "y2": 1210,
+      "cx": 2392.0,
+      "cy": 1156.5,
+      "conf": 0.9833
+    },
+    {
+      "token": "SaltSalzSelZout",
+      "x1": 114,
+      "y1": 1130,
+      "x2": 738,
+      "y2": 1223,
+      "cx": 426.0,
+      "cy": 1176.5,
+      "conf": 0.9679
+    },
+    {
+      "token": "0,21 mg (15%*)",
+      "x1": 2544,
+      "y1": 1209,
+      "x2": 2966,
+      "y2": 1325,
+      "cx": 2755.0,
+      "cy": 1267.0,
+      "conf": 0.9599
+    },
+    {
+      "token": "0,35 mg (25%*)",
+      "x1": 2025,
+      "y1": 1231,
+      "x2": 2467,
+      "y2": 1340,
+      "cx": 2246.0,
+      "cy": 1285.5,
+      "conf": 0.9793
+    },
+    {
+      "token": "Vitamin B6Vitamine B6",
+      "x1": 117,
+      "y1": 1253,
+      "x2": 853,
+      "y2": 1346,
+      "cx": 485.0,
+      "cy": 1299.5,
+      "conf": 0.9628
+    }
+  ],
+  "corrected": [
+    {
+      "token": "Nutrition Information perNährwertangaben proInformations",
+      "x1": 101,
+      "y1": 82,
+      "x2": 2065,
+      "y2": 206,
+      "cx": 1083.0,
+      "cy": 144.0,
+      "conf": 0.9645
+    },
+    {
+      "token": "60",
+      "x1": 2869,
+      "y1": 160,
+      "x2": 2958,
+      "y2": 264,
+      "cx": 2913.5,
+      "cy": 212.0,
+      "conf": 0.9979
+    },
+    {
+      "token": "g",
+      "x1": 2958,
+      "y1": 160,
+      "x2": 3003,
+      "y2": 264,
+      "cx": 2980.5,
+      "cy": 212.0,
+      "conf": 0.9979
+    },
+    {
+      "token": "100g",
+      "x1": 2349,
+      "y1": 161,
+      "x2": 2557,
+      "y2": 281,
+      "cx": 2453.0,
+      "cy": 221.0,
+      "conf": 0.998
+    },
+    {
+      "token": "nutritionnelles par Voedingswaarde informatie per",
+      "x1": 98,
+      "y1": 177,
+      "x2": 1687,
+      "y2": 317,
+      "cx": 892.5,
+      "cy": 247.0,
+      "conf": 0.9794
+    },
+    {
+      "token": "925 (218)",
+      "x1": 2745,
+      "y1": 301,
+      "x2": 3000,
+      "y2": 402,
+      "cx": 2872.5,
+      "cy": 351.5,
+      "conf": 0.9965
+    },
+    {
+      "token": "1541 (363)",
+      "x1": 2227,
+      "y1": 316,
+      "x2": 2504,
+      "y2": 405,
+      "cx": 2365.5,
+      "cy": 360.5,
+      "conf": 0.9909
+    },
+    {
+      "token": "Energy",
+      "x1": 107,
+      "y1": 328,
+      "x2": 860,
+      "y2": 449,
+      "cx": 483.5,
+      "cy": 388.5,
+      "conf": 0.9699
+    },
+    {
+      "token": "<0.5",
+      "x1": 2801,
+      "y1": 417,
+      "x2": 2969,
+      "y2": 533,
+      "cx": 2885.0,
+      "cy": 475.0,
+      "conf": 0.9529
+    },
+    {
+      "token": "g",
+      "x1": 2969,
+      "y1": 417,
+      "x2": 3011,
+      "y2": 533,
+      "cx": 2990.0,
+      "cy": 475.0,
+      "conf": 0.9529
+    },
+    {
+      "token": "<0.5",
+      "x1": 2283,
+      "y1": 418,
+      "x2": 2467,
+      "y2": 549,
+      "cx": 2375.0,
+      "cy": 483.5,
+      "conf": 0.9842
+    },
+    {
+      "token": "g",
+      "x1": 2467,
+      "y1": 418,
+      "x2": 2514,
+      "y2": 549,
+      "cx": 2490.5,
+      "cy": 483.5,
+      "conf": 0.9842
+    },
+    {
+      "token": "Fat |Fett |Matieres grasses |Vetten",
+      "x1": 104,
+      "y1": 448,
+      "x2": 1181,
+      "y2": 572,
+      "cx": 642.5,
+      "cy": 510.0,
+      "conf": 0.936
+    },
+    {
+      "token": "- of which saturates I davon gesättigte Fettsäuren",
+      "x1": 108,
+      "y1": 552,
+      "x2": 1632,
+      "y2": 667,
+      "cx": 870.0,
+      "cy": 609.5,
+      "conf": 0.9573
+    },
+    {
+      "token": "<0.5",
+      "x1": 2787,
+      "y1": 624,
+      "x2": 2944,
+      "y2": 719,
+      "cx": 2865.5,
+      "cy": 671.5,
+      "conf": 0.9698
+    },
+    {
+      "token": "g",
+      "x1": 2944,
+      "y1": 624,
+      "x2": 2984,
+      "y2": 719,
+      "cx": 2964.0,
+      "cy": 671.5,
+      "conf": 0.9698
+    },
+    {
+      "token": "<0.5",
+      "x1": 2284,
+      "y1": 630,
+      "x2": 2449,
+      "y2": 734,
+      "cx": 2366.5,
+      "cy": 682.0,
+      "conf": 0.981
+    },
+    {
+      "token": "g",
+      "x1": 2449,
+      "y1": 630,
+      "x2": 2491,
+      "y2": 734,
+      "cx": 2470.0,
+      "cy": 682.0,
+      "conf": 0.981
+    },
+    {
+      "token": "dont acides gras saturés waarvan verzadigde vetzuren",
+      "x1": 159,
+      "y1": 663,
+      "x2": 1798,
+      "y2": 756,
+      "cx": 978.5,
+      "cy": 709.5,
+      "conf": 0.9665
+    },
+    {
+      "token": "50",
+      "x1": 2835,
+      "y1": 735,
+      "x2": 2935,
+      "y2": 846,
+      "cx": 2885.0,
+      "cy": 790.5,
+      "conf": 0.97
+    },
+    {
+      "token": "g",
+      "x1": 2935,
+      "y1": 735,
+      "x2": 2986,
+      "y2": 846,
+      "cx": 2960.5,
+      "cy": 790.5,
+      "conf": 0.97
+    },
+    {
+      "token": "84",
+      "x1": 2336,
+      "y1": 748,
+      "x2": 2436,
+      "y2": 859,
+      "cx": 2386.0,
+      "cy": 803.5,
+      "conf": 0.8892
+    },
+    {
+      "token": "g",
+      "x1": 2436,
+      "y1": 748,
+      "x2": 2487,
+      "y2": 859,
+      "cx": 2461.5,
+      "cy": 803.5,
+      "conf": 0.8892
+    },
+    {
+      "token": "CarbohydrateKohlenhydrateGlucidesKoolhydraten",
+      "x1": 111,
+      "y1": 786,
+      "x2": 1740,
+      "y2": 872,
+      "cx": 925.5,
+      "cy": 829.0,
+      "conf": 0.9829
+    },
+    {
+      "token": "37",
+      "x1": 2841,
+      "y1": 842,
+      "x2": 2932,
+      "y2": 943,
+      "cx": 2886.5,
+      "cy": 892.5,
+      "conf": 0.9795
+    },
+    {
+      "token": "g",
+      "x1": 2932,
+      "y1": 842,
+      "x2": 2978,
+      "y2": 943,
+      "cx": 2955.0,
+      "cy": 892.5,
+      "conf": 0.9795
+    },
+    {
+      "token": "62",
+      "x1": 2341,
+      "y1": 854,
+      "x2": 2430,
+      "y2": 955,
+      "cx": 2385.5,
+      "cy": 904.5,
+      "conf": 0.9913
+    },
+    {
+      "token": "g",
+      "x1": 2430,
+      "y1": 854,
+      "x2": 2475,
+      "y2": 955,
+      "cx": 2452.5,
+      "cy": 904.5,
+      "conf": 0.9913
+    },
+    {
+      "token": "- of which sugars I davon Zucker  dont sucres I waarvan sukers",
+      "x1": 111,
+      "y1": 872,
+      "x2": 1969,
+      "y2": 986,
+      "cx": 1040.0,
+      "cy": 929.0,
+      "conf": 0.976
+    },
+    {
+      "token": "4.0",
+      "x1": 2810,
+      "y1": 954,
+      "x2": 2939,
+      "y2": 1074,
+      "cx": 2874.5,
+      "cy": 1014.0,
+      "conf": 0.9832
+    },
+    {
+      "token": "g",
+      "x1": 2939,
+      "y1": 954,
+      "x2": 2983,
+      "y2": 1074,
+      "cx": 2961.0,
+      "cy": 1014.0,
+      "conf": 0.9832
+    },
+    {
+      "token": "6.7",
+      "x1": 2329,
+      "y1": 980,
+      "x2": 2440,
+      "y2": 1081,
+      "cx": 2384.5,
+      "cy": 1030.5,
+      "conf": 0.9927
+    },
+    {
+      "token": "g",
+      "x1": 2440,
+      "y1": 980,
+      "x2": 2478,
+      "y2": 1081,
+      "cx": 2459.0,
+      "cy": 1030.5,
+      "conf": 0.9927
+    },
+    {
+      "token": "ProteinEiweiBProteinesEiwitten",
+      "x1": 114,
+      "y1": 1010,
+      "x2": 1209,
+      "y2": 1100,
+      "cx": 661.5,
+      "cy": 1055.0,
+      "conf": 0.9762
+    },
+    {
+      "token": "0.08",
+      "x1": 2780,
+      "y1": 1087,
+      "x2": 2938,
+      "y2": 1192,
+      "cx": 2859.0,
+      "cy": 1139.5,
+      "conf": 0.99
+    },
+    {
+      "token": "g",
+      "x1": 2938,
+      "y1": 1087,
+      "x2": 2978,
+      "y2": 1192,
+      "cx": 2958.0,
+      "cy": 1139.5,
+      "conf": 0.99
+    },
+    {
+      "token": "0.13",
+      "x1": 2306,
+      "y1": 1103,
+      "x2": 2443,
+      "y2": 1210,
+      "cx": 2374.5,
+      "cy": 1156.5,
+      "conf": 0.9833
+    },
+    {
+      "token": "g",
+      "x1": 2443,
+      "y1": 1103,
+      "x2": 2478,
+      "y2": 1210,
+      "cx": 2460.5,
+      "cy": 1156.5,
+      "conf": 0.9833
+    },
+    {
+      "token": "SaltSalzSelZout",
+      "x1": 114,
+      "y1": 1130,
+      "x2": 738,
+      "y2": 1223,
+      "cx": 426.0,
+      "cy": 1176.5,
+      "conf": 0.9679
+    },
+    {
+      "token": "0.21",
+      "x1": 2544,
+      "y1": 1209,
+      "x2": 2825,
+      "y2": 1325,
+      "cx": 2684.5,
+      "cy": 1267.0,
+      "conf": 0.9599
+    },
+    {
+      "token": "mg",
+      "x1": 2825,
+      "y1": 1209,
+      "x2": 2966,
+      "y2": 1325,
+      "cx": 2895.5,
+      "cy": 1267.0,
+      "conf": 0.9599
+    },
+    {
+      "token": "0.35",
+      "x1": 2025,
+      "y1": 1231,
+      "x2": 2319,
+      "y2": 1340,
+      "cx": 2172.0,
+      "cy": 1285.5,
+      "conf": 0.9793
+    },
+    {
+      "token": "mg",
+      "x1": 2319,
+      "y1": 1231,
+      "x2": 2467,
+      "y2": 1340,
+      "cx": 2393.0,
+      "cy": 1285.5,
+      "conf": 0.9793
+    },
+    {
+      "token": "Vitamin B6Vitamine B6",
+      "x1": 117,
+      "y1": 1253,
+      "x2": 853,
+      "y2": 1346,
+      "cx": 485.0,
+      "cy": 1299.5,
+      "conf": 0.9628
+    }
+  ],
+  "labeled": [
+    {
+      "token": "Nutrition Information perNährwertangaben proInformations",
+      "x1": 101,
+      "y1": 82,
+      "x2": 2065,
+      "y2": 206,
+      "cx": 1083.0,
+      "cy": 144.0,
+      "conf": 0.9645,
+      "label": "UNKNOWN",
+      "norm": "nutrition information pernährwertangaben proinformations"
+    },
+    {
+      "token": "60",
+      "x1": 2869,
+      "y1": 160,
+      "x2": 2958,
+      "y2": 264,
+      "cx": 2913.5,
+      "cy": 212.0,
+      "conf": 0.9979,
+      "label": "QUANTITY",
+      "norm": "60"
+    },
+    {
+      "token": "g",
+      "x1": 2958,
+      "y1": 160,
+      "x2": 3003,
+      "y2": 264,
+      "cx": 2980.5,
+      "cy": 212.0,
+      "conf": 0.9979,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "100g",
+      "x1": 2349,
+      "y1": 161,
+      "x2": 2557,
+      "y2": 281,
+      "cx": 2453.0,
+      "cy": 221.0,
+      "conf": 0.998,
+      "label": "CONTEXT",
+      "norm": "per_100g"
+    },
+    {
+      "token": "nutritionnelles par Voedingswaarde informatie per",
+      "x1": 98,
+      "y1": 177,
+      "x2": 1687,
+      "y2": 317,
+      "cx": 892.5,
+      "cy": 247.0,
+      "conf": 0.9794,
+      "label": "UNKNOWN",
+      "norm": "nutritionnelles par voedingswaarde informatie per"
+    },
+    {
+      "token": "925 (218)",
+      "x1": 2745,
+      "y1": 301,
+      "x2": 3000,
+      "y2": 402,
+      "cx": 2872.5,
+      "cy": 351.5,
+      "conf": 0.9965,
+      "label": "QUANTITY",
+      "norm": "925"
+    },
+    {
+      "token": "1541 (363)",
+      "x1": 2227,
+      "y1": 316,
+      "x2": 2504,
+      "y2": 405,
+      "cx": 2365.5,
+      "cy": 360.5,
+      "conf": 0.9909,
+      "label": "QUANTITY",
+      "norm": "1541"
+    },
+    {
+      "token": "Energy",
+      "x1": 107,
+      "y1": 328,
+      "x2": 860,
+      "y2": 449,
+      "cx": 483.5,
+      "cy": 388.5,
+      "conf": 0.9699,
+      "label": "NUTRIENT",
+      "norm": "energy"
+    },
+    {
+      "token": "<0.5",
+      "x1": 2801,
+      "y1": 417,
+      "x2": 2969,
+      "y2": 533,
+      "cx": 2885.0,
+      "cy": 475.0,
+      "conf": 0.9529,
+      "label": "QUANTITY",
+      "norm": "<0.5"
+    },
+    {
+      "token": "g",
+      "x1": 2969,
+      "y1": 417,
+      "x2": 3011,
+      "y2": 533,
+      "cx": 2990.0,
+      "cy": 475.0,
+      "conf": 0.9529,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "<0.5",
+      "x1": 2283,
+      "y1": 418,
+      "x2": 2467,
+      "y2": 549,
+      "cx": 2375.0,
+      "cy": 483.5,
+      "conf": 0.9842,
+      "label": "QUANTITY",
+      "norm": "<0.5"
+    },
+    {
+      "token": "g",
+      "x1": 2467,
+      "y1": 418,
+      "x2": 2514,
+      "y2": 549,
+      "cx": 2490.5,
+      "cy": 483.5,
+      "conf": 0.9842,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "Fat |Fett |Matieres grasses |Vetten",
+      "x1": 104,
+      "y1": 448,
+      "x2": 1181,
+      "y2": 572,
+      "cx": 642.5,
+      "cy": 510.0,
+      "conf": 0.936,
+      "label": "NUTRIENT",
+      "norm": "fat |fett |matieres grasses |vetten"
+    },
+    {
+      "token": "- of which saturates I davon gesättigte Fettsäuren",
+      "x1": 108,
+      "y1": 552,
+      "x2": 1632,
+      "y2": 667,
+      "cx": 870.0,
+      "cy": 609.5,
+      "conf": 0.9573,
+      "label": "NUTRIENT",
+      "norm": "of which saturates i davon gesättigte fettsäuren"
+    },
+    {
+      "token": "<0.5",
+      "x1": 2787,
+      "y1": 624,
+      "x2": 2944,
+      "y2": 719,
+      "cx": 2865.5,
+      "cy": 671.5,
+      "conf": 0.9698,
+      "label": "QUANTITY",
+      "norm": "<0.5"
+    },
+    {
+      "token": "g",
+      "x1": 2944,
+      "y1": 624,
+      "x2": 2984,
+      "y2": 719,
+      "cx": 2964.0,
+      "cy": 671.5,
+      "conf": 0.9698,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "<0.5",
+      "x1": 2284,
+      "y1": 630,
+      "x2": 2449,
+      "y2": 734,
+      "cx": 2366.5,
+      "cy": 682.0,
+      "conf": 0.981,
+      "label": "QUANTITY",
+      "norm": "<0.5"
+    },
+    {
+      "token": "g",
+      "x1": 2449,
+      "y1": 630,
+      "x2": 2491,
+      "y2": 734,
+      "cx": 2470.0,
+      "cy": 682.0,
+      "conf": 0.981,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "dont acides gras saturés waarvan verzadigde vetzuren",
+      "x1": 159,
+      "y1": 663,
+      "x2": 1798,
+      "y2": 756,
+      "cx": 978.5,
+      "cy": 709.5,
+      "conf": 0.9665,
+      "label": "NUTRIENT",
+      "norm": "dont acides gras saturés waarvan verzadigde vetzuren"
+    },
+    {
+      "token": "50",
+      "x1": 2835,
+      "y1": 735,
+      "x2": 2935,
+      "y2": 846,
+      "cx": 2885.0,
+      "cy": 790.5,
+      "conf": 0.97,
+      "label": "QUANTITY",
+      "norm": "50"
+    },
+    {
+      "token": "g",
+      "x1": 2935,
+      "y1": 735,
+      "x2": 2986,
+      "y2": 846,
+      "cx": 2960.5,
+      "cy": 790.5,
+      "conf": 0.97,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "84",
+      "x1": 2336,
+      "y1": 748,
+      "x2": 2436,
+      "y2": 859,
+      "cx": 2386.0,
+      "cy": 803.5,
+      "conf": 0.8892,
+      "label": "QUANTITY",
+      "norm": "84"
+    },
+    {
+      "token": "g",
+      "x1": 2436,
+      "y1": 748,
+      "x2": 2487,
+      "y2": 859,
+      "cx": 2461.5,
+      "cy": 803.5,
+      "conf": 0.8892,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "CarbohydrateKohlenhydrateGlucidesKoolhydraten",
+      "x1": 111,
+      "y1": 786,
+      "x2": 1740,
+      "y2": 872,
+      "cx": 925.5,
+      "cy": 829.0,
+      "conf": 0.9829,
+      "label": "NUTRIENT",
+      "norm": "carbohydratekohlenhydrateglucideskoolhydraten"
+    },
+    {
+      "token": "37",
+      "x1": 2841,
+      "y1": 842,
+      "x2": 2932,
+      "y2": 943,
+      "cx": 2886.5,
+      "cy": 892.5,
+      "conf": 0.9795,
+      "label": "QUANTITY",
+      "norm": "37"
+    },
+    {
+      "token": "g",
+      "x1": 2932,
+      "y1": 842,
+      "x2": 2978,
+      "y2": 943,
+      "cx": 2955.0,
+      "cy": 892.5,
+      "conf": 0.9795,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "62",
+      "x1": 2341,
+      "y1": 854,
+      "x2": 2430,
+      "y2": 955,
+      "cx": 2385.5,
+      "cy": 904.5,
+      "conf": 0.9913,
+      "label": "QUANTITY",
+      "norm": "62"
+    },
+    {
+      "token": "g",
+      "x1": 2430,
+      "y1": 854,
+      "x2": 2475,
+      "y2": 955,
+      "cx": 2452.5,
+      "cy": 904.5,
+      "conf": 0.9913,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "- of which sugars I davon Zucker  dont sucres I waarvan sukers",
+      "x1": 111,
+      "y1": 872,
+      "x2": 1969,
+      "y2": 986,
+      "cx": 1040.0,
+      "cy": 929.0,
+      "conf": 0.976,
+      "label": "NUTRIENT",
+      "norm": "of which sugars i davon zucker dont sucres i waarvan sukers"
+    },
+    {
+      "token": "4.0",
+      "x1": 2810,
+      "y1": 954,
+      "x2": 2939,
+      "y2": 1074,
+      "cx": 2874.5,
+      "cy": 1014.0,
+      "conf": 0.9832,
+      "label": "QUANTITY",
+      "norm": "4.0"
+    },
+    {
+      "token": "g",
+      "x1": 2939,
+      "y1": 954,
+      "x2": 2983,
+      "y2": 1074,
+      "cx": 2961.0,
+      "cy": 1014.0,
+      "conf": 0.9832,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "6.7",
+      "x1": 2329,
+      "y1": 980,
+      "x2": 2440,
+      "y2": 1081,
+      "cx": 2384.5,
+      "cy": 1030.5,
+      "conf": 0.9927,
+      "label": "QUANTITY",
+      "norm": "6.7"
+    },
+    {
+      "token": "g",
+      "x1": 2440,
+      "y1": 980,
+      "x2": 2478,
+      "y2": 1081,
+      "cx": 2459.0,
+      "cy": 1030.5,
+      "conf": 0.9927,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "ProteinEiweiBProteinesEiwitten",
+      "x1": 114,
+      "y1": 1010,
+      "x2": 1209,
+      "y2": 1100,
+      "cx": 661.5,
+      "cy": 1055.0,
+      "conf": 0.9762,
+      "label": "NUTRIENT",
+      "norm": "proteineiweibproteineseiwitten"
+    },
+    {
+      "token": "0.08",
+      "x1": 2780,
+      "y1": 1087,
+      "x2": 2938,
+      "y2": 1192,
+      "cx": 2859.0,
+      "cy": 1139.5,
+      "conf": 0.99,
+      "label": "QUANTITY",
+      "norm": "0.08"
+    },
+    {
+      "token": "g",
+      "x1": 2938,
+      "y1": 1087,
+      "x2": 2978,
+      "y2": 1192,
+      "cx": 2958.0,
+      "cy": 1139.5,
+      "conf": 0.99,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "0.13",
+      "x1": 2306,
+      "y1": 1103,
+      "x2": 2443,
+      "y2": 1210,
+      "cx": 2374.5,
+      "cy": 1156.5,
+      "conf": 0.9833,
+      "label": "QUANTITY",
+      "norm": "0.13"
+    },
+    {
+      "token": "g",
+      "x1": 2443,
+      "y1": 1103,
+      "x2": 2478,
+      "y2": 1210,
+      "cx": 2460.5,
+      "cy": 1156.5,
+      "conf": 0.9833,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "SaltSalzSelZout",
+      "x1": 114,
+      "y1": 1130,
+      "x2": 738,
+      "y2": 1223,
+      "cx": 426.0,
+      "cy": 1176.5,
+      "conf": 0.9679,
+      "label": "UNKNOWN",
+      "norm": "saltsalzselzout"
+    },
+    {
+      "token": "0.21",
+      "x1": 2544,
+      "y1": 1209,
+      "x2": 2825,
+      "y2": 1325,
+      "cx": 2684.5,
+      "cy": 1267.0,
+      "conf": 0.9599,
+      "label": "QUANTITY",
+      "norm": "0.21"
+    },
+    {
+      "token": "mg",
+      "x1": 2825,
+      "y1": 1209,
+      "x2": 2966,
+      "y2": 1325,
+      "cx": 2895.5,
+      "cy": 1267.0,
+      "conf": 0.9599,
+      "label": "UNIT",
+      "norm": "mg"
+    },
+    {
+      "token": "0.35",
+      "x1": 2025,
+      "y1": 1231,
+      "x2": 2319,
+      "y2": 1340,
+      "cx": 2172.0,
+      "cy": 1285.5,
+      "conf": 0.9793,
+      "label": "QUANTITY",
+      "norm": "0.35"
+    },
+    {
+      "token": "mg",
+      "x1": 2319,
+      "y1": 1231,
+      "x2": 2467,
+      "y2": 1340,
+      "cx": 2393.0,
+      "cy": 1285.5,
+      "conf": 0.9793,
+      "label": "UNIT",
+      "norm": "mg"
+    },
+    {
+      "token": "Vitamin B6Vitamine B6",
+      "x1": 117,
+      "y1": 1253,
+      "x2": 853,
+      "y2": 1346,
+      "cx": 485.0,
+      "cy": 1299.5,
+      "conf": 0.9628,
+      "label": "NUTRIENT",
+      "norm": "vitamin b6vitamine b6"
+    }
+  ],
+  "tuples": [
+    {
+      "image_id": "53.png",
+      "nutrient": "Energy",
+      "quantity": "1541",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "53.png",
+      "nutrient": "Energy",
+      "quantity": "925",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 1
+    },
+    {
+      "image_id": "53.png",
+      "nutrient": "Fat |Fett |Matieres grasses |Vetten",
+      "quantity": "<0.5",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "53.png",
+      "nutrient": "- of which saturates I davon gesättigte Fettsäuren",
+      "quantity": "<0.5",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 1
+    },
+    {
+      "image_id": "53.png",
+      "nutrient": "dont acides gras saturés waarvan verzadigde vetzuren",
+      "quantity": "<0.5",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "53.png",
+      "nutrient": "CarbohydrateKohlenhydrateGlucidesKoolhydraten",
+      "quantity": "84",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "53.png",
+      "nutrient": "CarbohydrateKohlenhydrateGlucidesKoolhydraten",
+      "quantity": "50",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 1
+    },
+    {
+      "image_id": "53.png",
+      "nutrient": "CarbohydrateKohlenhydrateGlucidesKoolhydraten",
+      "quantity": "37",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 1
+    },
+    {
+      "image_id": "53.png",
+      "nutrient": "- of which sugars I davon Zucker dont sucres I waarvan sukers",
+      "quantity": "62",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "53.png",
+      "nutrient": "- of which sugars I davon Zucker dont sucres I waarvan sukers",
+      "quantity": "37",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 1
+    },
+    {
+      "image_id": "53.png",
+      "nutrient": "ProteinEiweiBProteinesEiwitten",
+      "quantity": "6.7",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "53.png",
+      "nutrient": "ProteinEiweiBProteinesEiwitten",
+      "quantity": "4.0",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 1
+    },
+    {
+      "image_id": "53.png",
+      "nutrient": "Vitamin B6Vitamine B6",
+      "quantity": "0.35",
+      "unit": "mg",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": -1
+    },
+    {
+      "image_id": "53.png",
+      "nutrient": "Vitamin B6Vitamine B6",
+      "quantity": "0.21",
+      "unit": "mg",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": -1
+    }
+  ],
+  "diagnostics": {
+    "enricher": {
+      "active_tokens": 44,
+      "num_rows": 9,
+      "num_columns": 6,
+      "column_roles": {
+        "0": "NUTRIENT",
+        "1": "NUTRIENT",
+        "2": "SINGLETON",
+        "3": "DOSAGE",
+        "4": "SINGLETON",
+        "5": "DOSAGE"
+      },
+      "column_angles": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0
+      },
+      "column_contexts": {
+        "3": "per_100g"
+      },
+      "dosage_streams": 2,
+      "rank_counts": {
+        "0": 5,
+        "1": 6,
+        "2": 1,
+        "3": 14,
+        "4": 1,
+        "5": 16
+      },
+      "rank_consistent": false,
+      "headers_detected": 1
+    },
+    "associator": {
+      "nutrients": 8,
+      "quantities": 17,
+      "dosage_streams": 2,
+      "mode": "v2_streams",
+      "tuples": 14
+    },
+    "edges": 594,
+    "nodes": 44
+  },
+  "duration_s": 4.186,
+  "error": null
+}

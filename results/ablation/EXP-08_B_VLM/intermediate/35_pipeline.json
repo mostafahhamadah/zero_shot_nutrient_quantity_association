@@ -1,0 +1,493 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "pro3Tabletten/(NRV)",
+      "x1": 323,
+      "y1": 7,
+      "x2": 508,
+      "y2": 34,
+      "cx": 415.5,
+      "cy": 20.5,
+      "conf": 0.9427
+    },
+    {
+      "token": "pro 100g",
+      "x1": 214,
+      "y1": 17,
+      "x2": 293,
+      "y2": 40,
+      "cx": 253.5,
+      "cy": 28.5,
+      "conf": 0.9526
+    },
+    {
+      "token": "Zusammensetzung",
+      "x1": 20,
+      "y1": 24,
+      "x2": 170,
+      "y2": 45,
+      "cx": 95.0,
+      "cy": 34.5,
+      "conf": 0.9878
+    },
+    {
+      "token": "225mg/60%",
+      "x1": 397,
+      "y1": 30,
+      "x2": 509,
+      "y2": 53,
+      "cx": 453.0,
+      "cy": 41.5,
+      "conf": 0.9756
+    },
+    {
+      "token": "4,7g",
+      "x1": 252,
+      "y1": 40,
+      "x2": 295,
+      "y2": 62,
+      "cx": 273.5,
+      "cy": 51.0,
+      "conf": 0.8761
+    },
+    {
+      "token": "Magnesium",
+      "x1": 23,
+      "y1": 49,
+      "x2": 105,
+      "y2": 69,
+      "cx": 64.0,
+      "cy": 59.0,
+      "conf": 0.9948
+    },
+    {
+      "token": "100,8mg/126%)",
+      "x1": 378,
+      "y1": 54,
+      "x2": 506,
+      "y2": 77,
+      "cx": 442.0,
+      "cy": 65.5,
+      "conf": 0.9481
+    },
+    {
+      "token": "2,1g",
+      "x1": 255,
+      "y1": 65,
+      "x2": 292,
+      "y2": 83,
+      "cx": 273.5,
+      "cy": 74.0,
+      "conf": 0.9423
+    },
+    {
+      "token": "Vitamin C",
+      "x1": 22,
+      "y1": 72,
+      "x2": 97,
+      "y2": 93,
+      "cx": 59.5,
+      "cy": 82.5,
+      "conf": 0.9399
+    },
+    {
+      "token": "*NRV=%der Nahrstoffbezugswerte gemaB EU-VO 1169/2011",
+      "x1": 55,
+      "y1": 78,
+      "x2": 478,
+      "y2": 118,
+      "cx": 266.5,
+      "cy": 98.0,
+      "conf": 0.9524
+    }
+  ],
+  "corrected": [
+    {
+      "token": "pro3Tabletten/(NRV)",
+      "x1": 323,
+      "y1": 7,
+      "x2": 508,
+      "y2": 34,
+      "cx": 415.5,
+      "cy": 20.5,
+      "conf": 0.9427
+    },
+    {
+      "token": "pro 100g",
+      "x1": 214,
+      "y1": 17,
+      "x2": 293,
+      "y2": 40,
+      "cx": 253.5,
+      "cy": 28.5,
+      "conf": 0.9526
+    },
+    {
+      "token": "Zusammensetzung",
+      "x1": 20,
+      "y1": 24,
+      "x2": 170,
+      "y2": 45,
+      "cx": 95.0,
+      "cy": 34.5,
+      "conf": 0.9878
+    },
+    {
+      "token": "225mg/60%",
+      "x1": 397,
+      "y1": 30,
+      "x2": 509,
+      "y2": 53,
+      "cx": 453.0,
+      "cy": 41.5,
+      "conf": 0.9756
+    },
+    {
+      "token": "4.7",
+      "x1": 252,
+      "y1": 40,
+      "x2": 284,
+      "y2": 62,
+      "cx": 268.0,
+      "cy": 51.0,
+      "conf": 0.8761
+    },
+    {
+      "token": "g",
+      "x1": 284,
+      "y1": 40,
+      "x2": 295,
+      "y2": 62,
+      "cx": 289.5,
+      "cy": 51.0,
+      "conf": 0.8761
+    },
+    {
+      "token": "Magnesium",
+      "x1": 23,
+      "y1": 49,
+      "x2": 105,
+      "y2": 69,
+      "cx": 64.0,
+      "cy": 59.0,
+      "conf": 0.9948
+    },
+    {
+      "token": "100.8mg/126%)",
+      "x1": 378,
+      "y1": 54,
+      "x2": 506,
+      "y2": 77,
+      "cx": 442.0,
+      "cy": 65.5,
+      "conf": 0.9481
+    },
+    {
+      "token": "2.1",
+      "x1": 255,
+      "y1": 65,
+      "x2": 282,
+      "y2": 83,
+      "cx": 268.5,
+      "cy": 74.0,
+      "conf": 0.9423
+    },
+    {
+      "token": "g",
+      "x1": 282,
+      "y1": 65,
+      "x2": 292,
+      "y2": 83,
+      "cx": 287.0,
+      "cy": 74.0,
+      "conf": 0.9423
+    },
+    {
+      "token": "Vitamin C",
+      "x1": 22,
+      "y1": 72,
+      "x2": 97,
+      "y2": 93,
+      "cx": 59.5,
+      "cy": 82.5,
+      "conf": 0.9399
+    },
+    {
+      "token": "*NRV=%der Nahrstoffbezugswerte gemaB EU-VO 1169/2011",
+      "x1": 55,
+      "y1": 78,
+      "x2": 478,
+      "y2": 118,
+      "cx": 266.5,
+      "cy": 98.0,
+      "conf": 0.9524
+    }
+  ],
+  "labeled": [
+    {
+      "token": "pro3Tabletten/(NRV)",
+      "x1": 323,
+      "y1": 7,
+      "x2": 508,
+      "y2": 34,
+      "cx": 415.5,
+      "cy": 20.5,
+      "conf": 0.9427,
+      "label": "CONTEXT",
+      "norm": "per_daily_dose",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "pro 100g",
+      "x1": 214,
+      "y1": 17,
+      "x2": 293,
+      "y2": 40,
+      "cx": 253.5,
+      "cy": 28.5,
+      "conf": 0.9526,
+      "label": "CONTEXT",
+      "norm": "per_100g",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Zusammensetzung",
+      "x1": 20,
+      "y1": 24,
+      "x2": 170,
+      "y2": 45,
+      "cx": 95.0,
+      "cy": 34.5,
+      "conf": 0.9878,
+      "label": "UNKNOWN",
+      "norm": "zusammensetzung",
+      "embedding_scores": {
+        "NUTRIENT": 0.5071188807487488,
+        "QUANTITY": 0.4486386775970459,
+        "UNIT": 0.36025935411453247,
+        "CONTEXT": 0.4901163578033447,
+        "NOISE": 0.5875828266143799
+      },
+      "embedding_confidence": 0.5071188807487488,
+      "classification_method": "embedding",
+      "embedding_context": "Zusammensetzung pro 100g pro3Tabletten/(NRV) 225mg/60%"
+    },
+    {
+      "token": "225mg/60%",
+      "x1": 397,
+      "y1": 30,
+      "x2": 509,
+      "y2": 53,
+      "cx": 453.0,
+      "cy": 41.5,
+      "conf": 0.9756,
+      "label": "UNKNOWN",
+      "norm": "225mg/60%",
+      "embedding_scores": {
+        "NUTRIENT": 0.5071188807487488,
+        "QUANTITY": 0.4486386775970459,
+        "UNIT": 0.36025935411453247,
+        "CONTEXT": 0.4901163578033447,
+        "NOISE": 0.5875828266143799
+      },
+      "embedding_confidence": 0.5071188807487488,
+      "classification_method": "embedding",
+      "embedding_context": "Zusammensetzung pro 100g pro3Tabletten/(NRV) 225mg/60%"
+    },
+    {
+      "token": "4.7",
+      "x1": 252,
+      "y1": 40,
+      "x2": 284,
+      "y2": 62,
+      "cx": 268.0,
+      "cy": 51.0,
+      "conf": 0.8761,
+      "label": "QUANTITY",
+      "norm": "4.7",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "g",
+      "x1": 284,
+      "y1": 40,
+      "x2": 295,
+      "y2": 62,
+      "cx": 289.5,
+      "cy": 51.0,
+      "conf": 0.8761,
+      "label": "UNIT",
+      "norm": "g",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Magnesium",
+      "x1": 23,
+      "y1": 49,
+      "x2": 105,
+      "y2": 69,
+      "cx": 64.0,
+      "cy": 59.0,
+      "conf": 0.9948,
+      "label": "NUTRIENT",
+      "norm": "magnesium",
+      "embedding_scores": {
+        "NUTRIENT": 0.7125765085220337,
+        "QUANTITY": 0.5135897994041443,
+        "UNIT": 0.532935380935669,
+        "CONTEXT": 0.5010575652122498,
+        "NOISE": 0.49257245659828186
+      },
+      "embedding_confidence": 0.7125765085220337,
+      "classification_method": "embedding",
+      "embedding_context": "Magnesium 4.7 g 100.8mg/126%)"
+    },
+    {
+      "token": "100.8mg/126%)",
+      "x1": 378,
+      "y1": 54,
+      "x2": 506,
+      "y2": 77,
+      "cx": 442.0,
+      "cy": 65.5,
+      "conf": 0.9481,
+      "label": "NUTRIENT",
+      "norm": "100.8mg/126%)",
+      "embedding_scores": {
+        "NUTRIENT": 0.7125765085220337,
+        "QUANTITY": 0.5135897994041443,
+        "UNIT": 0.532935380935669,
+        "CONTEXT": 0.5010575652122498,
+        "NOISE": 0.49257245659828186
+      },
+      "embedding_confidence": 0.7125765085220337,
+      "classification_method": "embedding",
+      "embedding_context": "Magnesium 4.7 g 100.8mg/126%)"
+    },
+    {
+      "token": "2.1",
+      "x1": 255,
+      "y1": 65,
+      "x2": 282,
+      "y2": 83,
+      "cx": 268.5,
+      "cy": 74.0,
+      "conf": 0.9423,
+      "label": "QUANTITY",
+      "norm": "2.1",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "g",
+      "x1": 282,
+      "y1": 65,
+      "x2": 292,
+      "y2": 83,
+      "cx": 287.0,
+      "cy": 74.0,
+      "conf": 0.9423,
+      "label": "UNIT",
+      "norm": "g",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Vitamin C",
+      "x1": 22,
+      "y1": 72,
+      "x2": 97,
+      "y2": 93,
+      "cx": 59.5,
+      "cy": 82.5,
+      "conf": 0.9399,
+      "label": "NUTRIENT",
+      "norm": "vitamin c",
+      "embedding_scores": {
+        "NUTRIENT": 0.7557574510574341,
+        "QUANTITY": 0.4471495747566223,
+        "UNIT": 0.47194361686706543,
+        "CONTEXT": 0.49265632033348083,
+        "NOISE": 0.45142942667007446
+      },
+      "embedding_confidence": 0.7557574510574341,
+      "classification_method": "embedding",
+      "embedding_context": "Vitamin C 2.1 g"
+    },
+    {
+      "token": "*NRV=%der Nahrstoffbezugswerte gemaB EU-VO 1169/2011",
+      "x1": 55,
+      "y1": 78,
+      "x2": 478,
+      "y2": 118,
+      "cx": 266.5,
+      "cy": 98.0,
+      "conf": 0.9524,
+      "label": "NOISE",
+      "norm": "*nrv=%der nahrstoffbezugswerte gemab eu-vo 1169/2011",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    }
+  ],
+  "tuples": [
+    {
+      "nutrient": "Magnesium",
+      "quantity": "4.7",
+      "unit": "g",
+      "context": "per_100g",
+      "image_id": "35.jpeg"
+    },
+    {
+      "nutrient": "Vitamin C",
+      "quantity": "2.1",
+      "unit": "g",
+      "context": "per_100g",
+      "image_id": "35.jpeg"
+    },
+    {
+      "nutrient": "Magnesium",
+      "quantity": "225",
+      "unit": "mg",
+      "context": "per_daily_dose",
+      "image_id": "35.jpeg"
+    },
+    {
+      "nutrient": "Vitamin C",
+      "quantity": "100.8",
+      "unit": "mg",
+      "context": "per_daily_dose",
+      "image_id": "35.jpeg"
+    }
+  ],
+  "diagnostics": {
+    "vlm": {
+      "mode": "vlm",
+      "backend": "openai_compat",
+      "model": "google/gemma-3-4b",
+      "active_tokens": 9,
+      "nutrients": 3,
+      "quantities": 2,
+      "tuples": 4,
+      "attempts": 1,
+      "image_max_side": 896,
+      "last_error": null,
+      "elapsed_s": 4.49,
+      "prompt_char_len": 947,
+      "max_tokens": 4096,
+      "parse_mode": "full",
+      "salvaged_objects": 0,
+      "postprocess": {
+        "postprocessed": 4,
+        "context_mapped": 2,
+        "deduped": 0,
+        "context_majority": "per_100g"
+      }
+    }
+  },
+  "duration_s": 7.204,
+  "error": null
+}

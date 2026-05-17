@@ -1,0 +1,2 @@
+image_id,status,ocr_tokens,corrector_edits,predicted_tuples,clf_nutrient,clf_quantity,clf_unit,clf_context,clf_via_embedding,vlm_original_width,vlm_original_height,vlm_width,vlm_height,vlm_image_path,vlm_time_s,total_processing_time_s,error
+1.png,ok,15,5,0,6,5,5,1,9,2682,1600,900,537,outputs\hf_vlm_test_1\vlm_resized_images\1_vlm_900x537.jpg,19.09,25.434,

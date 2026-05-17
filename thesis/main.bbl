@@ -1,0 +1,356 @@
+\begin{thebibliography}{46}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ahmed et~al.(2022)]{ahmed2022flip}
+Mavra Ahmed et~al.
+\newblock The food label information program ({FLIP}): A database of canadian
+  packaged foods.
+\newblock \emph{Frontiers in Nutrition}, 2022.
+\newblock Verify full author list, volume, page numbers, and DOI from the
+  Frontiers paper.
+
+\bibitem[Appalaraju et~al.(2021)Appalaraju, Jasani, Kota, Xie, and
+  Manmatha]{appalaraju2021docformer}
+Srikar Appalaraju, Bhavan Jasani, Bhargava~Urala Kota, Yusheng Xie, and
+  R.~Manmatha.
+\newblock {DocFormer}: End-to-end transformer for document understanding.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on
+  Computer Vision (ICCV)}, 2021.
+
+\bibitem[Assiri et~al.(2025)Assiri, Alahmadi, Almuashi, and
+  Almansour]{assiri2025bilingual}
+Fatmah~Y. Assiri, Mohammad~D. Alahmadi, Mohammed~A. Almuashi, and Ayidh~M.
+  Almansour.
+\newblock Extract nutritional information from bilingual food labels using
+  large language models.
+\newblock \emph{Journal of Imaging}, 11\penalty0 (8):\penalty0 271, 2025.
+
+\bibitem[Baek et~al.(2019)Baek, Lee, Han, Yun, and Lee]{baek2019craft}
+Youngmin Baek, Bado Lee, Dongyoon Han, Sangdoo Yun, and Hwalsuk Lee.
+\newblock Character region awareness for text detection.
+\newblock In \emph{Proceedings of CVPR}, 2019.
+\newblock \doi{10.48550/arXiv.1904.01941}.
+
+\bibitem[Bai et~al.(2023)Bai, Bai, Yang, Wang, Tan, Wang, Lin, Zhou, and
+  Zhou]{bai2023qwenvl}
+Jinze Bai, Shuai Bai, Shusheng Yang, Shijie Wang, Sinan Tan, Peng Wang, Junyang
+  Lin, Chang Zhou, and Jingren Zhou.
+\newblock {Qwen-VL}: A versatile vision-language model for understanding,
+  localization, text reading, and beyond.
+\newblock \emph{arXiv preprint arXiv:2308.12966}, 2023.
+\newblock \doi{10.48550/arXiv.2308.12966}.
+
+\bibitem[Chen et~al.(2024{\natexlab{a}})Chen, Xiao, Zhang, Luo, Lian, and
+  Liu]{chen2024bgem3}
+Jianlv Chen, Shitao Xiao, Peitian Zhang, Kun Luo, Defu Lian, and Zheng Liu.
+\newblock {BGE M3-Embedding}: Multi-lingual, multi-functionality,
+  multi-granularity text embeddings through self-knowledge distillation.
+\newblock \emph{arXiv preprint arXiv:2402.03216}, 2024{\natexlab{a}}.
+\newblock \doi{10.48550/arXiv.2402.03216}.
+
+\bibitem[Chen et~al.(2024{\natexlab{b}})Chen, Wu, Wang, Su, Chen, Xing, Zhong,
+  Zhang, Zhu, Lu, et~al.]{chen2024internvl}
+Zhe Chen, Jiannan Wu, Wenhai Wang, Weijie Su, Guo Chen, Sen Xing, Muyan Zhong,
+  Qinglong Zhang, Xizhou Zhu, Lewei Lu, et~al.
+\newblock {InternVL}: Scaling up vision foundation models and aligning for
+  generic visual-linguistic tasks.
+\newblock \emph{Proceedings of CVPR}, 2024{\natexlab{b}}.
+\newblock \doi{10.48550/arXiv.2312.14238}.
+
+\bibitem[Cui et~al.(2025)Cui, Lyu, Zhang, Yan, et~al.]{cui2025paddleocr3}
+Cheng Cui, Ting Lyu, Wenlin Zhang, Xinxin Yan, et~al.
+\newblock {PaddleOCR 3.0} technical report.
+\newblock \emph{arXiv preprint arXiv:2507.05595}, 2025.
+\newblock \doi{10.48550/arXiv.2507.05595}.
+
+\bibitem[Devlin et~al.(2019)Devlin, Chang, Lee, and Toutanova]{devlin2019bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock {BERT}: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock In \emph{Proceedings of NAACL-HLT}, 2019.
+\newblock \doi{10.48550/arXiv.1810.04805}.
+
+\bibitem[Du et~al.(2022)Du, Chen, Jia, Yin, Zheng, Li, Du, and
+  Jiang]{du2022svtr}
+Yongkun Du, Zhineng Chen, Caiyan Jia, Xiaoting Yin, Tianlun Zheng, Chenxia Li,
+  Yuning Du, and Yu-Gang Jiang.
+\newblock {SVTR}: Scene text recognition with a single visual model.
+\newblock In \emph{Proceedings of IJCAI}, 2022.
+\newblock \doi{10.48550/arXiv.2205.00159}.
+
+\bibitem[Graves et~al.(2006)Graves, Fern{\'a}ndez, Gomez, and
+  Schmidhuber]{graves2006ctc}
+Alex Graves, Santiago Fern{\'a}ndez, Faustino Gomez, and J{\"u}rgen
+  Schmidhuber.
+\newblock Connectionist temporal classification: Labelling unsegmented sequence
+  data with recurrent neural networks.
+\newblock In \emph{Proceedings of ICML}, 2006.
+
+\bibitem[{HalalBench Authors}(2026)]{halalbench2026}
+{HalalBench Authors}.
+\newblock {HalalBench}: An open multilingual {OCR} benchmark for food-packaging
+  ingredient lists.
+\newblock Verify exact author list, venue, and arXiv/DOI identifier from the
+  source you consulted., 2026.
+\newblock Cited in 3.6.2 as a recent multilingual OCR benchmark for
+  food-packaging ingredient lists.
+
+\bibitem[Hong et~al.(2022)Hong, Kim, Ji, Hwang, Nam, and Park]{hong2022bros}
+Teakgyu Hong, Donghyun Kim, Mingi Ji, Wonseok Hwang, Daehyun Nam, and Sungrae
+  Park.
+\newblock {BROS}: A pre-trained language model focusing on text and layout for
+  better key information extraction from documents.
+\newblock In \emph{Proceedings of AAAI}, 2022.
+\newblock \doi{10.48550/arXiv.2108.04539}.
+
+\bibitem[Huang et~al.(2022)Huang, Lv, Cui, Lu, and Wei]{huang2022layoutlmv3}
+Yupan Huang, Tengchao Lv, Lei Cui, Yutong Lu, and Furu Wei.
+\newblock {LayoutLMv3}: Pre-training for document {AI} with unified text and
+  image masking.
+\newblock In \emph{Proceedings of ACM MM}, 2022.
+\newblock \doi{10.48550/arXiv.2204.08387}.
+
+\bibitem[Huang et~al.(2019)Huang, Chen, He, Bai, Karatzas, Lu, and
+  Jawahar]{huang2019sroie}
+Zheng Huang, Kai Chen, Jianhua He, Xiang Bai, Dimosthenis Karatzas, Shijian Lu,
+  and C.~V. Jawahar.
+\newblock {ICDAR2019} competition on scanned receipt {OCR} and information
+  extraction.
+\newblock In \emph{Proceedings of ICDAR}, 2019.
+
+\bibitem[Hwang et~al.(2021)Hwang, Yim, Park, Yang, and Seo]{hwang2021spade}
+Wonseok Hwang, Jinyeong Yim, Seunghyun Park, Sohee Yang, and Minjoon Seo.
+\newblock {SPADE}: Spatial dependency parsing for semi-structured document
+  information extraction.
+\newblock \emph{Proceedings of ACL Findings}, 2021.
+\newblock \doi{10.48550/arXiv.2106.14624}.
+
+\bibitem[Jaume et~al.(2019)Jaume, Ekenel, and Thiran]{jaume2019funsd}
+Guillaume Jaume, Hazim~Kemal Ekenel, and Jean-Philippe Thiran.
+\newblock {FUNSD}: A dataset for form understanding in noisy scanned documents.
+\newblock In \emph{Proceedings of ICDAR Workshops}, 2019.
+\newblock \doi{10.48550/arXiv.1905.13538}.
+
+\bibitem[Kim et~al.(2022)Kim, Hong, Yim, Nam, Park, Yim, Hwang, Yun, Han, and
+  Park]{kim2022donut}
+Geewook Kim, Teakgyu Hong, Moonbin Yim, JeongYeon Nam, Jinyoung Park, Jinyeong
+  Yim, Wonseok Hwang, Sangdoo Yun, Dongyoon Han, and Seunghyun Park.
+\newblock {OCR}-free document understanding transformer.
+\newblock In \emph{Proceedings of ECCV}, 2022.
+\newblock \doi{10.48550/arXiv.2111.15664}.
+
+\bibitem[Kuhn(1955)]{kuhn1955hungarian}
+Harold~W. Kuhn.
+\newblock The {Hungarian} method for the assignment problem.
+\newblock \emph{Naval Research Logistics Quarterly}, 2\penalty0
+  (1--2):\penalty0 83--97, 1955.
+
+\bibitem[Lee et~al.(2022)Lee, Li, Dozat, Perot, Su, Hua, Ainslie, Wang, Fujii,
+  and Pfister]{lee2022formnet}
+Chen-Yu Lee, Chun-Liang Li, Timothy Dozat, Vincent Perot, Guolong Su, Nan Hua,
+  Joshua Ainslie, Renshen Wang, Yasuhisa Fujii, and Tomas Pfister.
+\newblock {FormNet}: Structural encoding beyond sequential modeling in form
+  document information extraction.
+\newblock In \emph{Proceedings of the 60th Annual Meeting of the Association
+  for Computational Linguistics (ACL)}, 2022.
+
+\bibitem[Lee et~al.(2023)Lee, Joshi, Turc, Hu, Liu, Eisenschlos, Khandelwal,
+  Shaw, Chang, and Toutanova]{lee2023pix2struct}
+Kenton Lee, Mandar Joshi, Iulia Turc, Hexiang Hu, Fangyu Liu, Julian~Martin
+  Eisenschlos, Urvashi Khandelwal, Peter Shaw, Ming-Wei Chang, and Kristina
+  Toutanova.
+\newblock {Pix2Struct}: Screenshot parsing as pretraining for visual language
+  understanding.
+\newblock In \emph{Proceedings of ICML}, 2023.
+\newblock \doi{10.48550/arXiv.2210.03347}.
+
+\bibitem[Li et~al.(2020{\natexlab{a}})Li, Cui, Huang, Wei, Zhou, and
+  Li]{li2020tablebank}
+Minghao Li, Lei Cui, Shaohan Huang, Furu Wei, Ming Zhou, and Zhoujun Li.
+\newblock {TableBank}: Table benchmark for image-based table detection and
+  recognition.
+\newblock In \emph{Proceedings of the Twelfth Language Resources and Evaluation
+  Conference (LREC)}, 2020{\natexlab{a}}.
+
+\bibitem[Li et~al.(2020{\natexlab{b}})Li, Xu, Cui, Huang, Wei, Li, and
+  Zhou]{li2020docbank}
+Minghao Li, Yiheng Xu, Lei Cui, Shaohan Huang, Furu Wei, Zhoujun Li, and Ming
+  Zhou.
+\newblock {DocBank}: A benchmark dataset for document layout analysis.
+\newblock In \emph{Proceedings of the 28th International Conference on
+  Computational Linguistics (COLING)}, 2020{\natexlab{b}}.
+
+\bibitem[Liao et~al.(2020)Liao, Wan, Yao, Chen, and Bai]{liao2020db}
+Minghui Liao, Zhaoyi Wan, Cong Yao, Kai Chen, and Xiang Bai.
+\newblock Real-time scene text detection with differentiable binarisation.
+\newblock In \emph{Proceedings of AAAI}, 2020.
+\newblock \doi{10.48550/arXiv.1911.08947}.
+
+\bibitem[Long et~al.(2021)Long, He, and Yao]{long2021scene}
+Shangbang Long, Xin He, and Cong Yao.
+\newblock Scene text detection and recognition: The deep learning era.
+\newblock \emph{International Journal of Computer Vision (IJCV)}, 129:\penalty0
+  161--184, 2021.
+\newblock \doi{10.48550/arXiv.1811.04256}.
+
+\bibitem[Mikolov et~al.(2013)Mikolov, Chen, Corrado, and
+  Dean]{mikolov2013word2vec}
+Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
+\newblock Efficient estimation of word representations in vector space.
+\newblock \emph{arXiv preprint arXiv:1301.3781}, 2013.
+\newblock \doi{10.48550/arXiv.1301.3781}.
+
+\bibitem[Nagayi et~al.(2025)]{nagayi2025foodpackagingocr}
+Nagayi et~al.
+\newblock Comparative evaluation of {OCR} engines on food-packaging images.
+\newblock Verify full author list, exact title, venue, and identifier from the
+  source you consulted., 2025.
+\newblock Cited in 3.6.2 as evaluating Tesseract, EasyOCR, PaddleOCR, and TrOCR
+  on real-world food-packaging images including ingredient lists and
+  nutrition-facts panels.
+
+\bibitem[Nassar et~al.(2022)Nassar, Livathinos, Lysak, and
+  Staar]{nassar2022tableformer}
+Ahmed Nassar, Nikolaos Livathinos, Maksym Lysak, and Peter Staar.
+\newblock {TableFormer}: Table structure understanding with transformers.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition (CVPR)}, 2022.
+
+\bibitem[{Open Food Facts}(2024)]{openfoodfacts}
+{Open Food Facts}.
+\newblock Open food facts: A free, open, collaborative database of food
+  products from around the world.
+\newblock \url{https://world.openfoodfacts.org/}, 2024.
+
+\bibitem[{PaddleOCR Team}(2025)]{ppstructurev3}
+{PaddleOCR Team}.
+\newblock {PP-StructureV3} documentation.
+\newblock \url{https://github.com/PaddlePaddle/PaddleOCR}, 2025.
+\newblock Documentation for PP-StructureV3 hierarchical document parsing
+  pipeline, including SLANet/SLANeXt table-recognition modules. Verify exact
+  URL/path against the version of the docs you consulted.
+
+\bibitem[Park et~al.(2019)Park, Shin, Lee, Lee, Surh, Seo, and
+  Lee]{park2019cord}
+Seunghyun Park, Seung Shin, Bado Lee, Junyeop Lee, Jaeheung Surh, Minjoon Seo,
+  and Hwalsuk Lee.
+\newblock {CORD}: A consolidated receipt dataset for post-{OCR} parsing.
+\newblock In \emph{Workshop on Document Intelligence at NeurIPS}, 2019.
+
+\bibitem[Pennington et~al.(2014)Pennington, Socher, and
+  Manning]{pennington2014glove}
+Jeffrey Pennington, Richard Socher, and Christopher~D. Manning.
+\newblock {GloVe}: Global vectors for word representation.
+\newblock In \emph{Proceedings of EMNLP}, pages 1532--1543, 2014.
+
+\bibitem[Powalski et~al.(2021)Powalski, Borchmann, Jurkiewicz, Dwojak,
+  Pietruszka, and Pa{\l}ka]{powalski2021tilt}
+Rafa{\l} Powalski, {\L}ukasz Borchmann, Dawid Jurkiewicz, Tomasz Dwojak,
+  Micha{\l} Pietruszka, and Gabriela Pa{\l}ka.
+\newblock Going full-{TILT} boogie on document understanding with
+  text-image-layout transformer.
+\newblock In \emph{International Conference on Document Analysis and
+  Recognition (ICDAR)}, 2021.
+
+\bibitem[Reimers and Gurevych(2019)]{reimers2019sentencebert}
+Nils Reimers and Iryna Gurevych.
+\newblock Sentence-{BERT}: Sentence embeddings using siamese {BERT}-networks.
+\newblock In \emph{Proceedings of EMNLP-IJCNLP}, 2019.
+\newblock \doi{10.48550/arXiv.1908.10084}.
+
+\bibitem[Sheng et~al.(2019)Sheng, Chen, and Xu]{sheng2019nrtr}
+Fenfen Sheng, Zhineng Chen, and Bo~Xu.
+\newblock {NRTR}: A no-recurrence sequence-to-sequence model for scene text
+  recognition.
+\newblock In \emph{Proceedings of ICDAR}, 2019.
+\newblock \doi{10.48550/arXiv.1806.00926}.
+
+\bibitem[Shi et~al.(2017)Shi, Bai, and Yao]{shi2017crnn}
+Baoguang Shi, Xiang Bai, and Cong Yao.
+\newblock An end-to-end trainable neural network for image-based sequence
+  recognition and its application to scene text recognition.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence
+  (TPAMI)}, 39\penalty0 (11):\penalty0 2298--2304, 2017.
+\newblock \doi{10.48550/arXiv.1507.05717}.
+
+\bibitem[Smock et~al.(2023)Smock, Pesala, and Abraham]{smock2023grits}
+Brandon Smock, Rohith Pesala, and Robin Abraham.
+\newblock {GriTS}: Grid table similarity metric for table structure
+  recognition.
+\newblock In \emph{International Conference on Document Analysis and
+  Recognition (ICDAR)}, 2023.
+
+\bibitem[Touvron et~al.(2023)]{touvron2023llama2}
+Hugo Touvron et~al.
+\newblock {Llama 2}: Open foundation and fine-tuned chat models.
+\newblock \emph{arXiv preprint arXiv:2307.09288}, 2023.
+\newblock \doi{10.48550/arXiv.2307.09288}.
+\newblock Verify full author list against the published paper.
+
+\bibitem[Xu et~al.(2021)Xu, Xu, Lv, Cui, Wei, Wang, Lu, Florencio, Zhang, Che,
+  et~al.]{xu2021layoutlmv2}
+Yang Xu, Yiheng Xu, Tengchao Lv, Lei Cui, Furu Wei, Guoxin Wang, Yijuan Lu,
+  Dinei Florencio, Cha Zhang, Wanxiang Che, et~al.
+\newblock {LayoutLMv2}: Multi-modal pre-training for visually-rich document
+  understanding.
+\newblock In \emph{Proceedings of ACL-IJCNLP}, 2021.
+\newblock \doi{10.48550/arXiv.2012.14740}.
+
+\bibitem[Xu et~al.(2020)Xu, Li, Cui, Huang, Wei, and Zhou]{xu2020layoutlm}
+Yiheng Xu, Minghao Li, Lei Cui, Shaohan Huang, Furu Wei, and Ming Zhou.
+\newblock {LayoutLM}: Pre-training of text and layout for document image
+  understanding.
+\newblock In \emph{Proceedings of KDD}, 2020.
+\newblock \doi{10.48550/arXiv.1912.13318}.
+
+\bibitem[Yang et~al.(2024)]{yang2024qwen25}
+An~Yang et~al.
+\newblock {Qwen2.5} technical report.
+\newblock \emph{arXiv preprint arXiv:2412.15115}, 2024.
+\newblock \doi{10.48550/arXiv.2412.15115}.
+\newblock Verify full author list against the published technical report.
+
+\bibitem[Yu et~al.(2020)Yu, Lu, Qi, Gong, and Xiao]{yu2020pick}
+Wenwen Yu, Ning Lu, Xianbiao Qi, Ping Gong, and Rong Xiao.
+\newblock {PICK}: Processing key information extraction from documents using
+  improved graph learning-convolutional networks.
+\newblock In \emph{Proceedings of ICPR}, 2020.
+\newblock \doi{10.48550/arXiv.2004.07464}.
+
+\bibitem[Zaratiana et~al.(2024)Zaratiana, Tomeh, Holat, and
+  Charnois]{zaratiana2023gliner}
+Urchade Zaratiana, Nadi Tomeh, Pierre Holat, and Thierry Charnois.
+\newblock {GLiNER}: Generalist model for named entity recognition using
+  bidirectional transformer.
+\newblock In \emph{Proceedings of NAACL}, 2024.
+\newblock \doi{10.48550/arXiv.2311.08526}.
+
+\bibitem[Zheng et~al.(2021)Zheng, Burdick, Popa, Zhong, and Wang]{zheng2021gte}
+Xinyi Zheng, Doug Burdick, Lucian Popa, Xu~Zhong, and Nancy Xin~Ru Wang.
+\newblock Global table extractor ({GTE}): A framework for joint table
+  identification and cell structure recognition using visual context.
+\newblock In \emph{Proceedings of the IEEE/CVF Winter Conference on
+  Applications of Computer Vision (WACV)}, 2021.
+\newblock Introduces FinTabNet.
+
+\bibitem[Zhong et~al.(2020)Zhong, ShafieiBavani, and
+  Jimeno-Yepes]{zhong2019pubtabnet}
+Xu~Zhong, Elaheh ShafieiBavani, and Antonio Jimeno-Yepes.
+\newblock Image-based table recognition: Data, model, and evaluation.
+\newblock In \emph{European Conference on Computer Vision (ECCV)}, 2020.
+\newblock arXiv preprint 2019; published at ECCV 2020. Introduces PubTabNet and
+  the TEDS metric.
+
+\bibitem[Zhou et~al.(2017)Zhou, Yao, Wen, Wang, Zhou, He, and
+  Liang]{zhou2017east}
+Xinyu Zhou, Cong Yao, He~Wen, Yuzhi Wang, Shuchang Zhou, Weiran He, and Jiajun
+  Liang.
+\newblock {EAST}: An efficient and accurate scene text detector.
+\newblock In \emph{Proceedings of CVPR}, 2017.
+\newblock \doi{10.48550/arXiv.1704.03155}.
+
+\end{thebibliography}

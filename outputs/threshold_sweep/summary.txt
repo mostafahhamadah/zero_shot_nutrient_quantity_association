@@ -1,0 +1,25 @@
+Source: outputs\threshold_sweep\embedding_scores_embedding_only.fixed.csv
+Tokens evaluated: 796  (positives: 462, negatives: 334)
+
+DEFAULT (t=0.40, m=0.10):
+  TP= 406  FP= 106  FN=  56  TN= 228
+  precision=0.7930  recall=0.8788  F1=0.8337
+
+BEST (grid search):
+  threshold=0.590   margin=0.040
+  TP= 421  FP=  86  FN=  41  TN= 248
+  precision=0.8304  recall=0.9113  F1=0.8689
+
+Δ vs default:  F1 +0.0353
+
+Top-10 (t, m) configurations by F1:
+  t=0.59  m=0.04  F1=0.8689  P=0.830  R=0.911  TP=421  FP=86  FN=41
+  t=0.59  m=0.03  F1=0.8683  P=0.827  R=0.913  TP=422  FP=88  FN=40
+  t=0.58  m=0.04  F1=0.8672  P=0.810  R=0.933  TP=431  FP=101  FN=31
+  t=0.59  m=0.02  F1=0.8671  P=0.822  R=0.918  TP=424  FP=92  FN=38
+  t=0.59  m=0.06  F1=0.8670  P=0.840  R=0.896  TP=414  FP=79  FN=48
+  t=0.58  m=0.03  F1=0.8666  P=0.807  R=0.935  TP=432  FP=103  FN=30
+  t=0.59  m=0.05  F1=0.8664  P=0.837  R=0.898  TP=415  FP=81  FN=47
+  t=0.59  m=0.01  F1=0.8662  P=0.820  R=0.918  TP=424  FP=93  FN=38
+  t=0.58  m=0.06  F1=0.8659  P=0.821  R=0.916  TP=423  FP=92  FN=39
+  t=0.58  m=0.07  F1=0.8657  P=0.828  R=0.907  TP=419  FP=87  FN=43

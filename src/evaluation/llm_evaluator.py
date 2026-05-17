@@ -18,7 +18,7 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Optional
 
-MODEL         = "qwen2.5:7b"
+MODEL         = "qwen2.5:3b"
 OLLAMA_URL    = "http://localhost:11434"
 TEMPERATURE   = 0.0
 LLM_TIMEOUT_S = 30
@@ -27,6 +27,7 @@ SYSTEM_PROMPT = (
     "You are a precise evaluator for a nutritional supplement label extraction pipeline. "
     "Your task is to judge whether a predicted nutritional tuple matches a ground truth tuple. "
     "Respond with ONLY a valid JSON object -- no preamble, no explanation, no markdown."
+    
 )
 
 UNIT_ALIASES: Dict[str, str] = {
@@ -179,7 +180,9 @@ OUTPUT — ONLY this JSON:
   "quantity_reason": "one sentence",
   "unit_reason":     "one sentence",
   "context_reason":  "one sentence"
-}}"""
+}}
+
+"""
 
 
 _LLM_PARSE_FAILURES = 0

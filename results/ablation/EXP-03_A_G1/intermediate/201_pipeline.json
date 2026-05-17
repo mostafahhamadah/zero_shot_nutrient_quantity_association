@@ -1,0 +1,1394 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "Supplement Facts",
+      "x1": 74,
+      "y1": 32,
+      "x2": 404,
+      "y2": 74,
+      "cx": 239.0,
+      "cy": 53.0,
+      "conf": 0.9798
+    },
+    {
+      "token": "Per/Per/Pro/Pour/",
+      "x1": 972,
+      "y1": 190,
+      "x2": 1193,
+      "y2": 228,
+      "cx": 1082.5,
+      "cy": 209.0,
+      "conf": 0.9826
+    },
+    {
+      "token": "Per/Per/Pro/Pour/",
+      "x1": 1217,
+      "y1": 197,
+      "x2": 1449,
+      "y2": 232,
+      "cx": 1333.0,
+      "cy": 214.5,
+      "conf": 0.974
+    },
+    {
+      "token": "W/Na/Per/Na/Por/",
+      "x1": 967,
+      "y1": 219,
+      "x2": 1198,
+      "y2": 257,
+      "cx": 1082.5,
+      "cy": 238.0,
+      "conf": 0.9816
+    },
+    {
+      "token": "W/Na/Per/Na/Por",
+      "x1": 1216,
+      "y1": 224,
+      "x2": 1449,
+      "y2": 260,
+      "cx": 1332.5,
+      "cy": 242.0,
+      "conf": 0.9737
+    },
+    {
+      "token": "nutricional/",
+      "x1": 85,
+      "y1": 252,
+      "x2": 185,
+      "y2": 279,
+      "cx": 135.0,
+      "cy": 265.5,
+      "conf": 0.992
+    },
+    {
+      "token": "Por 100g",
+      "x1": 1026,
+      "y1": 247,
+      "x2": 1139,
+      "y2": 285,
+      "cx": 1082.5,
+      "cy": 266.0,
+      "conf": 0.9453
+    },
+    {
+      "token": "Por 30gO",
+      "x1": 1289,
+      "y1": 260,
+      "x2": 1430,
+      "y2": 281,
+      "cx": 1359.5,
+      "cy": 270.5,
+      "conf": 0.8443
+    },
+    {
+      "token": "Energie/ Energy/Energie/Energie/Wartosc energetyczna/Energeticka",
+      "x1": 82,
+      "y1": 269,
+      "x2": 791,
+      "y2": 319,
+      "cx": 436.5,
+      "cy": 294.0,
+      "conf": 0.9709
+    },
+    {
+      "token": "1642 kJ/392 kcal",
+      "x1": 978,
+      "y1": 298,
+      "x2": 1187,
+      "y2": 340,
+      "cx": 1082.5,
+      "cy": 319.0,
+      "conf": 0.9739
+    },
+    {
+      "token": "493kJ/118 kcal",
+      "x1": 1245,
+      "y1": 303,
+      "x2": 1434,
+      "y2": 337,
+      "cx": 1339.5,
+      "cy": 320.0,
+      "conf": 0.9576
+    },
+    {
+      "token": "hodnota/Energia/Energia/Valor energetico/Energia",
+      "x1": 84,
+      "y1": 304,
+      "x2": 594,
+      "y2": 345,
+      "cx": 339.0,
+      "cy": 324.5,
+      "conf": 0.9792
+    },
+    {
+      "token": "69",
+      "x1": 1048,
+      "y1": 352,
+      "x2": 1120,
+      "y2": 395,
+      "cx": 1084.0,
+      "cy": 373.5,
+      "conf": 0.6855
+    },
+    {
+      "token": "2g",
+      "x1": 1319,
+      "y1": 356,
+      "x2": 1371,
+      "y2": 391,
+      "cx": 1345.0,
+      "cy": 373.5,
+      "conf": 0.967
+    },
+    {
+      "token": "4,2g",
+      "x1": 1047,
+      "y1": 408,
+      "x2": 1121,
+      "y2": 452,
+      "cx": 1084.0,
+      "cy": 430.0,
+      "conf": 0.8862
+    },
+    {
+      "token": "1,3g",
+      "x1": 1309,
+      "y1": 418,
+      "x2": 1372,
+      "y2": 457,
+      "cx": 1340.5,
+      "cy": 437.5,
+      "conf": 0.9801
+    },
+    {
+      "token": "cuales saturadas/ dos quais saturados",
+      "x1": 74,
+      "y1": 460,
+      "x2": 454,
+      "y2": 491,
+      "cx": 264.0,
+      "cy": 475.5,
+      "conf": 0.9616
+    },
+    {
+      "token": "24g",
+      "x1": 1302,
+      "y1": 500,
+      "x2": 1374,
+      "y2": 541,
+      "cx": 1338.0,
+      "cy": 520.5,
+      "conf": 0.9914
+    },
+    {
+      "token": "8.1g",
+      "x1": 1052,
+      "y1": 502,
+      "x2": 1119,
+      "y2": 542,
+      "cx": 1085.5,
+      "cy": 522.0,
+      "conf": 0.9361
+    },
+    {
+      "token": "2,3g",
+      "x1": 1302,
+      "y1": 559,
+      "x2": 1372,
+      "y2": 599,
+      "cx": 1337.0,
+      "cy": 579.0,
+      "conf": 0.9615
+    },
+    {
+      "token": "779",
+      "x1": 1047,
+      "y1": 557,
+      "x2": 1121,
+      "y2": 603,
+      "cx": 1084.0,
+      "cy": 580.0,
+      "conf": 0.9868
+    },
+    {
+      "token": "cukry/di cui zuccheri/z toho cukry/de los cuales azucares/dos quais acucares",
+      "x1": 65,
+      "y1": 575,
+      "x2": 890,
+      "y2": 614,
+      "cx": 477.5,
+      "cy": 594.5,
+      "conf": 0.9623
+    },
+    {
+      "token": "Eiwitten/Protein/Eiweib/Protéines/Biatko/Bilkoviny/Proteine/Bielkoviny/",
+      "x1": 65,
+      "y1": 610,
+      "x2": 825,
+      "y2": 655,
+      "cx": 445.0,
+      "cy": 632.5,
+      "conf": 0.951
+    },
+    {
+      "token": "77g",
+      "x1": 1054,
+      "y1": 632,
+      "x2": 1120,
+      "y2": 674,
+      "cx": 1087.0,
+      "cy": 653.0,
+      "conf": 0.959
+    },
+    {
+      "token": "Proteinas/Proteinas",
+      "x1": 68,
+      "y1": 639,
+      "x2": 280,
+      "y2": 672,
+      "cx": 174.0,
+      "cy": 655.5,
+      "conf": 0.993
+    },
+    {
+      "token": "23g",
+      "x1": 1307,
+      "y1": 635,
+      "x2": 1374,
+      "y2": 676,
+      "cx": 1340.5,
+      "cy": 655.5,
+      "conf": 0.9972
+    },
+    {
+      "token": "Zout/Salt/Salz/Sel/Sol/Sul/Sale/Sol/Sal/Sal",
+      "x1": 70,
+      "y1": 673,
+      "x2": 545,
+      "y2": 714,
+      "cx": 307.5,
+      "cy": 693.5,
+      "conf": 0.9349
+    },
+    {
+      "token": "0,05g",
+      "x1": 1032,
+      "y1": 685,
+      "x2": 1119,
+      "y2": 723,
+      "cx": 1075.5,
+      "cy": 704.0,
+      "conf": 0.9588
+    },
+    {
+      "token": "0,02 g",
+      "x1": 1288,
+      "y1": 686,
+      "x2": 1371,
+      "y2": 728,
+      "cx": 1329.5,
+      "cy": 707.0,
+      "conf": 0.9195
+    }
+  ],
+  "corrected": [
+    {
+      "token": "Supplement Facts",
+      "x1": 74,
+      "y1": 32,
+      "x2": 404,
+      "y2": 74,
+      "cx": 239.0,
+      "cy": 53.0,
+      "conf": 0.9798
+    },
+    {
+      "token": "Per/Per/Pro/Pour/",
+      "x1": 972,
+      "y1": 190,
+      "x2": 1193,
+      "y2": 228,
+      "cx": 1082.5,
+      "cy": 209.0,
+      "conf": 0.9826
+    },
+    {
+      "token": "Per/Per/Pro/Pour/",
+      "x1": 1217,
+      "y1": 197,
+      "x2": 1449,
+      "y2": 232,
+      "cx": 1333.0,
+      "cy": 214.5,
+      "conf": 0.974
+    },
+    {
+      "token": "W/Na/Per/Na/Por/",
+      "x1": 967,
+      "y1": 219,
+      "x2": 1198,
+      "y2": 257,
+      "cx": 1082.5,
+      "cy": 238.0,
+      "conf": 0.9816
+    },
+    {
+      "token": "W/Na/Per/Na/Por",
+      "x1": 1216,
+      "y1": 224,
+      "x2": 1449,
+      "y2": 260,
+      "cx": 1332.5,
+      "cy": 242.0,
+      "conf": 0.9737
+    },
+    {
+      "token": "nutricional/",
+      "x1": 85,
+      "y1": 252,
+      "x2": 185,
+      "y2": 279,
+      "cx": 135.0,
+      "cy": 265.5,
+      "conf": 0.992
+    },
+    {
+      "token": "Por 100g",
+      "x1": 1026,
+      "y1": 247,
+      "x2": 1139,
+      "y2": 285,
+      "cx": 1082.5,
+      "cy": 266.0,
+      "conf": 0.9453
+    },
+    {
+      "token": "Por 30gO",
+      "x1": 1289,
+      "y1": 260,
+      "x2": 1430,
+      "y2": 281,
+      "cx": 1359.5,
+      "cy": 270.5,
+      "conf": 0.8443
+    },
+    {
+      "token": "Energy",
+      "x1": 82,
+      "y1": 269,
+      "x2": 791,
+      "y2": 319,
+      "cx": 436.5,
+      "cy": 294.0,
+      "conf": 0.9709
+    },
+    {
+      "token": "1642",
+      "x1": 978,
+      "y1": 298,
+      "x2": 1042,
+      "y2": 340,
+      "cx": 1010.1538461538462,
+      "cy": 319.0,
+      "conf": 0.9739
+    },
+    {
+      "token": "kJ",
+      "x1": 1042,
+      "y1": 298,
+      "x2": 1074,
+      "y2": 340,
+      "cx": 1058.3846153846155,
+      "cy": 319.0,
+      "conf": 0.9739
+    },
+    {
+      "token": "392",
+      "x1": 1074,
+      "y1": 298,
+      "x2": 1122,
+      "y2": 340,
+      "cx": 1098.576923076923,
+      "cy": 319.0,
+      "conf": 0.9739
+    },
+    {
+      "token": "kcal",
+      "x1": 1122,
+      "y1": 298,
+      "x2": 1187,
+      "y2": 340,
+      "cx": 1154.846153846154,
+      "cy": 319.0,
+      "conf": 0.9739
+    },
+    {
+      "token": "493",
+      "x1": 1245,
+      "y1": 303,
+      "x2": 1292,
+      "y2": 337,
+      "cx": 1268.625,
+      "cy": 320.0,
+      "conf": 0.9576
+    },
+    {
+      "token": "kJ",
+      "x1": 1292,
+      "y1": 303,
+      "x2": 1323,
+      "y2": 337,
+      "cx": 1308.0,
+      "cy": 320.0,
+      "conf": 0.9576
+    },
+    {
+      "token": "118",
+      "x1": 1323,
+      "y1": 303,
+      "x2": 1371,
+      "y2": 337,
+      "cx": 1347.375,
+      "cy": 320.0,
+      "conf": 0.9576
+    },
+    {
+      "token": "kcal",
+      "x1": 1371,
+      "y1": 303,
+      "x2": 1434,
+      "y2": 337,
+      "cx": 1402.5,
+      "cy": 320.0,
+      "conf": 0.9576
+    },
+    {
+      "token": "hodnota/Energia/Energia/Valor energetico/Energia",
+      "x1": 84,
+      "y1": 304,
+      "x2": 594,
+      "y2": 345,
+      "cx": 339.0,
+      "cy": 324.5,
+      "conf": 0.9792
+    },
+    {
+      "token": "69",
+      "x1": 1048,
+      "y1": 352,
+      "x2": 1120,
+      "y2": 395,
+      "cx": 1084.0,
+      "cy": 373.5,
+      "conf": 0.6855
+    },
+    {
+      "token": "2",
+      "x1": 1319,
+      "y1": 356,
+      "x2": 1345,
+      "y2": 391,
+      "cx": 1332.0,
+      "cy": 373.5,
+      "conf": 0.967
+    },
+    {
+      "token": "g",
+      "x1": 1345,
+      "y1": 356,
+      "x2": 1371,
+      "y2": 391,
+      "cx": 1358.0,
+      "cy": 373.5,
+      "conf": 0.967
+    },
+    {
+      "token": "4.2",
+      "x1": 1047,
+      "y1": 408,
+      "x2": 1102,
+      "y2": 452,
+      "cx": 1074.5,
+      "cy": 430.0,
+      "conf": 0.8862
+    },
+    {
+      "token": "g",
+      "x1": 1102,
+      "y1": 408,
+      "x2": 1121,
+      "y2": 452,
+      "cx": 1111.5,
+      "cy": 430.0,
+      "conf": 0.8862
+    },
+    {
+      "token": "1.3",
+      "x1": 1309,
+      "y1": 418,
+      "x2": 1356,
+      "y2": 457,
+      "cx": 1332.5,
+      "cy": 437.5,
+      "conf": 0.9801
+    },
+    {
+      "token": "g",
+      "x1": 1356,
+      "y1": 418,
+      "x2": 1372,
+      "y2": 457,
+      "cx": 1364.0,
+      "cy": 437.5,
+      "conf": 0.9801
+    },
+    {
+      "token": "cuales saturadas/ dos quais saturados",
+      "x1": 74,
+      "y1": 460,
+      "x2": 454,
+      "y2": 491,
+      "cx": 264.0,
+      "cy": 475.5,
+      "conf": 0.9616
+    },
+    {
+      "token": "24",
+      "x1": 1302,
+      "y1": 500,
+      "x2": 1350,
+      "y2": 541,
+      "cx": 1326.0,
+      "cy": 520.5,
+      "conf": 0.9914
+    },
+    {
+      "token": "g",
+      "x1": 1350,
+      "y1": 500,
+      "x2": 1374,
+      "y2": 541,
+      "cx": 1362.0,
+      "cy": 520.5,
+      "conf": 0.9914
+    },
+    {
+      "token": "8.1",
+      "x1": 1052,
+      "y1": 502,
+      "x2": 1102,
+      "y2": 542,
+      "cx": 1077.0,
+      "cy": 522.0,
+      "conf": 0.9361
+    },
+    {
+      "token": "g",
+      "x1": 1102,
+      "y1": 502,
+      "x2": 1119,
+      "y2": 542,
+      "cx": 1110.5,
+      "cy": 522.0,
+      "conf": 0.9361
+    },
+    {
+      "token": "2.3",
+      "x1": 1302,
+      "y1": 559,
+      "x2": 1354,
+      "y2": 599,
+      "cx": 1328.0,
+      "cy": 579.0,
+      "conf": 0.9615
+    },
+    {
+      "token": "g",
+      "x1": 1354,
+      "y1": 559,
+      "x2": 1372,
+      "y2": 599,
+      "cx": 1363.0,
+      "cy": 579.0,
+      "conf": 0.9615
+    },
+    {
+      "token": "779",
+      "x1": 1047,
+      "y1": 557,
+      "x2": 1121,
+      "y2": 603,
+      "cx": 1084.0,
+      "cy": 580.0,
+      "conf": 0.9868
+    },
+    {
+      "token": "cukry/di cui zuccheri/z toho cukry/de los cuales azucares/dos quais acucares",
+      "x1": 65,
+      "y1": 575,
+      "x2": 890,
+      "y2": 614,
+      "cx": 477.5,
+      "cy": 594.5,
+      "conf": 0.9623
+    },
+    {
+      "token": "Protein",
+      "x1": 65,
+      "y1": 610,
+      "x2": 825,
+      "y2": 655,
+      "cx": 445.0,
+      "cy": 632.5,
+      "conf": 0.951
+    },
+    {
+      "token": "77",
+      "x1": 1054,
+      "y1": 632,
+      "x2": 1098,
+      "y2": 674,
+      "cx": 1076.0,
+      "cy": 653.0,
+      "conf": 0.959
+    },
+    {
+      "token": "g",
+      "x1": 1098,
+      "y1": 632,
+      "x2": 1120,
+      "y2": 674,
+      "cx": 1109.0,
+      "cy": 653.0,
+      "conf": 0.959
+    },
+    {
+      "token": "Proteinas/Proteinas",
+      "x1": 68,
+      "y1": 639,
+      "x2": 280,
+      "y2": 672,
+      "cx": 174.0,
+      "cy": 655.5,
+      "conf": 0.993
+    },
+    {
+      "token": "23",
+      "x1": 1307,
+      "y1": 635,
+      "x2": 1351,
+      "y2": 676,
+      "cx": 1329.0,
+      "cy": 655.5,
+      "conf": 0.9972
+    },
+    {
+      "token": "g",
+      "x1": 1351,
+      "y1": 635,
+      "x2": 1374,
+      "y2": 676,
+      "cx": 1362.5,
+      "cy": 655.5,
+      "conf": 0.9972
+    },
+    {
+      "token": "Salt",
+      "x1": 70,
+      "y1": 673,
+      "x2": 545,
+      "y2": 714,
+      "cx": 307.5,
+      "cy": 693.5,
+      "conf": 0.9349
+    },
+    {
+      "token": "0.05",
+      "x1": 1032,
+      "y1": 685,
+      "x2": 1101,
+      "y2": 723,
+      "cx": 1066.5,
+      "cy": 704.0,
+      "conf": 0.9588
+    },
+    {
+      "token": "g",
+      "x1": 1101,
+      "y1": 685,
+      "x2": 1119,
+      "y2": 723,
+      "cx": 1110.0,
+      "cy": 704.0,
+      "conf": 0.9588
+    },
+    {
+      "token": "0.02",
+      "x1": 1288,
+      "y1": 686,
+      "x2": 1354,
+      "y2": 728,
+      "cx": 1321.0,
+      "cy": 707.0,
+      "conf": 0.9195
+    },
+    {
+      "token": "g",
+      "x1": 1354,
+      "y1": 686,
+      "x2": 1371,
+      "y2": 728,
+      "cx": 1362.5,
+      "cy": 707.0,
+      "conf": 0.9195
+    }
+  ],
+  "labeled": [
+    {
+      "token": "Supplement Facts",
+      "x1": 74,
+      "y1": 32,
+      "x2": 404,
+      "y2": 74,
+      "cx": 239.0,
+      "cy": 53.0,
+      "conf": 0.9798,
+      "label": "UNKNOWN",
+      "norm": "supplement facts"
+    },
+    {
+      "token": "Per/Per/Pro/Pour/",
+      "x1": 972,
+      "y1": 190,
+      "x2": 1193,
+      "y2": 228,
+      "cx": 1082.5,
+      "cy": 209.0,
+      "conf": 0.9826,
+      "label": "UNKNOWN",
+      "norm": "per/per/pro/pour/"
+    },
+    {
+      "token": "Per/Per/Pro/Pour/",
+      "x1": 1217,
+      "y1": 197,
+      "x2": 1449,
+      "y2": 232,
+      "cx": 1333.0,
+      "cy": 214.5,
+      "conf": 0.974,
+      "label": "UNKNOWN",
+      "norm": "per/per/pro/pour/"
+    },
+    {
+      "token": "W/Na/Per/Na/Por/",
+      "x1": 967,
+      "y1": 219,
+      "x2": 1198,
+      "y2": 257,
+      "cx": 1082.5,
+      "cy": 238.0,
+      "conf": 0.9816,
+      "label": "UNKNOWN",
+      "norm": "w/na/per/na/por/"
+    },
+    {
+      "token": "W/Na/Per/Na/Por",
+      "x1": 1216,
+      "y1": 224,
+      "x2": 1449,
+      "y2": 260,
+      "cx": 1332.5,
+      "cy": 242.0,
+      "conf": 0.9737,
+      "label": "UNKNOWN",
+      "norm": "w/na/per/na/por"
+    },
+    {
+      "token": "nutricional/",
+      "x1": 85,
+      "y1": 252,
+      "x2": 185,
+      "y2": 279,
+      "cx": 135.0,
+      "cy": 265.5,
+      "conf": 0.992,
+      "label": "UNKNOWN",
+      "norm": "nutricional/"
+    },
+    {
+      "token": "Por 100g",
+      "x1": 1026,
+      "y1": 247,
+      "x2": 1139,
+      "y2": 285,
+      "cx": 1082.5,
+      "cy": 266.0,
+      "conf": 0.9453,
+      "label": "CONTEXT",
+      "norm": "per_100g"
+    },
+    {
+      "token": "Por 30gO",
+      "x1": 1289,
+      "y1": 260,
+      "x2": 1430,
+      "y2": 281,
+      "cx": 1359.5,
+      "cy": 270.5,
+      "conf": 0.8443,
+      "label": "CONTEXT",
+      "norm": "por 30go"
+    },
+    {
+      "token": "Energy",
+      "x1": 82,
+      "y1": 269,
+      "x2": 791,
+      "y2": 319,
+      "cx": 436.5,
+      "cy": 294.0,
+      "conf": 0.9709,
+      "label": "NUTRIENT",
+      "norm": "energy"
+    },
+    {
+      "token": "1642",
+      "x1": 978,
+      "y1": 298,
+      "x2": 1042,
+      "y2": 340,
+      "cx": 1010.1538461538462,
+      "cy": 319.0,
+      "conf": 0.9739,
+      "label": "QUANTITY",
+      "norm": "1642"
+    },
+    {
+      "token": "kJ",
+      "x1": 1042,
+      "y1": 298,
+      "x2": 1074,
+      "y2": 340,
+      "cx": 1058.3846153846155,
+      "cy": 319.0,
+      "conf": 0.9739,
+      "label": "UNIT",
+      "norm": "kj"
+    },
+    {
+      "token": "392",
+      "x1": 1074,
+      "y1": 298,
+      "x2": 1122,
+      "y2": 340,
+      "cx": 1098.576923076923,
+      "cy": 319.0,
+      "conf": 0.9739,
+      "label": "QUANTITY",
+      "norm": "392"
+    },
+    {
+      "token": "kcal",
+      "x1": 1122,
+      "y1": 298,
+      "x2": 1187,
+      "y2": 340,
+      "cx": 1154.846153846154,
+      "cy": 319.0,
+      "conf": 0.9739,
+      "label": "UNIT",
+      "norm": "kcal"
+    },
+    {
+      "token": "493",
+      "x1": 1245,
+      "y1": 303,
+      "x2": 1292,
+      "y2": 337,
+      "cx": 1268.625,
+      "cy": 320.0,
+      "conf": 0.9576,
+      "label": "QUANTITY",
+      "norm": "493"
+    },
+    {
+      "token": "kJ",
+      "x1": 1292,
+      "y1": 303,
+      "x2": 1323,
+      "y2": 337,
+      "cx": 1308.0,
+      "cy": 320.0,
+      "conf": 0.9576,
+      "label": "UNIT",
+      "norm": "kj"
+    },
+    {
+      "token": "118",
+      "x1": 1323,
+      "y1": 303,
+      "x2": 1371,
+      "y2": 337,
+      "cx": 1347.375,
+      "cy": 320.0,
+      "conf": 0.9576,
+      "label": "QUANTITY",
+      "norm": "118"
+    },
+    {
+      "token": "kcal",
+      "x1": 1371,
+      "y1": 303,
+      "x2": 1434,
+      "y2": 337,
+      "cx": 1402.5,
+      "cy": 320.0,
+      "conf": 0.9576,
+      "label": "UNIT",
+      "norm": "kcal"
+    },
+    {
+      "token": "hodnota/Energia/Energia/Valor energetico/Energia",
+      "x1": 84,
+      "y1": 304,
+      "x2": 594,
+      "y2": 345,
+      "cx": 339.0,
+      "cy": 324.5,
+      "conf": 0.9792,
+      "label": "NUTRIENT",
+      "norm": "hodnota/energia/energia/valor energetico/energia"
+    },
+    {
+      "token": "69",
+      "x1": 1048,
+      "y1": 352,
+      "x2": 1120,
+      "y2": 395,
+      "cx": 1084.0,
+      "cy": 373.5,
+      "conf": 0.6855,
+      "label": "QUANTITY",
+      "norm": "69"
+    },
+    {
+      "token": "2",
+      "x1": 1319,
+      "y1": 356,
+      "x2": 1345,
+      "y2": 391,
+      "cx": 1332.0,
+      "cy": 373.5,
+      "conf": 0.967,
+      "label": "QUANTITY",
+      "norm": "2"
+    },
+    {
+      "token": "g",
+      "x1": 1345,
+      "y1": 356,
+      "x2": 1371,
+      "y2": 391,
+      "cx": 1358.0,
+      "cy": 373.5,
+      "conf": 0.967,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "4.2",
+      "x1": 1047,
+      "y1": 408,
+      "x2": 1102,
+      "y2": 452,
+      "cx": 1074.5,
+      "cy": 430.0,
+      "conf": 0.8862,
+      "label": "QUANTITY",
+      "norm": "4.2"
+    },
+    {
+      "token": "g",
+      "x1": 1102,
+      "y1": 408,
+      "x2": 1121,
+      "y2": 452,
+      "cx": 1111.5,
+      "cy": 430.0,
+      "conf": 0.8862,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "1.3",
+      "x1": 1309,
+      "y1": 418,
+      "x2": 1356,
+      "y2": 457,
+      "cx": 1332.5,
+      "cy": 437.5,
+      "conf": 0.9801,
+      "label": "QUANTITY",
+      "norm": "1.3"
+    },
+    {
+      "token": "g",
+      "x1": 1356,
+      "y1": 418,
+      "x2": 1372,
+      "y2": 457,
+      "cx": 1364.0,
+      "cy": 437.5,
+      "conf": 0.9801,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "cuales saturadas/ dos quais saturados",
+      "x1": 74,
+      "y1": 460,
+      "x2": 454,
+      "y2": 491,
+      "cx": 264.0,
+      "cy": 475.5,
+      "conf": 0.9616,
+      "label": "UNKNOWN",
+      "norm": "cuales saturadas/ dos quais saturados"
+    },
+    {
+      "token": "24",
+      "x1": 1302,
+      "y1": 500,
+      "x2": 1350,
+      "y2": 541,
+      "cx": 1326.0,
+      "cy": 520.5,
+      "conf": 0.9914,
+      "label": "QUANTITY",
+      "norm": "24"
+    },
+    {
+      "token": "g",
+      "x1": 1350,
+      "y1": 500,
+      "x2": 1374,
+      "y2": 541,
+      "cx": 1362.0,
+      "cy": 520.5,
+      "conf": 0.9914,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "8.1",
+      "x1": 1052,
+      "y1": 502,
+      "x2": 1102,
+      "y2": 542,
+      "cx": 1077.0,
+      "cy": 522.0,
+      "conf": 0.9361,
+      "label": "QUANTITY",
+      "norm": "8.1"
+    },
+    {
+      "token": "g",
+      "x1": 1102,
+      "y1": 502,
+      "x2": 1119,
+      "y2": 542,
+      "cx": 1110.5,
+      "cy": 522.0,
+      "conf": 0.9361,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "2.3",
+      "x1": 1302,
+      "y1": 559,
+      "x2": 1354,
+      "y2": 599,
+      "cx": 1328.0,
+      "cy": 579.0,
+      "conf": 0.9615,
+      "label": "QUANTITY",
+      "norm": "2.3"
+    },
+    {
+      "token": "g",
+      "x1": 1354,
+      "y1": 559,
+      "x2": 1372,
+      "y2": 599,
+      "cx": 1363.0,
+      "cy": 579.0,
+      "conf": 0.9615,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "779",
+      "x1": 1047,
+      "y1": 557,
+      "x2": 1121,
+      "y2": 603,
+      "cx": 1084.0,
+      "cy": 580.0,
+      "conf": 0.9868,
+      "label": "QUANTITY",
+      "norm": "779"
+    },
+    {
+      "token": "cukry/di cui zuccheri/z toho cukry/de los cuales azucares/dos quais acucares",
+      "x1": 65,
+      "y1": 575,
+      "x2": 890,
+      "y2": 614,
+      "cx": 477.5,
+      "cy": 594.5,
+      "conf": 0.9623,
+      "label": "NUTRIENT",
+      "norm": "cukry/di cui zuccheri/z toho cukry/de los cuales azucares/dos quais acucares"
+    },
+    {
+      "token": "Protein",
+      "x1": 65,
+      "y1": 610,
+      "x2": 825,
+      "y2": 655,
+      "cx": 445.0,
+      "cy": 632.5,
+      "conf": 0.951,
+      "label": "NUTRIENT",
+      "norm": "protein"
+    },
+    {
+      "token": "77",
+      "x1": 1054,
+      "y1": 632,
+      "x2": 1098,
+      "y2": 674,
+      "cx": 1076.0,
+      "cy": 653.0,
+      "conf": 0.959,
+      "label": "QUANTITY",
+      "norm": "77"
+    },
+    {
+      "token": "g",
+      "x1": 1098,
+      "y1": 632,
+      "x2": 1120,
+      "y2": 674,
+      "cx": 1109.0,
+      "cy": 653.0,
+      "conf": 0.959,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "Proteinas/Proteinas",
+      "x1": 68,
+      "y1": 639,
+      "x2": 280,
+      "y2": 672,
+      "cx": 174.0,
+      "cy": 655.5,
+      "conf": 0.993,
+      "label": "NUTRIENT",
+      "norm": "proteinas/proteinas"
+    },
+    {
+      "token": "23",
+      "x1": 1307,
+      "y1": 635,
+      "x2": 1351,
+      "y2": 676,
+      "cx": 1329.0,
+      "cy": 655.5,
+      "conf": 0.9972,
+      "label": "QUANTITY",
+      "norm": "23"
+    },
+    {
+      "token": "g",
+      "x1": 1351,
+      "y1": 635,
+      "x2": 1374,
+      "y2": 676,
+      "cx": 1362.5,
+      "cy": 655.5,
+      "conf": 0.9972,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "Salt",
+      "x1": 70,
+      "y1": 673,
+      "x2": 545,
+      "y2": 714,
+      "cx": 307.5,
+      "cy": 693.5,
+      "conf": 0.9349,
+      "label": "NUTRIENT",
+      "norm": "salt"
+    },
+    {
+      "token": "0.05",
+      "x1": 1032,
+      "y1": 685,
+      "x2": 1101,
+      "y2": 723,
+      "cx": 1066.5,
+      "cy": 704.0,
+      "conf": 0.9588,
+      "label": "QUANTITY",
+      "norm": "0.05"
+    },
+    {
+      "token": "g",
+      "x1": 1101,
+      "y1": 685,
+      "x2": 1119,
+      "y2": 723,
+      "cx": 1110.0,
+      "cy": 704.0,
+      "conf": 0.9588,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "0.02",
+      "x1": 1288,
+      "y1": 686,
+      "x2": 1354,
+      "y2": 728,
+      "cx": 1321.0,
+      "cy": 707.0,
+      "conf": 0.9195,
+      "label": "QUANTITY",
+      "norm": "0.02"
+    },
+    {
+      "token": "g",
+      "x1": 1354,
+      "y1": 686,
+      "x2": 1371,
+      "y2": 728,
+      "cx": 1362.5,
+      "cy": 707.0,
+      "conf": 0.9195,
+      "label": "UNIT",
+      "norm": "g"
+    }
+  ],
+  "tuples": [
+    {
+      "image_id": "201.jpeg",
+      "nutrient": "Energy",
+      "quantity": "1642",
+      "unit": "kj",
+      "context": "por 30go"
+    },
+    {
+      "image_id": "201.jpeg",
+      "nutrient": "Energy",
+      "quantity": "392",
+      "unit": "kj",
+      "context": "por 30go"
+    },
+    {
+      "image_id": "201.jpeg",
+      "nutrient": "Energy",
+      "quantity": "493",
+      "unit": "kj",
+      "context": "por 30go"
+    },
+    {
+      "image_id": "201.jpeg",
+      "nutrient": "hodnota/Energia/Energia/Valor energetico/Energia",
+      "quantity": "1642",
+      "unit": "kj",
+      "context": "por 30go"
+    },
+    {
+      "image_id": "201.jpeg",
+      "nutrient": "hodnota/Energia/Energia/Valor energetico/Energia",
+      "quantity": "392",
+      "unit": "kj",
+      "context": "por 30go"
+    },
+    {
+      "image_id": "201.jpeg",
+      "nutrient": "hodnota/Energia/Energia/Valor energetico/Energia",
+      "quantity": "493",
+      "unit": "kj",
+      "context": "por 30go"
+    },
+    {
+      "image_id": "201.jpeg",
+      "nutrient": "cukry/di cui zuccheri/z toho cukry/de los cuales azucares/dos quais acucares",
+      "quantity": "779",
+      "unit": "g",
+      "context": "por 30go"
+    },
+    {
+      "image_id": "201.jpeg",
+      "nutrient": "cukry/di cui zuccheri/z toho cukry/de los cuales azucares/dos quais acucares",
+      "quantity": "2.3",
+      "unit": "g",
+      "context": "por 30go"
+    },
+    {
+      "image_id": "201.jpeg",
+      "nutrient": "Protein",
+      "quantity": "77",
+      "unit": "g",
+      "context": "por 30go"
+    },
+    {
+      "image_id": "201.jpeg",
+      "nutrient": "Protein",
+      "quantity": "23",
+      "unit": "g",
+      "context": "por 30go"
+    },
+    {
+      "image_id": "201.jpeg",
+      "nutrient": "Proteinas/Proteinas",
+      "quantity": "77",
+      "unit": "g",
+      "context": "por 30go"
+    },
+    {
+      "image_id": "201.jpeg",
+      "nutrient": "Proteinas/Proteinas",
+      "quantity": "23",
+      "unit": "g",
+      "context": "por 30go"
+    },
+    {
+      "image_id": "201.jpeg",
+      "nutrient": "Salt",
+      "quantity": "0.05",
+      "unit": "g",
+      "context": "por 30go"
+    },
+    {
+      "image_id": "201.jpeg",
+      "nutrient": "Salt",
+      "quantity": "0.02",
+      "unit": "g",
+      "context": "por 30go"
+    }
+  ],
+  "diagnostics": {
+    "edges": 670,
+    "nodes": 45
+  },
+  "duration_s": 4.319,
+  "error": null
+}

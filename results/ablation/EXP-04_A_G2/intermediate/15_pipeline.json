@@ -1,0 +1,526 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "AFTER",
+      "x1": 867,
+      "y1": 0,
+      "x2": 1083,
+      "y2": 54,
+      "cx": 975.0,
+      "cy": 27.0,
+      "conf": 0.9966
+    },
+    {
+      "token": "Nahrwertangaben/Nutrition Information pro/per 100 g/42 g/21.42 g.Samgile/of210ks180 kcal/38ld",
+      "x1": 143,
+      "y1": 15,
+      "x2": 2994,
+      "y2": 339,
+      "cx": 1568.5,
+      "cy": 177.0,
+      "conf": 0.91
+    },
+    {
+      "token": "Salz/Salt15.0g/0.63g/1,26 g.Mineralstoffe/Minerals:Natrium/Sodium 5962 mg/200 mg/500mg.Kaffen/Putel",
+      "x1": 182,
+      "y1": 283,
+      "x2": 3055,
+      "y2": 554,
+      "cx": 1618.5,
+      "cy": 418.5,
+      "conf": 0.9328
+    },
+    {
+      "token": "sium 3571mg/150mg7,5%*/300mg15%*)Chloride4762mg/200mg25%/400 mg 50%,Calcium 1428",
+      "x1": 183,
+      "y1": 392,
+      "x2": 3070,
+      "y2": 626,
+      "cx": 1626.5,
+      "cy": 509.0,
+      "conf": 0.9486
+    },
+    {
+      "token": "mg/60mg7,5%*/120mg15%*)Magnesium670 mg/28,1 mg 7,5%/56,3 mg15%Kotfein/Cafen 1786 mg",
+      "x1": 180,
+      "y1": 502,
+      "x2": 3073,
+      "y2": 709,
+      "cx": 1626.5,
+      "cy": 605.5,
+      "conf": 0.8964
+    },
+    {
+      "token": "75.0mg/150 mg. *% des Nährstoffbezugswerts/Nutrient Reference Value.@@Nahrungserganeungweit",
+      "x1": 173,
+      "y1": 614,
+      "x2": 3070,
+      "y2": 808,
+      "cx": 1621.5,
+      "cy": 711.0,
+      "conf": 0.9334
+    },
+    {
+      "token": "tel(c:Ergänzungsnahrung).Brausetablette zur Herstellung eines kalorinafreion Erfrischungsgotríeken mit",
+      "x1": 167,
+      "y1": 730,
+      "x2": 3076,
+      "y2": 874,
+      "cx": 1621.5,
+      "cy": 802.0,
+      "conf": 0.9465
+    },
+    {
+      "token": "Koffein.5 Mineralstoffen und SuBungsmittel-Zitronen Geschmack.Zwei Portionen anthalten 150 mg Kaffein.",
+      "x1": 158,
+      "y1": 843,
+      "x2": 3034,
+      "y2": 943,
+      "cx": 1596.0,
+      "cy": 893.0,
+      "conf": 0.962
+    },
+    {
+      "token": "Zutaten: Sáuerungsmittel (Citronensäure), Saureregulater(Natrionicarbonate) Mineralotatle14.7%) Katoncharid Ca",
+      "x1": 139,
+      "y1": 939,
+      "x2": 3011,
+      "y2": 1022,
+      "cx": 1575.0,
+      "cy": 980.5,
+      "conf": 0.9218
+    },
+    {
+      "token": "clumcarbonatNatriumchloridMagnesiumhydroxidCalciumphosphate)Fauchthmhsrattd(Sorhel trnbe nudriohs aon",
+      "x1": 119,
+      "y1": 1005,
+      "x2": 2982,
+      "y2": 1112,
+      "cx": 1550.5,
+      "cy": 1058.5,
+      "conf": 0.9063
+    },
+    {
+      "token": "men, Koffein(1.80 %) Starke, SiBungsmitte(Sucrainen). Verzehraumpfahhatg:1TabkthnnauchSacciumphashtt.m",
+      "x1": 90,
+      "y1": 1058,
+      "x2": 2953,
+      "y2": 1191,
+      "cx": 1521.5,
+      "cy": 1124.5,
+      "conf": 0.8838
+    },
+    {
+      "token": "in500bis750m/ Wasser Knen.Max.2Tabletten/TagNotiungeutubrnafgphekeduhd trioumn lindenNnjrinl",
+      "x1": 67,
+      "y1": 1107,
+      "x2": 2892,
+      "y2": 1258,
+      "cx": 1479.5,
+      "cy": 1182.5,
+      "conf": 0.8525
+    },
+    {
+      "token": "reiche und ausgewagene Ernlibrung smde also pntnarde Lulomtrroie",
+      "x1": 41,
+      "y1": 1190,
+      "x2": 1895,
+      "y2": 1304,
+      "cx": 968.0,
+      "cy": 1247.0,
+      "conf": 0.8987
+    }
+  ],
+  "corrected": [
+    {
+      "token": "AFTER",
+      "x1": 867,
+      "y1": 0,
+      "x2": 1083,
+      "y2": 54,
+      "cx": 975.0,
+      "cy": 27.0,
+      "conf": 0.9966
+    },
+    {
+      "token": "Nahrwertangaben/Nutrition Information pro/per 100 g/42 g/21.42 g.Samgile/of210ks180kcal/38ld",
+      "x1": 143,
+      "y1": 15,
+      "x2": 2994,
+      "y2": 339,
+      "cx": 1568.5,
+      "cy": 177.0,
+      "conf": 0.91
+    },
+    {
+      "token": "Salt",
+      "x1": 182,
+      "y1": 283,
+      "x2": 3055,
+      "y2": 554,
+      "cx": 1618.5,
+      "cy": 418.5,
+      "conf": 0.9328
+    },
+    {
+      "token": "sium 3571mg/150mg7.5%*/300mg15%*)Chloride4762mg/200mg25%/400 mg 50%,Calcium 1428",
+      "x1": 183,
+      "y1": 392,
+      "x2": 3070,
+      "y2": 626,
+      "cx": 1626.5,
+      "cy": 509.0,
+      "conf": 0.9486
+    },
+    {
+      "token": "mg/60mg7.5%*/120mg15%*)Magnesium670 mg/28.1 mg 7.5%/56.3 mg15%Kotfein/Cafen 1786 mg",
+      "x1": 180,
+      "y1": 502,
+      "x2": 3073,
+      "y2": 709,
+      "cx": 1626.5,
+      "cy": 605.5,
+      "conf": 0.8964
+    },
+    {
+      "token": "75.0mg/150 mg. *% des Nährstoffbezugswerts/Nutrient Reference Value.@@Nahrungserganeungweit",
+      "x1": 173,
+      "y1": 614,
+      "x2": 3070,
+      "y2": 808,
+      "cx": 1621.5,
+      "cy": 711.0,
+      "conf": 0.9334
+    },
+    {
+      "token": "tel(c:Ergänzungsnahrung).Brausetablette zur Herstellung eines kalorinafreion Erfrischungsgotríeken mit",
+      "x1": 167,
+      "y1": 730,
+      "x2": 3076,
+      "y2": 874,
+      "cx": 1621.5,
+      "cy": 802.0,
+      "conf": 0.9465
+    },
+    {
+      "token": "Caffeine",
+      "x1": 158,
+      "y1": 843,
+      "x2": 3034,
+      "y2": 943,
+      "cx": 1596.0,
+      "cy": 893.0,
+      "conf": 0.962
+    },
+    {
+      "token": "Zutaten: Sáuerungsmittel (Citronensäure), Saureregulater(Natrionicarbonate) Mineralotatle14.7%) Katoncharid Ca",
+      "x1": 139,
+      "y1": 939,
+      "x2": 3011,
+      "y2": 1022,
+      "cx": 1575.0,
+      "cy": 980.5,
+      "conf": 0.9218
+    },
+    {
+      "token": "clumcarbonatNatriumchloridMagnesiumhydroxidCalciumphosphate)Fauchthmhsrattd(Sorhel trnbe nudriohs aon",
+      "x1": 119,
+      "y1": 1005,
+      "x2": 2982,
+      "y2": 1112,
+      "cx": 1550.5,
+      "cy": 1058.5,
+      "conf": 0.9063
+    },
+    {
+      "token": "men, Koffein(1.80 %) Starke, SiBungsmitte(Sucrainen). Verzehraumpfahhatg:1TabkthnnauchSacciumphashtt.m",
+      "x1": 90,
+      "y1": 1058,
+      "x2": 2953,
+      "y2": 1191,
+      "cx": 1521.5,
+      "cy": 1124.5,
+      "conf": 0.8838
+    },
+    {
+      "token": "in500bis750m/ Wasser Knen.Max.2Tabletten/TagNotiungeutubrnafgphekeduhd trioumn lindenNnjrinl",
+      "x1": 67,
+      "y1": 1107,
+      "x2": 2892,
+      "y2": 1258,
+      "cx": 1479.5,
+      "cy": 1182.5,
+      "conf": 0.8525
+    },
+    {
+      "token": "reiche und ausgewagene Ernlibrung smde also pntnarde Lulomtrroie",
+      "x1": 41,
+      "y1": 1190,
+      "x2": 1895,
+      "y2": 1304,
+      "cx": 968.0,
+      "cy": 1247.0,
+      "conf": 0.8987
+    }
+  ],
+  "labeled": [
+    {
+      "token": "AFTER",
+      "x1": 867,
+      "y1": 0,
+      "x2": 1083,
+      "y2": 54,
+      "cx": 975.0,
+      "cy": 27.0,
+      "conf": 0.9966,
+      "label": "UNKNOWN",
+      "norm": "after"
+    },
+    {
+      "token": "Nahrwertangaben/Nutrition Information pro/per 100 g/42 g/21.42 g.Samgile/of210ks180kcal/38ld",
+      "x1": 143,
+      "y1": 15,
+      "x2": 2994,
+      "y2": 339,
+      "cx": 1568.5,
+      "cy": 177.0,
+      "conf": 0.91,
+      "label": "CONTEXT",
+      "norm": "per_100g"
+    },
+    {
+      "token": "Salt",
+      "x1": 182,
+      "y1": 283,
+      "x2": 3055,
+      "y2": 554,
+      "cx": 1618.5,
+      "cy": 418.5,
+      "conf": 0.9328,
+      "label": "NUTRIENT",
+      "norm": "salt"
+    },
+    {
+      "token": "sium 3571mg/150mg7.5%*/300mg15%*)Chloride4762mg/200mg25%/400 mg 50%,Calcium 1428",
+      "x1": 183,
+      "y1": 392,
+      "x2": 3070,
+      "y2": 626,
+      "cx": 1626.5,
+      "cy": 509.0,
+      "conf": 0.9486,
+      "label": "NUTRIENT",
+      "norm": "sium 3571mg/150mg7.5%*/300mg15%*)chloride4762mg/200mg25%/400 mg 50%,calcium 1428"
+    },
+    {
+      "token": "mg/60mg7.5%*/120mg15%*)Magnesium670 mg/28.1 mg 7.5%/56.3 mg15%Kotfein/Cafen 1786 mg",
+      "x1": 180,
+      "y1": 502,
+      "x2": 3073,
+      "y2": 709,
+      "cx": 1626.5,
+      "cy": 605.5,
+      "conf": 0.8964,
+      "label": "NUTRIENT",
+      "norm": "mg/60mg7.5%*/120mg15%*)magnesium670 mg/28.1 mg 7.5%/56.3 mg15%kotfein/cafen 1786 mg"
+    },
+    {
+      "token": "75.0mg/150 mg. *% des Nährstoffbezugswerts/Nutrient Reference Value.@@Nahrungserganeungweit",
+      "x1": 173,
+      "y1": 614,
+      "x2": 3070,
+      "y2": 808,
+      "cx": 1621.5,
+      "cy": 711.0,
+      "conf": 0.9334,
+      "label": "NOISE",
+      "norm": "75.0mg/150 mg. *% des nährstoffbezugswerts/nutrient reference value.@@nahrungserganeungweit"
+    },
+    {
+      "token": "tel(c:Ergänzungsnahrung).Brausetablette zur Herstellung eines kalorinafreion Erfrischungsgotríeken mit",
+      "x1": 167,
+      "y1": 730,
+      "x2": 3076,
+      "y2": 874,
+      "cx": 1621.5,
+      "cy": 802.0,
+      "conf": 0.9465,
+      "label": "UNKNOWN",
+      "norm": "tel(c:ergänzungsnahrung).brausetablette zur herstellung eines kalorinafreion erfrischungsgotríeken mit"
+    },
+    {
+      "token": "Caffeine",
+      "x1": 158,
+      "y1": 843,
+      "x2": 3034,
+      "y2": 943,
+      "cx": 1596.0,
+      "cy": 893.0,
+      "conf": 0.962,
+      "label": "NUTRIENT",
+      "norm": "caffeine"
+    },
+    {
+      "token": "Zutaten: Sáuerungsmittel (Citronensäure), Saureregulater(Natrionicarbonate) Mineralotatle14.7%) Katoncharid Ca",
+      "x1": 139,
+      "y1": 939,
+      "x2": 3011,
+      "y2": 1022,
+      "cx": 1575.0,
+      "cy": 980.5,
+      "conf": 0.9218,
+      "label": "NOISE",
+      "norm": "zutaten: sáuerungsmittel (citronensäure), saureregulater mineralotatle14.7%) katoncharid ca"
+    },
+    {
+      "token": "clumcarbonatNatriumchloridMagnesiumhydroxidCalciumphosphate)Fauchthmhsrattd(Sorhel trnbe nudriohs aon",
+      "x1": 119,
+      "y1": 1005,
+      "x2": 2982,
+      "y2": 1112,
+      "cx": 1550.5,
+      "cy": 1058.5,
+      "conf": 0.9063,
+      "label": "NUTRIENT",
+      "norm": "clumcarbonatnatriumchloridmagnesiumhydroxidcalciumphosphate)fauchthmhsrattd(sorhel trnbe nudriohs aon"
+    },
+    {
+      "token": "men, Koffein(1.80 %) Starke, SiBungsmitte(Sucrainen). Verzehraumpfahhatg:1TabkthnnauchSacciumphashtt.m",
+      "x1": 90,
+      "y1": 1058,
+      "x2": 2953,
+      "y2": 1191,
+      "cx": 1521.5,
+      "cy": 1124.5,
+      "conf": 0.8838,
+      "label": "NUTRIENT",
+      "norm": "men, koffein(1.80 %) starke, sibungsmitte. verzehraumpfahhatg:1tabkthnnauchsacciumphashtt.m"
+    },
+    {
+      "token": "in500bis750m/ Wasser Knen.Max.2Tabletten/TagNotiungeutubrnafgphekeduhd trioumn lindenNnjrinl",
+      "x1": 67,
+      "y1": 1107,
+      "x2": 2892,
+      "y2": 1258,
+      "cx": 1479.5,
+      "cy": 1182.5,
+      "conf": 0.8525,
+      "label": "CONTEXT",
+      "norm": "per_daily_dose"
+    },
+    {
+      "token": "reiche und ausgewagene Ernlibrung smde also pntnarde Lulomtrroie",
+      "x1": 41,
+      "y1": 1190,
+      "x2": 1895,
+      "y2": 1304,
+      "cx": 968.0,
+      "cy": 1247.0,
+      "conf": 0.8987,
+      "label": "UNKNOWN",
+      "norm": "reiche und ausgewagene ernlibrung smde also pntnarde lulomtrroie"
+    }
+  ],
+  "tuples": [
+    {
+      "image_id": "15.png",
+      "nutrient": "Chloride",
+      "quantity": "4762",
+      "unit": "mg",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "15.png",
+      "nutrient": "Chloride",
+      "quantity": "200",
+      "unit": "mg",
+      "context": "per_serving"
+    },
+    {
+      "image_id": "15.png",
+      "nutrient": "Chloride",
+      "quantity": "400",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "15.png",
+      "nutrient": "Calcium",
+      "quantity": "1428",
+      "unit": "mg",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "15.png",
+      "nutrient": "Calcium",
+      "quantity": "60",
+      "unit": "mg",
+      "context": "per_serving"
+    },
+    {
+      "image_id": "15.png",
+      "nutrient": "Calcium",
+      "quantity": "120",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "15.png",
+      "nutrient": "Magnesium",
+      "quantity": "670",
+      "unit": "mg",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "15.png",
+      "nutrient": "Magnesium",
+      "quantity": "28.1",
+      "unit": "mg",
+      "context": "per_serving"
+    },
+    {
+      "image_id": "15.png",
+      "nutrient": "Magnesium",
+      "quantity": "56.3",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    }
+  ],
+  "diagnostics": {
+    "paragraph_fallback": true,
+    "enricher": {
+      "active_tokens": 11,
+      "num_rows": 9,
+      "num_columns": 2,
+      "column_roles": {
+        "0": "MIXED",
+        "1": "NUTRIENT"
+      },
+      "column_angles": {
+        "0": 0.0,
+        "1": 0.0
+      },
+      "column_contexts": {
+        "1": "per_100g"
+      },
+      "dosage_streams": 0,
+      "rank_counts": {
+        "0": 2,
+        "1": 8
+      },
+      "rank_consistent": true,
+      "headers_detected": 1
+    },
+    "associator": {
+      "nutrients": 6,
+      "quantities": 0,
+      "dosage_streams": 0,
+      "mode": "v1_rows",
+      "tuples": 6
+    },
+    "edges": 72,
+    "nodes": 11
+  },
+  "duration_s": 5.324,
+  "error": null
+}

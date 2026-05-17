@@ -1,0 +1,7 @@
+image_id,n_ground_truth,n_predicted,tp,fp,fn,precision,recall,f1,fast_rule_decision,likely_failure_source,descriptive_summary
+113.jpeg,20,22,10,12,10,0.4545,0.5,0.71,n/a,none,"Image: 113.jpeg. GT=20, predicted=22, TP=10, FP=12, FN=10. Precision=0.45, recall=0.50, F1=0.71. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Saturated Fats 3.1 g [per_100g]; Carbohydrate 7.7 g [per_100g]; Fibre 1.9 g [per_100g]  (+11 more)"
+114.jpeg,20,26,16,10,4,0.6154,0.8,0.89,n/a,none,"Image: 114.jpeg. GT=20, predicted=26, TP=16, FP=10, FN=4. Precision=0.62, recall=0.80, F1=0.89. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Energy 1541 kj [per_100g]; Fat 4.8 g [per_100g]; Saturated Fats 3.3 g [per_100g]  (+15 more)"
+116.jpeg,18,18,12,6,6,0.6667,0.6667,0.86,n/a,none,"Image: 116.jpeg. GT=18, predicted=18, TP=12, FP=6, FN=6. Precision=0.67, recall=0.67, F1=0.86. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Fat 12.0 g [per_100g]; Carbohydrate 27.0 g [per_100g]; Sugars 4.6 g [per_100g]  (+11 more)"

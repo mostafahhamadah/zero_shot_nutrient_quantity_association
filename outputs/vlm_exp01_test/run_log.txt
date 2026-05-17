@@ -1,0 +1,31 @@
+Experiment  : vlm_exp01_test
+Pipeline    : VLM-Assisted + Corrector V2 + EmbeddingSemanticClassifier (embedding_only)
+Corrector   : src.utils.paddleOCR_corrector_v2
+Classifier  : embedding_only
+Threshold   : 0.59
+Margin      : 0.04
+GT CSV      : test_set_normalized.csv
+Evaluator   : Fast rule-based
+Schema      : nutrient|quantity|unit|context
+VLM Model   : qwen2.5vl:7b-q4_K_M
+VLM Image   : resized JPG, max side 1200px
+Timestamp   : 2026-05-08T00:12:09.967407
+Notes       : 
+
+GT tuples            : 866
+Predicted tuples     : 220
+Matched pairs        : 151
+Full 4F correct      : 87
+Full Tuple Precision : 39.6%
+Full Tuple Recall    : 10.1%
+Full Tuple F1        : 16.0%
+Nutrient F1          : 0.278
+Unit Acc             : 90.7%
+Context Acc          : 86.8%
+Quantity Acc         : 77.5%
+
+VLM total time        : 11732.3s
+VLM avg/success image : 205.8s
+Total processing time : 12065.1s
+Avg processing/image  : 211.7s
+Processing time CSV   : outputs\vlm_exp01_test\processing_times.csv

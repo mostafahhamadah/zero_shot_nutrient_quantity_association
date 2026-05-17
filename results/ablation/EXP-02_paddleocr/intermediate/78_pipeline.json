@@ -1,0 +1,1182 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "DSKTEN",
+      "x1": 408,
+      "y1": 28,
+      "x2": 487,
+      "y2": 46,
+      "cx": 447.5,
+      "cy": 37.0,
+      "conf": 0.6581
+    },
+    {
+      "token": "VIGANTOLVIT",
+      "x1": 37,
+      "y1": 33,
+      "x2": 312,
+      "y2": 63,
+      "cx": 174.5,
+      "cy": 48.0,
+      "conf": 0.9839
+    },
+    {
+      "token": "Nahrungseryanzungsmittel",
+      "x1": 38,
+      "y1": 72,
+      "x2": 252,
+      "y2": 91,
+      "cx": 145.0,
+      "cy": 81.5,
+      "conf": 0.9395
+    },
+    {
+      "token": "rnit Vitamin D3",
+      "x1": 39,
+      "y1": 95,
+      "x2": 161,
+      "y2": 112,
+      "cx": 100.0,
+      "cy": 103.5,
+      "conf": 0.8641
+    },
+    {
+      "token": "Tcn.Ghooin",
+      "x1": 407,
+      "y1": 104,
+      "x2": 699,
+      "y2": 125,
+      "cx": 553.0,
+      "cy": 114.5,
+      "conf": 0.5112
+    },
+    {
+      "token": "VEMIESRESIRFEHUG",
+      "x1": 407,
+      "y1": 127,
+      "x2": 596,
+      "y2": 145,
+      "cx": 501.5,
+      "cy": 136.0,
+      "conf": 0.7214
+    },
+    {
+      "token": "VitaminD3 20001.E",
+      "x1": 40,
+      "y1": 128,
+      "x2": 353,
+      "y2": 158,
+      "cx": 196.5,
+      "cy": 143.0,
+      "conf": 0.937
+    },
+    {
+      "token": "FEe1hY",
+      "x1": 406,
+      "y1": 147,
+      "x2": 688,
+      "y2": 165,
+      "cx": 547.0,
+      "cy": 156.0,
+      "conf": 0.7389
+    },
+    {
+      "token": "Vitamin D tragt bei zur",
+      "x1": 42,
+      "y1": 164,
+      "x2": 231,
+      "y2": 186,
+      "cx": 136.5,
+      "cy": 175.0,
+      "conf": 0.9175
+    },
+    {
+      "token": "Erhaltung normaler Knochen und einer",
+      "x1": 41,
+      "y1": 187,
+      "x2": 346,
+      "y2": 208,
+      "cx": 193.5,
+      "cy": 197.5,
+      "conf": 0.9186
+    },
+    {
+      "token": "WCerheeg",
+      "x1": 406,
+      "y1": 203,
+      "x2": 643,
+      "y2": 222,
+      "cx": 524.5,
+      "cy": 212.5,
+      "conf": 0.5268
+    },
+    {
+      "token": "normalen Muskelfunktion",
+      "x1": 49,
+      "y1": 206,
+      "x2": 245,
+      "y2": 227,
+      "cx": 147.0,
+      "cy": 216.5,
+      "conf": 0.97
+    },
+    {
+      "token": "normalen Funktion.des Inmunsystens",
+      "x1": 41,
+      "y1": 227,
+      "x2": 344,
+      "y2": 248,
+      "cx": 192.5,
+      "cy": 237.5,
+      "conf": 0.8969
+    },
+    {
+      "token": "und der Zellteilung",
+      "x1": 52,
+      "y1": 245,
+      "x2": 193,
+      "y2": 266,
+      "cx": 122.5,
+      "cy": 255.5,
+      "conf": 0.9388
+    },
+    {
+      "token": "1.",
+      "x1": 404,
+      "y1": 258,
+      "x2": 708,
+      "y2": 280,
+      "cx": 556.0,
+      "cy": 269.0,
+      "conf": 0.5748
+    },
+    {
+      "token": "norrnalen Aufnahrne von Calcium",
+      "x1": 45,
+      "y1": 268,
+      "x2": 307,
+      "y2": 285,
+      "cx": 176.0,
+      "cy": 276.5,
+      "conf": 0.9287
+    },
+    {
+      "token": "Enrkugurdeertelmoiie",
+      "x1": 403,
+      "y1": 278,
+      "x2": 700,
+      "y2": 297,
+      "cx": 551.5,
+      "cy": 287.5,
+      "conf": 0.5865
+    },
+    {
+      "token": "Parvreeenrue",
+      "x1": 402,
+      "y1": 298,
+      "x2": 672,
+      "y2": 320,
+      "cx": 537.0,
+      "cy": 309.0,
+      "conf": 0.581
+    },
+    {
+      "token": "Nahrstoff Ipro Kapsel",
+      "x1": 47,
+      "y1": 307,
+      "x2": 202,
+      "y2": 324,
+      "cx": 124.5,
+      "cy": 315.5,
+      "conf": 0.9072
+    },
+    {
+      "token": "pukarermwy",
+      "x1": 254,
+      "y1": 306,
+      "x2": 367,
+      "y2": 328,
+      "cx": 310.5,
+      "cy": 317.0,
+      "conf": 0.6207
+    },
+    {
+      "token": "VitaminD50g20001E1000%",
+      "x1": 47,
+      "y1": 330,
+      "x2": 315,
+      "y2": 350,
+      "cx": 181.0,
+      "cy": 340.0,
+      "conf": 0.934
+    },
+    {
+      "token": "deSrerrinDetrotniMetdenme",
+      "x1": 402,
+      "y1": 336,
+      "x2": 677,
+      "y2": 355,
+      "cx": 539.5,
+      "cy": 345.5,
+      "conf": 0.6491
+    },
+    {
+      "token": "Nercaren.rrnCam",
+      "x1": 402,
+      "y1": 354,
+      "x2": 660,
+      "y2": 373,
+      "cx": 531.0,
+      "cy": 363.5,
+      "conf": 0.5912
+    },
+    {
+      "token": "Referenznenge for die tagiche Zufuhr",
+      "x1": 48,
+      "y1": 364,
+      "x2": 322,
+      "y2": 382,
+      "cx": 185.0,
+      "cy": 373.0,
+      "conf": 0.8976
+    },
+    {
+      "token": "epdn utcoUrWgxg",
+      "x1": 403,
+      "y1": 371,
+      "x2": 699,
+      "y2": 392,
+      "cx": 551.0,
+      "cy": 381.5,
+      "conf": 0.5055
+    },
+    {
+      "token": "pema8Verordnung EUNr.116//2011",
+      "x1": 53,
+      "y1": 383,
+      "x2": 334,
+      "y2": 400,
+      "cx": 193.5,
+      "cy": 391.5,
+      "conf": 0.9035
+    },
+    {
+      "token": "EdungvonNerectencohiwc",
+      "x1": 401,
+      "y1": 389,
+      "x2": 689,
+      "y2": 410,
+      "cx": 545.0,
+      "cy": 399.5,
+      "conf": 0.5786
+    },
+    {
+      "token": "EaaevnWaraccrsopr",
+      "x1": 401,
+      "y1": 406,
+      "x2": 700,
+      "y2": 428,
+      "cx": 550.5,
+      "cy": 417.0,
+      "conf": 0.5321
+    },
+    {
+      "token": "120Kapseln=21,6g",
+      "x1": 49,
+      "y1": 409,
+      "x2": 228,
+      "y2": 430,
+      "cx": 138.5,
+      "cy": 419.5,
+      "conf": 0.929
+    },
+    {
+      "token": "Vianin Denphgn",
+      "x1": 401,
+      "y1": 424,
+      "x2": 640,
+      "y2": 445,
+      "cx": 520.5,
+      "cy": 434.5,
+      "conf": 0.6228
+    },
+    {
+      "token": "Mindestens haltbar bi Ende:siehe Seterkarche",
+      "x1": 48,
+      "y1": 439,
+      "x2": 348,
+      "y2": 457,
+      "cx": 198.0,
+      "cy": 448.0,
+      "conf": 0.8231
+    },
+    {
+      "token": "pRptrabcerPecmencn",
+      "x1": 401,
+      "y1": 442,
+      "x2": 661,
+      "y2": 462,
+      "cx": 531.0,
+      "cy": 452.0,
+      "conf": 0.5336
+    },
+    {
+      "token": "Nicht ober 25C und trocken lagern",
+      "x1": 48,
+      "y1": 455,
+      "x2": 280,
+      "y2": 476,
+      "cx": 164.0,
+      "cy": 465.5,
+      "conf": 0.8977
+    },
+    {
+      "token": "Kindernkagen",
+      "x1": 400,
+      "y1": 459,
+      "x2": 503,
+      "y2": 479,
+      "cx": 451.5,
+      "cy": 469.0,
+      "conf": 0.8642
+    }
+  ],
+  "corrected": [
+    {
+      "token": "DSKTEN",
+      "x1": 408,
+      "y1": 28,
+      "x2": 487,
+      "y2": 46,
+      "cx": 447.5,
+      "cy": 37.0,
+      "conf": 0.6581
+    },
+    {
+      "token": "VIGANTOLVIT",
+      "x1": 37,
+      "y1": 33,
+      "x2": 312,
+      "y2": 63,
+      "cx": 174.5,
+      "cy": 48.0,
+      "conf": 0.9839
+    },
+    {
+      "token": "Nahrungseryanzungsmittel",
+      "x1": 38,
+      "y1": 72,
+      "x2": 252,
+      "y2": 91,
+      "cx": 145.0,
+      "cy": 81.5,
+      "conf": 0.9395
+    },
+    {
+      "token": "rnit Vitamin D3",
+      "x1": 39,
+      "y1": 95,
+      "x2": 161,
+      "y2": 112,
+      "cx": 100.0,
+      "cy": 103.5,
+      "conf": 0.8641
+    },
+    {
+      "token": "Tcn.Ghooin",
+      "x1": 407,
+      "y1": 104,
+      "x2": 699,
+      "y2": 125,
+      "cx": 553.0,
+      "cy": 114.5,
+      "conf": 0.5112
+    },
+    {
+      "token": "VEMIESRESIRFEHUG",
+      "x1": 407,
+      "y1": 127,
+      "x2": 596,
+      "y2": 145,
+      "cx": 501.5,
+      "cy": 136.0,
+      "conf": 0.7214
+    },
+    {
+      "token": "Vitamin D3",
+      "x1": 40,
+      "y1": 128,
+      "x2": 353,
+      "y2": 158,
+      "cx": 196.5,
+      "cy": 143.0,
+      "conf": 0.937
+    },
+    {
+      "token": "FEe1hY",
+      "x1": 406,
+      "y1": 147,
+      "x2": 688,
+      "y2": 165,
+      "cx": 547.0,
+      "cy": 156.0,
+      "conf": 0.7389
+    },
+    {
+      "token": "Vitamin D",
+      "x1": 42,
+      "y1": 164,
+      "x2": 231,
+      "y2": 186,
+      "cx": 136.5,
+      "cy": 175.0,
+      "conf": 0.9175
+    },
+    {
+      "token": "Erhaltung normaler Knochen und einer",
+      "x1": 41,
+      "y1": 187,
+      "x2": 346,
+      "y2": 208,
+      "cx": 193.5,
+      "cy": 197.5,
+      "conf": 0.9186
+    },
+    {
+      "token": "WCerheeg",
+      "x1": 406,
+      "y1": 203,
+      "x2": 643,
+      "y2": 222,
+      "cx": 524.5,
+      "cy": 212.5,
+      "conf": 0.5268
+    },
+    {
+      "token": "normalen Muskelfunktion",
+      "x1": 49,
+      "y1": 206,
+      "x2": 245,
+      "y2": 227,
+      "cx": 147.0,
+      "cy": 216.5,
+      "conf": 0.97
+    },
+    {
+      "token": "normalen Funktion.des Inmunsystens",
+      "x1": 41,
+      "y1": 227,
+      "x2": 344,
+      "y2": 248,
+      "cx": 192.5,
+      "cy": 237.5,
+      "conf": 0.8969
+    },
+    {
+      "token": "und der Zellteilung",
+      "x1": 52,
+      "y1": 245,
+      "x2": 193,
+      "y2": 266,
+      "cx": 122.5,
+      "cy": 255.5,
+      "conf": 0.9388
+    },
+    {
+      "token": "1.",
+      "x1": 404,
+      "y1": 258,
+      "x2": 708,
+      "y2": 280,
+      "cx": 556.0,
+      "cy": 269.0,
+      "conf": 0.5748
+    },
+    {
+      "token": "norrnalen Aufnahrne von Calcium",
+      "x1": 45,
+      "y1": 268,
+      "x2": 307,
+      "y2": 285,
+      "cx": 176.0,
+      "cy": 276.5,
+      "conf": 0.9287
+    },
+    {
+      "token": "Enrkugurdeertelmoiie",
+      "x1": 403,
+      "y1": 278,
+      "x2": 700,
+      "y2": 297,
+      "cx": 551.5,
+      "cy": 287.5,
+      "conf": 0.5865
+    },
+    {
+      "token": "Parvreeenrue",
+      "x1": 402,
+      "y1": 298,
+      "x2": 672,
+      "y2": 320,
+      "cx": 537.0,
+      "cy": 309.0,
+      "conf": 0.581
+    },
+    {
+      "token": "Nahrstoff Ipro Kapsel",
+      "x1": 47,
+      "y1": 307,
+      "x2": 202,
+      "y2": 324,
+      "cx": 124.5,
+      "cy": 315.5,
+      "conf": 0.9072
+    },
+    {
+      "token": "pukarermwy",
+      "x1": 254,
+      "y1": 306,
+      "x2": 367,
+      "y2": 328,
+      "cx": 310.5,
+      "cy": 317.0,
+      "conf": 0.6207
+    },
+    {
+      "token": "VitaminD50g20001E1000%",
+      "x1": 47,
+      "y1": 330,
+      "x2": 315,
+      "y2": 350,
+      "cx": 181.0,
+      "cy": 340.0,
+      "conf": 0.934
+    },
+    {
+      "token": "deSrerrinDetrotniMetdenme",
+      "x1": 402,
+      "y1": 336,
+      "x2": 677,
+      "y2": 355,
+      "cx": 539.5,
+      "cy": 345.5,
+      "conf": 0.6491
+    },
+    {
+      "token": "Nercaren.rrnCam",
+      "x1": 402,
+      "y1": 354,
+      "x2": 660,
+      "y2": 373,
+      "cx": 531.0,
+      "cy": 363.5,
+      "conf": 0.5912
+    },
+    {
+      "token": "Referenznenge for die tagiche Zufuhr",
+      "x1": 48,
+      "y1": 364,
+      "x2": 322,
+      "y2": 382,
+      "cx": 185.0,
+      "cy": 373.0,
+      "conf": 0.8976
+    },
+    {
+      "token": "epdn utcoUrWgxg",
+      "x1": 403,
+      "y1": 371,
+      "x2": 699,
+      "y2": 392,
+      "cx": 551.0,
+      "cy": 381.5,
+      "conf": 0.5055
+    },
+    {
+      "token": "pema8Verordnung EUNr.116//2011",
+      "x1": 53,
+      "y1": 383,
+      "x2": 334,
+      "y2": 400,
+      "cx": 193.5,
+      "cy": 391.5,
+      "conf": 0.9035
+    },
+    {
+      "token": "EdungvonNerectencohiwc",
+      "x1": 401,
+      "y1": 389,
+      "x2": 689,
+      "y2": 410,
+      "cx": 545.0,
+      "cy": 399.5,
+      "conf": 0.5786
+    },
+    {
+      "token": "EaaevnWaraccrsopr",
+      "x1": 401,
+      "y1": 406,
+      "x2": 700,
+      "y2": 428,
+      "cx": 550.5,
+      "cy": 417.0,
+      "conf": 0.5321
+    },
+    {
+      "token": "120Kapseln=21.6g",
+      "x1": 49,
+      "y1": 409,
+      "x2": 228,
+      "y2": 430,
+      "cx": 138.5,
+      "cy": 419.5,
+      "conf": 0.929
+    },
+    {
+      "token": "Vianin Denphgn",
+      "x1": 401,
+      "y1": 424,
+      "x2": 640,
+      "y2": 445,
+      "cx": 520.5,
+      "cy": 434.5,
+      "conf": 0.6228
+    },
+    {
+      "token": "Mindestens haltbar bi Ende:siehe Seterkarche",
+      "x1": 48,
+      "y1": 439,
+      "x2": 348,
+      "y2": 457,
+      "cx": 198.0,
+      "cy": 448.0,
+      "conf": 0.8231
+    },
+    {
+      "token": "pRptrabcerPecmencn",
+      "x1": 401,
+      "y1": 442,
+      "x2": 661,
+      "y2": 462,
+      "cx": 531.0,
+      "cy": 452.0,
+      "conf": 0.5336
+    },
+    {
+      "token": "Nicht ober 25C und trocken lagern",
+      "x1": 48,
+      "y1": 455,
+      "x2": 280,
+      "y2": 476,
+      "cx": 164.0,
+      "cy": 465.5,
+      "conf": 0.8977
+    },
+    {
+      "token": "Kindernkagen",
+      "x1": 400,
+      "y1": 459,
+      "x2": 503,
+      "y2": 479,
+      "cx": 451.5,
+      "cy": 469.0,
+      "conf": 0.8642
+    }
+  ],
+  "labeled": [
+    {
+      "token": "DSKTEN",
+      "x1": 408,
+      "y1": 28,
+      "x2": 487,
+      "y2": 46,
+      "cx": 447.5,
+      "cy": 37.0,
+      "conf": 0.6581,
+      "label": "UNKNOWN",
+      "norm": "dskten"
+    },
+    {
+      "token": "VIGANTOLVIT",
+      "x1": 37,
+      "y1": 33,
+      "x2": 312,
+      "y2": 63,
+      "cx": 174.5,
+      "cy": 48.0,
+      "conf": 0.9839,
+      "label": "UNKNOWN",
+      "norm": "vigantolvit"
+    },
+    {
+      "token": "Nahrungseryanzungsmittel",
+      "x1": 38,
+      "y1": 72,
+      "x2": 252,
+      "y2": 91,
+      "cx": 145.0,
+      "cy": 81.5,
+      "conf": 0.9395,
+      "label": "UNKNOWN",
+      "norm": "nahrungseryanzungsmittel"
+    },
+    {
+      "token": "rnit Vitamin D3",
+      "x1": 39,
+      "y1": 95,
+      "x2": 161,
+      "y2": 112,
+      "cx": 100.0,
+      "cy": 103.5,
+      "conf": 0.8641,
+      "label": "NUTRIENT",
+      "norm": "rnit vitamin d3"
+    },
+    {
+      "token": "Tcn.Ghooin",
+      "x1": 407,
+      "y1": 104,
+      "x2": 699,
+      "y2": 125,
+      "cx": 553.0,
+      "cy": 114.5,
+      "conf": 0.5112,
+      "label": "UNKNOWN",
+      "norm": "tcn.ghooin"
+    },
+    {
+      "token": "VEMIESRESIRFEHUG",
+      "x1": 407,
+      "y1": 127,
+      "x2": 596,
+      "y2": 145,
+      "cx": 501.5,
+      "cy": 136.0,
+      "conf": 0.7214,
+      "label": "UNKNOWN",
+      "norm": "vemiesresirfehug"
+    },
+    {
+      "token": "Vitamin D3",
+      "x1": 40,
+      "y1": 128,
+      "x2": 353,
+      "y2": 158,
+      "cx": 196.5,
+      "cy": 143.0,
+      "conf": 0.937,
+      "label": "NUTRIENT",
+      "norm": "vitamin d3"
+    },
+    {
+      "token": "FEe1hY",
+      "x1": 406,
+      "y1": 147,
+      "x2": 688,
+      "y2": 165,
+      "cx": 547.0,
+      "cy": 156.0,
+      "conf": 0.7389,
+      "label": "UNKNOWN",
+      "norm": "fee1hy"
+    },
+    {
+      "token": "Vitamin D",
+      "x1": 42,
+      "y1": 164,
+      "x2": 231,
+      "y2": 186,
+      "cx": 136.5,
+      "cy": 175.0,
+      "conf": 0.9175,
+      "label": "NUTRIENT",
+      "norm": "vitamin d"
+    },
+    {
+      "token": "Erhaltung normaler Knochen und einer",
+      "x1": 41,
+      "y1": 187,
+      "x2": 346,
+      "y2": 208,
+      "cx": 193.5,
+      "cy": 197.5,
+      "conf": 0.9186,
+      "label": "UNKNOWN",
+      "norm": "erhaltung normaler knochen und einer"
+    },
+    {
+      "token": "WCerheeg",
+      "x1": 406,
+      "y1": 203,
+      "x2": 643,
+      "y2": 222,
+      "cx": 524.5,
+      "cy": 212.5,
+      "conf": 0.5268,
+      "label": "UNKNOWN",
+      "norm": "wcerheeg"
+    },
+    {
+      "token": "normalen Muskelfunktion",
+      "x1": 49,
+      "y1": 206,
+      "x2": 245,
+      "y2": 227,
+      "cx": 147.0,
+      "cy": 216.5,
+      "conf": 0.97,
+      "label": "UNKNOWN",
+      "norm": "normalen muskelfunktion"
+    },
+    {
+      "token": "normalen Funktion.des Inmunsystens",
+      "x1": 41,
+      "y1": 227,
+      "x2": 344,
+      "y2": 248,
+      "cx": 192.5,
+      "cy": 237.5,
+      "conf": 0.8969,
+      "label": "UNKNOWN",
+      "norm": "normalen funktion.des inmunsystens"
+    },
+    {
+      "token": "und der Zellteilung",
+      "x1": 52,
+      "y1": 245,
+      "x2": 193,
+      "y2": 266,
+      "cx": 122.5,
+      "cy": 255.5,
+      "conf": 0.9388,
+      "label": "UNKNOWN",
+      "norm": "und der zellteilung"
+    },
+    {
+      "token": "1.",
+      "x1": 404,
+      "y1": 258,
+      "x2": 708,
+      "y2": 280,
+      "cx": 556.0,
+      "cy": 269.0,
+      "conf": 0.5748,
+      "label": "QUANTITY",
+      "norm": "1"
+    },
+    {
+      "token": "norrnalen Aufnahrne von Calcium",
+      "x1": 45,
+      "y1": 268,
+      "x2": 307,
+      "y2": 285,
+      "cx": 176.0,
+      "cy": 276.5,
+      "conf": 0.9287,
+      "label": "NUTRIENT",
+      "norm": "norrnalen aufnahrne von calcium"
+    },
+    {
+      "token": "Enrkugurdeertelmoiie",
+      "x1": 403,
+      "y1": 278,
+      "x2": 700,
+      "y2": 297,
+      "cx": 551.5,
+      "cy": 287.5,
+      "conf": 0.5865,
+      "label": "UNKNOWN",
+      "norm": "enrkugurdeertelmoiie"
+    },
+    {
+      "token": "Parvreeenrue",
+      "x1": 402,
+      "y1": 298,
+      "x2": 672,
+      "y2": 320,
+      "cx": 537.0,
+      "cy": 309.0,
+      "conf": 0.581,
+      "label": "UNKNOWN",
+      "norm": "parvreeenrue"
+    },
+    {
+      "token": "Nahrstoff Ipro Kapsel",
+      "x1": 47,
+      "y1": 307,
+      "x2": 202,
+      "y2": 324,
+      "cx": 124.5,
+      "cy": 315.5,
+      "conf": 0.9072,
+      "label": "CONTEXT",
+      "norm": "per_serving"
+    },
+    {
+      "token": "pukarermwy",
+      "x1": 254,
+      "y1": 306,
+      "x2": 367,
+      "y2": 328,
+      "cx": 310.5,
+      "cy": 317.0,
+      "conf": 0.6207,
+      "label": "UNKNOWN",
+      "norm": "pukarermwy"
+    },
+    {
+      "token": "VitaminD50g20001E1000%",
+      "x1": 47,
+      "y1": 330,
+      "x2": 315,
+      "y2": 350,
+      "cx": 181.0,
+      "cy": 340.0,
+      "conf": 0.934,
+      "label": "NUTRIENT",
+      "norm": "vitamind50g20001e1000%"
+    },
+    {
+      "token": "deSrerrinDetrotniMetdenme",
+      "x1": 402,
+      "y1": 336,
+      "x2": 677,
+      "y2": 355,
+      "cx": 539.5,
+      "cy": 345.5,
+      "conf": 0.6491,
+      "label": "UNKNOWN",
+      "norm": "desrerrindetrotnimetdenme"
+    },
+    {
+      "token": "Nercaren.rrnCam",
+      "x1": 402,
+      "y1": 354,
+      "x2": 660,
+      "y2": 373,
+      "cx": 531.0,
+      "cy": 363.5,
+      "conf": 0.5912,
+      "label": "UNKNOWN",
+      "norm": "nercaren.rrncam"
+    },
+    {
+      "token": "Referenznenge for die tagiche Zufuhr",
+      "x1": 48,
+      "y1": 364,
+      "x2": 322,
+      "y2": 382,
+      "cx": 185.0,
+      "cy": 373.0,
+      "conf": 0.8976,
+      "label": "UNKNOWN",
+      "norm": "referenznenge for die tagiche zufuhr"
+    },
+    {
+      "token": "epdn utcoUrWgxg",
+      "x1": 403,
+      "y1": 371,
+      "x2": 699,
+      "y2": 392,
+      "cx": 551.0,
+      "cy": 381.5,
+      "conf": 0.5055,
+      "label": "UNKNOWN",
+      "norm": "epdn utcourwgxg"
+    },
+    {
+      "token": "pema8Verordnung EUNr.116//2011",
+      "x1": 53,
+      "y1": 383,
+      "x2": 334,
+      "y2": 400,
+      "cx": 193.5,
+      "cy": 391.5,
+      "conf": 0.9035,
+      "label": "UNKNOWN",
+      "norm": "pema8verordnung eunr.116//2011"
+    },
+    {
+      "token": "EdungvonNerectencohiwc",
+      "x1": 401,
+      "y1": 389,
+      "x2": 689,
+      "y2": 410,
+      "cx": 545.0,
+      "cy": 399.5,
+      "conf": 0.5786,
+      "label": "UNKNOWN",
+      "norm": "edungvonnerectencohiwc"
+    },
+    {
+      "token": "EaaevnWaraccrsopr",
+      "x1": 401,
+      "y1": 406,
+      "x2": 700,
+      "y2": 428,
+      "cx": 550.5,
+      "cy": 417.0,
+      "conf": 0.5321,
+      "label": "UNKNOWN",
+      "norm": "eaaevnwaraccrsopr"
+    },
+    {
+      "token": "120Kapseln=21.6g",
+      "x1": 49,
+      "y1": 409,
+      "x2": 228,
+      "y2": 430,
+      "cx": 138.5,
+      "cy": 419.5,
+      "conf": 0.929,
+      "label": "CONTEXT",
+      "norm": "per_daily_dose"
+    },
+    {
+      "token": "Vianin Denphgn",
+      "x1": 401,
+      "y1": 424,
+      "x2": 640,
+      "y2": 445,
+      "cx": 520.5,
+      "cy": 434.5,
+      "conf": 0.6228,
+      "label": "UNKNOWN",
+      "norm": "vianin denphgn"
+    },
+    {
+      "token": "Mindestens haltbar bi Ende:siehe Seterkarche",
+      "x1": 48,
+      "y1": 439,
+      "x2": 348,
+      "y2": 457,
+      "cx": 198.0,
+      "cy": 448.0,
+      "conf": 0.8231,
+      "label": "NOISE",
+      "norm": "mindestens haltbar bi ende:siehe seterkarche"
+    },
+    {
+      "token": "pRptrabcerPecmencn",
+      "x1": 401,
+      "y1": 442,
+      "x2": 661,
+      "y2": 462,
+      "cx": 531.0,
+      "cy": 452.0,
+      "conf": 0.5336,
+      "label": "UNKNOWN",
+      "norm": "prptrabcerpecmencn"
+    },
+    {
+      "token": "Nicht ober 25C und trocken lagern",
+      "x1": 48,
+      "y1": 455,
+      "x2": 280,
+      "y2": 476,
+      "cx": 164.0,
+      "cy": 465.5,
+      "conf": 0.8977,
+      "label": "NOISE",
+      "norm": "nicht ober 25c und trocken lagern"
+    },
+    {
+      "token": "Kindernkagen",
+      "x1": 400,
+      "y1": 459,
+      "x2": 503,
+      "y2": 479,
+      "cx": 451.5,
+      "cy": 469.0,
+      "conf": 0.8642,
+      "label": "UNKNOWN",
+      "norm": "kindernkagen"
+    }
+  ],
+  "tuples": [
+    {
+      "image_id": "78.jpeg",
+      "nutrient": "rnit Vitamin D3",
+      "quantity": null,
+      "unit": null,
+      "context": "per_serving",
+      "_score": 0.0,
+      "_stream": -1
+    },
+    {
+      "image_id": "78.jpeg",
+      "nutrient": "Vitamin D3",
+      "quantity": null,
+      "unit": null,
+      "context": "per_daily_dose",
+      "_score": 0.0,
+      "_stream": -1
+    },
+    {
+      "image_id": "78.jpeg",
+      "nutrient": "Vitamin D",
+      "quantity": null,
+      "unit": null,
+      "context": "per_daily_dose",
+      "_score": 0.0,
+      "_stream": -1
+    },
+    {
+      "image_id": "78.jpeg",
+      "nutrient": "norrnalen Aufnahrne von Calcium",
+      "quantity": "1",
+      "unit": null,
+      "context": "per_daily_dose",
+      "_score": 1.0,
+      "_stream": -1
+    },
+    {
+      "image_id": "78.jpeg",
+      "nutrient": "VitaminD50g20001E1000%",
+      "quantity": null,
+      "unit": null,
+      "context": "per_daily_dose",
+      "_score": 0.0,
+      "_stream": -1
+    }
+  ],
+  "diagnostics": {
+    "enricher": {
+      "active_tokens": 32,
+      "num_rows": 2,
+      "num_columns": 3,
+      "column_roles": {
+        "0": "MIXED",
+        "1": "SINGLETON",
+        "2": "MIXED"
+      },
+      "column_angles": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0
+      },
+      "column_contexts": {
+        "0": "per_daily_dose"
+      },
+      "dosage_streams": 0,
+      "rank_counts": {
+        "0": 13,
+        "1": 1,
+        "2": 16
+      },
+      "rank_consistent": true,
+      "headers_detected": 2
+    },
+    "associator": {
+      "nutrients": 5,
+      "quantities": 1,
+      "dosage_streams": 0,
+      "mode": "v1_rows",
+      "tuples": 5
+    },
+    "edges": 402,
+    "nodes": 32
+  },
+  "duration_s": 6.579,
+  "error": null
+}

@@ -1,0 +1,8 @@
+experiment_id,experiment_name,ocr_engine,classifier_key,association_key,status,full_tuple_precision,full_tuple_recall,full_tuple_f1,nutrient_f1,quantity_acc,unit_acc,context_acc,mean_image_f1,median_image_f1,std_image_f1,full3f_f1,full3f_correct,full4f_correct,matched_pairs,predicted_tuples,gt_tuples,context_cost_pp,llm_calls,fast_hits,n_images_on_disk,classifier_name,association_name
+EXP-03,A_G1,paddleocr,A,G1,ok,0.2381,0.2483,0.2431,0.7044,0.7014,0.7191,0.6148,0.3347,0.33,0.277,0.3573,316.0,215.0,623.0,903.0,866.0,11.4,0.0,215.0,57.0,rule-based,graph_v1
+EXP-04,A_G2,paddleocr,A,G2,ok,0.3969,0.418,0.4072,0.7098,0.7702,0.8067,0.8621,0.5012,0.57,0.3425,0.4297,382.0,362.0,631.0,912.0,866.0,2.2,0.0,362.0,57.0,rule-based,graph_v2
+EXP-05,A_VLM,paddleocr,A,VLM,ok,0.5607,0.4319,0.4879,0.7632,0.7658,0.8974,0.8513,0.6821,0.75,0.2751,0.5401,414.0,374.0,585.0,667.0,866.0,5.2,0.0,374.0,57.0,rule-based,vlm
+EXP-06,B_G1,paddleocr,B,G1,ok,0.2223,0.2436,0.2325,0.6612,0.695,0.7433,0.615,0.3454,0.36,0.2824,0.3427,311.0,211.0,600.0,949.0,866.0,11.0,0.0,211.0,57.0,embedding (BGE-M3),graph_v1
+EXP-07,B_G2,paddleocr,B,G2,ok,0.3673,0.4076,0.3864,0.6656,0.7632,0.824,0.8503,0.513,0.59,0.3507,0.4083,373.0,353.0,608.0,961.0,866.0,2.2,0.0,353.0,57.0,embedding (BGE-M3),graph_v2
+EXP-08,B_VLM,paddleocr,B,VLM,ok,0.582,0.4099,0.481,0.7453,0.7727,0.9,0.8545,0.6689,0.75,0.2943,0.5312,392.0,355.0,550.0,610.0,866.0,5.0,0.0,355.0,57.0,embedding (BGE-M3),vlm
+EXP-09,C_G1,paddleocr,C,G1,ok,0.0,0.0,0.0,0.5176,0.2572,0.0058,0.0,0.0,0.0,0.0,0.0,0.0,0.0,346.0,471.0,866.0,0.0,0.0,0.0,57.0,GLiNER,graph_v1

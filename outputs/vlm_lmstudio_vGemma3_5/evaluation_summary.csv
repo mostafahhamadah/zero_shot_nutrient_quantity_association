@@ -1,0 +1,2 @@
+experiment,timestamp,notes,evaluator,schema,images_evaluated,gt_tuples,predicted_tuples,matched_pairs,nutrient_precision,nutrient_recall,nutrient_f1,quantity_acc,unit_acc,context_acc,full3f_correct,full3f_precision,full3f_recall,full3f_f1,full4f_correct,full_tuple_precision,full_tuple_recall,full_tuple_f1,context_cost_pp,llm_calls,fast_hits,eval_time_s
+vlm_lmstudio_vGemma3_5,2026-05-14T05:11:45.830830,,LLM-Assisted (qwen2.5:3b),nutrient|quantity|unit|context,57,866,548,411,0.75,0.4746,0.5813,0.6837,0.7713,0.6156,201,0.3668,0.2321,0.2843,135,0.2464,0.1559,0.1909,9.3,0,135,0.1

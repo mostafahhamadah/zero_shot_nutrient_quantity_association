@@ -1,0 +1,181 @@
+image_id,gt_nutrient,pred_nutrient,gt_quantity,pred_quantity,gt_unit,pred_unit,gt_context,pred_context,nutrient_match,quantity_match,unit_match,context_match,full_match_3f,full_match_4f,eval_method,nutrient_reason,quantity_reason,unit_reason,context_reason
+1.png,Magnesiumoxid,Magnesium,400,400,mg,mg,per_daily_dose,per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+106.png,Magnesium,Magnesium,250,250 mg,mg,mg,per_serving (Pro Stick),per_serving,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+106.png,Vitamin E,Vitamin E,12,12 mg α-TE,mg α-TE,mg,per_serving (Pro Stick),per_100g,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+107.png,Vitamin B1,Vitamin B1,1.1,1.1,mg,mg,per_daily_dose (1 Tablette (4.3 g)*),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+107.png,Vitamin B2,Vitamin B2,1.4,1.4,mg,mg,per_daily_dose (1 Tablette (4.3 g)*),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+107.png,Vitamin B6,Vitamin B6,1.4,1.4,mg,mg,per_daily_dose (1 Tablette (4.3 g)*),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+107.png,Vitamin B12,Vitamin B12,2.5,2.5,µg,μg,per_daily_dose (1 Tablette (4.3 g)*),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+107.png,Vitamin C,Vitamin C,80,80,mg,mg,per_daily_dose (1 Tablette (4.3 g)*),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+107.png,Niacin,Niacin,16,16,mg NE,mg NE,per_daily_dose (1 Tablette (4.3 g)*),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+107.png,Biotin,Biotin,50,50,µg,μg,per_daily_dose (1 Tablette (4.3 g)*),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+107.png,Vitamin E,Vitamin E,12,12,mg α-TE,α-TE,per_daily_dose (1 Tablette (4.3 g)*),per_daily_dose,True,True,False,True,False,False,fast,substring match,numeric match,mismatch,alias match
+108.jpeg,Vitamin B1,Vitamin B1,1.1,1.1,mg,mg,per_daily_dose (1 Tablette (5.6 g)*),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+108.jpeg,Vitamin B2,Vitamin B2,1.4,1.4,mg,mg,per_daily_dose (1 Tablette (5.6 g)*),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+108.jpeg,Vitamin B12,Vitamin B12,2.5,2.5,µg,μg,per_daily_dose (1 Tablette (5.6 g)*),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+108.jpeg,Biotin,Biotin,50,50,µg,μg,per_daily_dose (1 Tablette (5.6 g)*),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+108.jpeg,Magnesium,Magnesium,240,240,mg,mg,per_daily_dose (1 Tablette (5.6 g)*),per_100g,True,True,True,False,True,False,fast,substring match,numeric match,alias match,mismatch
+108.jpeg,Vitamin C,Vitamin C,80,80,mg,mg,per_daily_dose (1 Tablette (5.6 g)*),per_100ml,True,True,True,False,True,False,fast,substring match,numeric match,alias match,mismatch
+108.jpeg,Vitamin B6,Vitamin B6,1.4,1.4,mg,μg,per_daily_dose (1 Tablette (5.6 g)*),per_100ml,True,True,False,False,False,False,fast,substring match,numeric match,mismatch,mismatch
+108.jpeg,Niacin,Niacin (NE),16,16,mg,mg,per_daily_dose (1 Tablette (5.6 g)*),per_100ml,False,True,True,False,False,False,fast,no match,numeric match,alias match,mismatch
+108.jpeg,Vitamin E,Vitamin E (α-TE),12,12,mg,μg,per_daily_dose (1 Tablette (5.6 g)*),per_daily_dose,False,True,False,True,False,False,fast,no match,numeric match,mismatch,alias match
+109.jpeg,Energy,Energy,420,420 kJ / 99 kcal,kJ,kJ,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+109.jpeg,Saturated Fats,Saturated Fats,0.2,"0,2 g",g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+109.jpeg,Protein,Protein,11.0,"11,0 g",g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+109.jpeg,Fat,Fats,0,0 g,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+109.jpeg,Carbohydrate,Carbohydrates,12.0,"12,0 g",g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+110.jpeg,Melissen Extrakt,Melissen Extrakt,15,15 mg,mg,mg,per_serving (pro Stick),per_serving,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+110.jpeg,Niacin,Niacin,8.0,8.0 mg NE,mg NE,mg ne,per_serving (pro Stick),per_daily_dose,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+111.jpeg,Vitamin B12,Vitamin B12,17.5,17.5,µg,μg,per_daily_dose (1 Tagesdosis (8 ml)),% NRV* je Tagesdosis,True,True,True,False,True,False,fast,substring match,numeric match,alias match,mismatch
+112.jpeg,Vitamin B12,Vitamin B12,17.5,17.5,µg,µg,per_daily_dose (1 Tagesdosis (8 ml)),% NRV* je Tagesdosis,True,True,True,False,True,False,fast,substring match,numeric match,alias match,mismatch
+117.jpeg,Fat,FAT,6.1,6.1,g,g,per_serving (45 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+117.jpeg,Sugars,SUGARS,13.5,0.04,g,g,per_serving (45 g),per_serving,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+117.jpeg,Energy,ENERGY,728,728/173,kJ,kJ/kcal,per_serving (45 g),per_serving,True,False,False,True,False,False,fast,substring match,mismatch,mismatch,alias match
+119.jpeg,Energy,Energy,1471,8.4 g,kJ,kJ/kcal,per_100g,per_100g,True,False,False,True,False,False,fast,substring match,mismatch,mismatch,alias match
+119.jpeg,Fat,Fatty Acids,11,2.4 g,g,g,per_100g,per_serving,False,False,True,False,False,False,fast,no match,mismatch,alias match,mismatch
+12.png,Energy,Energy,547,547kJ,kJ,kJ,per_100ml,per_serving,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+12.png,Energy,Energy,129,129kcal,kcal,kcal,per_100ml,per_serving,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+12.png,Saturated Fats,Saturated Fats,0.0,0.0g,g,g,per_100ml,per_serving,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+12.png,Sugars,Sugars,1.1,1.1g,g,g,per_100ml,per_serving,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+12.png,Protein,Protein,0.1,0.1g,g,g,per_100ml,per_100ml,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+12.png,Salt,Salt,0.6,0.6g,g,g,per_100ml,per_serving,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+12.png,Fat,Fatty Acids,0.0,0.0g,g,g,per_100ml,per_100ml,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+12.png,Carbohydrate,Carbohydrates,32,32g,g,g,per_100ml,per_100ml,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+120.jpeg,Inositol,inositol,100,100,mg,mg,per_daily_dose (10 G),per_100g,True,True,True,False,True,False,fast,substring match,numeric match,alias match,mismatch
+120.jpeg,Alpha-Liponsäure,alpha-liponsäure,42,42,mg,mg,per_daily_dose (10 G),per_100g,True,True,True,False,True,False,fast,substring match,numeric match,alias match,mismatch
+120.jpeg,Rutin,rutin,20,20,mg,mg,per_daily_dose (10 G),per_100g,True,True,True,False,True,False,fast,substring match,numeric match,alias match,mismatch
+120.jpeg,Choline,cholin,20,20,mg,mg,per_daily_dose (10 G),per_100g,True,True,True,False,True,False,fast,substring match,numeric match,alias match,mismatch
+121.jpeg,Fat,Fat,12,5.2g,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+121.jpeg,Saturated Fats,Saturated Fats,6.5,2.9g,g,g,per_100g,per_serving,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+121.jpeg,Sugars,Sugars,4.9,2.2g,g,g,per_100g,per_serving,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+121.jpeg,Protein,Protein,35,7.9g,g,g,per_100g,per_serving,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+121.jpeg,Salt,Salt,0.20,0.09g,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+121.jpeg,Energy,Energy,1.401,631/151,kJ,kJ/kcal,per_100g,per_serving,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+121.jpeg,Carbohydrate,Carbohydrates,20,9.1g,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+15.png,Magnesium,Magnesium,670,670 mg/28.1 mg,mg,mg,per_100g,per_daily_dose,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+15.png,Calcium,Calcium,1428,"56,3 mg",mg,mg,per_100g,per_daily_dose,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+17.png,Caffeine,Caffeine,100,100,mg,mg,per_serving (piece),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+17.png,Vitamin B6,Vitamin B6,0.22,0.22,mg,mg,per_serving (piece),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+17.png,Vitamin B12,Vitamin B12,0.38,0.38,µg,µg,per_serving (piece),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+2.png,Energy,Energy,1195,1195 (281),kJ,kJ,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+2.png,Fat,Fat,0,70,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+20.png,Calcium,Calcium,800,800 mg,mg,mg,per_100g (100 g Pulver),per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+20.png,Magnesium,Magnesium,300,300 mg,mg,mg,per_100g (100 g Pulver),per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+20.png,Protein,Eiweiß/Protein,0.1,"<0,1 g",g,g,per_100g (100 g Pulver),per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+20.png,Carbohydrate,Kohlenhydrate/Carbohydrate,78.1,"78,1 g",g,g,per_100g (100 g Pulver),per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+20.png,Fat,Fett/Fat,0.5,"<0,5 g",g,g,per_100g (100 g Pulver),per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+20.png,Sodium,Natrium/Sodium,667,667 mg,mg,mg,per_100g (100 g Pulver),per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+20.png,Potassium,Kalium/Potassium,667,667 mg,mg,mg,per_100g (100 g Pulver),per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+20.png,Chloride,Chlorid/Chloride,667,667 mg,mg,mg,per_100g (100 g Pulver),per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+20.png,Phosphorus,Phosphor/Phosphorus,800,800 mg,mg,mg,per_100g (100 g Pulver),per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+20.png,Selenium,Selen/Selenium,200,200 µg,µg,µg,per_100g (100 g Pulver),per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+201.jpeg,Energy,Energy,1642,1642 kJ / 392 kcal,kJ,kJ / kcal,per_100g,Per/Per/Pro Pour/W/Na/Na/Na/Per/Por,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+26.png,Fat,Fat,0,0 g,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+26.png,Saturated Fats,Saturated fat,0,56 g,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+27.png,Magnesium,Magnesium,2000,2000 mg,mg,mg,per_100g (100 g Pulver),per_daily_dose,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+27.png,Carbohydrate,Kublehydrat/Carbohydrate,49,49 g,g,g,per_100g (100 g Pulver),per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+30.png,Protein,Protein,2.7,2.7,g,g,per_serving (Per Bar 55g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+30.png,Fat,Fat,5.0,5.0,g,g,per_serving (Per Bar 55g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+30.png,Carbohydrate,Carbohydrate,39,39,g,g,per_serving (Per Bar 55g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+30.png,Sugars,- Sugars,19,19,g,g,per_serving (Per Bar 55g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+30.png,Sodium,Sodium,70,70,mg,mg,per_serving (Per Bar 55g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+30.png,Energy,Energy,907,907/215,kJ,kJ/kcal,per_serving (Per Bar 55g),per_100g,True,False,False,False,False,False,fast,substring match,mismatch,mismatch,mismatch
+30.png,Fibre,Dietary Fibre,2.0,2.0,g,g,per_serving (Per Bar 55g),per_100g,False,True,True,False,False,False,fast,no match,numeric match,alias match,mismatch
+30.png,Fat,- Saturated Fat,9.1,2.7,g,g,per_100g,per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+33.png,Magnesium,Magnesium,25,25 mg,mg,mg,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+33.png,Magnesium,Magnesium,19,19 mg,mg,mg,per_serving (75 g (300 ml)),per_serving,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+34.png,Energy,Energy,1356,1356kJ/319kcal,kJ,kJ,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+34.png,Fat,Fat,0,0g,g,g,per_100g,per_serving,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+34.png,Carbohydrate,Carbohydrate,80,80g,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+34.png,Fibre,Fibre,5,5g,g,g,per_100g,per_serving,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+34.png,Protein,Protein,0,0g,g,g,per_100g,per_serving,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+34.png,Salt,Salt,3.5,3.5g,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+34.png,Sugars,of which sugars,77,77g,g,g,per_100g,per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+35.jpeg,Magnesium,Magnesium,4.7,4.7 g,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+35.jpeg,Vitamin C,Vitamin C,2.1,2.1 g,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+4.png,Fat,Fat,0,0,g,g,per_100g,per_100g,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+4.png,Energy,Energy,952,952.24,,kJ,per_100g,per_100g,True,False,False,True,False,False,fast,substring match,mismatch,mismatch,alias match
+41.png,Energy,Energy,612,612/144,kJ,kJ/KCAL,per_100g,per_100g,True,False,False,True,False,False,fast,substring match,mismatch,mismatch,alias match
+42.png,Protein,Protein,0,0,g,g,per_serving (PER SERVE 47g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+42.png,Fat,Fat,0,0,g,g,per_serving (PER SERVE 47g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+42.png,Saturated Fats,Saturated Fat,0,0,g,g,per_serving (PER SERVE 47g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+42.png,Carbohydrate,Carbohydrate,44,44,g,g,per_serving (PER SERVE 47g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+42.png,Fibre,Fibre,0,0,g,g,per_serving (PER SERVE 47g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+45_1.png,Fat,Fat,0,0,g,g,per_serving (1 SERV. 47g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+45_1.png,Protein,Protein,0.1,0.1,g,g,per_100g,per_100g,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+45_2.png,Fat,Fat,0,0,g,g,per_100g,per_100g,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+45_2.png,Carbohydrate,Carbohydrate,94,94,g,g,per_100g,per_100g,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+45_2.png,Protein,Protein,0.1,0.1,g,g,per_100g,per_100g,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+45_2.png,Salt,Salt,1.3,1.3,g,g,per_100g,per_100g,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+45_2.png,Energy,Energy,1567,1567/374,kJ,kJ/kcal,per_100g,per_100g,True,False,False,True,False,False,fast,substring match,mismatch,mismatch,alias match
+51.png,Fat,Fat,< 0.5,<0.5,g,g,per_100g,per_100g,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+51.png,Protein,Protein,6.7,6.7,g,g,per_100g,per_100g,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+51.png,Energy,Energy,1541,1541 (363),kJ,kJ,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+51.png,Carbohydrate,Carbohydrate,84,84 (62),g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+51.png,Salt,Salt,0.13,<0.5,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+53.png,Fat,Fat,< 0.5,<0.5,g,g,per_100g,per_100g,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+53.png,Carbohydrate,Carbohydrate,84,84 g,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+53.png,Protein,Protein,6.7,6.7 g,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+53.png,Salt,Salt,0.13,<0.5 g,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+53.png,Energy,Energy,1541,1541 (363),kJ,kJ (kcal),per_100g,per_100g,True,False,False,True,False,False,fast,substring match,mismatch,mismatch,alias match
+56.jpeg,Protein,Proteines,83,83,g,g,per_100g,per_100g,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+57.jpeg,Protein,Proteines,4.99,4.99,g,g,per_serving (pro Esslöffel (6 g)),per_100g,True,True,True,False,True,False,fast,substring match,numeric match,alias match,mismatch
+59.png,Vitamin C,Vitamin C,300,300 mg,mg,mg,per_100g (100 g Pulver),per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+59.png,Vitamin E,Vitamin E,50,50 mg α-TE,mg α-TE,µg,per_100g (100 g Pulver),per_100g,True,False,False,True,False,False,fast,substring match,mismatch,mismatch,alias match
+59.png,Protein,Eiweiß/Protein,0.7,"0,7 g",g,g,per_100g (100 g Pulver),per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+59.png,Carbohydrate,Kohlenhydrate/Carbohydrate,66.6,"66,6 g",g,g,per_100g (100 g Pulver),per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+59.png,Fat,Fett/Fat,0.3,"<0,3 g",g,g,per_100g (100 g Pulver),per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+59.png,Fibre,Ballaststoffe / Fibre,25,25 g,g,g,per_100g (100 g Pulver),per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+59.png,Sodium,Natrium / Sodium,<0.1,"<0,1 g",g,g,per_100g (100 g Pulver),per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+59.png,Selenium,Selen / Selenium,150,150 µg,µg,µg,per_100g (100 g Pulver),per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+59.png,Vitamin A,Vitamin A (aus/from Provitamin A),1667,1667 µg RE,µg RE,µg,per_100g (100 g Pulver),per_100g,False,False,False,True,False,False,fast,no match,mismatch,mismatch,alias match
+6.png,Vitamin C,Vitamin C,28,28,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+6.png,Magnesium,Magnesium,56,56,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+6.png,Potassium,Potassium,70,70,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+6.png,Calcium,Calcium,9,9,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+6.png,Sodium,Sodium,200,200,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+61.png,Energy,Energy,427,427,kJ,kJ,per_serving (30 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+61.png,Fat,Fat,0,0,g,g,per_serving (30 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+61.png,Carbohydrate,Carbohydrates,25.3,25.3,g,g,per_serving (30 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+61.png,Protein,Protein,0.2,0.2,g,g,per_serving (30 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+61.png,Magnesium,Magnesium,75,75,mg,mg,per_serving (30 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+61.png,Potassium,Potassium,100,100,mg,mg,per_serving (30 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+61.png,Calcium,Calcium,50,50,mg,mg,per_serving (30 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+63.png,Fat,Fat,0,0 g,g,g,per_serving (30 g),per_serving,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+63.png,Saturated Fats,Saturated fats,0,0 g,g,g,per_serving (30 g),per_serving,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+63.png,Protein,Protein,0.2,0.2 g,g,g,per_serving (30 g),per_serving,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+63.png,Salt,Salt,0.52,0.52 g,g,g,per_serving (30 g),per_serving,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+63.png,Magnesium,Magnesium,75,75 mg (20%*),mg,mg,per_serving (30 g),per_100g,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+63.png,Potassium,Potassium,100,100 mg (5%*),mg,mg,per_serving (30 g),per_serving,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+63.png,Calcium,Calcium,50,50 mg (6%*),mg,mg,per_serving (30 g),per_100g,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+63.png,Energy,Energy,427,427 kJ / 102 kcal,kJ,kJ / kcal,per_serving (30 g),per_serving,True,False,False,True,False,False,fast,substring match,mismatch,mismatch,alias match
+63.png,Carbohydrate,Carbohydrates,25.3,25.3 g,g,g,per_serving (30 g),per_serving,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+63.png,Sugars,of which sugars/ davon zucker / di cul zuccheri /dont sucres/ de los cuales azúcares/,14.6,14.6 g,g,g,per_serving (30 g),per_serving,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+64.png,Vitamin C,Vitamin C,50,50,mg,mg,per_daily_dose (1 Ampulle/flask + 2 Caps.),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+64.png,Vitamin B2,Vitamin B2,0.6,0.6,mg,mg,per_daily_dose (1 Ampulle/flask + 2 Caps.),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+64.png,Niacin,Niacin,7.0,7.0,mg,mg,per_daily_dose (1 Ampulle/flask + 2 Caps.),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+64.png,Vitamin B6,Vitamin B6,0.6,0.6,mg,mg,per_daily_dose (1 Ampulle/flask + 2 Caps.),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+64.png,Folic Acid,Folic acid,80,80,µg,µg,per_daily_dose (1 Ampulle/flask + 2 Caps.),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+64.png,Vitamin B12,Vitamin B12,2.0,2.0,µg,µg,per_daily_dose (1 Ampulle/flask + 2 Caps.),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+64.png,Pantothenic Acid,Pantothenic acid,2.5,2.5,mg,mg,per_daily_dose (1 Ampulle/flask + 2 Caps.),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+64.png,Zinc,Zinc,3.0,3.0,mg,mg,per_daily_dose (1 Ampulle/flask + 2 Caps.),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+67.jpeg,Vitamin D3,Vitamin D,1000,1000 I.E.,I.E.,I.E.,per_serving (Jede Tablette),per_daily_dose,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+78.jpeg,Vitamin D,Vitamin D,50,50 μg (2000 I.E.),µg,μg,per_serving (pro Kapsel),per_daily_dose,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+8.png,Fat,Fat,4.8,4.8,g,g,per_serving (Per Bar 60g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+8.png,Carbohydrate,Carbohydrate,41,41,g,g,per_serving (Per Bar 60g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+8.png,Protein,Protein,2.2,2.2,g,g,per_serving (Per Bar 60g),per_100g,True,True,True,False,True,False,fast,substring match,numeric match,alias match,mismatch
+8.png,Sugars,- Sugars,21,21,g,g,per_serving (Per Bar 60g),per_100g,True,True,True,False,True,False,fast,substring match,numeric match,alias match,mismatch
+8.png,Sodium,Sodium,43,42,mg,mg,per_serving (Per Bar 60g),per_100g,True,False,True,False,False,False,fast,substring match,mismatch,alias match,mismatch
+8.png,Energy,Energy,892,892/213,kJ,kJ/kcal,per_serving (Per Bar 60g),per_serving,True,False,False,True,False,False,fast,substring match,mismatch,mismatch,alias match
+8.png,Fibre,Dietary Fibre,1.9,1.9,g,g,per_serving (Per Bar 60g),per_serving,False,True,True,True,False,False,fast,no match,numeric match,alias match,alias match
+8.png,Fat,- Saturated Fat,7.9,3.4,g,g,per_100g,per_100g,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+82.jpeg,Protein,Protein,0,0 g,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+82.jpeg,Fat,Fat,0,0 g,g,g,per_100g,per_100g,True,False,True,True,False,False,fast,substring match,mismatch,alias match,alias match
+88.png,Fat,davon gesättigte Fettsäuren/of which saturated fatty acids,0.7,"0,5 g",g,g,per_100ml,per_100ml,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+88.png,Carbohydrate,Kohlenhydrate/glucides/carbohydrates,4.1,"4,1 g",g,g,per_100ml,per_serving,False,False,True,False,False,False,fast,no match,mismatch,alias match,mismatch
+88.png,Sugars,davon Zuckerarten/of which sugars,3.5,"3,5 g",g,g,per_100ml,per_serving,False,False,True,False,False,False,fast,no match,mismatch,alias match,mismatch
+88.png,Protein,Eiweiß/protein(e),8.0,"8,0 g",g,g,per_100ml,per_serving,False,False,True,False,False,False,fast,no match,mismatch,alias match,mismatch
+88.png,Salt,Salt/sel/salt,0.10,"0,10 g",g,g,per_100ml,per_100ml,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match
+9.jpeg,Vitamin C,Vitamin C,30,30,mg,mg,per_serving (pro 1 Tablette),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+90.png,Magnesium,Magnesium,56,56,mg,mg,per_daily_dose (2 Shots (60 ml)),per_daily_dose,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+91.png,Protein,Eiweiß/proteine,8.0,"8,0 g",g,g,per_100ml,per_100ml,False,False,True,True,False,False,fast,no match,mismatch,alias match,alias match

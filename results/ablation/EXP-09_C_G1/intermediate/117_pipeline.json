@@ -1,0 +1,538 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "PROPORTION",
+      "x1": 633,
+      "y1": 90,
+      "x2": 851,
+      "y2": 127,
+      "cx": 742.0,
+      "cy": 108.5,
+      "conf": 0.9901
+    },
+    {
+      "token": "DURCHSCHNITTLICHENAURWERTE",
+      "x1": 62,
+      "y1": 97,
+      "x2": 562,
+      "y2": 140,
+      "cx": 312.0,
+      "cy": 118.5,
+      "conf": 0.9799
+    },
+    {
+      "token": "728/173",
+      "x1": 725,
+      "y1": 141,
+      "x2": 846,
+      "y2": 176,
+      "cx": 785.5,
+      "cy": 158.5,
+      "conf": 0.996
+    },
+    {
+      "token": "ENERGIEkJ/kcal",
+      "x1": 58,
+      "y1": 153,
+      "x2": 284,
+      "y2": 202,
+      "cx": 171.0,
+      "cy": 177.5,
+      "conf": 0.9838
+    },
+    {
+      "token": "6,1",
+      "x1": 778,
+      "y1": 181,
+      "x2": 836,
+      "y2": 246,
+      "cx": 807.0,
+      "cy": 213.5,
+      "conf": 0.8317
+    },
+    {
+      "token": "FETT",
+      "x1": 49,
+      "y1": 197,
+      "x2": 125,
+      "y2": 237,
+      "cx": 87.0,
+      "cy": 217.0,
+      "conf": 0.994
+    },
+    {
+      "token": "KOHLENHYDRATE",
+      "x1": 46,
+      "y1": 284,
+      "x2": 295,
+      "y2": 327,
+      "cx": 170.5,
+      "cy": 305.5,
+      "conf": 0.9957
+    },
+    {
+      "token": "-DAVONZUCKER",
+      "x1": 48,
+      "y1": 332,
+      "x2": 287,
+      "y2": 370,
+      "cx": 167.5,
+      "cy": 351.0,
+      "conf": 0.985
+    },
+    {
+      "token": "BALLASTSTOFFE",
+      "x1": 41,
+      "y1": 378,
+      "x2": 266,
+      "y2": 417,
+      "cx": 153.5,
+      "cy": 397.5,
+      "conf": 0.9956
+    },
+    {
+      "token": "EIWEIB",
+      "x1": 38,
+      "y1": 421,
+      "x2": 141,
+      "y2": 465,
+      "cx": 89.5,
+      "cy": 443.0,
+      "conf": 0.9402
+    },
+    {
+      "token": "0,04g",
+      "x1": 743,
+      "y1": 463,
+      "x2": 841,
+      "y2": 514,
+      "cx": 792.0,
+      "cy": 488.5,
+      "conf": 0.981
+    },
+    {
+      "token": "SALZ",
+      "x1": 35,
+      "y1": 468,
+      "x2": 111,
+      "y2": 512,
+      "cx": 73.0,
+      "cy": 490.0,
+      "conf": 0.9966
+    }
+  ],
+  "corrected": [
+    {
+      "token": "PROPORTION",
+      "x1": 633,
+      "y1": 90,
+      "x2": 851,
+      "y2": 127,
+      "cx": 742.0,
+      "cy": 108.5,
+      "conf": 0.9901
+    },
+    {
+      "token": "DURCHSCHNITTLICHENAURWERTE",
+      "x1": 62,
+      "y1": 97,
+      "x2": 562,
+      "y2": 140,
+      "cx": 312.0,
+      "cy": 118.5,
+      "conf": 0.9799
+    },
+    {
+      "token": "728",
+      "x1": 725,
+      "y1": 141,
+      "x2": 785,
+      "y2": 176,
+      "cx": 755.25,
+      "cy": 158.5,
+      "conf": 0.996
+    },
+    {
+      "token": "173",
+      "x1": 785,
+      "y1": 141,
+      "x2": 846,
+      "y2": 176,
+      "cx": 815.75,
+      "cy": 158.5,
+      "conf": 0.996
+    },
+    {
+      "token": "Energy",
+      "x1": 58,
+      "y1": 153,
+      "x2": 171,
+      "y2": 202,
+      "cx": 114.5,
+      "cy": 177.5,
+      "conf": 0.9838
+    },
+    {
+      "token": "kJ/kcal",
+      "x1": 171,
+      "y1": 153,
+      "x2": 284,
+      "y2": 202,
+      "cx": 227.5,
+      "cy": 177.5,
+      "conf": 0.9838
+    },
+    {
+      "token": "6.1",
+      "x1": 778,
+      "y1": 181,
+      "x2": 836,
+      "y2": 246,
+      "cx": 807.0,
+      "cy": 213.5,
+      "conf": 0.8317
+    },
+    {
+      "token": "Fat",
+      "x1": 49,
+      "y1": 197,
+      "x2": 125,
+      "y2": 237,
+      "cx": 87.0,
+      "cy": 217.0,
+      "conf": 0.994
+    },
+    {
+      "token": "Carbohydrate",
+      "x1": 46,
+      "y1": 284,
+      "x2": 295,
+      "y2": 327,
+      "cx": 170.5,
+      "cy": 305.5,
+      "conf": 0.9957
+    },
+    {
+      "token": "-DAVONZUCKER",
+      "x1": 48,
+      "y1": 332,
+      "x2": 287,
+      "y2": 370,
+      "cx": 167.5,
+      "cy": 351.0,
+      "conf": 0.985
+    },
+    {
+      "token": "Fibre",
+      "x1": 41,
+      "y1": 378,
+      "x2": 266,
+      "y2": 417,
+      "cx": 153.5,
+      "cy": 397.5,
+      "conf": 0.9956
+    },
+    {
+      "token": "Protein",
+      "x1": 38,
+      "y1": 421,
+      "x2": 141,
+      "y2": 465,
+      "cx": 89.5,
+      "cy": 443.0,
+      "conf": 0.9402
+    },
+    {
+      "token": "0.04",
+      "x1": 743,
+      "y1": 463,
+      "x2": 821,
+      "y2": 514,
+      "cx": 782.0,
+      "cy": 488.5,
+      "conf": 0.981
+    },
+    {
+      "token": "g",
+      "x1": 821,
+      "y1": 463,
+      "x2": 841,
+      "y2": 514,
+      "cx": 831.0,
+      "cy": 488.5,
+      "conf": 0.981
+    },
+    {
+      "token": "Salt",
+      "x1": 35,
+      "y1": 468,
+      "x2": 111,
+      "y2": 512,
+      "cx": 73.0,
+      "cy": 490.0,
+      "conf": 0.9966
+    }
+  ],
+  "labeled": [
+    {
+      "token": "PROPORTION",
+      "x1": 633,
+      "y1": 90,
+      "x2": 851,
+      "y2": 127,
+      "cx": 742.0,
+      "cy": 108.5,
+      "conf": 0.9901,
+      "label": "UNKNOWN",
+      "norm": null,
+      "gliner_score": null,
+      "gliner_span_text": null
+    },
+    {
+      "token": "DURCHSCHNITTLICHENAURWERTE",
+      "x1": 62,
+      "y1": 97,
+      "x2": 562,
+      "y2": 140,
+      "cx": 312.0,
+      "cy": 118.5,
+      "conf": 0.9799,
+      "label": "UNKNOWN",
+      "norm": null,
+      "gliner_score": null,
+      "gliner_span_text": null
+    },
+    {
+      "token": "728",
+      "x1": 725,
+      "y1": 141,
+      "x2": 785,
+      "y2": 176,
+      "cx": 755.25,
+      "cy": 158.5,
+      "conf": 0.996,
+      "label": "QUANTITY",
+      "gliner_score": 0.5652747750282288,
+      "gliner_span_text": "728 173",
+      "norm": null
+    },
+    {
+      "token": "173",
+      "x1": 785,
+      "y1": 141,
+      "x2": 846,
+      "y2": 176,
+      "cx": 815.75,
+      "cy": 158.5,
+      "conf": 0.996,
+      "label": "QUANTITY",
+      "gliner_score": 0.5652747750282288,
+      "gliner_span_text": "728 173",
+      "norm": null
+    },
+    {
+      "token": "Energy",
+      "x1": 58,
+      "y1": 153,
+      "x2": 171,
+      "y2": 202,
+      "cx": 114.5,
+      "cy": 177.5,
+      "conf": 0.9838,
+      "label": "UNIT",
+      "gliner_score": 0.38407084345817566,
+      "gliner_span_text": "Energy",
+      "norm": null
+    },
+    {
+      "token": "kJ/kcal",
+      "x1": 171,
+      "y1": 153,
+      "x2": 284,
+      "y2": 202,
+      "cx": 227.5,
+      "cy": 177.5,
+      "conf": 0.9838,
+      "label": "UNIT",
+      "gliner_score": 0.7090061902999878,
+      "gliner_span_text": "kJ/kcal",
+      "norm": null
+    },
+    {
+      "token": "6.1",
+      "x1": 778,
+      "y1": 181,
+      "x2": 836,
+      "y2": 246,
+      "cx": 807.0,
+      "cy": 213.5,
+      "conf": 0.8317,
+      "label": "UNKNOWN",
+      "norm": null,
+      "gliner_score": null,
+      "gliner_span_text": null
+    },
+    {
+      "token": "Fat",
+      "x1": 49,
+      "y1": 197,
+      "x2": 125,
+      "y2": 237,
+      "cx": 87.0,
+      "cy": 217.0,
+      "conf": 0.994,
+      "label": "NUTRIENT",
+      "gliner_score": 0.9505287408828735,
+      "gliner_span_text": "Fat",
+      "norm": null
+    },
+    {
+      "token": "Carbohydrate",
+      "x1": 46,
+      "y1": 284,
+      "x2": 295,
+      "y2": 327,
+      "cx": 170.5,
+      "cy": 305.5,
+      "conf": 0.9957,
+      "label": "NUTRIENT",
+      "gliner_score": 0.9005355834960938,
+      "gliner_span_text": "Carbohydrate",
+      "norm": null
+    },
+    {
+      "token": "-DAVONZUCKER",
+      "x1": 48,
+      "y1": 332,
+      "x2": 287,
+      "y2": 370,
+      "cx": 167.5,
+      "cy": 351.0,
+      "conf": 0.985,
+      "label": "UNKNOWN",
+      "norm": null,
+      "gliner_score": null,
+      "gliner_span_text": null
+    },
+    {
+      "token": "Fibre",
+      "x1": 41,
+      "y1": 378,
+      "x2": 266,
+      "y2": 417,
+      "cx": 153.5,
+      "cy": 397.5,
+      "conf": 0.9956,
+      "label": "NUTRIENT",
+      "gliner_score": 0.9204140901565552,
+      "gliner_span_text": "Fibre",
+      "norm": null
+    },
+    {
+      "token": "Protein",
+      "x1": 38,
+      "y1": 421,
+      "x2": 141,
+      "y2": 465,
+      "cx": 89.5,
+      "cy": 443.0,
+      "conf": 0.9402,
+      "label": "NUTRIENT",
+      "gliner_score": 0.9311646223068237,
+      "gliner_span_text": "Protein",
+      "norm": null
+    },
+    {
+      "token": "0.04",
+      "x1": 743,
+      "y1": 463,
+      "x2": 821,
+      "y2": 514,
+      "cx": 782.0,
+      "cy": 488.5,
+      "conf": 0.981,
+      "label": "QUANTITY",
+      "gliner_score": 0.3085055649280548,
+      "gliner_span_text": "0.04 g",
+      "norm": null
+    },
+    {
+      "token": "g",
+      "x1": 821,
+      "y1": 463,
+      "x2": 841,
+      "y2": 514,
+      "cx": 831.0,
+      "cy": 488.5,
+      "conf": 0.981,
+      "label": "QUANTITY",
+      "gliner_score": 0.3085055649280548,
+      "gliner_span_text": "0.04 g",
+      "norm": null
+    },
+    {
+      "token": "Salt",
+      "x1": 35,
+      "y1": 468,
+      "x2": 111,
+      "y2": 512,
+      "cx": 73.0,
+      "cy": 490.0,
+      "conf": 0.9966,
+      "label": "NUTRIENT",
+      "gliner_score": 0.941315770149231,
+      "gliner_span_text": "Salt",
+      "norm": null
+    }
+  ],
+  "tuples": [
+    {
+      "image_id": "117.jpeg",
+      "nutrient": "Fat",
+      "quantity": null,
+      "unit": null,
+      "context": null
+    },
+    {
+      "image_id": "117.jpeg",
+      "nutrient": "Carbohydrate",
+      "quantity": null,
+      "unit": null,
+      "context": null
+    },
+    {
+      "image_id": "117.jpeg",
+      "nutrient": "Fibre",
+      "quantity": null,
+      "unit": null,
+      "context": null
+    },
+    {
+      "image_id": "117.jpeg",
+      "nutrient": "Protein",
+      "quantity": null,
+      "unit": null,
+      "context": null
+    },
+    {
+      "image_id": "117.jpeg",
+      "nutrient": "Salt",
+      "quantity": "0.04",
+      "unit": null,
+      "context": null
+    },
+    {
+      "image_id": "117.jpeg",
+      "nutrient": "Salt",
+      "quantity": "g",
+      "unit": null,
+      "context": null
+    }
+  ],
+  "diagnostics": {
+    "edges": 64,
+    "nodes": 15
+  },
+  "duration_s": 2.746,
+  "error": null
+}

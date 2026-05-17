@@ -1,0 +1,1 @@
+image_id,gt_nutrient,pred_nutrient,gt_qty,pred_qty,gt_unit,pred_unit,gt_context,pred_context,qty_match,unit_match,ctx_match,full_match_3f,full_match_4f

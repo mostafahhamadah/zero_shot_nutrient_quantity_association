@@ -1,0 +1,719 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "Product information",
+      "x1": 101,
+      "y1": 72,
+      "x2": 1324,
+      "y2": 182,
+      "cx": 712.5,
+      "cy": 127.0,
+      "conf": 0.986
+    },
+    {
+      "token": "Typical values per piece",
+      "x1": 107,
+      "y1": 256,
+      "x2": 1448,
+      "y2": 372,
+      "cx": 777.5,
+      "cy": 314.0,
+      "conf": 0.9652
+    },
+    {
+      "token": "%NRV",
+      "x1": 2022,
+      "y1": 262,
+      "x2": 2411,
+      "y2": 375,
+      "cx": 2216.5,
+      "cy": 318.5,
+      "conf": 0.9973
+    },
+    {
+      "token": "Caffeine",
+      "x1": 169,
+      "y1": 487,
+      "x2": 718,
+      "y2": 605,
+      "cx": 443.5,
+      "cy": 546.0,
+      "conf": 0.9981
+    },
+    {
+      "token": "100mg",
+      "x1": 1474,
+      "y1": 488,
+      "x2": 1923,
+      "y2": 627,
+      "cx": 1698.5,
+      "cy": 557.5,
+      "conf": 0.9986
+    },
+    {
+      "token": "15",
+      "x1": 2301,
+      "y1": 700,
+      "x2": 2445,
+      "y2": 830,
+      "cx": 2373.0,
+      "cy": 765.0,
+      "conf": 0.9996
+    },
+    {
+      "token": "Vitamin B3",
+      "x1": 177,
+      "y1": 712,
+      "x2": 896,
+      "y2": 819,
+      "cx": 536.5,
+      "cy": 765.5,
+      "conf": 0.9833
+    },
+    {
+      "token": "2.4mg NE",
+      "x1": 1298,
+      "y1": 712,
+      "x2": 1927,
+      "y2": 833,
+      "cx": 1612.5,
+      "cy": 772.5,
+      "conf": 0.9951
+    },
+    {
+      "token": "15",
+      "x1": 2310,
+      "y1": 919,
+      "x2": 2453,
+      "y2": 1046,
+      "cx": 2381.5,
+      "cy": 982.5,
+      "conf": 0.9996
+    },
+    {
+      "token": "Vitamin B6",
+      "x1": 177,
+      "y1": 931,
+      "x2": 899,
+      "y2": 1038,
+      "cx": 538.0,
+      "cy": 984.5,
+      "conf": 0.9593
+    },
+    {
+      "token": "0.22mg",
+      "x1": 1441,
+      "y1": 921,
+      "x2": 1939,
+      "y2": 1059,
+      "cx": 1690.0,
+      "cy": 990.0,
+      "conf": 0.9961
+    },
+    {
+      "token": "15",
+      "x1": 2315,
+      "y1": 1139,
+      "x2": 2459,
+      "y2": 1262,
+      "cx": 2387.0,
+      "cy": 1200.5,
+      "conf": 0.9996
+    },
+    {
+      "token": "VitaminB12",
+      "x1": 180,
+      "y1": 1150,
+      "x2": 952,
+      "y2": 1266,
+      "cx": 566.0,
+      "cy": 1208.0,
+      "conf": 0.9975
+    },
+    {
+      "token": "0.38g",
+      "x1": 1480,
+      "y1": 1134,
+      "x2": 1948,
+      "y2": 1287,
+      "cx": 1714.0,
+      "cy": 1210.5,
+      "conf": 0.9982
+    },
+    {
+      "token": "Suitable for vegetarians and vegans",
+      "x1": 110,
+      "y1": 1375,
+      "x2": 2321,
+      "y2": 1496,
+      "cx": 1215.5,
+      "cy": 1435.5,
+      "conf": 0.9612
+    }
+  ],
+  "corrected": [
+    {
+      "token": "Product information",
+      "x1": 101,
+      "y1": 72,
+      "x2": 1324,
+      "y2": 182,
+      "cx": 712.5,
+      "cy": 127.0,
+      "conf": 0.986
+    },
+    {
+      "token": "Typical values per piece",
+      "x1": 107,
+      "y1": 256,
+      "x2": 1448,
+      "y2": 372,
+      "cx": 777.5,
+      "cy": 314.0,
+      "conf": 0.9652
+    },
+    {
+      "token": "%NRV",
+      "x1": 2022,
+      "y1": 262,
+      "x2": 2411,
+      "y2": 375,
+      "cx": 2216.5,
+      "cy": 318.5,
+      "conf": 0.9973
+    },
+    {
+      "token": "Caffeine",
+      "x1": 169,
+      "y1": 487,
+      "x2": 718,
+      "y2": 605,
+      "cx": 443.5,
+      "cy": 546.0,
+      "conf": 0.9981
+    },
+    {
+      "token": "100",
+      "x1": 1474,
+      "y1": 488,
+      "x2": 1743,
+      "y2": 627,
+      "cx": 1608.5,
+      "cy": 557.5,
+      "conf": 0.9986
+    },
+    {
+      "token": "mg",
+      "x1": 1743,
+      "y1": 488,
+      "x2": 1923,
+      "y2": 627,
+      "cx": 1833.0,
+      "cy": 557.5,
+      "conf": 0.9986
+    },
+    {
+      "token": "15",
+      "x1": 2301,
+      "y1": 700,
+      "x2": 2445,
+      "y2": 830,
+      "cx": 2373.0,
+      "cy": 765.0,
+      "conf": 0.9996
+    },
+    {
+      "token": "Niacin",
+      "x1": 177,
+      "y1": 712,
+      "x2": 896,
+      "y2": 819,
+      "cx": 536.5,
+      "cy": 765.5,
+      "conf": 0.9833
+    },
+    {
+      "token": "2.4",
+      "x1": 1298,
+      "y1": 712,
+      "x2": 1533,
+      "y2": 833,
+      "cx": 1415.5,
+      "cy": 772.5,
+      "conf": 0.9951
+    },
+    {
+      "token": "mg NE",
+      "x1": 1533,
+      "y1": 712,
+      "x2": 1927,
+      "y2": 833,
+      "cx": 1730.0,
+      "cy": 772.5,
+      "conf": 0.9951
+    },
+    {
+      "token": "15",
+      "x1": 2310,
+      "y1": 919,
+      "x2": 2453,
+      "y2": 1046,
+      "cx": 2381.5,
+      "cy": 982.5,
+      "conf": 0.9996
+    },
+    {
+      "token": "Vitamin B6",
+      "x1": 177,
+      "y1": 931,
+      "x2": 899,
+      "y2": 1038,
+      "cx": 538.0,
+      "cy": 984.5,
+      "conf": 0.9593
+    },
+    {
+      "token": "0.22",
+      "x1": 1441,
+      "y1": 921,
+      "x2": 1773,
+      "y2": 1059,
+      "cx": 1607.0,
+      "cy": 990.0,
+      "conf": 0.9961
+    },
+    {
+      "token": "mg",
+      "x1": 1773,
+      "y1": 921,
+      "x2": 1939,
+      "y2": 1059,
+      "cx": 1856.0,
+      "cy": 990.0,
+      "conf": 0.9961
+    },
+    {
+      "token": "15",
+      "x1": 2315,
+      "y1": 1139,
+      "x2": 2459,
+      "y2": 1262,
+      "cx": 2387.0,
+      "cy": 1200.5,
+      "conf": 0.9996
+    },
+    {
+      "token": "Vitamin B12",
+      "x1": 180,
+      "y1": 1150,
+      "x2": 952,
+      "y2": 1266,
+      "cx": 566.0,
+      "cy": 1208.0,
+      "conf": 0.9975
+    },
+    {
+      "token": "0.38",
+      "x1": 1480,
+      "y1": 1134,
+      "x2": 1854,
+      "y2": 1287,
+      "cx": 1667.0,
+      "cy": 1210.5,
+      "conf": 0.9982
+    },
+    {
+      "token": "g",
+      "x1": 1854,
+      "y1": 1134,
+      "x2": 1948,
+      "y2": 1287,
+      "cx": 1901.0,
+      "cy": 1210.5,
+      "conf": 0.9982
+    },
+    {
+      "token": "Suitable for vegetarians and vegans",
+      "x1": 110,
+      "y1": 1375,
+      "x2": 2321,
+      "y2": 1496,
+      "cx": 1215.5,
+      "cy": 1435.5,
+      "conf": 0.9612
+    }
+  ],
+  "labeled": [
+    {
+      "token": "Product information",
+      "x1": 101,
+      "y1": 72,
+      "x2": 1324,
+      "y2": 182,
+      "cx": 712.5,
+      "cy": 127.0,
+      "conf": 0.986,
+      "label": "UNKNOWN",
+      "norm": "product information",
+      "embedding_scores": {
+        "NUTRIENT": 0.5324941873550415,
+        "QUANTITY": 0.49855583906173706,
+        "UNIT": 0.4562177360057831,
+        "CONTEXT": 0.5258687138557434,
+        "NOISE": 0.6776091456413269
+      },
+      "embedding_confidence": 0.5324941873550415,
+      "classification_method": "embedding",
+      "embedding_context": "Product information"
+    },
+    {
+      "token": "Typical values per piece",
+      "x1": 107,
+      "y1": 256,
+      "x2": 1448,
+      "y2": 372,
+      "cx": 777.5,
+      "cy": 314.0,
+      "conf": 0.9652,
+      "label": "CONTEXT",
+      "norm": "per_serving",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "%NRV",
+      "x1": 2022,
+      "y1": 262,
+      "x2": 2411,
+      "y2": 375,
+      "cx": 2216.5,
+      "cy": 318.5,
+      "conf": 0.9973,
+      "label": "NOISE",
+      "norm": "%nrv",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Caffeine",
+      "x1": 169,
+      "y1": 487,
+      "x2": 718,
+      "y2": 605,
+      "cx": 443.5,
+      "cy": 546.0,
+      "conf": 0.9981,
+      "label": "NUTRIENT",
+      "norm": "caffeine",
+      "embedding_scores": {
+        "NUTRIENT": 0.7266829013824463,
+        "QUANTITY": 0.43199265003204346,
+        "UNIT": 0.48609843850135803,
+        "CONTEXT": 0.5307832956314087,
+        "NOISE": 0.5315624475479126
+      },
+      "embedding_confidence": 0.7266829013824463,
+      "classification_method": "embedding",
+      "embedding_context": "Caffeine 100 mg"
+    },
+    {
+      "token": "100",
+      "x1": 1474,
+      "y1": 488,
+      "x2": 1743,
+      "y2": 627,
+      "cx": 1608.5,
+      "cy": 557.5,
+      "conf": 0.9986,
+      "label": "QUANTITY",
+      "norm": "100",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 1743,
+      "y1": 488,
+      "x2": 1923,
+      "y2": 627,
+      "cx": 1833.0,
+      "cy": 557.5,
+      "conf": 0.9986,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "15",
+      "x1": 2301,
+      "y1": 700,
+      "x2": 2445,
+      "y2": 830,
+      "cx": 2373.0,
+      "cy": 765.0,
+      "conf": 0.9996,
+      "label": "QUANTITY",
+      "norm": "15",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Niacin",
+      "x1": 177,
+      "y1": 712,
+      "x2": 896,
+      "y2": 819,
+      "cx": 536.5,
+      "cy": 765.5,
+      "conf": 0.9833,
+      "label": "NUTRIENT",
+      "norm": "niacin",
+      "embedding_scores": {
+        "NUTRIENT": 0.6700373888015747,
+        "QUANTITY": 0.4498113691806793,
+        "UNIT": 0.40195775032043457,
+        "CONTEXT": 0.48003554344177246,
+        "NOISE": 0.4580797851085663
+      },
+      "embedding_confidence": 0.6700373888015747,
+      "classification_method": "embedding",
+      "embedding_context": "Niacin 2.4 mg NE 15"
+    },
+    {
+      "token": "2.4",
+      "x1": 1298,
+      "y1": 712,
+      "x2": 1533,
+      "y2": 833,
+      "cx": 1415.5,
+      "cy": 772.5,
+      "conf": 0.9951,
+      "label": "QUANTITY",
+      "norm": "2.4",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg NE",
+      "x1": 1533,
+      "y1": 712,
+      "x2": 1927,
+      "y2": 833,
+      "cx": 1730.0,
+      "cy": 772.5,
+      "conf": 0.9951,
+      "label": "UNIT",
+      "norm": "mg ne",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "15",
+      "x1": 2310,
+      "y1": 919,
+      "x2": 2453,
+      "y2": 1046,
+      "cx": 2381.5,
+      "cy": 982.5,
+      "conf": 0.9996,
+      "label": "QUANTITY",
+      "norm": "15",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Vitamin B6",
+      "x1": 177,
+      "y1": 931,
+      "x2": 899,
+      "y2": 1038,
+      "cx": 538.0,
+      "cy": 984.5,
+      "conf": 0.9593,
+      "label": "NUTRIENT",
+      "norm": "vitamin b6",
+      "embedding_scores": {
+        "NUTRIENT": 0.7758913636207581,
+        "QUANTITY": 0.4617365002632141,
+        "UNIT": 0.4641375243663788,
+        "CONTEXT": 0.5013992786407471,
+        "NOISE": 0.4117150902748108
+      },
+      "embedding_confidence": 0.7758913636207581,
+      "classification_method": "embedding",
+      "embedding_context": "Vitamin B6 0.22 mg 15"
+    },
+    {
+      "token": "0.22",
+      "x1": 1441,
+      "y1": 921,
+      "x2": 1773,
+      "y2": 1059,
+      "cx": 1607.0,
+      "cy": 990.0,
+      "conf": 0.9961,
+      "label": "QUANTITY",
+      "norm": "0.22",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 1773,
+      "y1": 921,
+      "x2": 1939,
+      "y2": 1059,
+      "cx": 1856.0,
+      "cy": 990.0,
+      "conf": 0.9961,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "15",
+      "x1": 2315,
+      "y1": 1139,
+      "x2": 2459,
+      "y2": 1262,
+      "cx": 2387.0,
+      "cy": 1200.5,
+      "conf": 0.9996,
+      "label": "QUANTITY",
+      "norm": "15",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Vitamin B12",
+      "x1": 180,
+      "y1": 1150,
+      "x2": 952,
+      "y2": 1266,
+      "cx": 566.0,
+      "cy": 1208.0,
+      "conf": 0.9975,
+      "label": "NUTRIENT",
+      "norm": "vitamin b12",
+      "embedding_scores": {
+        "NUTRIENT": 0.7986050248146057,
+        "QUANTITY": 0.49099189043045044,
+        "UNIT": 0.45997166633605957,
+        "CONTEXT": 0.49240750074386597,
+        "NOISE": 0.40476977825164795
+      },
+      "embedding_confidence": 0.7986050248146057,
+      "classification_method": "embedding",
+      "embedding_context": "Vitamin B12 0.38 g 15"
+    },
+    {
+      "token": "0.38",
+      "x1": 1480,
+      "y1": 1134,
+      "x2": 1854,
+      "y2": 1287,
+      "cx": 1667.0,
+      "cy": 1210.5,
+      "conf": 0.9982,
+      "label": "QUANTITY",
+      "norm": "0.38",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "g",
+      "x1": 1854,
+      "y1": 1134,
+      "x2": 1948,
+      "y2": 1287,
+      "cx": 1901.0,
+      "cy": 1210.5,
+      "conf": 0.9982,
+      "label": "UNIT",
+      "norm": "g",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Suitable for vegetarians and vegans",
+      "x1": 110,
+      "y1": 1375,
+      "x2": 2321,
+      "y2": 1496,
+      "cx": 1215.5,
+      "cy": 1435.5,
+      "conf": 0.9612,
+      "label": "UNKNOWN",
+      "norm": "suitable for vegetarians and vegans",
+      "embedding_scores": {
+        "NUTRIENT": 0.5586038827896118,
+        "QUANTITY": 0.39697903394699097,
+        "UNIT": 0.40132641792297363,
+        "CONTEXT": 0.5038173198699951,
+        "NOISE": 0.6345846652984619
+      },
+      "embedding_confidence": 0.5586038827896118,
+      "classification_method": "embedding",
+      "embedding_context": "Suitable for vegetarians and vegans"
+    }
+  ],
+  "tuples": [
+    {
+      "image_id": "17.png",
+      "nutrient": "Caffeine",
+      "quantity": "100",
+      "unit": "mg",
+      "context": "per_serving"
+    },
+    {
+      "image_id": "17.png",
+      "nutrient": "Niacin",
+      "quantity": "2.4",
+      "unit": "mg ne",
+      "context": "per_serving"
+    },
+    {
+      "image_id": "17.png",
+      "nutrient": "Niacin",
+      "quantity": "15",
+      "unit": "mg ne",
+      "context": "per_serving"
+    },
+    {
+      "image_id": "17.png",
+      "nutrient": "Vitamin B6",
+      "quantity": "0.22",
+      "unit": "mg",
+      "context": "per_serving"
+    },
+    {
+      "image_id": "17.png",
+      "nutrient": "Vitamin B6",
+      "quantity": "15",
+      "unit": "mg",
+      "context": "per_serving"
+    },
+    {
+      "image_id": "17.png",
+      "nutrient": "Vitamin B12",
+      "quantity": "0.38",
+      "unit": "g",
+      "context": "per_serving"
+    },
+    {
+      "image_id": "17.png",
+      "nutrient": "Vitamin B12",
+      "quantity": "15",
+      "unit": "g",
+      "context": "per_serving"
+    }
+  ],
+  "diagnostics": {
+    "edges": 100,
+    "nodes": 18
+  },
+  "duration_s": 2.904,
+  "error": null
+}

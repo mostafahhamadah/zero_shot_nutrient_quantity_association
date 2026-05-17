@@ -1,0 +1,918 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "Per Bar 60g",
+      "x1": 1017,
+      "y1": 247,
+      "x2": 1562,
+      "y2": 401,
+      "cx": 1289.5,
+      "cy": 324.0,
+      "conf": 0.9865
+    },
+    {
+      "token": "Per 100g",
+      "x1": 1561,
+      "y1": 258,
+      "x2": 2017,
+      "y2": 426,
+      "cx": 1789.0,
+      "cy": 342.0,
+      "conf": 0.9605
+    },
+    {
+      "token": "TYPICAL VALUES",
+      "x1": 401,
+      "y1": 414,
+      "x2": 1067,
+      "y2": 550,
+      "cx": 734.0,
+      "cy": 482.0,
+      "conf": 0.9613
+    },
+    {
+      "token": "ENERGY kJ/kca",
+      "x1": 404,
+      "y1": 584,
+      "x2": 1006,
+      "y2": 715,
+      "cx": 705.0,
+      "cy": 649.5,
+      "conf": 0.9961
+    },
+    {
+      "token": "892/2131486/355",
+      "x1": 1217,
+      "y1": 587,
+      "x2": 1996,
+      "y2": 729,
+      "cx": 1606.5,
+      "cy": 658.0,
+      "conf": 0.9982
+    },
+    {
+      "token": "PROTEIN(g)",
+      "x1": 386,
+      "y1": 723,
+      "x2": 897,
+      "y2": 928,
+      "cx": 641.5,
+      "cy": 825.5,
+      "conf": 0.9795
+    },
+    {
+      "token": "2.2",
+      "x1": 1414,
+      "y1": 748,
+      "x2": 1560,
+      "y2": 907,
+      "cx": 1487.0,
+      "cy": 827.5,
+      "conf": 0.9949
+    },
+    {
+      "token": "3.7",
+      "x1": 1860,
+      "y1": 757,
+      "x2": 1993,
+      "y2": 909,
+      "cx": 1926.5,
+      "cy": 833.0,
+      "conf": 0.999
+    },
+    {
+      "token": "FAT: (g)",
+      "x1": 387,
+      "y1": 895,
+      "x2": 721,
+      "y2": 1091,
+      "cx": 554.0,
+      "cy": 993.0,
+      "conf": 0.9164
+    },
+    {
+      "token": "4.8",
+      "x1": 1421,
+      "y1": 916,
+      "x2": 1563,
+      "y2": 1079,
+      "cx": 1492.0,
+      "cy": 997.5,
+      "conf": 0.999
+    },
+    {
+      "token": "7.9",
+      "x1": 1860,
+      "y1": 920,
+      "x2": 1995,
+      "y2": 1097,
+      "cx": 1927.5,
+      "cy": 1008.5,
+      "conf": 0.9996
+    },
+    {
+      "token": "- SATURATED FAT (g)",
+      "x1": 427,
+      "y1": 1071,
+      "x2": 1280,
+      "y2": 1246,
+      "cx": 853.5,
+      "cy": 1158.5,
+      "conf": 0.9237
+    },
+    {
+      "token": "CARBOHYDRATE (g)",
+      "x1": 411,
+      "y1": 1225,
+      "x2": 1233,
+      "y2": 1435,
+      "cx": 822.0,
+      "cy": 1330.0,
+      "conf": 0.9888
+    },
+    {
+      "token": "-SUGARS (g)",
+      "x1": 434,
+      "y1": 1392,
+      "x2": 987,
+      "y2": 1594,
+      "cx": 710.5,
+      "cy": 1493.0,
+      "conf": 0.9624
+    },
+    {
+      "token": "21271",
+      "x1": 1405,
+      "y1": 1070,
+      "x2": 1574,
+      "y2": 1932,
+      "cx": 1489.5,
+      "cy": 1501.0,
+      "conf": 0.5868
+    },
+    {
+      "token": "2823232",
+      "x1": 1844,
+      "y1": 1068,
+      "x2": 2002,
+      "y2": 1934,
+      "cx": 1923.0,
+      "cy": 1501.0,
+      "conf": 0.5453
+    },
+    {
+      "token": "DIETARY FIBRE (g)",
+      "x1": 436,
+      "y1": 1584,
+      "x2": 1194,
+      "y2": 1769,
+      "cx": 815.0,
+      "cy": 1676.5,
+      "conf": 0.9791
+    },
+    {
+      "token": "SODIUM (mg)",
+      "x1": 440,
+      "y1": 1751,
+      "x2": 1002,
+      "y2": 1932,
+      "cx": 721.0,
+      "cy": 1841.5,
+      "conf": 0.9591
+    }
+  ],
+  "corrected": [
+    {
+      "token": "Per Bar 60g",
+      "x1": 1017,
+      "y1": 247,
+      "x2": 1562,
+      "y2": 401,
+      "cx": 1289.5,
+      "cy": 324.0,
+      "conf": 0.9865
+    },
+    {
+      "token": "Per 100g",
+      "x1": 1561,
+      "y1": 258,
+      "x2": 2017,
+      "y2": 426,
+      "cx": 1789.0,
+      "cy": 342.0,
+      "conf": 0.9605
+    },
+    {
+      "token": "TYPICAL VALUES",
+      "x1": 401,
+      "y1": 414,
+      "x2": 1067,
+      "y2": 550,
+      "cx": 734.0,
+      "cy": 482.0,
+      "conf": 0.9613
+    },
+    {
+      "token": "Energy",
+      "x1": 404,
+      "y1": 584,
+      "x2": 1006,
+      "y2": 715,
+      "cx": 705.0,
+      "cy": 649.5,
+      "conf": 0.9961
+    },
+    {
+      "token": "892/2131486/355",
+      "x1": 1217,
+      "y1": 587,
+      "x2": 1996,
+      "y2": 729,
+      "cx": 1606.5,
+      "cy": 658.0,
+      "conf": 0.9982
+    },
+    {
+      "token": "Protein",
+      "x1": 386,
+      "y1": 723,
+      "x2": 897,
+      "y2": 928,
+      "cx": 641.5,
+      "cy": 825.5,
+      "conf": 0.9795
+    },
+    {
+      "token": "2.2",
+      "x1": 1414,
+      "y1": 748,
+      "x2": 1560,
+      "y2": 907,
+      "cx": 1487.0,
+      "cy": 827.5,
+      "conf": 0.9949
+    },
+    {
+      "token": "3.7",
+      "x1": 1860,
+      "y1": 757,
+      "x2": 1993,
+      "y2": 909,
+      "cx": 1926.5,
+      "cy": 833.0,
+      "conf": 0.999
+    },
+    {
+      "token": "FAT: (g)",
+      "x1": 387,
+      "y1": 895,
+      "x2": 721,
+      "y2": 1091,
+      "cx": 554.0,
+      "cy": 993.0,
+      "conf": 0.9164
+    },
+    {
+      "token": "4.8",
+      "x1": 1421,
+      "y1": 916,
+      "x2": 1563,
+      "y2": 1079,
+      "cx": 1492.0,
+      "cy": 997.5,
+      "conf": 0.999
+    },
+    {
+      "token": "7.9",
+      "x1": 1860,
+      "y1": 920,
+      "x2": 1995,
+      "y2": 1097,
+      "cx": 1927.5,
+      "cy": 1008.5,
+      "conf": 0.9996
+    },
+    {
+      "token": "Saturated Fats",
+      "x1": 427,
+      "y1": 1071,
+      "x2": 1226,
+      "y2": 1246,
+      "cx": 826.5,
+      "cy": 1158.5,
+      "conf": 0.9237
+    },
+    {
+      "token": "g",
+      "x1": 1226,
+      "y1": 1071,
+      "x2": 1280,
+      "y2": 1246,
+      "cx": 1253.0,
+      "cy": 1158.5,
+      "conf": 0.9237
+    },
+    {
+      "token": "Carbohydrate",
+      "x1": 411,
+      "y1": 1225,
+      "x2": 1233,
+      "y2": 1435,
+      "cx": 822.0,
+      "cy": 1330.0,
+      "conf": 0.9888
+    },
+    {
+      "token": "Sugars",
+      "x1": 434,
+      "y1": 1392,
+      "x2": 917,
+      "y2": 1594,
+      "cx": 675.5,
+      "cy": 1493.0,
+      "conf": 0.9624
+    },
+    {
+      "token": "g",
+      "x1": 917,
+      "y1": 1392,
+      "x2": 987,
+      "y2": 1594,
+      "cx": 952.0,
+      "cy": 1493.0,
+      "conf": 0.9624
+    },
+    {
+      "token": "21271",
+      "x1": 1405,
+      "y1": 1070,
+      "x2": 1574,
+      "y2": 1932,
+      "cx": 1489.5,
+      "cy": 1501.0,
+      "conf": 0.5868
+    },
+    {
+      "token": "2823232",
+      "x1": 1844,
+      "y1": 1068,
+      "x2": 2002,
+      "y2": 1934,
+      "cx": 1923.0,
+      "cy": 1501.0,
+      "conf": 0.5453
+    },
+    {
+      "token": "Fibre",
+      "x1": 436,
+      "y1": 1584,
+      "x2": 1194,
+      "y2": 1769,
+      "cx": 815.0,
+      "cy": 1676.5,
+      "conf": 0.9791
+    },
+    {
+      "token": "Sodium",
+      "x1": 440,
+      "y1": 1751,
+      "x2": 861,
+      "y2": 1932,
+      "cx": 650.5,
+      "cy": 1841.5,
+      "conf": 0.9591
+    },
+    {
+      "token": "mg",
+      "x1": 861,
+      "y1": 1751,
+      "x2": 1002,
+      "y2": 1932,
+      "cx": 931.5,
+      "cy": 1841.5,
+      "conf": 0.9591
+    }
+  ],
+  "labeled": [
+    {
+      "token": "Per Bar 60g",
+      "x1": 1017,
+      "y1": 247,
+      "x2": 1562,
+      "y2": 401,
+      "cx": 1289.5,
+      "cy": 324.0,
+      "conf": 0.9865,
+      "label": "CONTEXT",
+      "norm": "per_serving",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Per 100g",
+      "x1": 1561,
+      "y1": 258,
+      "x2": 2017,
+      "y2": 426,
+      "cx": 1789.0,
+      "cy": 342.0,
+      "conf": 0.9605,
+      "label": "CONTEXT",
+      "norm": "per_100g",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "TYPICAL VALUES",
+      "x1": 401,
+      "y1": 414,
+      "x2": 1067,
+      "y2": 550,
+      "cx": 734.0,
+      "cy": 482.0,
+      "conf": 0.9613,
+      "label": "UNKNOWN",
+      "norm": "typical values",
+      "embedding_scores": {
+        "NUTRIENT": 0.5316418409347534,
+        "QUANTITY": 0.5462961196899414,
+        "UNIT": 0.44831204414367676,
+        "CONTEXT": 0.4281075894832611,
+        "NOISE": 0.49288642406463623
+      },
+      "embedding_confidence": 0.5316418409347534,
+      "classification_method": "embedding",
+      "embedding_context": "TYPICAL VALUES"
+    },
+    {
+      "token": "Energy",
+      "x1": 404,
+      "y1": 584,
+      "x2": 1006,
+      "y2": 715,
+      "cx": 705.0,
+      "cy": 649.5,
+      "conf": 0.9961,
+      "label": "NUTRIENT",
+      "norm": "energy",
+      "embedding_scores": {
+        "NUTRIENT": 0.6192200779914856,
+        "QUANTITY": 0.43822380900382996,
+        "UNIT": 0.4898858666419983,
+        "CONTEXT": 0.4607155919075012,
+        "NOISE": 0.5253089070320129
+      },
+      "embedding_confidence": 0.6192200779914856,
+      "classification_method": "embedding",
+      "embedding_context": "Energy 892/2131486/355"
+    },
+    {
+      "token": "892/2131486/355",
+      "x1": 1217,
+      "y1": 587,
+      "x2": 1996,
+      "y2": 729,
+      "cx": 1606.5,
+      "cy": 658.0,
+      "conf": 0.9982,
+      "label": "NUTRIENT",
+      "norm": "892/2131486/355",
+      "embedding_scores": {
+        "NUTRIENT": 0.6192200779914856,
+        "QUANTITY": 0.43822380900382996,
+        "UNIT": 0.4898858666419983,
+        "CONTEXT": 0.4607155919075012,
+        "NOISE": 0.5253089070320129
+      },
+      "embedding_confidence": 0.6192200779914856,
+      "classification_method": "embedding",
+      "embedding_context": "Energy 892/2131486/355"
+    },
+    {
+      "token": "Protein",
+      "x1": 386,
+      "y1": 723,
+      "x2": 897,
+      "y2": 928,
+      "cx": 641.5,
+      "cy": 825.5,
+      "conf": 0.9795,
+      "label": "NUTRIENT",
+      "norm": "protein",
+      "embedding_scores": {
+        "NUTRIENT": 0.7057312726974487,
+        "QUANTITY": 0.44183602929115295,
+        "UNIT": 0.41486576199531555,
+        "CONTEXT": 0.479126513004303,
+        "NOISE": 0.4758586287498474
+      },
+      "embedding_confidence": 0.7057312726974487,
+      "classification_method": "embedding",
+      "embedding_context": "Protein 2.2 3.7"
+    },
+    {
+      "token": "2.2",
+      "x1": 1414,
+      "y1": 748,
+      "x2": 1560,
+      "y2": 907,
+      "cx": 1487.0,
+      "cy": 827.5,
+      "conf": 0.9949,
+      "label": "QUANTITY",
+      "norm": "2.2",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "3.7",
+      "x1": 1860,
+      "y1": 757,
+      "x2": 1993,
+      "y2": 909,
+      "cx": 1926.5,
+      "cy": 833.0,
+      "conf": 0.999,
+      "label": "QUANTITY",
+      "norm": "3.7",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "FAT: (g)",
+      "x1": 387,
+      "y1": 895,
+      "x2": 721,
+      "y2": 1091,
+      "cx": 554.0,
+      "cy": 993.0,
+      "conf": 0.9164,
+      "label": "NUTRIENT",
+      "norm": "fat",
+      "embedding_scores": {
+        "NUTRIENT": 0.6678863167762756,
+        "QUANTITY": 0.47837239503860474,
+        "UNIT": 0.47853219509124756,
+        "CONTEXT": 0.4637163579463959,
+        "NOISE": 0.46585190296173096
+      },
+      "embedding_confidence": 0.6678863167762756,
+      "classification_method": "embedding",
+      "embedding_context": "FAT: (g) 4.8 7.9"
+    },
+    {
+      "token": "4.8",
+      "x1": 1421,
+      "y1": 916,
+      "x2": 1563,
+      "y2": 1079,
+      "cx": 1492.0,
+      "cy": 997.5,
+      "conf": 0.999,
+      "label": "QUANTITY",
+      "norm": "4.8",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "7.9",
+      "x1": 1860,
+      "y1": 920,
+      "x2": 1995,
+      "y2": 1097,
+      "cx": 1927.5,
+      "cy": 1008.5,
+      "conf": 0.9996,
+      "label": "QUANTITY",
+      "norm": "7.9",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Saturated Fats",
+      "x1": 427,
+      "y1": 1071,
+      "x2": 1226,
+      "y2": 1246,
+      "cx": 826.5,
+      "cy": 1158.5,
+      "conf": 0.9237,
+      "label": "NUTRIENT",
+      "norm": "saturated fats",
+      "embedding_scores": {
+        "NUTRIENT": 0.6611286997795105,
+        "QUANTITY": 0.3831648826599121,
+        "UNIT": 0.4215965270996094,
+        "CONTEXT": 0.42738914489746094,
+        "NOISE": 0.44887518882751465
+      },
+      "embedding_confidence": 0.6611286997795105,
+      "classification_method": "embedding",
+      "embedding_context": "Saturated Fats g"
+    },
+    {
+      "token": "g",
+      "x1": 1226,
+      "y1": 1071,
+      "x2": 1280,
+      "y2": 1246,
+      "cx": 1253.0,
+      "cy": 1158.5,
+      "conf": 0.9237,
+      "label": "UNIT",
+      "norm": "g",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Carbohydrate",
+      "x1": 411,
+      "y1": 1225,
+      "x2": 1233,
+      "y2": 1435,
+      "cx": 822.0,
+      "cy": 1330.0,
+      "conf": 0.9888,
+      "label": "NUTRIENT",
+      "norm": "carbohydrate",
+      "embedding_scores": {
+        "NUTRIENT": 1.0,
+        "QUANTITY": 0.4349270761013031,
+        "UNIT": 0.4390376806259155,
+        "CONTEXT": 0.4393393397331238,
+        "NOISE": 0.5731287002563477
+      },
+      "embedding_confidence": 1.0,
+      "classification_method": "embedding",
+      "embedding_context": "Carbohydrate"
+    },
+    {
+      "token": "Sugars",
+      "x1": 434,
+      "y1": 1392,
+      "x2": 917,
+      "y2": 1594,
+      "cx": 675.5,
+      "cy": 1493.0,
+      "conf": 0.9624,
+      "label": "NUTRIENT",
+      "norm": "sugars",
+      "embedding_scores": {
+        "NUTRIENT": 0.6778174638748169,
+        "QUANTITY": 0.43925485014915466,
+        "UNIT": 0.5014800429344177,
+        "CONTEXT": 0.44346949458122253,
+        "NOISE": 0.4525107145309448
+      },
+      "embedding_confidence": 0.6778174638748169,
+      "classification_method": "embedding",
+      "embedding_context": "Sugars g 21271 2823232"
+    },
+    {
+      "token": "g",
+      "x1": 917,
+      "y1": 1392,
+      "x2": 987,
+      "y2": 1594,
+      "cx": 952.0,
+      "cy": 1493.0,
+      "conf": 0.9624,
+      "label": "UNIT",
+      "norm": "g",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "21271",
+      "x1": 1405,
+      "y1": 1070,
+      "x2": 1574,
+      "y2": 1932,
+      "cx": 1489.5,
+      "cy": 1501.0,
+      "conf": 0.5868,
+      "label": "QUANTITY",
+      "norm": "21271",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "2823232",
+      "x1": 1844,
+      "y1": 1068,
+      "x2": 2002,
+      "y2": 1934,
+      "cx": 1923.0,
+      "cy": 1501.0,
+      "conf": 0.5453,
+      "label": "QUANTITY",
+      "norm": "2823232",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Fibre",
+      "x1": 436,
+      "y1": 1584,
+      "x2": 1194,
+      "y2": 1769,
+      "cx": 815.0,
+      "cy": 1676.5,
+      "conf": 0.9791,
+      "label": "NUTRIENT",
+      "norm": "fibre",
+      "embedding_scores": {
+        "NUTRIENT": 1.0,
+        "QUANTITY": 0.35200217366218567,
+        "UNIT": 0.35971224308013916,
+        "CONTEXT": 0.3744819462299347,
+        "NOISE": 0.4814859628677368
+      },
+      "embedding_confidence": 1.0,
+      "classification_method": "embedding",
+      "embedding_context": "Fibre"
+    },
+    {
+      "token": "Sodium",
+      "x1": 440,
+      "y1": 1751,
+      "x2": 861,
+      "y2": 1932,
+      "cx": 650.5,
+      "cy": 1841.5,
+      "conf": 0.9591,
+      "label": "NUTRIENT",
+      "norm": "sodium",
+      "embedding_scores": {
+        "NUTRIENT": 0.6904181241989136,
+        "QUANTITY": 0.43409842252731323,
+        "UNIT": 0.520548403263092,
+        "CONTEXT": 0.5038621425628662,
+        "NOISE": 0.49081820249557495
+      },
+      "embedding_confidence": 0.6904181241989136,
+      "classification_method": "embedding",
+      "embedding_context": "Sodium mg"
+    },
+    {
+      "token": "mg",
+      "x1": 861,
+      "y1": 1751,
+      "x2": 1002,
+      "y2": 1932,
+      "cx": 931.5,
+      "cy": 1841.5,
+      "conf": 0.9591,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    }
+  ],
+  "tuples": [
+    {
+      "image_id": "8.png",
+      "nutrient": "Energy",
+      "quantity": "2.2",
+      "unit": "g",
+      "context": "per_serving",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "8.png",
+      "nutrient": "892/2131486/355",
+      "quantity": "2.2",
+      "unit": "g",
+      "context": "per_serving",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "8.png",
+      "nutrient": "Protein",
+      "quantity": "2.2",
+      "unit": "g",
+      "context": "per_serving",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "8.png",
+      "nutrient": "Protein",
+      "quantity": "3.7",
+      "unit": null,
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "8.png",
+      "nutrient": "FAT: (g",
+      "quantity": "4.8",
+      "unit": "g",
+      "context": "per_serving",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "8.png",
+      "nutrient": "FAT: (g",
+      "quantity": "7.9",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "8.png",
+      "nutrient": "Saturated Fats",
+      "quantity": "7.9",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "8.png",
+      "nutrient": "Carbohydrate",
+      "quantity": "21271",
+      "unit": "g",
+      "context": "per_serving",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "8.png",
+      "nutrient": "Sugars",
+      "quantity": "21271",
+      "unit": "g",
+      "context": "per_serving",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "8.png",
+      "nutrient": "Sugars",
+      "quantity": "2823232",
+      "unit": "g",
+      "context": "per_100g",
+      "_score": 1.0,
+      "_stream": 0
+    },
+    {
+      "image_id": "8.png",
+      "nutrient": "Fibre",
+      "quantity": null,
+      "unit": null,
+      "context": "per_serving",
+      "_score": 0.0,
+      "_stream": -1
+    },
+    {
+      "image_id": "8.png",
+      "nutrient": "Sodium",
+      "quantity": null,
+      "unit": null,
+      "context": "per_serving",
+      "_score": 0.0,
+      "_stream": -1
+    }
+  ],
+  "diagnostics": {
+    "enricher": {
+      "active_tokens": 21,
+      "num_rows": 10,
+      "num_columns": 2,
+      "column_roles": {
+        "0": "NUTRIENT",
+        "1": "DOSAGE"
+      },
+      "column_angles": {
+        "0": 0.0,
+        "1": 0.0
+      },
+      "column_contexts": {
+        "1": "per_100g"
+      },
+      "dosage_streams": 1,
+      "rank_counts": {
+        "0": 11,
+        "1": 8
+      },
+      "rank_consistent": false,
+      "headers_detected": 2
+    },
+    "associator": {
+      "nutrients": 9,
+      "quantities": 6,
+      "dosage_streams": 1,
+      "mode": "v2_streams",
+      "tuples": 12
+    },
+    "edges": 190,
+    "nodes": 21
+  },
+  "duration_s": 4.161,
+  "error": null
+}

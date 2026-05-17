@@ -1,0 +1,15 @@
+image_id,n_ground_truth,n_predicted,tp,fp,fn,precision,recall,f1,fast_rule_decision,likely_failure_source,descriptive_summary
+1.png,5,5,4,1,1,0.8,0.8,1.0,n/a,none,"Image: 1.png. GT=5, predicted=5, TP=4, FP=1, FN=1. Precision=0.80, recall=0.80, F1=1.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Magnesium (gesamt 400 mg [per_daily_dose]; Magnesiumoxid 400 mg [per_daily_dose]; Magnesiumbisglycinat 350 mg [per_daily_dose]  (+1 more)"
+6.png,6,6,6,0,0,1.0,1.0,1.0,n/a,none,"Image: 6.png. GT=6, predicted=6, TP=6, FP=0, FN=0. Precision=1.00, recall=1.00, F1=1.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Vitamin C 28 mg [per_serving]; Magnesium 56 mg [per_serving]; Potassium 70 mg [per_serving]  (+3 more)"
+17.png,4,7,3,4,1,0.4286,0.75,0.75,n/a,none,"Image: 17.png. GT=4, predicted=7, TP=3, FP=4, FN=1. Precision=0.43, recall=0.75, F1=0.75. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Caffeine 100 mg [per_serving]; Niacin 2.4 mg ne [per_serving]; Vitamin B6 0.22 mg [per_serving]  (+1 more)"
+64.png,8,8,6,2,2,0.75,0.75,0.75,n/a,none,"Image: 64.png. GT=8, predicted=8, TP=6, FP=2, FN=2. Precision=0.75, recall=0.75, F1=0.75. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Vitamin C 50 mg [per_daily_dose]; Vitamin B2 0.6 mg [per_daily_dose]; Niacin 7.0 mg [per_daily_dose]  (+5 more)"
+101.png,11,11,9,2,2,0.8182,0.8182,0.82,n/a,none,"Image: 101.png. GT=11, predicted=11, TP=9, FP=2, FN=2. Precision=0.82, recall=0.82, F1=0.82. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Energy 1625 kj [per_100g]; Fat 0.8 g [per_100g]; Saturated Fats <0.1 g [per_100g]  (+8 more)"
+108.jpeg,11,18,7,11,4,0.3889,0.6364,0.7,n/a,none,"Image: 108.jpeg. GT=11, predicted=18, TP=7, FP=11, FN=4. Precision=0.39, recall=0.64, F1=0.70. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Magnesium 240 mg [per_daily_dose]; Vitamin B1 1.1 mg [per_daily_dose]; Vitamin B2 1.4 mg [per_daily_dose]  (+7 more)"
+109.jpeg,9,12,8,4,1,0.6667,0.8889,0.89,n/a,none,"Image: 109.jpeg. GT=9, predicted=12, TP=8, FP=4, FN=1. Precision=0.67, recall=0.89, F1=0.89. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Energy 420 kj [per_100g]; Fat 0 g [per_100g]; Saturated Fats 0.2 g [per_100g]  (+6 more)"

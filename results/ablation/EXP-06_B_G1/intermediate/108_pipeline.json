@@ -1,0 +1,1246 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "Zusammensetzung",
+      "x1": 292,
+      "y1": 44,
+      "x2": 639,
+      "y2": 131,
+      "cx": 465.5,
+      "cy": 87.5,
+      "conf": 0.9989
+    },
+    {
+      "token": "1 Tablette (5,6g)",
+      "x1": 358,
+      "y1": 128,
+      "x2": 633,
+      "y2": 231,
+      "cx": 495.5,
+      "cy": 179.5,
+      "conf": 0.9439
+    },
+    {
+      "token": "240mg",
+      "x1": 534,
+      "y1": 199,
+      "x2": 643,
+      "y2": 269,
+      "cx": 588.5,
+      "cy": 234.0,
+      "conf": 0.9983
+    },
+    {
+      "token": "Magnesium",
+      "x1": 35,
+      "y1": 203,
+      "x2": 232,
+      "y2": 299,
+      "cx": 133.5,
+      "cy": 251.0,
+      "conf": 0.9904
+    },
+    {
+      "token": "1,1mg",
+      "x1": 542,
+      "y1": 260,
+      "x2": 645,
+      "y2": 339,
+      "cx": 593.5,
+      "cy": 299.5,
+      "conf": 0.9832
+    },
+    {
+      "token": "Vitamin B1",
+      "x1": 41,
+      "y1": 270,
+      "x2": 216,
+      "y2": 356,
+      "cx": 128.5,
+      "cy": 313.0,
+      "conf": 0.9253
+    },
+    {
+      "token": "1,4mg",
+      "x1": 542,
+      "y1": 326,
+      "x2": 637,
+      "y2": 402,
+      "cx": 589.5,
+      "cy": 364.0,
+      "conf": 0.9855
+    },
+    {
+      "token": "Vitamin B2",
+      "x1": 43,
+      "y1": 334,
+      "x2": 217,
+      "y2": 425,
+      "cx": 130.0,
+      "cy": 379.5,
+      "conf": 0.9493
+    },
+    {
+      "token": "1,4 mg",
+      "x1": 538,
+      "y1": 387,
+      "x2": 639,
+      "y2": 466,
+      "cx": 588.5,
+      "cy": 426.5,
+      "conf": 0.9433
+    },
+    {
+      "token": "Vitamin B6",
+      "x1": 45,
+      "y1": 398,
+      "x2": 218,
+      "y2": 490,
+      "cx": 131.5,
+      "cy": 444.0,
+      "conf": 0.9474
+    },
+    {
+      "token": "2,519",
+      "x1": 540,
+      "y1": 448,
+      "x2": 638,
+      "y2": 528,
+      "cx": 589.0,
+      "cy": 488.0,
+      "conf": 0.8636
+    },
+    {
+      "token": "Vitamin B12",
+      "x1": 48,
+      "y1": 463,
+      "x2": 239,
+      "y2": 559,
+      "cx": 143.5,
+      "cy": 511.0,
+      "conf": 0.9334
+    },
+    {
+      "token": "80mg",
+      "x1": 540,
+      "y1": 510,
+      "x2": 636,
+      "y2": 583,
+      "cx": 588.0,
+      "cy": 546.5,
+      "conf": 0.9972
+    },
+    {
+      "token": "VitaminC",
+      "x1": 46,
+      "y1": 522,
+      "x2": 203,
+      "y2": 616,
+      "cx": 124.5,
+      "cy": 569.0,
+      "conf": 0.9746
+    },
+    {
+      "token": "12 mg",
+      "x1": 541,
+      "y1": 572,
+      "x2": 633,
+      "y2": 645,
+      "cx": 587.0,
+      "cy": 608.5,
+      "conf": 0.9762
+    },
+    {
+      "token": "VitaminE (a-TE)",
+      "x1": 46,
+      "y1": 585,
+      "x2": 304,
+      "y2": 699,
+      "cx": 175.0,
+      "cy": 642.0,
+      "conf": 0.927
+    },
+    {
+      "token": "16mg",
+      "x1": 541,
+      "y1": 630,
+      "x2": 630,
+      "y2": 703,
+      "cx": 585.5,
+      "cy": 666.5,
+      "conf": 0.9899
+    },
+    {
+      "token": "509",
+      "x1": 543,
+      "y1": 690,
+      "x2": 629,
+      "y2": 759,
+      "cx": 586.0,
+      "cy": 724.5,
+      "conf": 0.9434
+    },
+    {
+      "token": "Biotin",
+      "x1": 48,
+      "y1": 706,
+      "x2": 151,
+      "y2": 787,
+      "cx": 99.5,
+      "cy": 746.5,
+      "conf": 0.9821
+    },
+    {
+      "token": "2009",
+      "x1": 526,
+      "y1": 746,
+      "x2": 630,
+      "y2": 825,
+      "cx": 578.0,
+      "cy": 785.5,
+      "conf": 0.8666
+    },
+    {
+      "token": "Folsaure",
+      "x1": 49,
+      "y1": 765,
+      "x2": 185,
+      "y2": 858,
+      "cx": 117.0,
+      "cy": 811.5,
+      "conf": 0.965
+    },
+    {
+      "token": "6,0mg",
+      "x1": 516,
+      "y1": 797,
+      "x2": 632,
+      "y2": 892,
+      "cx": 574.0,
+      "cy": 844.5,
+      "conf": 0.9521
+    },
+    {
+      "token": "Pantothensaure",
+      "x1": 48,
+      "y1": 825,
+      "x2": 304,
+      "y2": 945,
+      "cx": 176.0,
+      "cy": 885.0,
+      "conf": 0.9963
+    },
+    {
+      "token": "14Porti",
+      "x1": 83,
+      "y1": 1015,
+      "x2": 224,
+      "y2": 1074,
+      "cx": 153.5,
+      "cy": 1044.5,
+      "conf": 0.9547
+    }
+  ],
+  "corrected": [
+    {
+      "token": "Zusammensetzung",
+      "x1": 292,
+      "y1": 44,
+      "x2": 639,
+      "y2": 131,
+      "cx": 465.5,
+      "cy": 87.5,
+      "conf": 0.9989
+    },
+    {
+      "token": "1 Tablette (5.6g)",
+      "x1": 358,
+      "y1": 128,
+      "x2": 633,
+      "y2": 231,
+      "cx": 495.5,
+      "cy": 179.5,
+      "conf": 0.9439
+    },
+    {
+      "token": "240",
+      "x1": 534,
+      "y1": 199,
+      "x2": 599,
+      "y2": 269,
+      "cx": 566.5,
+      "cy": 234.0,
+      "conf": 0.9983
+    },
+    {
+      "token": "mg",
+      "x1": 599,
+      "y1": 199,
+      "x2": 643,
+      "y2": 269,
+      "cx": 621.0,
+      "cy": 234.0,
+      "conf": 0.9983
+    },
+    {
+      "token": "Magnesium",
+      "x1": 35,
+      "y1": 203,
+      "x2": 232,
+      "y2": 299,
+      "cx": 133.5,
+      "cy": 251.0,
+      "conf": 0.9904
+    },
+    {
+      "token": "1.1",
+      "x1": 542,
+      "y1": 260,
+      "x2": 603,
+      "y2": 339,
+      "cx": 572.5,
+      "cy": 299.5,
+      "conf": 0.9832
+    },
+    {
+      "token": "mg",
+      "x1": 603,
+      "y1": 260,
+      "x2": 645,
+      "y2": 339,
+      "cx": 624.0,
+      "cy": 299.5,
+      "conf": 0.9832
+    },
+    {
+      "token": "Vitamin B1",
+      "x1": 41,
+      "y1": 270,
+      "x2": 216,
+      "y2": 356,
+      "cx": 128.5,
+      "cy": 313.0,
+      "conf": 0.9253
+    },
+    {
+      "token": "1.4",
+      "x1": 542,
+      "y1": 326,
+      "x2": 599,
+      "y2": 402,
+      "cx": 570.5,
+      "cy": 364.0,
+      "conf": 0.9855
+    },
+    {
+      "token": "mg",
+      "x1": 599,
+      "y1": 326,
+      "x2": 637,
+      "y2": 402,
+      "cx": 618.0,
+      "cy": 364.0,
+      "conf": 0.9855
+    },
+    {
+      "token": "Vitamin B2",
+      "x1": 43,
+      "y1": 334,
+      "x2": 217,
+      "y2": 425,
+      "cx": 130.0,
+      "cy": 379.5,
+      "conf": 0.9493
+    },
+    {
+      "token": "1.4",
+      "x1": 538,
+      "y1": 387,
+      "x2": 598,
+      "y2": 466,
+      "cx": 568.0,
+      "cy": 426.5,
+      "conf": 0.9433
+    },
+    {
+      "token": "mg",
+      "x1": 598,
+      "y1": 387,
+      "x2": 639,
+      "y2": 466,
+      "cx": 618.5,
+      "cy": 426.5,
+      "conf": 0.9433
+    },
+    {
+      "token": "Vitamin B6",
+      "x1": 45,
+      "y1": 398,
+      "x2": 218,
+      "y2": 490,
+      "cx": 131.5,
+      "cy": 444.0,
+      "conf": 0.9474
+    },
+    {
+      "token": "2.519",
+      "x1": 540,
+      "y1": 448,
+      "x2": 638,
+      "y2": 528,
+      "cx": 589.0,
+      "cy": 488.0,
+      "conf": 0.8636
+    },
+    {
+      "token": "Vitamin B12",
+      "x1": 48,
+      "y1": 463,
+      "x2": 239,
+      "y2": 559,
+      "cx": 143.5,
+      "cy": 511.0,
+      "conf": 0.9334
+    },
+    {
+      "token": "80",
+      "x1": 540,
+      "y1": 510,
+      "x2": 588,
+      "y2": 583,
+      "cx": 564.0,
+      "cy": 546.5,
+      "conf": 0.9972
+    },
+    {
+      "token": "mg",
+      "x1": 588,
+      "y1": 510,
+      "x2": 636,
+      "y2": 583,
+      "cx": 612.0,
+      "cy": 546.5,
+      "conf": 0.9972
+    },
+    {
+      "token": "Vitamin C",
+      "x1": 46,
+      "y1": 522,
+      "x2": 203,
+      "y2": 616,
+      "cx": 124.5,
+      "cy": 569.0,
+      "conf": 0.9746
+    },
+    {
+      "token": "12",
+      "x1": 541,
+      "y1": 572,
+      "x2": 587,
+      "y2": 645,
+      "cx": 564.0,
+      "cy": 608.5,
+      "conf": 0.9762
+    },
+    {
+      "token": "mg",
+      "x1": 587,
+      "y1": 572,
+      "x2": 633,
+      "y2": 645,
+      "cx": 610.0,
+      "cy": 608.5,
+      "conf": 0.9762
+    },
+    {
+      "token": "Vitamin E",
+      "x1": 46,
+      "y1": 585,
+      "x2": 304,
+      "y2": 699,
+      "cx": 175.0,
+      "cy": 642.0,
+      "conf": 0.927
+    },
+    {
+      "token": "16",
+      "x1": 541,
+      "y1": 630,
+      "x2": 585,
+      "y2": 703,
+      "cx": 563.0,
+      "cy": 666.5,
+      "conf": 0.9899
+    },
+    {
+      "token": "mg",
+      "x1": 585,
+      "y1": 630,
+      "x2": 630,
+      "y2": 703,
+      "cx": 607.5,
+      "cy": 666.5,
+      "conf": 0.9899
+    },
+    {
+      "token": "509",
+      "x1": 543,
+      "y1": 690,
+      "x2": 629,
+      "y2": 759,
+      "cx": 586.0,
+      "cy": 724.5,
+      "conf": 0.9434
+    },
+    {
+      "token": "Biotin",
+      "x1": 48,
+      "y1": 706,
+      "x2": 151,
+      "y2": 787,
+      "cx": 99.5,
+      "cy": 746.5,
+      "conf": 0.9821
+    },
+    {
+      "token": "2009",
+      "x1": 526,
+      "y1": 746,
+      "x2": 630,
+      "y2": 825,
+      "cx": 578.0,
+      "cy": 785.5,
+      "conf": 0.8666
+    },
+    {
+      "token": "Folic Acid",
+      "x1": 49,
+      "y1": 765,
+      "x2": 185,
+      "y2": 858,
+      "cx": 117.0,
+      "cy": 811.5,
+      "conf": 0.965
+    },
+    {
+      "token": "6.0",
+      "x1": 516,
+      "y1": 797,
+      "x2": 585,
+      "y2": 892,
+      "cx": 550.5,
+      "cy": 844.5,
+      "conf": 0.9521
+    },
+    {
+      "token": "mg",
+      "x1": 585,
+      "y1": 797,
+      "x2": 632,
+      "y2": 892,
+      "cx": 608.5,
+      "cy": 844.5,
+      "conf": 0.9521
+    },
+    {
+      "token": "Pantothenic Acid",
+      "x1": 48,
+      "y1": 825,
+      "x2": 304,
+      "y2": 945,
+      "cx": 176.0,
+      "cy": 885.0,
+      "conf": 0.9963
+    },
+    {
+      "token": "14Porti",
+      "x1": 83,
+      "y1": 1015,
+      "x2": 224,
+      "y2": 1074,
+      "cx": 153.5,
+      "cy": 1044.5,
+      "conf": 0.9547
+    }
+  ],
+  "labeled": [
+    {
+      "token": "Zusammensetzung",
+      "x1": 292,
+      "y1": 44,
+      "x2": 639,
+      "y2": 131,
+      "cx": 465.5,
+      "cy": 87.5,
+      "conf": 0.9989,
+      "label": "UNKNOWN",
+      "norm": "zusammensetzung",
+      "embedding_scores": {
+        "NUTRIENT": 0.5688202977180481,
+        "QUANTITY": 0.4766693115234375,
+        "UNIT": 0.43243420124053955,
+        "CONTEXT": 0.5149905681610107,
+        "NOISE": 0.6884985566139221
+      },
+      "embedding_confidence": 0.5688202977180481,
+      "classification_method": "embedding",
+      "embedding_context": "Zusammensetzung"
+    },
+    {
+      "token": "1 Tablette (5.6g)",
+      "x1": 358,
+      "y1": 128,
+      "x2": 633,
+      "y2": 231,
+      "cx": 495.5,
+      "cy": 179.5,
+      "conf": 0.9439,
+      "label": "CONTEXT",
+      "norm": "per_daily_dose",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "240",
+      "x1": 534,
+      "y1": 199,
+      "x2": 599,
+      "y2": 269,
+      "cx": 566.5,
+      "cy": 234.0,
+      "conf": 0.9983,
+      "label": "QUANTITY",
+      "norm": "240",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 599,
+      "y1": 199,
+      "x2": 643,
+      "y2": 269,
+      "cx": 621.0,
+      "cy": 234.0,
+      "conf": 0.9983,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Magnesium",
+      "x1": 35,
+      "y1": 203,
+      "x2": 232,
+      "y2": 299,
+      "cx": 133.5,
+      "cy": 251.0,
+      "conf": 0.9904,
+      "label": "NUTRIENT",
+      "norm": "magnesium",
+      "embedding_scores": {
+        "NUTRIENT": 1.0,
+        "QUANTITY": 0.4334458112716675,
+        "UNIT": 0.4176342487335205,
+        "CONTEXT": 0.4175071120262146,
+        "NOISE": 0.4980909526348114
+      },
+      "embedding_confidence": 1.0,
+      "classification_method": "embedding",
+      "embedding_context": "Magnesium"
+    },
+    {
+      "token": "1.1",
+      "x1": 542,
+      "y1": 260,
+      "x2": 603,
+      "y2": 339,
+      "cx": 572.5,
+      "cy": 299.5,
+      "conf": 0.9832,
+      "label": "QUANTITY",
+      "norm": "1.1",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 603,
+      "y1": 260,
+      "x2": 645,
+      "y2": 339,
+      "cx": 624.0,
+      "cy": 299.5,
+      "conf": 0.9832,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Vitamin B1",
+      "x1": 41,
+      "y1": 270,
+      "x2": 216,
+      "y2": 356,
+      "cx": 128.5,
+      "cy": 313.0,
+      "conf": 0.9253,
+      "label": "NUTRIENT",
+      "norm": "vitamin b1",
+      "embedding_scores": {
+        "NUTRIENT": 0.7424007058143616,
+        "QUANTITY": 0.45173925161361694,
+        "UNIT": 0.4912492036819458,
+        "CONTEXT": 0.49543657898902893,
+        "NOISE": 0.44339168071746826
+      },
+      "embedding_confidence": 0.7424007058143616,
+      "classification_method": "embedding",
+      "embedding_context": "Vitamin B1 1.1 mg"
+    },
+    {
+      "token": "1.4",
+      "x1": 542,
+      "y1": 326,
+      "x2": 599,
+      "y2": 402,
+      "cx": 570.5,
+      "cy": 364.0,
+      "conf": 0.9855,
+      "label": "QUANTITY",
+      "norm": "1.4",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 599,
+      "y1": 326,
+      "x2": 637,
+      "y2": 402,
+      "cx": 618.0,
+      "cy": 364.0,
+      "conf": 0.9855,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Vitamin B2",
+      "x1": 43,
+      "y1": 334,
+      "x2": 217,
+      "y2": 425,
+      "cx": 130.0,
+      "cy": 379.5,
+      "conf": 0.9493,
+      "label": "NUTRIENT",
+      "norm": "vitamin b2",
+      "embedding_scores": {
+        "NUTRIENT": 0.8331595063209534,
+        "QUANTITY": 0.3681198060512543,
+        "UNIT": 0.3383222818374634,
+        "CONTEXT": 0.4259636402130127,
+        "NOISE": 0.42075300216674805
+      },
+      "embedding_confidence": 0.8331595063209534,
+      "classification_method": "embedding",
+      "embedding_context": "Vitamin B2"
+    },
+    {
+      "token": "1.4",
+      "x1": 538,
+      "y1": 387,
+      "x2": 598,
+      "y2": 466,
+      "cx": 568.0,
+      "cy": 426.5,
+      "conf": 0.9433,
+      "label": "QUANTITY",
+      "norm": "1.4",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 598,
+      "y1": 387,
+      "x2": 639,
+      "y2": 466,
+      "cx": 618.5,
+      "cy": 426.5,
+      "conf": 0.9433,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Vitamin B6",
+      "x1": 45,
+      "y1": 398,
+      "x2": 218,
+      "y2": 490,
+      "cx": 131.5,
+      "cy": 444.0,
+      "conf": 0.9474,
+      "label": "NUTRIENT",
+      "norm": "vitamin b6",
+      "embedding_scores": {
+        "NUTRIENT": 0.7778419852256775,
+        "QUANTITY": 0.39035600423812866,
+        "UNIT": 0.354186087846756,
+        "CONTEXT": 0.4357418715953827,
+        "NOISE": 0.43876180052757263
+      },
+      "embedding_confidence": 0.7778419852256775,
+      "classification_method": "embedding",
+      "embedding_context": "Vitamin B6"
+    },
+    {
+      "token": "2.519",
+      "x1": 540,
+      "y1": 448,
+      "x2": 638,
+      "y2": 528,
+      "cx": 589.0,
+      "cy": 488.0,
+      "conf": 0.8636,
+      "label": "QUANTITY",
+      "norm": "2.519",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Vitamin B12",
+      "x1": 48,
+      "y1": 463,
+      "x2": 239,
+      "y2": 559,
+      "cx": 143.5,
+      "cy": 511.0,
+      "conf": 0.9334,
+      "label": "NUTRIENT",
+      "norm": "vitamin b12",
+      "embedding_scores": {
+        "NUTRIENT": 1.0,
+        "QUANTITY": 0.4419790804386139,
+        "UNIT": 0.3365064263343811,
+        "CONTEXT": 0.45706605911254883,
+        "NOISE": 0.4464958906173706
+      },
+      "embedding_confidence": 1.0,
+      "classification_method": "embedding",
+      "embedding_context": "Vitamin B12"
+    },
+    {
+      "token": "80",
+      "x1": 540,
+      "y1": 510,
+      "x2": 588,
+      "y2": 583,
+      "cx": 564.0,
+      "cy": 546.5,
+      "conf": 0.9972,
+      "label": "QUANTITY",
+      "norm": "80",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 588,
+      "y1": 510,
+      "x2": 636,
+      "y2": 583,
+      "cx": 612.0,
+      "cy": 546.5,
+      "conf": 0.9972,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Vitamin C",
+      "x1": 46,
+      "y1": 522,
+      "x2": 203,
+      "y2": 616,
+      "cx": 124.5,
+      "cy": 569.0,
+      "conf": 0.9746,
+      "label": "NUTRIENT",
+      "norm": "vitamin c",
+      "embedding_scores": {
+        "NUTRIENT": 1.0,
+        "QUANTITY": 0.40554317831993103,
+        "UNIT": 0.3851650357246399,
+        "CONTEXT": 0.45259371399879456,
+        "NOISE": 0.48686590790748596
+      },
+      "embedding_confidence": 1.0,
+      "classification_method": "embedding",
+      "embedding_context": "Vitamin C"
+    },
+    {
+      "token": "12",
+      "x1": 541,
+      "y1": 572,
+      "x2": 587,
+      "y2": 645,
+      "cx": 564.0,
+      "cy": 608.5,
+      "conf": 0.9762,
+      "label": "QUANTITY",
+      "norm": "12",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 587,
+      "y1": 572,
+      "x2": 633,
+      "y2": 645,
+      "cx": 610.0,
+      "cy": 608.5,
+      "conf": 0.9762,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Vitamin E",
+      "x1": 46,
+      "y1": 585,
+      "x2": 304,
+      "y2": 699,
+      "cx": 175.0,
+      "cy": 642.0,
+      "conf": 0.927,
+      "label": "NUTRIENT",
+      "norm": "vitamin e",
+      "embedding_scores": {
+        "NUTRIENT": 0.7866164445877075,
+        "QUANTITY": 0.394544392824173,
+        "UNIT": 0.3473619520664215,
+        "CONTEXT": 0.4682859182357788,
+        "NOISE": 0.470175564289093
+      },
+      "embedding_confidence": 0.7866164445877075,
+      "classification_method": "embedding",
+      "embedding_context": "Vitamin E"
+    },
+    {
+      "token": "16",
+      "x1": 541,
+      "y1": 630,
+      "x2": 585,
+      "y2": 703,
+      "cx": 563.0,
+      "cy": 666.5,
+      "conf": 0.9899,
+      "label": "QUANTITY",
+      "norm": "16",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 585,
+      "y1": 630,
+      "x2": 630,
+      "y2": 703,
+      "cx": 607.5,
+      "cy": 666.5,
+      "conf": 0.9899,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "509",
+      "x1": 543,
+      "y1": 690,
+      "x2": 629,
+      "y2": 759,
+      "cx": 586.0,
+      "cy": 724.5,
+      "conf": 0.9434,
+      "label": "QUANTITY",
+      "norm": "509",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Biotin",
+      "x1": 48,
+      "y1": 706,
+      "x2": 151,
+      "y2": 787,
+      "cx": 99.5,
+      "cy": 746.5,
+      "conf": 0.9821,
+      "label": "NUTRIENT",
+      "norm": "biotin",
+      "embedding_scores": {
+        "NUTRIENT": 1.0000001192092896,
+        "QUANTITY": 0.3295062482357025,
+        "UNIT": 0.30527958273887634,
+        "CONTEXT": 0.4065673053264618,
+        "NOISE": 0.44079068303108215
+      },
+      "embedding_confidence": 1.0000001192092896,
+      "classification_method": "embedding",
+      "embedding_context": "Biotin"
+    },
+    {
+      "token": "2009",
+      "x1": 526,
+      "y1": 746,
+      "x2": 630,
+      "y2": 825,
+      "cx": 578.0,
+      "cy": 785.5,
+      "conf": 0.8666,
+      "label": "QUANTITY",
+      "norm": "2009",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Folic Acid",
+      "x1": 49,
+      "y1": 765,
+      "x2": 185,
+      "y2": 858,
+      "cx": 117.0,
+      "cy": 811.5,
+      "conf": 0.965,
+      "label": "NUTRIENT",
+      "norm": "folic acid",
+      "embedding_scores": {
+        "NUTRIENT": 0.9332636594772339,
+        "QUANTITY": 0.3180752098560333,
+        "UNIT": 0.312401682138443,
+        "CONTEXT": 0.3859931528568268,
+        "NOISE": 0.4554826021194458
+      },
+      "embedding_confidence": 0.9332636594772339,
+      "classification_method": "embedding",
+      "embedding_context": "Folic Acid"
+    },
+    {
+      "token": "6.0",
+      "x1": 516,
+      "y1": 797,
+      "x2": 585,
+      "y2": 892,
+      "cx": 550.5,
+      "cy": 844.5,
+      "conf": 0.9521,
+      "label": "QUANTITY",
+      "norm": "6.0",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "mg",
+      "x1": 585,
+      "y1": 797,
+      "x2": 632,
+      "y2": 892,
+      "cx": 608.5,
+      "cy": 844.5,
+      "conf": 0.9521,
+      "label": "UNIT",
+      "norm": "mg",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Pantothenic Acid",
+      "x1": 48,
+      "y1": 825,
+      "x2": 304,
+      "y2": 945,
+      "cx": 176.0,
+      "cy": 885.0,
+      "conf": 0.9963,
+      "label": "NUTRIENT",
+      "norm": "pantothenic acid",
+      "embedding_scores": {
+        "NUTRIENT": 0.9573140740394592,
+        "QUANTITY": 0.32375243306159973,
+        "UNIT": 0.3005199134349823,
+        "CONTEXT": 0.38276106119155884,
+        "NOISE": 0.4778268337249756
+      },
+      "embedding_confidence": 0.9573140740394592,
+      "classification_method": "embedding",
+      "embedding_context": "Pantothenic Acid"
+    },
+    {
+      "token": "14Porti",
+      "x1": 83,
+      "y1": 1015,
+      "x2": 224,
+      "y2": 1074,
+      "cx": 153.5,
+      "cy": 1044.5,
+      "conf": 0.9547,
+      "label": "UNKNOWN",
+      "norm": "14porti",
+      "embedding_scores": {
+        "NUTRIENT": 0.5022152066230774,
+        "QUANTITY": 0.31597888469696045,
+        "UNIT": 0.28287947177886963,
+        "CONTEXT": 0.3396527171134949,
+        "NOISE": 0.4132423400878906
+      },
+      "embedding_confidence": 0.5022152066230774,
+      "classification_method": "embedding",
+      "embedding_context": "14Porti"
+    }
+  ],
+  "tuples": [
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Magnesium",
+      "quantity": "240",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Magnesium",
+      "quantity": "1.1",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Vitamin B1",
+      "quantity": "1.4",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Vitamin B1",
+      "quantity": "1.1",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Vitamin B2",
+      "quantity": "1.4",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Vitamin B6",
+      "quantity": "1.4",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Vitamin B6",
+      "quantity": "2.519",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Vitamin B12",
+      "quantity": "80",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Vitamin B12",
+      "quantity": "2.519",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Vitamin C",
+      "quantity": "80",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Vitamin C",
+      "quantity": "12",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Vitamin E",
+      "quantity": "16",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Vitamin E",
+      "quantity": "12",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Biotin",
+      "quantity": "2009",
+      "unit": null,
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Biotin",
+      "quantity": "509",
+      "unit": null,
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Folic Acid",
+      "quantity": "6.0",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Folic Acid",
+      "quantity": "2009",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    },
+    {
+      "image_id": "108.jpeg",
+      "nutrient": "Pantothenic Acid",
+      "quantity": "6.0",
+      "unit": "mg",
+      "context": "per_daily_dose"
+    }
+  ],
+  "diagnostics": {
+    "edges": 492,
+    "nodes": 32
+  },
+  "duration_s": 3.109,
+  "error": null
+}

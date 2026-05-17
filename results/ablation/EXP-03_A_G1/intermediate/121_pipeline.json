@@ -1,0 +1,1654 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "EIWEIBRIEGELMITKOKOS-MANDEL-GESCHMACKUNDKOKOSRASPELN",
+      "x1": 22,
+      "y1": 16,
+      "x2": 727,
+      "y2": 46,
+      "cx": 374.5,
+      "cy": 31.0,
+      "conf": 0.9882
+    },
+    {
+      "token": "UBERZOGENMITYOLLMILCHSCHOKOLADE(17%),MITSUBUNGSMITTELN",
+      "x1": 23,
+      "y1": 51,
+      "x2": 747,
+      "y2": 87,
+      "cx": 385.0,
+      "cy": 69.0,
+      "conf": 0.9656
+    },
+    {
+      "token": "DURCHSCHNITTLICHENAHRWERTE",
+      "x1": 41,
+      "y1": 120,
+      "x2": 356,
+      "y2": 148,
+      "cx": 198.5,
+      "cy": 134.0,
+      "conf": 0.9946
+    },
+    {
+      "token": "PROPORTION(45g)",
+      "x1": 444,
+      "y1": 123,
+      "x2": 619,
+      "y2": 157,
+      "cx": 531.5,
+      "cy": 140.0,
+      "conf": 0.9457
+    },
+    {
+      "token": "PR0100g",
+      "x1": 672,
+      "y1": 124,
+      "x2": 761,
+      "y2": 161,
+      "cx": 716.5,
+      "cy": 142.5,
+      "conf": 0.9501
+    },
+    {
+      "token": "ENERGIEKJ/KCAL",
+      "x1": 45,
+      "y1": 182,
+      "x2": 207,
+      "y2": 207,
+      "cx": 126.0,
+      "cy": 194.5,
+      "conf": 0.9937
+    },
+    {
+      "token": "631/151",
+      "x1": 552,
+      "y1": 184,
+      "x2": 624,
+      "y2": 216,
+      "cx": 588.0,
+      "cy": 200.0,
+      "conf": 0.9991
+    },
+    {
+      "token": "1.401/336",
+      "x1": 666,
+      "y1": 187,
+      "x2": 762,
+      "y2": 218,
+      "cx": 714.0,
+      "cy": 202.5,
+      "conf": 0.9993
+    },
+    {
+      "token": "FETT:",
+      "x1": 45,
+      "y1": 212,
+      "x2": 100,
+      "y2": 239,
+      "cx": 72.5,
+      "cy": 225.5,
+      "conf": 0.9921
+    },
+    {
+      "token": "5,2g",
+      "x1": 577,
+      "y1": 216,
+      "x2": 627,
+      "y2": 255,
+      "cx": 602.0,
+      "cy": 235.5,
+      "conf": 0.9691
+    },
+    {
+      "token": "12g",
+      "x1": 727,
+      "y1": 221,
+      "x2": 762,
+      "y2": 254,
+      "cx": 744.5,
+      "cy": 237.5,
+      "conf": 0.9983
+    },
+    {
+      "token": "-DAVONGESATTIGTEFETTSAUREN",
+      "x1": 61,
+      "y1": 242,
+      "x2": 391,
+      "y2": 271,
+      "cx": 226.0,
+      "cy": 256.5,
+      "conf": 0.9875
+    },
+    {
+      "token": "2,9g",
+      "x1": 576,
+      "y1": 245,
+      "x2": 629,
+      "y2": 287,
+      "cx": 602.5,
+      "cy": 266.0,
+      "conf": 0.9574
+    },
+    {
+      "token": "6,5g",
+      "x1": 713,
+      "y1": 248,
+      "x2": 766,
+      "y2": 288,
+      "cx": 739.5,
+      "cy": 268.0,
+      "conf": 0.9871
+    },
+    {
+      "token": "KOHLENHYDRATE:",
+      "x1": 49,
+      "y1": 272,
+      "x2": 221,
+      "y2": 301,
+      "cx": 135.0,
+      "cy": 286.5,
+      "conf": 0.9959
+    },
+    {
+      "token": "9,1g",
+      "x1": 580,
+      "y1": 277,
+      "x2": 629,
+      "y2": 316,
+      "cx": 604.5,
+      "cy": 296.5,
+      "conf": 0.8651
+    },
+    {
+      "token": "20g",
+      "x1": 717,
+      "y1": 280,
+      "x2": 765,
+      "y2": 317,
+      "cx": 741.0,
+      "cy": 298.5,
+      "conf": 0.9986
+    },
+    {
+      "token": "-DAVONZUCKER",
+      "x1": 67,
+      "y1": 303,
+      "x2": 226,
+      "y2": 331,
+      "cx": 146.5,
+      "cy": 317.0,
+      "conf": 0.992
+    },
+    {
+      "token": "2,2g",
+      "x1": 576,
+      "y1": 307,
+      "x2": 628,
+      "y2": 347,
+      "cx": 602.0,
+      "cy": 327.0,
+      "conf": 0.9542
+    },
+    {
+      "token": "49g",
+      "x1": 714,
+      "y1": 310,
+      "x2": 764,
+      "y2": 348,
+      "cx": 739.0,
+      "cy": 329.0,
+      "conf": 0.9956
+    },
+    {
+      "token": "-DAVONMEHRWERTIGEALKOHOLE",
+      "x1": 68,
+      "y1": 334,
+      "x2": 396,
+      "y2": 363,
+      "cx": 232.0,
+      "cy": 348.5,
+      "conf": 0.9856
+    },
+    {
+      "token": "6,7g",
+      "x1": 578,
+      "y1": 340,
+      "x2": 628,
+      "y2": 376,
+      "cx": 603.0,
+      "cy": 358.0,
+      "conf": 0.9515
+    },
+    {
+      "token": "15g",
+      "x1": 720,
+      "y1": 341,
+      "x2": 766,
+      "y2": 381,
+      "cx": 743.0,
+      "cy": 361.0,
+      "conf": 0.9979
+    },
+    {
+      "token": "BALLASTSTOFFE",
+      "x1": 54,
+      "y1": 363,
+      "x2": 205,
+      "y2": 390,
+      "cx": 129.5,
+      "cy": 376.5,
+      "conf": 0.9963
+    },
+    {
+      "token": "79g",
+      "x1": 578,
+      "y1": 367,
+      "x2": 630,
+      "y2": 409,
+      "cx": 604.0,
+      "cy": 388.0,
+      "conf": 0.9233
+    },
+    {
+      "token": "18g",
+      "x1": 718,
+      "y1": 370,
+      "x2": 766,
+      "y2": 411,
+      "cx": 742.0,
+      "cy": 390.5,
+      "conf": 0.9983
+    },
+    {
+      "token": "EIWEISS",
+      "x1": 54,
+      "y1": 391,
+      "x2": 133,
+      "y2": 420,
+      "cx": 93.5,
+      "cy": 405.5,
+      "conf": 0.9944
+    },
+    {
+      "token": "16g",
+      "x1": 583,
+      "y1": 399,
+      "x2": 630,
+      "y2": 437,
+      "cx": 606.5,
+      "cy": 418.0,
+      "conf": 0.9924
+    },
+    {
+      "token": "35g",
+      "x1": 718,
+      "y1": 402,
+      "x2": 764,
+      "y2": 440,
+      "cx": 741.0,
+      "cy": 421.0,
+      "conf": 0.9991
+    },
+    {
+      "token": "SALZ",
+      "x1": 56,
+      "y1": 421,
+      "x2": 107,
+      "y2": 449,
+      "cx": 81.5,
+      "cy": 435.0,
+      "conf": 0.9968
+    },
+    {
+      "token": "0,09g",
+      "x1": 565,
+      "y1": 429,
+      "x2": 628,
+      "y2": 467,
+      "cx": 596.5,
+      "cy": 448.0,
+      "conf": 0.9571
+    },
+    {
+      "token": "0,20g",
+      "x1": 699,
+      "y1": 430,
+      "x2": 765,
+      "y2": 471,
+      "cx": 732.0,
+      "cy": 450.5,
+      "conf": 0.9729
+    },
+    {
+      "token": "MIND.30%WENIGERKOHLENHYDRATEALSHERKOMMLICHE",
+      "x1": 50,
+      "y1": 482,
+      "x2": 632,
+      "y2": 519,
+      "cx": 341.0,
+      "cy": 500.5,
+      "conf": 0.9802
+    },
+    {
+      "token": "PROTEIN-RIEGELOHNEBALLASTSTOFFANREICHERUNG",
+      "x1": 56,
+      "y1": 518,
+      "x2": 577,
+      "y2": 554,
+      "cx": 316.5,
+      "cy": 536.0,
+      "conf": 0.9944
+    }
+  ],
+  "corrected": [
+    {
+      "token": "EIWEIBRIEGELMITKOKOS-MANDEL-GESCHMACKUNDKOKOSRASPELN",
+      "x1": 22,
+      "y1": 16,
+      "x2": 727,
+      "y2": 46,
+      "cx": 374.5,
+      "cy": 31.0,
+      "conf": 0.9882
+    },
+    {
+      "token": "UBERZOGENMITYOLLMILCHSCHOKOLADE(17%),MITSUBUNGSMITTELN",
+      "x1": 23,
+      "y1": 51,
+      "x2": 747,
+      "y2": 87,
+      "cx": 385.0,
+      "cy": 69.0,
+      "conf": 0.9656
+    },
+    {
+      "token": "DURCHSCHNITTLICHENAHRWERTE",
+      "x1": 41,
+      "y1": 120,
+      "x2": 356,
+      "y2": 148,
+      "cx": 198.5,
+      "cy": 134.0,
+      "conf": 0.9946
+    },
+    {
+      "token": "PROPORTION(45g)",
+      "x1": 444,
+      "y1": 123,
+      "x2": 619,
+      "y2": 157,
+      "cx": 531.5,
+      "cy": 140.0,
+      "conf": 0.9457
+    },
+    {
+      "token": "pro 100g",
+      "x1": 672,
+      "y1": 124,
+      "x2": 761,
+      "y2": 161,
+      "cx": 716.5,
+      "cy": 142.5,
+      "conf": 0.9501
+    },
+    {
+      "token": "Energy",
+      "x1": 45,
+      "y1": 182,
+      "x2": 126,
+      "y2": 207,
+      "cx": 85.5,
+      "cy": 194.5,
+      "conf": 0.9937
+    },
+    {
+      "token": "KJ/KCAL",
+      "x1": 126,
+      "y1": 182,
+      "x2": 207,
+      "y2": 207,
+      "cx": 166.5,
+      "cy": 194.5,
+      "conf": 0.9937
+    },
+    {
+      "token": "631",
+      "x1": 552,
+      "y1": 184,
+      "x2": 588,
+      "y2": 216,
+      "cx": 570.0,
+      "cy": 200.0,
+      "conf": 0.9991
+    },
+    {
+      "token": "151",
+      "x1": 588,
+      "y1": 184,
+      "x2": 624,
+      "y2": 216,
+      "cx": 606.0,
+      "cy": 200.0,
+      "conf": 0.9991
+    },
+    {
+      "token": "1.401/336",
+      "x1": 666,
+      "y1": 187,
+      "x2": 762,
+      "y2": 218,
+      "cx": 714.0,
+      "cy": 202.5,
+      "conf": 0.9993
+    },
+    {
+      "token": "Fat",
+      "x1": 45,
+      "y1": 212,
+      "x2": 100,
+      "y2": 239,
+      "cx": 72.5,
+      "cy": 225.5,
+      "conf": 0.9921
+    },
+    {
+      "token": "5.2",
+      "x1": 577,
+      "y1": 216,
+      "x2": 614,
+      "y2": 255,
+      "cx": 595.5,
+      "cy": 235.5,
+      "conf": 0.9691
+    },
+    {
+      "token": "g",
+      "x1": 614,
+      "y1": 216,
+      "x2": 627,
+      "y2": 255,
+      "cx": 620.5,
+      "cy": 235.5,
+      "conf": 0.9691
+    },
+    {
+      "token": "12",
+      "x1": 727,
+      "y1": 221,
+      "x2": 750,
+      "y2": 254,
+      "cx": 738.5,
+      "cy": 237.5,
+      "conf": 0.9983
+    },
+    {
+      "token": "g",
+      "x1": 750,
+      "y1": 221,
+      "x2": 762,
+      "y2": 254,
+      "cx": 756.0,
+      "cy": 237.5,
+      "conf": 0.9983
+    },
+    {
+      "token": "-DAVONGESATTIGTEFETTSAUREN",
+      "x1": 61,
+      "y1": 242,
+      "x2": 391,
+      "y2": 271,
+      "cx": 226.0,
+      "cy": 256.5,
+      "conf": 0.9875
+    },
+    {
+      "token": "2.9",
+      "x1": 576,
+      "y1": 245,
+      "x2": 615,
+      "y2": 287,
+      "cx": 595.5,
+      "cy": 266.0,
+      "conf": 0.9574
+    },
+    {
+      "token": "g",
+      "x1": 615,
+      "y1": 245,
+      "x2": 629,
+      "y2": 287,
+      "cx": 622.0,
+      "cy": 266.0,
+      "conf": 0.9574
+    },
+    {
+      "token": "6.5",
+      "x1": 713,
+      "y1": 248,
+      "x2": 752,
+      "y2": 288,
+      "cx": 732.5,
+      "cy": 268.0,
+      "conf": 0.9871
+    },
+    {
+      "token": "g",
+      "x1": 752,
+      "y1": 248,
+      "x2": 766,
+      "y2": 288,
+      "cx": 759.0,
+      "cy": 268.0,
+      "conf": 0.9871
+    },
+    {
+      "token": "Carbohydrate",
+      "x1": 49,
+      "y1": 272,
+      "x2": 221,
+      "y2": 301,
+      "cx": 135.0,
+      "cy": 286.5,
+      "conf": 0.9959
+    },
+    {
+      "token": "9.1",
+      "x1": 580,
+      "y1": 277,
+      "x2": 616,
+      "y2": 316,
+      "cx": 598.0,
+      "cy": 296.5,
+      "conf": 0.8651
+    },
+    {
+      "token": "g",
+      "x1": 616,
+      "y1": 277,
+      "x2": 629,
+      "y2": 316,
+      "cx": 622.5,
+      "cy": 296.5,
+      "conf": 0.8651
+    },
+    {
+      "token": "20",
+      "x1": 717,
+      "y1": 280,
+      "x2": 749,
+      "y2": 317,
+      "cx": 733.0,
+      "cy": 298.5,
+      "conf": 0.9986
+    },
+    {
+      "token": "g",
+      "x1": 749,
+      "y1": 280,
+      "x2": 765,
+      "y2": 317,
+      "cx": 757.0,
+      "cy": 298.5,
+      "conf": 0.9986
+    },
+    {
+      "token": "-DAVONZUCKER",
+      "x1": 67,
+      "y1": 303,
+      "x2": 226,
+      "y2": 331,
+      "cx": 146.5,
+      "cy": 317.0,
+      "conf": 0.992
+    },
+    {
+      "token": "2.2",
+      "x1": 576,
+      "y1": 307,
+      "x2": 615,
+      "y2": 347,
+      "cx": 595.5,
+      "cy": 327.0,
+      "conf": 0.9542
+    },
+    {
+      "token": "g",
+      "x1": 615,
+      "y1": 307,
+      "x2": 628,
+      "y2": 347,
+      "cx": 621.5,
+      "cy": 327.0,
+      "conf": 0.9542
+    },
+    {
+      "token": "49",
+      "x1": 714,
+      "y1": 310,
+      "x2": 747,
+      "y2": 348,
+      "cx": 730.5,
+      "cy": 329.0,
+      "conf": 0.9956
+    },
+    {
+      "token": "g",
+      "x1": 747,
+      "y1": 310,
+      "x2": 764,
+      "y2": 348,
+      "cx": 755.5,
+      "cy": 329.0,
+      "conf": 0.9956
+    },
+    {
+      "token": "-DAVONMEHRWERTIGEALKOHOLE",
+      "x1": 68,
+      "y1": 334,
+      "x2": 396,
+      "y2": 363,
+      "cx": 232.0,
+      "cy": 348.5,
+      "conf": 0.9856
+    },
+    {
+      "token": "6.7",
+      "x1": 578,
+      "y1": 340,
+      "x2": 615,
+      "y2": 376,
+      "cx": 596.5,
+      "cy": 358.0,
+      "conf": 0.9515
+    },
+    {
+      "token": "g",
+      "x1": 615,
+      "y1": 340,
+      "x2": 628,
+      "y2": 376,
+      "cx": 621.5,
+      "cy": 358.0,
+      "conf": 0.9515
+    },
+    {
+      "token": "15",
+      "x1": 720,
+      "y1": 341,
+      "x2": 750,
+      "y2": 381,
+      "cx": 735.0,
+      "cy": 361.0,
+      "conf": 0.9979
+    },
+    {
+      "token": "g",
+      "x1": 750,
+      "y1": 341,
+      "x2": 766,
+      "y2": 381,
+      "cx": 758.0,
+      "cy": 361.0,
+      "conf": 0.9979
+    },
+    {
+      "token": "Fibre",
+      "x1": 54,
+      "y1": 363,
+      "x2": 205,
+      "y2": 390,
+      "cx": 129.5,
+      "cy": 376.5,
+      "conf": 0.9963
+    },
+    {
+      "token": "79",
+      "x1": 578,
+      "y1": 367,
+      "x2": 612,
+      "y2": 409,
+      "cx": 595.0,
+      "cy": 388.0,
+      "conf": 0.9233
+    },
+    {
+      "token": "g",
+      "x1": 612,
+      "y1": 367,
+      "x2": 630,
+      "y2": 409,
+      "cx": 621.0,
+      "cy": 388.0,
+      "conf": 0.9233
+    },
+    {
+      "token": "18",
+      "x1": 718,
+      "y1": 370,
+      "x2": 750,
+      "y2": 411,
+      "cx": 734.0,
+      "cy": 390.5,
+      "conf": 0.9983
+    },
+    {
+      "token": "g",
+      "x1": 750,
+      "y1": 370,
+      "x2": 766,
+      "y2": 411,
+      "cx": 758.0,
+      "cy": 390.5,
+      "conf": 0.9983
+    },
+    {
+      "token": "Protein",
+      "x1": 54,
+      "y1": 391,
+      "x2": 133,
+      "y2": 420,
+      "cx": 93.5,
+      "cy": 405.5,
+      "conf": 0.9944
+    },
+    {
+      "token": "16",
+      "x1": 583,
+      "y1": 399,
+      "x2": 614,
+      "y2": 437,
+      "cx": 598.5,
+      "cy": 418.0,
+      "conf": 0.9924
+    },
+    {
+      "token": "g",
+      "x1": 614,
+      "y1": 399,
+      "x2": 630,
+      "y2": 437,
+      "cx": 622.0,
+      "cy": 418.0,
+      "conf": 0.9924
+    },
+    {
+      "token": "35",
+      "x1": 718,
+      "y1": 402,
+      "x2": 748,
+      "y2": 440,
+      "cx": 733.0,
+      "cy": 421.0,
+      "conf": 0.9991
+    },
+    {
+      "token": "g",
+      "x1": 748,
+      "y1": 402,
+      "x2": 764,
+      "y2": 440,
+      "cx": 756.0,
+      "cy": 421.0,
+      "conf": 0.9991
+    },
+    {
+      "token": "Salt",
+      "x1": 56,
+      "y1": 421,
+      "x2": 107,
+      "y2": 449,
+      "cx": 81.5,
+      "cy": 435.0,
+      "conf": 0.9968
+    },
+    {
+      "token": "0.09",
+      "x1": 565,
+      "y1": 429,
+      "x2": 615,
+      "y2": 467,
+      "cx": 590.0,
+      "cy": 448.0,
+      "conf": 0.9571
+    },
+    {
+      "token": "g",
+      "x1": 615,
+      "y1": 429,
+      "x2": 628,
+      "y2": 467,
+      "cx": 621.5,
+      "cy": 448.0,
+      "conf": 0.9571
+    },
+    {
+      "token": "0.20",
+      "x1": 699,
+      "y1": 430,
+      "x2": 751,
+      "y2": 471,
+      "cx": 725.0,
+      "cy": 450.5,
+      "conf": 0.9729
+    },
+    {
+      "token": "g",
+      "x1": 751,
+      "y1": 430,
+      "x2": 765,
+      "y2": 471,
+      "cx": 758.0,
+      "cy": 450.5,
+      "conf": 0.9729
+    },
+    {
+      "token": "MIND.30%WENIGERKOHLENHYDRATEALSHERKOMMLICHE",
+      "x1": 50,
+      "y1": 482,
+      "x2": 632,
+      "y2": 519,
+      "cx": 341.0,
+      "cy": 500.5,
+      "conf": 0.9802
+    },
+    {
+      "token": "PROTEIN-RIEGELOHNEBALLASTSTOFFANREICHERUNG",
+      "x1": 56,
+      "y1": 518,
+      "x2": 577,
+      "y2": 554,
+      "cx": 316.5,
+      "cy": 536.0,
+      "conf": 0.9944
+    }
+  ],
+  "labeled": [
+    {
+      "token": "EIWEIBRIEGELMITKOKOS-MANDEL-GESCHMACKUNDKOKOSRASPELN",
+      "x1": 22,
+      "y1": 16,
+      "x2": 727,
+      "y2": 46,
+      "cx": 374.5,
+      "cy": 31.0,
+      "conf": 0.9882,
+      "label": "NUTRIENT",
+      "norm": "eiweibriegelmitkokos-mandel-geschmackundkokosraspeln"
+    },
+    {
+      "token": "UBERZOGENMITYOLLMILCHSCHOKOLADE(17%),MITSUBUNGSMITTELN",
+      "x1": 23,
+      "y1": 51,
+      "x2": 747,
+      "y2": 87,
+      "cx": 385.0,
+      "cy": 69.0,
+      "conf": 0.9656,
+      "label": "UNKNOWN",
+      "norm": "uberzogenmityollmilchschokolade(17%),mitsubungsmitteln"
+    },
+    {
+      "token": "DURCHSCHNITTLICHENAHRWERTE",
+      "x1": 41,
+      "y1": 120,
+      "x2": 356,
+      "y2": 148,
+      "cx": 198.5,
+      "cy": 134.0,
+      "conf": 0.9946,
+      "label": "UNKNOWN",
+      "norm": "durchschnittlichenahrwerte"
+    },
+    {
+      "token": "PROPORTION(45g)",
+      "x1": 444,
+      "y1": 123,
+      "x2": 619,
+      "y2": 157,
+      "cx": 531.5,
+      "cy": 140.0,
+      "conf": 0.9457,
+      "label": "CONTEXT",
+      "norm": "per_serving"
+    },
+    {
+      "token": "pro 100g",
+      "x1": 672,
+      "y1": 124,
+      "x2": 761,
+      "y2": 161,
+      "cx": 716.5,
+      "cy": 142.5,
+      "conf": 0.9501,
+      "label": "CONTEXT",
+      "norm": "per_100g"
+    },
+    {
+      "token": "Energy",
+      "x1": 45,
+      "y1": 182,
+      "x2": 126,
+      "y2": 207,
+      "cx": 85.5,
+      "cy": 194.5,
+      "conf": 0.9937,
+      "label": "NUTRIENT",
+      "norm": "energy"
+    },
+    {
+      "token": "KJ/KCAL",
+      "x1": 126,
+      "y1": 182,
+      "x2": 207,
+      "y2": 207,
+      "cx": 166.5,
+      "cy": 194.5,
+      "conf": 0.9937,
+      "label": "UNIT",
+      "norm": "kj/kcal"
+    },
+    {
+      "token": "631",
+      "x1": 552,
+      "y1": 184,
+      "x2": 588,
+      "y2": 216,
+      "cx": 570.0,
+      "cy": 200.0,
+      "conf": 0.9991,
+      "label": "QUANTITY",
+      "norm": "631"
+    },
+    {
+      "token": "151",
+      "x1": 588,
+      "y1": 184,
+      "x2": 624,
+      "y2": 216,
+      "cx": 606.0,
+      "cy": 200.0,
+      "conf": 0.9991,
+      "label": "QUANTITY",
+      "norm": "151"
+    },
+    {
+      "token": "1.401/336",
+      "x1": 666,
+      "y1": 187,
+      "x2": 762,
+      "y2": 218,
+      "cx": 714.0,
+      "cy": 202.5,
+      "conf": 0.9993,
+      "label": "UNKNOWN",
+      "norm": "1.401/336"
+    },
+    {
+      "token": "Fat",
+      "x1": 45,
+      "y1": 212,
+      "x2": 100,
+      "y2": 239,
+      "cx": 72.5,
+      "cy": 225.5,
+      "conf": 0.9921,
+      "label": "NUTRIENT",
+      "norm": "fat"
+    },
+    {
+      "token": "5.2",
+      "x1": 577,
+      "y1": 216,
+      "x2": 614,
+      "y2": 255,
+      "cx": 595.5,
+      "cy": 235.5,
+      "conf": 0.9691,
+      "label": "QUANTITY",
+      "norm": "5.2"
+    },
+    {
+      "token": "g",
+      "x1": 614,
+      "y1": 216,
+      "x2": 627,
+      "y2": 255,
+      "cx": 620.5,
+      "cy": 235.5,
+      "conf": 0.9691,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "12",
+      "x1": 727,
+      "y1": 221,
+      "x2": 750,
+      "y2": 254,
+      "cx": 738.5,
+      "cy": 237.5,
+      "conf": 0.9983,
+      "label": "QUANTITY",
+      "norm": "12"
+    },
+    {
+      "token": "g",
+      "x1": 750,
+      "y1": 221,
+      "x2": 762,
+      "y2": 254,
+      "cx": 756.0,
+      "cy": 237.5,
+      "conf": 0.9983,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "-DAVONGESATTIGTEFETTSAUREN",
+      "x1": 61,
+      "y1": 242,
+      "x2": 391,
+      "y2": 271,
+      "cx": 226.0,
+      "cy": 256.5,
+      "conf": 0.9875,
+      "label": "NUTRIENT",
+      "norm": "davongesattigtefettsauren"
+    },
+    {
+      "token": "2.9",
+      "x1": 576,
+      "y1": 245,
+      "x2": 615,
+      "y2": 287,
+      "cx": 595.5,
+      "cy": 266.0,
+      "conf": 0.9574,
+      "label": "QUANTITY",
+      "norm": "2.9"
+    },
+    {
+      "token": "g",
+      "x1": 615,
+      "y1": 245,
+      "x2": 629,
+      "y2": 287,
+      "cx": 622.0,
+      "cy": 266.0,
+      "conf": 0.9574,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "6.5",
+      "x1": 713,
+      "y1": 248,
+      "x2": 752,
+      "y2": 288,
+      "cx": 732.5,
+      "cy": 268.0,
+      "conf": 0.9871,
+      "label": "QUANTITY",
+      "norm": "6.5"
+    },
+    {
+      "token": "g",
+      "x1": 752,
+      "y1": 248,
+      "x2": 766,
+      "y2": 288,
+      "cx": 759.0,
+      "cy": 268.0,
+      "conf": 0.9871,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "Carbohydrate",
+      "x1": 49,
+      "y1": 272,
+      "x2": 221,
+      "y2": 301,
+      "cx": 135.0,
+      "cy": 286.5,
+      "conf": 0.9959,
+      "label": "NUTRIENT",
+      "norm": "carbohydrate"
+    },
+    {
+      "token": "9.1",
+      "x1": 580,
+      "y1": 277,
+      "x2": 616,
+      "y2": 316,
+      "cx": 598.0,
+      "cy": 296.5,
+      "conf": 0.8651,
+      "label": "QUANTITY",
+      "norm": "9.1"
+    },
+    {
+      "token": "g",
+      "x1": 616,
+      "y1": 277,
+      "x2": 629,
+      "y2": 316,
+      "cx": 622.5,
+      "cy": 296.5,
+      "conf": 0.8651,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "20",
+      "x1": 717,
+      "y1": 280,
+      "x2": 749,
+      "y2": 317,
+      "cx": 733.0,
+      "cy": 298.5,
+      "conf": 0.9986,
+      "label": "QUANTITY",
+      "norm": "20"
+    },
+    {
+      "token": "g",
+      "x1": 749,
+      "y1": 280,
+      "x2": 765,
+      "y2": 317,
+      "cx": 757.0,
+      "cy": 298.5,
+      "conf": 0.9986,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "-DAVONZUCKER",
+      "x1": 67,
+      "y1": 303,
+      "x2": 226,
+      "y2": 331,
+      "cx": 146.5,
+      "cy": 317.0,
+      "conf": 0.992,
+      "label": "UNKNOWN",
+      "norm": "davonzucker"
+    },
+    {
+      "token": "2.2",
+      "x1": 576,
+      "y1": 307,
+      "x2": 615,
+      "y2": 347,
+      "cx": 595.5,
+      "cy": 327.0,
+      "conf": 0.9542,
+      "label": "QUANTITY",
+      "norm": "2.2"
+    },
+    {
+      "token": "g",
+      "x1": 615,
+      "y1": 307,
+      "x2": 628,
+      "y2": 347,
+      "cx": 621.5,
+      "cy": 327.0,
+      "conf": 0.9542,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "49",
+      "x1": 714,
+      "y1": 310,
+      "x2": 747,
+      "y2": 348,
+      "cx": 730.5,
+      "cy": 329.0,
+      "conf": 0.9956,
+      "label": "QUANTITY",
+      "norm": "49"
+    },
+    {
+      "token": "g",
+      "x1": 747,
+      "y1": 310,
+      "x2": 764,
+      "y2": 348,
+      "cx": 755.5,
+      "cy": 329.0,
+      "conf": 0.9956,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "-DAVONMEHRWERTIGEALKOHOLE",
+      "x1": 68,
+      "y1": 334,
+      "x2": 396,
+      "y2": 363,
+      "cx": 232.0,
+      "cy": 348.5,
+      "conf": 0.9856,
+      "label": "UNKNOWN",
+      "norm": "davonmehrwertigealkohole"
+    },
+    {
+      "token": "6.7",
+      "x1": 578,
+      "y1": 340,
+      "x2": 615,
+      "y2": 376,
+      "cx": 596.5,
+      "cy": 358.0,
+      "conf": 0.9515,
+      "label": "QUANTITY",
+      "norm": "6.7"
+    },
+    {
+      "token": "g",
+      "x1": 615,
+      "y1": 340,
+      "x2": 628,
+      "y2": 376,
+      "cx": 621.5,
+      "cy": 358.0,
+      "conf": 0.9515,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "15",
+      "x1": 720,
+      "y1": 341,
+      "x2": 750,
+      "y2": 381,
+      "cx": 735.0,
+      "cy": 361.0,
+      "conf": 0.9979,
+      "label": "QUANTITY",
+      "norm": "15"
+    },
+    {
+      "token": "g",
+      "x1": 750,
+      "y1": 341,
+      "x2": 766,
+      "y2": 381,
+      "cx": 758.0,
+      "cy": 361.0,
+      "conf": 0.9979,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "Fibre",
+      "x1": 54,
+      "y1": 363,
+      "x2": 205,
+      "y2": 390,
+      "cx": 129.5,
+      "cy": 376.5,
+      "conf": 0.9963,
+      "label": "NUTRIENT",
+      "norm": "fibre"
+    },
+    {
+      "token": "79",
+      "x1": 578,
+      "y1": 367,
+      "x2": 612,
+      "y2": 409,
+      "cx": 595.0,
+      "cy": 388.0,
+      "conf": 0.9233,
+      "label": "QUANTITY",
+      "norm": "79"
+    },
+    {
+      "token": "g",
+      "x1": 612,
+      "y1": 367,
+      "x2": 630,
+      "y2": 409,
+      "cx": 621.0,
+      "cy": 388.0,
+      "conf": 0.9233,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "18",
+      "x1": 718,
+      "y1": 370,
+      "x2": 750,
+      "y2": 411,
+      "cx": 734.0,
+      "cy": 390.5,
+      "conf": 0.9983,
+      "label": "QUANTITY",
+      "norm": "18"
+    },
+    {
+      "token": "g",
+      "x1": 750,
+      "y1": 370,
+      "x2": 766,
+      "y2": 411,
+      "cx": 758.0,
+      "cy": 390.5,
+      "conf": 0.9983,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "Protein",
+      "x1": 54,
+      "y1": 391,
+      "x2": 133,
+      "y2": 420,
+      "cx": 93.5,
+      "cy": 405.5,
+      "conf": 0.9944,
+      "label": "NUTRIENT",
+      "norm": "protein"
+    },
+    {
+      "token": "16",
+      "x1": 583,
+      "y1": 399,
+      "x2": 614,
+      "y2": 437,
+      "cx": 598.5,
+      "cy": 418.0,
+      "conf": 0.9924,
+      "label": "QUANTITY",
+      "norm": "16"
+    },
+    {
+      "token": "g",
+      "x1": 614,
+      "y1": 399,
+      "x2": 630,
+      "y2": 437,
+      "cx": 622.0,
+      "cy": 418.0,
+      "conf": 0.9924,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "35",
+      "x1": 718,
+      "y1": 402,
+      "x2": 748,
+      "y2": 440,
+      "cx": 733.0,
+      "cy": 421.0,
+      "conf": 0.9991,
+      "label": "QUANTITY",
+      "norm": "35"
+    },
+    {
+      "token": "g",
+      "x1": 748,
+      "y1": 402,
+      "x2": 764,
+      "y2": 440,
+      "cx": 756.0,
+      "cy": 421.0,
+      "conf": 0.9991,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "Salt",
+      "x1": 56,
+      "y1": 421,
+      "x2": 107,
+      "y2": 449,
+      "cx": 81.5,
+      "cy": 435.0,
+      "conf": 0.9968,
+      "label": "NUTRIENT",
+      "norm": "salt"
+    },
+    {
+      "token": "0.09",
+      "x1": 565,
+      "y1": 429,
+      "x2": 615,
+      "y2": 467,
+      "cx": 590.0,
+      "cy": 448.0,
+      "conf": 0.9571,
+      "label": "QUANTITY",
+      "norm": "0.09"
+    },
+    {
+      "token": "g",
+      "x1": 615,
+      "y1": 429,
+      "x2": 628,
+      "y2": 467,
+      "cx": 621.5,
+      "cy": 448.0,
+      "conf": 0.9571,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "0.20",
+      "x1": 699,
+      "y1": 430,
+      "x2": 751,
+      "y2": 471,
+      "cx": 725.0,
+      "cy": 450.5,
+      "conf": 0.9729,
+      "label": "QUANTITY",
+      "norm": "0.20"
+    },
+    {
+      "token": "g",
+      "x1": 751,
+      "y1": 430,
+      "x2": 765,
+      "y2": 471,
+      "cx": 758.0,
+      "cy": 450.5,
+      "conf": 0.9729,
+      "label": "UNIT",
+      "norm": "g"
+    },
+    {
+      "token": "MIND.30%WENIGERKOHLENHYDRATEALSHERKOMMLICHE",
+      "x1": 50,
+      "y1": 482,
+      "x2": 632,
+      "y2": 519,
+      "cx": 341.0,
+      "cy": 500.5,
+      "conf": 0.9802,
+      "label": "NUTRIENT",
+      "norm": "mind.30%wenigerkohlenhydratealsherkommliche"
+    },
+    {
+      "token": "PROTEIN-RIEGELOHNEBALLASTSTOFFANREICHERUNG",
+      "x1": 56,
+      "y1": 518,
+      "x2": 577,
+      "y2": 554,
+      "cx": 316.5,
+      "cy": 536.0,
+      "conf": 0.9944,
+      "label": "NOISE",
+      "norm": "protein-riegelohneballaststoffanreicherung"
+    }
+  ],
+  "tuples": [
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "EIWEIBRIEGELMITKOKOS-MANDEL-GESCHMACKUNDKOKOSRASPELN",
+      "quantity": null,
+      "unit": null,
+      "context": null
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Energy",
+      "quantity": "631",
+      "unit": "kj/kcal",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Energy",
+      "quantity": "151",
+      "unit": "kj/kcal",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Fat",
+      "quantity": "631",
+      "unit": "kj/kcal",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Fat",
+      "quantity": "5.2",
+      "unit": "g",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Fat",
+      "quantity": "151",
+      "unit": "kj/kcal",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "-DAVONGESATTIGTEFETTSAUREN",
+      "quantity": "5.2",
+      "unit": "g",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "-DAVONGESATTIGTEFETTSAUREN",
+      "quantity": "2.9",
+      "unit": "g",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "-DAVONGESATTIGTEFETTSAUREN",
+      "quantity": "6.5",
+      "unit": "g",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Carbohydrate",
+      "quantity": "2.9",
+      "unit": "g",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Carbohydrate",
+      "quantity": "9.1",
+      "unit": "g",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Carbohydrate",
+      "quantity": "6.5",
+      "unit": "g",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Fibre",
+      "quantity": "79",
+      "unit": "g",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Fibre",
+      "quantity": "6.7",
+      "unit": "g",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Fibre",
+      "quantity": "18",
+      "unit": "g",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Protein",
+      "quantity": "79",
+      "unit": "g",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Protein",
+      "quantity": "16",
+      "unit": "g",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Protein",
+      "quantity": "35",
+      "unit": "g",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Salt",
+      "quantity": "0.09",
+      "unit": "g",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Salt",
+      "quantity": "16",
+      "unit": "g",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "Salt",
+      "quantity": "0.20",
+      "unit": "g",
+      "context": "per_100g"
+    },
+    {
+      "image_id": "121.jpeg",
+      "nutrient": "MIND.30%WENIGERKOHLENHYDRATEALSHERKOMMLICHE",
+      "quantity": null,
+      "unit": null,
+      "context": "per_100g"
+    }
+  ],
+  "diagnostics": {
+    "edges": 862,
+    "nodes": 51
+  },
+  "duration_s": 4.063,
+  "error": null
+}

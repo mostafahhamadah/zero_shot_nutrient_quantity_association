@@ -1,0 +1,45 @@
+image_id,n_ground_truth,n_predicted,tp,fp,fn,precision,recall,f1,fast_rule_decision,likely_failure_source,descriptive_summary
+1.png,5,7,4,3,1,0.5714,0.8,1.0,n/a,none,"Image: 1.png. GT=5, predicted=7, TP=4, FP=3, FN=1. Precision=0.57, recall=0.80, F1=1.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Magnesium (gesamt 400 mg [per_daily_dose]; Magnesiumoxid 400 mg [per_daily_dose]; Magnesiumbisglycinat 350 mg [per_daily_dose]  (+1 more)"
+4.png,8,31,5,26,3,0.1613,0.625,0.71,n/a,none,"Image: 4.png. GT=8, predicted=31, TP=5, FP=26, FN=3. Precision=0.16, recall=0.62, F1=0.71. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Fat 0 g [per_100g]; Saturated Fats 0 g [per_100g]; Carbohydrate 56 g [per_100g]  (+4 more)"
+6.png,6,6,6,0,0,1.0,1.0,1.0,n/a,none,"Image: 6.png. GT=6, predicted=6, TP=6, FP=0, FN=0. Precision=1.00, recall=1.00, F1=1.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Vitamin C 28 mg [per_serving]; Magnesium 56 mg [per_serving]; Potassium 70 mg [per_serving]  (+3 more)"
+12.png,16,17,8,9,8,0.4706,0.5,0.73,n/a,none,"Image: 12.png. GT=16, predicted=17, TP=8, FP=9, FN=8. Precision=0.47, recall=0.50, F1=0.73. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Energy 547 kj [per_100ml]; Energy 129 kcal [per_100ml]; Carbohydrate 32 g [per_100ml]  (+8 more)"
+15.png,42,9,9,0,33,1.0,0.2143,1.0,n/a,none,"Image: 15.png. GT=42, predicted=9, TP=9, FP=0, FN=33. Precision=1.00, recall=0.21, F1=1.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Chloride 4762 mg [per_100g]; Magnesium 670 mg [per_100g]; Calcium 1428 mg [per_100g]  (+6 more)"
+17.png,4,7,3,4,1,0.4286,0.75,0.75,n/a,none,"Image: 17.png. GT=4, predicted=7, TP=3, FP=4, FN=1. Precision=0.43, recall=0.75, F1=0.75. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Caffeine 100 mg [per_serving]; Niacin 2.4 mg ne [per_serving]; Vitamin B6 0.22 mg [per_serving]  (+1 more)"
+33.png,26,31,19,12,7,0.6129,0.7308,0.86,n/a,none,"Image: 33.png. GT=26, predicted=31, TP=19, FP=12, FN=7. Precision=0.61, recall=0.73, F1=0.86. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Fat 0 g [per_100g]; Saturated Fats 0 g [per_100g]; Carbohydrate 97 g [per_100g]  (+19 more)"
+34.png,40,62,36,26,4,0.5806,0.9,0.92,n/a,none,"Image: 34.png. GT=40, predicted=62, TP=36, FP=26, FN=4. Precision=0.58, recall=0.90, F1=0.92. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Energy 1356 kj [per_100g]; Fat 0 g [per_100g]; Carbohydrate 80 g [per_100g]  (+36 more)"
+61.png,22,24,19,5,3,0.7917,0.8636,1.0,n/a,none,"Image: 61.png. GT=22, predicted=24, TP=19, FP=5, FN=3. Precision=0.79, recall=0.86, F1=1.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Energy 427 kj [per_serving]; Energy 102 kcal [per_serving]; Fat 0 g [per_serving]  (+16 more)"
+63.png,22,23,16,7,6,0.6957,0.7273,0.84,n/a,none,"Image: 63.png. GT=22, predicted=23, TP=16, FP=7, FN=6. Precision=0.70, recall=0.73, F1=0.84. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Energy 427 kj [per_serving]; Energy 102 kcal [per_serving]; Fat 0 g [per_serving]  (+16 more)"
+64.png,8,8,6,2,2,0.75,0.75,0.75,n/a,none,"Image: 64.png. GT=8, predicted=8, TP=6, FP=2, FN=2. Precision=0.75, recall=0.75, F1=0.75. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Vitamin C 50 mg [per_daily_dose]; Vitamin B2 0.6 mg [per_daily_dose]; Niacin 7.0 mg [per_daily_dose]  (+5 more)"
+88.png,16,13,7,6,9,0.5385,0.4375,0.78,n/a,none,"Image: 88.png. GT=16, predicted=13, TP=7, FP=6, FN=9. Precision=0.54, recall=0.44, F1=0.78. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Saturated Fats 0.5 g [per_100ml]; Protein 8.0 g [per_100ml]; Fat 2.3 g [per_serving]  (+6 more)"
+91.png,16,23,12,11,4,0.5217,0.75,0.8,n/a,none,"Image: 91.png. GT=16, predicted=23, TP=12, FP=11, FN=4. Precision=0.52, recall=0.75, F1=0.80. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Fat 0.7 g [per_100ml]; Saturated Fats 0.5 g [per_100ml]; Carbohydrate 4.1 g [per_100ml]  (+12 more)"
+101.png,11,12,10,2,1,0.8333,0.9091,0.91,n/a,none,"Image: 101.png. GT=11, predicted=12, TP=10, FP=2, FN=1. Precision=0.83, recall=0.91, F1=0.91. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Energy 1625 kj [per_100g]; Energy 383 kcal [per_100g]; Fat 0.8 g [per_100g]  (+8 more)"
+104.jpeg,18,28,11,17,7,0.3929,0.6111,0.73,n/a,none,"Image: 104.jpeg. GT=18, predicted=28, TP=11, FP=17, FN=7. Precision=0.39, recall=0.61, F1=0.73. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Energy 361 kcal [per_100g]; Fat 2.6 g [per_100g]; Saturated Fats 0.6 g [per_100g]  (+12 more)"
+108.jpeg,11,18,7,11,4,0.3889,0.6364,0.7,n/a,none,"Image: 108.jpeg. GT=11, predicted=18, TP=7, FP=11, FN=4. Precision=0.39, recall=0.64, F1=0.70. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Magnesium 240 mg [per_daily_dose]; Vitamin B1 1.1 mg [per_daily_dose]; Vitamin B2 1.4 mg [per_daily_dose]  (+7 more)"
+109.jpeg,9,12,9,3,0,0.75,1.0,1.0,n/a,none,"Image: 109.jpeg. GT=9, predicted=12, TP=9, FP=3, FN=0. Precision=0.75, recall=1.00, F1=1.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Energy 420 kj [per_100g]; Energy 99 kcal [per_100g]; Fat 0 g [per_100g]  (+6 more)"
+110.jpeg,6,4,4,0,2,1.0,0.6667,1.0,n/a,none,"Image: 110.jpeg. GT=6, predicted=4, TP=4, FP=0, FN=2. Precision=1.00, recall=0.67, F1=1.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Niacin 8.0 mg ne [per_serving]; Pantothenic Acid 3.0 mg [per_serving]; Niacin 16 mg ne [per_daily_dose]  (+1 more)"
+114.jpeg,20,19,12,7,8,0.6316,0.6,0.8,n/a,none,"Image: 114.jpeg. GT=20, predicted=19, TP=12, FP=7, FN=8. Precision=0.63, recall=0.60, F1=0.80. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Energy 1541 kj [per_100g]; Fat 4.8 g [per_100g]; Carbohydrate 8.8 g [per_100g]  (+12 more)"
+115.png,9,16,7,9,2,0.4375,0.7778,0.88,n/a,none,"Image: 115.png. GT=9, predicted=16, TP=7, FP=9, FN=2. Precision=0.44, recall=0.78, F1=0.88. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Energy 438 kj [per_100g]; Energy 103 kcal [per_100g]; Fat 0 g [per_100g]  (+5 more)"
+116.jpeg,18,12,12,0,6,1.0,0.6667,1.0,n/a,none,"Image: 116.jpeg. GT=18, predicted=12, TP=12, FP=0, FN=6. Precision=1.00, recall=0.67, F1=1.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Fat 12.0 g [per_100g]; Saturated Fats 1.4 g [per_100g]; Carbohydrate 27.0 g [per_100g]  (+9 more)"
+121.jpeg,20,23,9,14,11,0.3913,0.45,0.82,n/a,none,"Image: 121.jpeg. GT=20, predicted=23, TP=9, FP=14, FN=11. Precision=0.39, recall=0.45, F1=0.82. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Fat 12 g [per_100g]; Carbohydrate 20 g [per_100g]; Fibre 18 g [per_100g]  (+8 more)"

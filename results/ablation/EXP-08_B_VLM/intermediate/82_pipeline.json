@@ -1,0 +1,881 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "Nutrition information:",
+      "x1": 19,
+      "y1": 9,
+      "x2": 184,
+      "y2": 33,
+      "cx": 101.5,
+      "cy": 21.0,
+      "conf": 0.9938
+    },
+    {
+      "token": "per 100g",
+      "x1": 130,
+      "y1": 34,
+      "x2": 208,
+      "y2": 56,
+      "cx": 169.0,
+      "cy": 45.0,
+      "conf": 0.9492
+    },
+    {
+      "token": "per serving",
+      "x1": 234,
+      "y1": 38,
+      "x2": 313,
+      "y2": 54,
+      "cx": 273.5,
+      "cy": 46.0,
+      "conf": 0.9765
+    },
+    {
+      "token": "3g/1level teaspoon",
+      "x1": 232,
+      "y1": 53,
+      "x2": 369,
+      "y2": 78,
+      "cx": 300.5,
+      "cy": 65.5,
+      "conf": 0.9518
+    },
+    {
+      "token": "Energy",
+      "x1": 13,
+      "y1": 75,
+      "x2": 65,
+      "y2": 102,
+      "cx": 39.0,
+      "cy": 88.5,
+      "conf": 0.9979
+    },
+    {
+      "token": "0kJ/okcal",
+      "x1": 129,
+      "y1": 82,
+      "x2": 221,
+      "y2": 103,
+      "cx": 175.0,
+      "cy": 92.5,
+      "conf": 0.8723
+    },
+    {
+      "token": "OkJ/o kcal",
+      "x1": 231,
+      "y1": 84,
+      "x2": 311,
+      "y2": 101,
+      "cx": 271.0,
+      "cy": 92.5,
+      "conf": 0.8167
+    },
+    {
+      "token": "Protein",
+      "x1": 12,
+      "y1": 101,
+      "x2": 66,
+      "y2": 124,
+      "cx": 39.0,
+      "cy": 112.5,
+      "conf": 0.9973
+    },
+    {
+      "token": "og",
+      "x1": 127,
+      "y1": 108,
+      "x2": 161,
+      "y2": 132,
+      "cx": 144.0,
+      "cy": 120.0,
+      "conf": 0.9524
+    },
+    {
+      "token": "60",
+      "x1": 228,
+      "y1": 109,
+      "x2": 259,
+      "y2": 131,
+      "cx": 243.5,
+      "cy": 120.0,
+      "conf": 0.9944
+    },
+    {
+      "token": "Carbohydrates",
+      "x1": 12,
+      "y1": 125,
+      "x2": 117,
+      "y2": 154,
+      "cx": 64.5,
+      "cy": 139.5,
+      "conf": 0.9944
+    },
+    {
+      "token": "og",
+      "x1": 227,
+      "y1": 135,
+      "x2": 259,
+      "y2": 156,
+      "cx": 243.0,
+      "cy": 145.5,
+      "conf": 0.9795
+    },
+    {
+      "token": "60",
+      "x1": 128,
+      "y1": 137,
+      "x2": 159,
+      "y2": 155,
+      "cx": 143.5,
+      "cy": 146.0,
+      "conf": 0.9816
+    },
+    {
+      "token": "Fat",
+      "x1": 9,
+      "y1": 149,
+      "x2": 39,
+      "y2": 172,
+      "cx": 24.0,
+      "cy": 160.5,
+      "conf": 0.995
+    },
+    {
+      "token": "og",
+      "x1": 126,
+      "y1": 160,
+      "x2": 159,
+      "y2": 182,
+      "cx": 142.5,
+      "cy": 171.0,
+      "conf": 0.9696
+    },
+    {
+      "token": "og",
+      "x1": 226,
+      "y1": 160,
+      "x2": 259,
+      "y2": 182,
+      "cx": 242.5,
+      "cy": 171.0,
+      "conf": 0.9592
+    },
+    {
+      "token": "Creatine",
+      "x1": 10,
+      "y1": 175,
+      "x2": 70,
+      "y2": 201,
+      "cx": 40.0,
+      "cy": 188.0,
+      "conf": 0.9952
+    },
+    {
+      "token": "100g",
+      "x1": 126,
+      "y1": 184,
+      "x2": 177,
+      "y2": 209,
+      "cx": 151.5,
+      "cy": 196.5,
+      "conf": 0.9847
+    },
+    {
+      "token": "3g",
+      "x1": 227,
+      "y1": 188,
+      "x2": 258,
+      "y2": 207,
+      "cx": 242.5,
+      "cy": 197.5,
+      "conf": 0.9126
+    },
+    {
+      "token": "monohydrate",
+      "x1": 9,
+      "y1": 194,
+      "x2": 107,
+      "y2": 222,
+      "cx": 58.0,
+      "cy": 208.0,
+      "conf": 0.9962
+    }
+  ],
+  "corrected": [
+    {
+      "token": "Nutrition information:",
+      "x1": 19,
+      "y1": 9,
+      "x2": 184,
+      "y2": 33,
+      "cx": 101.5,
+      "cy": 21.0,
+      "conf": 0.9938
+    },
+    {
+      "token": "per 100g",
+      "x1": 130,
+      "y1": 34,
+      "x2": 208,
+      "y2": 56,
+      "cx": 169.0,
+      "cy": 45.0,
+      "conf": 0.9492
+    },
+    {
+      "token": "per serving",
+      "x1": 234,
+      "y1": 38,
+      "x2": 313,
+      "y2": 54,
+      "cx": 273.5,
+      "cy": 46.0,
+      "conf": 0.9765
+    },
+    {
+      "token": "3g/1level teaspoon",
+      "x1": 232,
+      "y1": 53,
+      "x2": 369,
+      "y2": 78,
+      "cx": 300.5,
+      "cy": 65.5,
+      "conf": 0.9518
+    },
+    {
+      "token": "Energy",
+      "x1": 13,
+      "y1": 75,
+      "x2": 65,
+      "y2": 102,
+      "cx": 39.0,
+      "cy": 88.5,
+      "conf": 0.9979
+    },
+    {
+      "token": "0kJ/okcal",
+      "x1": 129,
+      "y1": 82,
+      "x2": 221,
+      "y2": 103,
+      "cx": 175.0,
+      "cy": 92.5,
+      "conf": 0.8723
+    },
+    {
+      "token": "OkJ/o kcal",
+      "x1": 231,
+      "y1": 84,
+      "x2": 311,
+      "y2": 101,
+      "cx": 271.0,
+      "cy": 92.5,
+      "conf": 0.8167
+    },
+    {
+      "token": "Protein",
+      "x1": 12,
+      "y1": 101,
+      "x2": 66,
+      "y2": 124,
+      "cx": 39.0,
+      "cy": 112.5,
+      "conf": 0.9973
+    },
+    {
+      "token": "og",
+      "x1": 127,
+      "y1": 108,
+      "x2": 161,
+      "y2": 132,
+      "cx": 144.0,
+      "cy": 120.0,
+      "conf": 0.9524
+    },
+    {
+      "token": "60",
+      "x1": 228,
+      "y1": 109,
+      "x2": 259,
+      "y2": 131,
+      "cx": 243.5,
+      "cy": 120.0,
+      "conf": 0.9944
+    },
+    {
+      "token": "Carbohydrate",
+      "x1": 12,
+      "y1": 125,
+      "x2": 117,
+      "y2": 154,
+      "cx": 64.5,
+      "cy": 139.5,
+      "conf": 0.9944
+    },
+    {
+      "token": "og",
+      "x1": 227,
+      "y1": 135,
+      "x2": 259,
+      "y2": 156,
+      "cx": 243.0,
+      "cy": 145.5,
+      "conf": 0.9795
+    },
+    {
+      "token": "60",
+      "x1": 128,
+      "y1": 137,
+      "x2": 159,
+      "y2": 155,
+      "cx": 143.5,
+      "cy": 146.0,
+      "conf": 0.9816
+    },
+    {
+      "token": "Fat",
+      "x1": 9,
+      "y1": 149,
+      "x2": 39,
+      "y2": 172,
+      "cx": 24.0,
+      "cy": 160.5,
+      "conf": 0.995
+    },
+    {
+      "token": "og",
+      "x1": 126,
+      "y1": 160,
+      "x2": 159,
+      "y2": 182,
+      "cx": 142.5,
+      "cy": 171.0,
+      "conf": 0.9696
+    },
+    {
+      "token": "og",
+      "x1": 226,
+      "y1": 160,
+      "x2": 259,
+      "y2": 182,
+      "cx": 242.5,
+      "cy": 171.0,
+      "conf": 0.9592
+    },
+    {
+      "token": "Creatine",
+      "x1": 10,
+      "y1": 175,
+      "x2": 70,
+      "y2": 201,
+      "cx": 40.0,
+      "cy": 188.0,
+      "conf": 0.9952
+    },
+    {
+      "token": "100g",
+      "x1": 126,
+      "y1": 184,
+      "x2": 177,
+      "y2": 209,
+      "cx": 151.5,
+      "cy": 196.5,
+      "conf": 0.9847
+    },
+    {
+      "token": "3",
+      "x1": 227,
+      "y1": 188,
+      "x2": 242,
+      "y2": 207,
+      "cx": 234.5,
+      "cy": 197.5,
+      "conf": 0.9126
+    },
+    {
+      "token": "g",
+      "x1": 242,
+      "y1": 188,
+      "x2": 258,
+      "y2": 207,
+      "cx": 250.0,
+      "cy": 197.5,
+      "conf": 0.9126
+    },
+    {
+      "token": "monohydrate",
+      "x1": 9,
+      "y1": 194,
+      "x2": 107,
+      "y2": 222,
+      "cx": 58.0,
+      "cy": 208.0,
+      "conf": 0.9962
+    }
+  ],
+  "labeled": [
+    {
+      "token": "Nutrition information:",
+      "x1": 19,
+      "y1": 9,
+      "x2": 184,
+      "y2": 33,
+      "cx": 101.5,
+      "cy": 21.0,
+      "conf": 0.9938,
+      "label": "NUTRIENT",
+      "norm": "nutrition information",
+      "embedding_scores": {
+        "NUTRIENT": 0.6404869556427002,
+        "QUANTITY": 0.4355793595314026,
+        "UNIT": 0.4179414212703705,
+        "CONTEXT": 0.5879319906234741,
+        "NOISE": 0.5618146657943726
+      },
+      "embedding_confidence": 0.6404869556427002,
+      "classification_method": "embedding",
+      "embedding_context": "Nutrition information:"
+    },
+    {
+      "token": "per 100g",
+      "x1": 130,
+      "y1": 34,
+      "x2": 208,
+      "y2": 56,
+      "cx": 169.0,
+      "cy": 45.0,
+      "conf": 0.9492,
+      "label": "CONTEXT",
+      "norm": "per_100g",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "per serving",
+      "x1": 234,
+      "y1": 38,
+      "x2": 313,
+      "y2": 54,
+      "cx": 273.5,
+      "cy": 46.0,
+      "conf": 0.9765,
+      "label": "CONTEXT",
+      "norm": "per_serving",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "3g/1level teaspoon",
+      "x1": 232,
+      "y1": 53,
+      "x2": 369,
+      "y2": 78,
+      "cx": 300.5,
+      "cy": 65.5,
+      "conf": 0.9518,
+      "label": "UNKNOWN",
+      "norm": "3g/1level teaspoon",
+      "embedding_scores": {
+        "NUTRIENT": 0.5843377113342285,
+        "QUANTITY": 0.4679524302482605,
+        "UNIT": 0.5055487155914307,
+        "CONTEXT": 0.5169026851654053,
+        "NOISE": 0.5094627141952515
+      },
+      "embedding_confidence": 0.5843377113342285,
+      "classification_method": "embedding",
+      "embedding_context": "3g/1level teaspoon"
+    },
+    {
+      "token": "Energy",
+      "x1": 13,
+      "y1": 75,
+      "x2": 65,
+      "y2": 102,
+      "cx": 39.0,
+      "cy": 88.5,
+      "conf": 0.9979,
+      "label": "UNKNOWN",
+      "norm": "energy",
+      "embedding_scores": {
+        "NUTRIENT": 0.6464265584945679,
+        "QUANTITY": 0.4611859619617462,
+        "UNIT": 0.6217421889305115,
+        "CONTEXT": 0.4538378119468689,
+        "NOISE": 0.45847341418266296
+      },
+      "embedding_confidence": 0.6464265584945679,
+      "classification_method": "embedding",
+      "embedding_context": "Energy 0kJ/okcal OkJ/o kcal"
+    },
+    {
+      "token": "0kJ/okcal",
+      "x1": 129,
+      "y1": 82,
+      "x2": 221,
+      "y2": 103,
+      "cx": 175.0,
+      "cy": 92.5,
+      "conf": 0.8723,
+      "label": "UNKNOWN",
+      "norm": "0kj/okcal",
+      "embedding_scores": {
+        "NUTRIENT": 0.6464265584945679,
+        "QUANTITY": 0.4611859619617462,
+        "UNIT": 0.6217421889305115,
+        "CONTEXT": 0.4538378119468689,
+        "NOISE": 0.45847341418266296
+      },
+      "embedding_confidence": 0.6464265584945679,
+      "classification_method": "embedding",
+      "embedding_context": "Energy 0kJ/okcal OkJ/o kcal"
+    },
+    {
+      "token": "OkJ/o kcal",
+      "x1": 231,
+      "y1": 84,
+      "x2": 311,
+      "y2": 101,
+      "cx": 271.0,
+      "cy": 92.5,
+      "conf": 0.8167,
+      "label": "UNKNOWN",
+      "norm": "okj/o kcal",
+      "embedding_scores": {
+        "NUTRIENT": 0.6464265584945679,
+        "QUANTITY": 0.4611859619617462,
+        "UNIT": 0.6217421889305115,
+        "CONTEXT": 0.4538378119468689,
+        "NOISE": 0.45847341418266296
+      },
+      "embedding_confidence": 0.6464265584945679,
+      "classification_method": "embedding",
+      "embedding_context": "Energy 0kJ/okcal OkJ/o kcal"
+    },
+    {
+      "token": "Protein",
+      "x1": 12,
+      "y1": 101,
+      "x2": 66,
+      "y2": 124,
+      "cx": 39.0,
+      "cy": 112.5,
+      "conf": 0.9973,
+      "label": "NUTRIENT",
+      "norm": "protein",
+      "embedding_scores": {
+        "NUTRIENT": 0.6750023365020752,
+        "QUANTITY": 0.418771356344223,
+        "UNIT": 0.37182149291038513,
+        "CONTEXT": 0.467781126499176,
+        "NOISE": 0.5183286070823669
+      },
+      "embedding_confidence": 0.6750023365020752,
+      "classification_method": "embedding",
+      "embedding_context": "Protein og 60"
+    },
+    {
+      "token": "og",
+      "x1": 127,
+      "y1": 108,
+      "x2": 161,
+      "y2": 132,
+      "cx": 144.0,
+      "cy": 120.0,
+      "conf": 0.9524,
+      "label": "NUTRIENT",
+      "norm": "og",
+      "embedding_scores": {
+        "NUTRIENT": 0.6750023365020752,
+        "QUANTITY": 0.418771356344223,
+        "UNIT": 0.37182149291038513,
+        "CONTEXT": 0.467781126499176,
+        "NOISE": 0.5183286070823669
+      },
+      "embedding_confidence": 0.6750023365020752,
+      "classification_method": "embedding",
+      "embedding_context": "Protein og 60"
+    },
+    {
+      "token": "60",
+      "x1": 228,
+      "y1": 109,
+      "x2": 259,
+      "y2": 131,
+      "cx": 243.5,
+      "cy": 120.0,
+      "conf": 0.9944,
+      "label": "QUANTITY",
+      "norm": "60",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Carbohydrate",
+      "x1": 12,
+      "y1": 125,
+      "x2": 117,
+      "y2": 154,
+      "cx": 64.5,
+      "cy": 139.5,
+      "conf": 0.9944,
+      "label": "NUTRIENT",
+      "norm": "carbohydrate",
+      "embedding_scores": {
+        "NUTRIENT": 0.6882359981536865,
+        "QUANTITY": 0.4507330060005188,
+        "UNIT": 0.4274604916572571,
+        "CONTEXT": 0.4397478699684143,
+        "NOISE": 0.49448832869529724
+      },
+      "embedding_confidence": 0.6882359981536865,
+      "classification_method": "embedding",
+      "embedding_context": "Carbohydrate 60 og"
+    },
+    {
+      "token": "og",
+      "x1": 227,
+      "y1": 135,
+      "x2": 259,
+      "y2": 156,
+      "cx": 243.0,
+      "cy": 145.5,
+      "conf": 0.9795,
+      "label": "NUTRIENT",
+      "norm": "og",
+      "embedding_scores": {
+        "NUTRIENT": 0.6882359981536865,
+        "QUANTITY": 0.4507330060005188,
+        "UNIT": 0.4274604916572571,
+        "CONTEXT": 0.4397478699684143,
+        "NOISE": 0.49448832869529724
+      },
+      "embedding_confidence": 0.6882359981536865,
+      "classification_method": "embedding",
+      "embedding_context": "Carbohydrate 60 og"
+    },
+    {
+      "token": "60",
+      "x1": 128,
+      "y1": 137,
+      "x2": 159,
+      "y2": 155,
+      "cx": 143.5,
+      "cy": 146.0,
+      "conf": 0.9816,
+      "label": "QUANTITY",
+      "norm": "60",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "Fat",
+      "x1": 9,
+      "y1": 149,
+      "x2": 39,
+      "y2": 172,
+      "cx": 24.0,
+      "cy": 160.5,
+      "conf": 0.995,
+      "label": "NUTRIENT",
+      "norm": "fat",
+      "embedding_scores": {
+        "NUTRIENT": 0.7800735831260681,
+        "QUANTITY": 0.3972660005092621,
+        "UNIT": 0.3751903176307678,
+        "CONTEXT": 0.4344712793827057,
+        "NOISE": 0.48661330342292786
+      },
+      "embedding_confidence": 0.7800735831260681,
+      "classification_method": "embedding",
+      "embedding_context": "Fat og og"
+    },
+    {
+      "token": "og",
+      "x1": 126,
+      "y1": 160,
+      "x2": 159,
+      "y2": 182,
+      "cx": 142.5,
+      "cy": 171.0,
+      "conf": 0.9696,
+      "label": "NUTRIENT",
+      "norm": "og",
+      "embedding_scores": {
+        "NUTRIENT": 0.7800735831260681,
+        "QUANTITY": 0.3972660005092621,
+        "UNIT": 0.3751903176307678,
+        "CONTEXT": 0.4344712793827057,
+        "NOISE": 0.48661330342292786
+      },
+      "embedding_confidence": 0.7800735831260681,
+      "classification_method": "embedding",
+      "embedding_context": "Fat og og"
+    },
+    {
+      "token": "og",
+      "x1": 226,
+      "y1": 160,
+      "x2": 259,
+      "y2": 182,
+      "cx": 242.5,
+      "cy": 171.0,
+      "conf": 0.9592,
+      "label": "NUTRIENT",
+      "norm": "og",
+      "embedding_scores": {
+        "NUTRIENT": 0.7800735831260681,
+        "QUANTITY": 0.3972660005092621,
+        "UNIT": 0.3751903176307678,
+        "CONTEXT": 0.4344712793827057,
+        "NOISE": 0.48661330342292786
+      },
+      "embedding_confidence": 0.7800735831260681,
+      "classification_method": "embedding",
+      "embedding_context": "Fat og og"
+    },
+    {
+      "token": "Creatine",
+      "x1": 10,
+      "y1": 175,
+      "x2": 70,
+      "y2": 201,
+      "cx": 40.0,
+      "cy": 188.0,
+      "conf": 0.9952,
+      "label": "NUTRIENT",
+      "norm": "creatine",
+      "embedding_scores": {
+        "NUTRIENT": 0.6455847024917603,
+        "QUANTITY": 0.4160715341567993,
+        "UNIT": 0.4906293749809265,
+        "CONTEXT": 0.5320879817008972,
+        "NOISE": 0.4649428129196167
+      },
+      "embedding_confidence": 0.6455847024917603,
+      "classification_method": "embedding",
+      "embedding_context": "Creatine monohydrate 100g 3 g"
+    },
+    {
+      "token": "100g",
+      "x1": 126,
+      "y1": 184,
+      "x2": 177,
+      "y2": 209,
+      "cx": 151.5,
+      "cy": 196.5,
+      "conf": 0.9847,
+      "label": "CONTEXT",
+      "norm": "per_100g",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "3",
+      "x1": 227,
+      "y1": 188,
+      "x2": 242,
+      "y2": 207,
+      "cx": 234.5,
+      "cy": 197.5,
+      "conf": 0.9126,
+      "label": "QUANTITY",
+      "norm": "3",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "g",
+      "x1": 242,
+      "y1": 188,
+      "x2": 258,
+      "y2": 207,
+      "cx": 250.0,
+      "cy": 197.5,
+      "conf": 0.9126,
+      "label": "UNIT",
+      "norm": "g",
+      "classification_method": "rule",
+      "embedding_scores": {}
+    },
+    {
+      "token": "monohydrate",
+      "x1": 9,
+      "y1": 194,
+      "x2": 107,
+      "y2": 222,
+      "cx": 58.0,
+      "cy": 208.0,
+      "conf": 0.9962,
+      "label": "NUTRIENT",
+      "norm": "monohydrate",
+      "embedding_scores": {
+        "NUTRIENT": 0.6455847024917603,
+        "QUANTITY": 0.4160715341567993,
+        "UNIT": 0.4906293749809265,
+        "CONTEXT": 0.5320879817008972,
+        "NOISE": 0.4649428129196167
+      },
+      "embedding_confidence": 0.6455847024917603,
+      "classification_method": "embedding",
+      "embedding_context": "Creatine monohydrate 100g 3 g"
+    }
+  ],
+  "tuples": [
+    {
+      "nutrient": "Protein",
+      "quantity": "0",
+      "unit": "g",
+      "context": "per_serving",
+      "image_id": "82.jpeg"
+    },
+    {
+      "nutrient": "Carbohydrate",
+      "quantity": "0",
+      "unit": "g",
+      "context": "per_serving",
+      "image_id": "82.jpeg"
+    },
+    {
+      "nutrient": "Fat",
+      "quantity": "0",
+      "unit": "g",
+      "context": "per_serving",
+      "image_id": "82.jpeg"
+    },
+    {
+      "nutrient": "Carbohydrate",
+      "quantity": "100",
+      "unit": "g",
+      "context": "per_serving",
+      "image_id": "82.jpeg"
+    }
+  ],
+  "diagnostics": {
+    "vlm": {
+      "mode": "vlm",
+      "backend": "openai_compat",
+      "model": "google/gemma-3-4b",
+      "active_tokens": 17,
+      "nutrients": 10,
+      "quantities": 3,
+      "tuples": 4,
+      "attempts": 1,
+      "image_max_side": 896,
+      "last_error": null,
+      "elapsed_s": 4.08,
+      "prompt_char_len": 1326,
+      "max_tokens": 4096,
+      "parse_mode": "full",
+      "salvaged_objects": 0,
+      "postprocess": {
+        "postprocessed": 4,
+        "context_mapped": 0,
+        "deduped": 0,
+        "context_majority": "per_serving"
+      }
+    }
+  },
+  "duration_s": 8.112,
+  "error": null
+}

@@ -1,0 +1,7 @@
+image_id,gt_nutrient,pred_nutrient,gt_quantity,pred_quantity,gt_unit,pred_unit,gt_context,pred_context,nutrient_match,quantity_match,unit_match,context_match,full_match_3f,full_match_4f,eval_method,nutrient_reason,quantity_reason,unit_reason,context_reason
+6.png,Vitamin C,Vitamin C,28,28,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+6.png,Magnesium,Magnesium,56,56,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+6.png,Potassium,Potassium,70,70,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+6.png,Calcium,Calcium,9,9,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+6.png,Sodium,Sodium,200,200,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match
+6.png,Green Tea,Green Tea,1,1,mg,mg,per_serving (4 g),per_serving,True,True,True,True,True,True,fast,exact/substring match,numeric match,alias match,alias match

@@ -1,0 +1,21 @@
+{
+  "experiment": {
+    "experiment_id": "EXP-12",
+    "experiment_name": "e2e_vlm",
+    "ocr_engine": "none",
+    "classifier_key": "none",
+    "association_key": "vlm_e2e",
+    "notes": "End-to-end VLM baseline: image -> Gemma -> tuples + C15 nutrient-name normalisation post-hoc for fair comparison."
+  },
+  "vlm_config": {
+    "backend": "openai_compat",
+    "base_url": "http://127.0.0.1:1234/v1/chat/completions",
+    "model": "google/gemma-3-4b",
+    "temperature": 0.1,
+    "max_tokens": 4096
+  },
+  "post_processing": {
+    "c15_normalisation": true
+  },
+  "timestamp": "2026-05-16 13:12:06"
+}

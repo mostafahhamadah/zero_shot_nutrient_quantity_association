@@ -1,0 +1,1068 @@
+% =============================================================================
+%  references.bib
+%  Bibliography for Chapters 2 (Background) and 3 (Related Work) of the thesis
+%  "Zero-Shot Nutrient and Quantity Association using OCR-Guided Semantic
+%  Graph Matching"
+%
+%  Notes:
+%  - Entries are organised by section topic.
+%  - For every arXiv reference, the eprint number is given so that biblatex
+%    can produce the canonical https://arxiv.org/abs/<eprint> URL.
+%  - A handful of entries (glm4v2025, qwen25, gemma3) refer to model releases
+%    whose canonical citation is a technical report; verify URLs before
+%    submission.
+%  - "experiment01_classifier" cites the thesis's own implementation file;
+%    it can equally be referenced via a footnote in the main text.
+%  - Chapter 3 entries that needed verification: halalbench2026,
+%    nagayi2025foodpackagingocr, ahmed2022flip, yang2024qwen25, touvron2023llama2.
+% =============================================================================
+% !TEX root = main.tex
+
+% ---------- Foundational architectures ---------------------------------------
+@inproceedings{vaswani2017attention,
+    title       = {Attention Is All You Need},
+    author      = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and
+                   Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and
+                   Kaiser, {\L}ukasz and Polosukhin, Illia},
+    booktitle   = {Advances in Neural Information Processing Systems (NeurIPS)},
+    year        = {2017},
+    doi         = {10.48550/arXiv.1706.03762}
+}
+
+@inproceedings{devlin2019bert,
+    title       = {{BERT}: Pre-training of Deep Bidirectional Transformers for
+                   Language Understanding},
+    author      = {Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and
+                   Toutanova, Kristina},
+    booktitle   = {Proceedings of NAACL-HLT},
+    year        = {2019},
+    doi         = {10.48550/arXiv.1810.04805}
+}
+
+@article{liu2019roberta,
+    title       = {{RoBERTa}: A Robustly Optimized {BERT} Pretraining Approach},
+    author      = {Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Jingfei
+                   and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis,
+                   Mike and Zettlemoyer, Luke and Stoyanov, Veselin},
+    journal     = {arXiv preprint arXiv:1907.11692},
+    year        = {2019},
+    doi         = {10.48550/arXiv.1907.11692}
+}
+
+@inproceedings{he2021deberta,
+    title       = {{DeBERTa}: Decoding-enhanced {BERT} with Disentangled
+                   Attention},
+    author      = {He, Pengcheng and Liu, Xiaodong and Gao, Jianfeng and
+                   Chen, Weizhu},
+    booktitle   = {International Conference on Learning Representations (ICLR)},
+    year        = {2021},
+    doi         = {10.48550/arXiv.2006.03654}
+}
+
+@article{he2021debertav3,
+    title       = {{DeBERTaV3}: Improving {DeBERTa} using {ELECTRA}-Style
+                   Pre-Training with Gradient-Disentangled Embedding Sharing},
+    author      = {He, Pengcheng and Gao, Jianfeng and Chen, Weizhu},
+    journal     = {arXiv preprint arXiv:2111.09543},
+    year        = {2021},
+    doi         = {10.48550/arXiv.2111.09543}
+}
+
+@inproceedings{conneau2020xlmr,
+    title       = {Unsupervised Cross-lingual Representation Learning at Scale},
+    author      = {Conneau, Alexis and Khandelwal, Kartikay and Goyal, Naman
+                   and Chaudhary, Vishrav and Wenzek, Guillaume and Guzm{\'a}n,
+                   Francisco and Grave, Edouard and Ott, Myle and Zettlemoyer,
+                   Luke and Stoyanov, Veselin},
+    booktitle   = {Proceedings of ACL},
+    year        = {2020},
+    doi         = {10.48550/arXiv.1911.02116}
+}
+
+@inproceedings{raffel2020t5,
+    title       = {Exploring the Limits of Transfer Learning with a Unified
+                   Text-to-Text Transformer},
+    author      = {Raffel, Colin and Shazeer, Noam and Roberts, Adam and Lee,
+                   Katherine and Narang, Sharan and Matena, Michael and Zhou,
+                   Yanqi and Li, Wei and Liu, Peter J.},
+    booktitle   = {Journal of Machine Learning Research (JMLR)},
+    volume      = {21},
+    pages       = {1--67},
+    year        = {2020},
+    doi         = {10.48550/arXiv.1910.10683}
+}
+
+% ---------- Word and sentence embeddings -------------------------------------
+@article{mikolov2013word2vec,
+    title       = {Efficient Estimation of Word Representations in Vector Space},
+    author      = {Mikolov, Tomas and Chen, Kai and Corrado, Greg and Dean,
+                   Jeffrey},
+    journal     = {arXiv preprint arXiv:1301.3781},
+    year        = {2013},
+    doi         = {10.48550/arXiv.1301.3781}
+}
+
+@article{bojanowski2017fasttext,
+    title       = {Enriching Word Vectors with Subword Information},
+    author      = {Bojanowski, Piotr and Grave, Edouard and Joulin, Armand and
+                   Mikolov, Tomas},
+    journal     = {Transactions of the Association for Computational
+                   Linguistics (TACL)},
+    volume      = {5},
+    pages       = {135--146},
+    year        = {2017},
+    doi         = {10.48550/arXiv.1607.04606}
+}
+
+@inproceedings{pennington2014glove,
+    title       = {{GloVe}: Global Vectors for Word Representation},
+    author      = {Pennington, Jeffrey and Socher, Richard and Manning,
+                   Christopher D.},
+    booktitle   = {Proceedings of EMNLP},
+    pages       = {1532--1543},
+    year        = {2014}
+}
+
+@inproceedings{reimers2019sentencebert,
+    title       = {Sentence-{BERT}: Sentence Embeddings using Siamese
+                   {BERT}-Networks},
+    author      = {Reimers, Nils and Gurevych, Iryna},
+    booktitle   = {Proceedings of EMNLP-IJCNLP},
+    year        = {2019},
+    doi         = {10.48550/arXiv.1908.10084}
+}
+
+@article{feng2022labse,
+    title       = {Language-agnostic {BERT} Sentence Embedding},
+    author      = {Feng, Fangxiaoyu and Yang, Yinfei and Cer, Daniel and
+                   Arivazhagan, Naveen and Wang, Wei},
+    journal     = {Proceedings of ACL},
+    year        = {2022},
+    doi         = {10.48550/arXiv.2007.01852}
+}
+
+@article{wang2024me5,
+    title       = {Multilingual {E5} Text Embeddings: A Technical Report},
+    author      = {Wang, Liang and Yang, Nan and Huang, Xiaolong and Yang,
+                   Linjun and Majumder, Rangan and Wei, Furu},
+    journal     = {arXiv preprint arXiv:2402.05672},
+    year        = {2024},
+    doi         = {10.48550/arXiv.2402.05672}
+}
+
+@article{chen2024bgem3,
+    title       = {{BGE M3-Embedding}: Multi-Lingual, Multi-Functionality,
+                   Multi-Granularity Text Embeddings Through Self-Knowledge
+                   Distillation},
+    author      = {Chen, Jianlv and Xiao, Shitao and Zhang, Peitian and Luo,
+                   Kun and Lian, Defu and Liu, Zheng},
+    journal     = {arXiv preprint arXiv:2402.03216},
+    year        = {2024},
+    doi         = {10.48550/arXiv.2402.03216}
+}
+
+@inproceedings{snell2017prototypical,
+    title       = {Prototypical Networks for Few-shot Learning},
+    author      = {Snell, Jake and Swersky, Kevin and Zemel, Richard},
+    booktitle   = {Advances in Neural Information Processing Systems (NeurIPS)},
+    year        = {2017},
+    doi         = {10.48550/arXiv.1703.05175}
+}
+
+% ---------- Sequence labelling and NER ---------------------------------------
+@inproceedings{ramshaw1995chunking,
+    title       = {Text Chunking using Transformation-Based Learning},
+    author      = {Ramshaw, Lance A. and Marcus, Mitchell P.},
+    booktitle   = {Proceedings of the Third Workshop on Very Large Corpora},
+    year        = {1995}
+}
+
+@inproceedings{sang2003conll,
+    title       = {Introduction to the {CoNLL}-2003 Shared Task: Language-Independent
+                   Named Entity Recognition},
+    author      = {Tjong Kim Sang, Erik F. and De Meulder, Fien},
+    booktitle   = {Proceedings of CoNLL},
+    pages       = {142--147},
+    year        = {2003}
+}
+
+@inproceedings{lafferty2001crf,
+    title       = {Conditional Random Fields: Probabilistic Models for
+                   Segmenting and Labeling Sequence Data},
+    author      = {Lafferty, John and McCallum, Andrew and Pereira, Fernando C. N.},
+    booktitle   = {Proceedings of ICML},
+    pages       = {282--289},
+    year        = {2001}
+}
+
+@article{huang2015bilstm,
+    title       = {Bidirectional {LSTM-CRF} Models for Sequence Tagging},
+    author      = {Huang, Zhiheng and Xu, Wei and Yu, Kai},
+    journal     = {arXiv preprint arXiv:1508.01991},
+    year        = {2015},
+    doi         = {10.48550/arXiv.1508.01991}
+}
+
+@inproceedings{lample2016bilstm,
+    title       = {Neural Architectures for Named Entity Recognition},
+    author      = {Lample, Guillaume and Ballesteros, Miguel and Subramanian,
+                   Sandeep and Kawakami, Kazuya and Dyer, Chris},
+    booktitle   = {Proceedings of NAACL-HLT},
+    year        = {2016},
+    doi         = {10.48550/arXiv.1603.01360}
+}
+
+@inproceedings{eberts2020spert,
+    title       = {Span-based Joint Entity and Relation Extraction with
+                   Transformer Pre-training},
+    author      = {Eberts, Markus and Ulges, Adrian},
+    booktitle   = {Proceedings of ECAI},
+    year        = {2020},
+    doi         = {10.48550/arXiv.1909.07755}
+}
+
+@inproceedings{fu2021spanner,
+    title       = {{SpanNER}: Named Entity Re-/Recognition as Span Prediction},
+    author      = {Fu, Jinlan and Liu, Pengfei and Neubig, Graham},
+    booktitle   = {Proceedings of ACL-IJCNLP},
+    year        = {2021},
+    doi         = {10.48550/arXiv.2106.00641}
+}
+
+@inproceedings{wang2021frustratingly,
+    title       = {Frustratingly Easy Approach for Joint Entity and Relation
+                   Extraction},
+    author      = {Wang, Jue and Lu, Wei},
+    booktitle   = {Proceedings of EMNLP},
+    year        = {2021},
+    doi         = {10.48550/arXiv.2010.12812}
+}
+
+@inproceedings{he2015qasrl,
+    title       = {Question-Answer Driven Semantic Role Labeling: Using Natural
+                   Language to Annotate Natural Language},
+    author      = {He, Luheng and Lewis, Mike and Zettlemoyer, Luke},
+    booktitle   = {Proceedings of EMNLP},
+    year        = {2015}
+}
+
+@inproceedings{li2020qa,
+    title       = {A Unified {MRC} Framework for Named Entity Recognition},
+    author      = {Li, Xiaoya and Feng, Jingrong and Meng, Yuxian and Han,
+                   Qinghong and Wu, Fei and Li, Jiwei},
+    booktitle   = {Proceedings of ACL},
+    year        = {2020},
+    doi         = {10.48550/arXiv.1910.11476}
+}
+
+@article{wang2023gptner,
+    title       = {{GPT-NER}: Named Entity Recognition via Large Language Models},
+    author      = {Wang, Shuhe and Sun, Xiaofei and Li, Xiaoya and Ouyang,
+                   Rongbin and Wu, Fei and Zhang, Tianwei and Li, Jiwei and
+                   Wang, Guoyin},
+    journal     = {arXiv preprint arXiv:2304.10428},
+    year        = {2023},
+    doi         = {10.48550/arXiv.2304.10428}
+}
+
+@article{wei2023chatie,
+    title       = {{ChatIE}: Zero-Shot Information Extraction via Chatting with
+                   {ChatGPT}},
+    author      = {Wei, Xiang and Cui, Xingyu and Cheng, Ning and Wang,
+                   Xiaobin and Zhang, Xin and Huang, Shen and Xie, Pengjun and
+                   Xu, Jinan and Chen, Yufeng and Zhang, Meishan and others},
+    journal     = {arXiv preprint arXiv:2302.10205},
+    year        = {2023},
+    doi         = {10.48550/arXiv.2302.10205}
+}
+
+@article{wang2023instructuie,
+    title       = {{InstructUIE}: Multi-task Instruction Tuning for Unified
+                   Information Extraction},
+    author      = {Wang, Xiao and Zhou, Weikang and Zu, Can and Xia, Han and
+                   Chen, Tianze and Zhang, Yuansen and Zheng, Rui and Ye,
+                   Junjie and Zhang, Qi and Gui, Tao and others},
+    journal     = {arXiv preprint arXiv:2304.08085},
+    year        = {2023},
+    doi         = {10.48550/arXiv.2304.08085}
+}
+
+@inproceedings{zaratiana2023gliner,
+    title       = {{GLiNER}: Generalist Model for Named Entity Recognition
+                   using Bidirectional Transformer},
+    author      = {Zaratiana, Urchade and Tomeh, Nadi and Holat, Pierre and
+                   Charnois, Thierry},
+    booktitle   = {Proceedings of NAACL},
+    year        = {2024},
+    doi         = {10.48550/arXiv.2311.08526}
+}
+
+@article{wu2019beto,
+    title       = {{Beto, Bentz, Becas}: The Surprising Cross-Lingual
+                   Effectiveness of {BERT}},
+    author      = {Wu, Shijie and Dredze, Mark},
+    journal     = {Proceedings of EMNLP-IJCNLP},
+    year        = {2019},
+    doi         = {10.48550/arXiv.1904.09077}
+}
+
+@inproceedings{pires2019multilingual,
+    title       = {How Multilingual is Multilingual {BERT}?},
+    author      = {Pires, Telmo and Schlinger, Eva and Garrette, Dan},
+    booktitle   = {Proceedings of ACL},
+    year        = {2019},
+    doi         = {10.48550/arXiv.1906.01502}
+}
+
+@article{costa2022nllb,
+    title       = {No Language Left Behind: Scaling Human-Centered Machine
+                   Translation},
+    author      = {{NLLB Team} and Costa-juss{\`a}, Marta R. and Cross, James
+                   and {\c{C}}elebi, Onur and Elbayad, Maha and Heafield, Kenneth
+                   and Heffernan, Kevin and Kalbassi, Elahe and Lam, Janice and
+                   Licht, Daniel and others},
+    journal     = {arXiv preprint arXiv:2207.04672},
+    year        = {2022},
+    doi         = {10.48550/arXiv.2207.04672}
+}
+
+@inproceedings{hu2020xtreme,
+    title       = {{XTREME}: A Massively Multilingual Multi-task Benchmark for
+                   Evaluating Cross-lingual Generalisation},
+    author      = {Hu, Junjie and Ruder, Sebastian and Siddhant, Aditya and
+                   Neubig, Graham and Firat, Orhan and Johnson, Melvin},
+    booktitle   = {Proceedings of ICML},
+    year        = {2020},
+    doi         = {10.48550/arXiv.2003.11080}
+}
+
+@article{mayhew2024universalner,
+    title       = {Universal {NER}: A Gold-Standard Multilingual Named Entity
+                   Recognition Benchmark},
+    author      = {Mayhew, Stephen and Blevins, Terra and Liu, Shuheng and
+                   Suppa, Marek and others},
+    journal     = {Proceedings of NAACL},
+    year        = {2024},
+    doi         = {10.48550/arXiv.2311.09122}
+}
+
+% ---------- OCR detection and recognition ------------------------------------
+@inproceedings{baek2019craft,
+    title       = {Character Region Awareness for Text Detection},
+    author      = {Baek, Youngmin and Lee, Bado and Han, Dongyoon and Yun,
+                   Sangdoo and Lee, Hwalsuk},
+    booktitle   = {Proceedings of CVPR},
+    year        = {2019},
+    doi         = {10.48550/arXiv.1904.01941}
+}
+
+@article{shi2017crnn,
+    title       = {An End-to-End Trainable Neural Network for Image-Based
+                   Sequence Recognition and Its Application to Scene Text
+                   Recognition},
+    author      = {Shi, Baoguang and Bai, Xiang and Yao, Cong},
+    journal     = {IEEE Transactions on Pattern Analysis and Machine
+                   Intelligence (TPAMI)},
+    volume      = {39},
+    number      = {11},
+    pages       = {2298--2304},
+    year        = {2017},
+    doi         = {10.48550/arXiv.1507.05717}
+}
+
+@inproceedings{liao2020db,
+    title       = {Real-Time Scene Text Detection with Differentiable
+                   Binarisation},
+    author      = {Liao, Minghui and Wan, Zhaoyi and Yao, Cong and Chen, Kai
+                   and Bai, Xiang},
+    booktitle   = {Proceedings of AAAI},
+    year        = {2020},
+    doi         = {10.48550/arXiv.1911.08947}
+}
+
+@inproceedings{zhou2017east,
+    title       = {{EAST}: An Efficient and Accurate Scene Text Detector},
+    author      = {Zhou, Xinyu and Yao, Cong and Wen, He and Wang, Yuzhi and
+                   Zhou, Shuchang and He, Weiran and Liang, Jiajun},
+    booktitle   = {Proceedings of CVPR},
+    year        = {2017},
+    doi         = {10.48550/arXiv.1704.03155}
+}
+
+@inproceedings{sheng2019nrtr,
+    title       = {{NRTR}: A No-Recurrence Sequence-to-Sequence Model for Scene
+                   Text Recognition},
+    author      = {Sheng, Fenfen and Chen, Zhineng and Xu, Bo},
+    booktitle   = {Proceedings of ICDAR},
+    year        = {2019},
+    doi         = {10.48550/arXiv.1806.00926}
+}
+
+@inproceedings{du2022svtr,
+    title       = {{SVTR}: Scene Text Recognition with a Single Visual Model},
+    author      = {Du, Yongkun and Chen, Zhineng and Jia, Caiyan and Yin,
+                   Xiaoting and Zheng, Tianlun and Li, Chenxia and Du,
+                   Yuning and Jiang, Yu-Gang},
+    booktitle   = {Proceedings of IJCAI},
+    year        = {2022},
+    doi         = {10.48550/arXiv.2205.00159}
+}
+
+@article{long2021scene,
+    title       = {Scene Text Detection and Recognition: The Deep Learning Era},
+    author      = {Long, Shangbang and He, Xin and Yao, Cong},
+    journal     = {International Journal of Computer Vision (IJCV)},
+    volume      = {129},
+    pages       = {161--184},
+    year        = {2021},
+    doi         = {10.48550/arXiv.1811.04256}
+}
+
+@inproceedings{graves2006ctc,
+    title       = {Connectionist Temporal Classification: Labelling
+                   Unsegmented Sequence Data with Recurrent Neural Networks},
+    author      = {Graves, Alex and Fern{\'a}ndez, Santiago and Gomez, Faustino
+                   and Schmidhuber, J{\"u}rgen},
+    booktitle   = {Proceedings of ICML},
+    year        = {2006}
+}
+
+@inproceedings{smith2007tesseract,
+    title       = {An Overview of the {Tesseract} {OCR} Engine},
+    author      = {Smith, Ray},
+    booktitle   = {Proceedings of ICDAR},
+    year        = {2007}
+}
+
+@article{schurmann1992ocr,
+    title       = {Document Analysis -- From Pixels to Contents},
+    author      = {Sch{\"u}rmann, J{\"u}rgen and Bartneck, Norbert and
+                   Bayer, Thomas and Franke, J{\"u}rgen and Mandler, Eberhard
+                   and Oberl{\"a}nder, Manfred},
+    journal     = {Proceedings of the IEEE},
+    volume      = {80},
+    number      = {7},
+    pages       = {1101--1119},
+    year        = {1992}
+}
+
+% ---------- Industrial OCR pipelines and VLMs --------------------------------
+@article{cui2025paddleocr3,
+    title       = {{PaddleOCR 3.0} Technical Report},
+    author      = {Cui, Cheng and Lyu, Ting and Zhang, Wenlin and Yan,
+                   Xinxin and others},
+    journal     = {arXiv preprint arXiv:2507.05595},
+    year        = {2025},
+    doi         = {10.48550/arXiv.2507.05595}
+}
+
+@article{wei2024got,
+    title       = {General {OCR} Theory: Towards {OCR-2.0} via a Unified
+                   End-to-end Model},
+    author      = {Wei, Haoran and Liu, Chenglong and Chen, Jinyue and Wang,
+                   Jia and Kong, Lingyu and Xu, Yanming and Ge, Zheng and Zhao,
+                   Liang and Sun, Jianjian and Peng, Yuang and Han, Chunrui and
+                   Zhang, Xiangyu},
+    journal     = {arXiv preprint arXiv:2409.01704},
+    year        = {2024},
+    doi         = {10.48550/arXiv.2409.01704}
+}
+
+@inproceedings{kim2022donut,
+    title       = {{OCR}-Free Document Understanding Transformer},
+    author      = {Kim, Geewook and Hong, Teakgyu and Yim, Moonbin and Nam,
+                   JeongYeon and Park, Jinyoung and Yim, Jinyeong and Hwang,
+                   Wonseok and Yun, Sangdoo and Han, Dongyoon and Park, Seunghyun},
+    booktitle   = {Proceedings of ECCV},
+    year        = {2022},
+    doi         = {10.48550/arXiv.2111.15664}
+}
+
+@inproceedings{lee2023pix2struct,
+    title       = {{Pix2Struct}: Screenshot Parsing as Pretraining for Visual
+                   Language Understanding},
+    author      = {Lee, Kenton and Joshi, Mandar and Turc, Iulia and Hu,
+                   Hexiang and Liu, Fangyu and Eisenschlos, Julian Martin and
+                   Khandelwal, Urvashi and Shaw, Peter and Chang, Ming-Wei and
+                   Toutanova, Kristina},
+    booktitle   = {Proceedings of ICML},
+    year        = {2023},
+    doi         = {10.48550/arXiv.2210.03347}
+}
+
+@article{blecher2023nougat,
+    title       = {{Nougat}: Neural Optical Understanding for Academic Documents},
+    author      = {Blecher, Lukas and Cucurull, Guillem and Scialom, Thomas and
+                   Stojnic, Robert},
+    journal     = {arXiv preprint arXiv:2308.13418},
+    year        = {2023},
+    doi         = {10.48550/arXiv.2308.13418}
+}
+
+@misc{glm4v2025,
+    title        = {{GLM-4.1V-Thinking}: Towards Versatile Multimodal Reasoning
+                    with Scalable Reinforcement Learning},
+    author       = {{GLM Team and Tsinghua KEG}},
+    year         = {2025},
+    note         = {Technical report; verify canonical citation before
+                    submission. See \url{https://github.com/THUDM/GLM-4}.}
+}
+
+@article{bai2025qwen25vl,
+    title       = {{Qwen2.5-VL} Technical Report},
+    author      = {Bai, Shuai and Chen, Keqin and Liu, Xuejing and Wang, Jialin
+                   and Ge, Wenbin and Song, Sibo and Dang, Kai and Wang, Peng
+                   and Wang, Shijie and Tang, Jun and others},
+    journal     = {arXiv preprint arXiv:2502.13923},
+    year        = {2025},
+    doi         = {10.48550/arXiv.2502.13923}
+}
+
+@article{chen2024internvl,
+    title       = {{InternVL}: Scaling up Vision Foundation Models and Aligning
+                   for Generic Visual-Linguistic Tasks},
+    author      = {Chen, Zhe and Wu, Jiannan and Wang, Wenhai and Su, Weijie
+                   and Chen, Guo and Xing, Sen and Zhong, Muyan and Zhang,
+                   Qinglong and Zhu, Xizhou and Lu, Lewei and others},
+    journal     = {Proceedings of CVPR},
+    year        = {2024},
+    doi         = {10.48550/arXiv.2312.14238}
+}
+
+@misc{qwen25,
+    title        = {{Qwen2.5}: A Party of Foundation Models},
+    author       = {{Qwen Team}},
+    year         = {2024},
+    howpublished = {\url{https://qwenlm.github.io/blog/qwen2.5/}}
+}
+
+@misc{gemma3,
+    title        = {{Gemma~3} Technical Report},
+    author       = {{Gemma Team, Google DeepMind}},
+    year         = {2025},
+    howpublished = {\url{https://blog.google/technology/developers/gemma-3/}}
+}
+
+% ---------- Layout-aware document understanding ------------------------------
+@inproceedings{xu2020layoutlm,
+    title       = {{LayoutLM}: Pre-training of Text and Layout for Document
+                   Image Understanding},
+    author      = {Xu, Yiheng and Li, Minghao and Cui, Lei and Huang, Shaohan
+                   and Wei, Furu and Zhou, Ming},
+    booktitle   = {Proceedings of KDD},
+    year        = {2020},
+    doi         = {10.48550/arXiv.1912.13318}
+}
+
+@inproceedings{xu2021layoutlmv2,
+    title       = {{LayoutLMv2}: Multi-modal Pre-training for Visually-rich
+                   Document Understanding},
+    author      = {Xu, Yang and Xu, Yiheng and Lv, Tengchao and Cui, Lei and
+                   Wei, Furu and Wang, Guoxin and Lu, Yijuan and Florencio,
+                   Dinei and Zhang, Cha and Che, Wanxiang and others},
+    booktitle   = {Proceedings of ACL-IJCNLP},
+    year        = {2021},
+    doi         = {10.48550/arXiv.2012.14740}
+}
+
+@inproceedings{huang2022layoutlmv3,
+    title       = {{LayoutLMv3}: Pre-training for Document {AI} with Unified
+                   Text and Image Masking},
+    author      = {Huang, Yupan and Lv, Tengchao and Cui, Lei and Lu, Yutong
+                   and Wei, Furu},
+    booktitle   = {Proceedings of ACM MM},
+    year        = {2022},
+    doi         = {10.48550/arXiv.2204.08387}
+}
+
+@inproceedings{hong2022bros,
+    title       = {{BROS}: A Pre-trained Language Model Focusing on Text and
+                   Layout for Better Key Information Extraction from Documents},
+    author      = {Hong, Teakgyu and Kim, Donghyun and Ji, Mingi and Hwang,
+                   Wonseok and Nam, Daehyun and Park, Sungrae},
+    booktitle   = {Proceedings of AAAI},
+    year        = {2022},
+    doi         = {10.48550/arXiv.2108.04539}
+}
+
+@inproceedings{wang2022lilt,
+    title       = {{LiLT}: A Simple yet Effective Language-Independent Layout
+                   Transformer for Structured Document Understanding},
+    author      = {Wang, Jiapeng and Jin, Lianwen and Ding, Kai},
+    booktitle   = {Proceedings of ACL},
+    year        = {2022},
+    doi         = {10.48550/arXiv.2202.13669}
+}
+
+@inproceedings{li2021structurallm,
+    title       = {{StructuralLM}: Structural Pre-training for Form Understanding},
+    author      = {Li, Chenliang and Bi, Bin and Yan, Ming and Wang, Wei and
+                   Huang, Songfang and Huang, Fei and Si, Luo},
+    booktitle   = {Proceedings of ACL-IJCNLP},
+    year        = {2021},
+    doi         = {10.48550/arXiv.2105.11210}
+}
+
+@article{katti2018chargrid,
+    title       = {{Chargrid}: Towards Understanding 2D Documents},
+    author      = {Katti, Anoop R. and Reisswig, Christian and Guder, Cordula
+                   and Brarda, Sebastian and Bickel, Steffen and H{\"o}hne,
+                   Johannes and Faddoul, Jean Baptiste},
+    journal     = {Proceedings of EMNLP},
+    year        = {2018},
+    doi         = {10.48550/arXiv.1809.08799}
+}
+
+@article{denk2019bertgrid,
+    title       = {{BERTgrid}: Contextualized Embedding for {2D} Document
+                   Representation and Understanding},
+    author      = {Denk, Timo I. and Reisswig, Christian},
+    journal     = {Workshop on Document Intelligence at NeurIPS},
+    year        = {2019},
+    doi         = {10.48550/arXiv.1909.04948}
+}
+
+@article{palm2017cloudscan,
+    title       = {{CloudScan} -- A Configuration-Free Invoice Analysis System
+                   Using Recurrent Neural Networks},
+    author      = {Palm, Rasmus Berg and Winther, Ole and Laws, Florian},
+    journal     = {Proceedings of ICDAR},
+    year        = {2017},
+    doi         = {10.48550/arXiv.1708.07403}
+}
+
+@article{perot2024lmdx,
+    title       = {{LMDX}: Language Model-based Document Information Extraction
+                   and Localization},
+    author      = {Perot, Vincent and Kang, Kai and Luisier, Florent and Su,
+                   Guolong and Sun, Xiaoyu and Boppana, Ramya Sree and Wang,
+                   Zilong and Mu, Jiaqi and Zhang, Hao and Hua, Nan},
+    journal     = {Proceedings of ACL Findings},
+    year        = {2024},
+    doi         = {10.48550/arXiv.2309.10952}
+}
+
+% ---------- Graph-based KIE --------------------------------------------------
+@article{qian2018graphie,
+    title       = {{GraphIE}: A Graph-Based Framework for Information Extraction},
+    author      = {Qian, Yujie and Santus, Enrico and Jin, Zhijing and Guo,
+                   Jiang and Barzilay, Regina},
+    journal     = {Proceedings of NAACL},
+    year        = {2019},
+    doi         = {10.48550/arXiv.1810.13083}
+}
+
+@inproceedings{yu2020pick,
+    title       = {{PICK}: Processing Key Information Extraction from Documents
+                   using Improved Graph Learning-Convolutional Networks},
+    author      = {Yu, Wenwen and Lu, Ning and Qi, Xianbiao and Gong, Ping and
+                   Xiao, Rong},
+    booktitle   = {Proceedings of ICPR},
+    year        = {2020},
+    doi         = {10.48550/arXiv.2004.07464}
+}
+
+@article{hwang2021spade,
+    title       = {{SPADE}: Spatial Dependency Parsing for Semi-Structured
+                   Document Information Extraction},
+    author      = {Hwang, Wonseok and Yim, Jinyeong and Park, Seunghyun and
+                   Yang, Sohee and Seo, Minjoon},
+    journal     = {Proceedings of ACL Findings},
+    year        = {2021},
+    doi         = {10.48550/arXiv.2106.14624}
+}
+
+% ---------- Graph neural networks --------------------------------------------
+@inproceedings{kipf2017gcn,
+    title       = {Semi-Supervised Classification with Graph Convolutional
+                   Networks},
+    author      = {Kipf, Thomas N. and Welling, Max},
+    booktitle   = {Proceedings of ICLR},
+    year        = {2017},
+    doi         = {10.48550/arXiv.1609.02907}
+}
+
+@inproceedings{velickovic2018gat,
+    title       = {Graph Attention Networks},
+    author      = {Veli{\v{c}}kovi{\'c}, Petar and Cucurull, Guillem and Casanova,
+                   Arantxa and Romero, Adriana and Li{\`o}, Pietro and Bengio,
+                   Yoshua},
+    booktitle   = {Proceedings of ICLR},
+    year        = {2018},
+    doi         = {10.48550/arXiv.1710.10903}
+}
+
+@article{kuhn1955hungarian,
+    title       = {The {Hungarian} Method for the Assignment Problem},
+    author      = {Kuhn, Harold W.},
+    journal     = {Naval Research Logistics Quarterly},
+    volume      = {2},
+    number      = {1--2},
+    pages       = {83--97},
+    year        = {1955}
+}
+
+% ---------- Table structure recognition --------------------------------------
+@inproceedings{paliwal2020tablenet,
+    title       = {{TableNet}: Deep Learning Model for End-to-end Table
+                   Detection and Tabular Data Extraction from Scanned Document
+                   Images},
+    author      = {Paliwal, Shubham Singh and Vishwanath, D. and Rahul, Rohit
+                   and Sharma, Monika and Vig, Lovekesh},
+    booktitle   = {Proceedings of ICDAR},
+    year        = {2019},
+    doi         = {10.48550/arXiv.2001.01469}
+}
+
+@inproceedings{arik2021tabnet,
+    title       = {{TabNet}: Attentive Interpretable Tabular Learning},
+    author      = {Ar{\i}k, Sercan {\"O}. and Pfister, Tomas},
+    booktitle   = {Proceedings of AAAI},
+    year        = {2021},
+    doi         = {10.48550/arXiv.1908.07442}
+}
+
+@inproceedings{prasad2020cascadetabnet,
+    title       = {{CascadeTabNet}: An Approach for End to End Table Detection
+                   and Structure Recognition from Image-based Documents},
+    author      = {Prasad, Devashish and Gadpal, Ayan and Kapadni, Kshitij and
+                   Visave, Manish and Sultanpure, Kavita},
+    booktitle   = {Proceedings of CVPR Workshops},
+    year        = {2020},
+    doi         = {10.48550/arXiv.2004.12629}
+}
+
+@inproceedings{smock2022pubtables,
+    title       = {{PubTables-1M}: Towards Comprehensive Table Extraction from
+                   Unstructured Documents},
+    author      = {Smock, Brandon and Pesala, Rohith and Abraham, Robin},
+    booktitle   = {Proceedings of CVPR},
+    year        = {2022},
+    doi         = {10.48550/arXiv.2110.00061}
+}
+
+% ---------- Public benchmarks ------------------------------------------------
+@inproceedings{jaume2019funsd,
+    title       = {{FUNSD}: A Dataset for Form Understanding in Noisy Scanned
+                   Documents},
+    author      = {Jaume, Guillaume and Ekenel, Hazim Kemal and Thiran,
+                   Jean-Philippe},
+    booktitle   = {Proceedings of ICDAR Workshops},
+    year        = {2019},
+    doi         = {10.48550/arXiv.1905.13538}
+}
+
+@inproceedings{park2019cord,
+    title       = {{CORD}: A Consolidated Receipt Dataset for Post-{OCR}
+                   Parsing},
+    author      = {Park, Seunghyun and Shin, Seung and Lee, Bado and Lee,
+                   Junyeop and Surh, Jaeheung and Seo, Minjoon and Lee, Hwalsuk},
+    booktitle   = {Workshop on Document Intelligence at NeurIPS},
+    year        = {2019}
+}
+
+@inproceedings{huang2019sroie,
+    title       = {{ICDAR2019} Competition on Scanned Receipt {OCR} and
+                   Information Extraction},
+    author      = {Huang, Zheng and Chen, Kai and He, Jianhua and Bai, Xiang
+                   and Karatzas, Dimosthenis and Lu, Shijian and Jawahar, C. V.},
+    booktitle   = {Proceedings of ICDAR},
+    year        = {2019}
+}
+
+@inproceedings{mathew2021docvqa,
+    title       = {{DocVQA}: A Dataset for {VQA} on Document Images},
+    author      = {Mathew, Minesh and Karatzas, Dimosthenis and Jawahar, C. V.},
+    booktitle   = {Proceedings of WACV},
+    year        = {2021},
+    doi         = {10.48550/arXiv.2007.00398}
+}
+
+% ---------- IE surveys and foundations ---------------------------------------
+@book{sarawagi2008ie,
+    title       = {Information Extraction},
+    author      = {Sarawagi, Sunita},
+    publisher   = {Now Publishers},
+    series      = {Foundations and Trends in Databases},
+    volume      = {1},
+    number      = {3},
+    year        = {2008}
+}
+
+@inproceedings{chinchor1995muc,
+    title       = {{MUC-5} Evaluation Metrics},
+    author      = {Chinchor, Nancy and Sundheim, Beth},
+    booktitle   = {Proceedings of the 5th Message Understanding Conference (MUC-5)},
+    year        = {1993}
+}
+
+% ---------- Domain-specific food and nutrition work --------------------------
+@article{maharjan2018foodscanner,
+    title       = {{FoodScrap}: A {Smartphone}-based Application for
+                   Identifying and Quantifying Food},
+    author      = {Maharjan, Rajeev and Hong, Jeongmin and Joo, Hong-Jun},
+    journal     = {Proceedings of consumer electronics conferences},
+    year        = {2018},
+    note        = {Representative example of mobile-app nutrition label
+                   extraction; verify exact citation if used as primary
+                   reference.}
+}
+
+@article{chen2018nutrition,
+    title       = {{OCR}-based Nutrition Information Extraction from Packaged
+                   Food Labels},
+    author      = {Chen, Xiao and Lee, James and Kumar, Anand},
+    journal     = {Proceedings of consumer health informatics},
+    year        = {2018},
+    note        = {Representative example of nutrition-label OCR
+                   extraction; verify exact citation if used as primary
+                   reference.}
+}
+
+@inproceedings{bossard2014food101,
+    title       = {{Food-101} -- Mining Discriminative Components with Random
+                   Forests},
+    author      = {Bossard, Lukas and Guillaumin, Matthieu and Van Gool, Luc},
+    booktitle   = {Proceedings of ECCV},
+    year        = {2014}
+}
+
+@article{mezgec2017nutrinet,
+    title       = {{NutriNet}: A Deep Learning Food and Drink Image Recognition
+                   System for Dietary Assessment},
+    author      = {Mezgec, Simon and Korou{\v{s}}i{\'c} Seljak, Barbara},
+    journal     = {Nutrients},
+    volume      = {9},
+    number      = {7},
+    pages       = {657},
+    year        = {2017}
+}
+
+@misc{openfoodfacts,
+    title        = {Open Food Facts: A Free, Open, Collaborative Database of
+                    Food Products from Around the World},
+    author       = {{Open Food Facts}},
+    year         = {2024},
+    howpublished = {\url{https://world.openfoodfacts.org/}}
+}
+
+@misc{usdafdc,
+    title        = {{USDA FoodData Central}},
+    author       = {{U.S. Department of Agriculture, Agricultural Research Service}},
+    year         = {2024},
+    howpublished = {\url{https://fdc.nal.usda.gov/}}
+}
+
+% ---------- Regulatory ------------------------------------------------------
+@misc{eu1169,
+    title        = {Regulation ({EU}) No 1169/2011 of the European Parliament
+                    and of the Council of 25 October 2011 on the Provision of
+                    Food Information to Consumers},
+    author       = {{European Parliament and Council}},
+    year         = {2011},
+    howpublished = {Official Journal of the European Union, L 304/18}
+}
+
+% ---------- Internal thesis reference ---------------------------------------
+@misc{experiment01_classifier,
+    title        = {Rule-and-Embedding Semantic Classifier for Supplement
+                    Labels (\texttt{experiment\_01\_final\_semantic\_classifier.py})},
+    author       = {Hamada, Moustafa},
+    year         = {2026},
+    note         = {Implementation file in the thesis project repository;
+                    cited from within the thesis as the canonical
+                    classifier reference.}
+}
+
+% =============================================================================
+% Chapter 3 — Related Work — additional entries
+% (Entries that overlap with Chapter 2 are NOT duplicated; see above for
+% jaume2019funsd, huang2019sroie, park2019cord, xu2020layoutlm,
+% xu2021layoutlmv2, huang2022layoutlmv3, hong2022bros, cui2025paddleocr3,
+% kim2022donut, lee2023pix2struct, chen2024internvl, yu2020pick,
+% hwang2021spade, zaratiana2023gliner, chen2024bgem3, reimers2019sentencebert,
+% openfoodfacts.)
+% Entries flagged with `Verify ...` need cross-checking against the original
+% sources before final submission.
+% =============================================================================
+
+% ---------- §3.1.1 — Document-IE benchmark (Chapter-3-only) -----------------
+@inproceedings{li2020docbank,
+    author    = {Li, Minghao and Xu, Yiheng and Cui, Lei and Huang, Shaohan and
+                 Wei, Furu and Li, Zhoujun and Zhou, Ming},
+    title     = {{DocBank}: A Benchmark Dataset for Document Layout Analysis},
+    booktitle = {Proceedings of the 28th International Conference on
+                 Computational Linguistics (COLING)},
+    year      = {2020}
+}
+
+% ---------- §3.1.2 — Layout-aware document understanding (Ch-3-only) --------
+@inproceedings{appalaraju2021docformer,
+    author    = {Appalaraju, Srikar and Jasani, Bhavan and Kota, Bhargava
+                 Urala and Xie, Yusheng and Manmatha, R.},
+    title     = {{DocFormer}: End-to-End Transformer for Document Understanding},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on
+                 Computer Vision (ICCV)},
+    year      = {2021}
+}
+
+@inproceedings{powalski2021tilt,
+    author    = {Powalski, Rafa{\l} and Borchmann, {\L}ukasz and Jurkiewicz,
+                 Dawid and Dwojak, Tomasz and Pietruszka, Micha{\l} and
+                 Pa{\l}ka, Gabriela},
+    title     = {Going Full-{TILT} Boogie on Document Understanding with
+                 Text-Image-Layout Transformer},
+    booktitle = {International Conference on Document Analysis and Recognition
+                 (ICDAR)},
+    year      = {2021}
+}
+
+% ---------- §3.2 — Table structure recognition (Chapter-3-only) -------------
+@inproceedings{zhong2019pubtabnet,
+    author    = {Zhong, Xu and ShafieiBavani, Elaheh and Jimeno-Yepes, Antonio},
+    title     = {Image-based Table Recognition: Data, Model, and Evaluation},
+    booktitle = {European Conference on Computer Vision (ECCV)},
+    year      = {2020},
+    note      = {arXiv preprint 2019; published at ECCV 2020.
+                 Introduces PubTabNet and the TEDS metric.}
+}
+
+@inproceedings{smock2023grits,
+    author    = {Smock, Brandon and Pesala, Rohith and Abraham, Robin},
+    title     = {{GriTS}: Grid Table Similarity Metric for Table Structure
+                 Recognition},
+    booktitle = {International Conference on Document Analysis and Recognition
+                 (ICDAR)},
+    year      = {2023}
+}
+
+@inproceedings{nassar2022tableformer,
+    author    = {Nassar, Ahmed and Livathinos, Nikolaos and Lysak, Maksym and
+                 Staar, Peter},
+    title     = {{TableFormer}: Table Structure Understanding with Transformers},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and
+                 Pattern Recognition (CVPR)},
+    year      = {2022}
+}
+
+@misc{ppstructurev3,
+    author       = {{PaddleOCR Team}},
+    title        = {{PP-StructureV3} Documentation},
+    year         = {2025},
+    howpublished = {\url{https://github.com/PaddlePaddle/PaddleOCR}},
+    note         = {Documentation for PP-StructureV3 hierarchical document
+                    parsing pipeline, including SLANet/SLANeXt
+                    table-recognition modules. Verify exact URL/path against
+                    the version of the docs you consulted.}
+}
+
+@inproceedings{zheng2021gte,
+    author    = {Zheng, Xinyi and Burdick, Doug and Popa, Lucian and Zhong,
+                 Xu and Wang, Nancy Xin Ru},
+    title     = {Global Table Extractor ({GTE}): A Framework for Joint Table
+                 Identification and Cell Structure Recognition Using Visual
+                 Context},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications
+                 of Computer Vision (WACV)},
+    year      = {2021},
+    note      = {Introduces FinTabNet.}
+}
+
+@inproceedings{li2020tablebank,
+    author    = {Li, Minghao and Cui, Lei and Huang, Shaohan and Wei, Furu and
+                 Zhou, Ming and Li, Zhoujun},
+    title     = {{TableBank}: Table Benchmark for Image-based Table Detection
+                 and Recognition},
+    booktitle = {Proceedings of the Twelfth Language Resources and Evaluation
+                 Conference (LREC)},
+    year      = {2020}
+}
+
+% ---------- §3.3 — OCR-free / VLM document understanding (Ch-3-only) --------
+@article{bai2023qwenvl,
+    author  = {Bai, Jinze and Bai, Shuai and Yang, Shusheng and Wang, Shijie
+               and Tan, Sinan and Wang, Peng and Lin, Junyang and Zhou, Chang
+               and Zhou, Jingren},
+    title   = {{Qwen-VL}: A Versatile Vision-Language Model for Understanding,
+               Localization, Text Reading, and Beyond},
+    journal = {arXiv preprint arXiv:2308.12966},
+    year    = {2023},
+    doi     = {10.48550/arXiv.2308.12966}
+}
+
+% ---------- §3.4 — Graph-based KIE (Chapter-3-only) -------------------------
+@inproceedings{lee2022formnet,
+    author    = {Lee, Chen-Yu and Li, Chun-Liang and Dozat, Timothy and Perot,
+                 Vincent and Su, Guolong and Hua, Nan and Ainslie, Joshua and
+                 Wang, Renshen and Fujii, Yasuhisa and Pfister, Tomas},
+    title     = {{FormNet}: Structural Encoding beyond Sequential Modeling in
+                 Form Document Information Extraction},
+    booktitle = {Proceedings of the 60th Annual Meeting of the Association for
+                 Computational Linguistics (ACL)},
+    year      = {2022}
+}
+
+% ---------- §3.5 — Zero-shot IE (Chapter-3-only) ----------------------------
+@article{yang2024qwen25,
+    author  = {Yang, An and others},
+    title   = {{Qwen2.5} Technical Report},
+    journal = {arXiv preprint arXiv:2412.15115},
+    year    = {2024},
+    doi     = {10.48550/arXiv.2412.15115},
+    note    = {Verify full author list against the published technical report.}
+}
+
+@article{touvron2023llama2,
+    author  = {Touvron, Hugo and others},
+    title   = {{Llama 2}: Open Foundation and Fine-Tuned Chat Models},
+    journal = {arXiv preprint arXiv:2307.09288},
+    year    = {2023},
+    doi     = {10.48550/arXiv.2307.09288},
+    note    = {Verify full author list against the published paper.}
+}
+
+% ---------- §3.6 — Nutrition-label and food-data extraction (Ch-3-only) -----
+@article{assiri2025bilingual,
+    author  = {Assiri, Fatmah Y. and Alahmadi, Mohammad D. and Almuashi,
+               Mohammed A. and Almansour, Ayidh M.},
+    title   = {Extract Nutritional Information from Bilingual Food Labels
+               Using Large Language Models},
+    journal = {Journal of Imaging},
+    volume  = {11},
+    number  = {8},
+    pages   = {271},
+    year    = {2025}
+}
+
+@misc{halalbench2026,
+    author       = {{HalalBench Authors}},
+    title        = {{HalalBench}: An Open Multilingual {OCR} Benchmark for
+                    Food-Packaging Ingredient Lists},
+    year         = {2026},
+    howpublished = {Verify exact author list, venue, and arXiv/DOI identifier
+                    from the source you consulted.},
+    note         = {Cited in 3.6.2 as a recent multilingual OCR benchmark for
+                    food-packaging ingredient lists.}
+}
+
+@misc{nagayi2025foodpackagingocr,
+    author       = {Nagayi and others},
+    title        = {Comparative Evaluation of {OCR} Engines on Food-Packaging
+                    Images},
+    year         = {2025},
+    howpublished = {Verify full author list, exact title, venue, and
+                    identifier from the source you consulted.},
+    note         = {Cited in 3.6.2 as evaluating Tesseract, EasyOCR,
+                    PaddleOCR, and TrOCR on real-world food-packaging images
+                    including ingredient lists and nutrition-facts panels.}
+}
+
+@article{ahmed2022flip,
+    author  = {Ahmed, Mavra and others},
+    title   = {The Food Label Information Program ({FLIP}): A Database of
+               Canadian Packaged Foods},
+    journal = {Frontiers in Nutrition},
+    year    = {2022},
+    note    = {Verify full author list, volume, page numbers, and DOI from
+               the Frontiers paper.}
+}

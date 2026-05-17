@@ -1,0 +1,6 @@
+tag,image_id,gt_nutrient,gt_quantity,gt_unit,gt_context,pred_nutrient,pred_quantity,pred_unit,pred_context,reason
+missing,1.png,Magnesium (gesamt),400,mg,per_daily_dose,,,,,nutrient not found in predictions
+missing,1.png,Magnesiumsalze der Citronensäure,420,mg,per_daily_dose,,,,,nutrient not found in predictions
+missing,1.png,Magnesiumoxid,400,mg,per_daily_dose,,,,,nutrient not found in predictions
+missing,1.png,Magnesiumbisglycinat,350,mg,per_daily_dose,,,,,nutrient not found in predictions
+missing,1.png,Magnesiummalat,333,mg,per_daily_dose,,,,,nutrient not found in predictions

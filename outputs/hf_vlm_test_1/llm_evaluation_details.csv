@@ -1,0 +1,1 @@
+image_id,gt_nutrient,pred_nutrient,gt_quantity,pred_quantity,gt_unit,pred_unit,gt_context,pred_context,nutrient_match,quantity_match,unit_match,context_match,full_match_3f,full_match_4f,eval_method,nutrient_reason,quantity_reason,unit_reason,context_reason

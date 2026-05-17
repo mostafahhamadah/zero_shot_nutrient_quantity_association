@@ -1,0 +1,2 @@
+image_id,gt,pred,match,qty_pct,unit_pct,ctx_pct,full3f_pct,full4f_pct
+1.png,5,0,0,0,0,0,0,0

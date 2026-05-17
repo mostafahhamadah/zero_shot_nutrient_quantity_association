@@ -1,0 +1,88 @@
+{
+  "experiment": {
+    "experiment_id": "EXP-09",
+    "experiment_name": "C_G1",
+    "ocr_engine": "paddleocr",
+    "classifier_key": "gliner",
+    "association_key": "graph_v1",
+    "notes": "gliner + graph_v1"
+  },
+  "ablation_config": {
+    "data": {
+      "raw_dir": "data/raw",
+      "annotations_dir": "data/annotations",
+      "ground_truth_csv": "data/annotations/test_set_normalized.csv",
+      "image_extensions": "{'.tiff', '.jpeg', '.bmp', '.png', '.tif', '.webp', '.jpg'}"
+    },
+    "output_dir": "results/ablation",
+    "debug": {
+      "limit_images": null,
+      "strict_mode": false,
+      "skip_if_exists": false,
+      "display_n_images": 4
+    },
+    "phase1": {
+      "ocr_engines": {
+        "EXP-01": "easyocr",
+        "EXP-02": "paddleocr"
+      },
+      "fixed_classifier": "rule_based",
+      "fixed_association": "graph_v2",
+      "primary_metric": "full_tuple_f1"
+    },
+    "phase2": {
+      "ocr_engine": "paddleocr",
+      "classifiers": {
+        "A": "rule_based",
+        "B": "embedding",
+        "C": "gliner"
+      },
+      "associations": {
+        "G1": "graph_v1",
+        "G2": "graph_v2",
+        "VLM": "vlm"
+      }
+    },
+    "classifiers": {
+      "rule_based": {
+        "confidence_threshold": 0.3
+      },
+      "embedding": {
+        "mode": "embedding_only",
+        "device": "cpu"
+      },
+      "gliner": {}
+    },
+    "vlm": {
+      "backend": "openai_compat",
+      "openai_base_url": "http://127.0.0.1:1234/v1/chat/completions",
+      "openai_model": "google/gemma-3-4b",
+      "temperature": 0.1,
+      "max_tokens": 4096,
+      "image_max_side": 896,
+      "retry_max": 0
+    },
+    "RUN_VLM_EXPERIMENTS": true,
+    "evaluation": {
+      "use_llm_in_evaluator": false,
+      "llm_evaluator_model": "qwen2.5:7b",
+      "thresholds": {
+        "low_f1": 0.3,
+        "high_f1": 0.7,
+        "low_prec": 0.4,
+        "high_prec": 0.8,
+        "low_rec": 0.4,
+        "high_rec": 0.8
+      }
+    },
+    "plots": {
+      "figsize": [
+        8,
+        4
+      ],
+      "save_format": "png",
+      "bar_label_fmt": "{:.0f}"
+    }
+  },
+  "timestamp": "2026-05-16 12:46:59"
+}

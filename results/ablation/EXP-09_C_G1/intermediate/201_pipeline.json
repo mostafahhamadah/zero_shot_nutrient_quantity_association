@@ -1,0 +1,9 @@
+{
+  "ocr_tokens": [],
+  "corrected": [],
+  "labeled": [],
+  "tuples": [],
+  "diagnostics": {},
+  "duration_s": 1.194,
+  "error": "RuntimeError: could not create a primitive"
+}

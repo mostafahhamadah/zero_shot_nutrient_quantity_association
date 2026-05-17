@@ -1,0 +1,508 @@
+{
+  "ocr_tokens": [
+    {
+      "token": "und in Zeiten ertohten Bedarts ist auf eine ausreichende Ven",
+      "x1": 15,
+      "y1": 1,
+      "x2": 323,
+      "y2": 15,
+      "cx": 169.0,
+      "cy": 8.0,
+      "conf": 0.929
+    },
+    {
+      "token": "Vitamin Czuachten",
+      "x1": 16,
+      "y1": 13,
+      "x2": 122,
+      "y2": 26,
+      "cx": 69.0,
+      "cy": 19.5,
+      "conf": 0.9372
+    },
+    {
+      "token": "Nahrwertangaben",
+      "x1": 14,
+      "y1": 34,
+      "x2": 115,
+      "y2": 47,
+      "cx": 64.5,
+      "cy": 40.5,
+      "conf": 0.996
+    },
+    {
+      "token": "pro1 Tablette",
+      "x1": 129,
+      "y1": 36,
+      "x2": 204,
+      "y2": 47,
+      "cx": 166.5,
+      "cy": 41.5,
+      "conf": 0.9604
+    },
+    {
+      "token": "pro 2 Tabletten",
+      "x1": 224,
+      "y1": 37,
+      "x2": 303,
+      "y2": 49,
+      "cx": 263.5,
+      "cy": 43.0,
+      "conf": 0.9423
+    },
+    {
+      "token": "Zink",
+      "x1": 15,
+      "y1": 50,
+      "x2": 40,
+      "y2": 61,
+      "cx": 27.5,
+      "cy": 55.5,
+      "conf": 0.9903
+    },
+    {
+      "token": "5mg50%",
+      "x1": 134,
+      "y1": 49,
+      "x2": 200,
+      "y2": 64,
+      "cx": 167.0,
+      "cy": 56.5,
+      "conf": 0.9146
+    },
+    {
+      "token": "10mg.(100%",
+      "x1": 226,
+      "y1": 52,
+      "x2": 299,
+      "y2": 62,
+      "cx": 262.5,
+      "cy": 57.0,
+      "conf": 0.8771
+    },
+    {
+      "token": "Vitamin C",
+      "x1": 13,
+      "y1": 60,
+      "x2": 68,
+      "y2": 76,
+      "cx": 40.5,
+      "cy": 68.0,
+      "conf": 0.9337
+    },
+    {
+      "token": "30mg38%",
+      "x1": 128,
+      "y1": 61,
+      "x2": 200,
+      "y2": 77,
+      "cx": 164.0,
+      "cy": 69.0,
+      "conf": 0.9611
+    },
+    {
+      "token": "60mg75%",
+      "x1": 225,
+      "y1": 61,
+      "x2": 302,
+      "y2": 77,
+      "cx": 263.5,
+      "cy": 69.0,
+      "conf": 0.9591
+    },
+    {
+      "token": "%der Referenzmenge gema3 Verordnung EU) Nr.1169/2011",
+      "x1": 12,
+      "y1": 74,
+      "x2": 295,
+      "y2": 88,
+      "cx": 153.5,
+      "cy": 81.0,
+      "conf": 0.9307
+    }
+  ],
+  "corrected": [
+    {
+      "token": "und in Zeiten ertohten Bedarts ist auf eine ausreichende Ven",
+      "x1": 15,
+      "y1": 1,
+      "x2": 323,
+      "y2": 15,
+      "cx": 169.0,
+      "cy": 8.0,
+      "conf": 0.929
+    },
+    {
+      "token": "Vitamin Czuachten",
+      "x1": 16,
+      "y1": 13,
+      "x2": 122,
+      "y2": 26,
+      "cx": 69.0,
+      "cy": 19.5,
+      "conf": 0.9372
+    },
+    {
+      "token": "Nahrwertangaben",
+      "x1": 14,
+      "y1": 34,
+      "x2": 115,
+      "y2": 47,
+      "cx": 64.5,
+      "cy": 40.5,
+      "conf": 0.996
+    },
+    {
+      "token": "pro1 Tablette",
+      "x1": 129,
+      "y1": 36,
+      "x2": 204,
+      "y2": 47,
+      "cx": 166.5,
+      "cy": 41.5,
+      "conf": 0.9604
+    },
+    {
+      "token": "pro 2 Tabletten",
+      "x1": 224,
+      "y1": 37,
+      "x2": 303,
+      "y2": 49,
+      "cx": 263.5,
+      "cy": 43.0,
+      "conf": 0.9423
+    },
+    {
+      "token": "Zinc",
+      "x1": 15,
+      "y1": 50,
+      "x2": 40,
+      "y2": 61,
+      "cx": 27.5,
+      "cy": 55.5,
+      "conf": 0.9903
+    },
+    {
+      "token": "5",
+      "x1": 134,
+      "y1": 49,
+      "x2": 156,
+      "y2": 64,
+      "cx": 145.0,
+      "cy": 56.5,
+      "conf": 0.9146
+    },
+    {
+      "token": "mg",
+      "x1": 156,
+      "y1": 49,
+      "x2": 200,
+      "y2": 64,
+      "cx": 178.0,
+      "cy": 56.5,
+      "conf": 0.9146
+    },
+    {
+      "token": "10mg.(100%",
+      "x1": 226,
+      "y1": 52,
+      "x2": 299,
+      "y2": 62,
+      "cx": 262.5,
+      "cy": 57.0,
+      "conf": 0.8771
+    },
+    {
+      "token": "Vitamin C",
+      "x1": 13,
+      "y1": 60,
+      "x2": 68,
+      "y2": 76,
+      "cx": 40.5,
+      "cy": 68.0,
+      "conf": 0.9337
+    },
+    {
+      "token": "30",
+      "x1": 128,
+      "y1": 61,
+      "x2": 164,
+      "y2": 77,
+      "cx": 146.0,
+      "cy": 69.0,
+      "conf": 0.9611
+    },
+    {
+      "token": "mg",
+      "x1": 164,
+      "y1": 61,
+      "x2": 200,
+      "y2": 77,
+      "cx": 182.0,
+      "cy": 69.0,
+      "conf": 0.9611
+    },
+    {
+      "token": "60",
+      "x1": 225,
+      "y1": 61,
+      "x2": 263,
+      "y2": 77,
+      "cx": 244.0,
+      "cy": 69.0,
+      "conf": 0.9591
+    },
+    {
+      "token": "mg",
+      "x1": 263,
+      "y1": 61,
+      "x2": 302,
+      "y2": 77,
+      "cx": 282.5,
+      "cy": 69.0,
+      "conf": 0.9591
+    },
+    {
+      "token": "%der Referenzmenge gema3 Verordnung EU) Nr.1169/2011",
+      "x1": 12,
+      "y1": 74,
+      "x2": 295,
+      "y2": 88,
+      "cx": 153.5,
+      "cy": 81.0,
+      "conf": 0.9307
+    }
+  ],
+  "labeled": [
+    {
+      "token": "und in Zeiten ertohten Bedarts ist auf eine ausreichende Ven",
+      "x1": 15,
+      "y1": 1,
+      "x2": 323,
+      "y2": 15,
+      "cx": 169.0,
+      "cy": 8.0,
+      "conf": 0.929,
+      "label": "UNKNOWN",
+      "norm": "und in zeiten ertohten bedarts ist auf eine ausreichende ven"
+    },
+    {
+      "token": "Vitamin Czuachten",
+      "x1": 16,
+      "y1": 13,
+      "x2": 122,
+      "y2": 26,
+      "cx": 69.0,
+      "cy": 19.5,
+      "conf": 0.9372,
+      "label": "NUTRIENT",
+      "norm": "vitamin czuachten"
+    },
+    {
+      "token": "Nahrwertangaben",
+      "x1": 14,
+      "y1": 34,
+      "x2": 115,
+      "y2": 47,
+      "cx": 64.5,
+      "cy": 40.5,
+      "conf": 0.996,
+      "label": "UNKNOWN",
+      "norm": "nahrwertangaben"
+    },
+    {
+      "token": "pro1 Tablette",
+      "x1": 129,
+      "y1": 36,
+      "x2": 204,
+      "y2": 47,
+      "cx": 166.5,
+      "cy": 41.5,
+      "conf": 0.9604,
+      "label": "CONTEXT",
+      "norm": "per_daily_dose"
+    },
+    {
+      "token": "pro 2 Tabletten",
+      "x1": 224,
+      "y1": 37,
+      "x2": 303,
+      "y2": 49,
+      "cx": 263.5,
+      "cy": 43.0,
+      "conf": 0.9423,
+      "label": "CONTEXT",
+      "norm": "per_serving"
+    },
+    {
+      "token": "Zinc",
+      "x1": 15,
+      "y1": 50,
+      "x2": 40,
+      "y2": 61,
+      "cx": 27.5,
+      "cy": 55.5,
+      "conf": 0.9903,
+      "label": "NUTRIENT",
+      "norm": "zinc"
+    },
+    {
+      "token": "5",
+      "x1": 134,
+      "y1": 49,
+      "x2": 156,
+      "y2": 64,
+      "cx": 145.0,
+      "cy": 56.5,
+      "conf": 0.9146,
+      "label": "QUANTITY",
+      "norm": "5"
+    },
+    {
+      "token": "mg",
+      "x1": 156,
+      "y1": 49,
+      "x2": 200,
+      "y2": 64,
+      "cx": 178.0,
+      "cy": 56.5,
+      "conf": 0.9146,
+      "label": "UNIT",
+      "norm": "mg"
+    },
+    {
+      "token": "10mg.(100%",
+      "x1": 226,
+      "y1": 52,
+      "x2": 299,
+      "y2": 62,
+      "cx": 262.5,
+      "cy": 57.0,
+      "conf": 0.8771,
+      "label": "UNKNOWN",
+      "norm": "10mg.(100%"
+    },
+    {
+      "token": "Vitamin C",
+      "x1": 13,
+      "y1": 60,
+      "x2": 68,
+      "y2": 76,
+      "cx": 40.5,
+      "cy": 68.0,
+      "conf": 0.9337,
+      "label": "NUTRIENT",
+      "norm": "vitamin c"
+    },
+    {
+      "token": "30",
+      "x1": 128,
+      "y1": 61,
+      "x2": 164,
+      "y2": 77,
+      "cx": 146.0,
+      "cy": 69.0,
+      "conf": 0.9611,
+      "label": "QUANTITY",
+      "norm": "30"
+    },
+    {
+      "token": "mg",
+      "x1": 164,
+      "y1": 61,
+      "x2": 200,
+      "y2": 77,
+      "cx": 182.0,
+      "cy": 69.0,
+      "conf": 0.9611,
+      "label": "UNIT",
+      "norm": "mg"
+    },
+    {
+      "token": "60",
+      "x1": 225,
+      "y1": 61,
+      "x2": 263,
+      "y2": 77,
+      "cx": 244.0,
+      "cy": 69.0,
+      "conf": 0.9591,
+      "label": "QUANTITY",
+      "norm": "60"
+    },
+    {
+      "token": "mg",
+      "x1": 263,
+      "y1": 61,
+      "x2": 302,
+      "y2": 77,
+      "cx": 282.5,
+      "cy": 69.0,
+      "conf": 0.9591,
+      "label": "UNIT",
+      "norm": "mg"
+    },
+    {
+      "token": "%der Referenzmenge gema3 Verordnung EU) Nr.1169/2011",
+      "x1": 12,
+      "y1": 74,
+      "x2": 295,
+      "y2": 88,
+      "cx": 153.5,
+      "cy": 81.0,
+      "conf": 0.9307,
+      "label": "UNKNOWN",
+      "norm": "%der referenzmenge gema3 verordnung eu) nr.1169/2011"
+    }
+  ],
+  "tuples": [
+    {
+      "nutrient": "Zinc",
+      "quantity": "5",
+      "unit": "mg",
+      "context": "per_serving",
+      "image_id": "9.jpeg"
+    },
+    {
+      "nutrient": "Vitamin C",
+      "quantity": "30",
+      "unit": "mg",
+      "context": "per_serving",
+      "image_id": "9.jpeg"
+    },
+    {
+      "nutrient": "Zinc",
+      "quantity": "10",
+      "unit": "mg",
+      "context": "per_serving",
+      "image_id": "9.jpeg"
+    }
+  ],
+  "diagnostics": {
+    "vlm": {
+      "mode": "vlm",
+      "backend": "openai_compat",
+      "model": "google/gemma-3-4b",
+      "active_tokens": 11,
+      "nutrients": 3,
+      "quantities": 3,
+      "tuples": 3,
+      "attempts": 1,
+      "image_max_side": 896,
+      "last_error": null,
+      "elapsed_s": 3.18,
+      "prompt_char_len": 1025,
+      "max_tokens": 4096,
+      "parse_mode": "full",
+      "salvaged_objects": 0,
+      "postprocess": {
+        "postprocessed": 3,
+        "context_mapped": 3,
+        "deduped": 0,
+        "context_majority": "per_serving"
+      }
+    }
+  },
+  "duration_s": 5.662,
+  "error": null
+}

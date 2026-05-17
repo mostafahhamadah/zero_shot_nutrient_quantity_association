@@ -1,0 +1,115 @@
+image_id,n_ground_truth,n_predicted,tp,fp,fn,precision,recall,f1,fast_rule_decision,likely_failure_source,descriptive_summary
+1.png,5,7,0,7,5,0.0,0.0,0.0,n/a,none,"Image: 1.png. GT=5, predicted=7, TP=0, FP=7, FN=5. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Magnesiumoxid 400  []; Magnesiumbisglycinat 350  []; Magnesiummalat 333  []"
+2.png,16,12,0,12,16,0.0,0.0,0.0,n/a,none,"Image: 2.png. GT=16, predicted=12, TP=0, FP=12, FN=16. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Protein 0  []; Salt 0.43  []; Carbohydrate 50  []  (+8 more)"
+4.png,8,8,0,8,8,0.0,0.0,0.0,n/a,none,"Image: 4.png. GT=8, predicted=8, TP=0, FP=8, FN=8. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Fat   []; Saturated Fats   []; Carbohydrate   []  (+3 more)"
+6.png,6,12,0,12,6,0.0,0.0,0.0,n/a,none,"Image: 6.png. GT=6, predicted=12, TP=0, FP=12, FN=6. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Vitamin C 28  []; Magnesium 56  []; Potassium 70  []  (+3 more)"
+8.png,18,7,0,7,18,0.0,0.0,0.0,n/a,none,"Image: 8.png. GT=18, predicted=7, TP=0, FP=7, FN=18. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Protein   []; Saturated Fats   []; Carbohydrate   []  (+4 more)"
+9.jpeg,4,6,0,6,4,0.0,0.0,0.0,n/a,none,"Image: 9.jpeg. GT=4, predicted=6, TP=0, FP=6, FN=4. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Zinc 5  []; Vitamin C 30  []; Zinc 30  []  (+1 more)"
+12.png,16,5,0,5,16,0.0,0.0,0.0,n/a,none,"Image: 12.png. GT=16, predicted=5, TP=0, FP=5, FN=16. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Carbohydrate 19  []; Protein 0.0  []; Carbohydrate g  []  (+2 more)"
+15.png,42,2,0,2,42,0.0,0.0,0.0,n/a,none,"Image: 15.png. GT=42, predicted=2, TP=0, FP=2, FN=42. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Salt   []; Caffeine   []"
+17.png,4,10,0,10,4,0.0,0.0,0.0,n/a,none,"Image: 17.png. GT=4, predicted=10, TP=0, FP=10, FN=4. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Caffeine 100  []; Niacin 2.4  []; Vitamin B6 0.22  []  (+1 more)"
+20.png,48,17,0,17,48,0.0,0.0,0.0,n/a,none,"Image: 20.png. GT=48, predicted=17, TP=0, FP=17, FN=48. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Carbohydrate   []; Sodium   []; Calcium   []  (+14 more)"
+26.png,8,11,0,11,8,0.0,0.0,0.0,n/a,none,"Image: 26.png. GT=8, predicted=11, TP=0, FP=11, FN=8. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Fat   []; Saturated Fats   []; Carbohydrate   []  (+4 more)"
+27.png,13,6,0,6,13,0.0,0.0,0.0,n/a,none,"Image: 27.png. GT=13, predicted=6, TP=0, FP=6, FN=13. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Calcium   []; Magnesium   []; Zinc   []  (+2 more)"
+30.png,18,6,0,6,18,0.0,0.0,0.0,n/a,none,"Image: 30.png. GT=18, predicted=6, TP=0, FP=6, FN=18. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Sodium 70  []; Sodium 130  []; Protein   []  (+3 more)"
+33.png,26,18,0,18,26,0.0,0.0,0.0,n/a,none,"Image: 33.png. GT=26, predicted=18, TP=0, FP=18, FN=26. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Sodium 210  []; Chloride 140  []; Sodium 158  []  (+12 more)"
+34.png,40,18,0,18,40,0.0,0.0,0.0,n/a,none,"Image: 34.png. GT=40, predicted=18, TP=0, FP=18, FN=40. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Fat   []; Carbohydrate   []; Sugars   []  (+15 more)"
+35.jpeg,4,4,0,4,4,0.0,0.0,0.0,n/a,none,"Image: 35.jpeg. GT=4, predicted=4, TP=0, FP=4, FN=4. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Vitamin C 2.1  []; Magnesium 2.1  []; Magnesium g  []  (+1 more)"
+41.png,8,8,0,8,8,0.0,0.0,0.0,n/a,none,"Image: 41.png. GT=8, predicted=8, TP=0, FP=8, FN=8. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Saturated Fats 0  []; Protein 0  []; Salt 0.10  []  (+2 more)"
+42.png,18,8,0,8,18,0.0,0.0,0.0,n/a,none,"Image: 42.png. GT=18, predicted=8, TP=0, FP=8, FN=18. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Sodium 240  []; Sodium 500  []; Protein   []  (+5 more)"
+51.png,18,5,0,5,18,0.0,0.0,0.0,n/a,none,"Image: 51.png. GT=18, predicted=5, TP=0, FP=5, FN=18. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: CarbohydrateKohlenhydrateGlucidesKoolhydraten   []; ProteinEiweiBProtéinesElwitten   []; SaltSalzSelZout   []"
+53.png,18,6,0,6,18,0.0,0.0,0.0,n/a,none,"Image: 53.png. GT=18, predicted=6, TP=0, FP=6, FN=18. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Vitamin B6Vitamine B6 0.35  []; Vitamin B6Vitamine B6 0.21  []; CarbohydrateKohlenhydrateGlucidesKoolhydraten   []  (+2 more)"
+56.jpeg,10,6,0,6,10,0.0,0.0,0.0,n/a,none,"Image: 56.jpeg. GT=10, predicted=6, TP=0, FP=6, FN=10. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Fat 4.3  []; Fat 3.67  []"
+57.jpeg,10,10,0,10,10,0.0,0.0,0.0,n/a,none,"Image: 57.jpeg. GT=10, predicted=10, TP=0, FP=10, FN=10. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Fat 3.67  []; Fat g  []; proteines 83  []  (+1 more)"
+59.png,28,10,0,10,28,0.0,0.0,0.0,n/a,none,"Image: 59.png. GT=28, predicted=10, TP=0, FP=10, FN=28. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Carbohydrate   []; Fructose   []; Fat   []  (+7 more)"
+61.png,22,9,0,9,22,0.0,0.0,0.0,n/a,none,"Image: 61.png. GT=22, predicted=9, TP=0, FP=9, FN=22. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Fat   []; Saturated Fats   []; Carbohydrate   []  (+6 more)"
+63.png,22,9,0,9,22,0.0,0.0,0.0,n/a,none,"Image: 63.png. GT=22, predicted=9, TP=0, FP=9, FN=22. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Calcium 166.7  []; Fat   []; Saturated Fats   []  (+6 more)"
+64.png,8,15,0,15,8,0.0,0.0,0.0,n/a,none,"Image: 64.png. GT=8, predicted=15, TP=0, FP=15, FN=8. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Vitamin C 50  []; Vitamin B2 0.6  []; Niacin 7.0  []  (+5 more)"
+67.jpeg,4,0,0,0,4,0.0,0.0,0.0,n/a,none,"Image: 67.jpeg. GT=4, predicted=0, TP=0, FP=0, FN=4. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  "
+68.jpeg,34,0,0,0,34,0.0,0.0,0.0,n/a,none,"Image: 68.jpeg. GT=34, predicted=0, TP=0, FP=0, FN=34. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  "
+78.jpeg,2,2,0,2,2,0.0,0.0,0.0,n/a,none,"Image: 78.jpeg. GT=2, predicted=2, TP=0, FP=2, FN=2. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Vitamin D   []; Vitamin D3   []"
+82.jpeg,12,5,0,5,12,0.0,0.0,0.0,n/a,none,"Image: 82.jpeg. GT=12, predicted=5, TP=0, FP=5, FN=12. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Protein   []; Carbohydrate 60  []; Fat 60  []  (+2 more)"
+88.png,16,8,0,8,16,0.0,0.0,0.0,n/a,none,"Image: 88.png. GT=16, predicted=8, TP=0, FP=8, FN=16. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Protein 26  []; Salt 0.33  []; Fat   []  (+4 more)"
+90.png,17,8,0,8,17,0.0,0.0,0.0,n/a,none,"Image: 90.png. GT=17, predicted=8, TP=0, FP=8, FN=17. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Energy   []; Fat   []; Saturated Fats   []  (+5 more)"
+91.png,16,14,0,14,16,0.0,0.0,0.0,n/a,none,"Image: 91.png. GT=16, predicted=14, TP=0, FP=14, FN=16. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Salt 0.10  []; Fat 2.3  []; Salt 0.33  []  (+8 more)"
+101.png,11,11,0,11,11,0.0,0.0,0.0,n/a,none,"Image: 101.png. GT=11, predicted=11, TP=0, FP=11, FN=11. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Salt 0.09  []; Sodium 36  []; Fat   []  (+6 more)"
+102.png,18,18,0,18,18,0.0,0.0,0.0,n/a,none,"Image: 102.png. GT=18, predicted=18, TP=0, FP=18, FN=18. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Salt 0.14  []; Fibre 0.6  []; Energy 1.0  []  (+9 more)"
+103.jpeg,18,15,0,15,18,0.0,0.0,0.0,n/a,none,"Image: 103.jpeg. GT=18, predicted=15, TP=0, FP=15, FN=18. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Saturated Fats 0.4  []; Protein 7.7  []; Fat 0.4  []  (+9 more)"
+104.jpeg,18,15,0,15,18,0.0,0.0,0.0,n/a,none,"Image: 104.jpeg. GT=18, predicted=15, TP=0, FP=15, FN=18. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Salt 0.1  []; Fat   []; Saturated Fats 60  []  (+5 more)"
+105.png,18,15,0,15,18,0.0,0.0,0.0,n/a,none,"Image: 105.png. GT=18, predicted=15, TP=0, FP=15, FN=18. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Salt 0.03  []; Fat   []; Carbohydrate   []  (+8 more)"
+106.png,2,2,0,2,2,0.0,0.0,0.0,n/a,none,"Image: 106.png. GT=2, predicted=2, TP=0, FP=2, FN=2. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Vitamin E   []; Magnesium   []"
+107.png,10,15,0,15,10,0.0,0.0,0.0,n/a,none,"Image: 107.png. GT=10, predicted=15, TP=0, FP=15, FN=10. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Biotin 50  []; Folic Acid 200  []; Vitamin B1   []  (+7 more)"
+108.jpeg,11,20,0,20,11,0.0,0.0,0.0,n/a,none,"Image: 108.jpeg. GT=11, predicted=20, TP=0, FP=20, FN=11. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Magnesium 240  []; Vitamin B1 1.1  []; Vitamin B2 1.4  []  (+7 more)"
+109.jpeg,9,16,0,16,9,0.0,0.0,0.0,n/a,none,"Image: 109.jpeg. GT=9, predicted=16, TP=0, FP=16, FN=9. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Saturated Fats 0.2  []; Carbohydrate 12.0  []; Sugars 9.8  []  (+4 more)"
+110.jpeg,6,4,0,4,6,0.0,0.0,0.0,n/a,none,"Image: 110.jpeg. GT=6, predicted=4, TP=0, FP=4, FN=6. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Niacin 8.0  []; Niacin 16  []; Pantothenic Acid 6.0  []  (+1 more)"
+111.jpeg,1,3,0,3,1,0.0,0.0,0.0,n/a,none,"Image: 111.jpeg. GT=1, predicted=3, TP=0, FP=3, FN=1. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Vitamin B12 17.5  []"
+112.jpeg,1,3,0,3,1,0.0,0.0,0.0,n/a,none,"Image: 112.jpeg. GT=1, predicted=3, TP=0, FP=3, FN=1. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Vitamin B12 17.5  []"
+113.jpeg,20,10,0,10,20,0.0,0.0,0.0,n/a,none,"Image: 113.jpeg. GT=20, predicted=10, TP=0, FP=10, FN=20. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Caffeine 267  []; Caffeine 80  []; Fat   []  (+4 more)"
+114.jpeg,20,9,0,9,20,0.0,0.0,0.0,n/a,none,"Image: 114.jpeg. GT=20, predicted=9, TP=0, FP=9, FN=20. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Fat   []; Carbohydrate   []; Fibre   []  (+4 more)"
+115.png,9,20,0,20,9,0.0,0.0,0.0,n/a,none,"Image: 115.png. GT=9, predicted=20, TP=0, FP=20, FN=9. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Fat 0  []; Carbohydrate 12.0  []; Sugars 10.0  []  (+6 more)"
+116.jpeg,18,8,0,8,18,0.0,0.0,0.0,n/a,none,"Image: 116.jpeg. GT=18, predicted=8, TP=0, FP=8, FN=18. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Salt 2.02  []; Salt 0.61  []; Fat   []  (+4 more)"
+117.jpeg,9,6,0,6,9,0.0,0.0,0.0,n/a,none,"Image: 117.jpeg. GT=9, predicted=6, TP=0, FP=6, FN=9. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Salt 0.04  []; Fat   []; Carbohydrate   []  (+2 more)"
+118.jpeg,20,9,0,9,20,0.0,0.0,0.0,n/a,none,"Image: 118.jpeg. GT=20, predicted=9, TP=0, FP=9, FN=20. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  Correctly extracted: Fat 38  []; Carbohydrate   []; Fibre   []  (+5 more)"
+119.jpeg,20,0,0,0,20,0.0,0.0,0.0,n/a,none,"Image: 119.jpeg. GT=20, predicted=0, TP=0, FP=0, FN=20. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  "
+120.jpeg,26,0,0,0,26,0.0,0.0,0.0,n/a,none,"Image: 120.jpeg. GT=26, predicted=0, TP=0, FP=0, FN=26. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  "
+121.jpeg,20,0,0,0,20,0.0,0.0,0.0,n/a,none,"Image: 121.jpeg. GT=20, predicted=0, TP=0, FP=0, FN=20. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  "
+201.jpeg,16,0,0,0,16,0.0,0.0,0.0,n/a,none,"Image: 201.jpeg. GT=16, predicted=0, TP=0, FP=0, FN=16. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  "
+45_1.png,18,0,0,0,18,0.0,0.0,0.0,n/a,none,"Image: 45_1.png. GT=18, predicted=0, TP=0, FP=0, FN=18. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  "
+45_2.png,8,0,0,0,8,0.0,0.0,0.0,n/a,none,"Image: 45_2.png. GT=8, predicted=0, TP=0, FP=0, FN=8. Precision=0.00, recall=0.00, F1=0.00. Likely failure source: none. Fast-rule decision: n/a.
+  "
