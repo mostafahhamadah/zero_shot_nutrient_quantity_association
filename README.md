@@ -336,6 +336,7 @@ written up in Chapter 6 of the thesis.
 ```bibtex
 @mastersthesis{hamada2026zeroshot,
   author = {Moustafa Hamada},
+  supervisor = {Prof. Dr. Andreas Fischer},
   title  = {Zero-Shot Nutrient and Quantity Association using OCR-Guided Semantic Graph Matching},
   school = {Deggendorf Institute of Technology and University of South Bohemia},
   year   = {2026}
