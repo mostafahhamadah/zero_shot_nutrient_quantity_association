@@ -200,14 +200,14 @@ mode used to report the locked numbers below.
 **1. GLiNER + Graph V2 — best interpretable configuration (run E2-C)**
 
 ```bash
-python run_gliner_experiment.py --experiment e2c_gliner_graphv2 --no-llm
+python run_gliner_experiment.py --experiment e2c_gliner_graphv2_cy --no-llm
 ```
 
 Defaults are the tuned overlap graph (row/col/context = overlap). Useful flags:
 
 ```bash
 --threshold 0.18            # GLiNER span-acceptance τ*  (default 0.18)
---mode hybrid               # keep lexicon nutrients, GLiNER rescues UNKNOWN only
+--mode gliner_only          # GLiNER for deciding what is a nutrient and what is not 
 --row-edge-mode cy --col-edge-mode cx --context-scope-mode cy   # geometric-centroid graph
 --col-edge-mode column_id   # structural column edges (ablation)
 --merge-modes               # late-fusion: cy + role_rank unique-add (ablation)
