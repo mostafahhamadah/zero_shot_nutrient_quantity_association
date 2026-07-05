@@ -1,5 +1,5 @@
 """
-app.py  —  Pipeline Inspection UI  (v4 — Embedding + GLiNER + Dual Evaluation)
+app.py  —  Pipeline Inspection UI  (v5 — VLM + Merged associators + extended corrector)
 Zero-Shot Nutrient Extraction | Moustafa Hamada | M.Sc. AI & Data Science | THD + USB
 
 Run from project root:
@@ -27,6 +27,23 @@ v4 changes:
   • "LLM Evaluator" page renamed "Previous Experiments"
   • Stage 4 Graph page: edge-type explanation cards
   • Embedding classifier badge (purple)
+
+v5 changes:
+  • Association stage — two new engines (selectable in Stage 5):
+        – "VLM · Gemma 3 4B"  (VLMAssociator) — end-to-end image → tuples via LM Studio.
+          Ignores Stage 4; consumes the enriched-token table + the image. This is the
+          ablation-3 black-box reference (graph V2 vs VLM axis of the 2×2 matrix).
+        – "Merged · graph V2 (cy + role_rank)"  (MergedModeAssociator) — exp39f late-fusion.
+          Builds its own cy + role_rank graphs internally; requires the Token Enricher.
+  • run_pipeline() now dispatches on an `engine` key per association entry:
+        graph  → .extract(G, image_id)            (default, Current / Geometry-Aware V2)
+        vlm    → .extract(enriched, img_path, image_id)
+        tokens → .extract(enriched, image_id)     (merged)
+    Paragraph/sentence fallbacks now only run for the graph engine, so they never
+    overwrite VLM or merged output.
+  • Corrector stage — new entry "PaddleOCR Corrector v2 · C1–C18 + C15-EN"
+    (paddleocr_corrector_v2.py). The original C1–C12 entry is kept untouched.
+  • Run Pipeline page: engine-specific info banners (VLM needs LM Studio @127.0.0.1:1234).
 """
 
 
@@ -234,6 +251,13 @@ STAGE_REGISTRY: Dict[str, Dict[str, Dict]] = {
             "symbol":  "correct_tokens", "kind": "paddle-corrector", "ready": True,
             "note":    "C1 decimal · C2/C3 fused split · C6 ENERGIE · C7 context · C8/C9 glyphs · C10 border · C11 fuzzy snap · C12 targeted regex",
         },
+        # ── NEW v5: extended corrector (C1-C18 + C15 canonical-EN) ──────────
+        "PaddleCorrectorV2-Ext": {
+            "label":   "PaddleOCR Corrector v2 · C1–C18 + C15-EN  (extended)",
+            "rel_path":"src/utils/paddleocr_corrector_v2.py",
+            "symbol":  "correct_tokens", "kind": "paddle-corrector", "ready": True,
+            "note":    "Extended ruleset · C1 decimal · C2/C3 split · C6 ENERGIE · C7 ctx · C8/C9 glyph · C10 border · C11 fuzzy snap · C12 regex · C15 canonical-EN nutrient · C18 energy-pair split",
+        },
         "Partial": {
             "label":   "Partial  (Levels 1 + 2 only)", "rel_path": "", "symbol": "",
             "kind":    "builtin-partial", "ready": True,
@@ -360,7 +384,7 @@ STAGE_REGISTRY: Dict[str, Dict[str, Dict]] = {
             "symbol":  "TupleAssociator", "method": "extract", "kind": "cls",
             "init_kwargs": {}, "ready": True,
             "note":    "x-sort quantities + 4-level unit search + column fallback",
-            "version": "v1",
+            "version": "v1", "engine": "graph",
         },
         "Geometry-Aware V2": {
             "label":   "Geometry-Aware V2  (dosage streams + rank + scoring)",
@@ -368,6 +392,26 @@ STAGE_REGISTRY: Dict[str, Dict[str, Dict]] = {
             "symbol":  "TupleAssociatorV2", "method": "extract", "kind": "cls",
             "init_kwargs": {}, "ready": True,
             "note":    "Per-stream matching · geometry+rank scoring · collision resolution — requires Token Enricher",
+            "version": "v2", "engine": "graph",
+        },
+        # ── NEW v5: VLM associator (ablation-3 black-box reference) ─────────
+        "VLM-Gemma3": {
+            "label":   "VLM · Gemma 3 4B  (ablation 3 — image → tuples, LM Studio)",
+            "rel_path":"src/matching/vlm_association.py",
+            "symbol":  "VLMAssociator", "method": "extract", "kind": "cls",
+            "init_kwargs": {}, "ready": True,
+            "engine":  "vlm",
+            "note":    "End-to-end VLM: image + enriched-token table → JSON tuples · LM Studio @127.0.0.1:1234 · google/gemma-3-4b · post-processed · IGNORES Stage 4 graph",
+            "version": "vlm",
+        },
+        # ── NEW v5: Merged late-fusion associator (exp39f) ─────────────────
+        "Merged-V2-RoleRank": {
+            "label":   "Merged · graph V2 (cy + role_rank)  (exp39f late-fusion)",
+            "rel_path":"src/matching/merged_graph_associator.py",
+            "symbol":  "MergedModeAssociator", "method": "extract", "kind": "cls",
+            "init_kwargs": {}, "ready": True,
+            "engine":  "tokens",
+            "note":    "Builds cy + role_rank graphs internally, merges default-first · requires Token Enricher · NOTE: union merging reduced 4F-F1 in experiments — kept for ablation inspection",
             "version": "v2",
         },
     },
@@ -566,47 +610,120 @@ def _merge_mu_splits(tokens):
 # DATA HELPERS
 # ════════════════════════════════════════════════════════════════════════════
 
-def get_images() -> List[str]:
-    """Return all image files in data/raw/ matching supported extensions."""
-    if not DATA_RAW.exists(): return []
+def _mtime(p: Path) -> float:
+    """File/dir mtime used as a cache key; 0.0 if missing."""
+    try:
+        return p.stat().st_mtime
+    except OSError:
+        return 0.0
+
+# ── Ground truth source ──────────────────────────────────────────────────────
+# Canonical GT is test_set_normalized.csv. The app prefers it over the per-image
+# JSON annotations (which are now only edited via the Annotation Editor page and
+# are used as a fallback when the CSV is absent).
+GT_CSV_CANDIDATES = [
+    PROJECT_ROOT / "test_set_normalized.csv",
+    PROJECT_ROOT / "data" / "test_set_normalized.csv",
+    PROJECT_ROOT / "data" / "raw" / "test_set_normalized.csv",
+]
+
+def _find_gt_csv() -> Optional[Path]:
+    for cand in GT_CSV_CANDIDATES:
+        if cand.exists():
+            return cand
+    return None
+
+def gt_source_label() -> str:
+    csv = _find_gt_csv()
+    if csv is not None:
+        try:
+            rel = csv.relative_to(PROJECT_ROOT)
+        except ValueError:
+            rel = csv
+        return f"test set CSV → `{rel}`"
+    return "per-image JSON → `data/annotations/` (CSV not found)"
+
+@st.cache_data(show_spinner=False)
+def _get_images_cached(_raw_mtime: float) -> List[str]:
+    if not DATA_RAW.exists():
+        return []
     return sorted(f.name for f in DATA_RAW.iterdir()
                   if f.suffix.lower() in IMAGE_EXTENSIONS)
 
-def load_gt_df() -> pd.DataFrame:
-    rows = []
-    if not GT_ANNOTATIONS.exists():
-        return pd.DataFrame(columns=["image_id"]+GT_COLS)
+def get_images() -> List[str]:
+    """All images in data/raw/ — cached on the directory's mtime."""
+    return _get_images_cached(_mtime(DATA_RAW))
 
-    # Build a stem → actual filename map from files on disk
-    # This ensures annotations match the real image regardless of extension
-    stem_to_filename: Dict[str, str] = {}
+def _disk_name_maps() -> Tuple[Dict[str, str], Dict[str, str]]:
+    """(lowercased-full-name → actual, stem → actual) for images on disk."""
+    by_name: Dict[str, str] = {}
+    by_stem: Dict[str, str] = {}
     if DATA_RAW.exists():
         for f in DATA_RAW.iterdir():
             if f.suffix.lower() in IMAGE_EXTENSIONS:
-                stem_to_filename[f.stem] = f.name
+                by_name[f.name.lower()] = f.name
+                by_stem.setdefault(f.stem, f.name)
+    return by_name, by_stem
 
+def _resolve_image_id(raw_id, by_name: Dict[str, str], by_stem: Dict[str, str]) -> str:
+    """Map a GT image_id (any case/extension, e.g. '1.PNG') to the actual file on disk."""
+    raw_id = str(raw_id).strip()
+    if raw_id.lower() in by_name:           # exact, case-insensitive ('1.PNG' → '1.png')
+        return by_name[raw_id.lower()]
+    return by_stem.get(Path(raw_id).stem, raw_id)   # else fall back to stem match
+
+@st.cache_data(show_spinner=False)
+def _load_gt_from_csv(csv_path: str, _csv_mtime: float, _raw_mtime: float) -> pd.DataFrame:
+    by_name, by_stem = _disk_name_maps()
+    try:
+        raw = pd.read_csv(csv_path, dtype=str, keep_default_na=False, encoding="utf-8")
+    except Exception as e:
+        st.warning(f"[load_gt] could not read {csv_path}: {e}")
+        return pd.DataFrame(columns=["image_id"]+GT_COLS)
+    rows = []
+    for _, r in raw.iterrows():
+        rows.append({
+            "image_id": _resolve_image_id(r.get("image_id", ""), by_name, by_stem),
+            "nutrient": str(r.get("nutrient", "")).strip(),
+            "quantity": str(r.get("quantity", "")).strip(),
+            "unit":     str(r.get("unit", "")).strip(),
+            "context":  str(r.get("context", "")).strip(),
+        })
+    return (pd.DataFrame(rows, columns=["image_id"]+GT_COLS) if rows
+            else pd.DataFrame(columns=["image_id"]+GT_COLS))
+
+@st.cache_data(show_spinner=False)
+def _load_gt_from_json(_ann_mtime: float, _raw_mtime: float) -> pd.DataFrame:
+    if not GT_ANNOTATIONS.exists():
+        return pd.DataFrame(columns=["image_id"]+GT_COLS)
+    by_name, by_stem = _disk_name_maps()
+    rows = []
     for jf in sorted(GT_ANNOTATIONS.glob("*.json")):
         try:
             data = _json.loads(jf.read_text(encoding="utf-8"))
-            # Match annotation to actual image on disk by stem (regardless of format)
-            stem = jf.stem
-            if stem in stem_to_filename:
-                iid = stem_to_filename[stem]  # e.g. "1.png" not "1.jpeg"
-            else:
-                iid = Path(data.get("image_id", stem + ".jpeg")).name
+            iid  = _resolve_image_id(data.get("image_id") or jf.stem, by_name, by_stem)
             for n in data.get("nutrients", []):
-                ctx = str(n.get("context","")).strip()
-                ssz = str(n.get("serving_size","") or "").strip()
+                ctx = str(n.get("context", "")).strip()
+                ssz = str(n.get("serving_size", "") or "").strip()
                 rows.append({
                     "image_id": iid,
-                    "nutrient": str(n.get("nutrient","")).strip(),
-                    "quantity": str(n.get("quantity","")).strip(),
-                    "unit":     str(n.get("unit","")).strip(),
+                    "nutrient": str(n.get("nutrient", "")).strip(),
+                    "quantity": str(n.get("quantity", "")).strip(),
+                    "unit":     str(n.get("unit", "")).strip(),
                     "context":  f"{ctx} ({ssz})" if ssz else ctx,
                 })
         except Exception as e:
             st.warning(f"[load_gt] {jf.name}: {e}")
     return pd.DataFrame(rows) if rows else pd.DataFrame(columns=["image_id"]+GT_COLS)
+
+def load_gt_df() -> pd.DataFrame:
+    """Ground truth. Prefers test_set_normalized.csv; falls back to JSON annotations.
+    Cached on the source file's mtime, so navigating between pages never re-parses it
+    (this was a major source of UI lag)."""
+    csv = _find_gt_csv()
+    if csv is not None:
+        return _load_gt_from_csv(str(csv), _mtime(csv), _mtime(DATA_RAW))
+    return _load_gt_from_json(_mtime(GT_ANNOTATIONS), _mtime(DATA_RAW))
 def load_annotation_json(image_name: str) -> Optional[Dict]:
     stem = Path(image_name).stem
     jf   = GT_ANNOTATIONS / f"{stem}.json"
@@ -630,15 +747,19 @@ def save_annotation_json(image_name: str, data: Dict) -> bool:
 # NOTES SYSTEM
 # ════════════════════════════════════════════════════════════════════════════
 
-def load_notes() -> pd.DataFrame:
+@st.cache_data(show_spinner=False)
+def _load_notes_cached(_mt: float) -> pd.DataFrame:
     cols = ["timestamp","image_id","stage","note"]
     if not NOTES_FILE.exists():
         return pd.DataFrame(columns=cols)
     try:
-        df = pd.read_csv(NOTES_FILE, sep="\t", names=cols, encoding="utf-8")
-        return df
+        return pd.read_csv(NOTES_FILE, sep="\t", names=cols, encoding="utf-8")
     except Exception:
         return pd.DataFrame(columns=cols)
+
+def load_notes() -> pd.DataFrame:
+    """Cached on the notes-file mtime; re-reads automatically after a save."""
+    return _load_notes_cached(_mtime(NOTES_FILE))
 
 def save_note(image_id: str, stage: str, note: str):
     NOTES_FILE.parent.mkdir(parents=True, exist_ok=True)
@@ -658,15 +779,21 @@ def get_note(image_id: str, stage: str) -> str:
 # IMAGE OVERLAY HELPERS
 # ════════════════════════════════════════════════════════════════════════════
 
-def _open_img(image_name: str) -> Optional[Image.Image]:
+@st.cache_data(show_spinner=False)
+def _decode_img(image_name: str, _mt: float) -> Optional[Image.Image]:
     p = DATA_RAW / image_name
-    if p.exists():
-        try:
-            return Image.open(p).convert("RGB")
-        except Exception as e:
-            st.warning(f"Failed to open {image_name}: {e}")
-            return None
-    return None
+    if not p.exists():
+        return None
+    try:
+        return Image.open(p).convert("RGB")
+    except Exception:
+        return None
+
+def _open_img(image_name: str) -> Optional[Image.Image]:
+    """Decode once per image (cached); return a fresh copy each call so the
+    overlay helpers can draw on it without corrupting the cached original."""
+    base = _decode_img(image_name, _mtime(DATA_RAW / image_name))
+    return base.copy() if base is not None else None
 
 def overlay_bboxes(image_name: str, tokens: List[Dict],
                    colour_fn=None, label_key="label") -> Optional[Image.Image]:
@@ -748,6 +875,9 @@ def run_serializer_standalone(image_name: str, ocr_key: str, corr_key: str) -> O
 def run_pipeline(image_name, ocr, corr, clf, enr, graph, assoc):
     img_path = str(DATA_RAW / image_name)
     diag: Dict = {"stages": {"ocr":ocr,"corrector":corr,"classifier":clf,"enricher":enr,"graph":graph,"association":assoc}}
+
+    # Which association engine is selected? (governs Stage 5 dispatch + fallbacks)
+    assoc_engine = STAGE_REGISTRY["association"][assoc].get("engine", "graph")
 
     # Stage 1: OCR
     try:
@@ -852,6 +982,9 @@ def run_pipeline(image_name, ocr, corr, clf, enr, graph, assoc):
         diag["enricher_warning"] = str(e)
 
     # Stage 4: Graph
+    #   NB: VLM and Merged engines do not consume this graph (VLM works image-first;
+    #   Merged builds its own cy + role_rank graphs internally). It is still built so
+    #   the Stage 4 inspection page has something to show.
     try:
         cfg = STAGE_REGISTRY["graph"][graph]
         Cls = _load_symbol(cfg["rel_path"], cfg["symbol"])
@@ -862,12 +995,26 @@ def run_pipeline(image_name, ocr, corr, clf, enr, graph, assoc):
     except Exception as e:
         return [], {**diag,"error":f"Stage 4 Graph: {e}"}, {}
 
-    # Stage 5: Association
+    # Stage 5: Association — engine-aware dispatch
     try:
         cfg    = STAGE_REGISTRY["association"][assoc]
         Cls    = _load_symbol(cfg["rel_path"], cfg["symbol"])
         t0     = time.time()
-        tuples = Cls(**cfg.get("init_kwargs",{})).extract(G, image_id=image_name)
+        if assoc_engine == "vlm":
+            # End-to-end VLM: image + enriched-token table -> tuples (no graph used)
+            tuples = Cls(**cfg.get("init_kwargs", {})).extract(
+                enriched, img_path, image_id=image_name)
+            diag["assoc_engine"] = "vlm (image→tuples)"
+        elif assoc_engine == "tokens":
+            # Merged associator builds its own graphs internally from enriched tokens
+            tuples = Cls(**cfg.get("init_kwargs", {})).extract(
+                enriched, image_id=image_name)
+            diag["assoc_engine"] = "tokens (merged cy+role_rank)"
+        else:
+            # Graph engines (Current / Geometry-Aware V2)
+            tuples = Cls(**cfg.get("init_kwargs", {})).extract(
+                G, image_id=image_name)
+            diag["assoc_engine"] = "graph"
         diag["tuples_extracted"]  = len(tuples)
         diag["assoc_time_s"]      = round(time.time()-t0,2)
         diag["assoc_tuples_orig"] = len(tuples)  # pre-fallback count
@@ -875,9 +1022,10 @@ def run_pipeline(image_name, ocr, corr, clf, enr, graph, assoc):
         return [], {**diag,"error":f"Stage 5 Association: {e}"}, {}
 
     # Stage 5b: Paragraph-mode fallback (for fused OCR text like 15.png)
+    #   Only meaningful for the graph engine — never override VLM/merged output.
     try:
         para_extract, should_use_paragraph = _load_paragraph_extractor()
-        if para_extract and should_use_paragraph:
+        if assoc_engine == "graph" and para_extract and should_use_paragraph:
             if should_use_paragraph(classified, len(tuples)):
                 para_tuples = para_extract(classified, image_name)
                 if len(para_tuples) > len(tuples):
@@ -891,14 +1039,17 @@ def run_pipeline(image_name, ocr, corr, clf, enr, graph, assoc):
                     diag["paragraph_mode_reason"]    = f"extractor produced {len(para_tuples)} ≤ {len(tuples)} existing"
             else:
                 diag["paragraph_mode_triggered"] = False
+        elif assoc_engine != "graph":
+            diag["paragraph_mode_skipped"] = f"engine={assoc_engine}"
         else:
             diag["paragraph_mode_available"] = False
     except Exception as e:
         diag["paragraph_mode_error"] = str(e)
 
     # Stage 5c: Sentence-mode fallback (last resort — 0-tuple rescue for paragraph-style labels)
+    #   Only meaningful for the graph engine — never override VLM/merged output.
     try:
-        if len(tuples) == 0:
+        if assoc_engine == "graph" and len(tuples) == 0:
             sent_extract = _load_sentence_extractor()
             if sent_extract:
                 sent_tuples = sent_extract(classified, image_name)
@@ -1146,6 +1297,7 @@ with st.sidebar:
 
 if "🏠" in PAGE:
     st.title("🏠 Run Pipeline")
+    st.caption(f"Ground truth source: {gt_source_label()}")
 
     if not images_list:
         st.stop()
@@ -1193,6 +1345,17 @@ if "🏠" in PAGE:
     if (_graph_v2 or _assoc_v2) and _enr_bypass:
         st.warning("⚠️ V2 Graph/Association require the **Geometry-Aware Token Enricher**. "
                    "Select it in Stage 3.5 or results will be incorrect.")
+
+    # Engine-specific guidance for the new association engines
+    _assoc_engine = STAGE_REGISTRY["association"][sel_assoc].get("engine", "graph")
+    if _assoc_engine == "vlm":
+        st.info("ℹ️ **VLM engine** ignores Stage 4 (Graph). It sends the image + a token table "
+                "to a local **LM Studio** server (Gemma 3 4B) at `127.0.0.1:1234`. Make sure LM Studio "
+                "is running with the model loaded, or this stage will error out / time out.")
+    elif _assoc_engine == "tokens":
+        st.info("ℹ️ **Merged engine** ignores the Stage 4 graph above — it builds its own cy + role_rank "
+                "graphs internally from enriched tokens (requires the Geometry-Aware Token Enricher). "
+                "Note: union merging reduced 4F-F1 in experiments; kept for ablation inspection.")
 
     unready = [f"S{i+1}:{k}" for i,(sid,k) in enumerate([
         ("ocr",sel_ocr),("corrector",sel_corr),("classifier",sel_clf),
@@ -2146,8 +2309,19 @@ elif "Stage 5" in PAGE:
     )
     if not image_id: pipeline_required(); st.stop()
 
-    # Show fallback mode badges if triggered
+    # Show which association engine produced these tuples
     diag = st.session_state.get("pipeline_diag", {})
+    _eng = diag.get("assoc_engine", "graph")
+    if _eng.startswith("vlm"):
+        st.markdown("<span class='clf-badge qwen'>Engine: VLM (image→tuples)</span>", unsafe_allow_html=True)
+        st.caption("VLM tuples carry no graph node IDs, so the box overlay on the left stays empty — "
+                   "the graph shown above was not used to produce these tuples.")
+    elif _eng.startswith("tokens"):
+        st.markdown("<span class='clf-badge emb'>Engine: Merged (cy + role_rank)</span>", unsafe_allow_html=True)
+    else:
+        st.markdown("<span class='clf-badge rule'>Engine: Graph</span>", unsafe_allow_html=True)
+
+    # Show fallback mode badges if triggered
     if diag.get("paragraph_mode_triggered"):
         st.info(f"📝 **Paragraph mode activated** — graph produced "
                 f"{diag.get('paragraph_tuples_before',0)} tuples, "
@@ -2208,6 +2382,7 @@ elif "Stage 5" in PAGE:
 
 elif "🧪" in PAGE and "Evaluation" in PAGE:
     st.title("🧪 Evaluation")
+    st.caption(f"Ground truth source: {gt_source_label()}")
     st.caption("Run **both** the fast rule-based evaluator AND the LLM-assisted evaluator on "
                "a predicted-tuples source, and compare them side-by-side.")
 
@@ -2404,196 +2579,168 @@ elif "🧪" in PAGE and "Evaluation" in PAGE:
                         st.warning(f"Could not compute upgrade diff: {e}")
 
 # ════════════════════════════════════════════════════════════════════════════
-# PAGE: PREVIOUS EXPERIMENTS  (renamed from "LLM Evaluator")
+# PAGE: PREVIOUS EXPERIMENTS  (load any experiment output, filter + diff table)
 # ════════════════════════════════════════════════════════════════════════════
 
 elif "📊" in PAGE:
     st.title("📊 Previous Experiments")
-    st.caption("Load any experiment output to inspect its metrics and per-pair field evaluation details.")
+    st.caption("Load tuples from any experiment in `outputs/`, evaluate against GT, "
+               "and inspect the per-pair diff table.")
 
     outputs_dir = PROJECT_ROOT / "outputs"
-    exp_dirs    = (sorted([d.name for d in outputs_dir.iterdir() if d.is_dir()])
-                   if outputs_dir.exists() else [])
+    exp_dirs = (sorted([d.name for d in outputs_dir.iterdir() if d.is_dir()])
+                if outputs_dir.exists() else [])
+
     if not exp_dirs:
-        st.warning(f"No experiment outputs found in `{outputs_dir}`"); st.stop()
+        st.warning(f"No experiment outputs found in `{outputs_dir}`.")
+        st.stop()
 
-    selected_exp = st.selectbox("📁 Experiment output", exp_dirs,
-                                index=len(exp_dirs)-1, key="llm_exp_sel")
-    exp_path     = outputs_dir / selected_exp
-    metrics_file = exp_path / "evaluation_results.json"
-    detail_file  = exp_path / "llm_evaluation_details.csv"
+    top_l, top_r = st.columns([3, 2])
+    with top_l:
+        sel_exp = st.selectbox("📁 Experiment", exp_dirs, index=len(exp_dirs) - 1,
+                               key="prev_exp_sel")
+    with top_r:
+        use_llm_prev = st.toggle("🤖 LLM-assisted re-eval", value=False,
+                                 key="prev_use_llm",
+                                 help="Re-score with the Qwen LLM evaluator instead of fast rule-based.")
 
-    if metrics_file.exists():
-        with open(metrics_file, encoding="utf-8") as f:
-            exp_metrics = _json.load(f)
-        hc1, hc2, hc3 = st.columns([4, 1, 1])
-        with hc1:
-            st.markdown(f"**Evaluator:** `{exp_metrics.get('evaluator','—')}`")
-            st.markdown(f"**Timestamp:** `{exp_metrics.get('timestamp','—')}`")
-            if exp_metrics.get("notes"): st.caption(exp_metrics["notes"])
-        with hc2:
-            st.metric("LLM calls",      exp_metrics.get("llm_calls",0))
-            st.metric("Fast-pass hits", exp_metrics.get("fast_hits",0))
-        with hc3:
-            st.metric("GT tuples",   exp_metrics.get("gt_tuples",0))
-            st.metric("Pred tuples", exp_metrics.get("predicted_tuples",0))
+    exp_path = outputs_dir / sel_exp
+    tup_csv  = exp_path / "tuples.csv"
+    metrics_json = exp_path / "metrics.json"
 
-        st.markdown("#### Metrics")
-        mc = st.columns(6)
-        for col, (k, lbl) in zip(mc, [("nutrient_f1","Nutrient F1"),("quantity_acc","Qty Acc"),
-                                       ("unit_acc","Unit Acc"),("context_acc","Context Acc"),
-                                       ("full3f_f1","Full F1 (3f)"),("full_tuple_f1","Full F1 (4f)")]):
-            col.metric(lbl, f"{exp_metrics.get(k,0):.1%}")
-        cost = exp_metrics.get("context_cost_pp")
-        if cost is not None:
-            st.info(f"Context cost 3f→4f: **−{cost}pp** · 3f={exp_metrics.get('full3f_f1',0):.1%} → 4f={exp_metrics.get('full_tuple_f1',0):.1%}")
+    if not tup_csv.exists():
+        st.warning(f"`tuples.csv` not found in `{exp_path}`.")
+        st.stop()
+
+    df_pred = pd.read_csv(tup_csv, encoding="utf-8")
+    pred_tuples = df_pred.to_dict(orient="records")
+
+    # Reported metrics (if the experiment saved them)
+    reported = {}
+    if metrics_json.exists():
+        try:
+            reported = _json.loads(metrics_json.read_text(encoding="utf-8"))
+        except Exception:
+            reported = {}
+
+    # Image filter
+    all_imgs = sorted({str(r.get("image_id", "")) for r in pred_tuples if r.get("image_id")})
+    fcol1, fcol2 = st.columns([2, 3])
+    with fcol1:
+        img_filter = st.selectbox("Filter by image", ["All images"] + all_imgs,
+                                  key="prev_img_filter")
+
+    if img_filter != "All images":
+        pred_view = [r for r in pred_tuples if str(r.get("image_id", "")) == img_filter]
     else:
-        st.warning(f"`evaluation_results.json` not found in `{exp_path}`")
+        pred_view = pred_tuples
 
-    st.markdown("---")
-    if not detail_file.exists():
-        st.warning(f"`llm_evaluation_details.csv` not found in `{exp_path}`"); st.stop()
+    m1, m2, m3 = st.columns(3)
+    m1.metric("Experiment", sel_exp)
+    m2.metric("Total tuples", len(pred_tuples))
+    m3.metric("Shown (after filter)", len(pred_view))
 
-    detail_df = pd.read_csv(detail_file, encoding="utf-8")
-    _cols = detail_df.columns.tolist()
-    _has_4f_col = "full_match_4f" in _cols
-    _has_3f_col = "full_match_3f" in _cols
-    _has_fm_col = "full_match"    in _cols
+    if reported:
+        st.markdown("**Reported metrics (from `metrics.json`)**")
+        rep_row = {METRIC_LABELS.get(k, k): (f"{reported[k]:.1%}" if isinstance(reported.get(k), (int, float)) else reported.get(k))
+                   for k in METRIC_LABELS if k in reported}
+        if rep_row:
+            st.dataframe(pd.DataFrame([rep_row]), use_container_width=True, hide_index=True)
 
-    fa, fb, fc, fd = st.columns([2,2,2,2])
-    with fa:
-        img_opts = ["All"] + sorted(detail_df["image_id"].dropna().unique().tolist())
-        sel_img  = st.selectbox("Image", img_opts, key="llm_img")
-    with fb:
-        m_opts = ["All"] + sorted(detail_df["eval_method"].dropna().unique().tolist()) if "eval_method" in _cols else ["All"]
-        sel_method = st.selectbox("Eval method", m_opts, key="llm_method")
-    with fc:
-        match_opts = ["All","✅ Full 4f","🟨 Full 3f","🟡 Partial","❌ Mismatch"]
-        sel_match  = st.selectbox("Match outcome", match_opts, key="llm_match")
-    with fd:
-        show_reasoning = st.toggle("Show field reasoning", value=True, key="llm_reasoning")
+    st.divider()
 
-    def _b(v):
-        if isinstance(v,bool): return v
-        if isinstance(v,float): return bool(v) if v==v else False
-        return str(v).lower() in ("true","1","yes")
+    if st.button("🔬 Re-evaluate against GT", type="primary", key="prev_eval_btn"):
+        gt_df_all = load_gt_df()
+        if img_filter != "All images":
+            gt_rows = (gt_df_all[gt_df_all["image_id"] == img_filter]
+                       .to_dict(orient="records"))
+        else:
+            gt_rows = gt_df_all.to_dict(orient="records")
+        with st.spinner("Evaluating …"):
+            m, pdf = run_full_evaluation(gt_rows, pred_view, use_llm=use_llm_prev)
+        st.session_state["prev_metrics"] = m
+        st.session_state["prev_pair_df"] = pdf
 
-    filtered = detail_df.copy()
-    if sel_img    != "All": filtered = filtered[filtered["image_id"]==sel_img]
-    if sel_method != "All" and "eval_method" in filtered.columns:
-        filtered = filtered[filtered["eval_method"]==sel_method]
+    prev_metrics = st.session_state.get("prev_metrics")
+    prev_pair_df = st.session_state.get("prev_pair_df")
 
-    MATCH_BG = {"✅ Full 4f":"#d4f5d4","🟨 Full 3f":"#fff9c4","🟡 Partial":"#ffe8cc","❌ Mismatch":"#ffd6d6"}
-    CHECK_C  = {"✓":"#d4f5d4","✗":"#ffd6d6"}
+    if prev_metrics:
+        st.markdown("### 📊 Re-evaluated metrics")
+        metrics_row(prev_metrics)
 
-    display_rows = []
-    for _, r in filtered.iterrows():
-        nm = _b(r.get("nutrient_match",False)); qm = _b(r.get("quantity_match",False))
-        um = _b(r.get("unit_match",False));     cm = _b(r.get("context_match",False))
-        mth = str(r.get("eval_method","") or "")
-        is_4f = _b(r.get("full_match_4f",False)) if _has_4f_col else (_b(r.get("full_match",False)) if _has_fm_col else (nm and qm and um and cm))
-        is_3f = _b(r.get("full_match_3f",False)) if _has_3f_col else (nm and qm and um)
-        icon = ("✅ Full 4f" if is_4f else "🟨 Full 3f" if is_3f else "🟡 Partial" if nm else "❌ Mismatch")
-        qty_gt = "gt_qty" if "gt_qty" in _cols else "gt_quantity"
-        qty_pd = "pred_qty" if "pred_qty" in _cols else "pred_quantity"
-        row = {"Image":str(r.get("image_id","")),
-               "GT Nutrient":str(r.get("gt_nutrient","")), "Pred Nutrient":str(r.get("pred_nutrient","")),
-               "GT Qty":str(r.get(qty_gt,"")),             "Pred Qty":str(r.get(qty_pd,"")),
-               "GT Unit":str(r.get("gt_unit","")),         "Pred Unit":str(r.get("pred_unit","")),
-               "GT Context":str(r.get("gt_context","")),   "Pred Context":str(r.get("pred_context","")),
-               "N":"✓" if nm else "✗","Q":"✓" if qm else "✗",
-               "U":"✓" if um else "✗","C":"✓" if cm else "✗",
-               "Match":icon,"Method":mth}
-        if show_reasoning:
-            row["N reason"] = str(r.get("nutrient_reason","") or "")
-            row["Q reason"] = str(r.get("quantity_reason","") or "")
-            row["U reason"] = str(r.get("unit_reason","") or "")
-            row["C reason"] = str(r.get("context_reason","") or "")
-        display_rows.append(row)
-
-    if sel_match != "All":
-        display_rows = [r for r in display_rows if r["Match"]==sel_match]
-
-    if not display_rows:
-        st.info("No pairs match the current filters."); st.stop()
-
-    disp_df = pd.DataFrame(display_rows)
-    counts  = {k: sum(1 for r in display_rows if r["Match"]==k) for k in match_opts[1:]}
-    s1c,s2c,s3c,s4c,s5c = st.columns(5)
-    s1c.metric("Showing",     len(display_rows))
-    s2c.metric("✅ Full 4f",  counts.get("✅ Full 4f",0))
-    s3c.metric("🟨 Full 3f",  counts.get("🟨 Full 3f",0))
-    s4c.metric("🟡 Partial",  counts.get("🟡 Partial",0))
-    s5c.metric("❌ Mismatch", counts.get("❌ Mismatch",0))
-
-    def _style(r):
-        bg = MATCH_BG.get(r.get("Match",""),""); cols = r.index.tolist()
-        out = []
-        for c in cols:
-            if c=="Match":     out.append(f"background-color:{bg}")
-            elif c in("N","Q","U","C"): out.append(f"background-color:{CHECK_C.get(r[c],'')}")
-            elif "reason" in c: out.append("font-size:11px;color:#444;font-style:italic")
-            else: out.append("")
-        return out
-
-    all_img_ids = sorted(detail_df["image_id"].dropna().unique().tolist())
-    if sel_img != "All":
-        _display_img_id = sel_img
+    if prev_pair_df is not None and not prev_pair_df.empty:
+        st.markdown("### 🔍 Per-pair diff")
+        disp, sty = build_diff_df(prev_pair_df)
+        if not disp.empty:
+            st.dataframe(disp.style.apply(lambda _: sty.values, axis=None),
+                         use_container_width=True, hide_index=True, height=500)
+            st.download_button(
+                "⬇️ Download pair details CSV",
+                data=prev_pair_df.to_csv(index=False, encoding="utf-8"),
+                file_name=f"{sel_exp}_pair_details.csv", mime="text/csv",
+                key="prev_dl",
+            )
     else:
-        _display_img_id = st.selectbox("📷 Label image", all_img_ids, key="llm_display_img") if all_img_ids else None
-
-    img_col, tbl_col = st.columns([1,3])
-    with img_col:
-        if _display_img_id:
-            lbl_img = _open_img(_display_img_id)
-            if lbl_img: st.image(lbl_img, caption=_display_img_id, use_container_width=True)
-    with tbl_col:
-        st.dataframe(disp_df.style.apply(_style,axis=1), use_container_width=True, hide_index=True, height=520)
-
-    st.download_button("⬇️ Download filtered CSV",
-                       data=disp_df.to_csv(index=False,encoding="utf-8"),
-                       file_name=f"{selected_exp}_filtered.csv", mime="text/csv",
-                       key="llm_download")
+        st.markdown("### 🔢 Raw predicted tuples")
+        show_cols = [c for c in ["image_id"] + GT_COLS if c in df_pred.columns]
+        st.dataframe(pd.DataFrame(pred_view)[show_cols] if show_cols else pd.DataFrame(pred_view),
+                     use_container_width=True, hide_index=True, height=460)
 
 # ════════════════════════════════════════════════════════════════════════════
-# PAGE: NOTES
+# PAGE: NOTES  (all saved per-image/per-stage comments)
 # ════════════════════════════════════════════════════════════════════════════
 
 elif "📓" in PAGE:
-    st.title("📓 Pipeline Notes")
-    st.caption(f"All notes saved to `{NOTES_FILE.relative_to(PROJECT_ROOT)}`")
+    st.title("📓 Notes")
+    st.caption("All notes saved across pipeline stages and images.")
 
     notes_df = load_notes()
-    if notes_df.empty:
-        st.info("No notes saved yet. Add notes from any Stage page.")
-    else:
-        fc, sc, _ = st.columns([2,2,3])
-        with fc:
-            img_filter = st.multiselect("Filter by image", sorted(notes_df["image_id"].unique()), default=[])
-        with sc:
-            stage_filter = st.multiselect("Filter by stage", sorted(notes_df["stage"].unique()), default=[])
-        filtered = notes_df.copy()
-        if img_filter:   filtered = filtered[filtered["image_id"].isin(img_filter)]
-        if stage_filter: filtered = filtered[filtered["stage"].isin(stage_filter)]
-        st.markdown(f"**{len(filtered)} notes** (of {len(notes_df)} total)")
-        st.dataframe(filtered[["timestamp","image_id","stage","note"]].reset_index(drop=True),
-                     use_container_width=True, hide_index=True,
-                     column_config={"timestamp":st.column_config.TextColumn("Time",width="small"),
-                                    "image_id": st.column_config.TextColumn("Image",width="small"),
-                                    "stage":    st.column_config.TextColumn("Stage",width="medium"),
-                                    "note":     st.column_config.TextColumn("Note", width="large")})
-        st.download_button("⬇️ Download notes as TSV",
-                           data=filtered.to_csv(sep="\t",index=False),
-                           file_name="pipeline_notes.tsv", mime="text/tab-separated-values")
 
-    st.divider()
-    st.markdown("**➕ Add a note directly**")
-    na, nb, nc = st.columns([2,2,4])
-    with na: note_img   = st.selectbox("Image",  images_list or ["—"], key="notes_img")
-    with nb: note_stage = st.selectbox("Stage",  STAGE_NAMES, key="notes_stage")
-    with nc: note_text  = st.text_input("Note",  key="notes_text", placeholder="Write note…")
-    if st.button("💾 Save", key="notes_save_btn"):
-        if note_text.strip() and note_img != "—":
-            save_note(note_img, note_stage, note_text); st.success("Saved."); st.rerun()
-        else:
-            st.warning("Please select an image and write a note.")
+    if notes_df.empty:
+        st.info("No notes saved yet. Add notes from the **Stage Note** box at the bottom of "
+                "any stage page.")
+        st.stop()
+
+    # Filters
+    f1, f2, f3 = st.columns([2, 2, 3])
+    with f1:
+        img_opts = ["All"] + sorted(notes_df["image_id"].dropna().unique().tolist())
+        f_img = st.selectbox("Image", img_opts, key="notes_img_filter")
+    with f2:
+        stage_opts = ["All"] + sorted(notes_df["stage"].dropna().unique().tolist())
+        f_stage = st.selectbox("Stage", stage_opts, key="notes_stage_filter")
+    with f3:
+        search = st.text_input("Search note text", key="notes_search",
+                               placeholder="filter notes containing…")
+
+    view = notes_df.copy()
+    if f_img != "All":
+        view = view[view["image_id"] == f_img]
+    if f_stage != "All":
+        view = view[view["stage"] == f_stage]
+    if search.strip():
+        view = view[view["note"].str.contains(search.strip(), case=False, na=False)]
+
+    # newest first
+    view = view.iloc[::-1].reset_index(drop=True)
+
+    st.caption(f"Showing **{len(view)}** of **{len(notes_df)}** notes")
+
+    st.dataframe(
+        view.rename(columns={"timestamp": "Time", "image_id": "Image",
+                             "stage": "Stage", "note": "Note"}),
+        use_container_width=True, hide_index=True, height=520,
+        column_config={
+            "Time":  st.column_config.TextColumn("Time",  width="small"),
+            "Image": st.column_config.TextColumn("Image", width="small"),
+            "Stage": st.column_config.TextColumn("Stage", width="medium"),
+            "Note":  st.column_config.TextColumn("Note",  width="large"),
+        },
+    )
+
+    st.download_button(
+        "⬇️ Download all notes (TSV)",
+        data=notes_df.to_csv(sep="\t", index=False, encoding="utf-8"),
+        file_name="pipeline_notes.tsv", mime="text/tab-separated-values",
+        key="notes_dl",
+    )

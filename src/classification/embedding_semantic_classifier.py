@@ -7,7 +7,7 @@ Zero-Shot Nutrient Extraction Pipeline | Moustafa Hamada | THD + USB
 PURPOSE
 -------
 Replaces the NUTRIENT_LEXICON with zero-shot embedding similarity.
-The rule-based classifier still handles QUANTITY, UNIT, CONTEXT, NOISE
+The rule-based classifier still handles QUANTITY, UNIT, CONTEXT, NRV, NOISE
 (where deterministic rules are perfect).  But for NUTRIENT detection,
 we use a pre-trained multilingual sentence encoder to compute cosine
 similarity against semantic category prototypes.
@@ -30,7 +30,7 @@ Numbers (QUANTITY), abbreviations (UNIT), and structural patterns
 
 ARCHITECTURE
 ------------
-  1. Rules: QUANTITY? → UNIT? → CONTEXT? → NOISE? (deterministic)
+  1. Rules: QUANTITY? → UNIT? → CONTEXT? → NRV? → NOISE? (deterministic)
   2. Everything else → embedding model → NUTRIENT or UNKNOWN
   3. No NUTRIENT_LEXICON used at all
 
@@ -132,12 +132,15 @@ CATEGORY_PROTOTYPES: Dict[str, List[str]] = {
     ],
 }
 
-# Labels where rules are authoritative — never override with embeddings
-# NUTRIENT is NOT here — embeddings own nutrient classification now
-RULE_AUTHORITATIVE_LABELS = {"QUANTITY", "UNIT", "CONTEXT", "NOISE"}
+# Labels where rules are authoritative — never override with embeddings.
+# NUTRIENT is NOT here — embeddings own nutrient classification now.
+# NRV IS here — a rule-assigned NRV (percentage) is deterministic and must
+# never be sent to the embedding node, where it could be mistaken for NUTRIENT.
+RULE_AUTHORITATIVE_LABELS = {"QUANTITY", "UNIT", "CONTEXT", "NRV", "NOISE"}
 
 # Labels that should go to embedding resolution (rule said these but
-# we don't trust rule-based nutrient detection)
+# we don't trust rule-based nutrient detection). NRV is deliberately NOT
+# here — it stays rule-authoritative.
 EMBEDDING_RESOLUTION_LABELS = {"NUTRIENT", "UNKNOWN"}
 
 DEFAULT_NUTRIENT_THRESHOLD = 0.59
@@ -152,7 +155,7 @@ class EmbeddingSemanticClassifier:
     """
     Hybrid rule + embedding semantic classifier.
 
-    Rules own: QUANTITY, UNIT, CONTEXT, NOISE (deterministic, 100% accurate).
+    Rules own: QUANTITY, UNIT, CONTEXT, NRV, NOISE (deterministic, 100% accurate).
     Embeddings handle NUTRIENT detection — but HOW depends on `mode`:
 
     mode="embedding_only"  (experiment A)
@@ -390,7 +393,7 @@ class EmbeddingSemanticClassifier:
     def classify_token(self, token: dict) -> dict:
         """
         Classify a single token.
-        Rules decide QUANTITY/UNIT/CONTEXT/NOISE.
+        Rules decide QUANTITY/UNIT/CONTEXT/NRV/NOISE.
         mode="embedding_only": embeddings decide ALL nutrient detection.
         mode="hybrid": lexicon keeps its NUTRIENT calls, embeddings
                        only rescue UNKNOWN tokens.
@@ -482,7 +485,7 @@ class EmbeddingSemanticClassifier:
         print(f"{'='*60}")
         print(f"  Total tokens : {total}")
         print(f"\n  --- Labels ---")
-        for label in ["NUTRIENT", "QUANTITY", "UNIT", "CONTEXT", "NOISE", "UNKNOWN"]:
+        for label in ["NUTRIENT", "QUANTITY", "UNIT", "CONTEXT", "NRV", "NOISE", "UNKNOWN"]:
             n = label_counts.get(label, 0)
             pct = n / total * 100 if total else 0
             print(f"  {label:<10}  {n:>4}  ({pct:>5.1f}%)")

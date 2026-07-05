@@ -21,15 +21,16 @@ LABELS
   QUANTITY  — numeric value (400, 0.8, <0.1 …)
   UNIT      — measurement unit (mg, µg, kcal, g …)
   CONTEXT   — column/serving context (per_100g, per_serving, per_daily_dose)
-  NOISE     — low-confidence, NRV%, serving descriptors, non-nutritional text
+  NRV       — nutrient reference value percentage (88%, 20% …) — auxiliary
+  NOISE     — low-confidence, non-nutritional text
   UNKNOWN   — token not matched by any rule
 
 PRIORITY CHAIN (highest → lowest)
 ----------------------------------
   1. conf < threshold           → NOISE
   2. norm in _SINGLE_CHAR_UNITS → UNIT   (g, l — before noise check)
-  3. NRV percentage pattern     → NOISE
-  4. Serving-size descriptor    → NOISE
+  3. NRV percentage pattern     → NRV
+  4. Serving-size descriptor    → CONTEXT (per_serving)
   5. General noise substrings   → NOISE
   6. UNIT lexicon               → UNIT
   7. _resolve_context()         → CONTEXT  (single source of truth)
@@ -661,8 +662,8 @@ class SemanticClassifier:
         Priority chain — first match wins:
           1. conf < threshold           → NOISE
           2. norm in _SINGLE_CHAR_UNITS → UNIT
-          3. NRV percentage             → NOISE
-          4. Serving-size descriptor    → NOISE
+          3. NRV percentage             → NRV
+          4. Serving-size descriptor    → CONTEXT (per_serving)
           5. Noise substrings / len<=1  → NOISE
           6. UNIT lexicon               → UNIT
           7. _resolve_context()         → CONTEXT
@@ -685,9 +686,9 @@ class SemanticClassifier:
             result.update(label="UNIT", norm=norm)
             return result
 
-        # 3. NRV percentage
+        # 3. NRV percentage  → NRV (auxiliary field; never a quantity, never NOISE)
         if self._is_nrv_pattern(norm):
-            result.update(label="NOISE", norm=norm)
+            result.update(label="NRV", norm=norm)
             return result
 
         # 4. CONTEXT — MUST run before serving/noise checks!
@@ -700,8 +701,11 @@ class SemanticClassifier:
             return result
 
         # 5. Serving-size descriptor (only reaches here if NOT a context)
+        #    Residual serving declarations that did NOT resolve to a specific
+        #    context (per_100g / per_daily_dose) fall through to the generic
+        #    per_serving canonical instead of being discarded as NOISE.
         if self._is_serving_pattern(norm):
-            result.update(label="NOISE", norm=norm)
+            result.update(label="CONTEXT", norm="per_serving")
             return result
 
         # 6. General noise
@@ -741,7 +745,7 @@ class SemanticClassifier:
         print("  SEMANTIC CLASSIFICATION SUMMARY")
         print(f"{'='*50}")
         print(f"  Total tokens : {total}")
-        for label in ["NUTRIENT", "QUANTITY", "UNIT", "CONTEXT", "NOISE", "UNKNOWN"]:
+        for label in ["NUTRIENT", "QUANTITY", "UNIT", "CONTEXT", "NRV", "NOISE", "UNKNOWN"]:
             n   = counts.get(label, 0)
             pct = n / total * 100 if total else 0
             print(f"  {label:<10}  {n:>4}  ({pct:>5.1f}%)")

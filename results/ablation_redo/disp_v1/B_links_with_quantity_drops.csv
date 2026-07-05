@@ -1,0 +1,175 @@
+image_id,nutrient,gold_value,detected,below,above,category,img_qty_drops,img_qty_dropped
+1.png,magnesiumsalzedercitronensaure,420.0,1,0,1,B_only_above,0,—
+1.png,magnesiummalat,333.0,1,0,1,B_only_above,0,—
+101.png,fat,0.8,1,0,1,B_only_above,1,vitaminb1=0.44
+101.png,protein,6.3,1,0,1,B_only_above,1,vitaminb1=0.44
+101.png,salt,0.09,1,0,1,B_only_above,1,vitaminb1=0.44
+102.png,saturatedfats,0.1,1,0,1,B_only_above,0,—
+103.jpeg,energy,39.0,1,0,1,B_only_above,5,"salt=0, energy=166, saturatedfats=0, protein=0.9, salt=0"
+103.jpeg,carbohydrate,6.1,1,0,1,B_only_above,5,"salt=0, energy=166, saturatedfats=0, protein=0.9, salt=0"
+103.jpeg,sugars,6.1,1,0,1,B_only_above,5,"salt=0, energy=166, saturatedfats=0, protein=0.9, salt=0"
+103.jpeg,fibre,1.9,1,0,1,B_only_above,5,"salt=0, energy=166, saturatedfats=0, protein=0.9, salt=0"
+104.jpeg,energy,51.0,1,0,1,B_only_above,1,energy=214
+104.jpeg,fat,0.0,1,0,1,B_only_above,1,energy=214
+104.jpeg,saturatedfats,0.0,1,0,1,B_only_above,1,energy=214
+104.jpeg,fibre,1.4,1,0,1,B_only_above,1,energy=214
+104.jpeg,salt,0.0,1,0,1,B_only_above,1,energy=214
+105.png,energy,38.0,1,0,1,B_only_above,1,carbohydrate=52.1
+105.png,fat,0.3,1,0,1,B_only_above,1,carbohydrate=52.1
+105.png,saturatedfats,0.0,1,0,1,B_only_above,1,carbohydrate=52.1
+107.png,biotin,50.0,1,0,1,B_only_above,1,vitaminb12=2.5
+109.jpeg,fat,0.0,1,0,1,B_only_above,0,—
+109.jpeg,salt,0.05,1,0,1,B_only_above,0,—
+110.jpeg,melissenextrakt,30.0,1,0,1,B_only_above,0,—
+110.jpeg,niacin,16.0,1,0,1,B_only_above,0,—
+110.jpeg,pantothenicacid,6.0,1,0,1,B_only_above,0,—
+113.jpeg,energy,464.0,1,0,1,B_only_above,1,carbohydrate=7.7
+113.jpeg,energy,111.0,1,0,1,B_only_above,1,carbohydrate=7.7
+113.jpeg,fat,1.3,1,0,1,B_only_above,1,carbohydrate=7.7
+113.jpeg,saturatedfats,0.9,1,0,1,B_only_above,1,carbohydrate=7.7
+113.jpeg,carbohydrate,2.3,1,0,1,B_only_above,1,carbohydrate=7.7
+113.jpeg,fibre,0.6,1,0,1,B_only_above,1,carbohydrate=7.7
+113.jpeg,protein,21.8,1,0,1,B_only_above,1,carbohydrate=7.7
+113.jpeg,salt,0.17,1,0,1,B_only_above,1,carbohydrate=7.7
+113.jpeg,caffeine,80.0,1,0,1,B_only_above,1,carbohydrate=7.7
+114.jpeg,energy,462.0,1,0,1,B_only_above,1,fat=1.4
+114.jpeg,energy,111.0,1,0,1,B_only_above,1,fat=1.4
+114.jpeg,carbohydrate,2.6,1,0,1,B_only_above,1,fat=1.4
+114.jpeg,fibre,0.9,1,0,1,B_only_above,1,fat=1.4
+114.jpeg,protein,21.0,1,0,1,B_only_above,1,fat=1.4
+114.jpeg,salt,0.17,1,0,1,B_only_above,1,fat=1.4
+114.jpeg,caffeine,80.0,1,0,1,B_only_above,1,fat=1.4
+115.png,saturatedfats,0.2,1,0,1,B_only_above,0,—
+116.jpeg,energy,509.0,1,0,1,B_only_above,0,—
+116.jpeg,energy,121.0,1,0,1,B_only_above,0,—
+116.jpeg,fat,3.5,1,0,1,B_only_above,0,—
+116.jpeg,saturatedfats,0.4,1,0,1,B_only_above,0,—
+116.jpeg,carbohydrate,8.2,1,0,1,B_only_above,0,—
+116.jpeg,fibre,3.7,1,0,1,B_only_above,0,—
+116.jpeg,protein,12.0,1,0,1,B_only_above,0,—
+116.jpeg,salt,0.61,1,0,1,B_only_above,0,—
+117.jpeg,energy,173.0,1,0,1,B_only_above,5,"saturatedfats=1.5, carbohydrate=16.7, sugars=13.5, fibre=4, protein=11"
+117.jpeg,fat,6.1,1,0,1,B_only_above,5,"saturatedfats=1.5, carbohydrate=16.7, sugars=13.5, fibre=4, protein=11"
+117.jpeg,salt,0.04,1,0,1,B_only_above,5,"saturatedfats=1.5, carbohydrate=16.7, sugars=13.5, fibre=4, protein=11"
+118.jpeg,saturatedfats,2.6,1,0,1,B_only_above,0,—
+119.jpeg,saturatedfats,3.0,1,0,1,B_only_above,2,"fat=11, saturatedfats=2.4"
+119.jpeg,salt,0.7,1,0,1,B_only_above,2,"fat=11, saturatedfats=2.4"
+12.png,energy,328.0,1,0,1,B_only_above,0,—
+12.png,energy,77.0,1,0,1,B_only_above,0,—
+121.jpeg,fat,12.0,1,0,1,B_only_above,4,"energy=1.401, energy=336, sugars=4.9, fibre=7.9"
+121.jpeg,saturatedfats,6.5,1,0,1,B_only_above,4,"energy=1.401, energy=336, sugars=4.9, fibre=7.9"
+121.jpeg,carbohydrate,20.0,1,0,1,B_only_above,4,"energy=1.401, energy=336, sugars=4.9, fibre=7.9"
+121.jpeg,fibre,18.0,1,0,1,B_only_above,4,"energy=1.401, energy=336, sugars=4.9, fibre=7.9"
+121.jpeg,protein,35.0,1,0,1,B_only_above,4,"energy=1.401, energy=336, sugars=4.9, fibre=7.9"
+121.jpeg,salt,0.2,1,0,1,B_only_above,4,"energy=1.401, energy=336, sugars=4.9, fibre=7.9"
+121.jpeg,energy,151.0,1,0,1,B_only_above,4,"energy=1.401, energy=336, sugars=4.9, fibre=7.9"
+121.jpeg,fat,5.2,1,0,1,B_only_above,4,"energy=1.401, energy=336, sugars=4.9, fibre=7.9"
+121.jpeg,saturatedfats,2.9,1,0,1,B_only_above,4,"energy=1.401, energy=336, sugars=4.9, fibre=7.9"
+121.jpeg,salt,0.09,1,0,1,B_only_above,4,"energy=1.401, energy=336, sugars=4.9, fibre=7.9"
+2.png,energy,837.0,1,0,1,B_only_above,2,"energy=281, energy=197"
+2.png,carbohydrate,50.0,1,0,1,B_only_above,2,"energy=281, energy=197"
+2.png,salt,0.3,1,0,1,B_only_above,2,"energy=281, energy=197"
+20.png,sodium,100.0,1,0,1,B_only_above,7,"energy=1474, energy=346, vitamine=67, vitamina=2220, energy=223, energy=52, vitamina=225"
+20.png,calcium,120.0,1,0,1,B_only_above,7,"energy=1474, energy=346, vitamine=67, vitamina=2220, energy=223, energy=52, vitamina=225"
+20.png,chloride,120.0,1,0,1,B_only_above,7,"energy=1474, energy=346, vitamine=67, vitamina=2220, energy=223, energy=52, vitamina=225"
+20.png,caffeine,37.5,1,0,1,B_only_above,7,"energy=1474, energy=346, vitamine=67, vitamina=2220, energy=223, energy=52, vitamina=225"
+20.png,vitaminb6,1.0,1,0,1,B_only_above,7,"energy=1474, energy=346, vitamine=67, vitamina=2220, energy=223, energy=52, vitamina=225"
+20.png,vitaminb1,200.0,1,0,1,B_only_above,7,"energy=1474, energy=346, vitamine=67, vitamina=2220, energy=223, energy=52, vitamina=225"
+20.png,vitaminb12,1.0,1,0,1,B_only_above,7,"energy=1474, energy=346, vitamine=67, vitamina=2220, energy=223, energy=52, vitamina=225"
+201.jpeg,energy,493.0,1,0,1,B_only_above,3,"fat=6.7, sugars=7.7, carbohydrate=2.4"
+201.jpeg,energy,118.0,1,0,1,B_only_above,3,"fat=6.7, sugars=7.7, carbohydrate=2.4"
+201.jpeg,protein,23.0,1,0,1,B_only_above,3,"fat=6.7, sugars=7.7, carbohydrate=2.4"
+201.jpeg,salt,0.02,1,0,1,B_only_above,3,"fat=6.7, sugars=7.7, carbohydrate=2.4"
+26.png,fat,0.0,1,0,1,B_only_above,2,"energy=942, energy=225"
+26.png,saturatedfats,0.0,1,0,1,B_only_above,2,"energy=942, energy=225"
+30.png,energy,1649.0,1,0,1,B_only_above,0,—
+30.png,energy,391.0,1,0,1,B_only_above,0,—
+30.png,protein,4.8,1,0,1,B_only_above,0,—
+30.png,fat,9.1,1,0,1,B_only_above,0,—
+30.png,saturatedfats,4.9,1,0,1,B_only_above,0,—
+30.png,carbohydrate,71.0,1,0,1,B_only_above,0,—
+30.png,sugars,35.0,1,0,1,B_only_above,0,—
+30.png,fibre,3.6,1,0,1,B_only_above,0,—
+30.png,sodium,130.0,1,0,1,B_only_above,0,—
+33.png,energy,1245.0,1,0,1,B_only_above,2,"energy=390, energy=293"
+33.png,carbohydrate,73.0,1,0,1,B_only_above,2,"energy=390, energy=293"
+33.png,salt,0.4,1,0,1,B_only_above,2,"energy=390, energy=293"
+33.png,sodium,158.0,1,0,1,B_only_above,2,"energy=390, energy=293"
+33.png,calcium,26.0,1,0,1,B_only_above,2,"energy=390, energy=293"
+33.png,magnesium,19.0,1,0,1,B_only_above,2,"energy=390, energy=293"
+33.png,potassium,41.0,1,0,1,B_only_above,2,"energy=390, energy=293"
+33.png,chloride,105.0,1,0,1,B_only_above,2,"energy=390, energy=293"
+35.jpeg,vitaminc,2.1,1,0,1,B_only_above,2,"magnesium=225, vitaminc=100.8"
+41.png,salt,0.1,1,0,1,B_only_above,4,"energy=612, energy=144, carbohydrate=36, sugars=4.5"
+42.png,fibre,0.0,1,0,1,B_only_above,2,"carbohydrate=44, sugars=18"
+42.png,protein,0.1,1,0,1,B_only_above,2,"carbohydrate=44, sugars=18"
+42.png,sugars,38.0,1,0,1,B_only_above,2,"carbohydrate=44, sugars=18"
+42.png,fibre,0.0,1,0,1,B_only_above,2,"carbohydrate=44, sugars=18"
+42.png,sodium,500.0,1,0,1,B_only_above,2,"carbohydrate=44, sugars=18"
+45_1.png,energy,374.0,1,0,1,B_only_above,4,"carbohydrate=44, sugars=18, carbohydrate=94, sugars=38"
+45_1.png,protein,0.1,1,0,1,B_only_above,4,"carbohydrate=44, sugars=18, carbohydrate=94, sugars=38"
+45_1.png,sodium,500.0,1,0,1,B_only_above,4,"carbohydrate=44, sugars=18, carbohydrate=94, sugars=38"
+45_2.png,fat,0.0,1,0,1,B_only_above,2,"energy=1567, energy=374"
+45_2.png,saturatedfats,0.0,1,0,1,B_only_above,2,"energy=1567, energy=374"
+45_2.png,protein,0.1,1,0,1,B_only_above,2,"energy=1567, energy=374"
+45_2.png,salt,1.3,1,0,1,B_only_above,2,"energy=1567, energy=374"
+51.png,energy,925.0,1,0,1,B_only_above,3,"energy=363, vitaminb6=0.35, energy=218"
+51.png,carbohydrate,50.0,1,0,1,B_only_above,3,"energy=363, vitaminb6=0.35, energy=218"
+51.png,protein,4.0,1,0,1,B_only_above,3,"energy=363, vitaminb6=0.35, energy=218"
+53.png,energy,1541.0,1,0,1,B_only_above,2,"energy=363, energy=218"
+53.png,energy,925.0,1,0,1,B_only_above,2,"energy=363, energy=218"
+53.png,carbohydrate,50.0,1,0,1,B_only_above,2,"energy=363, energy=218"
+53.png,sugars,37.0,1,0,1,B_only_above,2,"energy=363, energy=218"
+53.png,protein,4.0,1,0,1,B_only_above,2,"energy=363, energy=218"
+53.png,vitaminb6,0.21,1,0,1,B_only_above,2,"energy=363, energy=218"
+57.jpeg,protein,4.99,1,0,1,B_only_above,2,"fat=4.3, carbohydrate=0.22"
+57.jpeg,fat,0.26,1,0,1,B_only_above,2,"fat=4.3, carbohydrate=0.22"
+59.png,energy,278.0,1,0,1,B_only_above,7,"energy=330, fructose=63.7, vitamine=50, vitamina=1667, energy=66, vitamine=10, vitamina=33"
+59.png,protein,0.14,1,0,1,B_only_above,7,"energy=330, fructose=63.7, vitamine=50, vitamina=1667, energy=66, vitamine=10, vitamina=33"
+59.png,carbohydrate,13.3,1,0,1,B_only_above,7,"energy=330, fructose=63.7, vitamine=50, vitamina=1667, energy=66, vitamine=10, vitamina=33"
+59.png,sugars,12.9,1,0,1,B_only_above,7,"energy=330, fructose=63.7, vitamine=50, vitamina=1667, energy=66, vitamine=10, vitamina=33"
+59.png,fibre,5.0,1,0,1,B_only_above,7,"energy=330, fructose=63.7, vitamine=50, vitamina=1667, energy=66, vitamine=10, vitamina=33"
+59.png,sodium,0.02,1,0,1,B_only_above,7,"energy=330, fructose=63.7, vitamine=50, vitamina=1667, energy=66, vitamine=10, vitamina=33"
+59.png,selenium,30.0,1,0,1,B_only_above,7,"energy=330, fructose=63.7, vitamine=50, vitamina=1667, energy=66, vitamine=10, vitamina=33"
+59.png,vitaminc,60.0,1,0,1,B_only_above,7,"energy=330, fructose=63.7, vitamine=50, vitamina=1667, energy=66, vitamine=10, vitamina=33"
+6.png,calcium,9.0,1,0,1,B_only_above,0,—
+6.png,sodium,200.0,1,0,1,B_only_above,0,—
+61.png,salt,0.52,1,0,1,B_only_above,0,—
+61.png,energy,1424.0,1,0,1,B_only_above,0,—
+61.png,energy,341.0,1,0,1,B_only_above,0,—
+61.png,carbohydrate,84.4,1,0,1,B_only_above,0,—
+61.png,protein,0.6,1,0,1,B_only_above,0,—
+61.png,salt,1.73,1,0,1,B_only_above,0,—
+61.png,magnesium,250.0,1,0,1,B_only_above,0,—
+61.png,potassium,333.3,1,0,1,B_only_above,0,—
+61.png,calcium,166.7,1,0,1,B_only_above,0,—
+63.png,salt,0.52,1,0,1,B_only_above,1,potassium=333.3
+63.png,energy,1424.0,1,0,1,B_only_above,1,potassium=333.3
+63.png,energy,341.0,1,0,1,B_only_above,1,potassium=333.3
+63.png,carbohydrate,84.4,1,0,1,B_only_above,1,potassium=333.3
+63.png,protein,0.6,1,0,1,B_only_above,1,potassium=333.3
+63.png,salt,1.73,1,0,1,B_only_above,1,potassium=333.3
+63.png,magnesium,250.0,1,0,1,B_only_above,1,potassium=333.3
+63.png,calcium,166.7,1,0,1,B_only_above,1,potassium=333.3
+64.png,vitaminc,50.0,1,0,1,B_only_above,0,—
+64.png,niacin,7.0,1,0,1,B_only_above,0,—
+64.png,zinc,3.0,1,0,1,B_only_above,0,—
+8.png,protein,3.7,1,0,1,B_only_above,14,"energy=892, energy=213, saturatedfats=3.4, carbohydrate=41, sugars=21, fibre=1.9, sodium=4"
+8.png,fat,7.9,1,0,1,B_only_above,14,"energy=892, energy=213, saturatedfats=3.4, carbohydrate=41, sugars=21, fibre=1.9, sodium=4"
+82.jpeg,creatinemonohydrate,3.0,1,0,1,B_only_above,11,"energy=0, energy=0, protein=0, carbohydrate=0, fat=0, creatinemonohydrate=100, energy=0, e"
+88.png,fat,2.3,1,0,1,B_only_above,5,"energy=234, energy=55, fat=0.7, energy=772, energy=181"
+88.png,saturatedfats,1.6,1,0,1,B_only_above,5,"energy=234, energy=55, fat=0.7, energy=772, energy=181"
+88.png,carbohydrate,13.0,1,0,1,B_only_above,5,"energy=234, energy=55, fat=0.7, energy=772, energy=181"
+88.png,protein,26.0,1,0,1,B_only_above,5,"energy=234, energy=55, fat=0.7, energy=772, energy=181"
+88.png,salt,0.33,1,0,1,B_only_above,5,"energy=234, energy=55, fat=0.7, energy=772, energy=181"
+9.jpeg,vitaminc,60.0,1,0,1,B_only_above,1,zinc=10
+90.png,energy,115.0,1,0,1,B_only_above,3,"energy=45, energy=27, magnesium=56"
+90.png,fat,0.0,1,0,1,B_only_above,3,"energy=45, energy=27, magnesium=56"
+90.png,saturatedfats,0.0,1,0,1,B_only_above,3,"energy=45, energy=27, magnesium=56"
+90.png,carbohydrate,6.0,1,0,1,B_only_above,3,"energy=45, energy=27, magnesium=56"
+90.png,sugars,6.0,1,0,1,B_only_above,3,"energy=45, energy=27, magnesium=56"
+91.png,energy,772.0,1,0,1,B_only_above,2,"energy=55, energy=181"
+91.png,fat,2.3,1,0,1,B_only_above,2,"energy=55, energy=181"
+91.png,saturatedfats,1.6,1,0,1,B_only_above,2,"energy=55, energy=181"
+91.png,carbohydrate,13.0,1,0,1,B_only_above,2,"energy=55, energy=181"
+91.png,salt,0.33,1,0,1,B_only_above,2,"energy=55, energy=181"

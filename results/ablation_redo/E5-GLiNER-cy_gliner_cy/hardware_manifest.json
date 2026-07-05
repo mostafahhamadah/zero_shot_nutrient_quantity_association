@@ -1,0 +1,9 @@
+{
+  "OCR": "CPU \u00b7 Intel64 Family 6 Model 186 Stepping 2, GenuineIntel \u2014 paddleocr",
+  "corrector": "CPU \u00b7 Intel64 Family 6 Model 186 Stepping 2, GenuineIntel \u2014 pure-Python",
+  "classifier": "GPU \u00b7 NVIDIA GeForce RTX 5070 Laptop GPU (8.0 GB) \u2014 gliner",
+  "enricher": "CPU \u00b7 Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "graph (V2 overlap)": "CPU \u00b7 Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "associator (V2)": "CPU \u00b7 Intel64 Family 6 Model 186 Stepping 2, GenuineIntel \u2014 pure-Python",
+  "evaluator": "CPU \u00b7 Intel64 Family 6 Model 186 Stepping 2, GenuineIntel \u2014 deterministic fast-rule"
+}

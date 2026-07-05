@@ -1,0 +1,15 @@
+image_id,error
+27.png,RuntimeError: could not create a primitive
+30.png,RuntimeError: could not create a primitive
+33.png,RuntimeError: could not create a primitive
+34.png,RuntimeError: could not create a primitive
+41.png,RuntimeError: could not create a primitive
+42.png,RuntimeError: could not create a primitive
+51.png,RuntimeError: could not create a primitive
+53.png,RuntimeError: could not create a primitive
+119.jpeg,RuntimeError: could not create a primitive
+120.jpeg,RuntimeError: could not create a primitive
+121.jpeg,RuntimeError: could not create a primitive
+201.jpeg,RuntimeError: could not create a primitive
+45_1.png,RuntimeError: could not create a primitive
+45_2.png,RuntimeError: could not create a primitive

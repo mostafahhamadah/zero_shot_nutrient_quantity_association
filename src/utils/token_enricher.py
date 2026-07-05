@@ -33,6 +33,7 @@ List[Dict] — enriched tokens with ALL original fields PLUS:
 
     # Structure
     row_id, column_id, rank_in_row, data_rank_in_column,
+    qty_rank_in_column, nutrient_rank_in_column, unit_rank_in_column,
     column_role, is_header, column_context_id, dosage_stream_id
 
     # Matching
@@ -46,6 +47,9 @@ DESIGN DECISIONS
 4. Rank is computed EXCLUDING headers (data_rank_in_column).
 5. When geometry fails (insufficient tokens, near-flat ambiguity),
    rank serves as the structural fallback for association.
+6. Label-specific ranks (qty/nutrient/unit_rank_in_column) let the graph
+   build "role_rank" rows: the k-th nutrient, k-th quantity and k-th unit
+   are one logical row regardless of column interleaving.
 """
 
 from __future__ import annotations
@@ -330,20 +334,24 @@ def _compute_ranks(tokens: List[dict], rows: List[List[int]],
     data_rank_in_column:
         0-indexed position within the column, EXCLUDING headers.
 
-    qty_rank_in_column:
-        0-indexed position counting ONLY QUANTITY tokens in the column.
-        This is the PRIMARY rank for association: nutrient at
-        data_rank N should match the quantity at qty_rank N.
+    qty_rank_in_column / nutrient_rank_in_column / unit_rank_in_column:
+        0-indexed position counting ONLY QUANTITY / ONLY NUTRIENT /
+        ONLY UNIT tokens in the column. These LABEL-SPECIFIC ranks are
+        what make row_edge_mode="role_rank" work: the k-th nutrient,
+        the k-th quantity, and the k-th unit all carry rank k and are
+        linked as one logical row.
 
         Why label-specific rank matters:
         In a dosage column, QUANTITY and UNIT tokens interleave:
-          QUANTITY "1500"  data_rank=0  qty_rank=0
-          UNIT     "kJ"   data_rank=1  qty_rank=-1
-          QUANTITY "20"   data_rank=2  qty_rank=1
-          UNIT     "g"    data_rank=3  qty_rank=-1
+          QUANTITY "1500"  data_rank=0  qty_rank=0   unit_rank=-1
+          UNIT     "kJ"    data_rank=1  qty_rank=-1  unit_rank=0
+          QUANTITY "20"    data_rank=2  qty_rank=1   unit_rank=-1
+          UNIT     "g"     data_rank=3  qty_rank=-1  unit_rank=1
         NUTRIENT column has ranks 0,1,2 (one per nutrient).
         data_rank alignment fails (0→0 ok, 1→2, 2→4).
-        qty_rank alignment succeeds (0→0, 1→1, 2→2).
+        qty_rank↔nutrient_rank alignment succeeds (0→0, 1→1, 2→2),
+        and qty_rank↔unit_rank pairs each value with its unit (0↔0, 1↔1)
+        EVEN when the unit sits inline in the same column.
     """
     # rank_in_row
     for row_indices in rows:
@@ -360,14 +368,18 @@ def _compute_ranks(tokens: List[dict], rows: List[List[int]],
             tokens[idx]["data_rank_in_column"] = data_rank
             data_rank += 1
 
-    # qty_rank_in_column (QUANTITY tokens only, for dosage columns)
-    # nutrient_rank_in_column (NUTRIENT tokens only, for nutrient column)
+    # Label-specific ranks (per column, headers excluded):
+    #   qty_rank_in_column       — QUANTITY tokens only
+    #   nutrient_rank_in_column  — NUTRIENT tokens only
+    #   unit_rank_in_column      — UNIT tokens only
     for col_indices in columns:
         qty_rank = 0
         nut_rank = 0
+        unit_rank = 0
         for idx in col_indices:
             tokens[idx]["qty_rank_in_column"] = -1
             tokens[idx]["nutrient_rank_in_column"] = -1
+            tokens[idx]["unit_rank_in_column"] = -1
 
             if tokens[idx].get("is_header", False):
                 continue
@@ -379,6 +391,9 @@ def _compute_ranks(tokens: List[dict], rows: List[List[int]],
             elif label == "NUTRIENT":
                 tokens[idx]["nutrient_rank_in_column"] = nut_rank
                 nut_rank += 1
+            elif label == "UNIT":
+                tokens[idx]["unit_rank_in_column"] = unit_rank
+                unit_rank += 1
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -440,6 +455,7 @@ class TokenEnricher:
             tok["data_rank_in_column"] = -1
             tok["qty_rank_in_column"] = -1
             tok["nutrient_rank_in_column"] = -1
+            tok["unit_rank_in_column"] = -1
             tok["column_role"] = "UNKNOWN"
             tok["row_confidence"] = 0.0
             tok["column_confidence"] = 0.0

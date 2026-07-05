@@ -1,0 +1,11 @@
+{
+  "total_wall_s": 420.79,
+  "classifier_load_s": 0.0,
+  "loop_s": 420.52,
+  "eval_s": 0.08,
+  "ocr_s": 416.14,
+  "corrector_s": 0.99,
+  "classifier_infer_s": 0.08,
+  "association_s": 3.31,
+  "per_image_s": 7.378
+}

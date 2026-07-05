@@ -1,0 +1,169 @@
+% !TEX root = thesis.tex
+% =====================================================================
+%  CHAPTER 7 — CONCLUSION
+%  Zero-Shot Nutrient and Quantity Association using
+%  OCR-Guided Semantic Graph Matching
+%  Moustafa Hamada | THD + USB
+%
+%  Build: scrbook, XeLaTeX + BibTeX. Cross-refs: Chapter~\ref{} / Section~\ref{}.
+%
+%  This file DEFINES \label{chap:conclusion}, which resolves the forward
+%  reference made from the Introduction (Chapter 1). Placed last in the
+%  document, after Chapters 1--6.
+%
+%  BACK REFERENCES (labels already defined in the other chapter files):
+%    chap:introduction (Ch1), chap:experiments (Ch6)
+%
+%  This chapter is high-level and adds NO new citations (it refers back to the
+%  chapters where each component and result was introduced).
+%
+%  NOTE: \mcode{} is defined inside Chapter 4. In a full front-to-back build it
+%  would be available here, but this chapter is kept free of \mcode so it also
+%  compiles standalone; edge types and modes are named in plain words instead.
+%
+%  All figures for the four-field results (0.4304 / 0.4945 / 0.3597, the OCR
+%  jump, the runtime split) are stated verbatim from the locked runs reported
+%  in Chapter~\ref{chap:experiments}.
+%
+%  LABELS IN THIS FILE:
+%    chap:conclusion
+%    sec:concl-findings, sec:concl-limitations, sec:concl-future,
+%    sec:concl-closing
+% =====================================================================
+
+\chapter{Conclusion}\label{chap:conclusion}
+
+This thesis set out to reconstruct structured nutritional records from images of
+supplement and food labels, under two demands that usually pull against each
+other. The method had to work zero-shot, on labels, layouts, and languages it had
+never seen, and it had to stay open to inspection at every stage rather than hand
+the task to a single opaque model. The answer proposed and tested here is a
+modular pipeline that reads the label with OCR, classifies each token into a
+semantic role without training on the target labels, and then binds the tokens
+into four-field tuples
+$\langle\text{nutrient},\,\text{quantity},\,\text{unit},\,\text{context}\rangle$
+by matching an explicit graph whose edges follow closed-form geometric and
+structural rules. This chapter reviews what the pipeline achieved against the
+questions set in Chapter~\ref{chap:introduction}, states where it falls short, and
+points to the work that would take it further.
+
+\section{Summary of Findings}\label{sec:concl-findings}
+
+The experiments in Chapter~\ref{chap:experiments} answered each of the five
+questions by ablation, changing one stage at a time. The reading stage proved to
+be the single largest lever. Replacing EasyOCR with PaddleOCR PP-OCRv5, with every
+later stage held fixed, lifted the four-field tuple F1 from 0.1773 to 0.4231, and
+the gain came almost entirely from reading the numbers and units correctly rather
+than from finding more nutrient names. Because OCR sets the ceiling for everything
+after it, PaddleOCR was fixed for the rest of the work.
+
+The association stage was the next-largest factor, and it is where the
+contribution sits. The enriched, geometry-aware graph nearly doubled the
+four-field F1 of the naive geometric graph for both learned classifiers, and the
+gain was structural rather than a matter of better reading: it appeared almost
+entirely on the multi-context labels, the ones that report the same nutrient under
+more than one reference basis, where the header-scope relation keeps the value
+columns apart and the simpler graph cannot. Inside the enriched graph, geometric
+row edges were clearly the right mechanism. The geometric overlap mode was best,
+the rank-based modes were far weaker --- a single missed or fused token shifts the
+ordinal count and breaks the alignment --- and merging rank edges into the
+geometric ones only added wrong links. This confirmed the central design choice:
+on labels distorted by OCR, physical alignment is a more reliable basis for the
+row relation than ordinal rank.
+
+The classifier was the smallest of the three factors, because it acts only through
+nutrient detection while the shared cascade reads quantity, unit, and context the
+same way in every run. Among the zero-shot options, GLiNER-biomed gave the best
+interpretable tuple score, and it did so without any hand-built lexicon, which
+matters for a method that claims to generalise beyond a fixed vocabulary.
+
+Taken together, these choices give the central result of the thesis. The best
+fully interpretable pipeline --- PaddleOCR, GLiNER, and the enriched graph with
+geometric overlap edges --- reaches a four-field tuple F1 of 0.4304, with every
+stage open to inspection. Confining a vision--language model to the association
+step, so that it binds the same token table the graph receives, raises the score
+to 0.4945; with the model doing the binding, the embedding classifier overtakes
+GLiNER, since its higher recall becomes an advantage rather than a source of false
+tuples. Both of these beat a vision--language model run end to end, which reaches
+only 0.3597. This is the answer the central question asked for: structuring the
+problem before any field is bound is worth more than handing the whole task to a
+single model, and the extra points the confined model adds are paid for in
+interpretability and in time --- the interpretable pipeline runs in about four and
+a half seconds per label, the hybrid in about fourteen. Where the task needs a
+result that can be traced and checked, the interpretable pipeline is the answer;
+where the highest score matters more than the audit trail, the confined model is.
+
+\section{Limitations}\label{sec:concl-limitations}
+
+Two limits bound every configuration, and both arise before the binding step, so
+no choice of graph or model repairs them. The first is a recall ceiling. About a
+third of the gold tuples --- 314 of the 866 --- are lost because their nutrient is
+never read, whether the OCR corrupts the text or the classifier rejects a genuine
+nutrient. Once a nutrient is missing, none of its values can be recovered, and
+this loss passes through every run unchanged. The pipeline can only bind the
+tokens it is handed.
+
+The second is the quantity field, which is the weakest of the four. After a
+nutrient is matched, its number is wrong more often than its unit or its context,
+and the errors concentrate on dense tables that place two value columns side by
+side, where the enrichment stage can assign a value to the wrong column and a
+per-serving number is bound where the per-100-gram number belongs. This is a fault
+in how the columns are separated, not in the binding itself, so it is best fixed
+upstream of the graph.
+
+Beyond these, the association step is deliberately simple: it works greedily from
+each nutrient and does not enforce a single global assignment, so it can leave
+some conflicts between competing links unresolved. Labels that are not laid out as
+tables, such as those printed as running paragraphs, fall outside what the graph
+is built to read and are only partly recovered by a regular-expression fallback.
+And the evaluation rests on a corpus of 57 labels; although the labels are
+multilingual and varied, a larger and more diverse set --- more languages, more
+scripts, and more unusual layouts --- would test the zero-shot claim more severely
+than the present corpus can.
+
+\section{Future Work}\label{sec:concl-future}
+
+The clearest gains would come from lifting the recall ceiling, since the reading
+stage is both the largest lever and the source of the largest loss. Stronger or
+better-tuned OCR, wider correction rules for corrupted nutrient names, or a second
+recognition pass aimed at the tokens the current engine drops would each recover
+tuples that the rest of the pipeline is ready to bind but never receives.
+
+The quantity weakness points to a specific fix upstream of the graph. Because the
+errors come from values being placed in the wrong column on dense multi-column
+tables, a more robust column-separation step in the enrichment stage --- one that
+is less easily disturbed by a missing or extra token --- would attack the weakest
+field at its source, without changing the association logic.
+
+On the binding step itself, replacing the greedy local search with a global
+one-to-one assignment would resolve the conflicts the current method leaves open,
+while keeping the graph interpretable. A different line would keep the accuracy of
+the confined vision--language model but recover some of the transparency it costs:
+rather than letting the model bind the tokens freely, it could be used only to
+re-rank or confirm the candidate links the graph already proposes, so that every
+accepted link still traces back to an explicit edge. This would sit between the
+interpretable and the hybrid pipeline, trading a little of the model's score for
+an audit trail.
+
+Finally, a broader evaluation would strengthen the zero-shot argument. Testing the
+pipeline on a larger corpus with more languages, more scripts, and more layout
+styles would show how far the closed-form, training-free design carries beyond the
+labels seen here, and would expose any layout family the current rules do not yet
+handle.
+
+\section{Concluding Remarks}\label{sec:concl-closing}
+
+The wider point of this thesis is that a structured, interpretable pipeline is a
+viable way to read nutrition labels, not a compromise forced by the absence of a
+large model. The task was framed in Chapter~\ref{chap:introduction} as an empty
+corner of the design space --- a method that is at once zero-shot, interpretable,
+relational, and able to handle multilingual labels, which no existing approach
+occupies. The pipeline built here fills that corner. Its association step
+reconstructs four-field records from arbitrary, previously unseen labels without
+any task-specific training, and every record it produces can be traced back
+through an explicit graph to the tokens and rules that formed it. That a fully
+interpretable pipeline beats an end-to-end model on the same task, and comes
+within a few points of a version that gives up its transparency, suggests that
+closed-form geometric reasoning over classified OCR tokens is worth taking
+seriously as an alternative to opaque extraction --- one whose main cost is not
+accuracy but the effort of building the structure that makes it legible.

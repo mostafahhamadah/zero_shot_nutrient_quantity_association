@@ -1,0 +1,4 @@
+experiment,label,full_tuple_precision,full_tuple_recall,full_tuple_f1,full4f_correct,full3f_f1,full3f_correct,nutrient_f1,quantity_acc,unit_acc,context_acc,matched_pairs,gt_tuples,predicted_tuples,total_wall_s,per_image_s,ocr_s,classifier_infer_s,association_s
+E2-A,PaddleOCR + rule_based,0.4223,0.4238,0.4231,367,0.4415,383,0.7239,0.7691,0.8121,0.8726,628,866,869,420.79,7.378,416.14,0.08,3.31
+E2-B,PaddleOCR + embedding (BGE-M3),0.3911,0.4145,0.4025,359,0.4204,375,0.6771,0.7649,0.8311,0.8642,604,866,918,389.07,6.475,253.75,112.99,1.47
+E2-C,PaddleOCR + GLiNER-biomed,0.4634,0.4018,0.4304,348,0.4465,361,0.6827,0.7627,0.8315,0.8786,552,866,751,279.81,4.5,241.51,12.69,1.46

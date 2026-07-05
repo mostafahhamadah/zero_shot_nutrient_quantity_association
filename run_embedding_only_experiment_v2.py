@@ -23,9 +23,9 @@ PIPELINE
 
 USAGE
 -----
-    python run_embedding_only_experiment.py --experiment exp40_embonly_tuned
+    python run_embedding_only_experiment_v2.py --experiment exp40_embonly_tuned
     python run_embedding_only_experiment.py --experiment exp40_t60 --threshold 0.60
-    python run_embedding_only_experiment.py --experiment exp40_quick --no-llm
+    python run_embedding_only_experiment_v2.py --experiment exp40_quick --no-llm
     python run_embedding_only_experiment.py --experiment exp40 --compare graph_v2_exp38
 """
 

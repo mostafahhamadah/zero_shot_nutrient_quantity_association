@@ -1,0 +1,44 @@
+image_id,nutrient,gold_value,detected,below,above,category,img_qty_drops,img_qty_dropped,img_nut_drops,img_nut_dropped
+1.png,magnesiumsalzedercitronensaure,420.0,1,0,1,B_only_above,0,—,0,—
+1.png,magnesiummalat,333.0,1,0,1,B_only_above,0,—,0,—
+102.png,saturatedfats,0.1,1,0,1,B_only_above,0,—,0,—
+109.jpeg,fat,0.0,1,0,1,B_only_above,0,—,0,—
+109.jpeg,salt,0.05,1,0,1,B_only_above,0,—,0,—
+110.jpeg,melissenextrakt,30.0,1,0,1,B_only_above,0,—,0,—
+110.jpeg,niacin,16.0,1,0,1,B_only_above,0,—,0,—
+110.jpeg,pantothenicacid,6.0,1,0,1,B_only_above,0,—,0,—
+115.png,saturatedfats,0.2,1,0,1,B_only_above,0,—,0,—
+116.jpeg,energy,509.0,1,0,1,B_only_above,0,—,1,sugars
+116.jpeg,energy,121.0,1,0,1,B_only_above,0,—,1,sugars
+116.jpeg,fat,3.5,1,0,1,B_only_above,0,—,1,sugars
+116.jpeg,saturatedfats,0.4,1,0,1,B_only_above,0,—,1,sugars
+116.jpeg,carbohydrate,8.2,1,0,1,B_only_above,0,—,1,sugars
+116.jpeg,fibre,3.7,1,0,1,B_only_above,0,—,1,sugars
+116.jpeg,protein,12.0,1,0,1,B_only_above,0,—,1,sugars
+116.jpeg,salt,0.61,1,0,1,B_only_above,0,—,1,sugars
+118.jpeg,saturatedfats,2.6,1,0,1,B_only_above,0,—,2,"sugaralcohols, sugars"
+12.png,energy,328.0,1,0,1,B_only_above,0,—,2,"salt, saturatedfats"
+12.png,energy,77.0,1,0,1,B_only_above,0,—,2,"salt, saturatedfats"
+30.png,energy,1649.0,1,0,1,B_only_above,0,—,0,—
+30.png,energy,391.0,1,0,1,B_only_above,0,—,0,—
+30.png,protein,4.8,1,0,1,B_only_above,0,—,0,—
+30.png,fat,9.1,1,0,1,B_only_above,0,—,0,—
+30.png,saturatedfats,4.9,1,0,1,B_only_above,0,—,0,—
+30.png,carbohydrate,71.0,1,0,1,B_only_above,0,—,0,—
+30.png,sugars,35.0,1,0,1,B_only_above,0,—,0,—
+30.png,fibre,3.6,1,0,1,B_only_above,0,—,0,—
+30.png,sodium,130.0,1,0,1,B_only_above,0,—,0,—
+6.png,calcium,9.0,1,0,1,B_only_above,0,—,0,—
+6.png,sodium,200.0,1,0,1,B_only_above,0,—,0,—
+61.png,salt,0.52,1,0,1,B_only_above,0,—,0,—
+61.png,energy,1424.0,1,0,1,B_only_above,0,—,0,—
+61.png,energy,341.0,1,0,1,B_only_above,0,—,0,—
+61.png,carbohydrate,84.4,1,0,1,B_only_above,0,—,0,—
+61.png,protein,0.6,1,0,1,B_only_above,0,—,0,—
+61.png,salt,1.73,1,0,1,B_only_above,0,—,0,—
+61.png,magnesium,250.0,1,0,1,B_only_above,0,—,0,—
+61.png,potassium,333.3,1,0,1,B_only_above,0,—,0,—
+61.png,calcium,166.7,1,0,1,B_only_above,0,—,0,—
+64.png,vitaminc,50.0,1,0,1,B_only_above,0,—,0,—
+64.png,niacin,7.0,1,0,1,B_only_above,0,—,0,—
+64.png,zinc,3.0,1,0,1,B_only_above,0,—,0,—

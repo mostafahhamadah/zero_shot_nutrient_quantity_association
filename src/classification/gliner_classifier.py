@@ -1,554 +1,410 @@
 """
 gliner_classifier.py
 ====================
-Stage 3 — GLiNER Semantic Classifier (Experiment 3)
+Stage 3 — GLiNER-biomed Semantic Classifier  (Ablation 2, third variant)
+Zero-Shot Nutrient Extraction Pipeline | Moustafa Hamada | THD + USB
 
-PURPOSE
--------
-Replace the rule-based SemanticClassifier (experiment_01_final_semantic_classifier.py)
-with a zero-shot span-extraction approach using GLiNER biomed bi-base.
+WHAT THIS FILE REALISES (Methodology §4.3, esp. §4.3.6)
+-------------------------------------------------------
+The semantic classifier factors into two parts:
 
-For each image's corrected OCR tokens (Stage 2 output), this module:
-  1. Serializes tokens into a GLiNER-ready text string via text_serializer.py
-  2. Runs Ihor/gliner-biomed-bi-base-v1.0 with descriptive Set B entity labels
-  3. Applies a 0.3 confidence threshold (permissive — maximise recall)
-  4. Maps predicted spans back to tokens using tag-all strategy
-  5. Maps GLiNER label strings to internal pipeline labels via LABEL_MAP
-  6. Assigns UNKNOWN to tokens not covered by any accepted span
-  7. Normalises CONTEXT tokens to canonical form via CONTEXT_MAP
+  (1) a *shared deterministic cascade* that resolves the syntactic roles
+      UNIT, NRV/NOISE, CONTEXT and QUANTITY, and
+  (2) a single *nutrient / not-nutrient node* that makes the one hard,
+      open-vocabulary decision.
 
-DESIGN DECISIONS (locked 2025-04-06)
+The cascade is identical across all three classifier variants and is
+supplied by the rule-based SemanticClassifier
+(experiment_01_final_semantic_classifier.py).  The variants differ ONLY in
+how they realise node (2):
+
+  • rule-based variant      → curated nutrient lexicon
+  • embedding variant       → BGE-M3 cosine similarity      (embedding_semantic_classifier.py)
+  • GLiNER variant (here)   → GLiNER-biomed span acceptance
+
+This file is therefore the structural sibling of
+EmbeddingSemanticClassifier: it wraps the SAME cascade, runs it first,
+and only re-decides the tokens the cascade leaves as nutrient
+candidates.  The cascade remains authoritative for QUANTITY / UNIT /
+CONTEXT / NOISE — GLiNER never overrides them, and CONTEXT canonicalisation
+(per_100g / per_serving / per_daily_dose) is done by the cascade, not here.
+
+This is a deliberate departure from the earlier Set-B "tag-all" design,
+which let GLiNER assign all four roles under four labels.  That design did
+not match the methodology; this one does.
+
+THE NUTRIENT NODE (Methodology §4.3.6)
 --------------------------------------
-Model            : Ihor/gliner-biomed-bi-base-v1.0
-                   Bi-encoder: DeBERTa-v3-base (text) + BAAI/bge-small-en-v1.5 (labels).
-                   Chosen for: best zero-shot recall among bi-encoders (58.31% micro F1),
-                   stable label embeddings under German OCR input, 3.5x faster than bi-large.
-                   Reference: Yazdani, Stepanov & Teodoro (2025) arXiv:2504.00676
+Model       : Ihor/gliner-biomed-bi-large-v1.0  (bi-encoder; DeBERTa-v3
+              text encoder + separate sentence encoder for the labels, so
+              arbitrary natural-language labels are supplied at inference
+              without retraining).  Used zero-shot, no fine-tuning.
+Label       : a SINGLE descriptive label,
+              "nutritional ingredient or vitamin or mineral".
+Decision    : a nutrient candidate is labelled NUTRIENT when it falls
+              within an accepted entity span (span score >= threshold),
+              and UNKNOWN otherwise.
+Threshold   : the acceptance threshold is a CALIBRATED operating point,
+              fixed by a token-level threshold sweep over the nutrient
+              candidates (see gliner_threshold_sweep.py and Methodology
+              §4.3.4 for the analogous embedding-node calibration).  It is
+              exposed here as `threshold`; NUTRIENT_THRESHOLD below is the
+              operating point the sweep selects.
 
-Entity labels    : Set B — descriptive natural-language strings.
-                   Chosen for: richer embedding signal than minimal Set A; closer to
-                   biomedical pre-training vocabulary than Set C.
+HOW A CANDIDATE MAPS TO "WITHIN A SPAN"
+---------------------------------------
+GLiNER needs surrounding text to recognise an entity, so the whole label
+is serialised once (text_serializer.serialize_tokens_for_gliner) and GLiNER
+is run a single time on that text with the single label.  Every token keeps
+its half-open character span [start_char, end_char) in that text.  A
+candidate token is "within an accepted span" when some accepted nutrient
+span fully contains it:
 
-Confidence       : 0.3 — permissive threshold to maximise recall.
-                   False positives from low-confidence spans are tolerated at this stage;
-                   the graph association step (Stage 5) provides a second filter.
+        span.start <= token.start_char  AND  token.end_char <= span.end
 
-Span assignment  : Tag-all — every token fully contained in a GLiNER span receives
-                   that span's label. Zero changes to Stage 4 graph_constructor.py.
-                   Containment condition: span.start <= token.start_char AND
-                                          token.end_char  <= span.end
+The score attached to the candidate is the maximum score over the spans
+that contain it (0.0 / None when no span does).  Only candidate tokens are
+consulted; tokens the cascade already resolved keep their label regardless
+of what spans cover them.
 
-Fallback label   : UNKNOWN — tokens not covered by any accepted span.
-                   UNKNOWN tokens are passed to the rule-based fallback chain in
-                   run_experiment.py for QUANTITY/UNIT/CONTEXT secondary classification.
-                   (Not NOISE — NOISE suppresses downstream association entirely.)
+MODES (mirroring the embedding node)
+------------------------------------
+mode="gliner_only" (default, the variant reported in the thesis)
+    The lexicon plays no part: every candidate the cascade leaves as
+    NUTRIENT *or* UNKNOWN is decided by GLiNER.  This is the genuinely
+    zero-shot realisation of the node.
+mode="hybrid"
+    The lexicon's positive (NUTRIENT) calls are kept and GLiNER is used
+    only to rescue tokens the lexicon left UNKNOWN.
 
-Context handling : Option C — GLiNER handles everything including context labels.
-                   GLiNER assigns the CONTEXT label; CONTEXT_MAP then normalises
-                   the token text to canonical form (per_100g / per_serving /
-                   per_daily_dose). German context headers risk low recall here —
-                   this is documented as a known failure mode for Experiment 3.
+OUTPUT CONTRACT  (drop-in for SemanticClassifier / EmbeddingSemanticClassifier)
+------------------------------------------------------------------------------
+classify_all(tokens) returns a list of token dicts, one per input token,
+index-aligned, each being the cascade's output dict with these fields set:
 
-split_fused_token: Runs UPSTREAM in PaddleOCR Stage 2 corrector.
-                   This module always receives already-split tokens.
-
-PIPELINE POSITION
------------------
-Stage 2 (PaddleOCR corrector, split_fused_token already applied)
-    → text_serializer.serialize_tokens_for_gliner()
-    → [this module] gliner_classifier.py  →  labelled token list
-    → graph_constructor.py               (Stage 4, unchanged)
-
-OUTPUT CONTRACT (matches Stage 4 graph_constructor.py expectations)
---------------------------------------------------------------------
-Returns a list of token dicts. Each dict is the original Stage 2 token dict
-with the following fields added:
-
-    "label"            : str   — NUTRIENT | QUANTITY | UNIT | CONTEXT | UNKNOWN
-    "norm"             : str | None
-                         For CONTEXT tokens: canonical form from CONTEXT_MAP
-                         (per_100g | per_serving | per_daily_dose | None)
-                         For all other labels: None
-    "gliner_score"     : float | None
-                         Confidence score of the GLiNER span that covered this token.
-                         None for UNKNOWN tokens (no span matched).
-    "gliner_span_text" : str | None
-                         Full text of the GLiNER span that covered this token.
-                         Useful for diagnostics — distinguishes multi-token spans.
-                         None for UNKNOWN tokens.
-
-USAGE
------
-    from gliner_classifier import GLiNERClassifier
-
-    classifier = GLiNERClassifier()                 # loads model once
-    labelled   = classifier.classify(tokens)        # tokens = Stage 2 output
-
-    # Or use the module-level convenience function:
-    labelled   = classify_tokens(tokens)            # creates a default instance
+    "label"               : NUTRIENT | QUANTITY | UNIT | CONTEXT | NOISE | UNKNOWN
+    "norm"                : canonical form set by the cascade (unchanged here)
+    "gliner_score"        : float | None   max covering nutrient-span score
+                                            (None for non-candidates / no span)
+    "gliner_span_text"    : str | None     text of that covering span
+    "classification_method": "rule" | "gliner"
 
 THESIS CITATION
 ---------------
     Yazdani, A., Stepanov, I., and Teodoro, D. (2025).
-    GLiNER-biomed: A Suite of Efficient Models for Open Biomedical Named Entity
-    Recognition. arXiv:2504.00676. doi:10.48550/arXiv.2504.00676
+    GLiNER-biomed: A Suite of Efficient Models for Open Biomedical Named
+    Entity Recognition. arXiv:2504.00676.
 """
 
 from __future__ import annotations
 
 import logging
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
-from gliner import GLiNER
-
+# Shared deterministic cascade (same object the embedding node wraps).
+from src.classification.experiment_01_final_semantic_classifier import SemanticClassifier
+# Reused serializer: builds the GLiNER input text + per-token char spans.
 from src.utils.text_serializer import serialize_tokens_for_gliner
 
 logger = logging.getLogger(__name__)
 
-# ---------------------------------------------------------------------------
-# Constants — all locked decisions live here, nowhere else
-# ---------------------------------------------------------------------------
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Locked design constants
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-#: Hugging Face model ID for the bi-encoder base variant.
+#: Hugging Face model id — bi-encoder large variant (Methodology §4.3.6).
 MODEL_ID: str = "Ihor/gliner-biomed-bi-large-v1.0"
 
-#: Set B — descriptive entity label strings passed to GLiNER at inference.
-#: Used with Ihor/gliner-biomed-bi-large-v1.0 (bi-encoder large).
-#: Label encoder: BAAI/bge-base-en-v1.5 (larger than bi-base's bge-small).
-#: These are encoded once and cached at model load time.
-GLINER_LABELS: List[str] = [
-    "nutritional ingredient or vitamin or mineral",
-    "numeric amount or dosage value",
-    "measurement unit",
-    "serving size header or reference amount label",
-]
+#: The SINGLE descriptive label presented to GLiNER for the nutrient node.
+NUTRIENT_LABEL: str = "nutritional ingredient or vitamin or mineral"
 
-#: Explicit mapping from GLiNER label strings → internal pipeline labels.
-#: Must contain one entry per string in GLINER_LABELS.
-LABEL_MAP: Dict[str, str] = {
-    "nutritional ingredient or vitamin or mineral":  "NUTRIENT",
-    "numeric amount or dosage value":                "QUANTITY",
-    "measurement unit":                              "UNIT",
-    "serving size header or reference amount label": "CONTEXT",
-}
+#: Calibrated acceptance threshold — the operating point chosen by the
+#: token-level threshold sweep (gliner_threshold_sweep.py).  The value below
+#: is the permissive pre-sweep default from the methodology text; replace it
+#: with the swept optimum once the sweep has run.
+NUTRIENT_THRESHOLD: float = 0.18
 
-#: Minimum GLiNER confidence score to accept a span.
-#: 0.3 = permissive, maximise recall. False positives filtered by Stage 5.
-CONFIDENCE_THRESHOLD: float = 0.3
+#: Internal floor passed to GLiNER so the SAME code path can both classify
+#: (apply `threshold`) and feed the sweep (return raw scores >= floor).
+#: Must be <= the smallest threshold the sweep will ever test.
+SCORE_FLOOR: float = 0.001
 
-#: Label assigned to tokens not covered by any accepted GLiNER span.
-#: UNKNOWN passes tokens to rule-based fallback; NOISE would suppress them.
-FALLBACK_LABEL: str = "UNKNOWN"
+#: Roles the cascade owns outright — GLiNER never touches these.
+RULE_AUTHORITATIVE_LABELS: frozenset = frozenset({"QUANTITY", "UNIT", "CONTEXT", "NOISE"})
 
-#: Canonical context normalisation map.
-#: Keys are lowercased OCR token variants; values are canonical pipeline forms.
-#: Preserved from experiment_01_final_semantic_classifier.py (Stage 3, Exp 1).
-#: Applied AFTER GLiNER assigns CONTEXT label — GLiNER detects the span,
-#: CONTEXT_MAP resolves the canonical meaning.
-CONTEXT_MAP: Dict[str, str] = {
-    # German — per daily dose
-    "je tagesdosis":          "per_daily_dose",
-    "pro tagesdosis":         "per_daily_dose",
-    "tagesdosis":             "per_daily_dose",
-    "tagesbedarf":            "per_daily_dose",
-    "je 2 kapseln":           "per_daily_dose",
-    "je 3 kapseln":           "per_daily_dose",
-    "je 4 kapseln":           "per_daily_dose",
-    # German — per 100g
-    "je 100 g":               "per_100g",
-    "pro 100 g":              "per_100g",
-    "pro 100g":               "per_100g",
-    "per 100g":               "per_100g",
-    "per 100 g":              "per_100g",
-    "je 100g":                "per_100g",
-    "1009":                   "per_100g",    # OCR artefact
-    "je 1009":                "per_100g",    # OCR artefact
-    "pro 1009":               "per_100g",    # OCR artefact
-    "100g":                   "per_100g",
-    # German — per serving
-    "pro portion":            "per_serving",
-    "je portion":             "per_serving",
-    "portion":                "per_serving",
-    "pro106":                 "per_serving",  # OCR artefact
-    "portion**":              "per_serving",  # OCR artefact
-    # English — per daily dose
-    "per daily dose":         "per_daily_dose",
-    "daily dose":             "per_daily_dose",
-    "daily value":            "per_daily_dose",
-    "per day":                "per_daily_dose",
-    # English — per serving
-    "per serving":            "per_serving",
-    "serving":                "per_serving",
-    "per portion":            "per_serving",
-    # English — per 100g
-    "per 100 g":              "per_100g",
-    "per 100g":               "per_100g",
-    # French
-    "par dose journalière":   "per_daily_dose",
-    "par portion":            "per_serving",
-    "pour 100 g":             "per_100g",
-    # Dutch
-    "per dagelijkse dosis":   "per_daily_dose",
-    "per portie":             "per_serving",
-    "per 100 g":              "per_100g",
-}
+#: Roles that make a token a *nutrient candidate* eligible for the GLiNER node.
+CANDIDATE_LABELS: frozenset = frozenset({"NUTRIENT", "UNKNOWN"})
 
 
-# ---------------------------------------------------------------------------
-# Helper: CONTEXT_MAP normalisation
-# ---------------------------------------------------------------------------
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Pure helpers (no model required — unit-testable in isolation)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-def _normalise_context(token_text: str) -> Optional[str]:
+def _decide_candidate(gliner_score: Optional[float], threshold: float) -> str:
+    """Nutrient-node decision for a single candidate.
+
+    NUTRIENT iff the candidate falls within an accepted span, i.e. it has a
+    covering nutrient-span score that meets the acceptance threshold.
     """
-    Map a token text to its canonical context form using CONTEXT_MAP.
+    if gliner_score is None:
+        return "UNKNOWN"
+    return "NUTRIENT" if gliner_score >= threshold else "UNKNOWN"
 
-    Lookup is case-insensitive and strips leading/trailing whitespace.
-    Returns None if no mapping found — GLiNER may have detected a CONTEXT span
-    for an OCR variant not yet in CONTEXT_MAP.
+
+def _assign_max_span_score(
+    spans: List[Dict[str, Any]],
+    token_spans: List[Dict[str, Any]],
+) -> Dict[int, Tuple[float, str]]:
+    """Map each token index to (max covering span score, that span's text).
+
+    Containment (half-open intervals): a span covers a token when
+        span["start"] <= token["start_char"]  and  token["end_char"] <= span["end"].
+    Only tokens covered by at least one span appear in the result; when
+    several spans cover a token the highest score wins.
+    """
+    best: Dict[int, Tuple[float, str]] = {}
+    for span in spans:
+        s_start = span["start"]
+        s_end = span["end"]
+        s_score = float(span["score"])
+        s_text = span.get("text", "")
+        for tok in token_spans:
+            if s_start <= tok["start_char"] and tok["end_char"] <= s_end:
+                t_idx = tok["token_index"]
+                prev = best.get(t_idx)
+                if prev is None or s_score > prev[0]:
+                    best[t_idx] = (s_score, s_text)
+    return best
+
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# GLiNERSemanticClassifier
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+class GLiNERSemanticClassifier:
+    """Cascade + GLiNER-biomed nutrient node (Methodology §4.3.6).
 
     Parameters
     ----------
-    token_text : raw token text from the OCR corrector.
-
-    Returns
-    -------
-    Canonical string (per_100g | per_serving | per_daily_dose) or None.
+    mode : {"gliner_only", "hybrid"}
+        gliner_only — GLiNER decides every nutrient candidate (lexicon ignored).
+        hybrid      — lexicon NUTRIENT calls kept; GLiNER rescues UNKNOWN only.
+    model_id : str
+        Hugging Face model id (default: bi-large variant).
+    threshold : float
+        Span-acceptance threshold (the swept operating point).
+    confidence_threshold : float
+        Passed to the underlying rule cascade (its low-confidence -> NOISE knob).
+    flat_ner : bool
+        Flat (non-overlapping) NER. True is appropriate for label panels.
+    device : str or None
+        'cpu', 'cuda', or None to auto-detect.
     """
-    return CONTEXT_MAP.get(token_text.strip().lower(), None)
 
-
-# ---------------------------------------------------------------------------
-# Core classifier class
-# ---------------------------------------------------------------------------
-
-class GLiNERClassifier:
-    """
-    Zero-shot semantic token classifier using GLiNER biomed bi-base.
-
-    The model is loaded once on instantiation. All classify() calls reuse the
-    same loaded model. For batch processing across multiple images in one
-    experiment run, create a single GLiNERClassifier instance and call
-    classify() per image.
-
-    Parameters
-    ----------
-    model_id    : HF model ID. Default = MODEL_ID constant.
-    labels      : Entity label strings. Default = GLINER_LABELS constant.
-    label_map   : Mapping from GLiNER labels to internal labels.
-                  Default = LABEL_MAP constant.
-    threshold   : Confidence threshold for span acceptance.
-                  Default = CONFIDENCE_THRESHOLD constant.
-    flat_ner    : If True, use flat (non-overlapping) NER mode.
-                  If False, allow nested spans. Default True for supplement labels
-                  where nested nutrient spans are rare and flat is more predictable.
-    """
+    VALID_MODES = {"gliner_only", "hybrid"}
 
     def __init__(
         self,
-        model_id:  str             = MODEL_ID,
-        labels:    List[str]       = None,
-        label_map: Dict[str, str]  = None,
-        threshold: float           = CONFIDENCE_THRESHOLD,
-        flat_ner:  bool            = True,
+        mode: str = "gliner_only",
+        model_id: str = MODEL_ID,
+        threshold: float = NUTRIENT_THRESHOLD,
+        confidence_threshold: float = 0.3,
+        flat_ner: bool = True,
+        device: Optional[str] = None,
     ) -> None:
-        self.model_id  = model_id
-        self.labels    = labels    if labels    is not None else GLINER_LABELS
-        self.label_map = label_map if label_map is not None else LABEL_MAP
+        if mode not in self.VALID_MODES:
+            raise ValueError(f"mode must be one of {self.VALID_MODES}, got '{mode}'")
+
+        self.mode = mode
+        self.model_id = model_id
         self.threshold = threshold
-        self.flat_ner  = flat_ner
+        self.flat_ner = flat_ner
+        self.labels = [NUTRIENT_LABEL]
+
+        # Shared cascade — identical object the other two variants use.
+        self.rule_classifier = SemanticClassifier(confidence_threshold=confidence_threshold)
+
+        # Lazy heavy imports so this module is importable (and the sweep's
+        # type hints usable) without the model installed.
+        from gliner import GLiNER
         import torch
 
-        logger.info("Loading GLiNER model: %s", self.model_id)
-        self._model = GLiNER.from_pretrained(self.model_id)
+        print(f"[GLiNERClassifier] mode={mode} | Loading model: {model_id}")
+        self._model = GLiNER.from_pretrained(model_id)
 
-        # Move to GPU if available
-        if torch.cuda.is_available():
-            device = torch.device('cuda')
-            self._model = self._model.to(device)
-            logger.info(f"✓ GLiNER running on GPU: {torch.cuda.get_device_name(0)}")
+        if device is not None:
+            self._model = self._model.to(torch.device(device))
+            print(f"[GLiNERClassifier] device={device}")
+        elif torch.cuda.is_available():
+            self._model = self._model.to(torch.device("cuda"))
+            print(f"[GLiNERClassifier] device=cuda ({torch.cuda.get_device_name(0)})")
         else:
-            logger.info("⚠ GLiNER running on CPU (no GPU available)")
+            print("[GLiNERClassifier] device=cpu (no GPU available)")
 
         self._model.eval()
-        logger.info("GLiNER model loaded. Label encoder caches %d label embeddings.",
-                    len(self.labels))
+        print(f"[GLiNERClassifier] Ready — single label: '{NUTRIENT_LABEL}'")
 
-    # ------------------------------------------------------------------
-    # Private: span-to-token assignment (tag-all)
-    # ------------------------------------------------------------------
+    # ── candidate membership ──────────────────────────────────────────
 
-    def _assign_spans_to_tokens(
-        self,
-        predicted_spans: List[Dict[str, Any]],
-        token_spans:     List[Dict[str, Any]],
-    ) -> Dict[int, Dict[str, Any]]:
-        """
-        Map GLiNER predicted spans to token indices using tag-all strategy.
+    def _is_candidate(self, rule_label: str) -> bool:
+        """Is this cascade label a nutrient candidate eligible for GLiNER?"""
+        if rule_label in RULE_AUTHORITATIVE_LABELS:
+            return False
+        if self.mode == "hybrid" and rule_label == "NUTRIENT":
+            return False  # trust the lexicon's positive call
+        return rule_label in CANDIDATE_LABELS
 
-        Containment condition (half-open intervals):
-            span["start"] <= token["start_char"]
-            AND token["end_char"] <= span["end"]
+    # ── shared scoring core (serves both classify_all and the sweep) ──
 
-        When a token is covered by multiple overlapping spans (possible at
-        threshold=0.3), the span with the HIGHER confidence score wins.
+    def _score_tokens(self, tokens: List[dict]) -> List[dict]:
+        """Run the cascade, run GLiNER once, attach raw per-candidate scores.
 
-        Parameters
-        ----------
-        predicted_spans : output of model.predict_entities(), filtered by threshold.
-                          Each dict has keys: start, end, text, label, score.
-        token_spans     : token_spans list from serialize_tokens_for_gliner().
-
-        Returns
-        -------
-        Dict mapping token_index → winning span dict.
-        Only tokens covered by at least one accepted span appear in the dict.
-        """
-        assignments: Dict[int, Dict[str, Any]] = {}
-
-        for span in predicted_spans:
-            s_start = span["start"]
-            s_end   = span["end"]
-            s_score = span["score"]
-
-            for tok in token_spans:
-                t_idx        = tok["token_index"]
-                t_start_char = tok["start_char"]
-                t_end_char   = tok["end_char"]
-
-                # Tag-all containment: token fully inside span
-                if s_start <= t_start_char and t_end_char <= s_end:
-                    existing = assignments.get(t_idx)
-                    if existing is None or s_score > existing["score"]:
-                        assignments[t_idx] = span
-
-        return assignments
-
-    # ------------------------------------------------------------------
-    # Private: map GLiNER label string to internal pipeline label
-    # ------------------------------------------------------------------
-
-    def _map_label(self, gliner_label: str) -> str:
-        """
-        Convert a GLiNER entity label string to an internal pipeline label.
-
-        Uses LABEL_MAP (explicit dict). If the string is not in the map
-        (should not happen with fixed GLINER_LABELS), falls back to FALLBACK_LABEL
-        with a warning.
-
-        Parameters
-        ----------
-        gliner_label : the label string returned by GLiNER (must match a key in LABEL_MAP).
-
-        Returns
-        -------
-        One of: NUTRIENT | QUANTITY | UNIT | CONTEXT | UNKNOWN
-        """
-        mapped = self.label_map.get(gliner_label)
-        if mapped is None:
-            logger.warning(
-                "GLiNER returned unexpected label '%s' — assigning %s.",
-                gliner_label, FALLBACK_LABEL,
-            )
-            return FALLBACK_LABEL
-        return mapped
-
-    # ------------------------------------------------------------------
-    # Public: classify
-    # ------------------------------------------------------------------
-
-    def classify(
-        self,
-        tokens: List[Dict[str, Any]],
-    ) -> List[Dict[str, Any]]:
-        """
-        Classify a list of corrected OCR tokens using GLiNER biomed bi-base.
-
-        Steps
-        -----
-        1. Serialize tokens → text + token_spans via text_serializer.
-        2. Run GLiNER prediction on the serialized text with GLINER_LABELS.
-        3. Filter predicted spans by CONFIDENCE_THRESHOLD.
-        4. Assign spans to tokens via tag-all containment.
-        5. Map GLiNER label strings to internal labels via LABEL_MAP.
-        6. Assign FALLBACK_LABEL to tokens not covered by any span.
-        7. Normalise CONTEXT tokens via CONTEXT_MAP (add "norm" field).
-        8. Return augmented token list (original fields + label/norm/diagnostics).
-
-        Parameters
-        ----------
-        tokens : list of token dicts from Stage 2 corrector.
-                 Each dict must contain: token, x1, y1, x2, y2, cx, cy, conf.
-                 split_fused_token() has already run upstream.
-
-        Returns
-        -------
-        List of token dicts. Each dict is the original Stage 2 dict with
-        the following fields added:
-            "label"            : str
-            "norm"             : str | None
-            "gliner_score"     : float | None
+        Returns the cascade's output dicts (index-aligned to `tokens`) with
+        three extra fields on every dict:
+            "is_candidate"     : bool
+            "gliner_score"     : float | None   max covering nutrient-span score
             "gliner_span_text" : str | None
+        The acceptance threshold is NOT applied here — that is left to the
+        caller, which is what lets the threshold sweep reuse this method.
+        """
+        # 1) Shared deterministic cascade on every token.
+        rule_results = [self.rule_classifier.classify_token(t) for t in tokens]
 
-        Notes
-        -----
-        - Tokens with empty text after stripping (NOISE candidates) receive
-          FALLBACK_LABEL since the serializer excludes them from the text and
-          they therefore have no token_span entry.
-        - The returned list preserves the original token order and length —
-          one output dict per input dict, index-aligned.
+        # Initialise the diagnostic fields.
+        for r in rule_results:
+            r["is_candidate"] = self._is_candidate(r.get("label", "UNKNOWN"))
+            r["gliner_score"] = None
+            r["gliner_span_text"] = None
+
+        # 2) Serialise once for GLiNER (full-label context preserved).
+        serialized = serialize_tokens_for_gliner(tokens)
+        text = serialized["text"]
+        token_spans = serialized["token_spans"]
+
+        if not text.strip() or not token_spans:
+            logger.warning("Serializer produced empty text — no GLiNER scores.")
+            return rule_results
+
+        # 3) Single GLiNER pass at the floor, single label.
+        spans: List[Dict[str, Any]] = self._model.predict_entities(
+            text, self.labels, threshold=SCORE_FLOOR, flat_ner=self.flat_ner,
+        )
+
+        # 4) Max covering span score per token.
+        scored = _assign_max_span_score(spans, token_spans)
+
+        # 5) Attach scores to candidate tokens only.
+        for orig_idx, r in enumerate(rule_results):
+            if not r["is_candidate"]:
+                continue
+            hit = scored.get(orig_idx)
+            if hit is not None:
+                r["gliner_score"] = hit[0]
+                r["gliner_span_text"] = hit[1]
+
+        return rule_results
+
+    # ── public API (drop-in replacement) ──────────────────────────────
+
+    def classify_all(self, tokens: List[dict]) -> List[dict]:
+        """Classify every token.
+
+        Cascade owns QUANTITY/UNIT/CONTEXT/NOISE; GLiNER decides the
+        nutrient candidates at the calibrated acceptance threshold.
         """
         if not tokens:
             return []
 
-        # ---- Step 1: Serialise ----
-        serialized    = serialize_tokens_for_gliner(tokens)
-        text          = serialized["text"]
-        token_spans   = serialized["token_spans"]   # [{token_index, start_char, end_char, ...}]
+        scored = self._score_tokens(tokens)
 
-        if not text.strip():
-            logger.warning("Serializer produced empty text — all tokens labelled %s.",
-                           FALLBACK_LABEL)
-            return self._all_fallback(tokens)
-
-        # ---- Step 2: GLiNER prediction ----
-        logger.debug("Running GLiNER on %d chars, %d token spans.",
-                     len(text), len(token_spans))
-        raw_predictions: List[Dict[str, Any]] = self._model.predict_entities(
-            text,
-            self.labels,
-            threshold=self.threshold,
-            flat_ner=self.flat_ner,
-        )
-
-        # ---- Step 3: Filter by threshold ----
-        # predict_entities already filters by threshold internally in most GLiNER
-        # versions, but we apply it explicitly for safety and logging.
-        accepted = [s for s in raw_predictions if s["score"] >= self.threshold]
-
-        logger.debug(
-            "GLiNER raw predictions: %d | accepted (≥%.2f): %d",
-            len(raw_predictions), self.threshold, len(accepted),
-        )
-
-        # ---- Step 4: Span-to-token assignment (tag-all) ----
-        assignments = self._assign_spans_to_tokens(accepted, token_spans)
-
-        # Build a fast lookup: token_index → token_span entry
-        # (for tokens that appear in the serialized text)
-        serialized_indices = {ts["token_index"] for ts in token_spans}
-
-        # ---- Steps 5-7: Build output list ----
-        result: List[Dict[str, Any]] = []
-
-        for orig_idx, tok in enumerate(tokens):
-            out = dict(tok)  # shallow copy — preserve all original fields
-
-            if orig_idx not in serialized_indices:
-                # Token was filtered out by serializer (empty text / missing coords)
-                # Treat as NOISE-equivalent: assign FALLBACK but mark as not serialized
-                out["label"]            = FALLBACK_LABEL
-                out["norm"]             = None
-                out["gliner_score"]     = None
-                out["gliner_span_text"] = None
-                result.append(out)
-                continue
-
-            winning_span = assignments.get(orig_idx)
-
-            if winning_span is None:
-                # No GLiNER span covered this token → fallback
-                out["label"]            = FALLBACK_LABEL
-                out["norm"]             = None
-                out["gliner_score"]     = None
-                out["gliner_span_text"] = None
-
+        for r in scored:
+            if r["is_candidate"]:
+                r["label"] = _decide_candidate(r["gliner_score"], self.threshold)
+                r["classification_method"] = "gliner"
             else:
-                internal_label = self._map_label(winning_span["label"])
-                out["label"]            = internal_label
-                out["gliner_score"]     = winning_span["score"]
-                out["gliner_span_text"] = winning_span["text"]
+                r["classification_method"] = "rule"
+            r.pop("is_candidate", None)  # internal flag, not part of the contract
 
-                # Step 7: CONTEXT normalisation
-                if internal_label == "CONTEXT":
-                    out["norm"] = _normalise_context(str(tok.get("token", "")))
-                    if out["norm"] is None:
-                        logger.debug(
-                            "CONTEXT token '%s' not in CONTEXT_MAP — norm=None.",
-                            tok.get("token", ""),
-                        )
-                else:
-                    out["norm"] = None
+        return scored
 
-            result.append(out)
+    def classify(self, tokens: List[dict]) -> List[dict]:
+        """Alias for classify_all (back-compat with the old API)."""
+        return self.classify_all(tokens)
 
-        # Sanity check: output length must equal input length
-        assert len(result) == len(tokens), (
-            f"classify() output length {len(result)} != input length {len(tokens)}"
-        )
+    def score_candidates(self, tokens: List[dict]) -> List[dict]:
+        """Per-candidate raw scores for the threshold sweep.
 
-        self._log_label_summary(result)
-        return result
+        Returns one record per *candidate* token (cascade-eligible for the
+        node), with the raw GLiNER score (0.0 when no span covers it).  The
+        sweep pairs each record with a ground-truth nutrient label and
+        thresholds the score.  Non-candidate tokens are excluded because the
+        node is never asked about them.
+        """
+        scored = self._score_tokens(tokens)
+        records: List[dict] = []
+        for r in scored:
+            if not r.get("is_candidate"):
+                continue
+            records.append({
+                "token": r.get("token", ""),
+                "norm": r.get("norm", ""),
+                "rule_label": r.get("label", "UNKNOWN"),
+                "gliner_score": r["gliner_score"] if r["gliner_score"] is not None else 0.0,
+                "gliner_span_text": r["gliner_span_text"],
+                "x1": r.get("x1"), "y1": r.get("y1"),
+                "x2": r.get("x2"), "y2": r.get("y2"),
+                "cx": r.get("cx"), "cy": r.get("cy"),
+            })
+        return records
 
-    # ------------------------------------------------------------------
-    # Private helpers
-    # ------------------------------------------------------------------
+    def summary(self, labeled_tokens: List[dict]) -> dict:
+        """Print and return a label / method breakdown."""
+        from collections import Counter
 
-    def _all_fallback(self, tokens: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """Return all tokens labelled FALLBACK_LABEL — used on empty text."""
-        result = []
-        for tok in tokens:
-            out = dict(tok)
-            out["label"]            = FALLBACK_LABEL
-            out["norm"]             = None
-            out["gliner_score"]     = None
-            out["gliner_span_text"] = None
-            result.append(out)
-        return result
+        label_counts = Counter(t.get("label", "UNKNOWN") for t in labeled_tokens)
+        method_counts = Counter(t.get("classification_method", "?") for t in labeled_tokens)
+        total = len(labeled_tokens)
 
-    def _log_label_summary(self, labelled: List[Dict[str, Any]]) -> None:
-        """Log per-label token counts at DEBUG level for pipeline diagnostics."""
-        counts: Dict[str, int] = {}
-        for tok in labelled:
-            lbl = tok.get("label", "UNKNOWN")
-            counts[lbl] = counts.get(lbl, 0) + 1
-        logger.debug("GLiNER label distribution: %s", counts)
+        print(f"\n{'='*60}")
+        print("  GLiNER SEMANTIC CLASSIFICATION SUMMARY")
+        print(f"{'='*60}")
+        print(f"  Total tokens : {total}")
+        print(f"  Mode         : {self.mode}   threshold={self.threshold}")
+        print("\n  --- Labels ---")
+        for label in ["NUTRIENT", "QUANTITY", "UNIT", "CONTEXT", "NOISE", "UNKNOWN"]:
+            n = label_counts.get(label, 0)
+            pct = n / total * 100 if total else 0
+            print(f"  {label:<10}  {n:>4}  ({pct:>5.1f}%)")
+        print("\n  --- Method ---")
+        for method in ["rule", "gliner"]:
+            n = method_counts.get(method, 0)
+            pct = n / total * 100 if total else 0
+            print(f"  {method:<10}  {n:>4}  ({pct:>5.1f}%)")
+        print(f"{'='*60}\n")
+        return {"labels": dict(label_counts), "methods": dict(method_counts)}
 
 
-# ---------------------------------------------------------------------------
-# Module-level convenience function
-# ---------------------------------------------------------------------------
+# Back-compat alias: existing imports of GLiNERClassifier keep working.
+GLiNERClassifier = GLiNERSemanticClassifier
 
-_default_classifier: Optional[GLiNERClassifier] = None
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Module-level convenience (caches one instance per process)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+_default_classifier: Optional[GLiNERSemanticClassifier] = None
 
 
 def classify_tokens(
-    tokens:    List[Dict[str, Any]],
-    model_id:  str            = MODEL_ID,
-    threshold: float          = CONFIDENCE_THRESHOLD,
-) -> List[Dict[str, Any]]:
-    """
-    Module-level convenience function for single-call classification.
-
-    Creates a default GLiNERClassifier instance on first call and reuses it
-    for subsequent calls within the same Python process. This avoids reloading
-    the model for each image in run_experiment.py.
-
-    Parameters
-    ----------
-    tokens    : Stage 2 corrector output (list of token dicts).
-    model_id  : HF model ID. Override to test other variants.
-    threshold : Confidence threshold override.
-
-    Returns
-    -------
-    Labelled token list — same contract as GLiNERClassifier.classify().
-    """
+    tokens: List[dict],
+    mode: str = "gliner_only",
+    model_id: str = MODEL_ID,
+    threshold: float = NUTRIENT_THRESHOLD,
+) -> List[dict]:
+    """Single-call classification reusing a cached default instance."""
     global _default_classifier
-
     if _default_classifier is None:
-        _default_classifier = GLiNERClassifier(
-            model_id=model_id,
-            threshold=threshold,
+        _default_classifier = GLiNERSemanticClassifier(
+            mode=mode, model_id=model_id, threshold=threshold,
         )
-
-    return _default_classifier.classify(tokens)
+    return _default_classifier.classify_all(tokens)

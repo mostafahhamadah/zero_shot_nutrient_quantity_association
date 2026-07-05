@@ -1,0 +1,60 @@
+image_id,error
+1.png,"MemoryError: Unable to allocate 6.33 MiB for an array with shape (576, 960, 3) and data type float32"
+2.png,"MemoryError: Unable to allocate 12.1 MiB for an array with shape (1440, 2930, 3) and data type uint8"
+4.png,"MemoryError: Unable to allocate 12.1 MiB for an array with shape (960, 4396, 3) and data type uint8"
+6.png,"MemoryError: Unable to allocate 12.0 MiB for an array with shape (1632, 2572, 3) and data type uint8"
+8.png,"MemoryError: Unable to allocate 12.3 MiB for an array with shape (2048, 2098, 3) and data type uint8"
+9.jpeg,RuntimeError: could not create a primitive
+12.png,"MemoryError: Unable to allocate 4.50 MiB for an array with shape (1024, 1536, 3) and data type uint8"
+15.png,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 12788544 bytes in function 'cv::OutOfMemoryError'
+"
+17.png,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 12719616 bytes in function 'cv::OutOfMemoryError'
+"
+20.png,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 12857280 bytes in function 'cv::OutOfMemoryError'
+"
+26.png,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 4718592 bytes in function 'cv::OutOfMemoryError'
+"
+27.png,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 12706560 bytes in function 'cv::OutOfMemoryError'
+"
+78.jpeg,RuntimeError: could not create a primitive
+88.png,RuntimeError: could not create a primitive
+90.png,RuntimeError: could not create a primitive
+91.png,RuntimeError: could not create a primitive
+101.png,RuntimeError: could not create a primitive
+102.png,RuntimeError: could not create a primitive
+103.jpeg,RuntimeError: could not create a primitive
+104.jpeg,RuntimeError: could not create a primitive
+105.png,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 12841344 bytes in function 'cv::OutOfMemoryError'
+"
+106.png,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 12717312 bytes in function 'cv::OutOfMemoryError'
+"
+107.png,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 12827136 bytes in function 'cv::OutOfMemoryError'
+"
+108.jpeg,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 2228475 bytes in function 'cv::OutOfMemoryError'
+"
+109.jpeg,RuntimeError: could not create a primitive
+110.jpeg,RuntimeError: could not create a primitive
+111.jpeg,RuntimeError: could not create a primitive
+112.jpeg,RuntimeError: could not create a primitive
+113.jpeg,RuntimeError: [PaddleOCR] OpenCV could not decode: C:\Users\MSAEI\OneDrive\Desktop\zero_shot_nutrient_association\data\raw\113.jpeg
+114.jpeg,RuntimeError: [PaddleOCR] OpenCV could not decode: C:\Users\MSAEI\OneDrive\Desktop\zero_shot_nutrient_association\data\raw\114.jpeg
+115.png,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 12540864 bytes in function 'cv::OutOfMemoryError'
+"
+116.jpeg,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 3141054 bytes in function 'cv::OutOfMemoryError'
+"
+117.jpeg,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 1795536 bytes in function 'cv::OutOfMemoryError'
+"
+118.jpeg,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 1613040 bytes in function 'cv::OutOfMemoryError'
+"
+119.jpeg,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 1778544 bytes in function 'cv::OutOfMemoryError'
+"
+120.jpeg,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 3581376 bytes in function 'cv::OutOfMemoryError'
+"
+121.jpeg,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 1480395 bytes in function 'cv::OutOfMemoryError'
+"
+201.jpeg,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 3301074 bytes in function 'cv::OutOfMemoryError'
+"
+45_1.png,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 12801216 bytes in function 'cv::OutOfMemoryError'
+"
+45_2.png,"error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\core\src\alloc.cpp:73: error: (-4:Insufficient memory) Failed to allocate 12568320 bytes in function 'cv::OutOfMemoryError'
+"

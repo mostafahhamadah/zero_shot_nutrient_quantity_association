@@ -1,0 +1,2 @@
+experiment,timestamp,notes,evaluator,schema,images_evaluated,gt_tuples,predicted_tuples,matched_pairs,nutrient_precision,nutrient_recall,nutrient_f1,quantity_acc,unit_acc,context_acc,full3f_correct,full3f_precision,full3f_recall,full3f_f1,full4f_correct,full_tuple_precision,full_tuple_recall,full_tuple_f1,context_cost_pp,llm_calls,fast_hits,eval_time_s
+A_VLM,2026-05-17T07:16:21.379266,ablation,LLM-Assisted (qwen2.5:7b),nutrient|quantity|unit|context,57,866,628,577,0.9188,0.6663,0.7724,0.766,0.8925,0.8492,405,0.6449,0.4677,0.5422,360,0.5732,0.4157,0.4819,6.0,0,360,0.1

@@ -1,0 +1,31 @@
+# ==============================================================================
+# Line endings: store text as LF in the repo, check out native on Windows.
+# Your working files are currently CRLF; adding this file and running
+#   git add --renormalize .
+# produces a one-time (harmless) normalisation diff. This is OPTIONAL — remove
+# this file if you would rather leave line endings untouched.
+# ==============================================================================
+
+* text=auto
+
+*.py    text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.csv   text eol=lf
+*.json  text eol=lf
+*.html  text eol=lf
+*.tex   text eol=lf
+*.bib   text eol=lf
+*.cfg   text eol=lf
+*.ini   text eol=lf
+
+# Binary — never convert
+*.png          binary
+*.jpg          binary
+*.jpeg         binary
+*.pdf          binary
+*.gguf         binary
+*.pt           binary
+*.pth          binary
+*.onnx         binary
+*.safetensors  binary

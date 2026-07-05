@@ -1,0 +1,3 @@
+experiment,label,full_tuple_precision,full_tuple_recall,full_tuple_f1,full4f_correct,full3f_f1,full3f_correct,nutrient_f1,quantity_acc,unit_acc,context_acc,matched_pairs,gt_tuples,predicted_tuples,total_wall_s,per_image_s,ocr_s,classifier_infer_s,association_s
+E3-EMB-G1,Embedding + Graph V1,0.2223,0.2436,0.2325,211,0.3427,311,0.6612,0.695,0.7433,0.615,600,866,949,661.53,11.167,462.99,172.34,0.32
+E3-EMB-G2,Embedding + Graph V2,0.3911,0.4145,0.4025,359,0.4204,375,0.6771,0.7649,0.8311,0.8642,604,866,918,389.07,6.475,253.75,112.99,1.47

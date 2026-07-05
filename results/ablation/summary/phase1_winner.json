@@ -1,7 +1,6 @@
 {
-  "experiment_id": "EXP-02",
+  "winner": "EXP-02",
   "ocr_engine": "paddleocr",
-  "metric": "full_tuple_f1",
   "value": 0.4072,
-  "delta_over_other": 0.2283
+  "delta": 0.2283
 }

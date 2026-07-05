@@ -1,0 +1,3 @@
+experiment,label,full_tuple_precision,full_tuple_recall,full_tuple_f1,full4f_correct,full3f_f1,full3f_correct,nutrient_f1,quantity_acc,unit_acc,context_acc,matched_pairs,gt_tuples,predicted_tuples,total_wall_s,per_image_s,ocr_s,classifier_infer_s,association_s
+E3-GLiNER-G1,GLiNER + Graph V1,0.2671,0.239,0.2523,207,0.3705,304,0.6618,0.6924,0.7624,0.6059,543,866,775,593.39,9.665,538.64,10.86,0.35
+E3-GLiNER-G2,GLiNER + Graph V2,0.4634,0.4018,0.4304,348,0.4465,361,0.6827,0.7627,0.8315,0.8786,552,866,751,279.81,4.5,241.51,12.69,1.46
